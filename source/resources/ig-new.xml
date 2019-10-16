@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="nhsdigital-fhir-r4-core-demo"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
+    <valueString value="C:\Git\FHIR-R4-Core-IG-1.0.0\source\resources"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
+    <valueString value="C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
+    <valueString value="C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
+    <valueString value="C:\Git\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
+    <valueString value="C:\Git\FHIR-R4-Core-IG-1.0.0\source\examples"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
+    <valueString value="C:\Git\FHIR-R4-Core-IG-1.0.0\source\searchparameters"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
+    <valueString value="C:\Git\FHIR-R4-Core-IG-1.0.0\source\conceptmaps"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages">
+    <valueString value="C:\Git\FHIR-R4-Core-IG-1.0.0\framework"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages">
+    <valueString value="C:\Git\FHIR-R4-Core-IG-1.0.0\source\pages"/>
+  </extension>
+  <url value="https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-demo"/>
+  <version value="1.0.0"/>
+  <name value="FHIRR4CoreDemo"/>
+  <title value="FHIR R4 Core Demo"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2019-10-14T00:00:00+01:00"/>
+  <publisher value="NHS Digital"/>
+  <contact>
+    <name value="NHS Digital"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:interoperabilityteam@nhs.net"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="GB"/>
+    </coding>
+  </jurisdiction>
+  <packageId value="nhsdigital.fhir.r4.core.demo"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="4.0.0"/>
+  <fhirVersion value="4.0.0"/>
+  <definition>
+    <grouping>
+      <name value="FHIR R4 Core Demo"/>
+    </grouping>
+    <resource>
+      <reference>
+        <reference value="ValueSet/ValueSet-CareConnect-ConditionEpisodeSnCT-1"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <parameter>
+      <code value="apply"/>
+      <value value="version"/>
+    </parameter>
+    <parameter>
+      <code value="html-template"/>
+      <value value="html-template.html"/>
+    </parameter>
+    <parameter>
+      <code value="generate"/>
+      <value value="xml"/>
+    </parameter>
+    <parameter>
+      <code value="generate"/>
+      <value value="JSON"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>

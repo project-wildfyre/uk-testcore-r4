@@ -1,0 +1,284 @@
+{
+	"source": "ig.xml",
+	"paths": {
+		"history": "source/history",
+		"resources": [
+			"source/resources",
+			"source/codesystems",
+			"source/valuesets",
+			"source/structuredefinitions",
+			"source/examples",
+			"source/searchparameters",
+			"source/conceptmaps"
+		],
+		"pages": [
+			"framework",
+			"source/pages"
+		],
+		"temp": "temp",
+		"output": "docs",
+		"qa": "qa",
+		"specification": "http://hl7.org/fhir/R4/"
+	},
+	"special-urls": [
+		"urn:iso:std:iso:3166",
+		"http://snomed.info/sct"
+	],
+	"language": "en-GB",
+	"version": "4.0.0",
+	"fixed-business-version": "1.0.0",
+	"license": "CC0-1.0",
+	"npm-name": "nhsdigital.fhir.r4.core.demo",
+	"html-template": "html-template.html",
+	"no-inactive-codes" : false,  
+	"broken-links": "warning",
+	"check-aggregation" : true, 
+	"check-mustSupport": false,
+	"hintAboutNonMustSupport": false,
+	"gen-examples": false,
+	"do-transforms": false,
+	"canonicalBase": "https://fhir.nhs.uk/R4",
+	"extraTemplates": [
+		"mapping",
+		"foo",
+		"bar"
+	],
+	"resources": {
+		"StructureDefinition/UKConnect-Patient-1": {
+			"source": "CareConnect-Patient-1.xml",
+			"base": "CareConnect-Patient-1.html",
+			"defns": "CareConnect-Patient-1-definitions.html"
+		},
+		"StructureDefinition/Extension-UKConnect-Extension-1": {
+			"source": "Extension-UKConnect-Extension-1.xml",
+			"base": "Extension-UKConnect-Extension-1.html",
+			"defns": "Extension-UKConnect-Extension-1-definitions.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-LanguageAbilityMode-1": {
+			"source": "CodeSystem-CareConnect-LanguageAbilityMode-1.xml",
+			"base": "CodeSystem-CareConnect-LanguageAbilityMode-1.html"
+		},
+		"ConceptMap/CareConnect-MaritalStatus-1": {
+			"source": "ConceptMap-CareConnect-MaritalStatus-1.xml",
+			"base": "ConceptMap-CareConnect-MaritalStatus-1.html"
+		},
+		"Observation/CareConnect-ACVPU-Observation-Example-1": {
+			"source": "CareConnect-ACVPU-Observation-Example-1.xml",
+			"base": "CareConnect-ACVPU-Observation-Example-1.html"
+		},
+		"AllergyIntolerance/CareConnect-AllergyIntolerance-Example-1": {
+			"source": "CareConnect-AllergyIntolerance-Example-1.xml",
+			"base": "CareConnect-AllergyIntolerance-Example-1.html"
+		},	
+		"ValueSet/ValueSet-CareConnect-ConditionEpisodeSnCT-1": {
+			"source": "ValueSet-CareConnect-ConditionEpisodeSnCT-1.xml",
+			"base": "ValueSet-CareConnect-ConditionEpisodeSnCT-1.html"
+		}	
+	},
+	"tool": "jekyll",
+	"dependencyList": [
+	],
+	"defaults": {
+		"OperationDefinition": {
+			"template-base": "base.html"
+		},
+		"SearchParameter": {
+			"template-base": "base.html"
+		},
+		"ValueSet": {
+			"template-base": "base.html"
+		},
+		"CodeSystem": {
+			"template-base": "base.html"
+		},
+		"StructureDefinition": {
+			"template-defns": "sd-definitions.html",
+			"template-mappings": "sd-mappings.html",
+			"template-base": "sd.html"
+		},
+		"ConceptMap": {
+			"template-base": "base.html"
+		},
+		"Any": {
+			"xml": true,
+			"ttl": false,
+			"swagger": true,
+			"template-base": "base.html",
+			"template-format": "format.html"
+		},
+		"Observation": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"AllergyIntolerance": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Appointment": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"CarePlan": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"CareTeam": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Communication": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Composition": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Condition": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Consent": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Contract": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"DiagnosticReport": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"DocumentReference": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Encounter": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"EpisodeOfCare": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"FamilyMemberHistory": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Flag": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"HealthcareService": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Immunization": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"List": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Location": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Medication": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"MedicationAdministration": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"MedicationDispense": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Medication-Flag": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"MedicationRequest": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"MedicationStatement": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Organization": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Patient": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Practitioner": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"PractitionerRole": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Procedure": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"ProcedureRequest": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Quantity": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"ReferralRequest": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"RelatedPerson": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"ResearchStudy": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"RiskAssessment": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Schedule": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Slot": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Specimen": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Basic": {
+			"template-base": "ex.html"
+		},
+		"StructureMap": {
+			"profiles": false,
+			"script": false,
+			"template-base": "ex.html",
+			"content": false
+		},
+		"CapabilityStatement": {
+			"template-base": "base.html"
+		},
+		"publisher": "NHS Digital",
+		"title": "FHIR R4 Core Demo"
+	}
+}

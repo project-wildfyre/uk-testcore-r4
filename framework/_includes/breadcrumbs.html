@@ -1,0 +1,4 @@
+<nav class="breadcrumb">
+  {% assign pagepath = {{page.path | replace: ".md", ".html" }} %}
+     {{site.data.pages[pagepath].breadcrumb}}
+</nav>
