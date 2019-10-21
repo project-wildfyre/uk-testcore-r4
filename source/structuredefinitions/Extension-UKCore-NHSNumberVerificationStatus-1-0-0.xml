@@ -46,6 +46,8 @@
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
+      <short value="Verification status of the NHS number" />
+      <definition value="Verification status of the NHS number." />
       <min value="1" />
       <type>
         <code value="CodeableConcept" />
