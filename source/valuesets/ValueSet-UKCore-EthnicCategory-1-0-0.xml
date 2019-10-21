@@ -7,7 +7,7 @@
 	<url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-EthnicCategory-1-0-0"/>
 		<version value="1.0.0"/>
 	<name value="UKCoreEthnicCategory"/>
-	<name value="UK Core Ethnic Category"/>
+	<title value="UK Core Ethnic Category"/>
 	<status value="draft"/>
 	<date value="2019-10-17T00:00:00+00:00"/>
 <publisher value="NHS Digital"/>

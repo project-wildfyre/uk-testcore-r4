@@ -146,7 +146,6 @@ This profile builds on <a href= "{{site.data.structuredefinitions.{{[id]}}.basep
  </div>
 {% endif %}
 
-{% endif %}
 
 
  <div id="tabs-all"  class = "no-external">
@@ -235,7 +234,7 @@ This profile builds on <a href= "{{site.data.structuredefinitions.{{[id]}}.basep
 
 <br />
 
-
+{% endif %}
 
 <!-- BK: commented out as this is not in scope of current spec-->
   <!-- search text here
@@ -252,21 +251,22 @@ This profile builds on <a href= "{{site.data.structuredefinitions.{{[id]}}.basep
 <br />-->
 
 
-  <a name="mapping-tables"> </a>
+ <!-- <a name="mapping-tables"> </a>
   <h3>Mappings</h3>
   <p>Below are mappings for this model. These mappings are informative and are provided to help implementers of this specification understand the content and use it correctly.</p>
 
   <div markdown='0'>
       <!--reduce the header size -->
-  {% capture mapping %}{% include StructureDefinition-{{id}}-maps.xhtml %}{% endcapture %}
+<!--  {% capture mapping %}{% include StructureDefinition-{{id}}-maps.xhtml %}{% endcapture %}
   {{ mapping| replace: 'h3', 'b' }}
   </div>
-  <br />
-{% else %}
+  <br />-->
+  <!-- BK: commented out as this is not in scope of current spec-->
+<!--{% else %}
 
   <hr/>
 
    See the <a href="capstatements.html">Conformance requirements</a> for a complete list of supported RESTful interactions for this IG.</p>
 
-{% endif %}
+{% endif %}-->
   <!-- ==============END CONTENT END CONTENT=================== -->

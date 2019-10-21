@@ -5,7 +5,8 @@
 	</extension>
 	<url value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0"/>
 	<version value="1.0.0"/>
-	<name value="NHS Data Model and Dictionary Person Marital Status Code"/>
+	<name value="NHSDataModelandDictionaryPersonMaritalStatusCode"/>
+	<title value="NHS Data Model and Dictionary Person Marital Status Code"/>
 	<status value="active"/>
 	<date value="2019-10-18T12:00:00+00:00"/>
 	<publisher value="NHS Digital"/>

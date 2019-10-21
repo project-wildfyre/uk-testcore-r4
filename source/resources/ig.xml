@@ -91,13 +91,19 @@
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>
-		<!--<resource>
+		<resource>
 			<reference>
-				<reference value="StructureDefinition/Extension-UKConnect-Extension-1"/>
+				<reference value="StructureDefinition/UKCore-Patient-1-0-0"/>
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>
 		<resource>
+			<reference>
+				<reference value="StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<!--<resource>
 			<reference>
 				<reference value="CodeSystem/CodeSystem-UKConnect-CodeSystem-1"/>
 			</reference>
