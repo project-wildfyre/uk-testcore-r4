@@ -49,7 +49,6 @@
     <coding>
       <system value="urn:iso:std:iso:3166"/>
       <code value="GB"/>
-      <display value="United Kingdom of Great Britain and Northern Ireland"/>
     </coding>
   </jurisdiction>
   <packageId value="nhsdigital.fhir.r4.core.demo"/>
@@ -147,6 +146,18 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-EthnicCategory-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-ReligiousAffiliation-1-0-0"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

@@ -56,8 +56,7 @@
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
-      "code" : "GB",
-      "display" : "United Kingdom of Great Britain and Northern Ireland"
+      "code" : "GB"
     }]
   }],
   "packageId" : "nhsdigital.fhir.r4.core.demo",
@@ -155,6 +154,18 @@
     {
       "reference" : {
         "reference" : "StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/Extension-UKCore-EthnicCategory-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/Extension-UKCore-ReligiousAffiliation-1-0-0"
       },
       "exampleBoolean" : false
     }],
