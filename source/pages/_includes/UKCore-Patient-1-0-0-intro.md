@@ -7,7 +7,4 @@
 
 ### Profile Minimum Viable Content ###
 
-The following elements are mandatory in the CareConnect-ACVPU-Observation-1 FHIR profile (i.e. MUST be present):
-
-1.	status
-2.	code
+This FHIR profile has no mandatory elements.
