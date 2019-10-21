@@ -6,28 +6,21 @@ active: guidance
 
 ### Summary
 
-Guidance information for the FHIR STU3 Core Specification. 
+This is the initial FHIR R4 Demo Core Implementation Guide, Version 1.0.0.  
 
-### **Important** ###
+**Important:**
 
-This Core specification is in the **Discovery** stage based on <a href="https://www.gov.uk/service-manual/agile-delivery" target="_blank">GDS agile delivery</a>. It is an initial Core specification for review, research and engagement only. 
+This specification is intended to demonstrate a proposed approach to generating a UK Core specification, using the <a href="https://wiki.hl7.org/index.php?title=IG_Publisher_Documentation" target="_blank">HL7 IG Publisher tool</a>.
 
-It is also intended to demonstrate a proposed approach to generating a UK Core specification, using the <a href="https://wiki.hl7.org/index.php?title=IG_Publisher_Documentation" target="_blank">HL7 IG Publisher tool</a>.
+It is an initial specification **for demonstration purposes only**.
 
-The approach documented here is currently being evaluated and discussed with parties who are actively involved NHS Digital programmes, such as maternity.
+This specification is in the **Discovery** stage based on <a href="https://www.gov.uk/service-manual/agile-delivery" target="_blank">GDS agile delivery</a>.  
 
-- This specification MUST not be shared outside of NHS Digital.
-- This specification has been created using FHIR STU3, which is not the version to be used for any UK Core specification for implementation.
-- The UK Core specification using R4 will be released at a later date, once the approach to core specification has been agreed and signed off by NHS Digital and NHSX. 
+The approach documented here is currently being evaluated and discussed with parties who are actively involved NHS Digital programmes.
 
-Nothing contained in this Core specification should be implemented or proposed as a solution to vendors. 
+Nothing contained in this specification should be implemented or proposed as a solution to vendors. 
 
-### FHIR Profiles - Minimum Viable Content
+For queries and comments please email the <a href="mailto:interoperabilityteam@nhs.net?subject=FHIR%STU3%Core%20Specification">Interoperability Team</a>.
 
-For a set of generic profiles to be usable across many use cases, there is a need for rules around what is the minimum amount of information a profile must contain to make it clinically useful and safe. 
-
-At present, the mandatory elements for the FHIR profiles in this specification will inform the current minimum viable content and examples. 
-
-Additional content will be identified following technical and clinical review of this baseline specification.
+Issues can be reported on the <a href="https://github.com/nhsconnect/FHIR-R4-Core-IG-1.0.0/issues" target="_blank">FHIR-R4-Core-IG-1.0.0 GitHub repository</a>.
 <br />
-

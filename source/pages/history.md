@@ -8,4 +8,4 @@ This table provides a list of all the versions of FHIR versions of the {{site.da
 
 |Date|Version|Description|
 |---|---|---|
-|current|[1.0.0](https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0)|Baseline Implementation Guide for review|
+|current|[1.0.0](https://github.com/nhsconnect/FHIR-R4-Core-IG-1.0.0)|Baseline Implementation Guide for review|
