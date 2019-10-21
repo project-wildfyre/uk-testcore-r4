@@ -25,7 +25,7 @@ topofpage: True
   <h3>Expansion</h3>
 
   {% include {{[type]}}-{{[id]}}-expansion.xhtml %}
-<!-- ============VAlUESET CONTENT CONTENT=============== -->
+<!-- ============VALUESET CONTENT CONTENT=============== -->
 
 {% when 'CodeSystem' %}
 <!-- ============CODESYSTEM CONTENT CONTENT=============== -->
@@ -58,7 +58,6 @@ Downloads:  CapabilityStatement: (<a href="{{[type]}}-{{[id]}}.xml" download>XML
 
 {% else %}
 <!-- ============ConceptMap CapabilityStatement SearchParameter CONTENT CONTENT=============== -->
-
 
   {% include {{[type]}}-{{[name]}}.xhtml %}
 

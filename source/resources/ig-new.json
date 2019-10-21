@@ -56,7 +56,8 @@
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
-      "code" : "GB"
+      "code" : "GB",
+      "display" : "United Kingdom of Great Britain and Northern Ireland"
     }]
   }],
   "packageId" : "nhsdigital.fhir.r4.core.demo",
@@ -69,7 +70,61 @@
     }],
     "resource" : [{
       "reference" : {
-        "reference" : "ValueSet/ValueSet-CareConnect-ConditionEpisodeSnCT-1"
+        "reference" : "ValueSet/UKCore-ResidentialStatus-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/UKCore-EthnicCategory-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/UKCore-NHSNumberVerificationStatus-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/UKCore-ReligiousAffiliation-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "CodeSystem/UKCore-ResidentialStatus-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "CodeSystem/UKCore-EthnicCategory-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "CodeSystem/UKCore-NHSNumberVerificationStatus-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ConceptMap/UKCore-MaritalStatus-1-0-0"
       },
       "exampleBoolean" : false
     }],

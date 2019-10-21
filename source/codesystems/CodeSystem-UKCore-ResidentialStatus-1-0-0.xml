@@ -3,10 +3,11 @@
 	<id value="UKCore-ResidentialStatus-1-0-0"/>
 	<url value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-ResidentialStatus-1-0-0"/>
 	<version value="1.0.0"/>
-	<name value="UK Core Residential Status"/>
+	<name value="UKCoreResidentialStatus"/>
+	<title value="UK Core Residential Status"/>
 	<status value="draft"/>
 	<date value="2019-10-18T00:00:00+00:00"/>
-<publisher value="NHS Digital"/>
+	<publisher value="NHS Digital"/>
 	<contact>
 		<name value="Interoperability Team"/>
 		<telecom>

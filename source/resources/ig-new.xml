@@ -49,6 +49,7 @@
     <coding>
       <system value="urn:iso:std:iso:3166"/>
       <code value="GB"/>
+      <display value="United Kingdom of Great Britain and Northern Ireland"/>
     </coding>
   </jurisdiction>
   <packageId value="nhsdigital.fhir.r4.core.demo"/>
@@ -61,7 +62,61 @@
     </grouping>
     <resource>
       <reference>
-        <reference value="ValueSet/ValueSet-CareConnect-ConditionEpisodeSnCT-1"/>
+        <reference value="ValueSet/UKCore-ResidentialStatus-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/UKCore-EthnicCategory-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/UKCore-NHSNumberVerificationStatus-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/UKCore-ReligiousAffiliation-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/UKCore-ResidentialStatus-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/UKCore-EthnicCategory-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/UKCore-NHSNumberVerificationStatus-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ConceptMap/UKCore-MaritalStatus-1-0-0"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeSystem xmlns="http://hl7.org/fhir">
+<CodeSystem xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Git/SchemasR4/codesystem.xsd">
 	<id value="UKCore-EthnicCategory-1-0-0"/>
 	<extension url="http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference">
 		<valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/data_field_notes/p/pds/pds_ethnic_category_code_de.asp?shownav=0"/>
 	</extension>
 	<url value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0"/>
 	<version value="1.0.0"/>
-	<name value="UK Core Ethnic Category"/>
+	<name value="UKCoreEthnicCategory"/>
+	<title value="UK Core Ethnic Category"/>
 	<status value="draft"/>
 	<date value="2019-10-17T00:00:00+00:00"/>
-<publisher value="NHS Digital"/>
+	<publisher value="NHS Digital"/>
 	<contact>
 		<name value="Interoperability Team"/>
 		<telecom>

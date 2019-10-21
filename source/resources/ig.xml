@@ -33,7 +33,61 @@
 		</grouping>
 		<resource>
 			<reference>
-				<reference value="ValueSet/ValueSet-CareConnect-ConditionEpisodeSnCT-1"/>
+				<reference value="ValueSet/UKCore-ResidentialStatus-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/UKCore-EthnicCategory-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/UKCore-NHSNumberVerificationStatus-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>		
+		<resource>
+			<reference>
+				<reference value="ValueSet/UKCore-ReligiousAffiliation-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+			<resource>
+			<reference>
+				<reference value="ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="CodeSystem/UKCore-ResidentialStatus-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>		
+		<resource>
+			<reference>
+				<reference value="CodeSystem/UKCore-EthnicCategory-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="CodeSystem/UKCore-NHSNumberVerificationStatus-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ConceptMap/UKCore-MaritalStatus-1-0-0"/>
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>
@@ -46,12 +100,6 @@
 		<resource>
 			<reference>
 				<reference value="CodeSystem/CodeSystem-UKConnect-CodeSystem-1"/>
-			</reference>
-			<exampleBoolean value="false"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="ConceptMap/CareConnect-AdministrativeGender-1"/>
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>

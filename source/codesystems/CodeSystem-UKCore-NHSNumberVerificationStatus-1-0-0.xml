@@ -6,7 +6,8 @@
 	</extension>
 	<url value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSNumberVerificationStatus-1-0-0"/>
 	<version value="1.0.0"/>
-	<name value="UK Core NHS Number Verification Status"/>
+	<name value="UKCoreNHSNumberVerificationStatus"/>
+	<title value="UK Core NHS Number Verification Status"/>
 	<status value="draft"/>
 	<date value="2019-10-14T00:00:00+00:00"/>
 <publisher value="NHS Digital"/>

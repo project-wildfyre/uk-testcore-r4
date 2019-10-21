@@ -30,9 +30,9 @@
 	"license": "CC0-1.0",
 	"npm-name": "nhsdigital.fhir.r4.core.demo",
 	"html-template": "html-template.html",
-	"no-inactive-codes" : false,  
+	"no-inactive-codes": false,
 	"broken-links": "warning",
-	"check-aggregation" : true, 
+	"check-aggregation": true,
 	"check-mustSupport": false,
 	"hintAboutNonMustSupport": false,
 	"gen-examples": false,
@@ -44,6 +44,46 @@
 		"bar"
 	],
 	"resources": {
+		"ValueSet/UKCore-ResidentialStatus-1-0-0": {
+			"source": "ValueSet-UKCore-ResidentialStatus-1-0-0.xml",
+			"base": "ValueSet-UKCore-ResidentialStatus-1-0-0.html"
+		},
+		"ValueSet/UKCore-EthnicCategory-1-0-0": {
+			"source": "ValueSet-UKCore-EthnicCategory-1-0-0.xml",
+			"base": "ValueSet-UKCore-EthnicCategory-1-0-0.html"
+		},
+		"ValueSet/UKCore-NHSNumberVerificationStatus-1-0-0": {
+			"source": "ValueSet-UKCore-NHSNumberVerificationStatus-1-0-0.xml",
+			"base": "ValueSet-UKCore-NHSNumberVerificationStatus-1-0-0.html"
+		},
+		"ValueSet/UKCore-ReligiousAffiliation-1-0-0": {
+			"source": "ValueSet-UKCore-ReligiousAffiliation-1-0-0.xml",
+			"base": "ValueSet-UKCore-ReligiousAffiliation-1-0-0.html"
+		},
+		"ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0": {
+			"source": "ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.xml",
+			"base": "ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.html"
+		},
+		"CodeSystem/UKCore-ResidentialStatus-1-0-0": {
+			"source": "CodeSystem-UKCore-ResidentialStatus-1-0-0.xml",
+			"base": "CodeSystem-UKCore-ResidentialStatus-1-0-0.html"
+		},
+		"CodeSystem/UKCore-EthnicCategory-1-0-0": {
+			"source": "CodeSystem-UKCore-EthnicCategory-1-0-0.xml",
+			"base": "CodeSystem-UKCore-EthnicCategory-1-0-0.html"
+		},
+		"CodeSystem/UKCore-NHSNumberVerificationStatus-1-0-0": {
+			"source": "CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0.xml",
+			"base": "CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0.html"
+		},
+		"CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0": {
+			"source": "CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.xml",
+			"base": "CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.html"
+		},
+		"ConceptMap/UKCore-MaritalStatus-1-0-0": {
+			"source": "ConceptMap-UKCore-MaritalStatus-1-0-0.xml",
+			"base": "ConceptMap-UKCore-MaritalStatus-1-0-0.html"
+		},
 		"StructureDefinition/UKConnect-Patient-1": {
 			"source": "CareConnect-Patient-1.xml",
 			"base": "CareConnect-Patient-1.html",
@@ -58,10 +98,6 @@
 			"source": "CodeSystem-CareConnect-LanguageAbilityMode-1.xml",
 			"base": "CodeSystem-CareConnect-LanguageAbilityMode-1.html"
 		},
-		"ConceptMap/CareConnect-MaritalStatus-1": {
-			"source": "ConceptMap-CareConnect-MaritalStatus-1.xml",
-			"base": "ConceptMap-CareConnect-MaritalStatus-1.html"
-		},
 		"Observation/CareConnect-ACVPU-Observation-Example-1": {
 			"source": "CareConnect-ACVPU-Observation-Example-1.xml",
 			"base": "CareConnect-ACVPU-Observation-Example-1.html"
@@ -69,11 +105,11 @@
 		"AllergyIntolerance/CareConnect-AllergyIntolerance-Example-1": {
 			"source": "CareConnect-AllergyIntolerance-Example-1.xml",
 			"base": "CareConnect-AllergyIntolerance-Example-1.html"
-		},	
+		},
 		"ValueSet/ValueSet-CareConnect-ConditionEpisodeSnCT-1": {
 			"source": "ValueSet-CareConnect-ConditionEpisodeSnCT-1.xml",
 			"base": "ValueSet-CareConnect-ConditionEpisodeSnCT-1.html"
-		}	
+		}
 	},
 	"tool": "jekyll",
 	"dependencyList": [
