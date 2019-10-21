@@ -84,15 +84,15 @@
 			"source": "ConceptMap-UKCore-MaritalStatus-1-0-0.xml",
 			"base": "ConceptMap-UKCore-MaritalStatus-1-0-0.html"
 		},
-		"StructureDefinition/UKConnect-Patient-1": {
-			"source": "CareConnect-Patient-1.xml",
-			"base": "CareConnect-Patient-1.html",
-			"defns": "CareConnect-Patient-1-definitions.html"
+		"StructureDefinition/UKCore-Patient-1-0-0": {
+			"source": "UKCore-Patient-1-0-0.xml",
+			"base": "UKCore-Patient-1-0-0.html",
+			"defns": "UKCore-Patient-1-0-0-definitions.html"
 		},
-		"StructureDefinition/Extension-UKConnect-Extension-1": {
-			"source": "Extension-UKConnect-Extension-1.xml",
-			"base": "Extension-UKConnect-Extension-1.html",
-			"defns": "Extension-UKConnect-Extension-1-definitions.html"
+		"StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus-1-0-0": {
+			"source": "Extension-UKCore-NHSNumberVerificationStatus-1-0-0.xml",
+			"base": "Extension-UKCore-NHSNumberVerificationStatus-1-0-0.html",
+			"defns": "Extension-UKCore-NHSNumberVerificationStatus-1-0-0-definitions.html"
 		},
 		"CodeSystem/CodeSystem-CareConnect-LanguageAbilityMode-1": {
 			"source": "CodeSystem-CareConnect-LanguageAbilityMode-1.xml",
