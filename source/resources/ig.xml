@@ -7,10 +7,10 @@
 	<title value="FHIR R4 Core Demo"/>
 	<status value="draft"/>
 	<experimental value="true"/>
-  	<date value="2019-10-14"/>
+	<date value="2019-10-14"/>
 	<publisher value="NHS Digital"/>
 	<contact>
-  	  <name value="NHS Digital"/>
+		<name value="NHS Digital"/>
 		<telecom>
 			<system value="email"/>
 			<value value="mailto:interoperabilityteam@nhs.net"/>
@@ -48,14 +48,14 @@
 				<reference value="ValueSet/UKCore-NHSNumberVerificationStatus-1-0-0"/>
 			</reference>
 			<exampleBoolean value="false"/>
-		</resource>		
+		</resource>
 		<resource>
 			<reference>
 				<reference value="ValueSet/UKCore-ReligiousAffiliation-1-0-0"/>
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>
-			<resource>
+		<resource>
 			<reference>
 				<reference value="ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0"/>
 			</reference>
@@ -66,7 +66,7 @@
 				<reference value="CodeSystem/UKCore-ResidentialStatus-1-0-0"/>
 			</reference>
 			<exampleBoolean value="false"/>
-		</resource>		
+		</resource>
 		<resource>
 			<reference>
 				<reference value="CodeSystem/UKCore-EthnicCategory-1-0-0"/>
@@ -88,6 +88,24 @@
 		<resource>
 			<reference>
 				<reference value="ConceptMap/UKCore-MaritalStatus-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ConceptMap/UKCore-AdministrativeGender-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0"/>
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>

@@ -120,6 +120,36 @@
       </reference>
       <exampleBoolean value="false"/>
     </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ConceptMap/UKCore-AdministrativeGender-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/UKCore-Patient-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
     <parameter>
       <code value="apply"/>
       <value value="version"/>

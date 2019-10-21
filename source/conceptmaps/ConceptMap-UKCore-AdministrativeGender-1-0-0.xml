@@ -1,22 +1,19 @@
 <ConceptMap xmlns="http://hl7.org/fhir">
-	<id value="CareConnect-AdministrativeGender-1"/>
-	<url value="https://fhir.nhs.uk/R4/ConceptMap/UKCore-AdministrativeGender-1"/>
+	<id value="UKCore-AdministrativeGender-1-0-0"/>
+	<url value="https://fhir.nhs.uk/R4/ConceptMap/UKCore-AdministrativeGender-1-0-0"/>
 	<version value="1.0.0"/>
-	<name value="Concept Map - Care Connect Administrative Gender"/>
-	<status value="active"/>
-	<date value="2017-08-01T00:00:00+00:00"/>
-	<publisher value="HL7 UK"/>
+	<name value="ConceptMapUKCoreAdministrativeGender"/>
+	<title value="Concept Map - UK Core Administrative Gender"/>
+	<status value="draft"/>
+	<date value="2019-10-18T12:00:00+00:00"/>
+	<publisher value="NHS Digital"/>
 	<description value="A Concept Map from ValueSet Administrative Gender to NHS Data Dictionary Person Stated Gender to aid interpretation."/>
-	<copyright value="Copyright © 2016 HL7 UK"/>
-	<sourceReference>
-		<reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AdministrativeGender-1"/>
-	</sourceReference>
-	<targetReference>
-		<reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NHSDataDictionary-PersonStatedGender-1"/>
-	</targetReference>
+	<copyright value="Copyright © 2019 NHS Digital"/>
+	<sourceUri value="http://hl7.org/fhir/ValueSet/administrative-gender"/>
+	<targetUri value="https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0"/>
 	<group>
 		<source value="http://hl7.org/fhir/administrative-gender"/>
-		<target value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonStatedGender-1"/>
+		<target value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0"/>
 		<element>
 			<code value="male"/>
 			<display value="Male"/>

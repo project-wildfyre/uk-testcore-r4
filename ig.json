@@ -64,6 +64,10 @@
 			"source": "ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.xml",
 			"base": "ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.html"
 		},
+		"ValueSet/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0": {
+			"source": "ValueSet-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0.xml",
+			"base": "ValueSet-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0.html"
+		},
 		"CodeSystem/UKCore-ResidentialStatus-1-0-0": {
 			"source": "CodeSystem-UKCore-ResidentialStatus-1-0-0.xml",
 			"base": "CodeSystem-UKCore-ResidentialStatus-1-0-0.html"
@@ -80,9 +84,17 @@
 			"source": "CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.xml",
 			"base": "CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.html"
 		},
+		"CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0": {
+			"source": "CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0.xml",
+			"base": "CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0.html"
+		},
 		"ConceptMap/UKCore-MaritalStatus-1-0-0": {
 			"source": "ConceptMap-UKCore-MaritalStatus-1-0-0.xml",
 			"base": "ConceptMap-UKCore-MaritalStatus-1-0-0.html"
+		},
+		"ConceptMap/UKCore-AdministrativeGender-1-0-0": {
+			"source": "ConceptMap-UKCore-AdministrativeGender-1-0-0.xml",
+			"base": "ConceptMap-UKCore-AdministrativeGender-1-0-0.html"
 		},
 		"StructureDefinition/UKCore-Patient-1-0-0": {
 			"source": "UKCore-Patient-1-0-0.xml",
