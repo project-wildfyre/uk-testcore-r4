@@ -116,6 +116,11 @@
 			"base": "Extension-UKCore-ReligiousAffiliation-1-0-0.html",
 			"defns": "Extension-UKCore-ReligiousAffiliation-1-0-0-definitions.html"
 		},
+		"StructureDefinition/Extension-UKCore-ResidentialStatus-1-0-0": {
+			"source": "Extension-UKCore-ResidentialStatus-1-0-0.xml",
+			"base": "Extension-UKCore-ResidentialStatus-1-0-0.html",
+			"defns": "Extension-UKCore-ResidentialStatus-1-0-0-definitions.html"
+		},
 		"CodeSystem/CodeSystem-CareConnect-LanguageAbilityMode-1": {
 			"source": "CodeSystem-CareConnect-LanguageAbilityMode-1.xml",
 			"base": "CodeSystem-CareConnect-LanguageAbilityMode-1.html"

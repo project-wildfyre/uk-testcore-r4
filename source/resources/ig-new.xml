@@ -161,6 +161,12 @@
       </reference>
       <exampleBoolean value="false"/>
     </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-ResidentialStatus-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
     <parameter>
       <code value="apply"/>
       <value value="version"/>

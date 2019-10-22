@@ -168,6 +168,12 @@
         "reference" : "StructureDefinition/Extension-UKCore-ReligiousAffiliation-1-0-0"
       },
       "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/Extension-UKCore-ResidentialStatus-1-0-0"
+      },
+      "exampleBoolean" : false
     }],
     "parameter" : [{
       "code" : "apply",
