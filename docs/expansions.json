@@ -1,0 +1,653 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "d8e91cbf-85cf-4ded-acce-504a8c723b13",
+  "meta" : {
+    "lastUpdated" : "2019-10-23T09:44:53.410+01:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-ResidentialStatus-1-0-0",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "UKCore-ResidentialStatus-1-0-0",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on https://fhir.nhs.uk/R4/CodeSystem/UKCore-ResidentialStatus-1-0-0 version 1.0.0</p><p>All codes from system <a href=\"CodeSystem-UKCore-ResidentialStatus-1-0-0.html\"><code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-ResidentialStatus-1-0-0</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-ResidentialStatus-1-0-0-H\"> </a><a href=\"CodeSystem-UKCore-ResidentialStatus-1-0-0.html#UKCore-ResidentialStatus-1-0-0-H\">H</a></td><td>UK Resident</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-ResidentialStatus-1-0-0-O\"> </a><a href=\"CodeSystem-UKCore-ResidentialStatus-1-0-0.html#UKCore-ResidentialStatus-1-0-0-O\">O</a></td><td>Overseas Resident</td><td/></tr></table></div>"
+      },
+      "url" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-ResidentialStatus-1-0-0",
+      "version" : "1.0.0",
+      "name" : "UKCoreResidentialStatus",
+      "title" : "UK Core Residential Status",
+      "status" : "draft",
+      "date" : "2019-10-18T01:00:00+01:00",
+      "publisher" : "NHS Digital",
+      "contact" : [{
+        "name" : "Interoperability Team",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "interoperabilityteam@nhs.net",
+          "use" : "work"
+        }]
+      }],
+      "description" : "A ValueSet that identifies the residential status of a patient.",
+      "copyright" : "Copyright © 2019 NHS Digital",
+      "expansion" : {
+        "identifier" : "urn:uuid:9cc807eb-60e4-4542-bace-4fd5a5e5750d",
+        "timestamp" : "2019-10-23T09:44:57+01:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-ResidentialStatus-1-0-0|1.0.0"
+        }],
+        "contains" : [{
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-ResidentialStatus-1-0-0",
+          "code" : "H",
+          "display" : "UK Resident"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-ResidentialStatus-1-0-0",
+          "code" : "O",
+          "display" : "Overseas Resident"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-EthnicCategory-1-0-0",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "UKCore-EthnicCategory-1-0-0",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 68 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0 version 1.0.0</p><p>All codes from system <a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html\"><code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-A\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-A\">A</a></td><td>British, Mixed British</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-B\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-B\">B</a></td><td>Irish</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-C\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-C\">C</a></td><td>Any other White background</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-C2\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-C2\">C2</a></td><td>Northern Irish</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-C3\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-C3\">C3</a></td><td>Other white, white unspecified</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-CA\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-CA\">CA</a></td><td>English</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-CB\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-CB\">CB</a></td><td>Scottish</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-CC\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-CC\">CC</a></td><td>Welsh</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-CD\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-CD\">CD</a></td><td>Cornish</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-CE\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-CE\">CE</a></td><td>Cypriot (part not stated)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-CF\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-CF\">CF</a></td><td>Greek</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-CG\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-CG\">CG</a></td><td>Greek Cypriot</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-CH\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-CH\">CH</a></td><td>Turkish</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-CJ\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-CJ\">CJ</a></td><td>Turkish Cypriot</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-CK\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-CK\">CK</a></td><td>Italian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-CL\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-CL\">CL</a></td><td>Irish Traveller</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-CM\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-CM\">CM</a></td><td>Traveller</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-CN\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-CN\">CN</a></td><td>Gypsy/Romany</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-CP\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-CP\">CP</a></td><td>Polish</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-CQ\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-CQ\">CQ</a></td><td>All republics which made up the former USSR</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-CR\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-CR\">CR</a></td><td>Kosovan</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-CS\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-CS\">CS</a></td><td>Albanian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-CT\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-CT\">CT</a></td><td>Bosnian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-CU\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-CU\">CU</a></td><td>Croatian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-CV\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-CV\">CV</a></td><td>Serbian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-CW\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-CW\">CW</a></td><td>Other republics which made up the former Yugoslavia</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-CX\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-CX\">CX</a></td><td>Mixed white</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-CY\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-CY\">CY</a></td><td>Other white European, European unspecified, European mixed</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-D\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-D\">D</a></td><td>White and Black Caribbean</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-E\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-E\">E</a></td><td>White and Black African</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-F\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-F\">F</a></td><td>White and Asian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-G\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-G\">G</a></td><td>Any other mixed background</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-GA\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-GA\">GA</a></td><td>Black and Asian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-GB\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-GB\">GB</a></td><td>Black and Chinese</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-GC\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-GC\">GC</a></td><td>Black and White</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-GD\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-GD\">GD</a></td><td>Chinese and White</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-GE\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-GE\">GE</a></td><td>Asian and Chinese</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-GF\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-GF\">GF</a></td><td>Other Mixed, Mixed Unspecified</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-H\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-H\">H</a></td><td>Indian or British Indian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-J\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-J\">J</a></td><td>Pakistani or British Pakistani</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-K\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-K\">K</a></td><td>Bangladeshi or British Bangladeshi</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-L\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-L\">L</a></td><td>Any other Asian background</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-LA\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-LA\">LA</a></td><td>Mixed Asian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-LB\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-LB\">LB</a></td><td>Punjabi</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-LC\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-LC\">LC</a></td><td>Kashmiri</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-LD\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-LD\">LD</a></td><td>East African Asian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-LE\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-LE\">LE</a></td><td>Sri Lanka</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-LF\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-LF\">LF</a></td><td>Tamil</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-LG\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-LG\">LG</a></td><td>Sinhalese</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-LH\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-LH\">LH</a></td><td>British Asian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-LJ\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-LJ\">LJ</a></td><td>Caribbean Asian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-LK\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-LK\">LK</a></td><td>Other Asian, Asian unspecified</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-M\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-M\">M</a></td><td>Caribbean</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-N\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-N\">N</a></td><td>African</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-P\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-P\">P</a></td><td>Any other Black background</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-PA\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-PA\">PA</a></td><td>Somali</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-PB\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-PB\">PB</a></td><td>Mixed Black</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-PC\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-PC\">PC</a></td><td>Nigerian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-PD\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-PD\">PD</a></td><td>Black British</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-PE\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-PE\">PE</a></td><td>Other Black, Black unspecified</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-R\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-R\">R</a></td><td>Chinese</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-S\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-S\">S</a></td><td>Any other ethnic group</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-SA\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-SA\">SA</a></td><td>Vietnamese</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-SB\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-SB\">SB</a></td><td>Japanese</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-SC\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-SC\">SC</a></td><td>Filipino</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-SD\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-SD\">SD</a></td><td>Malaysian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-SE\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-SE\">SE</a></td><td>Any Other Group</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-EthnicCategory-1-0-0-Z\"> </a><a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html#UKCore-EthnicCategory-1-0-0-Z\">Z</a></td><td>Not stated</td><td/></tr></table></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-sourceReference",
+        "valueUri" : "http://www.datadictionary.nhs.uk/data_dictionary/data_field_notes/p/pds/pds_ethnic_category_code_de.asp?shownav=0"
+      }],
+      "url" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-EthnicCategory-1-0-0",
+      "version" : "1.0.0",
+      "name" : "UKCoreEthnicCategory",
+      "title" : "UK Core Ethnic Category",
+      "status" : "draft",
+      "date" : "2019-10-17T01:00:00+01:00",
+      "publisher" : "NHS Digital",
+      "contact" : [{
+        "name" : "Interoperability Team",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "interoperabilityteam@nhs.net",
+          "use" : "work"
+        }]
+      }],
+      "description" : "A ValueSet to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a person's ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary.",
+      "copyright" : "Copyright © 2019 NHS Digital",
+      "expansion" : {
+        "identifier" : "urn:uuid:281f7a2c-4085-4c46-afe5-dca466509d57",
+        "timestamp" : "2019-10-23T09:44:57+01:00",
+        "total" : 68,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0|1.0.0"
+        }],
+        "contains" : [{
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "A",
+          "display" : "British, Mixed British"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "B",
+          "display" : "Irish"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "C",
+          "display" : "Any other White background"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "C2",
+          "display" : "Northern Irish"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "C3",
+          "display" : "Other white, white unspecified"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "CA",
+          "display" : "English"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "CB",
+          "display" : "Scottish"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "CC",
+          "display" : "Welsh"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "CD",
+          "display" : "Cornish"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "CE",
+          "display" : "Cypriot (part not stated)"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "CF",
+          "display" : "Greek"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "CG",
+          "display" : "Greek Cypriot"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "CH",
+          "display" : "Turkish"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "CJ",
+          "display" : "Turkish Cypriot"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "CK",
+          "display" : "Italian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "CL",
+          "display" : "Irish Traveller"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "CM",
+          "display" : "Traveller"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "CN",
+          "display" : "Gypsy/Romany"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "CP",
+          "display" : "Polish"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "CQ",
+          "display" : "All republics which made up the former USSR"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "CR",
+          "display" : "Kosovan"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "CS",
+          "display" : "Albanian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "CT",
+          "display" : "Bosnian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "CU",
+          "display" : "Croatian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "CV",
+          "display" : "Serbian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "CW",
+          "display" : "Other republics which made up the former Yugoslavia"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "CX",
+          "display" : "Mixed white"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "CY",
+          "display" : "Other white European, European unspecified, European mixed"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "D",
+          "display" : "White and Black Caribbean"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "E",
+          "display" : "White and Black African"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "F",
+          "display" : "White and Asian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "G",
+          "display" : "Any other mixed background"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "GA",
+          "display" : "Black and Asian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "GB",
+          "display" : "Black and Chinese"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "GC",
+          "display" : "Black and White"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "GD",
+          "display" : "Chinese and White"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "GE",
+          "display" : "Asian and Chinese"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "GF",
+          "display" : "Other Mixed, Mixed Unspecified"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "H",
+          "display" : "Indian or British Indian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "J",
+          "display" : "Pakistani or British Pakistani"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "K",
+          "display" : "Bangladeshi or British Bangladeshi"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "L",
+          "display" : "Any other Asian background"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "LA",
+          "display" : "Mixed Asian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "LB",
+          "display" : "Punjabi"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "LC",
+          "display" : "Kashmiri"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "LD",
+          "display" : "East African Asian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "LE",
+          "display" : "Sri Lanka"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "LF",
+          "display" : "Tamil"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "LG",
+          "display" : "Sinhalese"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "LH",
+          "display" : "British Asian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "LJ",
+          "display" : "Caribbean Asian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "LK",
+          "display" : "Other Asian, Asian unspecified"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "M",
+          "display" : "Caribbean"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "N",
+          "display" : "African"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "P",
+          "display" : "Any other Black background"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "PA",
+          "display" : "Somali"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "PB",
+          "display" : "Mixed Black"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "PC",
+          "display" : "Nigerian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "PD",
+          "display" : "Black British"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "PE",
+          "display" : "Other Black, Black unspecified"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "R",
+          "display" : "Chinese"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "S",
+          "display" : "Any other ethnic group"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "SA",
+          "display" : "Vietnamese"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "SB",
+          "display" : "Japanese"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "SC",
+          "display" : "Filipino"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "SD",
+          "display" : "Malaysian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "SE",
+          "display" : "Any Other Group"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0",
+          "code" : "Z",
+          "display" : "Not stated"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSNumberVerificationStatus-1-0-0",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "UKCore-NHSNumberVerificationStatus-1-0-0",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 8 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSNumberVerificationStatus-1-0-0 version 1.0.0</p><p>All codes from system <a href=\"CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0.html\"><code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSNumberVerificationStatus-1-0-0</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0-01\"> </a><a href=\"CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0.html#UKCore-NHSNumberVerificationStatus-1-0-0-01\">01</a></td><td>Number present and verified</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0-02\"> </a><a href=\"CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0.html#UKCore-NHSNumberVerificationStatus-1-0-0-02\">02</a></td><td>Number present but not traced</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0-03\"> </a><a href=\"CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0.html#UKCore-NHSNumberVerificationStatus-1-0-0-03\">03</a></td><td>Trace required</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0-04\"> </a><a href=\"CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0.html#UKCore-NHSNumberVerificationStatus-1-0-0-04\">04</a></td><td>Trace attempted - No match or multiple match found</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0-05\"> </a><a href=\"CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0.html#UKCore-NHSNumberVerificationStatus-1-0-0-05\">05</a></td><td>Trace needs to be resolved - (NHS number or patient detail conflict)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0-06\"> </a><a href=\"CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0.html#UKCore-NHSNumberVerificationStatus-1-0-0-06\">06</a></td><td>Trace in progress</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0-07\"> </a><a href=\"CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0.html#UKCore-NHSNumberVerificationStatus-1-0-0-07\">07</a></td><td>Number not present and trace not required</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0-08\"> </a><a href=\"CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0.html#UKCore-NHSNumberVerificationStatus-1-0-0-08\">08</a></td><td>Trace postponed (baby under six weeks old)</td><td/></tr></table></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-sourceReference",
+        "valueUri" : "http://www.datadictionary.nhs.uk/data_dictionary/data_field_notes/n/nhs/nhs_number_status_indicator_code_de.asp?shownav=1"
+      }],
+      "url" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSNumberVerificationStatus-1-0-0",
+      "version" : "1.0.0",
+      "name" : "UKCoreNHSNumberVerificationStatus",
+      "title" : "UK Core NHS Number Verification Status",
+      "status" : "draft",
+      "date" : "2019-10-14T01:00:00+01:00",
+      "publisher" : "NHS Digital",
+      "contact" : [{
+        "name" : "Interoperability Team",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "interoperabilityteam@nhs.net",
+          "use" : "work"
+        }]
+      }],
+      "description" : "A ValueSet that identifies the trace status of the NHS number. The CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code.",
+      "copyright" : "Copyright © 2019 NHS Digital",
+      "expansion" : {
+        "identifier" : "urn:uuid:94875dc8-17b0-412c-bbca-a2fe96e82a5e",
+        "timestamp" : "2019-10-23T09:44:57+01:00",
+        "total" : 8,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSNumberVerificationStatus-1-0-0|1.0.0"
+        }],
+        "contains" : [{
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSNumberVerificationStatus-1-0-0",
+          "code" : "01",
+          "display" : "Number present and verified"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSNumberVerificationStatus-1-0-0",
+          "code" : "02",
+          "display" : "Number present but not traced"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSNumberVerificationStatus-1-0-0",
+          "code" : "03",
+          "display" : "Trace required"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSNumberVerificationStatus-1-0-0",
+          "code" : "04",
+          "display" : "Trace attempted - No match or multiple match found"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSNumberVerificationStatus-1-0-0",
+          "code" : "05",
+          "display" : "Trace needs to be resolved - (NHS number or patient detail conflict)"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSNumberVerificationStatus-1-0-0",
+          "code" : "06",
+          "display" : "Trace in progress"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSNumberVerificationStatus-1-0-0",
+          "code" : "07",
+          "display" : "Number not present and trace not required"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSNumberVerificationStatus-1-0-0",
+          "code" : "08",
+          "display" : "Trace postponed (baby under six weeks old)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 6 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0 version 1.0.0</p><p>All codes from system <a href=\"CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.html\"><code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0-S\"> </a><a href=\"CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.html#UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0-S\">S</a></td><td>Single</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0-M\"> </a><a href=\"CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.html#UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0-M\">M</a></td><td>Married/Civil Partner</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0-D\"> </a><a href=\"CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.html#UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0-D\">D</a></td><td>Divorced/Person whose Civil Partnership has been dissolved</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0-W\"> </a><a href=\"CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.html#UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0-W\">W</a></td><td>Widowed/Surviving Civil Partner</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0-P\"> </a><a href=\"CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.html#UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0-P\">P</a></td><td>Separated</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0-N\"> </a><a href=\"CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.html#UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0-N\">N</a></td><td>Not disclosed</td><td/></tr></table></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-sourceReference",
+        "valueUri" : "http://www.datadictionary.nhs.uk/data_dictionary/attributes/p/person/person_marital_status_code_de.asp?shownav=1"
+      }],
+      "url" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0",
+      "version" : "1.0.0",
+      "name" : "NHSDataModelandDictionaryPersonMaritalStatusCode",
+      "title" : "NHS Data Model and Dictionary Person Marital Status Code",
+      "status" : "active",
+      "date" : "2019-10-18T13:00:00+01:00",
+      "publisher" : "NHS Digital",
+      "description" : "An indicator to identify the legal marital status of a Person.",
+      "copyright" : "Copyright © 2019 NHS Digital",
+      "expansion" : {
+        "identifier" : "urn:uuid:57959030-c6e7-4ea3-8f7b-d132ff3e2168",
+        "timestamp" : "2019-10-23T09:44:57+01:00",
+        "total" : 6,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0|1.0.0"
+        }],
+        "contains" : [{
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0",
+          "code" : "S",
+          "display" : "Single"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0",
+          "code" : "M",
+          "display" : "Married/Civil Partner"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0",
+          "code" : "D",
+          "display" : "Divorced/Person whose Civil Partnership has been dissolved"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0",
+          "code" : "W",
+          "display" : "Widowed/Surviving Civil Partner"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0",
+          "code" : "P",
+          "display" : "Separated"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0",
+          "code" : "N",
+          "display" : "Not disclosed"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "UKCore-NHSDataDictionary-PersonStatedGender-1-0-0",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0 version 1.0.0</p><p>All codes from system <a href=\"CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0.html\"><code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0-1\"> </a><a href=\"CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0.html#UKCore-NHSDataDictionary-PersonStatedGender-1-0-0-1\">1</a></td><td>Male</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0-2\"> </a><a href=\"CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0.html#UKCore-NHSDataDictionary-PersonStatedGender-1-0-0-2\">2</a></td><td>Female</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0-9\"> </a><a href=\"CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0.html#UKCore-NHSDataDictionary-PersonStatedGender-1-0-0-9\">9</a></td><td>Indeterminate (unable to be classified as either male or female)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0-X\"> </a><a href=\"CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0.html#UKCore-NHSDataDictionary-PersonStatedGender-1-0-0-X\">X</a></td><td>Not Known (not recorded)</td><td/></tr></table></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-sourceReference",
+        "valueUri" : "http://www.datadictionary.nhs.uk/data_dictionary/attributes/p/person/person_stated_gender_code_de.asp?shownav=1"
+      }],
+      "url" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0",
+      "version" : "1.0.0",
+      "name" : "NHSDataModelandDictionaryPersonStatedGenderCode",
+      "title" : "NHS Data Model and Dictionary Person Stated Gender Code",
+      "status" : "active",
+      "date" : "2019-10-18T13:00:00+01:00",
+      "publisher" : "NHS Digital",
+      "description" : "The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender.",
+      "copyright" : "Copyright © 2019 NHS Digital",
+      "expansion" : {
+        "identifier" : "urn:uuid:f89e3fd1-ddcf-4142-aa38-cf870c5e285e",
+        "timestamp" : "2019-10-23T09:44:59+01:00",
+        "total" : 4,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0|1.0.0"
+        }],
+        "contains" : [{
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0",
+          "code" : "1",
+          "display" : "Male"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0",
+          "code" : "2",
+          "display" : "Female"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0",
+          "code" : "9",
+          "display" : "Indeterminate (unable to be classified as either male or female)"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0",
+          "code" : "X",
+          "display" : "Not Known (not recorded)"
+        }]
+      }
+    }
+  }]
+}

@@ -181,7 +181,7 @@
     },
     {
       "code" : "html-template",
-      "value" : "html-template.html"
+      "value" : "test-template-master/instance-template-format.html"
     },
     {
       "code" : "generate",

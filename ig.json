@@ -1,5 +1,7 @@
 {
 	"source": "ig.xml",
+	"fixed-business-version": "1.0.0",
+	"specification" : "http://hl7.org/fhir",
 	"paths": {
 		"history": "source/history",
 		"resources": [
@@ -12,32 +14,35 @@
 			"source/conceptmaps"
 		],
 		"pages": [
-			"framework",
-			"source/pages"
+		  "framework",
+		  "source/pages"
 		],
 		"temp": "temp",
 		"output": "docs",
 		"qa": "qa",
-		"specification": "http://hl7.org/fhir/R4/"
+		"specification": "http://build.fhir.org"
 	},
-	"special-urls": [
-		"urn:iso:std:iso:3166",
-		"http://snomed.info/sct"
-	],
-	"language": "en-GB",
-	"version": "4.0.0",
-	"fixed-business-version": "1.0.0",
+	"language" : "en-GB",
+	"version" : "4.0.0",
 	"license": "CC0-1.0",
 	"npm-name": "nhsdigital.fhir.r4.core.demo",
-	"html-template": "html-template.html",
+	"html-template" : "test-template-master/instance-template-format.html",
 	"no-inactive-codes": false,
 	"broken-links": "warning",
 	"check-aggregation": true,
 	"check-mustSupport": false,
+	"append-slash-to-dependency-urls" : false,
 	"hintAboutNonMustSupport": false,
 	"gen-examples": false,
-	"do-transforms": false,
+	"do-transforms" : true,
 	"canonicalBase": "https://fhir.nhs.uk/R4",
+	"logging": [
+		"init",
+		"progress",
+		"context",
+		"html",
+		"tx"
+	],
 	"extraTemplates": [
 		"mapping",
 		"foo",

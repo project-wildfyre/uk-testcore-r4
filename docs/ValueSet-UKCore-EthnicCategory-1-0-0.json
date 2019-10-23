@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "id": "UKCore-EthnicCategory-1-0-0",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UK Core Ethnic Category</h2><div><p>A ValueSet to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a person's ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-UKCore-EthnicCategory-1-0-0.html\"><code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0</code></a></li></ul></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/valueset-sourceReference",
+      "valueUri": "http://www.datadictionary.nhs.uk/data_dictionary/data_field_notes/p/pds/pds_ethnic_category_code_de.asp?shownav=0"
+    }
+  ],
+  "url": "https://fhir.nhs.uk/R4/ValueSet/UKCore-EthnicCategory-1-0-0",
+  "version": "1.0.0",
+  "name": "UKCoreEthnicCategory",
+  "title": "UK Core Ethnic Category",
+  "status": "draft",
+  "date": "2019-10-17T01:00:00+01:00",
+  "publisher": "NHS Digital",
+  "contact": [
+    {
+      "name": "Interoperability Team",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "interoperabilityteam@nhs.net",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "A ValueSet to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a person's ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary.",
+  "copyright": "Copyright © 2019 NHS Digital",
+  "compose": {
+    "include": [
+      {
+        "system": "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory-1-0-0"
+      }
+    ]
+  }
+}

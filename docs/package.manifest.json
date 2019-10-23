@@ -1,0 +1,6 @@
+{
+  "version": "1.0.0",
+  "fhirVersion": "[4.0.0]",
+  "date": "20191023094419",
+  "name": "nhsdigital.fhir.r4.core.demo"
+}

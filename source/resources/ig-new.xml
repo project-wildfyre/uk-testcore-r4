@@ -173,7 +173,7 @@
     </parameter>
     <parameter>
       <code value="html-template"/>
-      <value value="html-template.html"/>
+      <value value="test-template-master/instance-template-format.html"/>
     </parameter>
     <parameter>
       <code value="generate"/>

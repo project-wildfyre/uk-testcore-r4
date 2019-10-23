@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-		<id value="UKCore-ReligiousAffiliation-1-0-0"/>
+	<id value="UKCore-ReligiousAffiliation-1-0-0"/>
 	<url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ReligiousAffiliation-1-0-0"/>
 	<version value="1.0.0"/>
 	<name value="UKCoreReligiousAffiliation"/>
 	<title value="UK Core Religious Affiliation"/>
 	<status value="draft"/>
 	<date value="2019-10-17T00:00:00+00:00"/>
-<publisher value="NHS Digital"/>
+	<publisher value="NHS Digital"/>
 	<contact>
 		<name value="Interoperability Team"/>
 		<telecom>
@@ -24,7 +24,7 @@
 			<filter>
 				<property value="concept"/>
 				<op value="in"/>
-				<value value="999000531000000100"/>
+				<value value="^999000531000000100"/>
 			</filter>
 		</include>
 	</compose>
