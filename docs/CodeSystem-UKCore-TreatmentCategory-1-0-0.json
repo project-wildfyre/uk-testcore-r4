@@ -1,0 +1,58 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "UKCore-TreatmentCategory-1-0-0",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UK Core Treatment Category</h2><div><p>A CodeSystem that identifies the treatment category for a patient.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory-1-0-0 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"UKCore-TreatmentCategory-1-0-0-1\"> </a></td><td>Exempt from payment - subject to reciprocal health agreement</td><td/></tr><tr><td style=\"white-space:nowrap\">2<a name=\"UKCore-TreatmentCategory-1-0-0-2\"> </a></td><td>Exempt from payment - other</td><td/></tr><tr><td style=\"white-space:nowrap\">3<a name=\"UKCore-TreatmentCategory-1-0-0-3\"> </a></td><td>To pay hotel fees only</td><td/></tr><tr><td style=\"white-space:nowrap\">4<a name=\"UKCore-TreatmentCategory-1-0-0-4\"> </a></td><td>To pay all fees</td><td/></tr><tr><td style=\"white-space:nowrap\">9<a name=\"UKCore-TreatmentCategory-1-0-0-9\"> </a></td><td>Charging rate not known</td><td/></tr><tr><td style=\"white-space:nowrap\">8<a name=\"UKCore-TreatmentCategory-1-0-0-8\"> </a></td><td>Not applicable</td><td>Not an Overseas Visitor</td></tr></table></div>"
+  },
+  "url": "https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory-1-0-0",
+  "version": "1.0.0",
+  "name": "UKCoreTreatmentCategory",
+  "title": "UK Core Treatment Category",
+  "status": "draft",
+  "date": "2019-10-25T01:00:00+01:00",
+  "publisher": "NHS Digital",
+  "contact": [
+    {
+      "name": "Interoperability Team",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "interoperabilityteam@nhs.net",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "A CodeSystem that identifies the treatment category for a patient.",
+  "copyright": "Copyright © 2019 NHS Digital",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "1",
+      "display": "Exempt from payment - subject to reciprocal health agreement"
+    },
+    {
+      "code": "2",
+      "display": "Exempt from payment - other"
+    },
+    {
+      "code": "3",
+      "display": "To pay hotel fees only"
+    },
+    {
+      "code": "4",
+      "display": "To pay all fees"
+    },
+    {
+      "code": "9",
+      "display": "Charging rate not known"
+    },
+    {
+      "code": "8",
+      "display": "Not applicable",
+      "definition": "Not an Overseas Visitor"
+    }
+  ]
+}
