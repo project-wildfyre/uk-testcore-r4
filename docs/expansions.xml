@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="f3ad00ca-7de0-402b-867a-f8519a5a5d70"/>
+  <id value="3517b387-9a0e-4c6a-abbd-5bb0d2bed32b"/>
   <meta>
-    <lastUpdated value="2019-10-29T14:34:18.103+00:00"/>
+    <lastUpdated value="2019-10-29T17:06:33.010+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -70,8 +70,8 @@
         <description value="A ValueSet that identifies the residential status of a patient."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:41f304f6-6dd4-4914-ae47-27828d68a40d"/>
-          <timestamp value="2019-10-29T14:34:22+00:00"/>
+          <identifier value="urn:uuid:ab6d26c0-d4e5-4ce7-ac50-af272fe6f95a"/>
+          <timestamp value="2019-10-29T17:06:36+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -90,6 +90,2680 @@
             <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-ResidentialStatus-1-0-0"/>
             <code value="O"/>
             <display value="Overseas Resident"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.nhs.uk/R4/ValueSet/UKCore-TreatmentCategory-1-0-0"/>
+    <resource>
+      <ValueSet>
+        <id value="UKCore-TreatmentCategory-1-0-0"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 6 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory-1-0-0 version 1.0.0</p>
+            <p>All codes from system 
+              <a href="CodeSystem-UKCore-TreatmentCategory-1-0-0.html">
+                <code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory-1-0-0</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-TreatmentCategory-1-0-0-1"> </a>
+                  <a href="CodeSystem-UKCore-TreatmentCategory-1-0-0.html#UKCore-TreatmentCategory-1-0-0-1">1</a>
+                </td>
+                <td>Exempt from payment - subject to reciprocal health agreement</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-TreatmentCategory-1-0-0-2"> </a>
+                  <a href="CodeSystem-UKCore-TreatmentCategory-1-0-0.html#UKCore-TreatmentCategory-1-0-0-2">2</a>
+                </td>
+                <td>Exempt from payment - other</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-TreatmentCategory-1-0-0-3"> </a>
+                  <a href="CodeSystem-UKCore-TreatmentCategory-1-0-0.html#UKCore-TreatmentCategory-1-0-0-3">3</a>
+                </td>
+                <td>To pay hotel fees only</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-TreatmentCategory-1-0-0-4"> </a>
+                  <a href="CodeSystem-UKCore-TreatmentCategory-1-0-0.html#UKCore-TreatmentCategory-1-0-0-4">4</a>
+                </td>
+                <td>To pay all fees</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-TreatmentCategory-1-0-0-9"> </a>
+                  <a href="CodeSystem-UKCore-TreatmentCategory-1-0-0.html#UKCore-TreatmentCategory-1-0-0-9">9</a>
+                </td>
+                <td>Charging rate not known</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-TreatmentCategory-1-0-0-8"> </a>
+                  <a href="CodeSystem-UKCore-TreatmentCategory-1-0-0.html#UKCore-TreatmentCategory-1-0-0-8">8</a>
+                </td>
+                <td>Not applicable</td>
+                <td>Not an Overseas Visitor</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-TreatmentCategory-1-0-0"/>
+        <version value="1.0.0"/>
+        <name value="UKCoreTreatmentCategory"/>
+        <title value="UK Core Treatment Category"/>
+        <status value="draft"/>
+        <date value="2019-10-25T01:00:00+01:00"/>
+        <publisher value="NHS Digital"/>
+        <contact>
+          <name value="Interoperability Team"/>
+          <telecom>
+            <system value="email"/>
+            <value value="interoperabilityteam@nhs.net"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <description value="A ValueSet that identifies the treatment category for a patient."/>
+        <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
+        <expansion>
+          <identifier value="urn:uuid:9a4fb006-58c0-4d0b-9e02-191be8917986"/>
+          <timestamp value="2019-10-29T17:06:36+00:00"/>
+          <total value="6"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory-1-0-0|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory-1-0-0"/>
+            <code value="1"/>
+            <display value="Exempt from payment - subject to reciprocal health agreement"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory-1-0-0"/>
+            <code value="2"/>
+            <display value="Exempt from payment - other"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory-1-0-0"/>
+            <code value="3"/>
+            <display value="To pay hotel fees only"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory-1-0-0"/>
+            <code value="4"/>
+            <display value="To pay all fees"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory-1-0-0"/>
+            <code value="9"/>
+            <display value="Charging rate not known"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory-1-0-0"/>
+            <code value="8"/>
+            <display value="Not applicable"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.nhs.uk/R4/ValueSet/UKCore-HumanLanguage-1-0-0"/>
+    <resource>
+      <ValueSet>
+        <id value="UKCore-HumanLanguage-1-0-0"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 190 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0 version 1.0.0</p>
+            <p>All codes from system 
+              <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html">
+                <code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-q1"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-q1">q1</a>
+                </td>
+                <td>Braille</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-q2"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-q2">q2</a>
+                </td>
+                <td>American Sign Language</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-q3"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-q3">q3</a>
+                </td>
+                <td>Australian Sign Language</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-q4"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-q4">q4</a>
+                </td>
+                <td>British Sign Language</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-q5"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-q5">q5</a>
+                </td>
+                <td>Makaton</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-aa"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-aa">aa</a>
+                </td>
+                <td>Afar</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ab"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ab">ab</a>
+                </td>
+                <td>Abkhazian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-af"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-af">af</a>
+                </td>
+                <td>Afrikaans</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ak"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ak">ak</a>
+                </td>
+                <td>Akan</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-sq"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-sq">sq</a>
+                </td>
+                <td>Albanian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-am"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-am">am</a>
+                </td>
+                <td>Amharic</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ar"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ar">ar</a>
+                </td>
+                <td>Arabic</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-an"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-an">an</a>
+                </td>
+                <td>Aragonese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-hy"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-hy">hy</a>
+                </td>
+                <td>Armenian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-as"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-as">as</a>
+                </td>
+                <td>Assamese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-av"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-av">av</a>
+                </td>
+                <td>Avaric</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ae"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ae">ae</a>
+                </td>
+                <td>Avestan</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ay"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ay">ay</a>
+                </td>
+                <td>Aymara</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-az"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-az">az</a>
+                </td>
+                <td>Azerbaijani</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ba"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ba">ba</a>
+                </td>
+                <td>Bashkir</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-bm"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-bm">bm</a>
+                </td>
+                <td>Bambara</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-eu"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-eu">eu</a>
+                </td>
+                <td>Basque</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-be"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-be">be</a>
+                </td>
+                <td>Belarusian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-bn"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-bn">bn</a>
+                </td>
+                <td>Bengali</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-bh"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-bh">bh</a>
+                </td>
+                <td>Bihari</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-bi"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-bi">bi</a>
+                </td>
+                <td>Bislama</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-bo"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-bo">bo</a>
+                </td>
+                <td>Tibetan</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-bs"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-bs">bs</a>
+                </td>
+                <td>Bosnian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-br"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-br">br</a>
+                </td>
+                <td>Breton</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-bg"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-bg">bg</a>
+                </td>
+                <td>Bulgarian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-my"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-my">my</a>
+                </td>
+                <td>Burmese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ca"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ca">ca</a>
+                </td>
+                <td>Catalan; Valencian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-cs"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-cs">cs</a>
+                </td>
+                <td>Czech</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ch"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ch">ch</a>
+                </td>
+                <td>Chamorro</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ce"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ce">ce</a>
+                </td>
+                <td>Chechen</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-zh"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-zh">zh</a>
+                </td>
+                <td>Chinese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-cu"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-cu">cu</a>
+                </td>
+                <td>Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-cv"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-cv">cv</a>
+                </td>
+                <td>Chuvash</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-kw"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-kw">kw</a>
+                </td>
+                <td>Cornish</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-co"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-co">co</a>
+                </td>
+                <td>Corsican</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-cr"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-cr">cr</a>
+                </td>
+                <td>Cree</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-cy"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-cy">cy</a>
+                </td>
+                <td>Welsh</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-da"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-da">da</a>
+                </td>
+                <td>Danish</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-de"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-de">de</a>
+                </td>
+                <td>German</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-dv"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-dv">dv</a>
+                </td>
+                <td>Divehi; Dhivehi; Maldivian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-nl"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-nl">nl</a>
+                </td>
+                <td>Dutch; Flemish</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-dz"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-dz">dz</a>
+                </td>
+                <td>Dzongkha</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-el"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-el">el</a>
+                </td>
+                <td>Greek, Modern (1453-)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-en"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-en">en</a>
+                </td>
+                <td>English</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-eo"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-eo">eo</a>
+                </td>
+                <td>Esperanto</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-et"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-et">et</a>
+                </td>
+                <td>Estonian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ee"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ee">ee</a>
+                </td>
+                <td>Ewe</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-fo"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-fo">fo</a>
+                </td>
+                <td>Faroese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-fa"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-fa">fa</a>
+                </td>
+                <td>Persian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-fj"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-fj">fj</a>
+                </td>
+                <td>Fijian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-fi"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-fi">fi</a>
+                </td>
+                <td>Finnish</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-fr"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-fr">fr</a>
+                </td>
+                <td>French</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-fy"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-fy">fy</a>
+                </td>
+                <td>Western Frisian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ff"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ff">ff</a>
+                </td>
+                <td>Fulah</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ka"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ka">ka</a>
+                </td>
+                <td>Georgian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-gd"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-gd">gd</a>
+                </td>
+                <td>Gaelic; Scottish Gaelic</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ga"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ga">ga</a>
+                </td>
+                <td>Irish</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-gl"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-gl">gl</a>
+                </td>
+                <td>Galician</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-gv"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-gv">gv</a>
+                </td>
+                <td>Manx</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-gn"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-gn">gn</a>
+                </td>
+                <td>Guarani</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-gu"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-gu">gu</a>
+                </td>
+                <td>Gujarati</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ht"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ht">ht</a>
+                </td>
+                <td>Haitian; Haitian Creole</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ha"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ha">ha</a>
+                </td>
+                <td>Hausa</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-he"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-he">he</a>
+                </td>
+                <td>Hebrew</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-hz"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-hz">hz</a>
+                </td>
+                <td>Herero</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-hi"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-hi">hi</a>
+                </td>
+                <td>Hindi</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ho"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ho">ho</a>
+                </td>
+                <td>Hiri Motu</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-hr"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-hr">hr</a>
+                </td>
+                <td>Croatian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-hu"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-hu">hu</a>
+                </td>
+                <td>Hungarian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ig"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ig">ig</a>
+                </td>
+                <td>Igbo</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-is"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-is">is</a>
+                </td>
+                <td>Icelandic</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-io"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-io">io</a>
+                </td>
+                <td>Ido</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ii"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ii">ii</a>
+                </td>
+                <td>Sichuan Yi</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-iu"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-iu">iu</a>
+                </td>
+                <td>Inuktitut</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ie"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ie">ie</a>
+                </td>
+                <td>Interlingue</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ia"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ia">ia</a>
+                </td>
+                <td>Interlingua (International Auxiliary Language Association)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-id"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-id">id</a>
+                </td>
+                <td>Indonesian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ik"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ik">ik</a>
+                </td>
+                <td>Inupiaq</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-it"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-it">it</a>
+                </td>
+                <td>Italian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-jv"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-jv">jv</a>
+                </td>
+                <td>Javanese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ja"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ja">ja</a>
+                </td>
+                <td>Japanese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-kl"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-kl">kl</a>
+                </td>
+                <td>Kalaallisut; Greenlandic</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-kn"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-kn">kn</a>
+                </td>
+                <td>Kannada</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ks"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ks">ks</a>
+                </td>
+                <td>Kashmiri</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-kr"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-kr">kr</a>
+                </td>
+                <td>Kanuri</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-kk"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-kk">kk</a>
+                </td>
+                <td>Kazakh</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-km"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-km">km</a>
+                </td>
+                <td>Central Khmer</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ki"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ki">ki</a>
+                </td>
+                <td>Kikuyu; Gikuyu</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-rw"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-rw">rw</a>
+                </td>
+                <td>Kinyarwanda</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ky"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ky">ky</a>
+                </td>
+                <td>Kirghiz; Kyrgyz</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-kv"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-kv">kv</a>
+                </td>
+                <td>Komi</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-kg"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-kg">kg</a>
+                </td>
+                <td>Kongo</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ko"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ko">ko</a>
+                </td>
+                <td>Korean</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-kj"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-kj">kj</a>
+                </td>
+                <td>Kuanyama; Kwanyama</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ku"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ku">ku</a>
+                </td>
+                <td>Kurdish</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-lo"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-lo">lo</a>
+                </td>
+                <td>Lao</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-la"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-la">la</a>
+                </td>
+                <td>Latin</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-lv"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-lv">lv</a>
+                </td>
+                <td>Latvian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-li"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-li">li</a>
+                </td>
+                <td>Limburgan; Limburger; Limburgish</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ln"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ln">ln</a>
+                </td>
+                <td>Lingala</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-lt"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-lt">lt</a>
+                </td>
+                <td>Lithuanian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-lb"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-lb">lb</a>
+                </td>
+                <td>Luxembourgish; Letzeburgesch</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-lu"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-lu">lu</a>
+                </td>
+                <td>Luba-Katanga</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-lg"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-lg">lg</a>
+                </td>
+                <td>Ganda</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-mk"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-mk">mk</a>
+                </td>
+                <td>Macedonian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-mh"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-mh">mh</a>
+                </td>
+                <td>Marshallese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ml"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ml">ml</a>
+                </td>
+                <td>Malayalam</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-mi"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-mi">mi</a>
+                </td>
+                <td>Maori</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-mr"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-mr">mr</a>
+                </td>
+                <td>Marathi</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ms"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ms">ms</a>
+                </td>
+                <td>Malay</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-mg"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-mg">mg</a>
+                </td>
+                <td>Malagasy</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-mt"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-mt">mt</a>
+                </td>
+                <td>Maltese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-mo"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-mo">mo</a>
+                </td>
+                <td>Moldavian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-mn"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-mn">mn</a>
+                </td>
+                <td>Mongolian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-na"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-na">na</a>
+                </td>
+                <td>Nauru</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-nv"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-nv">nv</a>
+                </td>
+                <td>Navajo; Navaho</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-nr"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-nr">nr</a>
+                </td>
+                <td>Ndebele, South; South Ndebele</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-nd"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-nd">nd</a>
+                </td>
+                <td>Ndebele, North; North Ndebele</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ng"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ng">ng</a>
+                </td>
+                <td>Ndonga</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ne"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ne">ne</a>
+                </td>
+                <td>Nepali</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-nn"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-nn">nn</a>
+                </td>
+                <td>Norwegian Nynorsk; Nynorsk, Norwegian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-nb"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-nb">nb</a>
+                </td>
+                <td>Bokmal, Norwegian; Norwegian Bokmal</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-no"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-no">no</a>
+                </td>
+                <td>Norwegian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ny"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ny">ny</a>
+                </td>
+                <td>Chichewa; Chewa; Nyanja</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-oc"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-oc">oc</a>
+                </td>
+                <td>Occitan (post1500); Provencal</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-oj"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-oj">oj</a>
+                </td>
+                <td>Ojibwa</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-or"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-or">or</a>
+                </td>
+                <td>Oriya</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-om"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-om">om</a>
+                </td>
+                <td>Oromo</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-os"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-os">os</a>
+                </td>
+                <td>Ossetian; Ossetic</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-pa"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-pa">pa</a>
+                </td>
+                <td>Panjabi; Punjabi</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-pi"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-pi">pi</a>
+                </td>
+                <td>Pali</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-pl"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-pl">pl</a>
+                </td>
+                <td>Polish</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-pt"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-pt">pt</a>
+                </td>
+                <td>Portuguese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ps"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ps">ps</a>
+                </td>
+                <td>Pushto</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-qu"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-qu">qu</a>
+                </td>
+                <td>Quechua</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-rm"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-rm">rm</a>
+                </td>
+                <td>Romansh</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ro"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ro">ro</a>
+                </td>
+                <td>Romanian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-rn"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-rn">rn</a>
+                </td>
+                <td>Rundi</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ru"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ru">ru</a>
+                </td>
+                <td>Russian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-sg"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-sg">sg</a>
+                </td>
+                <td>Sango</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-sa"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-sa">sa</a>
+                </td>
+                <td>Sanskrit</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-sr"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-sr">sr</a>
+                </td>
+                <td>Serbian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-si"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-si">si</a>
+                </td>
+                <td>Sinhala; Sinhalese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-sk"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-sk">sk</a>
+                </td>
+                <td>Slovak</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-sl"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-sl">sl</a>
+                </td>
+                <td>Slovenian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-se"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-se">se</a>
+                </td>
+                <td>Northern Sami</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-sm"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-sm">sm</a>
+                </td>
+                <td>Samoan</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-sn"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-sn">sn</a>
+                </td>
+                <td>Shona</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-sd"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-sd">sd</a>
+                </td>
+                <td>Sindhi</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-so"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-so">so</a>
+                </td>
+                <td>Somali</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-st"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-st">st</a>
+                </td>
+                <td>Sotho, Southern</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-es"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-es">es</a>
+                </td>
+                <td>Spanish; Castilian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-sc"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-sc">sc</a>
+                </td>
+                <td>Sardinian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ss"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ss">ss</a>
+                </td>
+                <td>Swati</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-su"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-su">su</a>
+                </td>
+                <td>Sundanese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-sw"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-sw">sw</a>
+                </td>
+                <td>Swahili</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-sv"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-sv">sv</a>
+                </td>
+                <td>Swedish</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ty"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ty">ty</a>
+                </td>
+                <td>Tahitian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ta"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ta">ta</a>
+                </td>
+                <td>Tamil</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-tt"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-tt">tt</a>
+                </td>
+                <td>Tatar</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-te"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-te">te</a>
+                </td>
+                <td>Telugu</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-tg"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-tg">tg</a>
+                </td>
+                <td>Tajik</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-tl"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-tl">tl</a>
+                </td>
+                <td>Tagalog</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-th"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-th">th</a>
+                </td>
+                <td>Thai</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ti"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ti">ti</a>
+                </td>
+                <td>Tigrinya</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-to"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-to">to</a>
+                </td>
+                <td>Tonga (Tonga Islands)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-tn"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-tn">tn</a>
+                </td>
+                <td>Tswana</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ts"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ts">ts</a>
+                </td>
+                <td>Tsonga</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-tk"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-tk">tk</a>
+                </td>
+                <td>Turkmen</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-tr"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-tr">tr</a>
+                </td>
+                <td>Turkish</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-tw"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-tw">tw</a>
+                </td>
+                <td>Twi</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ug"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ug">ug</a>
+                </td>
+                <td>Uighur; Uyghur</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-uk"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-uk">uk</a>
+                </td>
+                <td>Ukrainian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ur"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ur">ur</a>
+                </td>
+                <td>Urdu</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-uz"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-uz">uz</a>
+                </td>
+                <td>Uzbek</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ve"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ve">ve</a>
+                </td>
+                <td>Venda</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-vi"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-vi">vi</a>
+                </td>
+                <td>Vietnamese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-vo"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-vo">vo</a>
+                </td>
+                <td>Volapuk</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-wa"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-wa">wa</a>
+                </td>
+                <td>Walloon</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-wo"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-wo">wo</a>
+                </td>
+                <td>Wolof</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-xh"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-xh">xh</a>
+                </td>
+                <td>Xhosa</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-yi"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-yi">yi</a>
+                </td>
+                <td>Yiddish</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-yo"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-yo">yo</a>
+                </td>
+                <td>Yoruba</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-za"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-za">za</a>
+                </td>
+                <td>Zhuang; Chuang</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-zu"> </a>
+                  <a href="CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-zu">zu</a>
+                </td>
+                <td>Zulu</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-HumanLanguage-1-0-0"/>
+        <version value="1.0.0"/>
+        <name value="UKCoreHumanLanguage"/>
+        <title value="UK Core Human Language"/>
+        <status value="draft"/>
+        <date value="2019-10-25T01:00:00+01:00"/>
+        <publisher value="NHS Digital"/>
+        <contact>
+          <name value="Interoperability Team"/>
+          <telecom>
+            <system value="email"/>
+            <value value="interoperabilityteam@nhs.net"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <description value="A ValueSet that identifies the language used by a person."/>
+        <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
+        <expansion>
+          <identifier value="urn:uuid:bb64cf3c-8c8b-47bd-85aa-abd1251fd3aa"/>
+          <timestamp value="2019-10-29T17:06:36+00:00"/>
+          <total value="190"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="q1"/>
+            <display value="Braille"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="q2"/>
+            <display value="American Sign Language"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="q3"/>
+            <display value="Australian Sign Language"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="q4"/>
+            <display value="British Sign Language"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="q5"/>
+            <display value="Makaton"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="aa"/>
+            <display value="Afar"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ab"/>
+            <display value="Abkhazian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="af"/>
+            <display value="Afrikaans"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ak"/>
+            <display value="Akan"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="sq"/>
+            <display value="Albanian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="am"/>
+            <display value="Amharic"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ar"/>
+            <display value="Arabic"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="an"/>
+            <display value="Aragonese"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="hy"/>
+            <display value="Armenian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="as"/>
+            <display value="Assamese"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="av"/>
+            <display value="Avaric"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ae"/>
+            <display value="Avestan"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ay"/>
+            <display value="Aymara"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="az"/>
+            <display value="Azerbaijani"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ba"/>
+            <display value="Bashkir"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="bm"/>
+            <display value="Bambara"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="eu"/>
+            <display value="Basque"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="be"/>
+            <display value="Belarusian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="bn"/>
+            <display value="Bengali"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="bh"/>
+            <display value="Bihari"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="bi"/>
+            <display value="Bislama"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="bo"/>
+            <display value="Tibetan"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="bs"/>
+            <display value="Bosnian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="br"/>
+            <display value="Breton"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="bg"/>
+            <display value="Bulgarian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="my"/>
+            <display value="Burmese"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ca"/>
+            <display value="Catalan; Valencian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="cs"/>
+            <display value="Czech"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ch"/>
+            <display value="Chamorro"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ce"/>
+            <display value="Chechen"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="zh"/>
+            <display value="Chinese"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="cu"/>
+            <display value="Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="cv"/>
+            <display value="Chuvash"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="kw"/>
+            <display value="Cornish"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="co"/>
+            <display value="Corsican"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="cr"/>
+            <display value="Cree"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="cy"/>
+            <display value="Welsh"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="da"/>
+            <display value="Danish"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="de"/>
+            <display value="German"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="dv"/>
+            <display value="Divehi; Dhivehi; Maldivian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="nl"/>
+            <display value="Dutch; Flemish"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="dz"/>
+            <display value="Dzongkha"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="el"/>
+            <display value="Greek, Modern (1453-)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="en"/>
+            <display value="English"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="eo"/>
+            <display value="Esperanto"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="et"/>
+            <display value="Estonian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ee"/>
+            <display value="Ewe"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="fo"/>
+            <display value="Faroese"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="fa"/>
+            <display value="Persian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="fj"/>
+            <display value="Fijian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="fi"/>
+            <display value="Finnish"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="fr"/>
+            <display value="French"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="fy"/>
+            <display value="Western Frisian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ff"/>
+            <display value="Fulah"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ka"/>
+            <display value="Georgian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="gd"/>
+            <display value="Gaelic; Scottish Gaelic"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ga"/>
+            <display value="Irish"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="gl"/>
+            <display value="Galician"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="gv"/>
+            <display value="Manx"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="gn"/>
+            <display value="Guarani"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="gu"/>
+            <display value="Gujarati"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ht"/>
+            <display value="Haitian; Haitian Creole"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ha"/>
+            <display value="Hausa"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="he"/>
+            <display value="Hebrew"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="hz"/>
+            <display value="Herero"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="hi"/>
+            <display value="Hindi"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ho"/>
+            <display value="Hiri Motu"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="hr"/>
+            <display value="Croatian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="hu"/>
+            <display value="Hungarian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ig"/>
+            <display value="Igbo"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="is"/>
+            <display value="Icelandic"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="io"/>
+            <display value="Ido"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ii"/>
+            <display value="Sichuan Yi"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="iu"/>
+            <display value="Inuktitut"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ie"/>
+            <display value="Interlingue"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ia"/>
+            <display value="Interlingua (International Auxiliary Language Association)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="id"/>
+            <display value="Indonesian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ik"/>
+            <display value="Inupiaq"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="it"/>
+            <display value="Italian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="jv"/>
+            <display value="Javanese"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ja"/>
+            <display value="Japanese"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="kl"/>
+            <display value="Kalaallisut; Greenlandic"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="kn"/>
+            <display value="Kannada"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ks"/>
+            <display value="Kashmiri"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="kr"/>
+            <display value="Kanuri"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="kk"/>
+            <display value="Kazakh"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="km"/>
+            <display value="Central Khmer"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ki"/>
+            <display value="Kikuyu; Gikuyu"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="rw"/>
+            <display value="Kinyarwanda"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ky"/>
+            <display value="Kirghiz; Kyrgyz"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="kv"/>
+            <display value="Komi"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="kg"/>
+            <display value="Kongo"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ko"/>
+            <display value="Korean"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="kj"/>
+            <display value="Kuanyama; Kwanyama"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ku"/>
+            <display value="Kurdish"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="lo"/>
+            <display value="Lao"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="la"/>
+            <display value="Latin"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="lv"/>
+            <display value="Latvian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="li"/>
+            <display value="Limburgan; Limburger; Limburgish"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ln"/>
+            <display value="Lingala"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="lt"/>
+            <display value="Lithuanian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="lb"/>
+            <display value="Luxembourgish; Letzeburgesch"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="lu"/>
+            <display value="Luba-Katanga"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="lg"/>
+            <display value="Ganda"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="mk"/>
+            <display value="Macedonian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="mh"/>
+            <display value="Marshallese"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ml"/>
+            <display value="Malayalam"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="mi"/>
+            <display value="Maori"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="mr"/>
+            <display value="Marathi"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ms"/>
+            <display value="Malay"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="mg"/>
+            <display value="Malagasy"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="mt"/>
+            <display value="Maltese"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="mo"/>
+            <display value="Moldavian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="mn"/>
+            <display value="Mongolian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="na"/>
+            <display value="Nauru"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="nv"/>
+            <display value="Navajo; Navaho"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="nr"/>
+            <display value="Ndebele, South; South Ndebele"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="nd"/>
+            <display value="Ndebele, North; North Ndebele"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ng"/>
+            <display value="Ndonga"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ne"/>
+            <display value="Nepali"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="nn"/>
+            <display value="Norwegian Nynorsk; Nynorsk, Norwegian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="nb"/>
+            <display value="Bokmal, Norwegian; Norwegian Bokmal"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="no"/>
+            <display value="Norwegian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ny"/>
+            <display value="Chichewa; Chewa; Nyanja"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="oc"/>
+            <display value="Occitan (post1500); Provencal"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="oj"/>
+            <display value="Ojibwa"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="or"/>
+            <display value="Oriya"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="om"/>
+            <display value="Oromo"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="os"/>
+            <display value="Ossetian; Ossetic"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="pa"/>
+            <display value="Panjabi; Punjabi"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="pi"/>
+            <display value="Pali"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="pl"/>
+            <display value="Polish"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="pt"/>
+            <display value="Portuguese"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ps"/>
+            <display value="Pushto"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="qu"/>
+            <display value="Quechua"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="rm"/>
+            <display value="Romansh"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ro"/>
+            <display value="Romanian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="rn"/>
+            <display value="Rundi"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ru"/>
+            <display value="Russian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="sg"/>
+            <display value="Sango"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="sa"/>
+            <display value="Sanskrit"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="sr"/>
+            <display value="Serbian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="si"/>
+            <display value="Sinhala; Sinhalese"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="sk"/>
+            <display value="Slovak"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="sl"/>
+            <display value="Slovenian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="se"/>
+            <display value="Northern Sami"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="sm"/>
+            <display value="Samoan"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="sn"/>
+            <display value="Shona"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="sd"/>
+            <display value="Sindhi"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="so"/>
+            <display value="Somali"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="st"/>
+            <display value="Sotho, Southern"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="es"/>
+            <display value="Spanish; Castilian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="sc"/>
+            <display value="Sardinian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ss"/>
+            <display value="Swati"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="su"/>
+            <display value="Sundanese"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="sw"/>
+            <display value="Swahili"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="sv"/>
+            <display value="Swedish"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ty"/>
+            <display value="Tahitian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ta"/>
+            <display value="Tamil"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="tt"/>
+            <display value="Tatar"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="te"/>
+            <display value="Telugu"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="tg"/>
+            <display value="Tajik"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="tl"/>
+            <display value="Tagalog"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="th"/>
+            <display value="Thai"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ti"/>
+            <display value="Tigrinya"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="to"/>
+            <display value="Tonga (Tonga Islands)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="tn"/>
+            <display value="Tswana"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ts"/>
+            <display value="Tsonga"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="tk"/>
+            <display value="Turkmen"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="tr"/>
+            <display value="Turkish"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="tw"/>
+            <display value="Twi"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ug"/>
+            <display value="Uighur; Uyghur"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="uk"/>
+            <display value="Ukrainian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ur"/>
+            <display value="Urdu"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="uz"/>
+            <display value="Uzbek"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="ve"/>
+            <display value="Venda"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="vi"/>
+            <display value="Vietnamese"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="vo"/>
+            <display value="Volapuk"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="wa"/>
+            <display value="Walloon"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="wo"/>
+            <display value="Wolof"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="xh"/>
+            <display value="Xhosa"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="yi"/>
+            <display value="Yiddish"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="yo"/>
+            <display value="Yoruba"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="za"/>
+            <display value="Zhuang; Chuang"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+            <code value="zu"/>
+            <display value="Zulu"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -690,8 +3364,8 @@
         <description value="A ValueSet to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a person&#39;s ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:d25f34f6-fb5c-4fe0-9a52-24088fcdc69b"/>
-          <timestamp value="2019-10-29T14:34:22+00:00"/>
+          <identifier value="urn:uuid:264a323e-e734-4e6c-a05b-5394487cd09b"/>
+          <timestamp value="2019-10-29T17:06:37+00:00"/>
           <total value="68"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1160,8 +3834,8 @@
         <description value="A ValueSet that identifies the trace status of the NHS number. The CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:9051cb5a-3952-4b83-a95b-e6ded5e405c8"/>
-          <timestamp value="2019-10-29T14:34:22+00:00"/>
+          <identifier value="urn:uuid:8d9e8512-1dd5-4ad9-bfde-96b637b8d8be"/>
+          <timestamp value="2019-10-29T17:06:37+00:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1306,8 +3980,8 @@
         <description value="An indicator to identify the legal marital status of a Person."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:e729edb7-985c-4a83-9979-d7c560a9577f"/>
-          <timestamp value="2019-10-29T14:34:23+00:00"/>
+          <identifier value="urn:uuid:91af3f0c-1646-4b50-b937-2e5eeeb90843"/>
+          <timestamp value="2019-10-29T17:06:37+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1426,8 +4100,8 @@
         <description value="The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:f2e09d2d-4776-4bef-88a7-d2895f9c172f"/>
-          <timestamp value="2019-10-29T14:34:24+00:00"/>
+          <identifier value="urn:uuid:b786c453-56bf-4537-a273-e52d7ac4fef6"/>
+          <timestamp value="2019-10-29T17:06:39+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>

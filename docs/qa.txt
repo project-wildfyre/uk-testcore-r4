@@ -3,14 +3,16 @@
 
 err = 2, warn = 0, info = 0
 IG Publisher Version: v0.9.87-SNAPSHOT Out of date - current version is v0.9.88-SNAPSHOT
-Generated Tue Oct 29 14:35:23 GMT 2019. FHIR version 4.0.0 for nhsdigital.fhir.r4.core.demo#1.0.0 (canonical = https://fhir.nhs.uk/R4)
+Generated Tue Oct 29 17:07:35 GMT 2019. FHIR version 4.0.0 for nhsdigital.fhir.r4.core.demo#1.0.0 (canonical = https://fhir.nhs.uk/R4)
 
- Build Errors : 75 / 1
+ Build Errors : 87 / 1
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-EthnicCategory-1-0-0 : 0 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-HumanLanguage-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-ResidentialStatus-1-0-0 : 0 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-TreatmentCategory-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\conceptmaps\ConceptMap-UKCore-AdministrativeGender-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\conceptmaps\ConceptMap-UKCore-MaritalStatus-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\resources\ig : 0 / 0
@@ -20,11 +22,13 @@ Generated Tue Oct 29 14:35:23 GMT 2019. FHIR version 4.0.0 for nhsdigital.fhir.r
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\Extension-UKCore-ResidentialStatus-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\UKCore-Patient-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-EthnicCategory-1-0-0 : 0 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-HumanLanguage-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-NHSNumberVerificationStatus-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ReligiousAffiliation-1-0-0 : 1 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ResidentialStatus-1-0-0 : 0 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-TreatmentCategory-1-0-0 : 0 / 0
 </table>
 == n/a ==
 WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be nhsdigital.fhir.r4.core.demo
@@ -32,6 +36,9 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\Any.html: The html source does n
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-EthnicCategory-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-EthnicCategory-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-EthnicCategory-1-0-0.xml.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-HumanLanguage-1-0-0.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-HumanLanguage-1-0-0.json.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-HumanLanguage-1-0-0.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.xml.html: The html source does not contain the publish box
@@ -44,6 +51,9 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-NHSNumberVerif
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-ResidentialStatus-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-ResidentialStatus-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-ResidentialStatus-1-0-0.xml.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-TreatmentCategory-1-0-0.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-TreatmentCategory-1-0-0.json.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-TreatmentCategory-1-0-0.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ConceptMap-UKCore-AdministrativeGender-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ConceptMap-UKCore-AdministrativeGender-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ConceptMap-UKCore-AdministrativeGender-1-0-0.xml.html: The html source does not contain the publish box
@@ -76,6 +86,9 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\UKCore-Patient-1-0-0.html: The h
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-EthnicCategory-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-EthnicCategory-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-EthnicCategory-1-0-0.xml.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-HumanLanguage-1-0-0.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-HumanLanguage-1-0-0.json.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-HumanLanguage-1-0-0.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.xml.html: The html source does not contain the publish box
@@ -91,6 +104,9 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ReligiousAffilia
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ResidentialStatus-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ResidentialStatus-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ResidentialStatus-1-0-0.xml.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-TreatmentCategory-1-0-0.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-TreatmentCategory-1-0-0.json.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-TreatmentCategory-1-0-0.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\change_history.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\codesystems.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\conceptmaps.html: The html source does not contain the publish box
@@ -104,10 +120,12 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\profiles.html: The html source d
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\schematrons.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\valuesets.html: The html source does not contain the publish box
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-EthnicCategory-1-0-0.xml ==
+== C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-HumanLanguage-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-ResidentialStatus-1-0-0.xml ==
+== C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-TreatmentCategory-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\conceptmaps\ConceptMap-UKCore-AdministrativeGender-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\conceptmaps\ConceptMap-UKCore-MaritalStatus-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\resources\ig.xml ==
@@ -117,9 +135,11 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\valuesets.html: The html source 
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\Extension-UKCore-ResidentialStatus-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\UKCore-Patient-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-EthnicCategory-1-0-0.xml ==
+== C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-HumanLanguage-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-NHSNumberVerificationStatus-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ReligiousAffiliation-1-0-0.xml ==
 ERROR: UKCore-ReligiousAffiliation-1-0-0: Error from server: The filter "concept in ^999000531000000100" was not understood in the context of http://snomed.info/sct
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ResidentialStatus-1-0-0.xml ==
+== C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-TreatmentCategory-1-0-0.xml ==

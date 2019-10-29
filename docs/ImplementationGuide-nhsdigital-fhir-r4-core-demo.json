@@ -71,6 +71,38 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-TreatmentCategory-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-TreatmentCategory-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-HumanLanguage-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-HumanLanguage-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
             "valueUri": "ValueSet-UKCore-EthnicCategory-1-0-0.html"
           }
         ],
@@ -140,6 +172,38 @@
         ],
         "reference": {
           "reference": "CodeSystem/UKCore-ResidentialStatus-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-TreatmentCategory-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-TreatmentCategory-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-HumanLanguage-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-HumanLanguage-1-0-0"
         },
         "exampleBoolean": false
       },

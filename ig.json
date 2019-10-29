@@ -53,10 +53,6 @@
 			"source": "ValueSet-UKCore-ResidentialStatus-1-0-0.xml",
 			"base": "ValueSet-UKCore-ResidentialStatus-1-0-0.html"
 		},
-		"ValueSet/UKCore-DeathNotificationStatus-1-0-0": {
-			"source": "ValueSet-UKCore-DeathNotificationStatus-1-0-0.xml",
-			"base": "ValueSet-UKCore-DeathNotificationStatus-1-0-0.html"
-		},
 		"ValueSet/UKCore-EthnicCategory-1-0-0": {
 			"source": "ValueSet-UKCore-EthnicCategory-1-0-0.xml",
 			"base": "ValueSet-UKCore-EthnicCategory-1-0-0.html"
@@ -88,10 +84,6 @@
 		"CodeSystem/UKCore-ResidentialStatus-1-0-0": {
 			"source": "CodeSystem-UKCore-ResidentialStatus-1-0-0.xml",
 			"base": "CodeSystem-UKCore-ResidentialStatus-1-0-0.html"
-		},
-		"CodeSystem/UKCore-DeathNotificationStatus-1-0-0": {
-			"source": "CodeSystem-UKCore-DeathNotificationStatus-1-0-0.xml",
-			"base": "CodeSystem-UKCore-DeathNotificationStatus-1-0-0.html"
 		},
 		"CodeSystem/UKCore-EthnicCategory-1-0-0": {
 			"source": "CodeSystem-UKCore-EthnicCategory-1-0-0.xml",
@@ -135,25 +127,10 @@
 			"base": "Extension-UKCore-NHSNumberVerificationStatus-1-0-0.html",
 			"defns": "Extension-UKCore-NHSNumberVerificationStatus-1-0-0-definitions.html"
 		},
-		"StructureDefinition/Extension-UKCore-DeathNotificationStatus-1-0-0": {
-			"source": "Extension-UKCore-DeathNotificationStatus-1-0-0.xml",
-			"base": "Extension-UKCore-DeathNotificationStatus-1-0-0.html",
-			"defns": "Extension-UKCore-DeathNotificationStatus-1-0-0-definitions.html"
-		},
-		"StructureDefinition/Extension-UKCore-EthnicCategory-1-0-0": {
+			"StructureDefinition/Extension-UKCore-EthnicCategory-1-0-0": {
 			"source": "Extension-UKCore-EthnicCategory-1-0-0.xml",
 			"base": "Extension-UKCore-EthnicCategory-1-0-0.html",
 			"defns": "Extension-UKCore-EthnicCategory-1-0-0-definitions.html"
-		},
-		"StructureDefinition/Extension-UKCore-TreatmentCategory-1-0-0": {
-			"source": "Extension-UKCore-TreatmentCategory-1-0-0.xml",
-			"base": "Extension-UKCore-TreatmentCategory-1-0-0.html",
-			"defns": "Extension-UKCore-TreatmentCategory-1-0-0-definitions.html"
-		},
-		"StructureDefinition/Extension-UKCore-NominatedPharmacy-1-0-0": {
-			"source": "Extension-UKCore-NominatedPharmacy-1-0-0.xml",
-			"base": "Extension-UKCore-NominatedPharmacy-1-0-0.html",
-			"defns": "Extension-UKCore-NominatedPharmacy-1-0-0-definitions.html"
 		},
 		"StructureDefinition/Extension-UKCore-ReligiousAffiliation-1-0-0": {
 			"source": "Extension-UKCore-ReligiousAffiliation-1-0-0.xml",

@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "f3ad00ca-7de0-402b-867a-f8519a5a5d70",
+  "id" : "3517b387-9a0e-4c6a-abbd-5bb0d2bed32b",
   "meta" : {
-    "lastUpdated" : "2019-10-29T14:34:18.103+00:00"
+    "lastUpdated" : "2019-10-29T17:06:33.010+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -32,8 +32,8 @@
       "description" : "A ValueSet that identifies the residential status of a patient.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:41f304f6-6dd4-4914-ae47-27828d68a40d",
-        "timestamp" : "2019-10-29T14:34:22+00:00",
+        "identifier" : "urn:uuid:ab6d26c0-d4e5-4ce7-ac50-af272fe6f95a",
+        "timestamp" : "2019-10-29T17:06:36+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -52,6 +52,1068 @@
           "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-ResidentialStatus-1-0-0",
           "code" : "O",
           "display" : "Overseas Resident"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-TreatmentCategory-1-0-0",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "UKCore-TreatmentCategory-1-0-0",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 6 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory-1-0-0 version 1.0.0</p><p>All codes from system <a href=\"CodeSystem-UKCore-TreatmentCategory-1-0-0.html\"><code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory-1-0-0</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-TreatmentCategory-1-0-0-1\"> </a><a href=\"CodeSystem-UKCore-TreatmentCategory-1-0-0.html#UKCore-TreatmentCategory-1-0-0-1\">1</a></td><td>Exempt from payment - subject to reciprocal health agreement</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-TreatmentCategory-1-0-0-2\"> </a><a href=\"CodeSystem-UKCore-TreatmentCategory-1-0-0.html#UKCore-TreatmentCategory-1-0-0-2\">2</a></td><td>Exempt from payment - other</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-TreatmentCategory-1-0-0-3\"> </a><a href=\"CodeSystem-UKCore-TreatmentCategory-1-0-0.html#UKCore-TreatmentCategory-1-0-0-3\">3</a></td><td>To pay hotel fees only</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-TreatmentCategory-1-0-0-4\"> </a><a href=\"CodeSystem-UKCore-TreatmentCategory-1-0-0.html#UKCore-TreatmentCategory-1-0-0-4\">4</a></td><td>To pay all fees</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-TreatmentCategory-1-0-0-9\"> </a><a href=\"CodeSystem-UKCore-TreatmentCategory-1-0-0.html#UKCore-TreatmentCategory-1-0-0-9\">9</a></td><td>Charging rate not known</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-TreatmentCategory-1-0-0-8\"> </a><a href=\"CodeSystem-UKCore-TreatmentCategory-1-0-0.html#UKCore-TreatmentCategory-1-0-0-8\">8</a></td><td>Not applicable</td><td>Not an Overseas Visitor</td></tr></table></div>"
+      },
+      "url" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-TreatmentCategory-1-0-0",
+      "version" : "1.0.0",
+      "name" : "UKCoreTreatmentCategory",
+      "title" : "UK Core Treatment Category",
+      "status" : "draft",
+      "date" : "2019-10-25T01:00:00+01:00",
+      "publisher" : "NHS Digital",
+      "contact" : [{
+        "name" : "Interoperability Team",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "interoperabilityteam@nhs.net",
+          "use" : "work"
+        }]
+      }],
+      "description" : "A ValueSet that identifies the treatment category for a patient.",
+      "copyright" : "Copyright © 2019 NHS Digital",
+      "expansion" : {
+        "identifier" : "urn:uuid:9a4fb006-58c0-4d0b-9e02-191be8917986",
+        "timestamp" : "2019-10-29T17:06:36+00:00",
+        "total" : 6,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory-1-0-0|1.0.0"
+        }],
+        "contains" : [{
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory-1-0-0",
+          "code" : "1",
+          "display" : "Exempt from payment - subject to reciprocal health agreement"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory-1-0-0",
+          "code" : "2",
+          "display" : "Exempt from payment - other"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory-1-0-0",
+          "code" : "3",
+          "display" : "To pay hotel fees only"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory-1-0-0",
+          "code" : "4",
+          "display" : "To pay all fees"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory-1-0-0",
+          "code" : "9",
+          "display" : "Charging rate not known"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory-1-0-0",
+          "code" : "8",
+          "display" : "Not applicable"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-HumanLanguage-1-0-0",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "UKCore-HumanLanguage-1-0-0",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 190 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0 version 1.0.0</p><p>All codes from system <a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html\"><code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-q1\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-q1\">q1</a></td><td>Braille</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-q2\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-q2\">q2</a></td><td>American Sign Language</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-q3\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-q3\">q3</a></td><td>Australian Sign Language</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-q4\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-q4\">q4</a></td><td>British Sign Language</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-q5\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-q5\">q5</a></td><td>Makaton</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-aa\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-aa\">aa</a></td><td>Afar</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ab\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ab\">ab</a></td><td>Abkhazian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-af\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-af\">af</a></td><td>Afrikaans</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ak\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ak\">ak</a></td><td>Akan</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-sq\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-sq\">sq</a></td><td>Albanian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-am\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-am\">am</a></td><td>Amharic</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ar\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ar\">ar</a></td><td>Arabic</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-an\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-an\">an</a></td><td>Aragonese</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-hy\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-hy\">hy</a></td><td>Armenian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-as\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-as\">as</a></td><td>Assamese</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-av\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-av\">av</a></td><td>Avaric</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ae\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ae\">ae</a></td><td>Avestan</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ay\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ay\">ay</a></td><td>Aymara</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-az\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-az\">az</a></td><td>Azerbaijani</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ba\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ba\">ba</a></td><td>Bashkir</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-bm\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-bm\">bm</a></td><td>Bambara</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-eu\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-eu\">eu</a></td><td>Basque</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-be\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-be\">be</a></td><td>Belarusian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-bn\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-bn\">bn</a></td><td>Bengali</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-bh\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-bh\">bh</a></td><td>Bihari</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-bi\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-bi\">bi</a></td><td>Bislama</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-bo\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-bo\">bo</a></td><td>Tibetan</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-bs\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-bs\">bs</a></td><td>Bosnian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-br\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-br\">br</a></td><td>Breton</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-bg\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-bg\">bg</a></td><td>Bulgarian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-my\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-my\">my</a></td><td>Burmese</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ca\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ca\">ca</a></td><td>Catalan; Valencian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-cs\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-cs\">cs</a></td><td>Czech</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ch\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ch\">ch</a></td><td>Chamorro</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ce\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ce\">ce</a></td><td>Chechen</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-zh\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-zh\">zh</a></td><td>Chinese</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-cu\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-cu\">cu</a></td><td>Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-cv\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-cv\">cv</a></td><td>Chuvash</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-kw\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-kw\">kw</a></td><td>Cornish</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-co\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-co\">co</a></td><td>Corsican</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-cr\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-cr\">cr</a></td><td>Cree</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-cy\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-cy\">cy</a></td><td>Welsh</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-da\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-da\">da</a></td><td>Danish</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-de\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-de\">de</a></td><td>German</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-dv\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-dv\">dv</a></td><td>Divehi; Dhivehi; Maldivian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-nl\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-nl\">nl</a></td><td>Dutch; Flemish</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-dz\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-dz\">dz</a></td><td>Dzongkha</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-el\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-el\">el</a></td><td>Greek, Modern (1453-)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-en\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-en\">en</a></td><td>English</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-eo\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-eo\">eo</a></td><td>Esperanto</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-et\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-et\">et</a></td><td>Estonian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ee\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ee\">ee</a></td><td>Ewe</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-fo\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-fo\">fo</a></td><td>Faroese</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-fa\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-fa\">fa</a></td><td>Persian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-fj\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-fj\">fj</a></td><td>Fijian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-fi\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-fi\">fi</a></td><td>Finnish</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-fr\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-fr\">fr</a></td><td>French</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-fy\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-fy\">fy</a></td><td>Western Frisian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ff\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ff\">ff</a></td><td>Fulah</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ka\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ka\">ka</a></td><td>Georgian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-gd\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-gd\">gd</a></td><td>Gaelic; Scottish Gaelic</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ga\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ga\">ga</a></td><td>Irish</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-gl\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-gl\">gl</a></td><td>Galician</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-gv\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-gv\">gv</a></td><td>Manx</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-gn\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-gn\">gn</a></td><td>Guarani</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-gu\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-gu\">gu</a></td><td>Gujarati</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ht\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ht\">ht</a></td><td>Haitian; Haitian Creole</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ha\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ha\">ha</a></td><td>Hausa</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-he\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-he\">he</a></td><td>Hebrew</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-hz\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-hz\">hz</a></td><td>Herero</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-hi\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-hi\">hi</a></td><td>Hindi</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ho\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ho\">ho</a></td><td>Hiri Motu</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-hr\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-hr\">hr</a></td><td>Croatian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-hu\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-hu\">hu</a></td><td>Hungarian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ig\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ig\">ig</a></td><td>Igbo</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-is\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-is\">is</a></td><td>Icelandic</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-io\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-io\">io</a></td><td>Ido</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ii\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ii\">ii</a></td><td>Sichuan Yi</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-iu\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-iu\">iu</a></td><td>Inuktitut</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ie\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ie\">ie</a></td><td>Interlingue</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ia\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ia\">ia</a></td><td>Interlingua (International Auxiliary Language Association)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-id\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-id\">id</a></td><td>Indonesian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ik\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ik\">ik</a></td><td>Inupiaq</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-it\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-it\">it</a></td><td>Italian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-jv\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-jv\">jv</a></td><td>Javanese</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ja\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ja\">ja</a></td><td>Japanese</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-kl\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-kl\">kl</a></td><td>Kalaallisut; Greenlandic</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-kn\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-kn\">kn</a></td><td>Kannada</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ks\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ks\">ks</a></td><td>Kashmiri</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-kr\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-kr\">kr</a></td><td>Kanuri</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-kk\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-kk\">kk</a></td><td>Kazakh</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-km\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-km\">km</a></td><td>Central Khmer</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ki\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ki\">ki</a></td><td>Kikuyu; Gikuyu</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-rw\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-rw\">rw</a></td><td>Kinyarwanda</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ky\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ky\">ky</a></td><td>Kirghiz; Kyrgyz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-kv\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-kv\">kv</a></td><td>Komi</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-kg\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-kg\">kg</a></td><td>Kongo</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ko\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ko\">ko</a></td><td>Korean</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-kj\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-kj\">kj</a></td><td>Kuanyama; Kwanyama</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ku\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ku\">ku</a></td><td>Kurdish</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-lo\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-lo\">lo</a></td><td>Lao</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-la\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-la\">la</a></td><td>Latin</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-lv\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-lv\">lv</a></td><td>Latvian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-li\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-li\">li</a></td><td>Limburgan; Limburger; Limburgish</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ln\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ln\">ln</a></td><td>Lingala</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-lt\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-lt\">lt</a></td><td>Lithuanian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-lb\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-lb\">lb</a></td><td>Luxembourgish; Letzeburgesch</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-lu\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-lu\">lu</a></td><td>Luba-Katanga</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-lg\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-lg\">lg</a></td><td>Ganda</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-mk\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-mk\">mk</a></td><td>Macedonian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-mh\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-mh\">mh</a></td><td>Marshallese</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ml\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ml\">ml</a></td><td>Malayalam</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-mi\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-mi\">mi</a></td><td>Maori</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-mr\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-mr\">mr</a></td><td>Marathi</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ms\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ms\">ms</a></td><td>Malay</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-mg\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-mg\">mg</a></td><td>Malagasy</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-mt\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-mt\">mt</a></td><td>Maltese</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-mo\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-mo\">mo</a></td><td>Moldavian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-mn\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-mn\">mn</a></td><td>Mongolian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-na\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-na\">na</a></td><td>Nauru</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-nv\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-nv\">nv</a></td><td>Navajo; Navaho</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-nr\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-nr\">nr</a></td><td>Ndebele, South; South Ndebele</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-nd\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-nd\">nd</a></td><td>Ndebele, North; North Ndebele</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ng\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ng\">ng</a></td><td>Ndonga</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ne\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ne\">ne</a></td><td>Nepali</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-nn\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-nn\">nn</a></td><td>Norwegian Nynorsk; Nynorsk, Norwegian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-nb\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-nb\">nb</a></td><td>Bokmal, Norwegian; Norwegian Bokmal</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-no\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-no\">no</a></td><td>Norwegian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ny\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ny\">ny</a></td><td>Chichewa; Chewa; Nyanja</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-oc\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-oc\">oc</a></td><td>Occitan (post1500); Provencal</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-oj\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-oj\">oj</a></td><td>Ojibwa</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-or\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-or\">or</a></td><td>Oriya</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-om\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-om\">om</a></td><td>Oromo</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-os\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-os\">os</a></td><td>Ossetian; Ossetic</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-pa\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-pa\">pa</a></td><td>Panjabi; Punjabi</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-pi\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-pi\">pi</a></td><td>Pali</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-pl\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-pl\">pl</a></td><td>Polish</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-pt\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-pt\">pt</a></td><td>Portuguese</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ps\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ps\">ps</a></td><td>Pushto</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-qu\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-qu\">qu</a></td><td>Quechua</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-rm\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-rm\">rm</a></td><td>Romansh</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ro\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ro\">ro</a></td><td>Romanian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-rn\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-rn\">rn</a></td><td>Rundi</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ru\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ru\">ru</a></td><td>Russian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-sg\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-sg\">sg</a></td><td>Sango</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-sa\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-sa\">sa</a></td><td>Sanskrit</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-sr\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-sr\">sr</a></td><td>Serbian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-si\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-si\">si</a></td><td>Sinhala; Sinhalese</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-sk\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-sk\">sk</a></td><td>Slovak</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-sl\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-sl\">sl</a></td><td>Slovenian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-se\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-se\">se</a></td><td>Northern Sami</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-sm\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-sm\">sm</a></td><td>Samoan</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-sn\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-sn\">sn</a></td><td>Shona</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-sd\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-sd\">sd</a></td><td>Sindhi</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-so\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-so\">so</a></td><td>Somali</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-st\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-st\">st</a></td><td>Sotho, Southern</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-es\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-es\">es</a></td><td>Spanish; Castilian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-sc\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-sc\">sc</a></td><td>Sardinian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ss\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ss\">ss</a></td><td>Swati</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-su\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-su\">su</a></td><td>Sundanese</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-sw\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-sw\">sw</a></td><td>Swahili</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-sv\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-sv\">sv</a></td><td>Swedish</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ty\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ty\">ty</a></td><td>Tahitian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ta\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ta\">ta</a></td><td>Tamil</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-tt\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-tt\">tt</a></td><td>Tatar</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-te\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-te\">te</a></td><td>Telugu</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-tg\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-tg\">tg</a></td><td>Tajik</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-tl\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-tl\">tl</a></td><td>Tagalog</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-th\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-th\">th</a></td><td>Thai</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ti\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ti\">ti</a></td><td>Tigrinya</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-to\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-to\">to</a></td><td>Tonga (Tonga Islands)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-tn\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-tn\">tn</a></td><td>Tswana</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ts\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ts\">ts</a></td><td>Tsonga</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-tk\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-tk\">tk</a></td><td>Turkmen</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-tr\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-tr\">tr</a></td><td>Turkish</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-tw\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-tw\">tw</a></td><td>Twi</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ug\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ug\">ug</a></td><td>Uighur; Uyghur</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-uk\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-uk\">uk</a></td><td>Ukrainian</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ur\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ur\">ur</a></td><td>Urdu</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-uz\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-uz\">uz</a></td><td>Uzbek</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-ve\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-ve\">ve</a></td><td>Venda</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-vi\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-vi\">vi</a></td><td>Vietnamese</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-vo\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-vo\">vo</a></td><td>Volapuk</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-wa\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-wa\">wa</a></td><td>Walloon</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-wo\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-wo\">wo</a></td><td>Wolof</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-xh\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-xh\">xh</a></td><td>Xhosa</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-yi\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-yi\">yi</a></td><td>Yiddish</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-yo\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-yo\">yo</a></td><td>Yoruba</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-za\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-za\">za</a></td><td>Zhuang; Chuang</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-HumanLanguage-1-0-0-zu\"> </a><a href=\"CodeSystem-UKCore-HumanLanguage-1-0-0.html#UKCore-HumanLanguage-1-0-0-zu\">zu</a></td><td>Zulu</td><td/></tr></table></div>"
+      },
+      "url" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-HumanLanguage-1-0-0",
+      "version" : "1.0.0",
+      "name" : "UKCoreHumanLanguage",
+      "title" : "UK Core Human Language",
+      "status" : "draft",
+      "date" : "2019-10-25T01:00:00+01:00",
+      "publisher" : "NHS Digital",
+      "contact" : [{
+        "name" : "Interoperability Team",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "interoperabilityteam@nhs.net",
+          "use" : "work"
+        }]
+      }],
+      "description" : "A ValueSet that identifies the language used by a person.",
+      "copyright" : "Copyright © 2019 NHS Digital",
+      "expansion" : {
+        "identifier" : "urn:uuid:bb64cf3c-8c8b-47bd-85aa-abd1251fd3aa",
+        "timestamp" : "2019-10-29T17:06:36+00:00",
+        "total" : 190,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0|1.0.0"
+        }],
+        "contains" : [{
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "q1",
+          "display" : "Braille"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "q2",
+          "display" : "American Sign Language"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "q3",
+          "display" : "Australian Sign Language"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "q4",
+          "display" : "British Sign Language"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "q5",
+          "display" : "Makaton"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "aa",
+          "display" : "Afar"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ab",
+          "display" : "Abkhazian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "af",
+          "display" : "Afrikaans"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ak",
+          "display" : "Akan"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "sq",
+          "display" : "Albanian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "am",
+          "display" : "Amharic"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ar",
+          "display" : "Arabic"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "an",
+          "display" : "Aragonese"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "hy",
+          "display" : "Armenian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "as",
+          "display" : "Assamese"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "av",
+          "display" : "Avaric"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ae",
+          "display" : "Avestan"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ay",
+          "display" : "Aymara"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "az",
+          "display" : "Azerbaijani"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ba",
+          "display" : "Bashkir"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "bm",
+          "display" : "Bambara"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "eu",
+          "display" : "Basque"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "be",
+          "display" : "Belarusian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "bn",
+          "display" : "Bengali"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "bh",
+          "display" : "Bihari"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "bi",
+          "display" : "Bislama"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "bo",
+          "display" : "Tibetan"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "bs",
+          "display" : "Bosnian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "br",
+          "display" : "Breton"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "bg",
+          "display" : "Bulgarian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "my",
+          "display" : "Burmese"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ca",
+          "display" : "Catalan; Valencian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "cs",
+          "display" : "Czech"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ch",
+          "display" : "Chamorro"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ce",
+          "display" : "Chechen"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "zh",
+          "display" : "Chinese"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "cu",
+          "display" : "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "cv",
+          "display" : "Chuvash"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "kw",
+          "display" : "Cornish"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "co",
+          "display" : "Corsican"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "cr",
+          "display" : "Cree"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "cy",
+          "display" : "Welsh"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "da",
+          "display" : "Danish"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "de",
+          "display" : "German"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "dv",
+          "display" : "Divehi; Dhivehi; Maldivian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "nl",
+          "display" : "Dutch; Flemish"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "dz",
+          "display" : "Dzongkha"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "el",
+          "display" : "Greek, Modern (1453-)"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "en",
+          "display" : "English"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "eo",
+          "display" : "Esperanto"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "et",
+          "display" : "Estonian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ee",
+          "display" : "Ewe"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "fo",
+          "display" : "Faroese"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "fa",
+          "display" : "Persian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "fj",
+          "display" : "Fijian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "fi",
+          "display" : "Finnish"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "fr",
+          "display" : "French"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "fy",
+          "display" : "Western Frisian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ff",
+          "display" : "Fulah"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ka",
+          "display" : "Georgian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "gd",
+          "display" : "Gaelic; Scottish Gaelic"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ga",
+          "display" : "Irish"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "gl",
+          "display" : "Galician"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "gv",
+          "display" : "Manx"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "gn",
+          "display" : "Guarani"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "gu",
+          "display" : "Gujarati"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ht",
+          "display" : "Haitian; Haitian Creole"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ha",
+          "display" : "Hausa"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "he",
+          "display" : "Hebrew"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "hz",
+          "display" : "Herero"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "hi",
+          "display" : "Hindi"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ho",
+          "display" : "Hiri Motu"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "hr",
+          "display" : "Croatian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "hu",
+          "display" : "Hungarian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ig",
+          "display" : "Igbo"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "is",
+          "display" : "Icelandic"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "io",
+          "display" : "Ido"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ii",
+          "display" : "Sichuan Yi"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "iu",
+          "display" : "Inuktitut"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ie",
+          "display" : "Interlingue"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ia",
+          "display" : "Interlingua (International Auxiliary Language Association)"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "id",
+          "display" : "Indonesian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ik",
+          "display" : "Inupiaq"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "it",
+          "display" : "Italian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "jv",
+          "display" : "Javanese"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ja",
+          "display" : "Japanese"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "kl",
+          "display" : "Kalaallisut; Greenlandic"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "kn",
+          "display" : "Kannada"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ks",
+          "display" : "Kashmiri"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "kr",
+          "display" : "Kanuri"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "kk",
+          "display" : "Kazakh"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "km",
+          "display" : "Central Khmer"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ki",
+          "display" : "Kikuyu; Gikuyu"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "rw",
+          "display" : "Kinyarwanda"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ky",
+          "display" : "Kirghiz; Kyrgyz"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "kv",
+          "display" : "Komi"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "kg",
+          "display" : "Kongo"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ko",
+          "display" : "Korean"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "kj",
+          "display" : "Kuanyama; Kwanyama"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ku",
+          "display" : "Kurdish"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "lo",
+          "display" : "Lao"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "la",
+          "display" : "Latin"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "lv",
+          "display" : "Latvian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "li",
+          "display" : "Limburgan; Limburger; Limburgish"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ln",
+          "display" : "Lingala"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "lt",
+          "display" : "Lithuanian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "lb",
+          "display" : "Luxembourgish; Letzeburgesch"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "lu",
+          "display" : "Luba-Katanga"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "lg",
+          "display" : "Ganda"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "mk",
+          "display" : "Macedonian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "mh",
+          "display" : "Marshallese"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ml",
+          "display" : "Malayalam"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "mi",
+          "display" : "Maori"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "mr",
+          "display" : "Marathi"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ms",
+          "display" : "Malay"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "mg",
+          "display" : "Malagasy"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "mt",
+          "display" : "Maltese"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "mo",
+          "display" : "Moldavian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "mn",
+          "display" : "Mongolian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "na",
+          "display" : "Nauru"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "nv",
+          "display" : "Navajo; Navaho"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "nr",
+          "display" : "Ndebele, South; South Ndebele"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "nd",
+          "display" : "Ndebele, North; North Ndebele"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ng",
+          "display" : "Ndonga"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ne",
+          "display" : "Nepali"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "nn",
+          "display" : "Norwegian Nynorsk; Nynorsk, Norwegian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "nb",
+          "display" : "Bokmal, Norwegian; Norwegian Bokmal"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "no",
+          "display" : "Norwegian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ny",
+          "display" : "Chichewa; Chewa; Nyanja"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "oc",
+          "display" : "Occitan (post1500); Provencal"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "oj",
+          "display" : "Ojibwa"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "or",
+          "display" : "Oriya"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "om",
+          "display" : "Oromo"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "os",
+          "display" : "Ossetian; Ossetic"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "pa",
+          "display" : "Panjabi; Punjabi"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "pi",
+          "display" : "Pali"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "pl",
+          "display" : "Polish"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "pt",
+          "display" : "Portuguese"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ps",
+          "display" : "Pushto"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "qu",
+          "display" : "Quechua"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "rm",
+          "display" : "Romansh"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ro",
+          "display" : "Romanian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "rn",
+          "display" : "Rundi"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ru",
+          "display" : "Russian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "sg",
+          "display" : "Sango"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "sa",
+          "display" : "Sanskrit"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "sr",
+          "display" : "Serbian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "si",
+          "display" : "Sinhala; Sinhalese"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "sk",
+          "display" : "Slovak"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "sl",
+          "display" : "Slovenian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "se",
+          "display" : "Northern Sami"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "sm",
+          "display" : "Samoan"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "sn",
+          "display" : "Shona"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "sd",
+          "display" : "Sindhi"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "so",
+          "display" : "Somali"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "st",
+          "display" : "Sotho, Southern"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "es",
+          "display" : "Spanish; Castilian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "sc",
+          "display" : "Sardinian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ss",
+          "display" : "Swati"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "su",
+          "display" : "Sundanese"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "sw",
+          "display" : "Swahili"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "sv",
+          "display" : "Swedish"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ty",
+          "display" : "Tahitian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ta",
+          "display" : "Tamil"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "tt",
+          "display" : "Tatar"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "te",
+          "display" : "Telugu"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "tg",
+          "display" : "Tajik"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "tl",
+          "display" : "Tagalog"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "th",
+          "display" : "Thai"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ti",
+          "display" : "Tigrinya"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "to",
+          "display" : "Tonga (Tonga Islands)"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "tn",
+          "display" : "Tswana"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ts",
+          "display" : "Tsonga"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "tk",
+          "display" : "Turkmen"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "tr",
+          "display" : "Turkish"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "tw",
+          "display" : "Twi"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ug",
+          "display" : "Uighur; Uyghur"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "uk",
+          "display" : "Ukrainian"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ur",
+          "display" : "Urdu"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "uz",
+          "display" : "Uzbek"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "ve",
+          "display" : "Venda"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "vi",
+          "display" : "Vietnamese"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "vo",
+          "display" : "Volapuk"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "wa",
+          "display" : "Walloon"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "wo",
+          "display" : "Wolof"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "xh",
+          "display" : "Xhosa"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "yi",
+          "display" : "Yiddish"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "yo",
+          "display" : "Yoruba"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "za",
+          "display" : "Zhuang; Chuang"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0",
+          "code" : "zu",
+          "display" : "Zulu"
         }]
       }
     }
@@ -87,8 +1149,8 @@
       "description" : "A ValueSet to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a person's ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:d25f34f6-fb5c-4fe0-9a52-24088fcdc69b",
-        "timestamp" : "2019-10-29T14:34:22+00:00",
+        "identifier" : "urn:uuid:264a323e-e734-4e6c-a05b-5394487cd09b",
+        "timestamp" : "2019-10-29T17:06:37+00:00",
         "total" : 68,
         "parameter" : [{
           "name" : "excludeNested",
@@ -472,8 +1534,8 @@
       "description" : "A ValueSet that identifies the trace status of the NHS number. The CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:9051cb5a-3952-4b83-a95b-e6ded5e405c8",
-        "timestamp" : "2019-10-29T14:34:22+00:00",
+        "identifier" : "urn:uuid:8d9e8512-1dd5-4ad9-bfde-96b637b8d8be",
+        "timestamp" : "2019-10-29T17:06:37+00:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
@@ -549,8 +1611,8 @@
       "description" : "An indicator to identify the legal marital status of a Person.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:e729edb7-985c-4a83-9979-d7c560a9577f",
-        "timestamp" : "2019-10-29T14:34:23+00:00",
+        "identifier" : "urn:uuid:91af3f0c-1646-4b50-b937-2e5eeeb90843",
+        "timestamp" : "2019-10-29T17:06:37+00:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -616,8 +1678,8 @@
       "description" : "The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:f2e09d2d-4776-4bef-88a7-d2895f9c172f",
-        "timestamp" : "2019-10-29T14:34:24+00:00",
+        "identifier" : "urn:uuid:b786c453-56bf-4537-a273-e52d7ac4fef6",
+        "timestamp" : "2019-10-29T17:06:39+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",

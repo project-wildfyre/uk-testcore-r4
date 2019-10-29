@@ -51,6 +51,30 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-UKCore-TreatmentCategory-1-0-0.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/UKCore-TreatmentCategory-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-UKCore-HumanLanguage-1-0-0.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/UKCore-HumanLanguage-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
         <valueUri value="ValueSet-UKCore-EthnicCategory-1-0-0.html"/>
       </extension>
       <reference>
@@ -103,6 +127,30 @@
       </extension>
       <reference>
         <reference value="CodeSystem/UKCore-ResidentialStatus-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CodeSystem-UKCore-TreatmentCategory-1-0-0.html"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/UKCore-TreatmentCategory-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CodeSystem-UKCore-HumanLanguage-1-0-0.html"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/UKCore-HumanLanguage-1-0-0"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

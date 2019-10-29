@@ -75,6 +75,18 @@
     },
     {
       "reference" : {
+        "reference" : "ValueSet/UKCore-TreatmentCategory-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/UKCore-HumanLanguage-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "ValueSet/UKCore-EthnicCategory-1-0-0"
       },
       "exampleBoolean" : false
@@ -100,6 +112,18 @@
     {
       "reference" : {
         "reference" : "CodeSystem/UKCore-ResidentialStatus-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "CodeSystem/UKCore-TreatmentCategory-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "CodeSystem/UKCore-HumanLanguage-1-0-0"
       },
       "exampleBoolean" : false
     },

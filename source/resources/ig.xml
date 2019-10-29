@@ -36,6 +36,18 @@
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>
+			<resource>
+			<reference>
+				<reference value="ValueSet/UKCore-TreatmentCategory-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+			<resource>
+			<reference>
+				<reference value="ValueSet/UKCore-HumanLanguage-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
 		<resource>
 			<reference>
 				<reference value="ValueSet/UKCore-EthnicCategory-1-0-0"/>
@@ -63,6 +75,18 @@
 		<resource>
 			<reference>
 				<reference value="CodeSystem/UKCore-ResidentialStatus-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+			<resource>
+			<reference>
+				<reference value="CodeSystem/UKCore-TreatmentCategory-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+					<resource>
+			<reference>
+				<reference value="CodeSystem/UKCore-HumanLanguage-1-0-0"/>
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>
@@ -126,7 +150,7 @@
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>
-		<resource>
+			<resource>
 			<reference>
 				<reference value="StructureDefinition/Extension-UKCore-ReligiousAffiliation-1-0-0"/>
 			</reference>
