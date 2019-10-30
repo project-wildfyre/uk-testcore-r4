@@ -3,39 +3,39 @@
   "id" : "nhsdigital-fhir-r4-core-demo",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\RepoGitHub\\FHIR-R4-Core-IG-1.0.0\\source\\resources"
+    "valueString" : "C:\\Git\\FHIR-R4-Core-IG-1.0.0\\source\\resources"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\RepoGitHub\\FHIR-R4-Core-IG-1.0.0\\source\\codesystems"
+    "valueString" : "C:\\Git\\FHIR-R4-Core-IG-1.0.0\\source\\codesystems"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\RepoGitHub\\FHIR-R4-Core-IG-1.0.0\\source\\valuesets"
+    "valueString" : "C:\\Git\\FHIR-R4-Core-IG-1.0.0\\source\\valuesets"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\RepoGitHub\\FHIR-R4-Core-IG-1.0.0\\source\\structuredefinitions"
+    "valueString" : "C:\\Git\\FHIR-R4-Core-IG-1.0.0\\source\\structuredefinitions"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\RepoGitHub\\FHIR-R4-Core-IG-1.0.0\\source\\examples"
+    "valueString" : "C:\\Git\\FHIR-R4-Core-IG-1.0.0\\source\\examples"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\RepoGitHub\\FHIR-R4-Core-IG-1.0.0\\source\\searchparameters"
+    "valueString" : "C:\\Git\\FHIR-R4-Core-IG-1.0.0\\source\\searchparameters"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\RepoGitHub\\FHIR-R4-Core-IG-1.0.0\\source\\conceptmaps"
+    "valueString" : "C:\\Git\\FHIR-R4-Core-IG-1.0.0\\source\\conceptmaps"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
-    "valueString" : "C:\\RepoGitHub\\FHIR-R4-Core-IG-1.0.0\\framework"
+    "valueString" : "C:\\Git\\FHIR-R4-Core-IG-1.0.0\\framework"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
-    "valueString" : "C:\\RepoGitHub\\FHIR-R4-Core-IG-1.0.0\\source\\pages"
+    "valueString" : "C:\\Git\\FHIR-R4-Core-IG-1.0.0\\source\\pages"
   }],
   "url" : "https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-demo",
   "version" : "1.0.0",
@@ -87,6 +87,24 @@
     },
     {
       "reference" : {
+        "reference" : "ValueSet/UKCore-LanguageAbilityMode-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/UKCore-LanguageAbilityProficiency-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/UKCore-DeathNotificationStatus-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "ValueSet/UKCore-EthnicCategory-1-0-0"
       },
       "exampleBoolean" : false
@@ -124,6 +142,24 @@
     {
       "reference" : {
         "reference" : "CodeSystem/UKCore-HumanLanguage-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "CodeSystem/UKCore-LanguageAbilityMode-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "CodeSystem/UKCore-DeathNotificationStatus-1-0-0"
       },
       "exampleBoolean" : false
     },

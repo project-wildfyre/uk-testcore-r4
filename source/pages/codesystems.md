@@ -11,6 +11,8 @@ This page lists all the CodeSystems defined as part of this Implementation Guide
 - [UK Core Death Notification Status](CodeSystem-UKCore-DeathNotificationStatus-1-0-0.html)
 - [UK Core Ethnic Category](CodeSystem-UKCore-EthnicCategory-1-0-0.html)
 - [UK Core Human Language](CodeSystem-UKCore-HumanLanguage-1-0-0.html)
+- [UK Core Language Ability Mode](CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.html)
+- [UK Core Language Ability Proficiency](CodeSystem-UKCore-LanguageAbilityMode-1-0-0.html)
 - [UK Core NHS Number Verification Status](CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0.html)
 - [UK Core Residential Status](CodeSystem-UKCore-ResidentialStatus-1-0-0.html)
 - [UK Core Treatment Category](CodeSystem-UKCore-TreatmentCategory-1-0-0.html)

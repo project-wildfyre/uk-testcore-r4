@@ -14,6 +14,8 @@ This page lists all the ValueSets defined as part of this Implementation Guide.
 - [UK Core Death Notification Status](ValueSet-UKCore-DeathNotificationStatus-1-0-0.html)
 - [UK Core Ethnic Category](ValueSet-UKCore-EthnicCategory-1-0-0.html)
 - [UK Core Human Language](ValueSet-UKCore-HumanLanguage-1-0-0.html)
+- [UK Core Language Ability Mode](ValueSet-UKCore-LanguageAbilityMode-1-0-0.html)
+- [UK Core Language Ability Proficiency](ValueSet-UKCore-LanguageAbilityProficiency-1-0-0.html)
 - [UK Core NHS Number Verification Status](ValueSet-UKCore-NHSNumberVerificationStatus-1-0-0.html)
 - [UK Core Residential Status](ValueSet-UKCore-ResidentialStatus-1-0-0.html)
 - [UK Core Treatment Category](ValueSet-UKCore-TreatmentCategory-1-0-0.html)
