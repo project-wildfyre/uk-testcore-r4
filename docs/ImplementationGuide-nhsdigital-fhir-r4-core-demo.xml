@@ -298,5 +298,29 @@
       </reference>
       <exampleBoolean value="false"/>
     </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Extension-UKCore-TreatmentCategory-1-0-0.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-TreatmentCategory-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Extension-UKCore-NominatedPharmacy-1-0-0.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-NominatedPharmacy-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
   </definition>
 </ImplementationGuide>

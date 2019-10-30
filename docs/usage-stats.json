@@ -19,6 +19,13 @@
       ]
     },
     {
+      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NominatedPharmacy-1-0-0",
+      "title": "UK Core Nominated Pharmacy Extension",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
       "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ReligiousAffiliation-1-0-0",
       "title": "UK Core Religious Affiliation Extension",
       "types": [
@@ -28,6 +35,13 @@
     {
       "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ResidentialStatus-1-0-0",
       "title": "UK Core Residential Status Extension",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-TreatmentCategory-1-0-0",
+      "title": "UK Core Treatment Category Extension",
       "types": [
         "CodeableConcept"
       ]

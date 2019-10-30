@@ -398,6 +398,38 @@
           "reference": "StructureDefinition/Extension-UKCore-ResidentialStatus-1-0-0"
         },
         "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Extension-UKCore-TreatmentCategory-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-TreatmentCategory-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Extension-UKCore-NominatedPharmacy-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-NominatedPharmacy-1-0-0"
+        },
+        "exampleBoolean": false
       }
     ]
   }

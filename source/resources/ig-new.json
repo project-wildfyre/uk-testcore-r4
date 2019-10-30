@@ -198,6 +198,18 @@
         "reference" : "StructureDefinition/Extension-UKCore-ResidentialStatus-1-0-0"
       },
       "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/Extension-UKCore-TreatmentCategory-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/Extension-UKCore-NominatedPharmacy-1-0-0"
+      },
+      "exampleBoolean" : false
     }],
     "parameter" : [{
       "code" : "apply",

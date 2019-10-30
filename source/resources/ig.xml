@@ -162,6 +162,18 @@
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Extension-UKCore-TreatmentCategory-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Extension-UKCore-NominatedPharmacy-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
 		<!--<resource>
 			<reference>
 				<reference value="CodeSystem/CodeSystem-UKConnect-CodeSystem-1"/>

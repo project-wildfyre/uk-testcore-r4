@@ -142,6 +142,16 @@
 			"base": "Extension-UKCore-ResidentialStatus-1-0-0.html",
 			"defns": "Extension-UKCore-ResidentialStatus-1-0-0-definitions.html"
 		},
+			"StructureDefinition/Extension-UKCore-TreatmentCategory-1-0-0": {
+			"source": "Extension-UKCore-TreatmentCategory-1-0-0.xml",
+			"base": "Extension-UKCore-TreatmentCategory-1-0-0.html",
+			"defns": "Extension-UKCore-TreatmentCategory-1-0-0-definitions.html"
+		},
+			"StructureDefinition/Extension-UKCore-NominatedPharmacy-1-0-0": {
+			"source": "Extension-UKCore-NominatedPharmacy-1-0-0.xml",
+			"base": "Extension-UKCore-NominatedPharmacy-1-0-0.html",
+			"defns": "Extension-UKCore-NominatedPharmacy-1-0-0-definitions.html"
+		},
 		"CodeSystem/CodeSystem-CareConnect-LanguageAbilityMode-1": {
 			"source": "CodeSystem-CareConnect-LanguageAbilityMode-1.xml",
 			"base": "CodeSystem-CareConnect-LanguageAbilityMode-1.html"

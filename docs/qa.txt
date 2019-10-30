@@ -3,9 +3,9 @@
 
 err = 2, warn = 0, info = 0
 IG Publisher Version: v0.9.87-SNAPSHOT Out of date - current version is v0.9.88-SNAPSHOT
-Generated Tue Oct 29 17:07:35 GMT 2019. FHIR version 4.0.0 for nhsdigital.fhir.r4.core.demo#1.0.0 (canonical = https://fhir.nhs.uk/R4)
+Generated Wed Oct 30 02:04:38 GMT 2019. FHIR version 4.0.0 for nhsdigital.fhir.r4.core.demo#1.0.0 (canonical = https://fhir.nhs.uk/R4)
 
- Build Errors : 87 / 1
+ Build Errors : 95 / 1
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-EthnicCategory-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-HumanLanguage-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0 : 0 / 0
@@ -18,8 +18,10 @@ Generated Tue Oct 29 17:07:35 GMT 2019. FHIR version 4.0.0 for nhsdigital.fhir.r
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\resources\ig : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\Extension-UKCore-EthnicCategory-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\Extension-UKCore-NHSNumberVerificationStatus-1-0-0 : 0 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\Extension-UKCore-NominatedPharmacy-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\Extension-UKCore-ReligiousAffiliation-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\Extension-UKCore-ResidentialStatus-1-0-0 : 0 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\Extension-UKCore-TreatmentCategory-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\UKCore-Patient-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-EthnicCategory-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-HumanLanguage-1-0-0 : 0 / 0
@@ -64,10 +66,14 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\Extension-UKCore-EthnicCategory-
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\Extension-UKCore-EthnicCategory-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\Extension-UKCore-NHSNumberVerificationStatus-1-0-0-definitions.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\Extension-UKCore-NHSNumberVerificationStatus-1-0-0.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\Extension-UKCore-NominatedPharmacy-1-0-0-definitions.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\Extension-UKCore-NominatedPharmacy-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\Extension-UKCore-ReligiousAffiliation-1-0-0-definitions.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\Extension-UKCore-ReligiousAffiliation-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\Extension-UKCore-ResidentialStatus-1-0-0-definitions.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\Extension-UKCore-ResidentialStatus-1-0-0.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\Extension-UKCore-TreatmentCategory-1-0-0-definitions.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\Extension-UKCore-TreatmentCategory-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ImplementationGuide-nhsdigital-fhir-r4-core-demo.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ImplementationGuide-nhsdigital-fhir-r4-core-demo.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ImplementationGuide-nhsdigital-fhir-r4-core-demo.xml.html: The html source does not contain the publish box
@@ -75,10 +81,14 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\StructureDefinition-Extension-UK
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\StructureDefinition-Extension-UKCore-EthnicCategory-1-0-0.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\StructureDefinition-Extension-UKCore-NHSNumberVerificationStatus-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\StructureDefinition-Extension-UKCore-NHSNumberVerificationStatus-1-0-0.xml.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\StructureDefinition-Extension-UKCore-NominatedPharmacy-1-0-0.json.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\StructureDefinition-Extension-UKCore-NominatedPharmacy-1-0-0.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\StructureDefinition-Extension-UKCore-ReligiousAffiliation-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\StructureDefinition-Extension-UKCore-ReligiousAffiliation-1-0-0.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\StructureDefinition-Extension-UKCore-ResidentialStatus-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\StructureDefinition-Extension-UKCore-ResidentialStatus-1-0-0.xml.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\StructureDefinition-Extension-UKCore-TreatmentCategory-1-0-0.json.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\StructureDefinition-Extension-UKCore-TreatmentCategory-1-0-0.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\StructureDefinition-UKCore-Patient-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\StructureDefinition-UKCore-Patient-1-0-0.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\UKCore-Patient-1-0-0-definitions.html: The html source does not contain the publish box
@@ -131,8 +141,10 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\valuesets.html: The html source 
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\resources\ig.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\Extension-UKCore-EthnicCategory-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\Extension-UKCore-NHSNumberVerificationStatus-1-0-0.xml ==
+== C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\Extension-UKCore-NominatedPharmacy-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\Extension-UKCore-ReligiousAffiliation-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\Extension-UKCore-ResidentialStatus-1-0-0.xml ==
+== C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\Extension-UKCore-TreatmentCategory-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\UKCore-Patient-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-EthnicCategory-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-HumanLanguage-1-0-0.xml ==
