@@ -4,7 +4,7 @@
   <url value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSCommunication-1-0-0" />
   <version value="1.0.0" />
   <name value="ExtensionUKCoreNHSCommunication" />
-  <title value="Extension UK Core NHS Communication Extension" />
+  <title value="UK Core NHS Communication Extension" />
   <status value="draft" />
   <date value="2019-10-30" />
   <publisher value="NHS Digital" />
@@ -57,7 +57,7 @@
     <element id="Extension.extension:language">
       <path value="Extension.extension" />
       <sliceName value="language" />
-      <sliceIsConstraining value="true" />
+      <sliceIsConstraining value="false" />
       <short value="Languages which may be used for communication" />
       <min value="1" />
       <max value="1" />
@@ -83,7 +83,7 @@
     <element id="Extension.extension:preferred">
       <path value="Extension.extension" />
       <sliceName value="preferred" />
-      <sliceIsConstraining value="true" />
+      <sliceIsConstraining value="false" />
       <short value="Language preference indicator" />
     </element>
     <element id="Extension.extension:preferred.url">
@@ -101,7 +101,7 @@
     <element id="Extension.extension:modeOfCommunication">
       <path value="Extension.extension" />
       <sliceName value="modeOfCommunication" />
-      <sliceIsConstraining value="true" />
+      <sliceIsConstraining value="false" />
       <short value="Mode of communication for the selected language" />
     </element>
     <element id="Extension.extension:modeOfCommunication.url">
@@ -124,7 +124,7 @@
     <element id="Extension.extension:communicationProficiency">
       <path value="Extension.extension" />
       <sliceName value="communicationProficiency" />
-      <sliceIsConstraining value="true" />
+      <sliceIsConstraining value="false" />
       <short value="The level of proficiency in communicating a language" />
       <max value="1" />
     </element>
@@ -148,7 +148,7 @@
     <element id="Extension.extension:interpreterRequired">
       <path value="Extension.extension" />
       <sliceName value="interpreterRequired" />
-      <sliceIsConstraining value="true" />
+      <sliceIsConstraining value="false" />
       <short value="Interpreter preference indicator" />
       <max value="1" />
     </element>
