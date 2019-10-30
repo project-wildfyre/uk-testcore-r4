@@ -219,6 +219,12 @@
     },
     {
       "reference" : {
+        "reference" : "StructureDefinition/Extension-UKCore-NHSCommunication-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "StructureDefinition/Extension-UKCore-EthnicCategory-1-0-0"
       },
       "exampleBoolean" : false
