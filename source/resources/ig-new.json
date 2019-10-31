@@ -99,6 +99,12 @@
     },
     {
       "reference" : {
+        "reference" : "ValueSet/UKCore-SDSJobRoleName-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "ValueSet/UKCore-DeathNotificationStatus-1-0-0"
       },
       "exampleBoolean" : false
@@ -154,6 +160,12 @@
     {
       "reference" : {
         "reference" : "CodeSystem/UKCore-LanguageAbilityMode-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "CodeSystem/UKCore-SDSJobRoleName-1-0-0"
       },
       "exampleBoolean" : false
     },

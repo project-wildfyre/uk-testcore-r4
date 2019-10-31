@@ -61,6 +61,18 @@
 			"source": "ValueSet-UKCore-HumanLanguage-1-0-0.xml",
 			"base": "ValueSet-UKCore-HumanLanguage-1-0-0.html"
 		},
+		"ValueSet/UKCore-LanguageAbilityMode-1-0-0": {
+			"source": "ValueSet-UKCore-LanguageAbilityMode-1-0-0.xml",
+			"base": "ValueSet-UKCore-LanguageAbilityMode-1-0-0.html"
+		},
+		"ValueSet/UKCore-LanguageAbilityProficiency-1-0-0": {
+			"source": "ValueSet-UKCore-LanguageAbilityProficiency-1-0-0.xml",
+			"base": "ValueSet-UKCore-LanguageAbilityProficiency-1-0-0.html"
+		},
+		"ValueSet/UKCore-SDSJobRoleName-1-0-0": {
+			"source": "ValueSet-UKCore-SDSJobRoleName-1-0-0.xml",
+			"base": "ValueSet-UKCore-SDSJobRoleName-1-0-0.html"
+		},		
 		"ValueSet/UKCore-NHSNumberVerificationStatus-1-0-0": {
 			"source": "ValueSet-UKCore-NHSNumberVerificationStatus-1-0-0.xml",
 			"base": "ValueSet-UKCore-NHSNumberVerificationStatus-1-0-0.html"
@@ -93,6 +105,14 @@
 			"source": "CodeSystem-UKCore-HumanLanguage-1-0-0.xml",
 			"base": "CodeSystem-UKCore-HumanLanguage-1-0-0.html"
 		},
+		"CodeSystem/UKCore-LanguageAbilityMode-1-0-0": {
+			"source": "CodeSystem-UKCore-LanguageAbilityMode-1-0-0.xml",
+			"base": "CodeSystem-UKCore-LanguageAbilityMode-1-0-0.html"
+		},
+		"CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0": {
+			"source": "CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.xml",
+			"base": "CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.html"
+		},
 		"CodeSystem/UKCore-NHSNumberVerificationStatus-1-0-0": {
 			"source": "CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0.xml",
 			"base": "CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0.html"
@@ -108,6 +128,10 @@
 		"CodeSystem/UKCore-TreatmentCategory-1-0-0": {
 			"source": "CodeSystem-UKCore-TreatmentCategory-1-0-0.xml",
 			"base": "CodeSystem-UKCore-TreatmentCategory-1-0-0.html"
+		},
+		"CodeSystem/UKCore-SDSJobRoleName-1-0-0": {
+			"source": "CodeSystem-UKCore-SDSJobRoleName-1-0-0.xml",
+			"base": "CodeSystem-UKCore-SDSJobRoleName-1-0-0.html"
 		},
 		"ConceptMap/UKCore-MaritalStatus-1-0-0": {
 			"source": "ConceptMap-UKCore-MaritalStatus-1-0-0.xml",

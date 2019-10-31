@@ -91,6 +91,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="ValueSet/UKCore-SDSJobRoleName-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="ValueSet/UKCore-DeathNotificationStatus-1-0-0"/>
       </reference>
       <exampleBoolean value="false"/>
@@ -146,6 +152,12 @@
     <resource>
       <reference>
         <reference value="CodeSystem/UKCore-LanguageAbilityMode-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/UKCore-SDSJobRoleName-1-0-0"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
