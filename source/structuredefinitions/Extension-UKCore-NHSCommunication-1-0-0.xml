@@ -57,7 +57,6 @@
     <element id="Extension.extension:language">
       <path value="Extension.extension" />
       <sliceName value="language" />
-      <sliceIsConstraining value="false" />
       <short value="Languages which may be used for communication" />
       <min value="1" />
       <max value="1" />
@@ -83,7 +82,6 @@
     <element id="Extension.extension:preferred">
       <path value="Extension.extension" />
       <sliceName value="preferred" />
-      <sliceIsConstraining value="false" />
       <short value="Language preference indicator" />
     </element>
     <element id="Extension.extension:preferred.url">
@@ -101,7 +99,6 @@
     <element id="Extension.extension:modeOfCommunication">
       <path value="Extension.extension" />
       <sliceName value="modeOfCommunication" />
-      <sliceIsConstraining value="false" />
       <short value="Mode of communication for the selected language" />
     </element>
     <element id="Extension.extension:modeOfCommunication.url">
@@ -124,7 +121,6 @@
     <element id="Extension.extension:communicationProficiency">
       <path value="Extension.extension" />
       <sliceName value="communicationProficiency" />
-      <sliceIsConstraining value="false" />
       <short value="The level of proficiency in communicating a language" />
       <max value="1" />
     </element>
@@ -148,7 +144,6 @@
     <element id="Extension.extension:interpreterRequired">
       <path value="Extension.extension" />
       <sliceName value="interpreterRequired" />
-      <sliceIsConstraining value="false" />
       <short value="Interpreter preference indicator" />
       <max value="1" />
     </element>
