@@ -38,7 +38,7 @@
   "packageId": "nhsdigital.fhir.r4.core.demo",
   "license": "CC0-1.0",
   "fhirVersion": [
-    "4.0.0"
+    "4.0.1"
   ],
   "definition": {
     "grouping": [
@@ -92,6 +92,70 @@
         ],
         "reference": {
           "reference": "ValueSet/UKCore-HumanLanguage-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-LanguageAbilityMode-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-LanguageAbilityMode-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-LanguageAbilityProficiency-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-LanguageAbilityProficiency-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-SDSJobRoleName-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-SDSJobRoleName-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-DeathNotificationStatus-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-DeathNotificationStatus-1-0-0"
         },
         "exampleBoolean": false
       },
@@ -204,6 +268,70 @@
         ],
         "reference": {
           "reference": "CodeSystem/UKCore-HumanLanguage-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-LanguageAbilityMode-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-LanguageAbilityMode-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-SDSJobRoleName-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-SDSJobRoleName-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-DeathNotificationStatus-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-DeathNotificationStatus-1-0-0"
         },
         "exampleBoolean": false
       },
@@ -348,6 +476,22 @@
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Extension-UKCore-NHSCommunication-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-NHSCommunication-1-0-0"
         },
         "exampleBoolean": false
       },

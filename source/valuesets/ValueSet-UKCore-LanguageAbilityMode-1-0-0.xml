@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
 	<id value="UKCore-LanguageAbilityMode-1-0-0"/>
 	<url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-LanguageAbilityMode-1-0-0"/>
@@ -11,15 +10,7 @@
 	<title value="UK Core Language Ability Mode"/>
 	<status value="draft"/>
 	<date value="2019-10-25T00:00:00+00:00"/>
-<publisher value="NHS Digital"/>
-	<contact>
-		<name value="Interoperability Team"/>
-		<telecom>
-			<system value="email"/>
-			<value value="interoperabilityteam@nhs.net"/>
-			<use value="work"/>
-		</telecom>
-	</contact>
+	<publisher value="NHS Digital"/>
 	<description value="A ValueSet that identifies the mode the patient can communicate in, representing the method of expression of the language."/>
 	<copyright value="Copyright © 2019 NHS Digital"/>
 	<compose>

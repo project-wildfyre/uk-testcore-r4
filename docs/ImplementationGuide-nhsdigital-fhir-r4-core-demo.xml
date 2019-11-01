@@ -29,7 +29,7 @@
   </jurisdiction>
   <packageId value="nhsdigital.fhir.r4.core.demo"/>
   <license value="CC0-1.0"/>
-  <fhirVersion value="4.0.0"/>
+  <fhirVersion value="4.0.1"/>
   <definition>
     <grouping>
       <name value="FHIR R4 Core Demo"/>
@@ -67,6 +67,54 @@
       </extension>
       <reference>
         <reference value="ValueSet/UKCore-HumanLanguage-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-UKCore-LanguageAbilityMode-1-0-0.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/UKCore-LanguageAbilityMode-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-UKCore-LanguageAbilityProficiency-1-0-0.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/UKCore-LanguageAbilityProficiency-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-UKCore-SDSJobRoleName-1-0-0.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/UKCore-SDSJobRoleName-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-UKCore-DeathNotificationStatus-1-0-0.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/UKCore-DeathNotificationStatus-1-0-0"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -151,6 +199,54 @@
       </extension>
       <reference>
         <reference value="CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.html"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CodeSystem-UKCore-LanguageAbilityMode-1-0-0.html"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/UKCore-LanguageAbilityMode-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CodeSystem-UKCore-SDSJobRoleName-1-0-0.html"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/UKCore-SDSJobRoleName-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CodeSystem-UKCore-DeathNotificationStatus-1-0-0.html"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/UKCore-DeathNotificationStatus-1-0-0"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -259,6 +355,18 @@
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Extension-UKCore-NHSCommunication-1-0-0.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-NHSCommunication-1-0-0"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

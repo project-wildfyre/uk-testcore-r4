@@ -61,8 +61,8 @@
   }],
   "packageId" : "nhsdigital.fhir.r4.core.demo",
   "license" : "CC0-1.0",
-  "fhirVersion" : ["4.0.0",
-  "4.0.0"],
+  "fhirVersion" : ["4.0.1",
+  "4.0.1"],
   "definition" : {
     "grouping" : [{
       "name" : "FHIR R4 Core Demo"

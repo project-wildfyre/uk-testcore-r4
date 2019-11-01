@@ -1,11 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
 	<id value="UKCore-LanguageAbilityMode-1-0-0"/>
 	<url value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode-1-0-0"/>
-	<identifier>
-		<system value="urn:ietf:rfc:3986"/>
-		<value value="urn:oid:2.16.840.1.113883.5.60"/>
-	</identifier>
 	<version value="1.0.0"/>
 	<name value="UKCoreLanguageAbilityMode"/>
 	<title value="UK Core Language Ability Mode"/>

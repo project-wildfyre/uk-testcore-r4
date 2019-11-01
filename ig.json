@@ -23,7 +23,7 @@
 		"specification": "http://build.fhir.org"
 	},
 	"language" : "en-GB",
-	"version" : "4.0.0",
+	"version" : "4.0.1",
 	"license": "CC0-1.0",
 	"npm-name": "nhsdigital.fhir.r4.core.demo",
 	"html-template" : "test-template-master/instance-template-format.html",
@@ -105,14 +105,6 @@
 			"source": "CodeSystem-UKCore-HumanLanguage-1-0-0.xml",
 			"base": "CodeSystem-UKCore-HumanLanguage-1-0-0.html"
 		},
-		"CodeSystem/UKCore-LanguageAbilityMode-1-0-0": {
-			"source": "CodeSystem-UKCore-LanguageAbilityMode-1-0-0.xml",
-			"base": "CodeSystem-UKCore-LanguageAbilityMode-1-0-0.html"
-		},
-		"CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0": {
-			"source": "CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.xml",
-			"base": "CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.html"
-		},
 		"CodeSystem/UKCore-NHSNumberVerificationStatus-1-0-0": {
 			"source": "CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0.xml",
 			"base": "CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0.html"
@@ -129,6 +121,14 @@
 			"source": "CodeSystem-UKCore-TreatmentCategory-1-0-0.xml",
 			"base": "CodeSystem-UKCore-TreatmentCategory-1-0-0.html"
 		},
+		"CodeSystem/UKCore-LanguageAbilityMode-1-0-0": {
+			"source": "CodeSystem-UKCore-LanguageAbilityMode-1-0-0.xml",
+			"base": "CodeSystem-UKCore-LanguageAbilityMode-1-0-0.html"
+		},
+		"CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0": {
+			"source": "CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.xml",
+			"base": "CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.html"
+		},		
 		"CodeSystem/UKCore-SDSJobRoleName-1-0-0": {
 			"source": "CodeSystem-UKCore-SDSJobRoleName-1-0-0.xml",
 			"base": "CodeSystem-UKCore-SDSJobRoleName-1-0-0.html"
