@@ -1,7 +1,7 @@
 {
 	"source": "ig.xml",
 	"fixed-business-version": "1.0.0",
-	"specification" : "http://hl7.org/fhir",
+	"specification": "http://hl7.org/fhir",
 	"paths": {
 		"history": "source/history",
 		"resources": [
@@ -14,27 +14,27 @@
 			"source/conceptmaps"
 		],
 		"pages": [
-		  "framework",
-		  "source/pages"
+			"framework",
+			"source/pages"
 		],
 		"temp": "temp",
 		"output": "docs",
 		"qa": "qa",
 		"specification": "http://build.fhir.org"
 	},
-	"language" : "en-GB",
-	"version" : "4.0.1",
+	"language": "en-GB",
+	"version": "4.0.1",
 	"license": "CC0-1.0",
 	"npm-name": "nhsdigital.fhir.r4.core.demo",
-	"html-template" : "test-template-master/instance-template-format.html",
+	"html-template": "test-template-master/instance-template-format.html",
 	"no-inactive-codes": false,
 	"broken-links": "warning",
 	"check-aggregation": true,
 	"check-mustSupport": false,
-	"append-slash-to-dependency-urls" : false,
+	"append-slash-to-dependency-urls": false,
 	"hintAboutNonMustSupport": false,
 	"gen-examples": false,
-	"do-transforms" : true,
+	"do-transforms": true,
 	"canonicalBase": "https://fhir.nhs.uk/R4",
 	"logging": [
 		"init",
@@ -52,6 +52,10 @@
 		"ValueSet/UKCore-ResidentialStatus-1-0-0": {
 			"source": "ValueSet-UKCore-ResidentialStatus-1-0-0.xml",
 			"base": "ValueSet-UKCore-ResidentialStatus-1-0-0.html"
+		},
+		"ValueSet/UKCore-DeathNotificationStatus-1-0-0": {
+			"source": "ValueSet-UKCore-DeathNotificationStatus-1-0-0.xml",
+			"base": "ValueSet-UKCore-DeathNotificationStatus-1-0-0.html"
 		},
 		"ValueSet/UKCore-EthnicCategory-1-0-0": {
 			"source": "ValueSet-UKCore-EthnicCategory-1-0-0.xml",
@@ -72,7 +76,7 @@
 		"ValueSet/UKCore-SDSJobRoleName-1-0-0": {
 			"source": "ValueSet-UKCore-SDSJobRoleName-1-0-0.xml",
 			"base": "ValueSet-UKCore-SDSJobRoleName-1-0-0.html"
-		},		
+		},
 		"ValueSet/UKCore-NHSNumberVerificationStatus-1-0-0": {
 			"source": "ValueSet-UKCore-NHSNumberVerificationStatus-1-0-0.xml",
 			"base": "ValueSet-UKCore-NHSNumberVerificationStatus-1-0-0.html"
@@ -96,6 +100,10 @@
 		"CodeSystem/UKCore-ResidentialStatus-1-0-0": {
 			"source": "CodeSystem-UKCore-ResidentialStatus-1-0-0.xml",
 			"base": "CodeSystem-UKCore-ResidentialStatus-1-0-0.html"
+		},
+		"CodeSystem/UKCore-DeathNotificationStatus-1-0-0": {
+			"source": "CodeSystem-UKCore-DeathNotificationStatus-1-0-0.xml",
+			"base": "CodeSystem-UKCore-DeathNotificationStatus-1-0-0.html"
 		},
 		"CodeSystem/UKCore-EthnicCategory-1-0-0": {
 			"source": "CodeSystem-UKCore-EthnicCategory-1-0-0.xml",
@@ -128,7 +136,7 @@
 		"CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0": {
 			"source": "CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.xml",
 			"base": "CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.html"
-		},		
+		},
 		"CodeSystem/UKCore-SDSJobRoleName-1-0-0": {
 			"source": "CodeSystem-UKCore-SDSJobRoleName-1-0-0.xml",
 			"base": "CodeSystem-UKCore-SDSJobRoleName-1-0-0.html"
@@ -155,8 +163,8 @@
 			"source": "Extension-UKCore-NHSCommunication-1-0-0.xml",
 			"base": "Extension-UKCore-NHSCommunication-1-0-0.html",
 			"defns": "Extension-UKCore-NHSCommunication-1-0-0-definitions.html"
-		},		
-			"StructureDefinition/Extension-UKCore-EthnicCategory-1-0-0": {
+		},
+		"StructureDefinition/Extension-UKCore-EthnicCategory-1-0-0": {
 			"source": "Extension-UKCore-EthnicCategory-1-0-0.xml",
 			"base": "Extension-UKCore-EthnicCategory-1-0-0.html",
 			"defns": "Extension-UKCore-EthnicCategory-1-0-0-definitions.html"
@@ -171,12 +179,12 @@
 			"base": "Extension-UKCore-ResidentialStatus-1-0-0.html",
 			"defns": "Extension-UKCore-ResidentialStatus-1-0-0-definitions.html"
 		},
-			"StructureDefinition/Extension-UKCore-TreatmentCategory-1-0-0": {
+		"StructureDefinition/Extension-UKCore-TreatmentCategory-1-0-0": {
 			"source": "Extension-UKCore-TreatmentCategory-1-0-0.xml",
 			"base": "Extension-UKCore-TreatmentCategory-1-0-0.html",
 			"defns": "Extension-UKCore-TreatmentCategory-1-0-0-definitions.html"
 		},
-			"StructureDefinition/Extension-UKCore-NominatedPharmacy-1-0-0": {
+		"StructureDefinition/Extension-UKCore-NominatedPharmacy-1-0-0": {
 			"source": "Extension-UKCore-NominatedPharmacy-1-0-0.xml",
 			"base": "Extension-UKCore-NominatedPharmacy-1-0-0.html",
 			"defns": "Extension-UKCore-NominatedPharmacy-1-0-0-definitions.html"
@@ -185,17 +193,9 @@
 			"source": "CodeSystem-CareConnect-LanguageAbilityMode-1.xml",
 			"base": "CodeSystem-CareConnect-LanguageAbilityMode-1.html"
 		},
-		"Observation/CareConnect-ACVPU-Observation-Example-1": {
-			"source": "CareConnect-ACVPU-Observation-Example-1.xml",
-			"base": "CareConnect-ACVPU-Observation-Example-1.html"
-		},
-		"AllergyIntolerance/CareConnect-AllergyIntolerance-Example-1": {
-			"source": "CareConnect-AllergyIntolerance-Example-1.xml",
-			"base": "CareConnect-AllergyIntolerance-Example-1.html"
-		},
-		"ValueSet/ValueSet-CareConnect-ConditionEpisodeSnCT-1": {
-			"source": "ValueSet-CareConnect-ConditionEpisodeSnCT-1.xml",
-			"base": "ValueSet-CareConnect-ConditionEpisodeSnCT-1.html"
+		"Patient/UKCore-Patient-Example-1-0-0": {
+			"source": "UKCore-Patient-Example-1-0-0.xml",
+			"base": "UKCore-Patient-Example-1-0-0.html"
 		}
 	},
 	"tool": "jekyll",

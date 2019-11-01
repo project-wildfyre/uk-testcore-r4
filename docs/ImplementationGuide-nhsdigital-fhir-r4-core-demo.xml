@@ -430,5 +430,17 @@
       </reference>
       <exampleBoolean value="false"/>
     </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="UKCore-Patient-Example-1-0-0.html"/>
+      </extension>
+      <reference>
+        <reference value="Patient/UKCore-Patient-Example-1-0-0"/>
+      </reference>
+      <exampleBoolean value="true"/>
+    </resource>
   </definition>
 </ImplementationGuide>

@@ -574,6 +574,22 @@
           "reference": "StructureDefinition/Extension-UKCore-NominatedPharmacy-1-0-0"
         },
         "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "UKCore-Patient-Example-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/UKCore-Patient-Example-1-0-0"
+        },
+        "exampleBoolean": true
       }
     ]
   }

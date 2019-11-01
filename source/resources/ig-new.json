@@ -264,6 +264,12 @@
         "reference" : "StructureDefinition/Extension-UKCore-NominatedPharmacy-1-0-0"
       },
       "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "Patient/UKCore-Patient-Example-1-0-0"
+      },
+      "exampleBoolean" : true
     }],
     "parameter" : [{
       "code" : "apply",

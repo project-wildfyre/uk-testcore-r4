@@ -228,17 +228,11 @@
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>
-		<!--<resource>
-			<reference>
-				<reference value="CodeSystem/CodeSystem-UKConnect-CodeSystem-1"/>
-			</reference>
-			<exampleBoolean value="false"/>
-		</resource>
 		<resource>
 			<reference>
-				<reference value="Observation/CareConnect-ACVPU-Observation-Example-1"/>
+				<reference value="Patient/UKCore-Patient-Example-1-0-0"/>
 			</reference>
 			<exampleBoolean value="true"/>
-		</resource>-->
+		</resource>
 	</definition>
 </ImplementationGuide>

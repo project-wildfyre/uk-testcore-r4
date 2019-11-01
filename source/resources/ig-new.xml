@@ -257,6 +257,12 @@
       </reference>
       <exampleBoolean value="false"/>
     </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/UKCore-Patient-Example-1-0-0"/>
+      </reference>
+      <exampleBoolean value="true"/>
+    </resource>
     <parameter>
       <code value="apply"/>
       <value value="version"/>
