@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
 	<id value="UKCore-LanguageAbilityProficiency-1-0-0"/>
 	<url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-LanguageAbilityProficiency-1-0-0"/>
@@ -11,6 +12,14 @@
 	<status value="draft"/>
 	<date value="2019-10-30T00:00:00+00:00"/>
 	<publisher value="NHS Digital"/>
+	<contact>
+		<name value="Interoperability Team"/>
+		<telecom>
+			<system value="email"/>
+			<value value="interoperabilityteam@nhs.net"/>
+			<use value="work"/>
+		</telecom>
+	</contact>
 	<description value="A ValueSet to identify the level of proficiency in communicating a language."/>
 	<copyright value="Copyright © 2019 NHS Digital"/>
 	<compose>
