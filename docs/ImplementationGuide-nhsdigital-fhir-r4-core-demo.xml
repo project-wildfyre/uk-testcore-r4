@@ -51,6 +51,78 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-UKCore-CareSettingType-1-0-0.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/UKCore-CareSettingType-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-UKCore-ListCode-1-0-0.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/UKCore-ListCode-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-UKCore-ListEmptyReasonCode-1-0-0.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/UKCore-ListEmptyReasonCode-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-UKCore-ListWarningCode-1-0-0.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/UKCore-ListWarningCode-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-UKCore-BodySite-1-0-0.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/UKCore-BodySite-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-UKCore-ObservationType-1-0-0.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/UKCore-ObservationType-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
         <valueUri value="ValueSet-UKCore-TreatmentCategory-1-0-0.html"/>
       </extension>
       <reference>
@@ -235,6 +307,30 @@
       </extension>
       <reference>
         <reference value="CodeSystem/UKCore-SDSJobRoleName-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CodeSystem-UKCore-ListWarningCode-1-0-0.html"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/UKCore-ListWarningCode-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CodeSystem-UKCore-ListEmptyReasonCode-1-0-0.html"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/UKCore-ListEmptyReasonCode-1-0-0"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

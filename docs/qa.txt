@@ -1,16 +1,18 @@
 ﻿FHIRR4CoreDemo : Validation Results
 =========================================
 
-err = 8, warn = 0, info = 0
-IG Publisher Version: v0.9.90-SNAPSHOT Out of date - current version is v0.9.91-SNAPSHOT
-Generated Fri Nov 01 14:50:31 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.demo#1.0.0 (canonical = https://fhir.nhs.uk/R4)
+err = 12, warn = 0, info = 0
+IG Publisher Version: v0.9.91-SNAPSHOT
+Generated Mon Nov 04 14:16:31 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.demo#1.0.0 (canonical = https://fhir.nhs.uk/R4)
 
- Build Errors : 126 / 1
+ Build Errors : 150 / 1
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-DeathNotificationStatus-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-EthnicCategory-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-HumanLanguage-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-LanguageAbilityMode-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0 : 0 / 0
+ C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-ListEmptyReasonCode-1-0-0 : 0 / 0
+ C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-ListWarningCode-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0 : 0 / 0
@@ -19,7 +21,7 @@ Generated Fri Nov 01 14:50:31 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-TreatmentCategory-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\conceptmaps\ConceptMap-UKCore-AdministrativeGender-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\conceptmaps\ConceptMap-UKCore-MaritalStatus-1-0-0 : 0 / 0
- C:\Git\FHIR-R4-Core-IG-1.0.0\source\examples\UKCore-Patient-Example-1-0-0 : 1 / 0
+ C:\Git\FHIR-R4-Core-IG-1.0.0\source\examples\UKCore-Patient-Example-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\resources\ig : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\Extension-UKCore-EthnicCategory-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\Extension-UKCore-NHSCommunication-1-0-0 : 0 / 0
@@ -29,18 +31,24 @@ Generated Fri Nov 01 14:50:31 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\Extension-UKCore-ResidentialStatus-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\Extension-UKCore-TreatmentCategory-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\UKCore-Patient-1-0-0 : 0 / 0
+ C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-BodySite-1-0-0 : 1 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-DeathNotificationStatus-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-EthnicCategory-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-HumanLanguage-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-LanguageAbilityMode-1-0-0 : 1 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-LanguageAbilityProficiency-1-0-0 : 1 / 0
+ C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ListCode-1-0-0 : 0 / 0
+ C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ListEmptyReasonCode-1-0-0 : 0 / 0
+ C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ListWarningCode-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-NHSNumberVerificationStatus-1-0-0 : 0 / 0
+ C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ObservationType-1-0-0 : 1 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ReligiousAffiliation-1-0-0 : 1 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ResidentialStatus-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-SDSJobRoleName-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-TreatmentCategory-1-0-0 : 0 / 0
+ C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\valueset-UKCore-CareSettingType-1-0-0 : 1 / 0
 </table>
 == n/a ==
 WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be nhsdigital.fhir.r4.core.demo
@@ -60,6 +68,12 @@ ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-LanguageAbilityMode-1
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.xml.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-ListEmptyReasonCode-1-0-0.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-ListEmptyReasonCode-1-0-0.json.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-ListEmptyReasonCode-1-0-0.xml.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-ListWarningCode-1-0-0.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-ListWarningCode-1-0-0.json.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-ListWarningCode-1-0-0.xml.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.xml.html: The html source does not contain the publish box
@@ -122,6 +136,12 @@ ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\StructureDefinition-UKCore-Patient-1-0-
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\UKCore-Patient-1-0-0-definitions.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\UKCore-Patient-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\UKCore-Patient-Example-1-0-0.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-BodySite-1-0-0.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-BodySite-1-0-0.json.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-BodySite-1-0-0.xml.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-CareSettingType-1-0-0.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-CareSettingType-1-0-0.json.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-CareSettingType-1-0-0.xml.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-DeathNotificationStatus-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-DeathNotificationStatus-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-DeathNotificationStatus-1-0-0.xml.html: The html source does not contain the publish box
@@ -137,6 +157,15 @@ ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-LanguageAbilityMode-1-0
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-LanguageAbilityProficiency-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-LanguageAbilityProficiency-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-LanguageAbilityProficiency-1-0-0.xml.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ListCode-1-0-0.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ListCode-1-0-0.json.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ListCode-1-0-0.xml.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ListEmptyReasonCode-1-0-0.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ListEmptyReasonCode-1-0-0.json.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ListEmptyReasonCode-1-0-0.xml.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ListWarningCode-1-0-0.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ListWarningCode-1-0-0.json.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ListWarningCode-1-0-0.xml.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.xml.html: The html source does not contain the publish box
@@ -146,6 +175,9 @@ ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-NHSDataDictionary-Perso
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-NHSNumberVerificationStatus-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-NHSNumberVerificationStatus-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-NHSNumberVerificationStatus-1-0-0.xml.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ObservationType-1-0-0.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ObservationType-1-0-0.json.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ObservationType-1-0-0.xml.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ReligiousAffiliation-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ReligiousAffiliation-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ReligiousAffiliation-1-0-0.xml.html: The html source does not contain the publish box
@@ -175,6 +207,8 @@ ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\valuesets.html: The html source does no
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-HumanLanguage-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-LanguageAbilityMode-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.xml ==
+== C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-ListEmptyReasonCode-1-0-0.xml ==
+== C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-ListWarningCode-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0.xml ==
@@ -184,7 +218,6 @@ ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\valuesets.html: The html source does no
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\conceptmaps\ConceptMap-UKCore-AdministrativeGender-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\conceptmaps\ConceptMap-UKCore-MaritalStatus-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\examples\UKCore-Patient-Example-1-0-0.xml ==
-ERROR: Patient/UKCore-Patient-Example-1-0-0: Patient.identifier[0]: Could not match discriminator ([system]) for slice Patient.identifier:nhsNumber in profile https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient-1-0-0 - the discriminator [system] does not have fixed value, binding or existence assertions
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\resources\ig.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\Extension-UKCore-EthnicCategory-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\Extension-UKCore-NHSCommunication-1-0-0.xml ==
@@ -194,6 +227,8 @@ ERROR: Patient/UKCore-Patient-Example-1-0-0: Patient.identifier[0]: Could not ma
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\Extension-UKCore-ResidentialStatus-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\Extension-UKCore-TreatmentCategory-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\UKCore-Patient-1-0-0.xml ==
+== C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-BodySite-1-0-0.xml ==
+ERROR: UKCore-BodySite-1-0-0: Error from server: The filter "constraint = (<<442083009 |anatomical or acquired body structure|)" was not understood in the context of http://snomed.info/sct
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-DeathNotificationStatus-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-EthnicCategory-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-HumanLanguage-1-0-0.xml ==
@@ -201,11 +236,18 @@ ERROR: Patient/UKCore-Patient-Example-1-0-0: Patient.identifier[0]: Could not ma
 ERROR: UKCore-LanguageAbilityMode-1-0-0: Error from server: Unable to provide support for code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode-1-0-0
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-LanguageAbilityProficiency-1-0-0.xml ==
 ERROR: UKCore-LanguageAbilityProficiency-1-0-0: Error from server: Unable to provide support for code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0
+== C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ListCode-1-0-0.xml ==
+== C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ListEmptyReasonCode-1-0-0.xml ==
+== C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ListWarningCode-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-NHSNumberVerificationStatus-1-0-0.xml ==
+== C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ObservationType-1-0-0.xml ==
+ERROR: UKCore-ObservationType-1-0-0: Error from server: The filter "constraint = (<<363787002 | Observable entity|)" was not understood in the context of http://snomed.info/sct
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ReligiousAffiliation-1-0-0.xml ==
 ERROR: UKCore-ReligiousAffiliation-1-0-0: Error from server: The filter "concept in ^999000531000000100" was not understood in the context of http://snomed.info/sct
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ResidentialStatus-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-SDSJobRoleName-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-TreatmentCategory-1-0-0.xml ==
+== C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-CareSettingType-1-0-0.xml ==
+ERROR: UKCore-CareSettingType-1-0-0: Error from server: The filter "concept in ^999000381000000107" was not understood in the context of http://snomed.info/sct

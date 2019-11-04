@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "31a7a797-1f6b-4280-af94-5bb8d870f606",
+  "id" : "0705ab46-faa2-4d5f-94b2-170adc95793a",
   "meta" : {
-    "lastUpdated" : "2019-11-01T14:48:55.441+00:00"
+    "lastUpdated" : "2019-11-04T14:14:57.743+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -32,8 +32,8 @@
       "description" : "A ValueSet that identifies the residential status of a patient.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:bc790417-dcbf-4abe-91ce-0f80c2c59215",
-        "timestamp" : "2019-11-01T14:49:01+00:00",
+        "identifier" : "urn:uuid:47188bd6-b18a-430d-845f-4919bb5dcbff",
+        "timestamp" : "2019-11-04T14:15:03+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -52,6 +52,194 @@
           "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-ResidentialStatus-1-0-0",
           "code" : "O",
           "display" : "Overseas Resident"
+        }]
+      }
+    }
+  },
+  {
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 13 concepts</p><p>All codes from system <a href=\"http://build.fhir.org/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-887161000000102\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=887161000000102\">887161000000102</a></td><td>Diagnoses</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-887171000000109\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=887171000000109\">887171000000109</a></td><td>Procedures</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-717711000000103\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=717711000000103\">717711000000103</a></td><td>Problems</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-933361000000108\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=933361000000108\">933361000000108</a></td><td>Medications and medical devices</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-886921000000105\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=886921000000105\">886921000000105</a></td><td>Allergies and adverse reactions</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-1102411000000102\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1102411000000102\">1102411000000102</a></td><td>Active medications</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-1102191000000100\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1102191000000100\">1102191000000100</a></td><td>Discontinued medications</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-1103671000000101\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1103671000000101\">1103671000000101</a></td><td>Ended allergies</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-325851000000107\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=325851000000107\">325851000000107</a></td><td>Consultation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-25851000000105\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=25851000000105\">25851000000105</a></td><td>Topic (EHR)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-24781000000107\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=24781000000107\">24781000000107</a></td><td>Category (EHR)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-1102181000000102\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1102181000000102\">1102181000000102</a></td><td>Immunisations</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-826501000000100\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=826501000000100\">826501000000100</a></td><td>Miscellaneous record</td><td/></tr></table></div>"
+      },
+      "expansion" : {
+        "identifier" : "urn:uuid:31d42952-7b60-49e0-8e4d-62d298feb148",
+        "timestamp" : "2019-09-05T13:48:32+01:00",
+        "parameter" : [{
+          "name" : "limitedExpansion",
+          "valueString" : "-1"
+        },
+        {
+          "name" : "version",
+          "valueString" : "http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20190430"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "887161000000102",
+          "display" : "Diagnoses"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "887171000000109",
+          "display" : "Procedures"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "717711000000103",
+          "display" : "Problems"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "933361000000108",
+          "display" : "Medications and medical devices"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "886921000000105",
+          "display" : "Allergies and adverse reactions"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "1102411000000102",
+          "display" : "Active medications"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "1102191000000100",
+          "display" : "Discontinued medications"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "1103671000000101",
+          "display" : "Ended allergies"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "325851000000107",
+          "display" : "Consultation"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "25851000000105",
+          "display" : "Topic (EHR)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "24781000000107",
+          "display" : "Category (EHR)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "1102181000000102",
+          "display" : "Immunisations"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "826501000000100",
+          "display" : "Miscellaneous record"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-ListEmptyReasonCode-1-0-0",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "UKCore-ListEmptyReasonCode-1-0-0",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListEmptyReasonCode-1-0-0 version 1.0.0</p><p>All codes from system <a href=\"CodeSystem-UKCore-ListEmptyReasonCode-1-0-0.html\"><code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListEmptyReasonCode-1-0-0</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-ListEmptyReasonCode-1-0-0-no-content-recorded\"> </a><a href=\"CodeSystem-UKCore-ListEmptyReasonCode-1-0-0.html#UKCore-ListEmptyReasonCode-1-0-0-no-content-recorded\">no-content-recorded</a></td><td>No Content Recorded</td><td/></tr></table></div>"
+      },
+      "url" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-ListEmptyReasonCode-1-0-0",
+      "version" : "1.0.0",
+      "name" : "UKCoreListEmptyReasonCode",
+      "title" : "UK Core List Empty Reason Code",
+      "status" : "draft",
+      "date" : "2019-11-04T00:00:00+00:00",
+      "publisher" : "NHS Digital",
+      "contact" : [{
+        "name" : "Interoperability Team",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "interoperabilityteam@nhs.net",
+          "use" : "work"
+        }]
+      }],
+      "description" : "A ValueSet to identify the reason a list may be empty.",
+      "copyright" : "Copyright © 2019 NHS Digital",
+      "expansion" : {
+        "identifier" : "urn:uuid:9f4d4e36-ba3b-4143-80d6-e9492d85e71f",
+        "timestamp" : "2019-11-04T14:15:04+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListEmptyReasonCode-1-0-0|1.0.0"
+        }],
+        "contains" : [{
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListEmptyReasonCode-1-0-0",
+          "code" : "no-content-recorded",
+          "display" : "No Content Recorded"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-ListWarningCode-1-0-0",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "UKCore-ListWarningCode-1-0-0",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListWarningCode-1-0-0 version 1.0.0</p><p>All codes from system <a href=\"CodeSystem-UKCore-ListWarningCode-1-0-0.html\"><code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListWarningCode-1-0-0</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-ListWarningCode-1-0-0-confidential-items\"> </a><a href=\"CodeSystem-UKCore-ListWarningCode-1-0-0.html#UKCore-ListWarningCode-1-0-0-confidential-items\">confidential-items</a></td><td>Confidential Items</td><td>Items excluded due to confidentiality and/or patient preferences.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-ListWarningCode-1-0-0-data-in-transit\"> </a><a href=\"CodeSystem-UKCore-ListWarningCode-1-0-0.html#UKCore-ListWarningCode-1-0-0-data-in-transit\">data-in-transit</a></td><td>Data in Transit</td><td>Patient record transfer from previous GP practice not yet complete; any information recorded before dd-mmm-yyyy has been excluded.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-ListWarningCode-1-0-0-data-awaiting-filing\"> </a><a href=\"CodeSystem-UKCore-ListWarningCode-1-0-0.html#UKCore-ListWarningCode-1-0-0-data-awaiting-filing\">data-awaiting-filing</a></td><td>Data Awaiting Filing</td><td>Patient data may be incomplete as there is data supplied by a third party awaiting review before becoming available.</td></tr></table></div>"
+      },
+      "url" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-ListWarningCode-1-0-0",
+      "version" : "1.0.0",
+      "name" : "UKCoreListWarningCode",
+      "title" : "UK Core List Warning Code",
+      "status" : "draft",
+      "date" : "2019-11-04T00:00:00+00:00",
+      "publisher" : "NHS Digital",
+      "contact" : [{
+        "name" : "Interoperability Team",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "interoperabilityteam@nhs.net",
+          "use" : "work"
+        }]
+      }],
+      "description" : "A ValueSet to identify the reason a list may be incomplete.",
+      "copyright" : "Copyright © 2019 NHS Digital",
+      "expansion" : {
+        "identifier" : "urn:uuid:3eb06f1a-d0d9-4e7e-8543-03d1c7ec6976",
+        "timestamp" : "2019-11-04T14:15:04+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListWarningCode-1-0-0|1.0.0"
+        }],
+        "contains" : [{
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListWarningCode-1-0-0",
+          "code" : "confidential-items",
+          "display" : "Confidential Items"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListWarningCode-1-0-0",
+          "code" : "data-in-transit",
+          "display" : "Data in Transit"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListWarningCode-1-0-0",
+          "code" : "data-awaiting-filing",
+          "display" : "Data Awaiting Filing"
         }]
       }
     }
@@ -83,8 +271,8 @@
       "description" : "A ValueSet that identifies the treatment category for a patient.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:675d066f-647f-423b-9cb4-130aa66db9ce",
-        "timestamp" : "2019-11-01T14:49:01+00:00",
+        "identifier" : "urn:uuid:b484f218-a6e1-4bf0-9b55-5f80b0ad377a",
+        "timestamp" : "2019-11-04T14:15:05+00:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -154,8 +342,8 @@
       "description" : "A ValueSet that identifies the language used by a person.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:af7ebdaa-9c39-4d39-918e-cb344f0e9db0",
-        "timestamp" : "2019-11-01T14:49:01+00:00",
+        "identifier" : "urn:uuid:78028ed2-2de6-4cd2-baa3-1807de4f2ed5",
+        "timestamp" : "2019-11-04T14:15:05+00:00",
         "total" : 190,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1145,8 +1333,8 @@
       "description" : "A ValueSet that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:dfe2829e-c59a-41a9-a1bd-bd5cd3e772a5",
-        "timestamp" : "2019-11-01T14:49:02+00:00",
+        "identifier" : "urn:uuid:863c1a65-4815-4e2d-9b71-270d5439b248",
+        "timestamp" : "2019-11-04T14:15:06+00:00",
         "total" : 392,
         "parameter" : [{
           "name" : "excludeNested",
@@ -3146,8 +3334,8 @@
       "description" : "A ValueSet to identify the type of death notice as held on Personal Demographics Service (PDS).",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:f04431f7-856c-4890-9484-0ff6d5cbab3e",
-        "timestamp" : "2019-11-01T14:49:02+00:00",
+        "identifier" : "urn:uuid:579f3e76-9e81-4ab0-985f-ef5c93526f46",
+        "timestamp" : "2019-11-04T14:15:06+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -3201,8 +3389,8 @@
       "description" : "A ValueSet to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a person's ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:f6fd4f21-c688-40a2-8678-47478c8be0ff",
-        "timestamp" : "2019-11-01T14:49:03+00:00",
+        "identifier" : "urn:uuid:66a8ede0-29a4-4f78-b029-189acc53f05b",
+        "timestamp" : "2019-11-04T14:15:06+00:00",
         "total" : 68,
         "parameter" : [{
           "name" : "excludeNested",
@@ -3586,8 +3774,8 @@
       "description" : "A ValueSet that identifies the trace status of the NHS number. The CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:9bc7b22f-9576-429e-9aba-160452b60279",
-        "timestamp" : "2019-11-01T14:49:03+00:00",
+        "identifier" : "urn:uuid:ba60f3f2-f21d-4dd2-9d82-f1622a052b93",
+        "timestamp" : "2019-11-04T14:15:07+00:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
@@ -3663,8 +3851,8 @@
       "description" : "An indicator to identify the legal marital status of a Person.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:987f793f-3ef0-46fa-a215-61741e596815",
-        "timestamp" : "2019-11-01T14:49:03+00:00",
+        "identifier" : "urn:uuid:fca352a0-2683-431b-af61-92198cdb29c9",
+        "timestamp" : "2019-11-04T14:15:07+00:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -3730,8 +3918,8 @@
       "description" : "The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:e44fcfc3-2dfd-479a-a49a-cde26f584f13",
-        "timestamp" : "2019-11-01T14:49:06+00:00",
+        "identifier" : "urn:uuid:9ab384ea-c4e9-4885-8975-887304c39a54",
+        "timestamp" : "2019-11-04T14:15:10+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",

@@ -71,6 +71,102 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-CareSettingType-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-CareSettingType-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-ListCode-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-ListCode-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-ListEmptyReasonCode-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-ListEmptyReasonCode-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-ListWarningCode-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-ListWarningCode-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-BodySite-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-BodySite-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-ObservationType-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-ObservationType-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
             "valueUri": "ValueSet-UKCore-TreatmentCategory-1-0-0.html"
           }
         ],
@@ -316,6 +412,38 @@
         ],
         "reference": {
           "reference": "CodeSystem/UKCore-SDSJobRoleName-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-ListWarningCode-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-ListWarningCode-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-ListEmptyReasonCode-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-ListEmptyReasonCode-1-0-0"
         },
         "exampleBoolean": false
       },
