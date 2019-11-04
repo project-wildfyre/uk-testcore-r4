@@ -97,6 +97,26 @@
 			"source": "ValueSet-UKCore-TreatmentCategory-1-0-0.xml",
 			"base": "ValueSet-UKCore-TreatmentCategory-1-0-0.html"
 		},
+		"ValueSet/UKCore-BodySite-1-0-0": {
+			"source": "ValueSet-UKCore-BodySite-1-0-0.xml",
+			"base": "ValueSet-UKCore-BodySite-1-0-0.html"
+		},
+		"ValueSet/UKCore-ObservationType-1-0-0": {
+			"source": "ValueSet-UKCore-ObservationType-1-0-0.xml",
+			"base": "ValueSet-UKCore-ObservationType-1-0-0.html"
+		},
+		"ValueSet/UKCore-ListCode-1-0-0": {
+			"source": "ValueSet-UKCore-ListCode-1-0-0.xml",
+			"base": "ValueSet-UKCore-ListCode-1-0-0.html"
+		},
+		"ValueSet/UKCore-ListWarningCode-1-0-0": {
+			"source": "ValueSet-UKCore-ListWarningCode-1-0-0.xml",
+			"base": "ValueSet-UKCore-ListWarningCode-1-0-0.html"
+		},
+		"ValueSet/UKCore-ListEmptyReasonCode-1-0-0": {
+			"source": "ValueSet-UKCore-ListEmptyReasonCode-1-0-0.xml",
+			"base": "ValueSet-UKCore-ListEmptyReasonCode-1-0-0.html"
+		},
 		"CodeSystem/UKCore-ResidentialStatus-1-0-0": {
 			"source": "CodeSystem-UKCore-ResidentialStatus-1-0-0.xml",
 			"base": "CodeSystem-UKCore-ResidentialStatus-1-0-0.html"
@@ -109,6 +129,14 @@
 			"source": "CodeSystem-UKCore-EthnicCategory-1-0-0.xml",
 			"base": "CodeSystem-UKCore-EthnicCategory-1-0-0.html"
 		},
+		"CodeSystem/UKCore-ListWarningCode-1-0-0": {
+			"source": "CodeSystem-UKCore-ListWarningCode-1-0-0.xml",
+			"base": "CodeSystem-UKCore-ListWarningCode-1-0-0.html"
+		},
+		"CodeSystem/UKCore-ListEmptyReasonCode-1-0-0": {
+			"source": "CodeSystem-UKCore-ListEmptyReasonCode-1-0-0.xml",
+			"base": "CodeSystem-UKCore-ListEmptyReasonCode-1-0-0.html"
+		},		
 		"CodeSystem/UKCore-HumanLanguage-1-0-0": {
 			"source": "CodeSystem-UKCore-HumanLanguage-1-0-0.xml",
 			"base": "CodeSystem-UKCore-HumanLanguage-1-0-0.html"
