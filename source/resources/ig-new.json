@@ -75,6 +75,42 @@
     },
     {
       "reference" : {
+        "reference" : "ValueSet/UKCore-CareSettingType-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/UKCore-ListCode-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/UKCore-ListEmptyReasonCode-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/UKCore-ListWarningCode-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/UKCore-BodySite-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/UKCore-ObservationType-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "ValueSet/UKCore-TreatmentCategory-1-0-0"
       },
       "exampleBoolean" : false
@@ -166,6 +202,18 @@
     {
       "reference" : {
         "reference" : "CodeSystem/UKCore-SDSJobRoleName-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "CodeSystem/UKCore-ListWarningCode-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "CodeSystem/UKCore-ListEmptyReasonCode-1-0-0"
       },
       "exampleBoolean" : false
     },

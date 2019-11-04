@@ -38,6 +38,42 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="ValueSet/UKCore-CareSettingType-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/UKCore-ListCode-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/UKCore-ListEmptyReasonCode-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/UKCore-ListWarningCode-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/UKCore-BodySite-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/UKCore-ObservationType-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="ValueSet/UKCore-TreatmentCategory-1-0-0"/>
 			</reference>
 			<exampleBoolean value="false"/>
@@ -129,6 +165,18 @@
 		<resource>
 			<reference>
 				<reference value="CodeSystem/UKCore-SDSJobRoleName-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="CodeSystem/UKCore-ListWarningCode-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="CodeSystem/UKCore-ListEmptyReasonCode-1-0-0"/>
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>

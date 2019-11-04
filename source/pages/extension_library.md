@@ -9,7 +9,7 @@ This page lists all the Extensions that have been approved for use with the <a h
 
 {% include list-extensions.xhtml %}
 <br>
-The following HL7 extensions are also approved for use with the <a href="profiles.html">FHIR Profiles</a>.
+The following <a href="http://hl7.org/fhir/extensibility-registry.html" target="_blank">HL7 extensions</a> are also approved for use with the <a href="profiles.html">FHIR Profiles</a>.
 
 - [patient-birthPlace](http://hl7.org/fhir/StructureDefinition/patient-birthPlace)
 - [patient-birthTime](http://hl7.org/fhir/StructureDefinition/patient-birthTime)

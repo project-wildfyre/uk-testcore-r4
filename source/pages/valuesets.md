@@ -16,6 +16,8 @@ This page lists all the ValueSets defined as part of this Implementation Guide.
 - [UK Core Human Language](ValueSet-UKCore-HumanLanguage-1-0-0.html)
 - [UK Core Language Ability Mode](ValueSet-UKCore-LanguageAbilityMode-1-0-0.html)
 - [UK Core Language Ability Proficiency](ValueSet-UKCore-LanguageAbilityProficiency-1-0-0.html)
+- [UK Core List Empty Reason Code](ValueSet-UKCore-ListEmptyReasonCode-1-0-0.html) 
+- [UK Core List Warning Code](ValueSet-UKCore-ListWarningCode-1-0-0.html) 
 - [UK Core NHS Number Verification Status](ValueSet-UKCore-NHSNumberVerificationStatus-1-0-0.html)
 - [UK Core Residential Status](ValueSet-UKCore-ResidentialStatus-1-0-0.html)
 - [UK Core SDS Job Role Name](ValueSet-UKCore-SDSJobRoleName-1-0-0.html)
@@ -23,4 +25,8 @@ This page lists all the ValueSets defined as part of this Implementation Guide.
 
 ### SNOMED CT Code List ###
 
+- [UK Core Body Site](ValueSet-UKCore-BodySite-1-0-0.html)
+- [UK Core Care Setting Type](ValueSet-UKCore-CareSettingType-1-0-0.html)
+- [UK Core List Code](ValueSet-UKCore-ListCode-1-0-0.html)
+- [UK Core Observation Type](ValueSet-UKCore-ObservationType-1-0-0.html)
 - [UK Core Religious Affiliation](ValueSet-UKCore-ReligiousAffiliation-1-0-0.html)
