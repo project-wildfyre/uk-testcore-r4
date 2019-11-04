@@ -3,7 +3,7 @@
 	<url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ListEmptyReasonCode-1-0-0"/>
 	<version value="1.0.0"/>
 	<name value="UKCoreListEmptyReasonCode"/>
-	<name value="UK Core List Empty Reason Code"/>
+	<title value="UK Core List Empty Reason Code"/>
 	<status value="draft"/>
 	<date value="2019-11-04T00:00:00+00:00"/>
 	<publisher value="NHS Digital"/>
