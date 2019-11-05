@@ -39,14 +39,31 @@
       <path value="Extension" />
       <short value="The representation of a patient’s death notification (as held on Personal Demographics Service (PDS))" />
       <definition value="This extension is constrained to represent a patient’s death notification (as held on Personal Demographics Service (PDS))." />
+    </element>
+    <element id="Extension.extension">
+      <path value="Extension.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Extension.extension:deathNotificationStatus">
+      <path value="Extension.extension" />
+      <sliceName value="deathNotificationStatus" />
+      <short value="To identify the type of death notice as held on Personal Demographics Service (PDS)" />
+      <definition value="To identify the type of death notice as held on Personal Demographics Service (PDS)." />
+      <min value="1" />
       <max value="1" />
     </element>
-    <element id="Extension.url">
-      <path value="Extension.url" />
-      <fixedUri value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-DeathNotificationStatus-1-0-0" />
+    <element id="Extension.extension:deathNotificationStatus.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="deathNotificationStatus" />
     </element>
-    <element id="Extension.value[x]">
-      <path value="Extension.value[x]" />
+    <element id="Extension.extension:deathNotificationStatus.value[x]">
+      <path value="Extension.extension.value[x]" />
       <short value="To identify the type of death notice as held on Personal Demographics Service (PDS)" />
       <definition value="To identify the type of death notice as held on Personal Demographics Service (PDS)." />
       <min value="1" />
@@ -58,6 +75,33 @@
         <description value="To identify the type of death notice as held on Personal Demographics Service (PDS)." />
         <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-DeathNotificationStatus-1-0-0" />
       </binding>
+    </element>
+    <element id="Extension.extension:systemEffectiveDate">
+      <path value="Extension.extension" />
+      <sliceName value="systemEffectiveDate" />
+      <short value="System effective date for the death notification status" />
+      <definition value="System effective date for the death notification status." />
+      <max value="1" />
+    </element>
+    <element id="Extension.extension:systemEffectiveDate.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="systemEffectiveDate" />
+    </element>
+    <element id="Extension.extension:systemEffectiveDate.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <short value="System effective date" />
+      <definition value="System effective date for the death notification status" />
+      <type>
+        <code value="dateTime" />
+      </type>
+    </element>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-DeathNotificationStatus-1-0-0" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <max value="0" />
     </element>
   </differential>
 </StructureDefinition>
