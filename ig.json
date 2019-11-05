@@ -53,6 +53,26 @@
 			"source": "ValueSet-UKCore-ResidentialStatus-1-0-0.xml",
 			"base": "ValueSet-UKCore-ResidentialStatus-1-0-0.html"
 		},
+		"ValueSet/UKCore-AdmissionMethod-1-0-0": {
+			"source": "ValueSet-UKCore-AdmissionMethod-1-0-0.xml",
+			"base": "ValueSet-UKCore-ResidentialStatus-1-0-0.html"
+		},
+		"ValueSet/UKCore-DischargeDestination-1-0-0": {
+			"source": "ValueSet-UKCore-DischargeDestination-1-0-0.xml",
+			"base": "ValueSet-UKCore-DischargeDestination-1-0-0.html"
+		},
+		"ValueSet/UKCore-DischargeMethod-1-0-0": {
+			"source": "ValueSet-UKCore-DischargeMethod-1-0-0.xml",
+			"base": "ValueSet-UKCore-DischargeMethod-1-0-0.html"
+		},
+		"ValueSet/UKCore-OutcomeOfAttendance-1-0-0": {
+			"source": "ValueSet-UKCore-OutcomeOfAttendance-1-0-0.xml",
+			"base": "ValueSet-UKCore-OutcomeOfAttendance-1-0-0.html"
+		},
+		"ValueSet/UKCore-SourceOfAdmission-1-0-0": {
+			"source": "ValueSet-UKCore-SourceOfAdmission-1-0-0.xml",
+			"base": "ValueSet-UKCore-SourceOfAdmission-1-0-0.html"
+		},		
 		"ValueSet/UKCore-DeathNotificationStatus-1-0-0": {
 			"source": "ValueSet-UKCore-DeathNotificationStatus-1-0-0.xml",
 			"base": "ValueSet-UKCore-DeathNotificationStatus-1-0-0.html"
@@ -165,6 +185,26 @@
 			"source": "CodeSystem-UKCore-TreatmentCategory-1-0-0.xml",
 			"base": "CodeSystem-UKCore-TreatmentCategory-1-0-0.html"
 		},
+		"CodeSystem/UKCore-AdmissionMethod-1-0-0": {
+			"source": "CodeSystem-UKCore-AdmissionMethod-1-0-0.xml",
+			"base": "CodeSystem-UKCore-AdmissionMethod-1-0-0.html"
+		},
+		"CodeSystem/UKCore-DischargeDestination-1-0-0": {
+			"source": "CodeSystem-UKCore-DischargeDestination-1-0-0.xml",
+			"base": "CodeSystem-UKCore-DischargeDestination-1-0-0.html"
+		},
+		"CodeSystem/UKCore-DischargeMethod-1-0-0": {
+			"source": "CodeSystem-UKCore-DischargeMethod-1-0-0.xml",
+			"base": "CodeSystem-UKCore-DischargeMethod-1-0-0.html"
+		},
+		"CodeSystem/UKCore-OutcomeOfAttendance-1-0-0": {
+			"source": "CodeSystem-UKCore-OutcomeOfAttendance-1-0-0.xml",
+			"base": "CodeSystem-UKCore-OutcomeOfAttendance-1-0-0.html"
+		},
+		"CodeSystem/UKCore-SourceOfAdmission-1-0-0": {
+			"source": "CodeSystem-UKCore-SourceOfAdmission-1-0-0.xml",
+			"base": "CodeSystem-UKCore-SourceOfAdmission-1-0-0.html"
+		},		
 		"CodeSystem/UKCore-LanguageAbilityMode-1-0-0": {
 			"source": "CodeSystem-UKCore-LanguageAbilityMode-1-0-0.xml",
 			"base": "CodeSystem-UKCore-LanguageAbilityMode-1-0-0.html"
