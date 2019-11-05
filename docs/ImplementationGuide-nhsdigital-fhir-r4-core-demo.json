@@ -151,6 +151,38 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-EncounterType-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-EncounterType-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-EmergencyCareDischargeStatus-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-EmergencyCareDischargeStatus-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
             "valueUri": "ValueSet-UKCore-ObservationType-1-0-0.html"
           }
         ],

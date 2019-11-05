@@ -9,6 +9,11 @@ This page lists all the ValueSets defined as part of this Implementation Guide.
 
 ### Code List ###
 
+- [NHS Data Model and Dictionary Admission Method](ValueSet-UKCore-AdmissionMethod-1-0-0.html)
+- [NHS Data Model and Dictionary Discharge Destination](ValueSet-UKCore-DischargeDestination-1-0-0.html)
+- [NHS Data Model and Dictionary Discharge Method](ValueSet-UKCore-DischargeMethod-1-0-0.html)
+- [NHS Data Model and Dictionary Outcome OF Attendance](ValueSet-UKCore-OutcomeOfAttendance-1-0-0.html)
+- [NHS Data Model and Dictionary Source Of Admission](ValueSet-UKCore-SourceOfAdmission-1-0-0.html)
 - [NHS Data Model and Dictionary Person Stated Gender Code](ValueSet-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0.html)
 - [NHS Data Model and Dictionary Person Marital Status Code](ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.html)
 - [UK Core Death Notification Status](ValueSet-UKCore-DeathNotificationStatus-1-0-0.html)
@@ -27,6 +32,8 @@ This page lists all the ValueSets defined as part of this Implementation Guide.
 
 - [UK Core Body Site](ValueSet-UKCore-BodySite-1-0-0.html)
 - [UK Core Care Setting Type](ValueSet-UKCore-CareSettingType-1-0-0.html)
+- [UK Core Encounter Type](ValueSet-UKCore-EncounterType-1-0-0.html)
+- [UK Core Emergency Care Discharge Status](ValueSet-UKCore-EmergencyCareDischargeStatus-1-0-0.html)
 - [UK Core List Code](ValueSet-UKCore-ListCode-1-0-0.html)
 - [UK Core Observation Type](ValueSet-UKCore-ObservationType-1-0-0.html)
 - [UK Core Religious Affiliation](ValueSet-UKCore-ReligiousAffiliation-1-0-0.html)

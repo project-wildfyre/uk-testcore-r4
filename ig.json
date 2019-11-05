@@ -101,6 +101,14 @@
 			"source": "ValueSet-UKCore-BodySite-1-0-0.xml",
 			"base": "ValueSet-UKCore-BodySite-1-0-0.html"
 		},
+		"ValueSet/UKCore-EncounterType-1-0-0": {
+			"source": "ValueSet-UKCore-EncounterType-1-0-0.xml",
+			"base": "ValueSet-UKCore-EncounterType-1-0-0.html"
+		},
+		"ValueSet/UKCore-EmergencyCareDischargeStatus-1-0-0": {
+			"source": "ValueSet-UKCore-EmergencyCareDischargeStatus-1-0-0.xml",
+			"base": "ValueSet-UKCore-EmergencyCareDischargeStatus-1-0-0.html"
+		},
 		"ValueSet/UKCore-ObservationType-1-0-0": {
 			"source": "ValueSet-UKCore-ObservationType-1-0-0.xml",
 			"base": "ValueSet-UKCore-ObservationType-1-0-0.html"

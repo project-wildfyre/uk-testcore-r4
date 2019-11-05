@@ -68,6 +68,18 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="ValueSet/UKCore-EncounterType-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/UKCore-EmergencyCareDischargeStatus-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="ValueSet/UKCore-ObservationType-1-0-0"/>
 			</reference>
 			<exampleBoolean value="false"/>

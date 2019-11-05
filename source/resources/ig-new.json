@@ -105,6 +105,18 @@
     },
     {
       "reference" : {
+        "reference" : "ValueSet/UKCore-EncounterType-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/UKCore-EmergencyCareDischargeStatus-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "ValueSet/UKCore-ObservationType-1-0-0"
       },
       "exampleBoolean" : false

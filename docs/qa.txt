@@ -1,11 +1,11 @@
 ﻿FHIRR4CoreDemo : Validation Results
 =========================================
 
-err = 12, warn = 0, info = 0
-IG Publisher Version: v0.9.91-SNAPSHOT
-Generated Mon Nov 04 14:16:31 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.demo#1.0.0 (canonical = https://fhir.nhs.uk/R4)
+err = 16, warn = 0, info = 0
+IG Publisher Version: v0.9.91-SNAPSHOT Out of date - current version is v0.9.92-SNAPSHOT
+Generated Tue Nov 05 10:35:28 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.demo#1.0.0 (canonical = https://fhir.nhs.uk/R4)
 
- Build Errors : 150 / 1
+ Build Errors : 156 / 1
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-DeathNotificationStatus-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-EthnicCategory-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-HumanLanguage-1-0-0 : 0 / 0
@@ -33,6 +33,8 @@ Generated Mon Nov 04 14:16:31 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\UKCore-Patient-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-BodySite-1-0-0 : 1 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-DeathNotificationStatus-1-0-0 : 0 / 0
+ C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-EmergencyCareDischargeStatus-1-0-0 : 1 / 0
+ C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-EncounterType-1-0-0 : 1 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-EthnicCategory-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-HumanLanguage-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-LanguageAbilityMode-1-0-0 : 1 / 0
@@ -145,6 +147,12 @@ ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-CareSettingType-1-0-0.x
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-DeathNotificationStatus-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-DeathNotificationStatus-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-DeathNotificationStatus-1-0-0.xml.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-EmergencyCareDischargeStatus-1-0-0.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-EmergencyCareDischargeStatus-1-0-0.json.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-EmergencyCareDischargeStatus-1-0-0.xml.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-EncounterType-1-0-0.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-EncounterType-1-0-0.json.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-EncounterType-1-0-0.xml.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-EthnicCategory-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-EthnicCategory-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-EthnicCategory-1-0-0.xml.html: The html source does not contain the publish box
@@ -230,6 +238,10 @@ ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\valuesets.html: The html source does no
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-BodySite-1-0-0.xml ==
 ERROR: UKCore-BodySite-1-0-0: Error from server: The filter "constraint = (<<442083009 |anatomical or acquired body structure|)" was not understood in the context of http://snomed.info/sct
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-DeathNotificationStatus-1-0-0.xml ==
+== C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-EmergencyCareDischargeStatus-1-0-0.xml ==
+ERROR: UKCore-EmergencyCareDischargeStatus-1-0-0: Error from server: The filter "concept in ^999003021000000104" was not understood in the context of http://snomed.info/sct
+== C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-EncounterType-1-0-0.xml ==
+ERROR: UKCore-EncounterType-1-0-0: Error from server: The filter "constraint = <<185316007 OR <<308467007 OR <<185201007" was not understood in the context of http://snomed.info/sct
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-EthnicCategory-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-HumanLanguage-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-LanguageAbilityMode-1-0-0.xml ==
