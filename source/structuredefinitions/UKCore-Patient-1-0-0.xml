@@ -97,9 +97,23 @@
       <path value="Patient.identifier.value" />
       <min value="1" />
     </element>
+    <element id="Patient.gender">
+      <path value="Patient.gender" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0" />
+      </binding>
+    </element>
     <element id="Patient.address">
       <path value="Patient.address" />
       <definition value="An address for the individual" />
+    </element>
+    <element id="Patient.maritalStatus">
+      <path value="Patient.maritalStatus" />
+      <binding>
+        <strength value="extensible" />
+        <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0" />
+      </binding>
     </element>
   </differential>
 </StructureDefinition>
