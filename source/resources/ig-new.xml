@@ -67,6 +67,36 @@
     </resource>
     <resource>
       <reference>
+        <reference value="ValueSet/UKCore-AllergyManifestation-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/UKCore-AllergyCertainty-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/UKCore-AllergySeverity-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/UKCore-AllergyCode-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/UKCore-AllergyExposureRoute-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="ValueSet/UKCore-CareSettingType-1-0-0"/>
       </reference>
       <exampleBoolean value="false"/>
@@ -320,6 +350,18 @@
     <resource>
       <reference>
         <reference value="ConceptMap/UKCore-AdministrativeGender-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ConceptMap/UKCore-AllergySeverity-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ConceptMap/UKCore-AllergyVerificationStatus-1-0-0"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

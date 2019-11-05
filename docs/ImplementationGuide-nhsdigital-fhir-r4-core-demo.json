@@ -71,6 +71,86 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-AllergyManifestation-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-AllergyManifestation-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-AllergyCertainty-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-AllergyCertainty-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-AllergySeverity-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-AllergySeverity-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-AllergyCode-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-AllergyCode-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-AllergyExposureRoute-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-AllergyExposureRoute-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
             "valueUri": "ValueSet-UKCore-CareSettingType-1-0-0.html"
           }
         ],
@@ -748,6 +828,38 @@
         ],
         "reference": {
           "reference": "ConceptMap/UKCore-AdministrativeGender-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ConceptMap"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ConceptMap-UKCore-AllergySeverity-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "ConceptMap/UKCore-AllergySeverity-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ConceptMap"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ConceptMap-UKCore-AllergyVerificationStatus-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "ConceptMap/UKCore-AllergyVerificationStatus-1-0-0"
         },
         "exampleBoolean": false
       },

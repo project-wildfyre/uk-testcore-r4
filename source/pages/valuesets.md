@@ -12,7 +12,7 @@ This page lists all the ValueSets defined as part of this Implementation Guide.
 - [NHS Data Model and Dictionary Admission Method](ValueSet-UKCore-AdmissionMethod-1-0-0.html)
 - [NHS Data Model and Dictionary Discharge Destination](ValueSet-UKCore-DischargeDestination-1-0-0.html)
 - [NHS Data Model and Dictionary Discharge Method](ValueSet-UKCore-DischargeMethod-1-0-0.html)
-- [NHS Data Model and Dictionary Outcome OF Attendance](ValueSet-UKCore-OutcomeOfAttendance-1-0-0.html)
+- [NHS Data Model and Dictionary Outcome Of Attendance](ValueSet-UKCore-OutcomeOfAttendance-1-0-0.html)
 - [NHS Data Model and Dictionary Source Of Admission](ValueSet-UKCore-SourceOfAdmission-1-0-0.html)
 - [NHS Data Model and Dictionary Person Stated Gender Code](ValueSet-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0.html)
 - [NHS Data Model and Dictionary Person Marital Status Code](ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.html)
@@ -30,6 +30,11 @@ This page lists all the ValueSets defined as part of this Implementation Guide.
 
 ### SNOMED CT Code List ###
 
+- [UK Core Allergy Manifestation](ValueSet-UKCore-AllergyManifestation-1-0-0.html)
+- [UK Core Allergy Certainty](ValueSet-UKCore-AllergyCertainty-1-0-0.html)
+- [UK Core Allergy Code](ValueSet-UKCore-AllergyCode-1-0-0.html)
+- [UK Core Allergy Exposure Route](ValueSet-UKCore-AllergyExposureRoute-1-0-0.html)
+- [UK Core Allergy Severity](ValueSet-UKCore-AllergySeverity-1-0-0.html)
 - [UK Core Body Site](ValueSet-UKCore-BodySite-1-0-0.html)
 - [UK Core Care Setting Type](ValueSet-UKCore-CareSettingType-1-0-0.html)
 - [UK Core Encounter Type](ValueSet-UKCore-EncounterType-1-0-0.html)

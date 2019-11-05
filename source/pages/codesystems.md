@@ -9,7 +9,7 @@ This page lists all the CodeSystems defined as part of this Implementation Guide
 - [NHS Data Model and Dictionary Admission Method](CodeSystem-UKCore-AdmissionMethod-1-0-0.html)
 - [NHS Data Model and Dictionary Discharge Destination](CodeSystem-UKCore-DischargeDestination-1-0-0.html)
 - [NHS Data Model and Dictionary Discharge Method](CodeSystem-UKCore-DischargeMethod-1-0-0.html)
-- [NHS Data Model and Dictionary Outcome OF Attendance](CodeSystem-UKCore-OutcomeOfAttendance-1-0-0.html)
+- [NHS Data Model and Dictionary Outcome Of Attendance](CodeSystem-UKCore-OutcomeOfAttendance-1-0-0.html)
 - [NHS Data Model and Dictionary Source Of Admission](CodeSystem-UKCore-SourceOfAdmission-1-0-0.html)
 - [NHS Data Model and Dictionary Person Stated Gender Code](CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0.html)
 - [NHS Data Model and Dictionary Person Marital Status Code](CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.html)

@@ -1,11 +1,11 @@
 ﻿FHIRR4CoreDemo : Validation Results
 =========================================
 
-err = 16, warn = 0, info = 0
+err = 26, warn = 0, info = 0
 IG Publisher Version: v0.9.92-SNAPSHOT
-Generated Tue Nov 05 11:37:45 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.demo#1.0.0 (canonical = https://fhir.nhs.uk/R4)
+Generated Tue Nov 05 14:04:46 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.demo#1.0.0 (canonical = https://fhir.nhs.uk/R4)
 
- Build Errors : 190 / 1
+ Build Errors : 211 / 1
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-AdmissionMethod-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-DeathNotificationStatus-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-DischargeDestination-1-0-0 : 0 / 0
@@ -25,6 +25,8 @@ Generated Tue Nov 05 11:37:45 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-SourceOfAdmission-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-TreatmentCategory-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\conceptmaps\ConceptMap-UKCore-AdministrativeGender-1-0-0 : 0 / 0
+ C:\Git\FHIR-R4-Core-IG-1.0.0\source\conceptmaps\ConceptMap-UKCore-AllergySeverity-1-0-0 : 0 / 0
+ C:\Git\FHIR-R4-Core-IG-1.0.0\source\conceptmaps\ConceptMap-UKCore-AllergyVerificationStatus-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\conceptmaps\ConceptMap-UKCore-MaritalStatus-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\examples\UKCore-Patient-Example-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\resources\ig : 0 / 0
@@ -38,6 +40,11 @@ Generated Tue Nov 05 11:37:45 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\Extension-UKCore-TreatmentCategory-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\UKCore-Patient-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-AdmissionMethod-1-0-0 : 0 / 0
+ C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-AllergyCertainty-1-0-0 : 1 / 0
+ C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-AllergyCode-1-0-0 : 1 / 0
+ C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-AllergyExposureRoute-1-0-0 : 1 / 0
+ C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-AllergyManifestation-1-0-0 : 1 / 0
+ C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-AllergySeverity-1-0-0 : 1 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-BodySite-1-0-0 : 1 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-DeathNotificationStatus-1-0-0 : 0 / 0
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-DischargeDestination-1-0-0 : 0 / 0
@@ -123,6 +130,12 @@ ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-TreatmentCategory-1-0
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ConceptMap-UKCore-AdministrativeGender-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ConceptMap-UKCore-AdministrativeGender-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ConceptMap-UKCore-AdministrativeGender-1-0-0.xml.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ConceptMap-UKCore-AllergySeverity-1-0-0.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ConceptMap-UKCore-AllergySeverity-1-0-0.json.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ConceptMap-UKCore-AllergySeverity-1-0-0.xml.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ConceptMap-UKCore-AllergyVerificationStatus-1-0-0.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ConceptMap-UKCore-AllergyVerificationStatus-1-0-0.json.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ConceptMap-UKCore-AllergyVerificationStatus-1-0-0.xml.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ConceptMap-UKCore-MaritalStatus-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ConceptMap-UKCore-MaritalStatus-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ConceptMap-UKCore-MaritalStatus-1-0-0.xml.html: The html source does not contain the publish box
@@ -171,6 +184,21 @@ ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\UKCore-Patient-Example-1-0-0.html: The 
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-AdmissionMethod-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-AdmissionMethod-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-AdmissionMethod-1-0-0.xml.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-AllergyCertainty-1-0-0.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-AllergyCertainty-1-0-0.json.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-AllergyCertainty-1-0-0.xml.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-AllergyCode-1-0-0.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-AllergyCode-1-0-0.json.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-AllergyCode-1-0-0.xml.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-AllergyExposureRoute-1-0-0.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-AllergyExposureRoute-1-0-0.json.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-AllergyExposureRoute-1-0-0.xml.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-AllergyManifestation-1-0-0.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-AllergyManifestation-1-0-0.json.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-AllergyManifestation-1-0-0.xml.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-AllergySeverity-1-0-0.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-AllergySeverity-1-0-0.json.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-AllergySeverity-1-0-0.xml.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-BodySite-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-BodySite-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-BodySite-1-0-0.xml.html: The html source does not contain the publish box
@@ -274,6 +302,8 @@ ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\valuesets.html: The html source does no
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-SourceOfAdmission-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-TreatmentCategory-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\conceptmaps\ConceptMap-UKCore-AdministrativeGender-1-0-0.xml ==
+== C:\Git\FHIR-R4-Core-IG-1.0.0\source\conceptmaps\ConceptMap-UKCore-AllergySeverity-1-0-0.xml ==
+== C:\Git\FHIR-R4-Core-IG-1.0.0\source\conceptmaps\ConceptMap-UKCore-AllergyVerificationStatus-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\conceptmaps\ConceptMap-UKCore-MaritalStatus-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\examples\UKCore-Patient-Example-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\resources\ig.xml ==
@@ -287,6 +317,16 @@ ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\valuesets.html: The html source does no
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\Extension-UKCore-TreatmentCategory-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions\UKCore-Patient-1-0-0.xml ==
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-AdmissionMethod-1-0-0.xml ==
+== C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-AllergyCertainty-1-0-0.xml ==
+ERROR: UKCore-AllergyCertainty-1-0-0: Error from server: The filter "constraint = (385434005 |Improbable diagnosis| OR 2931005 |Probable diagnosis| OR 255545003 |Definite| OR 410605003 |Confirmed present|)" was not understood in the context of http://snomed.info/sct
+== C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-AllergyCode-1-0-0.xml ==
+ERROR: UKCore-AllergyCode-1-0-0: Error from server: The filter "constraint = (<<105590001 |Substance OR <<373873005 |Pharmaceutical / biologic product| OR <<716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy|)" was not understood in the context of http://snomed.info/sct
+== C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-AllergyExposureRoute-1-0-0.xml ==
+ERROR: UKCore-AllergyExposureRoute-1-0-0: Error from server: The filter "constraint = ^999000051000001100 |ePrescribing route of administration simple reference set|" was not understood in the context of http://snomed.info/sct
+== C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-AllergyManifestation-1-0-0.xml ==
+ERROR: UKCore-AllergyManifestation-1-0-0: Error from server: The filter "concept in lt;lt;404684003" was not understood in the context of http://snomed.info/sct
+== C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-AllergySeverity-1-0-0.xml ==
+ERROR: UKCore-AllergySeverity-1-0-0: Error from server: The filter "constraint = (255604002 |Mild| OR 6736007 |Moderate| OR 24484000 |Severe| OR 399166001 |Fatal| OR 442452003 |Life threatening severity|)" was not understood in the context of http://snomed.info/sct
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-BodySite-1-0-0.xml ==
 ERROR: UKCore-BodySite-1-0-0: Error from server: The filter "constraint = (<<442083009 |anatomical or acquired body structure|)" was not understood in the context of http://snomed.info/sct
 == C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-DeathNotificationStatus-1-0-0.xml ==

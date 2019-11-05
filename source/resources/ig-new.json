@@ -75,6 +75,36 @@
     },
     {
       "reference" : {
+        "reference" : "ValueSet/UKCore-AllergyManifestation-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/UKCore-AllergyCertainty-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/UKCore-AllergySeverity-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/UKCore-AllergyCode-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/UKCore-AllergyExposureRoute-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "ValueSet/UKCore-CareSettingType-1-0-0"
       },
       "exampleBoolean" : false
@@ -328,6 +358,18 @@
     {
       "reference" : {
         "reference" : "ConceptMap/UKCore-AdministrativeGender-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ConceptMap/UKCore-AllergySeverity-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ConceptMap/UKCore-AllergyVerificationStatus-1-0-0"
       },
       "exampleBoolean" : false
     },

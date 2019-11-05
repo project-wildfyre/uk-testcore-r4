@@ -53,6 +53,26 @@
 			"source": "ValueSet-UKCore-ResidentialStatus-1-0-0.xml",
 			"base": "ValueSet-UKCore-ResidentialStatus-1-0-0.html"
 		},
+		"ValueSet/UKCore-AllergyManifestation-1-0-0": {
+			"source": "ValueSet-UKCore-AllergyManifestation-1-0-0.xml",
+			"base": "ValueSet-UKCore-AllergyManifestation-1-0-0.html"
+		},
+		"ValueSet/UKCore-AllergyCertainty-1-0-0": {
+			"source": "ValueSet-UKCore-AllergyCertainty-1-0-0.xml",
+			"base": "ValueSet-UKCore-AllergyCertainty-1-0-0.html"
+		},
+		"ValueSet/UKCore-AllergyCode-1-0-0": {
+			"source": "ValueSet-UKCore-AllergyCode-1-0-0.xml",
+			"base": "ValueSet-UKCore-AllergyCode-1-0-0.html"
+		},
+		"ValueSet/UKCore-AllergySeverity-1-0-0": {
+			"source": "ValueSet-UKCore-AllergySeverity-1-0-0.xml",
+			"base": "ValueSet-UKCore-AllergySeverity-1-0-0.html"
+		},
+		"ValueSet/UKCore-AllergyExposureRoute-1-0-0": {
+			"source": "ValueSet-UKCore-AllergyExposureRoute-1-0-0.xml",
+			"base": "ValueSet-UKCore-AllergyExposureRoute-1-0-0.html"
+		},
 		"ValueSet/UKCore-AdmissionMethod-1-0-0": {
 			"source": "ValueSet-UKCore-AdmissionMethod-1-0-0.xml",
 			"base": "ValueSet-UKCore-AdmissionMethod-1-0-0.html"
@@ -220,6 +240,14 @@
 		"ConceptMap/UKCore-MaritalStatus-1-0-0": {
 			"source": "ConceptMap-UKCore-MaritalStatus-1-0-0.xml",
 			"base": "ConceptMap-UKCore-MaritalStatus-1-0-0.html"
+		},
+		"ConceptMap/UKCore-AllergySeverity-1-0-0": {
+			"source": "ConceptMap-UKCore-AllergySeverity-1-0-0.xml",
+			"base": "ConceptMap-UKCore-AllergySeverity-1-0-0.html"
+		},
+		"ConceptMap/UKCore-AllergyVerificationStatus-1-0-0": {
+			"source": "ConceptMap-UKCore-AllergyVerificationStatus-1-0-0.xml",
+			"base": "ConceptMap-UKCore-AllergyVerificationStatus-1-0-0.html"
 		},
 		"ConceptMap/UKCore-AdministrativeGender-1-0-0": {
 			"source": "ConceptMap-UKCore-AdministrativeGender-1-0-0.xml",
