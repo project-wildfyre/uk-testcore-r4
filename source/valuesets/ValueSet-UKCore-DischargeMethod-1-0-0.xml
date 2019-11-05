@@ -5,7 +5,8 @@
 	</extension>
 	<url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-DischargeMethod-1-0-0"/>
 	<version value="1.0.0"/>
-	<name value="NHS Data Model and Dictionary Discharge Method"/>
+	<name value="NHSDataModelandDictionaryDischargeMethod"/>
+	<title value="NHS Data Model and Dictionary Discharge Method"/>
 	<status value="draft"/>
 	<date value="2019-11-05T00:00:00+00:00"/>
 	<publisher value="NHS Digital"/>

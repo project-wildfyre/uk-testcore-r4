@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="beb14a76-66ca-46fe-a248-527de668895d"/>
+  <id value="f8bd880f-61a6-4363-b493-6e53a070d792"/>
   <meta>
-    <lastUpdated value="2019-11-05T10:34:08.105+00:00"/>
+    <lastUpdated value="2019-11-05T11:36:17.522+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -70,8 +70,8 @@
         <description value="A ValueSet that identifies the residential status of a patient."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:85cb888d-525c-4b63-bd76-8d5735761d3e"/>
-          <timestamp value="2019-11-05T10:34:14+00:00"/>
+          <identifier value="urn:uuid:9f506fb5-b6c4-47cd-bff9-e64e8fdc624a"/>
+          <timestamp value="2019-11-05T11:36:24+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -362,8 +362,8 @@
         <description value="A ValueSet to identify the reason a list may be empty."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:0b1752d6-b432-4b67-ae5e-aef7cb2d1189"/>
-          <timestamp value="2019-11-05T10:34:14+00:00"/>
+          <identifier value="urn:uuid:b050e97d-44e6-48bc-867c-6656e5668958"/>
+          <timestamp value="2019-11-05T11:36:25+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -454,8 +454,8 @@
         <description value="A ValueSet to identify the reason a list may be incomplete."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:8453a068-ec61-43aa-9ae1-b6f9c3e25e28"/>
-          <timestamp value="2019-11-05T10:34:14+00:00"/>
+          <identifier value="urn:uuid:c53a42f1-6839-4090-84b0-9db8bff8f6c8"/>
+          <timestamp value="2019-11-05T11:36:25+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -580,8 +580,8 @@
         <description value="A ValueSet that identifies the treatment category for a patient."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:ab8c1e23-24dc-4854-bf9f-40cecfeba73b"/>
-          <timestamp value="2019-11-05T10:34:15+00:00"/>
+          <identifier value="urn:uuid:c01d9a3f-5ef4-47c9-9bc8-6d7e11cc02bd"/>
+          <timestamp value="2019-11-05T11:36:26+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2193,8 +2193,8 @@
         <description value="A ValueSet that identifies the language used by a person."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:2e26bf08-1e6e-4d99-9fad-4393a038bba9"/>
-          <timestamp value="2019-11-05T10:34:16+00:00"/>
+          <identifier value="urn:uuid:46f3d8f7-5b7f-409d-b2af-629b11c98e01"/>
+          <timestamp value="2019-11-05T11:36:26+00:00"/>
           <total value="190"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6342,8 +6342,8 @@
         <description value="A ValueSet that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:2983fc7f-5fe0-4645-8837-9b8be8073bcf"/>
-          <timestamp value="2019-11-05T10:34:16+00:00"/>
+          <identifier value="urn:uuid:b99e90bb-7252-4afa-9cc6-11dc04039f9f"/>
+          <timestamp value="2019-11-05T11:36:27+00:00"/>
           <total value="392"/>
           <parameter>
             <name value="excludeNested"/>
@@ -8381,8 +8381,8 @@
         <description value="A ValueSet to identify the type of death notice as held on Personal Demographics Service (PDS)."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:aad98213-aa3a-4460-b85c-5507e0df62c7"/>
-          <timestamp value="2019-11-05T10:34:17+00:00"/>
+          <identifier value="urn:uuid:cf4f57cb-758c-41a9-9ddb-39faf230b959"/>
+          <timestamp value="2019-11-05T11:36:27+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -9001,8 +9001,8 @@
         <description value="A ValueSet to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a person&#39;s ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:1ee9be11-1591-43b3-92eb-bf53a70d3d8d"/>
-          <timestamp value="2019-11-05T10:34:17+00:00"/>
+          <identifier value="urn:uuid:398676a3-1478-46e2-b040-aadf6dad49e2"/>
+          <timestamp value="2019-11-05T11:36:27+00:00"/>
           <total value="68"/>
           <parameter>
             <name value="excludeNested"/>
@@ -9357,6 +9357,1129 @@
     </resource>
   </entry>
   <entry>
+    <fullUrl value="https://fhir.nhs.uk/R4/ValueSet/UKCore-AdmissionMethod-1-0-0"/>
+    <resource>
+      <ValueSet>
+        <id value="UKCore-AdmissionMethod-1-0-0"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 18 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod-1-0-0 version 1.0.0</p>
+            <p>All codes from system 
+              <a href="CodeSystem-UKCore-AdmissionMethod-1-0-0.html">
+                <code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod-1-0-0</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-AdmissionMethod-1-0-0-11"> </a>
+                  <a href="CodeSystem-UKCore-AdmissionMethod-1-0-0.html#UKCore-AdmissionMethod-1-0-0-11">11</a>
+                </td>
+                <td>Waiting list</td>
+                <td>Elective Admission, when the Decision To Admit could be separated in time from the actual admission. Note that this does not include a transfer from another Hospital Provider (see 81).</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-AdmissionMethod-1-0-0-12"> </a>
+                  <a href="CodeSystem-UKCore-AdmissionMethod-1-0-0.html#UKCore-AdmissionMethod-1-0-0-12">12</a>
+                </td>
+                <td>Booked</td>
+                <td>Elective Admission, when the Decision To Admit could be separated in time from the actual admission. Note that this does not include a transfer from another Hospital Provider (see 81).</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-AdmissionMethod-1-0-0-13"> </a>
+                  <a href="CodeSystem-UKCore-AdmissionMethod-1-0-0.html#UKCore-AdmissionMethod-1-0-0-13">13</a>
+                </td>
+                <td>Planned</td>
+                <td>Elective Admission, when the Decision To Admit could be separated in time from the actual admission. Note that this does not include a transfer from another Hospital Provider (see 81).</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-AdmissionMethod-1-0-0-21"> </a>
+                  <a href="CodeSystem-UKCore-AdmissionMethod-1-0-0.html#UKCore-AdmissionMethod-1-0-0-21">21</a>
+                </td>
+                <td>Accident and emergency or dental casualty department of the Health Care Provider</td>
+                <td>Emergency Admission, when admission is unpredictable and at short notice because of clinical need.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-AdmissionMethod-1-0-0-22"> </a>
+                  <a href="CodeSystem-UKCore-AdmissionMethod-1-0-0.html#UKCore-AdmissionMethod-1-0-0-22">22</a>
+                </td>
+                <td>General Practitioner: after a request for immediate admission has been made direct to a Hospital Provider, i.e. not through a Bed bureau, by a General Practitioner or deputy</td>
+                <td>Emergency Admission, when admission is unpredictable and at short notice because of clinical need.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-AdmissionMethod-1-0-0-23"> </a>
+                  <a href="CodeSystem-UKCore-AdmissionMethod-1-0-0.html#UKCore-AdmissionMethod-1-0-0-23">23</a>
+                </td>
+                <td>Bed bureau</td>
+                <td>Emergency Admission, when admission is unpredictable and at short notice because of clinical need.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-AdmissionMethod-1-0-0-24"> </a>
+                  <a href="CodeSystem-UKCore-AdmissionMethod-1-0-0.html#UKCore-AdmissionMethod-1-0-0-24">24</a>
+                </td>
+                <td>Consultant Clinic, of this or another Health Care Provider</td>
+                <td>Emergency Admission, when admission is unpredictable and at short notice because of clinical need.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-AdmissionMethod-1-0-0-25"> </a>
+                  <a href="CodeSystem-UKCore-AdmissionMethod-1-0-0.html#UKCore-AdmissionMethod-1-0-0-25">25</a>
+                </td>
+                <td>Admission via Mental Health Crisis Resolution Team</td>
+                <td>Emergency Admission, when admission is unpredictable and at short notice because of clinical need.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-AdmissionMethod-1-0-0-2A"> </a>
+                  <a href="CodeSystem-UKCore-AdmissionMethod-1-0-0.html#UKCore-AdmissionMethod-1-0-0-2A">2A</a>
+                </td>
+                <td>Accident and Emergency Department of another provider where the Patient had not been admitted</td>
+                <td>Emergency Admission, when admission is unpredictable and at short notice because of clinical need. Note - National Codes 2A, 2B, 2C and 2D have been introduced to replace National Code 28 &#39;Other means&#39;.  National Code 28 will be retired in the next version of the Commissioning Data Set.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-AdmissionMethod-1-0-0-2B"> </a>
+                  <a href="CodeSystem-UKCore-AdmissionMethod-1-0-0.html#UKCore-AdmissionMethod-1-0-0-2B">2B</a>
+                </td>
+                <td>Transfer of an admitted Patient from another Hospital Provider in an emergency</td>
+                <td>Emergency Admission, when admission is unpredictable and at short notice because of clinical need. Note - National Codes 2A, 2B, 2C and 2D have been introduced to replace National Code 28 &#39;Other means&#39;.  National Code 28 will be retired in the next version of the Commissioning Data Set.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-AdmissionMethod-1-0-0-2C"> </a>
+                  <a href="CodeSystem-UKCore-AdmissionMethod-1-0-0.html#UKCore-AdmissionMethod-1-0-0-2C">2C</a>
+                </td>
+                <td>Baby born at home as intended</td>
+                <td>Emergency Admission, when admission is unpredictable and at short notice because of clinical need. Note - National Codes 2A, 2B, 2C and 2D have been introduced to replace National Code 28 &#39;Other means&#39;.  National Code 28 will be retired in the next version of the Commissioning Data Set.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-AdmissionMethod-1-0-0-2D"> </a>
+                  <a href="CodeSystem-UKCore-AdmissionMethod-1-0-0.html#UKCore-AdmissionMethod-1-0-0-2D">2D</a>
+                </td>
+                <td>Other emergency admission</td>
+                <td>Emergency Admission, when admission is unpredictable and at short notice because of clinical need. Note - National Codes 2A, 2B, 2C and 2D have been introduced to replace National Code 28 &#39;Other means&#39;.  National Code 28 will be retired in the next version of the Commissioning Data Set.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-AdmissionMethod-1-0-0-28"> </a>
+                  <a href="CodeSystem-UKCore-AdmissionMethod-1-0-0.html#UKCore-AdmissionMethod-1-0-0-28">28</a>
+                </td>
+                <td>Other means</td>
+                <td>Emergency Admission, when admission is unpredictable and at short notice because of clinical need. Note - National Code 28 is NOT valid for use in the Mental Health Services Data Set</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-AdmissionMethod-1-0-0-31"> </a>
+                  <a href="CodeSystem-UKCore-AdmissionMethod-1-0-0.html#UKCore-AdmissionMethod-1-0-0-31">31</a>
+                </td>
+                <td>Admitted ante-partum</td>
+                <td>Maternity Admission, of a pregnant or recently pregnant woman to a maternity ward (including delivery facilities) except when the intention is to terminate the pregnancy.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-AdmissionMethod-1-0-0-32"> </a>
+                  <a href="CodeSystem-UKCore-AdmissionMethod-1-0-0.html#UKCore-AdmissionMethod-1-0-0-32">32</a>
+                </td>
+                <td>Admitted post-partum</td>
+                <td>Maternity Admission, of a pregnant or recently pregnant woman to a maternity ward (including delivery facilities) except when the intention is to terminate the pregnancy.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-AdmissionMethod-1-0-0-82"> </a>
+                  <a href="CodeSystem-UKCore-AdmissionMethod-1-0-0.html#UKCore-AdmissionMethod-1-0-0-82">82</a>
+                </td>
+                <td>The birth of a baby in this Health Care Provider</td>
+                <td>Other Admission not specified above</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-AdmissionMethod-1-0-0-83"> </a>
+                  <a href="CodeSystem-UKCore-AdmissionMethod-1-0-0.html#UKCore-AdmissionMethod-1-0-0-83">83</a>
+                </td>
+                <td>Baby born outside the Health Care Provider except when born at home as intended.</td>
+                <td>Other Admission not specified above</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-AdmissionMethod-1-0-0-81"> </a>
+                  <a href="CodeSystem-UKCore-AdmissionMethod-1-0-0.html#UKCore-AdmissionMethod-1-0-0-81">81</a>
+                </td>
+                <td>Transfer of any admitted Patient from other Hospital Provider other than in an emergency</td>
+                <td>Other Admission not specified above</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
+          <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/attributes/a/add/admission_method_de.asp?shownav=1"/>
+        </extension>
+        <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-AdmissionMethod-1-0-0"/>
+        <version value="1.0.0"/>
+        <name value="NHSDataModelandDictionaryAdmissionMethod"/>
+        <title value="NHS Data Model and Dictionary Admission Method"/>
+        <status value="draft"/>
+        <date value="2019-11-05T00:00:00+00:00"/>
+        <publisher value="NHS Digital"/>
+        <contact>
+          <name value="Interoperability Team"/>
+          <telecom>
+            <system value="email"/>
+            <value value="interoperabilityteam@nhs.net"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <description value="The method of admission to a Hospital Provider Spell."/>
+        <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
+        <expansion>
+          <identifier value="urn:uuid:80b2ebec-e76f-423d-928e-80972a2e455d"/>
+          <timestamp value="2019-11-05T11:36:27+00:00"/>
+          <total value="18"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod-1-0-0|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod-1-0-0"/>
+            <code value="11"/>
+            <display value="Waiting list"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod-1-0-0"/>
+            <code value="12"/>
+            <display value="Booked"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod-1-0-0"/>
+            <code value="13"/>
+            <display value="Planned"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod-1-0-0"/>
+            <code value="21"/>
+            <display value="Accident and emergency or dental casualty department of the Health Care Provider"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod-1-0-0"/>
+            <code value="22"/>
+            <display value="General Practitioner: after a request for immediate admission has been made direct to a Hospital Provider, i.e. not through a Bed bureau, by a General Practitioner or deputy"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod-1-0-0"/>
+            <code value="23"/>
+            <display value="Bed bureau"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod-1-0-0"/>
+            <code value="24"/>
+            <display value="Consultant Clinic, of this or another Health Care Provider"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod-1-0-0"/>
+            <code value="25"/>
+            <display value="Admission via Mental Health Crisis Resolution Team"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod-1-0-0"/>
+            <code value="2A"/>
+            <display value="Accident and Emergency Department of another provider where the Patient had not been admitted"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod-1-0-0"/>
+            <code value="2B"/>
+            <display value="Transfer of an admitted Patient from another Hospital Provider in an emergency"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod-1-0-0"/>
+            <code value="2C"/>
+            <display value="Baby born at home as intended"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod-1-0-0"/>
+            <code value="2D"/>
+            <display value="Other emergency admission"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod-1-0-0"/>
+            <code value="28"/>
+            <display value="Other means"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod-1-0-0"/>
+            <code value="31"/>
+            <display value="Admitted ante-partum"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod-1-0-0"/>
+            <code value="32"/>
+            <display value="Admitted post-partum"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod-1-0-0"/>
+            <code value="82"/>
+            <display value="The birth of a baby in this Health Care Provider"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod-1-0-0"/>
+            <code value="83"/>
+            <display value="Baby born outside the Health Care Provider except when born at home as intended."/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod-1-0-0"/>
+            <code value="81"/>
+            <display value="Transfer of any admitted Patient from other Hospital Provider other than in an emergency"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.nhs.uk/R4/ValueSet/UKCore-DischargeDestination-1-0-0"/>
+    <resource>
+      <ValueSet>
+        <id value="UKCore-DischargeDestination-1-0-0"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 19 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination-1-0-0 version 1.0.0</p>
+            <p>All codes from system 
+              <a href="CodeSystem-UKCore-DischargeDestination-1-0-0.html">
+                <code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination-1-0-0</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeDestination-1-0-0-19"> </a>
+                  <a href="CodeSystem-UKCore-DischargeDestination-1-0-0.html#UKCore-DischargeDestination-1-0-0-19">19</a>
+                </td>
+                <td>Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode.</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeDestination-1-0-0-29"> </a>
+                  <a href="CodeSystem-UKCore-DischargeDestination-1-0-0.html#UKCore-DischargeDestination-1-0-0-29">29</a>
+                </td>
+                <td>Temporary place of residence when usually resident elsewhere (e.g. hotels, residential Educational Establishment)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeDestination-1-0-0-30"> </a>
+                  <a href="CodeSystem-UKCore-DischargeDestination-1-0-0.html#UKCore-DischargeDestination-1-0-0-30">30</a>
+                </td>
+                <td>Repatriation from high security psychiatric accommodation in an NHS Hospital Provider (NHS Trust or NHS Foundation Trust)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeDestination-1-0-0-37"> </a>
+                  <a href="CodeSystem-UKCore-DischargeDestination-1-0-0.html#UKCore-DischargeDestination-1-0-0-37">37</a>
+                </td>
+                <td>Court</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeDestination-1-0-0-38"> </a>
+                  <a href="CodeSystem-UKCore-DischargeDestination-1-0-0.html#UKCore-DischargeDestination-1-0-0-38">38</a>
+                </td>
+                <td>Penal establishment or police station</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeDestination-1-0-0-48"> </a>
+                  <a href="CodeSystem-UKCore-DischargeDestination-1-0-0.html#UKCore-DischargeDestination-1-0-0-48">48</a>
+                </td>
+                <td>High Security Psychiatric Hospital, Scotland</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeDestination-1-0-0-49"> </a>
+                  <a href="CodeSystem-UKCore-DischargeDestination-1-0-0.html#UKCore-DischargeDestination-1-0-0-49">49</a>
+                </td>
+                <td>NHS other Hospital Provider - high security psychiatric accommodation</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeDestination-1-0-0-50"> </a>
+                  <a href="CodeSystem-UKCore-DischargeDestination-1-0-0.html#UKCore-DischargeDestination-1-0-0-50">50</a>
+                </td>
+                <td>NHS other Hospital Provider - medium secure unit</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeDestination-1-0-0-51"> </a>
+                  <a href="CodeSystem-UKCore-DischargeDestination-1-0-0.html#UKCore-DischargeDestination-1-0-0-51">51</a>
+                </td>
+                <td>NHS other Hospital Provider - Ward for general Patients or the younger physically disabled</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeDestination-1-0-0-52"> </a>
+                  <a href="CodeSystem-UKCore-DischargeDestination-1-0-0.html#UKCore-DischargeDestination-1-0-0-52">52</a>
+                </td>
+                <td>NHS other Hospital Provider - Ward for maternity Patients or Neonates</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeDestination-1-0-0-53"> </a>
+                  <a href="CodeSystem-UKCore-DischargeDestination-1-0-0.html#UKCore-DischargeDestination-1-0-0-53">53</a>
+                </td>
+                <td>NHS other Hospital Provider - Ward for Patients who are mentally ill or have Learning Disabilities</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeDestination-1-0-0-54"> </a>
+                  <a href="CodeSystem-UKCore-DischargeDestination-1-0-0.html#UKCore-DischargeDestination-1-0-0-54">54</a>
+                </td>
+                <td>NHS run Care Home</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeDestination-1-0-0-65"> </a>
+                  <a href="CodeSystem-UKCore-DischargeDestination-1-0-0.html#UKCore-DischargeDestination-1-0-0-65">65</a>
+                </td>
+                <td>Local Authority residential accommodation i.e. where care is provided</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeDestination-1-0-0-66"> </a>
+                  <a href="CodeSystem-UKCore-DischargeDestination-1-0-0.html#UKCore-DischargeDestination-1-0-0-66">66</a>
+                </td>
+                <td>Local Authority foster care</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeDestination-1-0-0-79"> </a>
+                  <a href="CodeSystem-UKCore-DischargeDestination-1-0-0.html#UKCore-DischargeDestination-1-0-0-79">79</a>
+                </td>
+                <td>Not applicable - Patient died or still birth</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeDestination-1-0-0-84"> </a>
+                  <a href="CodeSystem-UKCore-DischargeDestination-1-0-0.html#UKCore-DischargeDestination-1-0-0-84">84</a>
+                </td>
+                <td>Non-NHS run hospital - medium secure unit</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeDestination-1-0-0-85"> </a>
+                  <a href="CodeSystem-UKCore-DischargeDestination-1-0-0.html#UKCore-DischargeDestination-1-0-0-85">85</a>
+                </td>
+                <td>Non-NHS (other than Local Authority) run Care Home</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeDestination-1-0-0-87"> </a>
+                  <a href="CodeSystem-UKCore-DischargeDestination-1-0-0.html#UKCore-DischargeDestination-1-0-0-87">87</a>
+                </td>
+                <td>Non NHS run hospital</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeDestination-1-0-0-88"> </a>
+                  <a href="CodeSystem-UKCore-DischargeDestination-1-0-0.html#UKCore-DischargeDestination-1-0-0-88">88</a>
+                </td>
+                <td>Non-NHS (other than Local Authority) run Hospice</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
+          <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/attributes/d/disc/discharge_destination_de.asp?shownav=1"/>
+        </extension>
+        <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-DischargeDestination-1-0-0"/>
+        <version value="1.0.0"/>
+        <name value="NHSDataModelandDictionaryDischargeDestination"/>
+        <title value="NHS Data Model and Dictionary Discharge Destination"/>
+        <status value="draft"/>
+        <date value="2019-11-05T00:00:00+00:00"/>
+        <publisher value="NHS Digital"/>
+        <contact>
+          <name value="Interoperability Team"/>
+          <telecom>
+            <system value="email"/>
+            <value value="interoperabilityteam@nhs.net"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <description value="The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth."/>
+        <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
+        <expansion>
+          <identifier value="urn:uuid:c4272033-1c53-4eaf-a340-77760d89bb11"/>
+          <timestamp value="2019-11-05T11:36:28+00:00"/>
+          <total value="19"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination-1-0-0|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination-1-0-0"/>
+            <code value="19"/>
+            <display value="Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode."/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination-1-0-0"/>
+            <code value="29"/>
+            <display value="Temporary place of residence when usually resident elsewhere (e.g. hotels, residential Educational Establishment)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination-1-0-0"/>
+            <code value="30"/>
+            <display value="Repatriation from high security psychiatric accommodation in an NHS Hospital Provider (NHS Trust or NHS Foundation Trust)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination-1-0-0"/>
+            <code value="37"/>
+            <display value="Court"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination-1-0-0"/>
+            <code value="38"/>
+            <display value="Penal establishment or police station"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination-1-0-0"/>
+            <code value="48"/>
+            <display value="High Security Psychiatric Hospital, Scotland"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination-1-0-0"/>
+            <code value="49"/>
+            <display value="NHS other Hospital Provider - high security psychiatric accommodation"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination-1-0-0"/>
+            <code value="50"/>
+            <display value="NHS other Hospital Provider - medium secure unit"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination-1-0-0"/>
+            <code value="51"/>
+            <display value="NHS other Hospital Provider - Ward for general Patients or the younger physically disabled"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination-1-0-0"/>
+            <code value="52"/>
+            <display value="NHS other Hospital Provider - Ward for maternity Patients or Neonates"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination-1-0-0"/>
+            <code value="53"/>
+            <display value="NHS other Hospital Provider - Ward for Patients who are mentally ill or have Learning Disabilities"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination-1-0-0"/>
+            <code value="54"/>
+            <display value="NHS run Care Home"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination-1-0-0"/>
+            <code value="65"/>
+            <display value="Local Authority residential accommodation i.e. where care is provided"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination-1-0-0"/>
+            <code value="66"/>
+            <display value="Local Authority foster care"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination-1-0-0"/>
+            <code value="79"/>
+            <display value="Not applicable - Patient died or still birth"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination-1-0-0"/>
+            <code value="84"/>
+            <display value="Non-NHS run hospital - medium secure unit"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination-1-0-0"/>
+            <code value="85"/>
+            <display value="Non-NHS (other than Local Authority) run Care Home"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination-1-0-0"/>
+            <code value="87"/>
+            <display value="Non NHS run hospital"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination-1-0-0"/>
+            <code value="88"/>
+            <display value="Non-NHS (other than Local Authority) run Hospice"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.nhs.uk/R4/ValueSet/UKCore-DischargeMethod-1-0-0"/>
+    <resource>
+      <ValueSet>
+        <id value="UKCore-DischargeMethod-1-0-0"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 7 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeMethod-1-0-0 version 1.0.0</p>
+            <p>All codes from system 
+              <a href="CodeSystem-UKCore-DischargeMethod-1-0-0.html">
+                <code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeMethod-1-0-0</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeMethod-1-0-0-1"> </a>
+                  <a href="CodeSystem-UKCore-DischargeMethod-1-0-0.html#UKCore-DischargeMethod-1-0-0-1">1</a>
+                </td>
+                <td>Patient discharged on clinical advice or with clinical consent</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeMethod-1-0-0-2"> </a>
+                  <a href="CodeSystem-UKCore-DischargeMethod-1-0-0.html#UKCore-DischargeMethod-1-0-0-2">2</a>
+                </td>
+                <td>Patient discharged him/herself or was discharged by a relative or advocate</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeMethod-1-0-0-3"> </a>
+                  <a href="CodeSystem-UKCore-DischargeMethod-1-0-0.html#UKCore-DischargeMethod-1-0-0-3">3</a>
+                </td>
+                <td>Patient discharged by mental health review tribunal, Home Secretary or Court</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeMethod-1-0-0-4"> </a>
+                  <a href="CodeSystem-UKCore-DischargeMethod-1-0-0.html#UKCore-DischargeMethod-1-0-0-4">4</a>
+                </td>
+                <td>Patient died</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeMethod-1-0-0-5"> </a>
+                  <a href="CodeSystem-UKCore-DischargeMethod-1-0-0.html#UKCore-DischargeMethod-1-0-0-5">5</a>
+                </td>
+                <td>Stillbirth</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeMethod-1-0-0-6"> </a>
+                  <a href="CodeSystem-UKCore-DischargeMethod-1-0-0.html#UKCore-DischargeMethod-1-0-0-6">6</a>
+                </td>
+                <td>Patient discharged him/herself</td>
+                <td>National Codes 6 and 7 have been introduced for the Mental Health Services Data Set only to add further granularity to National Code 2. However, National Code 2 is still valid for the Mental Health Services Data Set where extra detail cannot be collected. National Codes 6 and 7 are NOT valid in any other data set including Commissioning Data Set version 6-2.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DischargeMethod-1-0-0-7"> </a>
+                  <a href="CodeSystem-UKCore-DischargeMethod-1-0-0.html#UKCore-DischargeMethod-1-0-0-7">7</a>
+                </td>
+                <td>Patient discharged by a relative or advocate</td>
+                <td>National Codes 6 and 7 have been introduced for the Mental Health Services Data Set only to add further granularity to National Code 2. However, National Code 2 is still valid for the Mental Health Services Data Set where extra detail cannot be collected. National Codes 6 and 7 are NOT valid in any other data set including Commissioning Data Set version 6-2.</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
+          <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/attributes/d/disc/discharge_method_de.asp?shownav=1"/>
+        </extension>
+        <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-DischargeMethod-1-0-0"/>
+        <version value="1.0.0"/>
+        <name value="NHSDataModelandDictionaryDischargeMethod"/>
+        <title value="NHS Data Model and Dictionary Discharge Method"/>
+        <status value="draft"/>
+        <date value="2019-11-05T00:00:00+00:00"/>
+        <publisher value="NHS Digital"/>
+        <contact>
+          <name value="Interoperability Team"/>
+          <telecom>
+            <system value="email"/>
+            <value value="interoperabilityteam@nhs.net"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <description value="The method of discharge from a Hospital Provider Spell."/>
+        <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
+        <expansion>
+          <identifier value="urn:uuid:a9eaee2c-b03e-42b9-954c-613de83ad13e"/>
+          <timestamp value="2019-11-05T11:36:28+00:00"/>
+          <total value="7"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeMethod-1-0-0|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeMethod-1-0-0"/>
+            <code value="1"/>
+            <display value="Patient discharged on clinical advice or with clinical consent"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeMethod-1-0-0"/>
+            <code value="2"/>
+            <display value="Patient discharged him/herself or was discharged by a relative or advocate"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeMethod-1-0-0"/>
+            <code value="3"/>
+            <display value="Patient discharged by mental health review tribunal, Home Secretary or Court"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeMethod-1-0-0"/>
+            <code value="4"/>
+            <display value="Patient died"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeMethod-1-0-0"/>
+            <code value="5"/>
+            <display value="Stillbirth"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeMethod-1-0-0"/>
+            <code value="6"/>
+            <display value="Patient discharged him/herself"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeMethod-1-0-0"/>
+            <code value="7"/>
+            <display value="Patient discharged by a relative or advocate"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.nhs.uk/R4/ValueSet/UKCore-OutcomeOfAttendance-1-0-0"/>
+    <resource>
+      <ValueSet>
+        <id value="UKCore-OutcomeOfAttendance-1-0-0"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.nhs.uk/R4/CodeSystem/UKCore-OutcomeOfAttendance-1-0-0 version 1.0.0</p>
+            <p>All codes from system 
+              <a href="CodeSystem-UKCore-OutcomeOfAttendance-1-0-0.html">
+                <code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-OutcomeOfAttendance-1-0-0</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-OutcomeOfAttendance-1-0-0-1"> </a>
+                  <a href="CodeSystem-UKCore-OutcomeOfAttendance-1-0-0.html#UKCore-OutcomeOfAttendance-1-0-0-1">1</a>
+                </td>
+                <td>Discharged from Consultant&#39;s care (last attendance)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-OutcomeOfAttendance-1-0-0-2"> </a>
+                  <a href="CodeSystem-UKCore-OutcomeOfAttendance-1-0-0.html#UKCore-OutcomeOfAttendance-1-0-0-2">2</a>
+                </td>
+                <td>Another Appointment given</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-OutcomeOfAttendance-1-0-0-3"> </a>
+                  <a href="CodeSystem-UKCore-OutcomeOfAttendance-1-0-0.html#UKCore-OutcomeOfAttendance-1-0-0-3">3</a>
+                </td>
+                <td>Appointment to be made at a later date</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
+          <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/attributes/o/out/outcome_of_attendance_de.asp?shownav=1"/>
+        </extension>
+        <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-OutcomeOfAttendance-1-0-0"/>
+        <version value="1.0.0"/>
+        <name value="NHSDataModelandDictionaryOutcomeOfAttendance"/>
+        <title value="NHS Data Model and Dictionary Outcome Of Attendance"/>
+        <status value="draft"/>
+        <date value="2019-11-05T00:00:00+00:00"/>
+        <publisher value="NHS Digital"/>
+        <contact>
+          <name value="Interoperability Team"/>
+          <telecom>
+            <system value="email"/>
+            <value value="interoperabilityteam@nhs.net"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <description value="This records the outcome of an Out-Patient Attendance Consultant."/>
+        <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
+        <expansion>
+          <identifier value="urn:uuid:cf1ef506-207f-4f43-b5fd-e3dbe967e81a"/>
+          <timestamp value="2019-11-05T11:36:28+00:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-OutcomeOfAttendance-1-0-0|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-OutcomeOfAttendance-1-0-0"/>
+            <code value="1"/>
+            <display value="Discharged from Consultant&#39;s care (last attendance)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-OutcomeOfAttendance-1-0-0"/>
+            <code value="2"/>
+            <display value="Another Appointment given"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-OutcomeOfAttendance-1-0-0"/>
+            <code value="3"/>
+            <display value="Appointment to be made at a later date"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.nhs.uk/R4/ValueSet/UKCore-SourceOfAdmission-1-0-0"/>
+    <resource>
+      <ValueSet>
+        <id value="UKCore-SourceOfAdmission-1-0-0"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 14 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.nhs.uk/R4/CodeSystem/UKCore-SourceOfAdmission-1-0-0 version 1.0.0</p>
+            <p>All codes from system 
+              <a href="CodeSystem-UKCore-SourceOfAdmission-1-0-0.html">
+                <code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-SourceOfAdmission-1-0-0</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-SourceOfAdmission-1-0-0-19"> </a>
+                  <a href="CodeSystem-UKCore-SourceOfAdmission-1-0-0.html#UKCore-SourceOfAdmission-1-0-0-19">19</a>
+                </td>
+                <td>Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode.</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-SourceOfAdmission-1-0-0-29"> </a>
+                  <a href="CodeSystem-UKCore-SourceOfAdmission-1-0-0.html#UKCore-SourceOfAdmission-1-0-0-29">29</a>
+                </td>
+                <td>Temporary place of residence when usually resident elsewhere (e.g. hotels, residential Educational Establishments)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-SourceOfAdmission-1-0-0-39"> </a>
+                  <a href="CodeSystem-UKCore-SourceOfAdmission-1-0-0.html#UKCore-SourceOfAdmission-1-0-0-39">39</a>
+                </td>
+                <td>Penal establishment, Court, or Police Station / Police Custody Suite</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-SourceOfAdmission-1-0-0-49"> </a>
+                  <a href="CodeSystem-UKCore-SourceOfAdmission-1-0-0.html#UKCore-SourceOfAdmission-1-0-0-49">49</a>
+                </td>
+                <td>NHS other Hospital Provider - high security psychiatric accommodation in an NHS Hospital Provider (NHS Trust or NHS Foundation Trust)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-SourceOfAdmission-1-0-0-51"> </a>
+                  <a href="CodeSystem-UKCore-SourceOfAdmission-1-0-0.html#UKCore-SourceOfAdmission-1-0-0-51">51</a>
+                </td>
+                <td>NHS other Hospital Provider - Ward for general Patients or the younger physically disabled or A and E department</td>
+                <td>National Code 51 &#39;NHS other hospital provider - Ward for general Patients or the younger physically disabled or A and E department&#39; should not be used if the Patient arrives at an Accident and Emergency Department and is admitted to the same Hospital Provider.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-SourceOfAdmission-1-0-0-52"> </a>
+                  <a href="CodeSystem-UKCore-SourceOfAdmission-1-0-0.html#UKCore-SourceOfAdmission-1-0-0-52">52</a>
+                </td>
+                <td>NHS other Hospital Provider - Ward for maternity Patients or Neonates</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-SourceOfAdmission-1-0-0-53"> </a>
+                  <a href="CodeSystem-UKCore-SourceOfAdmission-1-0-0.html#UKCore-SourceOfAdmission-1-0-0-53">53</a>
+                </td>
+                <td>NHS other Hospital Provider - Ward for Patients who are mentally ill or have Learning Disabilities</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-SourceOfAdmission-1-0-0-54"> </a>
+                  <a href="CodeSystem-UKCore-SourceOfAdmission-1-0-0.html#UKCore-SourceOfAdmission-1-0-0-54">54</a>
+                </td>
+                <td>NHS run Care Home</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-SourceOfAdmission-1-0-0-65"> </a>
+                  <a href="CodeSystem-UKCore-SourceOfAdmission-1-0-0.html#UKCore-SourceOfAdmission-1-0-0-65">65</a>
+                </td>
+                <td>Local Authority residential accommodation i.e. where care is provided</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-SourceOfAdmission-1-0-0-66"> </a>
+                  <a href="CodeSystem-UKCore-SourceOfAdmission-1-0-0.html#UKCore-SourceOfAdmission-1-0-0-66">66</a>
+                </td>
+                <td>Local Authority foster care</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-SourceOfAdmission-1-0-0-79"> </a>
+                  <a href="CodeSystem-UKCore-SourceOfAdmission-1-0-0.html#UKCore-SourceOfAdmission-1-0-0-79">79</a>
+                </td>
+                <td>Babies born in or on the way to hospital</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-SourceOfAdmission-1-0-0-85"> </a>
+                  <a href="CodeSystem-UKCore-SourceOfAdmission-1-0-0.html#UKCore-SourceOfAdmission-1-0-0-85">85</a>
+                </td>
+                <td>Non-NHS (other than Local Authority) run Care Home</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-SourceOfAdmission-1-0-0-87"> </a>
+                  <a href="CodeSystem-UKCore-SourceOfAdmission-1-0-0.html#UKCore-SourceOfAdmission-1-0-0-87">87</a>
+                </td>
+                <td>Non NHS run hospital</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-SourceOfAdmission-1-0-0-88"> </a>
+                  <a href="CodeSystem-UKCore-SourceOfAdmission-1-0-0.html#UKCore-SourceOfAdmission-1-0-0-88">88</a>
+                </td>
+                <td>Non-NHS (other than Local Authority) run Hospice</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
+          <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/attributes/s/smo/source_of_admission_de.asp?shownav=1"/>
+        </extension>
+        <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-SourceOfAdmission-1-0-0"/>
+        <version value="1.0.0"/>
+        <name value="NHSDataModelandDictionarySourceOfAdmission"/>
+        <title value="NHS Data Model and Dictionary Source Of Admission"/>
+        <status value="draft"/>
+        <date value="2019-11-05T00:00:00+00:00"/>
+        <publisher value="NHS Digital"/>
+        <contact>
+          <name value="Interoperability Team"/>
+          <telecom>
+            <system value="email"/>
+            <value value="interoperabilityteam@nhs.net"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <description value="The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home."/>
+        <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
+        <expansion>
+          <identifier value="urn:uuid:529ed44a-ddd2-43aa-b1ce-90212e1f68c3"/>
+          <timestamp value="2019-11-05T11:36:28+00:00"/>
+          <total value="14"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-SourceOfAdmission-1-0-0|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-SourceOfAdmission-1-0-0"/>
+            <code value="19"/>
+            <display value="Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode."/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-SourceOfAdmission-1-0-0"/>
+            <code value="29"/>
+            <display value="Temporary place of residence when usually resident elsewhere (e.g. hotels, residential Educational Establishments)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-SourceOfAdmission-1-0-0"/>
+            <code value="39"/>
+            <display value="Penal establishment, Court, or Police Station / Police Custody Suite"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-SourceOfAdmission-1-0-0"/>
+            <code value="49"/>
+            <display value="NHS other Hospital Provider - high security psychiatric accommodation in an NHS Hospital Provider (NHS Trust or NHS Foundation Trust)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-SourceOfAdmission-1-0-0"/>
+            <code value="51"/>
+            <display value="NHS other Hospital Provider - Ward for general Patients or the younger physically disabled or A and E department"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-SourceOfAdmission-1-0-0"/>
+            <code value="52"/>
+            <display value="NHS other Hospital Provider - Ward for maternity Patients or Neonates"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-SourceOfAdmission-1-0-0"/>
+            <code value="53"/>
+            <display value="NHS other Hospital Provider - Ward for Patients who are mentally ill or have Learning Disabilities"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-SourceOfAdmission-1-0-0"/>
+            <code value="54"/>
+            <display value="NHS run Care Home"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-SourceOfAdmission-1-0-0"/>
+            <code value="65"/>
+            <display value="Local Authority residential accommodation i.e. where care is provided"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-SourceOfAdmission-1-0-0"/>
+            <code value="66"/>
+            <display value="Local Authority foster care"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-SourceOfAdmission-1-0-0"/>
+            <code value="79"/>
+            <display value="Babies born in or on the way to hospital"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-SourceOfAdmission-1-0-0"/>
+            <code value="85"/>
+            <display value="Non-NHS (other than Local Authority) run Care Home"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-SourceOfAdmission-1-0-0"/>
+            <code value="87"/>
+            <display value="Non NHS run hospital"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-SourceOfAdmission-1-0-0"/>
+            <code value="88"/>
+            <display value="Non-NHS (other than Local Authority) run Hospice"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
     <fullUrl value="https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSNumberVerificationStatus-1-0-0"/>
     <resource>
       <ValueSet>
@@ -9471,8 +10594,8 @@
         <description value="A ValueSet that identifies the trace status of the NHS number. The CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:078fb4e9-f20a-4b79-8f5e-4d2347680f62"/>
-          <timestamp value="2019-11-05T10:34:17+00:00"/>
+          <identifier value="urn:uuid:8be48d51-7a5b-4415-b547-bf2c92f1b0b8"/>
+          <timestamp value="2019-11-05T11:36:28+00:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -9617,8 +10740,8 @@
         <description value="An indicator to identify the legal marital status of a Person."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:a48dbe15-85f9-4915-b2a8-73dde285ab1a"/>
-          <timestamp value="2019-11-05T10:34:17+00:00"/>
+          <identifier value="urn:uuid:70bd0c70-735a-4135-96b1-43d3436d8fd9"/>
+          <timestamp value="2019-11-05T11:36:29+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -9737,8 +10860,8 @@
         <description value="The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:946e380c-2491-48c5-899e-8d8787cd1866"/>
-          <timestamp value="2019-11-05T10:34:21+00:00"/>
+          <identifier value="urn:uuid:b7d359c7-1249-479b-82b8-170e69dc597a"/>
+          <timestamp value="2019-11-05T11:36:33+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>

@@ -157,6 +157,36 @@
     </resource>
     <resource>
       <reference>
+        <reference value="ValueSet/UKCore-AdmissionMethod-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/UKCore-DischargeDestination-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/UKCore-DischargeMethod-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/UKCore-OutcomeOfAttendance-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/UKCore-SourceOfAdmission-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="ValueSet/UKCore-NHSNumberVerificationStatus-1-0-0"/>
       </reference>
       <exampleBoolean value="false"/>
@@ -170,6 +200,36 @@
     <resource>
       <reference>
         <reference value="ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/UKCore-AdmissionMethod-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/UKCore-DischargeDestination-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/UKCore-DischargeMethod-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/UKCore-OutcomeOfAttendance-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/UKCore-SourceOfAdmission-1-0-0"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -284,6 +344,12 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-NHSCommunication-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-DeathNotificationStatus-1-0-0"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
