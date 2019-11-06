@@ -119,9 +119,9 @@
       <path value="Patient.generalPractitioner" />
       <type>
         <code value="Reference" />
-        <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner-1-0-0" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner-1-0-0" />
       </type>
     </element>
   </differential>
