@@ -115,5 +115,14 @@
         <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0" />
       </binding>
     </element>
+    <element id="Patient.generalPractitioner">
+      <path value="Patient.generalPractitioner" />
+      <type>
+        <code value="Reference" />
+        <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner-1-0-0" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole" />
+      </type>
+    </element>
   </differential>
 </StructureDefinition>
