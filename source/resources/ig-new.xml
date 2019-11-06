@@ -18,9 +18,6 @@
     <valueString value="C:\Git\FHIR-R4-Core-IG-1.0.0\source\examples"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
-    <valueString value="C:\Git\FHIR-R4-Core-IG-1.0.0\source\searchparameters"/>
-  </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
     <valueString value="C:\Git\FHIR-R4-Core-IG-1.0.0\source\conceptmaps"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages">

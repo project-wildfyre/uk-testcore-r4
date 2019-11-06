@@ -23,10 +23,6 @@
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\Git\\FHIR-R4-Core-IG-1.0.0\\source\\searchparameters"
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
     "valueString" : "C:\\Git\\FHIR-R4-Core-IG-1.0.0\\source\\conceptmaps"
   },
   {
