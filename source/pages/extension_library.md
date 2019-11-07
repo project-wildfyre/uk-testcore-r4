@@ -13,6 +13,6 @@ The following <a href="http://hl7.org/fhir/extensibility-registry.html" target="
 
 - [patient-birthPlace](http://hl7.org/fhir/StructureDefinition/patient-birthPlace)
 - [patient-birthTime](http://hl7.org/fhir/StructureDefinition/patient-birthTime)
-- [cadavericDonor](http://hl7.org/fhir/StructureDefinition/patient-cadavericDonor)
+- [patient-cadavericDonor](http://hl7.org/fhir/StructureDefinition/patient-cadavericDonor)
 - [organization-period](http://hl7.org/fhir/StructureDefinition/organization-period)
-- [sctdescid](http://hl7.org/fhir/StructureDefinition/coding-sctdescid)
+- [coding-sctdescid](http://hl7.org/fhir/StructureDefinition/coding-sctdescid)
