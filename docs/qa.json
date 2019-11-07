@@ -3,7 +3,7 @@
   "name": "FHIRR4CoreDemo",
   "package-id": "nhsdigital.fhir.r4.core.demo",
   "ig-ver": "1.0.0",
-  "date": "Wed, 06 Nov, 2019 13:48:12 +0000",
+  "date": "Thu, 07 Nov, 2019 12:18:09 +0000",
   "errs": 24,
   "warnings": 0,
   "hints": 0,
