@@ -108,19 +108,12 @@
       <path value="Patient.gender" />
       <binding>
         <strength value="required" />
-        <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0" />
+        <valueSet value="http://hl7.org/fhir/ValueSet/administrative-gender" />
       </binding>
     </element>
     <element id="Patient.address">
       <path value="Patient.address" />
       <definition value="An address for the individual" />
-    </element>
-    <element id="Patient.maritalStatus">
-      <path value="Patient.maritalStatus" />
-      <binding>
-        <strength value="extensible" />
-        <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0" />
-      </binding>
     </element>
     <element id="Patient.contact.organization">
       <path value="Patient.contact.organization" />
