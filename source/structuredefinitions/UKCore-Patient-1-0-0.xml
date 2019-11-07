@@ -97,6 +97,13 @@
       <path value="Patient.identifier.value" />
       <min value="1" />
     </element>
+    <element id="Patient.identifier:nhsNumber.assigner">
+      <path value="Patient.identifier.assigner" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
+      </type>
+    </element>
     <element id="Patient.gender">
       <path value="Patient.gender" />
       <binding>
@@ -115,13 +122,38 @@
         <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0" />
       </binding>
     </element>
+    <element id="Patient.contact.organization">
+      <path value="Patient.contact.organization" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
+      </type>
+    </element>
     <element id="Patient.generalPractitioner">
       <path value="Patient.generalPractitioner" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner-1-0-0" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
+      </type>
+    </element>
+    <element id="Patient.managingOrganization">
+      <path value="Patient.managingOrganization" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
+      </type>
+    </element>
+    <element id="Patient.link.other">
+      <path value="Patient.link.other" />
+      <type>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy">
+          <valueBoolean value="false" />
+        </extension>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient-1-0-0" />
       </type>
     </element>
   </differential>
