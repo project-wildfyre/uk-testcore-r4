@@ -16,8 +16,8 @@
       <use value="work" />
     </telecom>
   </contact>
-  <description value="This extension is constrained to represent a patient's residential status." />
-  <purpose value="This extension has been developed to represent the residential status of a patient." />
+  <description value="This extension is constrained to represent a patient's residential status for use by the FHIR R4 Core Demo specification." />
+  <purpose value="This extension has been developed to represent the residential status of a patient for wider use." />
   <copyright value="Copyright © 2019 NHS Digital" />
   <fhirVersion value="4.0.0" />
   <mapping>
