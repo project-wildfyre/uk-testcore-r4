@@ -1,6 +1,6 @@
 {
   "resourceType" : "ImplementationGuide",
-  "id" : "nhsdigital-fhir-r4-core-demo",
+  "id" : "nhsdigital-fhir-r4-core-prototype",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
     "valueString" : "C:\\Git\\FHIR-R4-Core-IG-1.0.0\\source\\resources"
@@ -33,10 +33,10 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
     "valueString" : "C:\\Git\\FHIR-R4-Core-IG-1.0.0\\source\\pages"
   }],
-  "url" : "https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-demo",
+  "url" : "https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype",
   "version" : "1.0.0",
-  "name" : "FHIRR4CoreDemo",
-  "title" : "FHIR R4 Core Demo",
+  "name" : "FHIRR4CorePrototype",
+  "title" : "FHIR R4 Core Prototype",
   "status" : "draft",
   "experimental" : true,
   "date" : "2019-10-14T00:00:00+01:00",
@@ -55,13 +55,13 @@
       "code" : "GB"
     }]
   }],
-  "packageId" : "nhsdigital.fhir.r4.core.demo",
+  "packageId" : "nhsdigital.fhir.r4.core.prototype",
   "license" : "CC0-1.0",
   "fhirVersion" : ["4.0.1",
   "4.0.1"],
   "definition" : {
     "grouping" : [{
-      "name" : "FHIR R4 Core Demo"
+      "name" : "FHIR R4 Core Prototype"
     }],
     "resource" : [{
       "reference" : {

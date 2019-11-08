@@ -1,9 +1,9 @@
-﻿FHIRR4CoreDemo : Validation Results
+﻿FHIRR4CorePrototype : Validation Results
 =========================================
 
 err = 26, warn = 0, info = 0
 IG Publisher Version: v0.9.92-SNAPSHOT
-Generated Thu Nov 07 13:46:10 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.demo#1.0.0 (canonical = https://fhir.nhs.uk/R4)
+Generated Fri Nov 08 11:31:01 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype#1.0.0 (canonical = https://fhir.nhs.uk/R4)
 
  Build Errors : 211 / 1
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-AdmissionMethod-1-0-0 : 0 / 0
@@ -71,7 +71,7 @@ Generated Thu Nov 07 13:46:10 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r
  C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets\valueset-UKCore-CareSettingType-1-0-0 : 1 / 0
 </table>
 == n/a ==
-WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be nhsdigital.fhir.r4.core.demo
+WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be nhsdigital.fhir.r4.core.prototype
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\Any.html: The html source does not contain the publish box <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader--> (see note at http://wiki.hl7.org/index.php?title=FHIR_Implementation_Guide_Publishing_Requirements#HL7_HTML_Standards_considerations)
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-AdmissionMethod-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\CodeSystem-UKCore-AdmissionMethod-1-0-0.json.html: The html source does not contain the publish box
@@ -155,9 +155,9 @@ ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\Extension-UKCore-ResidentialStatus-1-0-
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\Extension-UKCore-ResidentialStatus-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\Extension-UKCore-TreatmentCategory-1-0-0-definitions.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\Extension-UKCore-TreatmentCategory-1-0-0.html: The html source does not contain the publish box
-ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ImplementationGuide-nhsdigital-fhir-r4-core-demo.html: The html source does not contain the publish box
-ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ImplementationGuide-nhsdigital-fhir-r4-core-demo.json.html: The html source does not contain the publish box
-ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ImplementationGuide-nhsdigital-fhir-r4-core-demo.xml.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ImplementationGuide-nhsdigital-fhir-r4-core-prototype.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ImplementationGuide-nhsdigital-fhir-r4-core-prototype.json.html: The html source does not contain the publish box
+ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\ImplementationGuide-nhsdigital-fhir-r4-core-prototype.xml.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\Patient-UKCore-Patient-Example-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\Patient-UKCore-Patient-Example-1-0-0.xml.html: The html source does not contain the publish box
 ERROR: C:\Git\FHIR-R4-Core-IG-1.0.0\docs\StructureDefinition-Extension-UKCore-DeathNotificationStatus-1-0-0.json.html: The html source does not contain the publish box

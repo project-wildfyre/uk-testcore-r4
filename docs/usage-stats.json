@@ -1,5 +1,5 @@
 {
-  "package": "nhsdigital.fhir.r4.core.demo",
+  "package": "nhsdigital.fhir.r4.core.prototype",
   "version": "1.0.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "GB",

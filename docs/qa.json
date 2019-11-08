@@ -1,9 +1,9 @@
 {
-  "url": "https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-demo",
-  "name": "FHIRR4CoreDemo",
-  "package-id": "nhsdigital.fhir.r4.core.demo",
+  "url": "https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype",
+  "name": "FHIRR4CorePrototype",
+  "package-id": "nhsdigital.fhir.r4.core.prototype",
   "ig-ver": "1.0.0",
-  "date": "Thu, 07 Nov, 2019 13:44:48 +0000",
+  "date": "Fri, 08 Nov, 2019 11:29:36 +0000",
   "errs": 26,
   "warnings": 0,
   "hints": 0,
