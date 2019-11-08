@@ -51,6 +51,7 @@
       <definition value="The patient's nominated pharmacy." />
       <type>
         <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
       </type>
     </element>
   </differential>
