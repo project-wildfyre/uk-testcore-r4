@@ -1,9 +1,9 @@
 ---
-title: FHIR R4 Core Demo Implementation Guide - Version 1.0.0
+title: FHIR R4 Core Demo Implementation Guide - November 2019 Release
 layout: default
 active: home
 ---
 
-FHIR R4 Core Demo Implementation Guide, Version 1.0.0.  
+FHIR R4 Core Demo Implementation Guide - November 2019 Release
 
-This is an initial specification **for demonstration purposes only**. More information can be found in the [Guidance](guidance.html) section.
+This is an initial **prototype specification**. More information can be found in the [Guidance](guidance.html) section.

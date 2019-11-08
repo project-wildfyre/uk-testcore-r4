@@ -24,7 +24,7 @@
 	"language": "en-GB",
 	"version": "4.0.1",
 	"license": "CC0-1.0",
-	"npm-name": "nhsdigital.fhir.r4.core.demo",
+	"npm-name": "nhsdigital.fhir.r4.core.prototype",
 	"html-template": "test-template-master/instance-template-format.html",
 	"no-inactive-codes": false,
 	"broken-links": "warning",
@@ -510,6 +510,6 @@
 			"template-base": "base.html"
 		},
 		"publisher": "NHS Digital",
-		"title": "FHIR R4 Core Demo"
+		"title": "FHIR R4 Core Prototype"
 	}
 }

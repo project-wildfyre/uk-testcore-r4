@@ -6,13 +6,13 @@ active: guidance
 
 ### Summary
 
-FHIR R4 Core Demo Implementation Guide, Version 1.0.0.  
+FHIR R4 Core Demo Implementation Guide - November 2019 Release.  
 
 **Important:**
 
 This initial specification is:
 
-- **for demonstration purposes only**
+- a prototype specification
 - intended to demonstrate a proposed approach to generating a UK Core specification, using the <a href="https://wiki.hl7.org/index.php?title=IG_Publisher_Documentation" target="_blank">HL7 IG Publisher tool</a>
 - in the **Discovery** stage based on <a href="https://www.gov.uk/service-manual/agile-delivery" target="_blank">GDS agile delivery</a>.  
 
