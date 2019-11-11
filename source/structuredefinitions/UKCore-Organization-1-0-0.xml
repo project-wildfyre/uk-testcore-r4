@@ -113,5 +113,19 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
       </type>
     </element>
+    <element id="Organization.partOf.identifier.assigner">
+      <path value="Organization.partOf.identifier.assigner" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
+      </type>
+    </element>
+    <element id="Organization.endpoint.identifier.assigner">
+      <path value="Organization.endpoint.identifier.assigner" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
+      </type>
+    </element>
   </differential>
 </StructureDefinition>
