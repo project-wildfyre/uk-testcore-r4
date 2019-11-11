@@ -104,6 +104,13 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
       </type>
     </element>
+    <element id="Patient.identifier:nhsNumber.assigner.identifier.assigner">
+      <path value="Patient.identifier.assigner.identifier.assigner" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
+      </type>
+    </element>
     <element id="Patient.gender">
       <path value="Patient.gender" />
       <binding>
@@ -122,6 +129,13 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
       </type>
     </element>
+    <element id="Patient.contact.organization.identifier.assigner">
+      <path value="Patient.contact.organization.identifier.assigner" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
+      </type>
+    </element>
     <element id="Patient.generalPractitioner">
       <path value="Patient.generalPractitioner" />
       <type>
@@ -131,8 +145,22 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
       </type>
     </element>
+    <element id="Patient.generalPractitioner.identifier.assigner">
+      <path value="Patient.generalPractitioner.identifier.assigner" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
+      </type>
+    </element>
     <element id="Patient.managingOrganization">
       <path value="Patient.managingOrganization" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
+      </type>
+    </element>
+    <element id="Patient.managingOrganization.identifier.assigner">
+      <path value="Patient.managingOrganization.identifier.assigner" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
@@ -147,6 +175,13 @@
         <code value="Reference" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient-1-0-0" />
+      </type>
+    </element>
+    <element id="Patient.link.other.identifier.assigner">
+      <path value="Patient.link.other.identifier.assigner" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
       </type>
     </element>
   </differential>

@@ -78,6 +78,13 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
       </type>
     </element>
+    <element id="Practitioner.identifier:sdsUserID.assigner.identifier.assigner">
+      <path value="Practitioner.identifier.assigner.identifier.assigner" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
+      </type>
+    </element>
     <element id="Practitioner.identifier:sdsRoleProfileID">
       <path value="Practitioner.identifier" />
       <sliceName value="sdsRoleProfileID" />
@@ -98,6 +105,13 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
       </type>
     </element>
+    <element id="Practitioner.identifier:sdsRoleProfileID.assigner.identifier.assigner">
+      <path value="Practitioner.identifier.assigner.identifier.assigner" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
+      </type>
+    </element>
     <element id="Practitioner.qualification.identifier.assigner">
       <path value="Practitioner.qualification.identifier.assigner" />
       <type>
@@ -107,6 +121,13 @@
     </element>
     <element id="Practitioner.qualification.issuer">
       <path value="Practitioner.qualification.issuer" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
+      </type>
+    </element>
+    <element id="Practitioner.qualification.issuer.identifier.assigner">
+      <path value="Practitioner.qualification.issuer.identifier.assigner" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
