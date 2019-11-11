@@ -1,9 +1,9 @@
 ﻿FHIRR4CorePrototype : Validation Results
 =========================================
 
-err = 24, warn = 0, info = 0
+err = 26, warn = 0, info = 0
 IG Publisher Version: v0.9.93-SNAPSHOT
-Generated Mon Nov 11 10:08:59 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype#1.0.0 (canonical = https://fhir.nhs.uk/R4)
+Generated Mon Nov 11 10:25:30 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype#1.0.0 (canonical = https://fhir.nhs.uk/R4)
 
  Build Errors : 212 / 1
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-AdmissionMethod-1-0-0 : 0 / 0
@@ -46,15 +46,15 @@ Generated Mon Nov 11 10:08:59 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-AllergyManifestation-1-0-0 : 1 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-AllergySeverity-1-0-0 : 1 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-BodySite-1-0-0 : 1 / 0
- C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-DeathNotificationStatus-1-0-0 : 1 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-DeathNotificationStatus-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-DischargeDestination-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-DischargeMethod-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-EmergencyCareDischargeStatus-1-0-0 : 1 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-EncounterType-1-0-0 : 1 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-EthnicCategory-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-HumanLanguage-1-0-0 : 0 / 0
- C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-LanguageAbilityMode-1-0-0 : 0 / 0
- C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-LanguageAbilityProficiency-1-0-0 : 0 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-LanguageAbilityMode-1-0-0 : 1 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-LanguageAbilityProficiency-1-0-0 : 1 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ListCode-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ListEmptyReasonCode-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ListWarningCode-1-0-0 : 0 / 0
@@ -331,7 +331,6 @@ ERROR: UKCore-AllergySeverity-1-0-0: Error from server: The filter "constraint =
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-BodySite-1-0-0.xml ==
 ERROR: UKCore-BodySite-1-0-0: Error from server: The filter "constraint = (<<442083009 |anatomical or acquired body structure|)" was not understood in the context of http://snomed.info/sct
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-DeathNotificationStatus-1-0-0.xml ==
-ERROR: UKCore-DeathNotificationStatus-1-0-0: Error from server: Unable to provide support for code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-DeathNotificationStatus-1-0-0
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-DischargeDestination-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-DischargeMethod-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-EmergencyCareDischargeStatus-1-0-0.xml ==
@@ -341,7 +340,9 @@ ERROR: UKCore-EncounterType-1-0-0: Error from server: The filter "constraint = <
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-EthnicCategory-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-HumanLanguage-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-LanguageAbilityMode-1-0-0.xml ==
+ERROR: UKCore-LanguageAbilityMode-1-0-0: Error from server: Unable to provide support for code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode-1-0-0
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-LanguageAbilityProficiency-1-0-0.xml ==
+ERROR: UKCore-LanguageAbilityProficiency-1-0-0: Error from server: Unable to provide support for code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ListCode-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ListEmptyReasonCode-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ListWarningCode-1-0-0.xml ==

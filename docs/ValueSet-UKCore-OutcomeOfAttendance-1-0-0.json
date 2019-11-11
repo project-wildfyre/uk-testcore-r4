@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "id": "UKCore-OutcomeOfAttendance-1-0-0",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NHS Data Model and Dictionary Outcome Of Attendance</h2><div><p>This records the outcome of an Out-Patient Attendance Consultant.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-UKCore-OutcomeOfAttendance-1-0-0.html\"><code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-OutcomeOfAttendance-1-0-0</code></a></li></ul></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/valueset-sourceReference",
+      "valueUri": "http://www.datadictionary.nhs.uk/data_dictionary/attributes/o/out/outcome_of_attendance_de.asp?shownav=1"
+    }
+  ],
+  "url": "https://fhir.nhs.uk/R4/ValueSet/UKCore-OutcomeOfAttendance-1-0-0",
+  "version": "1.0.0",
+  "name": "NHSDataModelandDictionaryOutcomeOfAttendance",
+  "title": "NHS Data Model and Dictionary Outcome Of Attendance",
+  "status": "draft",
+  "date": "2019-11-05T00:00:00+00:00",
+  "publisher": "NHS Digital",
+  "contact": [
+    {
+      "name": "Interoperability Team",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "interoperabilityteam@nhs.net",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "This records the outcome of an Out-Patient Attendance Consultant.",
+  "copyright": "Copyright © 2019 NHS Digital",
+  "compose": {
+    "include": [
+      {
+        "system": "https://fhir.nhs.uk/R4/CodeSystem/UKCore-OutcomeOfAttendance-1-0-0"
+      }
+    ]
+  }
+}

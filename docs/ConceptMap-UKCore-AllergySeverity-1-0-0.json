@@ -1,0 +1,83 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "UKCore-AllergySeverity-1-0-0",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ConceptMapUKCoreAllergySeverity (https://fhir.nhs.uk/R4/ConceptMap/UKCore-AllergySeverity-1-0-0)</h2><p>Mapping from <a href=\"http://build.fhir.org/valueset-reaction-event-severity.html\">http://hl7.org/fhir/ValueSet/reaction-event-severity</a> to <a href=\"ValueSet-UKCore-AllergySeverity-1-0-0.html\">https://fhir.nhs.uk/R4/ValueSet/UKCore-AllergySeverity-1-0-0</a></p><p>DRAFT. Published on 05-Nov-2019 00:00:00 by NHS Digital (Interoperability Team: <a href=\"mailto:interoperabilityteam@nhs.net\">interoperabilityteam@nhs.net</a>). Copyright © 2019 NHS Digital</p><div><p>A Concept Map from the HL7 FHIR ValueSet Reaction Event Severity to Allergy Severity to aid interpretation.</p>\n</div><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>mild</td><td>equivalent</td><td>255604002 (Mild)</td></tr><tr><td>moderate</td><td>equivalent</td><td>6736007 (Moderate)</td></tr><tr><td>severe</td><td>equivalent</td><td>24484000 (Severe (severity modifier))</td></tr><tr><td>severe</td><td>equivalent</td><td>442452003 (Life threatening severity)</td></tr></table></div>"
+  },
+  "url": "https://fhir.nhs.uk/R4/ConceptMap/UKCore-AllergySeverity-1-0-0",
+  "version": "1.0.0",
+  "name": "ConceptMapUKCoreAllergySeverity",
+  "title": "Concept Map - UK Core Allergy Severity",
+  "status": "draft",
+  "date": "2019-11-05T00:00:00+00:00",
+  "publisher": "NHS Digital",
+  "contact": [
+    {
+      "name": "Interoperability Team",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "interoperabilityteam@nhs.net",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "A Concept Map from the HL7 FHIR ValueSet Reaction Event Severity to Allergy Severity to aid interpretation.",
+  "copyright": "Copyright © 2019 NHS Digital",
+  "sourceUri": "http://hl7.org/fhir/ValueSet/reaction-event-severity",
+  "targetUri": "https://fhir.nhs.uk/R4/ValueSet/UKCore-AllergySeverity-1-0-0",
+  "group": [
+    {
+      "source": "http://hl7.org/fhir/reaction-event-severity",
+      "target": "http://snomed.info/sct",
+      "element": [
+        {
+          "code": "mild",
+          "display": "Mild",
+          "target": [
+            {
+              "code": "255604002",
+              "display": "Mild",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "moderate",
+          "display": "Moderate",
+          "target": [
+            {
+              "code": "6736007",
+              "display": "Moderate",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "severe",
+          "display": "Severe",
+          "target": [
+            {
+              "code": "24484000",
+              "display": "Severe",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "severe",
+          "display": "Severe",
+          "target": [
+            {
+              "code": "442452003",
+              "display": "Life threatening severity",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

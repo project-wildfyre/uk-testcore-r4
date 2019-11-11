@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="UKCore-ListWarningCode-1-0-0"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>UK Core List Warning Code</h2><div><p>A CodeSystem to identify the reason a list may be incomplete.</p>
+</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListWarningCode-1-0-0 defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">confidential-items<a name="UKCore-ListWarningCode-1-0-0-confidential-items"> </a></td><td>Confidential Items</td><td>Items excluded due to confidentiality and/or patient preferences.</td></tr><tr><td style="white-space:nowrap">data-in-transit<a name="UKCore-ListWarningCode-1-0-0-data-in-transit"> </a></td><td>Data in Transit</td><td>Patient record transfer from previous GP practice not yet complete; any information recorded before dd-mmm-yyyy has been excluded.</td></tr><tr><td style="white-space:nowrap">data-awaiting-filing<a name="UKCore-ListWarningCode-1-0-0-data-awaiting-filing"> </a></td><td>Data Awaiting Filing</td><td>Patient data may be incomplete as there is data supplied by a third party awaiting review before becoming available.</td></tr></table></div>
+  </text>
+  <url value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListWarningCode-1-0-0"/>
+  <version value="1.0.0"/>
+  <name value="UKCoreListWarningCode"/>
+  <title value="UK Core List Warning Code"/>
+  <status value="draft"/>
+  <date value="2019-11-04T00:00:00+00:00"/>
+  <publisher value="NHS Digital"/>
+  <contact>
+    <name value="Interoperability Team"/>
+    <telecom>
+      <system value="email"/>
+      <value value="interoperabilityteam@nhs.net"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="A CodeSystem to identify the reason a list may be incomplete."/>
+  <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="confidential-items"/>
+    <display value="Confidential Items"/>
+    <definition value="Items excluded due to confidentiality and/or patient preferences."/>
+  </concept>
+  <concept>
+    <code value="data-in-transit"/>
+    <display value="Data in Transit"/>
+    <definition value="Patient record transfer from previous GP practice not yet complete; any information recorded before dd-mmm-yyyy has been excluded."/>
+  </concept>
+  <concept>
+    <code value="data-awaiting-filing"/>
+    <display value="Data Awaiting Filing"/>
+    <definition value="Patient data may be incomplete as there is data supplied by a third party awaiting review before becoming available."/>
+  </concept>
+</CodeSystem>

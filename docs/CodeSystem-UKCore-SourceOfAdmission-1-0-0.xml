@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="UKCore-SourceOfAdmission-1-0-0"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NHS Data Model and Dictionary Source Of Admission</h2><div><p>The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home.</p>
+</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-SourceOfAdmission-1-0-0 defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">19<a name="UKCore-SourceOfAdmission-1-0-0-19"> </a></td><td>Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode.</td><td/></tr><tr><td style="white-space:nowrap">29<a name="UKCore-SourceOfAdmission-1-0-0-29"> </a></td><td>Temporary place of residence when usually resident elsewhere (e.g. hotels, residential Educational Establishments)</td><td/></tr><tr><td style="white-space:nowrap">39<a name="UKCore-SourceOfAdmission-1-0-0-39"> </a></td><td>Penal establishment, Court, or Police Station / Police Custody Suite</td><td/></tr><tr><td style="white-space:nowrap">49<a name="UKCore-SourceOfAdmission-1-0-0-49"> </a></td><td>NHS other Hospital Provider - high security psychiatric accommodation in an NHS Hospital Provider (NHS Trust or NHS Foundation Trust)</td><td/></tr><tr><td style="white-space:nowrap">51<a name="UKCore-SourceOfAdmission-1-0-0-51"> </a></td><td>NHS other Hospital Provider - Ward for general Patients or the younger physically disabled or A and E department</td><td>National Code 51 'NHS other hospital provider - Ward for general Patients or the younger physically disabled or A and E department' should not be used if the Patient arrives at an Accident and Emergency Department and is admitted to the same Hospital Provider.</td></tr><tr><td style="white-space:nowrap">52<a name="UKCore-SourceOfAdmission-1-0-0-52"> </a></td><td>NHS other Hospital Provider - Ward for maternity Patients or Neonates</td><td/></tr><tr><td style="white-space:nowrap">53<a name="UKCore-SourceOfAdmission-1-0-0-53"> </a></td><td>NHS other Hospital Provider - Ward for Patients who are mentally ill or have Learning Disabilities</td><td/></tr><tr><td style="white-space:nowrap">54<a name="UKCore-SourceOfAdmission-1-0-0-54"> </a></td><td>NHS run Care Home</td><td/></tr><tr><td style="white-space:nowrap">65<a name="UKCore-SourceOfAdmission-1-0-0-65"> </a></td><td>Local Authority residential accommodation i.e. where care is provided</td><td/></tr><tr><td style="white-space:nowrap">66<a name="UKCore-SourceOfAdmission-1-0-0-66"> </a></td><td>Local Authority foster care</td><td/></tr><tr><td style="white-space:nowrap">79<a name="UKCore-SourceOfAdmission-1-0-0-79"> </a></td><td>Babies born in or on the way to hospital</td><td/></tr><tr><td style="white-space:nowrap">85<a name="UKCore-SourceOfAdmission-1-0-0-85"> </a></td><td>Non-NHS (other than Local Authority) run Care Home</td><td/></tr><tr><td style="white-space:nowrap">87<a name="UKCore-SourceOfAdmission-1-0-0-87"> </a></td><td>Non NHS run hospital</td><td/></tr><tr><td style="white-space:nowrap">88<a name="UKCore-SourceOfAdmission-1-0-0-88"> </a></td><td>Non-NHS (other than Local Authority) run Hospice</td><td/></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference">
+    <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/attributes/s/smo/source_of_admission_de.asp?shownav=1"/>
+  </extension>
+  <url value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-SourceOfAdmission-1-0-0"/>
+  <version value="1.0.0"/>
+  <name value="NHSDataModelandDictionarySourceOfAdmission"/>
+  <title value="NHS Data Model and Dictionary Source Of Admission"/>
+  <status value="draft"/>
+  <date value="2019-11-05T00:00:00+00:00"/>
+  <publisher value="NHS Digital"/>
+  <contact>
+    <name value="Interoperability Team"/>
+    <telecom>
+      <system value="email"/>
+      <value value="interoperabilityteam@nhs.net"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home."/>
+  <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
+  <content value="complete"/>
+  <concept>
+    <code value="19"/>
+    <display value="Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode."/>
+  </concept>
+  <concept>
+    <code value="29"/>
+    <display value="Temporary place of residence when usually resident elsewhere (e.g. hotels, residential Educational Establishments)"/>
+  </concept>
+  <concept>
+    <code value="39"/>
+    <display value="Penal establishment, Court, or Police Station / Police Custody Suite"/>
+  </concept>
+  <concept>
+    <code value="49"/>
+    <display value="NHS other Hospital Provider - high security psychiatric accommodation in an NHS Hospital Provider (NHS Trust or NHS Foundation Trust)"/>
+  </concept>
+  <concept>
+    <code value="51"/>
+    <display value="NHS other Hospital Provider - Ward for general Patients or the younger physically disabled or A and E department"/>
+    <definition value="National Code 51 &#39;NHS other hospital provider - Ward for general Patients or the younger physically disabled or A and E department&#39; should not be used if the Patient arrives at an Accident and Emergency Department and is admitted to the same Hospital Provider."/>
+  </concept>
+  <concept>
+    <code value="52"/>
+    <display value="NHS other Hospital Provider - Ward for maternity Patients or Neonates"/>
+  </concept>
+  <concept>
+    <code value="53"/>
+    <display value="NHS other Hospital Provider - Ward for Patients who are mentally ill or have Learning Disabilities"/>
+  </concept>
+  <concept>
+    <code value="54"/>
+    <display value="NHS run Care Home"/>
+  </concept>
+  <concept>
+    <code value="65"/>
+    <display value="Local Authority residential accommodation i.e. where care is provided"/>
+  </concept>
+  <concept>
+    <code value="66"/>
+    <display value="Local Authority foster care"/>
+  </concept>
+  <concept>
+    <code value="79"/>
+    <display value="Babies born in or on the way to hospital"/>
+  </concept>
+  <concept>
+    <code value="85"/>
+    <display value="Non-NHS (other than Local Authority) run Care Home"/>
+  </concept>
+  <concept>
+    <code value="87"/>
+    <display value="Non NHS run hospital"/>
+  </concept>
+  <concept>
+    <code value="88"/>
+    <display value="Non-NHS (other than Local Authority) run Hospice"/>
+  </concept>
+</CodeSystem>

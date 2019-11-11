@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="UKCore-LanguageAbilityProficiency-1-0-0"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>UK Core Language Ability Proficiency</h2><div><p>A ValueSet to identify the level of proficiency in communicating a language.</p>
+</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href="CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.html"><code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0</code></a></li></ul></div>
+  </text>
+  <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-LanguageAbilityProficiency-1-0-0"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.61"/>
+  </identifier>
+  <version value="1.0.0"/>
+  <name value="UKCoreLanguageAbilityProficiency"/>
+  <title value="UK Core Language Ability Proficiency"/>
+  <status value="draft"/>
+  <date value="2019-10-30T00:00:00+00:00"/>
+  <publisher value="NHS Digital"/>
+  <contact>
+    <name value="Interoperability Team"/>
+    <telecom>
+      <system value="email"/>
+      <value value="interoperabilityteam@nhs.net"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="A ValueSet to identify the level of proficiency in communicating a language."/>
+  <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
+  <compose>
+    <include>
+      <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0"/>
+    </include>
+  </compose>
+</ValueSet>
