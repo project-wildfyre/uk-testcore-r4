@@ -376,6 +376,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="ConceptMap/UKCore-ConditionEpisodicity-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0"/>
       </reference>
       <exampleBoolean value="false"/>

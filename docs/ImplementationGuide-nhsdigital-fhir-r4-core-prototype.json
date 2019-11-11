@@ -899,6 +899,22 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ConceptMap"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ConceptMap-UKCore-ConditionEpisodicity-1-0-0.html"
+          }
+        ],
+        "reference": {
+          "reference": "ConceptMap/UKCore-ConditionEpisodicity-1-0-0"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "CodeSystem"
           },
           {

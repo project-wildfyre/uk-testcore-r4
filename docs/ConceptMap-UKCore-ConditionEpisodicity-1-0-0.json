@@ -1,0 +1,83 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "UKCore-ConditionEpisodicity-1-0-0",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ConceptMapUKCoreConditionEpisodicity (https://fhir.nhs.uk/R4/ConceptMap/UKCore-ConditionEpisodicity-1-0-0)</h2><p>Mapping from <a href=\"ValueSet-UKCore-ConditionEpisodicity-1-0-0.html\">https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisodicity-1-0-0</a> to <a href=\"ValueSet-UKCore-ConditionEpisode-1-0-0.html\">https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisode-1-0-0</a></p><p>DRAFT. Published on 11-Nov-2019 00:00:00 by NHS Digital (Interoperability Team: <a href=\"mailto:interoperabilityteam@nhs.net\">interoperabilityteam@nhs.net</a>). Copyright © 2019 NHS Digital</p><div><p>A Concept Map from ValueSet Condition Episodicity Severity to equivalent Snomed CT codes</p>\n</div><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>first</td><td>equivalent</td><td>255217005 (First episode)</td></tr><tr><td>new</td><td>equivalent</td><td>288527008 (New episode)</td></tr><tr><td>review</td><td>equivalent</td><td>303350001 (Ongoing episode)</td></tr><tr><td>end</td><td>equivalent</td><td>272131007 (Old episode)</td></tr></table></div>"
+  },
+  "url": "https://fhir.nhs.uk/R4/ConceptMap/UKCore-ConditionEpisodicity-1-0-0",
+  "version": "1.0.0",
+  "name": "ConceptMapUKCoreConditionEpisodicity",
+  "title": "ConceptMap - UK Core Condition Episodicity",
+  "status": "draft",
+  "date": "2019-11-11T00:00:00+00:00",
+  "publisher": "NHS Digital",
+  "contact": [
+    {
+      "name": "Interoperability Team",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "interoperabilityteam@nhs.net",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "A Concept Map from ValueSet Condition Episodicity Severity to equivalent Snomed CT codes",
+  "copyright": "Copyright © 2019 NHS Digital",
+  "sourceUri": "https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisodicity-1-0-0",
+  "targetUri": "https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisode-1-0-0",
+  "group": [
+    {
+      "source": "https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConditionEpisodicity-1-0-0",
+      "target": "http://snomed.info/sct",
+      "element": [
+        {
+          "code": "first",
+          "display": "First",
+          "target": [
+            {
+              "code": "255217005",
+              "display": "First episode",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "new",
+          "display": "New",
+          "target": [
+            {
+              "code": "288527008",
+              "display": "New episode",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "review",
+          "display": "Review",
+          "target": [
+            {
+              "code": "303350001",
+              "display": "Ongoing episode",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "end",
+          "display": "End",
+          "target": [
+            {
+              "code": "272131007",
+              "display": "Old episode",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

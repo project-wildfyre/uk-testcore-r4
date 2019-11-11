@@ -383,6 +383,12 @@
     },
     {
       "reference" : {
+        "reference" : "ConceptMap/UKCore-ConditionEpisodicity-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0"
       },
       "exampleBoolean" : false

@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "1318d2f0-a6a4-45c5-a99f-4b3d80b441c8",
+  "id" : "d7119c56-be85-4b3f-b185-5651f91a7e65",
   "meta" : {
-    "lastUpdated" : "2019-11-11T14:30:10.548+00:00"
+    "lastUpdated" : "2019-11-11T18:21:04.998+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -32,8 +32,8 @@
       "description" : "A ValueSet that identifies the residential status of a patient.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:354a3fec-3dcf-4737-b56b-59a467438640",
-        "timestamp" : "2019-11-11T14:30:18+00:00",
+        "identifier" : "urn:uuid:90e3aab6-9793-42cb-b0c1-b96048558792",
+        "timestamp" : "2019-11-11T18:21:18+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -64,8 +64,8 @@
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p>All codes from system <a href=\"http://build.fhir.org/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-255217005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255217005\">255217005</a></td><td>First episode</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-288527008\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=288527008\">288527008</a></td><td>New episode</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-303350001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=303350001\">303350001</a></td><td>Ongoing episode</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-272131007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=272131007\">272131007</a></td><td>Old episode</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-394846009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=394846009\">394846009</a></td><td>Undefined episodicity</td><td/></tr></table></div>"
       },
       "expansion" : {
-        "identifier" : "urn:uuid:83b618ac-d14b-4c1e-8716-6677e8abc901",
-        "timestamp" : "2019-10-16T11:02:05.803Z",
+        "identifier" : "urn:uuid:57cd8625-49eb-4fcf-b8ee-c296d6ad2b81",
+        "timestamp" : "2019-08-29T13:37:00+01:00",
         "parameter" : [{
           "name" : "limitedExpansion",
           "valueString" : "-1"
@@ -129,8 +129,8 @@
       "description" : "A ValueSet to identify the category of a condition.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:9f2f3723-a1db-4be0-8dad-49f1f84b4207",
-        "timestamp" : "2019-11-11T14:30:19+00:00",
+        "identifier" : "urn:uuid:53551ee9-2640-491d-982e-bec2350e0abd",
+        "timestamp" : "2019-11-11T18:21:19+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -195,8 +195,8 @@
       "description" : "A ValueSet to identify the episodicity of a condition.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:bc556b03-ef16-4be9-ba0a-2e8f77be94a3",
-        "timestamp" : "2019-11-11T14:30:20+00:00",
+        "identifier" : "urn:uuid:effdc773-168b-43a7-b5bc-f966fb8d3ae3",
+        "timestamp" : "2019-11-11T18:21:19+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -237,8 +237,8 @@
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 13 concepts</p><p>All codes from system <a href=\"http://build.fhir.org/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-887161000000102\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=887161000000102\">887161000000102</a></td><td>Diagnoses</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-887171000000109\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=887171000000109\">887171000000109</a></td><td>Procedures</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-717711000000103\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=717711000000103\">717711000000103</a></td><td>Problems</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-933361000000108\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=933361000000108\">933361000000108</a></td><td>Medications and medical devices</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-886921000000105\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=886921000000105\">886921000000105</a></td><td>Allergies and adverse reactions</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-1102411000000102\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1102411000000102\">1102411000000102</a></td><td>Active medications</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-1102191000000100\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1102191000000100\">1102191000000100</a></td><td>Discontinued medications</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-1103671000000101\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1103671000000101\">1103671000000101</a></td><td>Ended allergies</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-325851000000107\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=325851000000107\">325851000000107</a></td><td>Consultation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-25851000000105\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=25851000000105\">25851000000105</a></td><td>Topic (EHR)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-24781000000107\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=24781000000107\">24781000000107</a></td><td>Category (EHR)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-1102181000000102\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1102181000000102\">1102181000000102</a></td><td>Immunisations</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-826501000000100\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=826501000000100\">826501000000100</a></td><td>Miscellaneous record</td><td/></tr></table></div>"
       },
       "expansion" : {
-        "identifier" : "urn:uuid:d5d79236-7406-443c-a4d6-48b0d96605be",
-        "timestamp" : "2019-11-04T14:09:28.483Z",
+        "identifier" : "urn:uuid:31d42952-7b60-49e0-8e4d-62d298feb148",
+        "timestamp" : "2019-09-05T13:48:32+01:00",
         "parameter" : [{
           "name" : "limitedExpansion",
           "valueString" : "-1"
@@ -342,8 +342,8 @@
       "description" : "A ValueSet to identify the reason a list may be empty.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:442d2b83-c475-4bde-a2c8-1fb09c0fd3cf",
-        "timestamp" : "2019-11-11T14:30:21+00:00",
+        "identifier" : "urn:uuid:397c8d13-f3fc-4b77-a93a-60dbf10db58a",
+        "timestamp" : "2019-11-11T18:21:21+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -388,8 +388,8 @@
       "description" : "A ValueSet to identify the reason a list may be incomplete.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:2623cacb-5899-4466-bd6a-1b7010cbc782",
-        "timestamp" : "2019-11-11T14:30:21+00:00",
+        "identifier" : "urn:uuid:4a412d24-4b7a-4f69-b9a1-b864f2bf160d",
+        "timestamp" : "2019-11-11T18:21:21+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -444,8 +444,8 @@
       "description" : "A ValueSet that identifies the treatment category for a patient.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:215ecbcf-5834-41a0-b209-976d2512415f",
-        "timestamp" : "2019-11-11T14:30:22+00:00",
+        "identifier" : "urn:uuid:c7e79203-6733-4a28-af1f-44ac07fc9afa",
+        "timestamp" : "2019-11-11T18:21:23+00:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -519,8 +519,8 @@
       "description" : "A ValueSet that identifies the language used by a person.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:b187f711-f2df-4c74-92e6-3842760c360d",
-        "timestamp" : "2019-11-11T14:30:22+00:00",
+        "identifier" : "urn:uuid:d2cb16ff-efe7-40b5-b913-c812893a1c77",
+        "timestamp" : "2019-11-11T18:21:23+00:00",
         "total" : 190,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1484,146 +1484,6 @@
     }
   },
   {
-    "fullUrl" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-LanguageAbilityMode-1-0-0",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "UKCore-LanguageAbilityMode-1-0-0",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 6 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode-1-0-0 version 1.0.0</p><p>All codes from system <a href=\"CodeSystem-UKCore-LanguageAbilityMode-1-0-0.html\"><code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode-1-0-0</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-LanguageAbilityMode-1-0-0-ESGN\"> </a><a href=\"CodeSystem-UKCore-LanguageAbilityMode-1-0-0.html#UKCore-LanguageAbilityMode-1-0-0-ESGN\">ESGN</a></td><td>Expressed signed</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-LanguageAbilityMode-1-0-0-ESP\"> </a><a href=\"CodeSystem-UKCore-LanguageAbilityMode-1-0-0.html#UKCore-LanguageAbilityMode-1-0-0-ESP\">ESP</a></td><td>Expressed spoken</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-LanguageAbilityMode-1-0-0-EWR\"> </a><a href=\"CodeSystem-UKCore-LanguageAbilityMode-1-0-0.html#UKCore-LanguageAbilityMode-1-0-0-EWR\">EWR</a></td><td>Expressed written</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-LanguageAbilityMode-1-0-0-RSGN\"> </a><a href=\"CodeSystem-UKCore-LanguageAbilityMode-1-0-0.html#UKCore-LanguageAbilityMode-1-0-0-RSGN\">RSGN</a></td><td>Received signed</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-LanguageAbilityMode-1-0-0-RSP\"> </a><a href=\"CodeSystem-UKCore-LanguageAbilityMode-1-0-0.html#UKCore-LanguageAbilityMode-1-0-0-RSP\">RSP</a></td><td>Received spoken</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-LanguageAbilityMode-1-0-0-RWR\"> </a><a href=\"CodeSystem-UKCore-LanguageAbilityMode-1-0-0.html#UKCore-LanguageAbilityMode-1-0-0-RWR\">RWR</a></td><td>Received written</td><td/></tr></table></div>"
-      },
-      "url" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-LanguageAbilityMode-1-0-0",
-      "identifier" : [{
-        "system" : "urn:ietf:rfc:3986",
-        "value" : "urn:oid:2.16.840.1.113883.5.60"
-      }],
-      "version" : "1.0.0",
-      "name" : "UKCoreLanguageAbilityMode",
-      "title" : "UK Core Language Ability Mode",
-      "status" : "draft",
-      "date" : "2019-10-25T01:00:00+01:00",
-      "publisher" : "NHS Digital",
-      "contact" : [{
-        "name" : "Interoperability Team",
-        "telecom" : [{
-          "system" : "email",
-          "value" : "interoperabilityteam@nhs.net",
-          "use" : "work"
-        }]
-      }],
-      "description" : "A ValueSet that identifies the mode the patient can communicate in, representing the method of expression of the language.",
-      "copyright" : "Copyright © 2019 NHS Digital",
-      "expansion" : {
-        "identifier" : "urn:uuid:054e4d93-e156-4cb3-81e2-0310b30ae3ef",
-        "timestamp" : "2019-11-11T14:30:22+00:00",
-        "total" : 6,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode-1-0-0|1.0.0"
-        }],
-        "contains" : [{
-          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode-1-0-0",
-          "code" : "ESGN",
-          "display" : "Expressed signed"
-        },
-        {
-          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode-1-0-0",
-          "code" : "ESP",
-          "display" : "Expressed spoken"
-        },
-        {
-          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode-1-0-0",
-          "code" : "EWR",
-          "display" : "Expressed written"
-        },
-        {
-          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode-1-0-0",
-          "code" : "RSGN",
-          "display" : "Received signed"
-        },
-        {
-          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode-1-0-0",
-          "code" : "RSP",
-          "display" : "Received spoken"
-        },
-        {
-          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode-1-0-0",
-          "code" : "RWR",
-          "display" : "Received written"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-LanguageAbilityProficiency-1-0-0",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "UKCore-LanguageAbilityProficiency-1-0-0",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0 version 1.0.0</p><p>All codes from system <a href=\"CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.html\"><code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0-E\"> </a><a href=\"CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.html#UKCore-LanguageAbilityProficiency-1-0-0-E\">E</a></td><td>Excellent</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0-F\"> </a><a href=\"CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.html#UKCore-LanguageAbilityProficiency-1-0-0-F\">F</a></td><td>Fair</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0-G\"> </a><a href=\"CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.html#UKCore-LanguageAbilityProficiency-1-0-0-G\">G</a></td><td>Good</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0-P\"> </a><a href=\"CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.html#UKCore-LanguageAbilityProficiency-1-0-0-P\">P</a></td><td>Poor</td><td/></tr></table></div>"
-      },
-      "url" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-LanguageAbilityProficiency-1-0-0",
-      "identifier" : [{
-        "system" : "urn:ietf:rfc:3986",
-        "value" : "urn:oid:2.16.840.1.113883.5.61"
-      }],
-      "version" : "1.0.0",
-      "name" : "UKCoreLanguageAbilityProficiency",
-      "title" : "UK Core Language Ability Proficiency",
-      "status" : "draft",
-      "date" : "2019-10-25T01:00:00+01:00",
-      "publisher" : "NHS Digital",
-      "contact" : [{
-        "name" : "Interoperability Team",
-        "telecom" : [{
-          "system" : "email",
-          "value" : "interoperabilityteam@nhs.net",
-          "use" : "work"
-        }]
-      }],
-      "description" : "A ValueSet to identify the level of proficiency in communicating a language.",
-      "copyright" : "Copyright © 2019 NHS Digital",
-      "expansion" : {
-        "identifier" : "urn:uuid:0e913755-90f9-44d4-9116-9f8553d4ddb1",
-        "timestamp" : "2019-11-11T14:30:22+00:00",
-        "total" : 4,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0|1.0.0"
-        }],
-        "contains" : [{
-          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0",
-          "code" : "E",
-          "display" : "Excellent"
-        },
-        {
-          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0",
-          "code" : "F",
-          "display" : "Fair"
-        },
-        {
-          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0",
-          "code" : "G",
-          "display" : "Good"
-        },
-        {
-          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0",
-          "code" : "P",
-          "display" : "Poor"
-        }]
-      }
-    }
-  },
-  {
     "fullUrl" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-SDSJobRoleName-1-0-0",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -1650,8 +1510,8 @@
       "description" : "A ValueSet that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:777e92ae-a97d-476c-92ea-8bc80d7eadd9",
-        "timestamp" : "2019-11-11T14:30:22+00:00",
+        "identifier" : "urn:uuid:e2d38a12-f6a4-4e0d-ae83-f92c26ab463d",
+        "timestamp" : "2019-11-11T18:21:24+00:00",
         "total" : 392,
         "parameter" : [{
           "name" : "excludeNested",
@@ -3625,6 +3485,57 @@
     }
   },
   {
+    "fullUrl" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-DeathNotificationStatus-1-0-0",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "UKCore-DeathNotificationStatus-1-0-0",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on https://fhir.nhs.uk/R4/CodeSystem/UKCore-DeathNotificationStatus-1-0-0 version 1.0.0</p><p>All codes from system <a href=\"CodeSystem-UKCore-DeathNotificationStatus-1-0-0.html\"><code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-DeathNotificationStatus-1-0-0</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-DeathNotificationStatus-1-0-0-1\"> </a><a href=\"CodeSystem-UKCore-DeathNotificationStatus-1-0-0.html#UKCore-DeathNotificationStatus-1-0-0-1\">1</a></td><td>Informal - death notice received via an update from a local NHS Organisation such as GP or Trust</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhir.nhs.uk-R4-CodeSystem-UKCore-DeathNotificationStatus-1-0-0-2\"> </a><a href=\"CodeSystem-UKCore-DeathNotificationStatus-1-0-0.html#UKCore-DeathNotificationStatus-1-0-0-2\">2</a></td><td>Formal - death notice received from Registrar of Deaths</td><td/></tr></table></div>"
+      },
+      "url" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-DeathNotificationStatus-1-0-0",
+      "version" : "1.0.0",
+      "name" : "UKCoreDeathNotificationStatus",
+      "title" : "UK Core Death Notification Status",
+      "status" : "draft",
+      "date" : "2019-10-25T01:00:00+01:00",
+      "publisher" : "NHS Digital",
+      "contact" : [{
+        "name" : "Interoperability Team",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "interoperabilityteam@nhs.net",
+          "use" : "work"
+        }]
+      }],
+      "description" : "A ValueSet to identify the type of death notice as held on Personal Demographics Service (PDS).",
+      "copyright" : "Copyright © 2019 NHS Digital",
+      "expansion" : {
+        "identifier" : "urn:uuid:7c1b965b-db85-4c65-a96f-01106aabf8b4",
+        "timestamp" : "2019-11-11T18:21:24+00:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-DeathNotificationStatus-1-0-0|1.0.0"
+        }],
+        "contains" : [{
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-DeathNotificationStatus-1-0-0",
+          "code" : "1",
+          "display" : "Informal - death notice received via an update from a local NHS Organisation such as GP or Trust"
+        },
+        {
+          "system" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-DeathNotificationStatus-1-0-0",
+          "code" : "2",
+          "display" : "Formal - death notice received from Registrar of Deaths"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-EthnicCategory-1-0-0",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -3659,8 +3570,8 @@
       "description" : "A ValueSet to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a person's ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:9bae6e8d-549f-4876-acf5-2ea54652a692",
-        "timestamp" : "2019-11-11T14:30:23+00:00",
+        "identifier" : "urn:uuid:18461f81-2a0c-4b10-866b-a74bae72eae4",
+        "timestamp" : "2019-11-11T18:21:24+00:00",
         "total" : 68,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4044,8 +3955,8 @@
       "description" : "The method of admission to a Hospital Provider Spell.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:b9666f2a-ec30-475e-beab-a1b141bac9fc",
-        "timestamp" : "2019-11-11T14:30:23+00:00",
+        "identifier" : "urn:uuid:b40f62b1-a497-436f-a532-fd8159e8b373",
+        "timestamp" : "2019-11-11T18:21:25+00:00",
         "total" : 18,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4179,8 +4090,8 @@
       "description" : "The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:6719e180-aa32-4194-bb40-a87f7f10819b",
-        "timestamp" : "2019-11-11T14:30:23+00:00",
+        "identifier" : "urn:uuid:19cace83-49ba-4ecd-914c-da62da5a58ee",
+        "timestamp" : "2019-11-11T18:21:25+00:00",
         "total" : 19,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4319,8 +4230,8 @@
       "description" : "The method of discharge from a Hospital Provider Spell.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:60402f7c-690f-4c5c-80ec-56cbb3ac6f4a",
-        "timestamp" : "2019-11-11T14:30:23+00:00",
+        "identifier" : "urn:uuid:3ef9412d-4932-4724-b06a-b7f83b929ec0",
+        "timestamp" : "2019-11-11T18:21:25+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4399,8 +4310,8 @@
       "description" : "This records the outcome of an Out-Patient Attendance Consultant.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:091fda5e-0b8c-4c1c-8e7d-324a2c78a27c",
-        "timestamp" : "2019-11-11T14:30:24+00:00",
+        "identifier" : "urn:uuid:09d10e62-51e2-4a7e-bcd6-0bb505966624",
+        "timestamp" : "2019-11-11T18:21:26+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4459,8 +4370,8 @@
       "description" : "The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:c8c8ab47-52d3-4765-b259-e75c7981c7ba",
-        "timestamp" : "2019-11-11T14:30:24+00:00",
+        "identifier" : "urn:uuid:f44ffd9c-6e8a-457a-b6a1-d0bf2b304c8f",
+        "timestamp" : "2019-11-11T18:21:26+00:00",
         "total" : 14,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4574,8 +4485,8 @@
       "description" : "A ValueSet that identifies the trace status of the NHS number. The CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:520faa3b-a2c4-4b77-a262-5df709d19fd5",
-        "timestamp" : "2019-11-11T14:30:24+00:00",
+        "identifier" : "urn:uuid:607ac519-2815-44bd-9ffd-6e16086a2985",
+        "timestamp" : "2019-11-11T18:21:26+00:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4651,8 +4562,8 @@
       "description" : "An indicator to identify the legal marital status of a Person.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:15651a98-5f5b-4e75-b51d-09bf00733e3a",
-        "timestamp" : "2019-11-11T14:30:24+00:00",
+        "identifier" : "urn:uuid:b29a9df8-564a-4d2c-beb2-068948490b85",
+        "timestamp" : "2019-11-11T18:21:27+00:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4718,8 +4629,8 @@
       "description" : "The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:4c0b3469-4559-40b5-96af-ac711a6c8924",
-        "timestamp" : "2019-11-11T14:30:29+00:00",
+        "identifier" : "urn:uuid:344997dc-c58c-411c-a66f-383e0b35ba9f",
+        "timestamp" : "2019-11-11T18:21:33+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",

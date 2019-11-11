@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ConceptMap xmlns="http://hl7.org/fhir">
 	<id value="UKCore-AllergyVerificationStatus-1-0-0"/>
 	<url value="https://fhir.nhs.uk/R4/ConceptMap/UKCore-AllergyVerificationStatus-1-0-0"/>
