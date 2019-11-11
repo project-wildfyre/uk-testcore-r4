@@ -1,0 +1,58 @@
+{
+  "resourceType": "ValueSet",
+  "id": "UKCore-ConditionEpisode-1-0-0",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UK Core Condition Episode</h2><div><p>A code from the SNOMED Clinical Terminology UK coding system that describes the episodicity of a Condition.</p>\n</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255217005\">255217005</a></td><td>First episode</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=288527008\">288527008</a></td><td>New episode</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=303350001\">303350001</a></td><td>Ongoing episode</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=272131007\">272131007</a></td><td>Old episode</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=394846009\">394846009</a></td><td>Undefined episodicity</td><td/></tr></table></li></ul></div>"
+  },
+  "url": "https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisode-1-0-0",
+  "version": "1.0.0",
+  "name": "UKCoreConditionEpisode",
+  "title": "UK Core Condition Episode",
+  "status": "draft",
+  "date": "2019-11-11T00:00:00+00:00",
+  "publisher": "NHS Digital",
+  "contact": [
+    {
+      "name": "Interoperability Team",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "interoperabilityteam@nhs.net",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "A code from the SNOMED Clinical Terminology UK coding system that describes the episodicity of a Condition.",
+  "copyright": "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "255217005",
+            "display": "First episode"
+          },
+          {
+            "code": "288527008",
+            "display": "New episode"
+          },
+          {
+            "code": "303350001",
+            "display": "Ongoing episode"
+          },
+          {
+            "code": "272131007",
+            "display": "Old episode"
+          },
+          {
+            "code": "394846009",
+            "display": "Undefined episodicity"
+          }
+        ]
+      }
+    ]
+  }
+}
