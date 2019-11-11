@@ -89,6 +89,30 @@
     },
     {
       "reference" : {
+        "reference" : "ValueSet/UKCore-ConditionEpisode-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/UKCore-ConditionCode-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/UKCore-ConditionCategory-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/UKCore-ConditionEpisodicity-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "ValueSet/UKCore-AllergyCode-1-0-0"
       },
       "exampleBoolean" : false
@@ -269,6 +293,18 @@
     },
     {
       "reference" : {
+        "reference" : "CodeSystem/UKCore-ConditionEpisodicity-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "CodeSystem/UKCore-ConditionCategory-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "CodeSystem/UKCore-ResidentialStatus-1-0-0"
       },
       "exampleBoolean" : false
@@ -389,6 +425,12 @@
     },
     {
       "reference" : {
+        "reference" : "StructureDefinition/UKCore-Organization-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus-1-0-0"
       },
       "exampleBoolean" : false
@@ -432,6 +474,12 @@
     {
       "reference" : {
         "reference" : "StructureDefinition/Extension-UKCore-NominatedPharmacy-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/Extension-UKCore-MainLocation-1-0-0"
       },
       "exampleBoolean" : false
     }],

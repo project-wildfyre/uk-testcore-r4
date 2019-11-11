@@ -390,6 +390,12 @@
       </reference>
       <exampleBoolean value="false"/>
     </resource>
+	<resource>
+      <reference>
+        <reference value="StructureDefinition/UKCore-Organization-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus-1-0-0"/>
@@ -435,6 +441,12 @@
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/Extension-UKCore-NominatedPharmacy-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Extension-UKCore-MainLocation-1-0-0"/>
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>

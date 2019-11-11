@@ -82,6 +82,30 @@
     </resource>
     <resource>
       <reference>
+        <reference value="ValueSet/UKCore-ConditionEpisode-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/UKCore-ConditionCode-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/UKCore-ConditionCategory-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/UKCore-ConditionEpisodicity-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="ValueSet/UKCore-AllergyCode-1-0-0"/>
       </reference>
       <exampleBoolean value="false"/>
@@ -262,6 +286,18 @@
     </resource>
     <resource>
       <reference>
+        <reference value="CodeSystem/UKCore-ConditionEpisodicity-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/UKCore-ConditionCategory-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="CodeSystem/UKCore-ResidentialStatus-1-0-0"/>
       </reference>
       <exampleBoolean value="false"/>
@@ -382,6 +418,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/UKCore-Organization-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus-1-0-0"/>
       </reference>
       <exampleBoolean value="false"/>
@@ -425,6 +467,12 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-NominatedPharmacy-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-MainLocation-1-0-0"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

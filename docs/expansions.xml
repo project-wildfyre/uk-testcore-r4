@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="fed9e44c-45c0-4e69-9405-b8a00fcf7e9c"/>
+  <id value="1318d2f0-a6a4-45c5-a99f-4b3d80b441c8"/>
   <meta>
-    <lastUpdated value="2019-11-11T10:23:29.958+00:00"/>
+    <lastUpdated value="2019-11-11T14:30:10.548+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -70,8 +70,8 @@
         <description value="A ValueSet that identifies the residential status of a patient."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:2654dca9-3e9d-4874-8b4e-99880cc389e9"/>
-          <timestamp value="2019-11-11T10:23:38+00:00"/>
+          <identifier value="urn:uuid:354a3fec-3dcf-4737-b56b-59a467438640"/>
+          <timestamp value="2019-11-11T14:30:18+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -90,6 +90,356 @@
             <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-ResidentialStatus-1-0-0"/>
             <code value="O"/>
             <display value="Overseas Resident"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 5 concepts</p>
+            <p>All codes from system 
+              <a href="http://build.fhir.org/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-255217005"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255217005">255217005</a>
+                </td>
+                <td>First episode</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-288527008"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=288527008">288527008</a>
+                </td>
+                <td>New episode</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-303350001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=303350001">303350001</a>
+                </td>
+                <td>Ongoing episode</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-272131007"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=272131007">272131007</a>
+                </td>
+                <td>Old episode</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-394846009"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=394846009">394846009</a>
+                </td>
+                <td>Undefined episodicity</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <expansion>
+          <identifier value="urn:uuid:83b618ac-d14b-4c1e-8716-6677e8abc901"/>
+          <timestamp value="2019-10-16T11:02:05.803Z"/>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20190430"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="255217005"/>
+            <display value="First episode"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="288527008"/>
+            <display value="New episode"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="303350001"/>
+            <display value="Ongoing episode"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272131007"/>
+            <display value="Old episode"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="394846009"/>
+            <display value="Undefined episodicity"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionCategory-1-0-0"/>
+    <resource>
+      <ValueSet>
+        <id value="UKCore-ConditionCategory-1-0-0"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 5 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConditionCategory-1-0-0 version 1.0.0</p>
+            <p>All codes from system 
+              <a href="CodeSystem-UKCore-ConditionCategory-1-0-0.html">
+                <code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConditionCategory-1-0-0</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-ConditionCategory-1-0-0-problem-list-item"> </a>
+                  <a href="CodeSystem-UKCore-ConditionCategory-1-0-0.html#UKCore-ConditionCategory-1-0-0-problem-list-item">problem-list-item</a>
+                </td>
+                <td>Problem List Item</td>
+                <td>An item on a problem list which can be managed over time and can be expressed by a practitioner (e.g. physician, nurse), patient, or related person.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-ConditionCategory-1-0-0-encounter-diagnosis"> </a>
+                  <a href="CodeSystem-UKCore-ConditionCategory-1-0-0.html#UKCore-ConditionCategory-1-0-0-encounter-diagnosis">encounter-diagnosis</a>
+                </td>
+                <td>Encounter Diagnosis</td>
+                <td>A point in time diagnosis (e.g. from a physician or nurse) in context of an encounter.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-ConditionCategory-1-0-0-presenting-complaint"> </a>
+                  <a href="CodeSystem-UKCore-ConditionCategory-1-0-0.html#UKCore-ConditionCategory-1-0-0-presenting-complaint">presenting-complaint</a>
+                </td>
+                <td>Presenting Complaint</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-ConditionCategory-1-0-0-co-morbidity"> </a>
+                  <a href="CodeSystem-UKCore-ConditionCategory-1-0-0.html#UKCore-ConditionCategory-1-0-0-co-morbidity">co-morbidity</a>
+                </td>
+                <td>Co-morbidity</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-ConditionCategory-1-0-0-issue"> </a>
+                  <a href="CodeSystem-UKCore-ConditionCategory-1-0-0.html#UKCore-ConditionCategory-1-0-0-issue">issue</a>
+                </td>
+                <td>Issue</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionCategory-1-0-0"/>
+        <version value="1.0.0"/>
+        <name value="UKCoreConditionCategory"/>
+        <title value="UK Core Condition Category"/>
+        <status value="draft"/>
+        <date value="2019-11-11T00:00:00+00:00"/>
+        <publisher value="NHS Digital"/>
+        <contact>
+          <name value="Interoperability Team"/>
+          <telecom>
+            <system value="email"/>
+            <value value="interoperabilityteam@nhs.net"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <description value="A ValueSet to identify the category of a condition."/>
+        <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
+        <expansion>
+          <identifier value="urn:uuid:9f2f3723-a1db-4be0-8dad-49f1f84b4207"/>
+          <timestamp value="2019-11-11T14:30:19+00:00"/>
+          <total value="5"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConditionCategory-1-0-0|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConditionCategory-1-0-0"/>
+            <code value="problem-list-item"/>
+            <display value="Problem List Item"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConditionCategory-1-0-0"/>
+            <code value="encounter-diagnosis"/>
+            <display value="Encounter Diagnosis"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConditionCategory-1-0-0"/>
+            <code value="presenting-complaint"/>
+            <display value="Presenting Complaint"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConditionCategory-1-0-0"/>
+            <code value="co-morbidity"/>
+            <display value="Co-morbidity"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConditionCategory-1-0-0"/>
+            <code value="issue"/>
+            <display value="Issue"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisodicity-1-0-0"/>
+    <resource>
+      <ValueSet>
+        <id value="UKCore-ConditionEpisodicity-1-0-0"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 4 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConditionEpisodicity-1-0-0 version 1.0.0</p>
+            <p>All codes from system 
+              <a href="CodeSystem-UKCore-ConditionEpisodicity-1-0-0.html">
+                <code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConditionEpisodicity-1-0-0</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-ConditionEpisodicity-1-0-0-first"> </a>
+                  <a href="CodeSystem-UKCore-ConditionEpisodicity-1-0-0.html#UKCore-ConditionEpisodicity-1-0-0-first">first</a>
+                </td>
+                <td>First</td>
+                <td>The first episode of a condition.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-ConditionEpisodicity-1-0-0-new"> </a>
+                  <a href="CodeSystem-UKCore-ConditionEpisodicity-1-0-0.html#UKCore-ConditionEpisodicity-1-0-0-new">new</a>
+                </td>
+                <td>New</td>
+                <td>A new episode of a previously recorded condition.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-ConditionEpisodicity-1-0-0-review"> </a>
+                  <a href="CodeSystem-UKCore-ConditionEpisodicity-1-0-0.html#UKCore-ConditionEpisodicity-1-0-0-review">review</a>
+                </td>
+                <td>Review</td>
+                <td>A review of an existing condition episode.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-ConditionEpisodicity-1-0-0-end"> </a>
+                  <a href="CodeSystem-UKCore-ConditionEpisodicity-1-0-0.html#UKCore-ConditionEpisodicity-1-0-0-end">end</a>
+                </td>
+                <td>End</td>
+                <td>Marks the end of an existing condition episode.</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisodicity-1-0-0"/>
+        <version value="1.0.0"/>
+        <name value="UKCoreConditionEpisodicity"/>
+        <title value="UK Core Condition Episodicity"/>
+        <status value="draft"/>
+        <date value="2019-11-11T00:00:00+00:00"/>
+        <publisher value="NHS Digital"/>
+        <contact>
+          <name value="Interoperability Team"/>
+          <telecom>
+            <system value="email"/>
+            <value value="interoperabilityteam@nhs.net"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <description value="A ValueSet to identify the episodicity of a condition."/>
+        <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
+        <expansion>
+          <identifier value="urn:uuid:bc556b03-ef16-4be9-ba0a-2e8f77be94a3"/>
+          <timestamp value="2019-11-11T14:30:20+00:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConditionEpisodicity-1-0-0|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConditionEpisodicity-1-0-0"/>
+            <code value="first"/>
+            <display value="First"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConditionEpisodicity-1-0-0"/>
+            <code value="new"/>
+            <display value="New"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConditionEpisodicity-1-0-0"/>
+            <code value="review"/>
+            <display value="Review"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConditionEpisodicity-1-0-0"/>
+            <code value="end"/>
+            <display value="End"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -227,8 +577,8 @@
           </div>
         </text>
         <expansion>
-          <identifier value="urn:uuid:31d42952-7b60-49e0-8e4d-62d298feb148"/>
-          <timestamp value="2019-09-05T13:48:32+01:00"/>
+          <identifier value="urn:uuid:d5d79236-7406-443c-a4d6-48b0d96605be"/>
+          <timestamp value="2019-11-04T14:09:28.483Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -362,8 +712,8 @@
         <description value="A ValueSet to identify the reason a list may be empty."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:1b9fcdf3-e01a-4e99-b7d5-b5fdb07bab67"/>
-          <timestamp value="2019-11-11T10:23:40+00:00"/>
+          <identifier value="urn:uuid:442d2b83-c475-4bde-a2c8-1fb09c0fd3cf"/>
+          <timestamp value="2019-11-11T14:30:21+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -454,8 +804,8 @@
         <description value="A ValueSet to identify the reason a list may be incomplete."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:48558bfc-8caf-40d9-a01e-096478f101a4"/>
-          <timestamp value="2019-11-11T10:23:41+00:00"/>
+          <identifier value="urn:uuid:2623cacb-5899-4466-bd6a-1b7010cbc782"/>
+          <timestamp value="2019-11-11T14:30:21+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -580,8 +930,8 @@
         <description value="A ValueSet that identifies the treatment category for a patient."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:005a24db-8831-4f35-bcd2-06ac26f9220c"/>
-          <timestamp value="2019-11-11T10:23:42+00:00"/>
+          <identifier value="urn:uuid:215ecbcf-5834-41a0-b209-976d2512415f"/>
+          <timestamp value="2019-11-11T14:30:22+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2197,8 +2547,8 @@
         <description value="A ValueSet that identifies the language used by a person."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:2e7e8b65-05b3-43bf-80a5-80260d6f1160"/>
-          <timestamp value="2019-11-11T10:23:42+00:00"/>
+          <identifier value="urn:uuid:b187f711-f2df-4c74-92e6-3842760c360d"/>
+          <timestamp value="2019-11-11T14:30:22+00:00"/>
           <total value="190"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3157,6 +3507,270 @@
             <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage-1-0-0"/>
             <code value="zu"/>
             <display value="Zulu"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.nhs.uk/R4/ValueSet/UKCore-LanguageAbilityMode-1-0-0"/>
+    <resource>
+      <ValueSet>
+        <id value="UKCore-LanguageAbilityMode-1-0-0"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 6 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode-1-0-0 version 1.0.0</p>
+            <p>All codes from system 
+              <a href="CodeSystem-UKCore-LanguageAbilityMode-1-0-0.html">
+                <code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode-1-0-0</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-LanguageAbilityMode-1-0-0-ESGN"> </a>
+                  <a href="CodeSystem-UKCore-LanguageAbilityMode-1-0-0.html#UKCore-LanguageAbilityMode-1-0-0-ESGN">ESGN</a>
+                </td>
+                <td>Expressed signed</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-LanguageAbilityMode-1-0-0-ESP"> </a>
+                  <a href="CodeSystem-UKCore-LanguageAbilityMode-1-0-0.html#UKCore-LanguageAbilityMode-1-0-0-ESP">ESP</a>
+                </td>
+                <td>Expressed spoken</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-LanguageAbilityMode-1-0-0-EWR"> </a>
+                  <a href="CodeSystem-UKCore-LanguageAbilityMode-1-0-0.html#UKCore-LanguageAbilityMode-1-0-0-EWR">EWR</a>
+                </td>
+                <td>Expressed written</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-LanguageAbilityMode-1-0-0-RSGN"> </a>
+                  <a href="CodeSystem-UKCore-LanguageAbilityMode-1-0-0.html#UKCore-LanguageAbilityMode-1-0-0-RSGN">RSGN</a>
+                </td>
+                <td>Received signed</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-LanguageAbilityMode-1-0-0-RSP"> </a>
+                  <a href="CodeSystem-UKCore-LanguageAbilityMode-1-0-0.html#UKCore-LanguageAbilityMode-1-0-0-RSP">RSP</a>
+                </td>
+                <td>Received spoken</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-LanguageAbilityMode-1-0-0-RWR"> </a>
+                  <a href="CodeSystem-UKCore-LanguageAbilityMode-1-0-0.html#UKCore-LanguageAbilityMode-1-0-0-RWR">RWR</a>
+                </td>
+                <td>Received written</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-LanguageAbilityMode-1-0-0"/>
+        <identifier>
+          <system value="urn:ietf:rfc:3986"/>
+          <value value="urn:oid:2.16.840.1.113883.5.60"/>
+        </identifier>
+        <version value="1.0.0"/>
+        <name value="UKCoreLanguageAbilityMode"/>
+        <title value="UK Core Language Ability Mode"/>
+        <status value="draft"/>
+        <date value="2019-10-25T01:00:00+01:00"/>
+        <publisher value="NHS Digital"/>
+        <contact>
+          <name value="Interoperability Team"/>
+          <telecom>
+            <system value="email"/>
+            <value value="interoperabilityteam@nhs.net"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <description value="A ValueSet that identifies the mode the patient can communicate in, representing the method of expression of the language."/>
+        <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
+        <expansion>
+          <identifier value="urn:uuid:054e4d93-e156-4cb3-81e2-0310b30ae3ef"/>
+          <timestamp value="2019-11-11T14:30:22+00:00"/>
+          <total value="6"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode-1-0-0|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode-1-0-0"/>
+            <code value="ESGN"/>
+            <display value="Expressed signed"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode-1-0-0"/>
+            <code value="ESP"/>
+            <display value="Expressed spoken"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode-1-0-0"/>
+            <code value="EWR"/>
+            <display value="Expressed written"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode-1-0-0"/>
+            <code value="RSGN"/>
+            <display value="Received signed"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode-1-0-0"/>
+            <code value="RSP"/>
+            <display value="Received spoken"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode-1-0-0"/>
+            <code value="RWR"/>
+            <display value="Received written"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.nhs.uk/R4/ValueSet/UKCore-LanguageAbilityProficiency-1-0-0"/>
+    <resource>
+      <ValueSet>
+        <id value="UKCore-LanguageAbilityProficiency-1-0-0"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 4 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0 version 1.0.0</p>
+            <p>All codes from system 
+              <a href="CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.html">
+                <code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0-E"> </a>
+                  <a href="CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.html#UKCore-LanguageAbilityProficiency-1-0-0-E">E</a>
+                </td>
+                <td>Excellent</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0-F"> </a>
+                  <a href="CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.html#UKCore-LanguageAbilityProficiency-1-0-0-F">F</a>
+                </td>
+                <td>Fair</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0-G"> </a>
+                  <a href="CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.html#UKCore-LanguageAbilityProficiency-1-0-0-G">G</a>
+                </td>
+                <td>Good</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0-P"> </a>
+                  <a href="CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.html#UKCore-LanguageAbilityProficiency-1-0-0-P">P</a>
+                </td>
+                <td>Poor</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-LanguageAbilityProficiency-1-0-0"/>
+        <identifier>
+          <system value="urn:ietf:rfc:3986"/>
+          <value value="urn:oid:2.16.840.1.113883.5.61"/>
+        </identifier>
+        <version value="1.0.0"/>
+        <name value="UKCoreLanguageAbilityProficiency"/>
+        <title value="UK Core Language Ability Proficiency"/>
+        <status value="draft"/>
+        <date value="2019-10-25T01:00:00+01:00"/>
+        <publisher value="NHS Digital"/>
+        <contact>
+          <name value="Interoperability Team"/>
+          <telecom>
+            <system value="email"/>
+            <value value="interoperabilityteam@nhs.net"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <description value="A ValueSet to identify the level of proficiency in communicating a language."/>
+        <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
+        <expansion>
+          <identifier value="urn:uuid:0e913755-90f9-44d4-9116-9f8553d4ddb1"/>
+          <timestamp value="2019-11-11T14:30:22+00:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0"/>
+            <code value="E"/>
+            <display value="Excellent"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0"/>
+            <code value="F"/>
+            <display value="Fair"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0"/>
+            <code value="G"/>
+            <display value="Good"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0"/>
+            <code value="P"/>
+            <display value="Poor"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -6346,8 +6960,8 @@
         <description value="A ValueSet that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:0b07fff9-1f8a-4562-8c2e-a8e93dd76b95"/>
-          <timestamp value="2019-11-11T10:23:43+00:00"/>
+          <identifier value="urn:uuid:777e92ae-a97d-476c-92ea-8bc80d7eadd9"/>
+          <timestamp value="2019-11-11T14:30:22+00:00"/>
           <total value="392"/>
           <parameter>
             <name value="excludeNested"/>
@@ -8322,95 +8936,6 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://fhir.nhs.uk/R4/ValueSet/UKCore-DeathNotificationStatus-1-0-0"/>
-    <resource>
-      <ValueSet>
-        <id value="UKCore-DeathNotificationStatus-1-0-0"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 2 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.nhs.uk/R4/CodeSystem/UKCore-DeathNotificationStatus-1-0-0 version 1.0.0</p>
-            <p>All codes from system 
-              <a href="CodeSystem-UKCore-DeathNotificationStatus-1-0-0.html">
-                <code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-DeathNotificationStatus-1-0-0</code>
-              </a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-                <td>
-                  <b>Definition</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DeathNotificationStatus-1-0-0-1"> </a>
-                  <a href="CodeSystem-UKCore-DeathNotificationStatus-1-0-0.html#UKCore-DeathNotificationStatus-1-0-0-1">1</a>
-                </td>
-                <td>Informal - death notice received via an update from a local NHS Organisation such as GP or Trust</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---fhir.nhs.uk-R4-CodeSystem-UKCore-DeathNotificationStatus-1-0-0-2"> </a>
-                  <a href="CodeSystem-UKCore-DeathNotificationStatus-1-0-0.html#UKCore-DeathNotificationStatus-1-0-0-2">2</a>
-                </td>
-                <td>Formal - death notice received from Registrar of Deaths</td>
-                <td/>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-DeathNotificationStatus-1-0-0"/>
-        <version value="1.0.0"/>
-        <name value="UKCoreDeathNotificationStatus"/>
-        <title value="UK Core Death Notification Status"/>
-        <status value="draft"/>
-        <date value="2019-10-25T01:00:00+01:00"/>
-        <publisher value="NHS Digital"/>
-        <contact>
-          <name value="Interoperability Team"/>
-          <telecom>
-            <system value="email"/>
-            <value value="interoperabilityteam@nhs.net"/>
-            <use value="work"/>
-          </telecom>
-        </contact>
-        <description value="A ValueSet to identify the type of death notice as held on Personal Demographics Service (PDS)."/>
-        <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
-        <expansion>
-          <identifier value="urn:uuid:94e64837-6300-496a-8879-cba79e358aee"/>
-          <timestamp value="2019-11-11T10:23:43+00:00"/>
-          <total value="2"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DeathNotificationStatus-1-0-0|1.0.0"/>
-          </parameter>
-          <contains>
-            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DeathNotificationStatus-1-0-0"/>
-            <code value="1"/>
-            <display value="Informal - death notice received via an update from a local NHS Organisation such as GP or Trust"/>
-          </contains>
-          <contains>
-            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DeathNotificationStatus-1-0-0"/>
-            <code value="2"/>
-            <display value="Formal - death notice received from Registrar of Deaths"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
     <fullUrl value="https://fhir.nhs.uk/R4/ValueSet/UKCore-EthnicCategory-1-0-0"/>
     <resource>
       <ValueSet>
@@ -9009,8 +9534,8 @@
         <description value="A ValueSet to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a person&#39;s ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:ba5dc63e-efd8-4ace-b226-7085da0453ef"/>
-          <timestamp value="2019-11-11T10:23:43+00:00"/>
+          <identifier value="urn:uuid:9bae6e8d-549f-4876-acf5-2ea54652a692"/>
+          <timestamp value="2019-11-11T14:30:23+00:00"/>
           <total value="68"/>
           <parameter>
             <name value="excludeNested"/>
@@ -9559,8 +10084,8 @@
         <description value="The method of admission to a Hospital Provider Spell."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:d9b799eb-907b-4dd1-90fc-053b6d349679"/>
-          <timestamp value="2019-11-11T10:23:44+00:00"/>
+          <identifier value="urn:uuid:b9666f2a-ec30-475e-beab-a1b141bac9fc"/>
+          <timestamp value="2019-11-11T14:30:23+00:00"/>
           <total value="18"/>
           <parameter>
             <name value="excludeNested"/>
@@ -9867,8 +10392,8 @@
         <description value="The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:d0ca649f-b431-45e1-9c00-1f7e22fd5051"/>
-          <timestamp value="2019-11-11T10:23:44+00:00"/>
+          <identifier value="urn:uuid:6719e180-aa32-4194-bb40-a87f7f10819b"/>
+          <timestamp value="2019-11-11T14:30:23+00:00"/>
           <total value="19"/>
           <parameter>
             <name value="excludeNested"/>
@@ -10084,8 +10609,8 @@
         <description value="The method of discharge from a Hospital Provider Spell."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:643b09e8-a3c9-4cfb-992f-f4b9f246e549"/>
-          <timestamp value="2019-11-11T10:23:44+00:00"/>
+          <identifier value="urn:uuid:60402f7c-690f-4c5c-80ec-56cbb3ac6f4a"/>
+          <timestamp value="2019-11-11T14:30:23+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -10209,8 +10734,8 @@
         <description value="This records the outcome of an Out-Patient Attendance Consultant."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:b9886645-c2f0-4d6c-b442-37078bb1ebef"/>
-          <timestamp value="2019-11-11T10:23:44+00:00"/>
+          <identifier value="urn:uuid:091fda5e-0b8c-4c1c-8e7d-324a2c78a27c"/>
+          <timestamp value="2019-11-11T14:30:24+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -10402,8 +10927,8 @@
         <description value="The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:1f486097-2416-4e62-9256-7ebbbe0cfc44"/>
-          <timestamp value="2019-11-11T10:23:45+00:00"/>
+          <identifier value="urn:uuid:c8c8ab47-52d3-4765-b259-e75c7981c7ba"/>
+          <timestamp value="2019-11-11T14:30:24+00:00"/>
           <total value="14"/>
           <parameter>
             <name value="excludeNested"/>
@@ -10602,8 +11127,8 @@
         <description value="A ValueSet that identifies the trace status of the NHS number. The CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:dad3cf34-4d2c-429b-826c-c71c0956dd65"/>
-          <timestamp value="2019-11-11T10:23:45+00:00"/>
+          <identifier value="urn:uuid:520faa3b-a2c4-4b77-a262-5df709d19fd5"/>
+          <timestamp value="2019-11-11T14:30:24+00:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -10748,8 +11273,8 @@
         <description value="An indicator to identify the legal marital status of a Person."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:9067b171-b971-43fe-a5aa-4ebbba91c61a"/>
-          <timestamp value="2019-11-11T10:23:45+00:00"/>
+          <identifier value="urn:uuid:15651a98-5f5b-4e75-b51d-09bf00733e3a"/>
+          <timestamp value="2019-11-11T14:30:24+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -10868,8 +11393,8 @@
         <description value="The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:fe42c23e-fec2-431c-be2f-9dd5afcb4724"/>
-          <timestamp value="2019-11-11T10:23:50+00:00"/>
+          <identifier value="urn:uuid:4c0b3469-4559-40b5-96af-ac711a6c8924"/>
+          <timestamp value="2019-11-11T14:30:29+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>

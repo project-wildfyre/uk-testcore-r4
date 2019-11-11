@@ -170,6 +170,27 @@
       ]
     },
     {
+      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MainLocation-1-0-0",
+      "title": "UK Core Main Location Extension",
+      "types": [
+        "Reference",
+        "string",
+        "Extension",
+        "string",
+        "uri",
+        "Identifier",
+        "string",
+        "Extension",
+        "code",
+        "CodeableConcept",
+        "uri",
+        "string",
+        "Period",
+        "Reference",
+        "string"
+      ]
+    },
+    {
       "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSCommunication-1-0-0",
       "title": "UK Core NHS Communication Extension",
       "types": [
@@ -517,6 +538,12 @@
     }
   ],
   "profiles": {
+    "Organization": [
+      {
+        "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0",
+        "title": "UK Core Organization Profile"
+      }
+    ],
     "Patient": [
       {
         "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient-1-0-0",
@@ -548,6 +575,9 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
       "StructureDefinition.snapshot.element"

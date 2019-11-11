@@ -286,6 +286,11 @@
 			"base": "UKCore-Practitioner-1-0-0.html",
 			"defns": "UKCore-Practitioner-1-0-0-definitions.html"
 		},
+		"StructureDefinition/UKCore-Organization-1-0-0": {
+			"source": "UKCore-Organization-1-0-0.xml",
+			"base": "UKCore-Organization-1-0-0.html",
+			"defns": "UKCore-Organization-1-0-0-definitions.html"
+		},
 		"StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus-1-0-0": {
 			"source": "Extension-UKCore-NHSNumberVerificationStatus-1-0-0.xml",
 			"base": "Extension-UKCore-NHSNumberVerificationStatus-1-0-0.html",
@@ -325,6 +330,11 @@
 			"source": "Extension-UKCore-NominatedPharmacy-1-0-0.xml",
 			"base": "Extension-UKCore-NominatedPharmacy-1-0-0.html",
 			"defns": "Extension-UKCore-NominatedPharmacy-1-0-0-definitions.html"
+		},
+		"StructureDefinition/Extension-UKCore-MainLocation-1-0-0": {
+			"source": "Extension-UKCore-MainLocation-1-0-0.xml",
+			"base": "Extension-UKCore-MainLocation-1-0-0.html",
+			"defns": "Extension-UKCore-MainLocation-1-0-0-definitions.html"
 		},
 		"CodeSystem/CodeSystem-CareConnect-LanguageAbilityMode-1": {
 			"source": "CodeSystem-CareConnect-LanguageAbilityMode-1.xml",
