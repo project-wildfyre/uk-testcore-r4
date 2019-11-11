@@ -257,6 +257,11 @@
 			"base": "UKCore-Patient-1-0-0.html",
 			"defns": "UKCore-Patient-1-0-0-definitions.html"
 		},
+		"StructureDefinition/UKCore-Practitioner-1-0-0": {
+			"source": "UKCore-Practitioner-1-0-0.xml",
+			"base": "UKCore-Practitioner-1-0-0.html",
+			"defns": "UKCore-Practitioner-1-0-0-definitions.html"
+		},
 		"StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus-1-0-0": {
 			"source": "Extension-UKCore-NHSNumberVerificationStatus-1-0-0.xml",
 			"base": "Extension-UKCore-NHSNumberVerificationStatus-1-0-0.html",
@@ -300,6 +305,10 @@
 		"CodeSystem/CodeSystem-CareConnect-LanguageAbilityMode-1": {
 			"source": "CodeSystem-CareConnect-LanguageAbilityMode-1.xml",
 			"base": "CodeSystem-CareConnect-LanguageAbilityMode-1.html"
+		},
+		"Practitioner/UKCore-Practitioner-Example-1-0-0": {
+			"source": "UKCore-Practitioner-Example-1-0-0.xml",
+			"base": "UKCore-Practitioner-Example-1-0-0.html"
 		},
 		"Patient/UKCore-Patient-Example-1-0-0": {
 			"source": "UKCore-Patient-Example-1-0-0.xml",

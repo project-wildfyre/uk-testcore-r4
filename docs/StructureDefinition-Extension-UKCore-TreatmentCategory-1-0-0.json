@@ -24,8 +24,8 @@
       ]
     }
   ],
-  "description": "This extension is constrained to represent a patient's treatment category.",
-  "purpose": "This extension has been developed to represent the treatment category of a patient.",
+  "description": "This extension has been constrained to represent a patient's treatment category for use by the FHIR R4 Core Demo specification.",
+  "purpose": "This extension has been developed to represent the treatment category of a patient for wider use.",
   "copyright": "Copyright © 2019 NHS Digital",
   "fhirVersion": "4.0.1",
   "mapping": [

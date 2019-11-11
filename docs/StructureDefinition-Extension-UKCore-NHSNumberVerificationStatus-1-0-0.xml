@@ -23,8 +23,8 @@
       <use value="work"/>
     </telecom>
   </contact>
-  <description value="This extension is constrained to represent the NHS Number Verification Status."/>
-  <purpose value="This extension has been developed to represent the verification status of an NHS number."/>
+  <description value="This extension has been constrained to represent the NHS Number Verification Status for use by the FHIR R4 Core Demo specification."/>
+  <purpose value="This extension has been developed to represent the verification status of an NHS number for wider use."/>
   <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
   <fhirVersion value="4.0.1"/>
   <mapping>

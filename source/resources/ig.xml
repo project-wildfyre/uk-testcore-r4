@@ -348,6 +348,12 @@
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>
+		  <resource>
+      <reference>
+        <reference value="StructureDefinition/UKCore-Practitioner-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus-1-0-0"/>
@@ -402,5 +408,11 @@
 			</reference>
 			<exampleBoolean value="true"/>
 		</resource>
+	    <resource>
+      <reference>
+        <reference value="Practitioner/UKCore-Practitioner-Example-1-0-0"/>
+      </reference>
+      <exampleBoolean value="true"/>
+    </resource>
 	</definition>
 </ImplementationGuide>

@@ -522,6 +522,12 @@
         "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient-1-0-0",
         "title": "UK Core Patient Profile"
       }
+    ],
+    "Practitioner": [
+      {
+        "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner-1-0-0",
+        "title": "UK Core Practitioner Profile"
+      }
     ]
   },
   "usage": {
