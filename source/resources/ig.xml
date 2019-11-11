@@ -56,6 +56,30 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="ValueSet/UKCore-ConditionEpisode-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/UKCore-ConditionCode-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/UKCore-ConditionCategory-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/UKCore-ConditionEpisodicity-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="ValueSet/UKCore-AllergyCode-1-0-0"/>
 			</reference>
 			<exampleBoolean value="false"/>
@@ -234,6 +258,18 @@
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>		
+		<resource>
+			<reference>
+				<reference value="CodeSystem/UKCore-ConditionEpisodicity-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="CodeSystem/UKCore-ConditionCategory-1-0-0"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
 		<resource>
 			<reference>
 				<reference value="CodeSystem/UKCore-ResidentialStatus-1-0-0"/>

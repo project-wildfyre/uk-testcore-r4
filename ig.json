@@ -140,6 +140,22 @@
 			"source": "ValueSet-UKCore-BodySite-1-0-0.xml",
 			"base": "ValueSet-UKCore-BodySite-1-0-0.html"
 		},
+		"ValueSet/UKCore-ConditionEpisode-1-0-0": {
+			"source": "ValueSet-UKCore-ConditionEpisode-1-0-0.xml",
+			"base": "ValueSet-UKCore-ConditionEpisode-1-0-0.html"
+		},
+		"ValueSet/UKCore-ConditionCode-1-0-0": {
+			"source": "ValueSet-UKCore-ConditionCode-1-0-0.xml",
+			"base": "ValueSet-UKCore-ConditionCode-1-0-0.html"
+		},
+		"ValueSet/UKCore-ConditionCategory-1-0-0": {
+			"source": "ValueSet-UKCore-ConditionCategory-1-0-0.xml",
+			"base": "ValueSet-UKCore-ConditionCategory-1-0-0.html"
+		},
+		"ValueSet/UKCore-ConditionEpisodicity-1-0-0": {
+			"source": "ValueSet-UKCore-ConditionEpisodicity-1-0-0.xml",
+			"base": "ValueSet-UKCore-ConditionEpisodicity-1-0-0.html"
+		},
 		"ValueSet/UKCore-EncounterType-1-0-0": {
 			"source": "ValueSet-UKCore-EncounterType-1-0-0.xml",
 			"base": "ValueSet-UKCore-EncounterType-1-0-0.html"
@@ -188,6 +204,14 @@
 			"source": "CodeSystem-UKCore-HumanLanguage-1-0-0.xml",
 			"base": "CodeSystem-UKCore-HumanLanguage-1-0-0.html"
 		},
+		"CodeSystem/UKCore-ConditionEpisodicity-1-0-0": {
+			"source": "CodeSystem-UKCore-ConditionEpisodicity-1-0-0.xml",
+			"base": "CodeSystem-UKCore-ConditionEpisodicity-1-0-0.html"
+		},	
+		"CodeSystem/UKCore-ConditionCategory-1-0-0": {
+			"source": "CodeSystem-UKCore-ConditionCategory-1-0-0.xml",
+			"base": "CodeSystem-UKCore-ConditionCategory-1-0-0.html"
+		},			
 		"CodeSystem/UKCore-NHSNumberVerificationStatus-1-0-0": {
 			"source": "CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0.xml",
 			"base": "CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0.html"
