@@ -3,35 +3,35 @@
   "id" : "nhsdigital-fhir-r4-core-prototype",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\Git\\FHIR-R4-Core-IG-1.0.0\\source\\resources"
+    "valueString" : "C:\\RepoGitHub\\FHIR-R4-Core-IG-1.0.0\\source\\resources"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\Git\\FHIR-R4-Core-IG-1.0.0\\source\\codesystems"
+    "valueString" : "C:\\RepoGitHub\\FHIR-R4-Core-IG-1.0.0\\source\\codesystems"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\Git\\FHIR-R4-Core-IG-1.0.0\\source\\valuesets"
+    "valueString" : "C:\\RepoGitHub\\FHIR-R4-Core-IG-1.0.0\\source\\valuesets"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\Git\\FHIR-R4-Core-IG-1.0.0\\source\\structuredefinitions"
+    "valueString" : "C:\\RepoGitHub\\FHIR-R4-Core-IG-1.0.0\\source\\structuredefinitions"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\Git\\FHIR-R4-Core-IG-1.0.0\\source\\examples"
+    "valueString" : "C:\\RepoGitHub\\FHIR-R4-Core-IG-1.0.0\\source\\examples"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\Git\\FHIR-R4-Core-IG-1.0.0\\source\\conceptmaps"
+    "valueString" : "C:\\RepoGitHub\\FHIR-R4-Core-IG-1.0.0\\source\\conceptmaps"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
-    "valueString" : "C:\\Git\\FHIR-R4-Core-IG-1.0.0\\framework"
+    "valueString" : "C:\\RepoGitHub\\FHIR-R4-Core-IG-1.0.0\\framework"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
-    "valueString" : "C:\\Git\\FHIR-R4-Core-IG-1.0.0\\source\\pages"
+    "valueString" : "C:\\RepoGitHub\\FHIR-R4-Core-IG-1.0.0\\source\\pages"
   }],
   "url" : "https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype",
   "version" : "1.0.0",
