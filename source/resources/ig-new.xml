@@ -3,28 +3,28 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="nhsdigital-fhir-r4-core-prototype"/>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
-    <valueString value="C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\resources"/>
+    <valueString value="C:\Git\FHIR-R4-Core-IG-1.0.0\source\resources"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
-    <valueString value="C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\codesystems"/>
+    <valueString value="C:\Git\FHIR-R4-Core-IG-1.0.0\source\codesystems"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
-    <valueString value="C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets"/>
+    <valueString value="C:\Git\FHIR-R4-Core-IG-1.0.0\source\valuesets"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
-    <valueString value="C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions"/>
+    <valueString value="C:\Git\FHIR-R4-Core-IG-1.0.0\source\structuredefinitions"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
-    <valueString value="C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\examples"/>
+    <valueString value="C:\Git\FHIR-R4-Core-IG-1.0.0\source\examples"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
-    <valueString value="C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\conceptmaps"/>
+    <valueString value="C:\Git\FHIR-R4-Core-IG-1.0.0\source\conceptmaps"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages">
-    <valueString value="C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\framework"/>
+    <valueString value="C:\Git\FHIR-R4-Core-IG-1.0.0\framework"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages">
-    <valueString value="C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\pages"/>
+    <valueString value="C:\Git\FHIR-R4-Core-IG-1.0.0\source\pages"/>
   </extension>
   <url value="https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype"/>
   <version value="1.0.0"/>
@@ -427,18 +427,6 @@
         <reference value="StructureDefinition/Extension-UKCore-NominatedPharmacy-1-0-0"/>
       </reference>
       <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="Patient/UKCore-Patient-Example-1-0-0"/>
-      </reference>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="Practitioner/UKCore-Practitioner-Example-1-0-0"/>
-      </reference>
-      <exampleBoolean value="true"/>
     </resource>
     <parameter>
       <code value="apply"/>
