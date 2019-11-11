@@ -16,7 +16,7 @@
       <use value="work" />
     </telecom>
   </contact>
-  <description value="This extension has been constrained represent a reference to the main location for an organisation for use by the FHIR R4 Core Demo specification." />
+  <description value="This extension has been constrained to represent a reference to the main location for an organisation for use by the FHIR R4 Core Demo specification." />
   <purpose value="This extension has been developed to represent a reference to the main location for an organisation for wider use." />
   <copyright value="Copyright © 2019 NHS Digital" />
   <fhirVersion value="4.0.0" />
@@ -39,6 +39,7 @@
       <path value="Extension" />
       <short value="Main location" />
       <definition value="The main location of the organisation." />
+      <max value="1" />
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
@@ -51,6 +52,13 @@
       <min value="1" />
       <type>
         <code value="Reference" />
+      </type>
+    </element>
+    <element id="Extension.value[x].identifier.assigner">
+      <path value="Extension.value[x].identifier.assigner" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
       </type>
     </element>
   </differential>
