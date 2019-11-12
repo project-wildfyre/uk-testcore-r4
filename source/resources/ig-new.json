@@ -131,6 +131,12 @@
     },
     {
       "reference" : {
+        "reference" : "ValueSet/UKCore-ProcedureCode-1-0-0"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "ValueSet/UKCore-ListCode-1-0-0"
       },
       "exampleBoolean" : false

@@ -1,11 +1,11 @@
 ﻿FHIRR4CorePrototype : Validation Results
 =========================================
 
-err = 28, warn = 0, info = 0
+err = 30, warn = 0, info = 0
 IG Publisher Version: v0.9.93-SNAPSHOT
-Generated Mon Nov 11 18:23:33 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype#1.0.0 (canonical = https://fhir.nhs.uk/R4)
+Generated Tue Nov 12 13:21:54 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype#1.0.0 (canonical = https://fhir.nhs.uk/R4)
 
- Build Errors : 247 / 1
+ Build Errors : 250 / 1
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-AdmissionMethod-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-ConditionCategory-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\codesystems\CodeSystem-UKCore-ConditionEpisodicity-1-0-0 : 0 / 0
@@ -72,6 +72,7 @@ Generated Mon Nov 11 18:23:33 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-NHSNumberVerificationStatus-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ObservationType-1-0-0 : 1 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-OutcomeOfAttendance-1-0-0 : 0 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ProcedureCode-1-0-0 : 1 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ReligiousAffiliation-1-0-0 : 1 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ResidentialStatus-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-SDSJobRoleName-1-0-0 : 0 / 0
@@ -301,6 +302,9 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ObservationType-
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-OutcomeOfAttendance-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-OutcomeOfAttendance-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-OutcomeOfAttendance-1-0-0.xml.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ProcedureCode-1-0-0.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ProcedureCode-1-0-0.json.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ProcedureCode-1-0-0.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ReligiousAffiliation-1-0-0.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ReligiousAffiliation-1-0-0.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\docs\ValueSet-UKCore-ReligiousAffiliation-1-0-0.xml.html: The html source does not contain the publish box
@@ -406,6 +410,8 @@ ERROR: UKCore-LanguageAbilityProficiency-1-0-0: Error from server: Unable to pro
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ObservationType-1-0-0.xml ==
 ERROR: UKCore-ObservationType-1-0-0: Error from server: The filter "constraint = (<<363787002 | Observable entity|)" was not understood in the context of http://snomed.info/sct
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-OutcomeOfAttendance-1-0-0.xml ==
+== C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ProcedureCode-1-0-0.xml ==
+ERROR: UKCore-ProcedureCode-1-0-0: Error from server: The filter "constraint = (<<71388002 |Procedure|<<129125009 OR |Procedure with explicit context|)" was not understood in the context of http://snomed.info/sct
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ReligiousAffiliation-1-0-0.xml ==
 ERROR: UKCore-ReligiousAffiliation-1-0-0: Error from server: The filter "concept in ^999000531000000100" was not understood in the context of http://snomed.info/sct
 == C:\RepoGitHub\FHIR-R4-Core-IG-1.0.0\source\valuesets\ValueSet-UKCore-ResidentialStatus-1-0-0.xml ==

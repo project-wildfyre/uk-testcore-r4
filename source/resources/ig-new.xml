@@ -124,6 +124,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="ValueSet/UKCore-ProcedureCode-1-0-0"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="ValueSet/UKCore-ListCode-1-0-0"/>
       </reference>
       <exampleBoolean value="false"/>
