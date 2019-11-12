@@ -45,4 +45,5 @@ This page lists all the ValueSets defined as part of this Implementation Guide.
 - [UK Core Emergency Care Discharge Status](ValueSet-UKCore-EmergencyCareDischargeStatus-1-0-0.html)
 - [UK Core List Code](ValueSet-UKCore-ListCode-1-0-0.html)
 - [UK Core Observation Type](ValueSet-UKCore-ObservationType-1-0-0.html)
+- [UK Core Procedure Code](ValueSet-UKCore-ProcedureCode-1-0-0.html) 
 - [UK Core Religious Affiliation](ValueSet-UKCore-ReligiousAffiliation-1-0-0.html)

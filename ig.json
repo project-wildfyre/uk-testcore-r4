@@ -148,6 +148,10 @@
 			"source": "ValueSet-UKCore-ConditionCode-1-0-0.xml",
 			"base": "ValueSet-UKCore-ConditionCode-1-0-0.html"
 		},
+		"ValueSet/UKCore-ProcedureCode-1-0-0": {
+			"source": "ValueSet-UKCore-ProcedureCode-1-0-0.xml",
+			"base": "ValueSet-UKCore-ProcedureCode-1-0-0.html"
+		},		
 		"ValueSet/UKCore-ConditionCategory-1-0-0": {
 			"source": "ValueSet-UKCore-ConditionCategory-1-0-0.xml",
 			"base": "ValueSet-UKCore-ConditionCategory-1-0-0.html"
