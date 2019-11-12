@@ -80,6 +80,13 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
       </type>
     </element>
+    <element id="Organization.identifier:odsOrganisationCode.assigner.identifier.assigner">
+      <path value="Organization.identifier.assigner.identifier.assigner" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
+      </type>
+    </element>
     <element id="Organization.identifier:odsSiteCode">
       <path value="Organization.identifier" />
       <sliceName value="odsSiteCode" />
@@ -98,6 +105,13 @@
     </element>
     <element id="Organization.identifier:odsSiteCode.assigner">
       <path value="Organization.identifier.assigner" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
+      </type>
+    </element>
+    <element id="Organization.identifier:odsSiteCode.assigner.identifier.assigner">
+      <path value="Organization.identifier.assigner.identifier.assigner" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
@@ -129,6 +143,13 @@
     </element>
     <element id="Organization.endpoint.identifier.assigner">
       <path value="Organization.endpoint.identifier.assigner" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
+      </type>
+    </element>
+    <element id="Organization.endpoint.identifier.assigner.identifier.assigner">
+      <path value="Organization.endpoint.identifier.assigner.identifier.assigner" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
