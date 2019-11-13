@@ -3,7 +3,7 @@
   "id": "UKCore-Patient-Example",
   "meta": {
     "profile": [
-      "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient|1-0-0"
+      "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient|1.0.0"
     ]
   },
   "text": {

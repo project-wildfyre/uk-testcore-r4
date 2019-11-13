@@ -3,7 +3,7 @@
 
 err = 32, warn = 2, info = 0
 IG Publisher Version: v0.9.95-SNAPSHOT
-Generated Wed Nov 13 11:47:27 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype#1.0.0 (canonical = https://fhir.nhs.uk/R4)
+Generated Wed Nov 13 12:41:49 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype#1.0.0 (canonical = https://fhir.nhs.uk/R4)
 
  Build Errors : 257 / 1
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-AdmissionMethod-1-0-0 : 0 / 0
@@ -31,7 +31,7 @@ Generated Wed Nov 13 11:47:27 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\conceptmaps\ConceptMap-UKCore-AllergyVerificationStatus-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\conceptmaps\ConceptMap-UKCore-ConditionEpisodicity-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\conceptmaps\ConceptMap-UKCore-MaritalStatus-1-0-0 : 0 / 0
- C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Patient-Example : 1 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Patient-Example : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\resources\ig : 1 / 1
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-DeathNotificationStatus-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-EthnicCategory-1-0-0 : 0 / 0
@@ -56,15 +56,15 @@ Generated Wed Nov 13 11:47:27 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-ConditionCode-1-0-0 : 1 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-ConditionEpisode-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-ConditionEpisodicity-1-0-0 : 0 / 0
- C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-DeathNotificationStatus-1-0-0 : 1 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-DeathNotificationStatus-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-DischargeDestination-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-DischargeMethod-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-EmergencyCareDischargeStatus-1-0-0 : 1 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-EncounterType-1-0-0 : 1 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-EthnicCategory-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-HumanLanguage-1-0-0 : 0 / 0
- C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-LanguageAbilityMode-1-0-0 : 0 / 0
- C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-LanguageAbilityProficiency-1-0-0 : 0 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-LanguageAbilityMode-1-0-0 : 1 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-LanguageAbilityProficiency-1-0-0 : 1 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-ListCode-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-ListEmptyReasonCode-1-0-0 : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-ListWarningCode-1-0-0 : 0 / 0
@@ -366,7 +366,6 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\valuesets.html: The html sou
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\conceptmaps\ConceptMap-UKCore-ConditionEpisodicity-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\conceptmaps\ConceptMap-UKCore-MaritalStatus-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Patient-Example.xml ==
-ERROR: Patient/UKCore-Patient-Example: Patient.meta.profile[0]: Referenced version 1-0-0 does not match found version 1.0.0 for profile https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\resources\ig.xml ==
 WARNING: ImplementationGuide/nhsdigital-fhir-r4-core-prototype: ImplementationGuide.jurisdiction[0]: Error org.hl7.fhir.r5.utils.client.EFhirClientException: Error sending Http Request: Connect to tx.fhir.org:80 timed out validating CodeableConcept
 ERROR: ImplementationGuide/nhsdigital-fhir-r4-core-prototype: ImplementationGuide.jurisdiction[0].coding[0]: Error org.hl7.fhir.r5.utils.client.EFhirClientException: Error sending Http Request: Connect to tx.fhir.org:80 timed out validating Coding: org.hl7.fhir.exceptions.TerminologyServiceException: org.hl7.fhir.r5.utils.client.EFhirClientException: Error sending Http Request: Connect to tx.fhir.org:80 timed out
@@ -401,7 +400,6 @@ ERROR: UKCore-ConditionCode-1-0-0: Error from server: The filter "constraint = (
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-ConditionEpisode-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-ConditionEpisodicity-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-DeathNotificationStatus-1-0-0.xml ==
-ERROR: UKCore-DeathNotificationStatus-1-0-0: Error from server: Unable to provide support for code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-DeathNotificationStatus-1-0-0
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-DischargeDestination-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-DischargeMethod-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-EmergencyCareDischargeStatus-1-0-0.xml ==
@@ -411,7 +409,9 @@ ERROR: UKCore-EncounterType-1-0-0: Error from server: The filter "constraint = <
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-EthnicCategory-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-HumanLanguage-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-LanguageAbilityMode-1-0-0.xml ==
+ERROR: UKCore-LanguageAbilityMode-1-0-0: Error from server: Unable to provide support for code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode-1-0-0
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-LanguageAbilityProficiency-1-0-0.xml ==
+ERROR: UKCore-LanguageAbilityProficiency-1-0-0: Error from server: Unable to provide support for code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-ListCode-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-ListEmptyReasonCode-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-ListWarningCode-1-0-0.xml ==
@@ -422,7 +422,7 @@ ERROR: UKCore-EncounterType-1-0-0: Error from server: The filter "constraint = <
 ERROR: UKCore-ObservationType-1-0-0: Error from server: The filter "constraint = (<<363787002 | Observable entity|)" was not understood in the context of http://snomed.info/sct
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-OutcomeOfAttendance-1-0-0.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-ProcedureCode-1-0-0.xml ==
-ERROR: UKCore-ProcedureCode-1-0-0: Error sending HTTP Post/Put Payload
+ERROR: UKCore-ProcedureCode-1-0-0: Error from server: The filter "constraint = (<<71388002 |Procedure|<<129125009 OR |Procedure with explicit context|)" was not understood in the context of http://snomed.info/sct
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-ReligiousAffiliation-1-0-0.xml ==
 ERROR: UKCore-ReligiousAffiliation-1-0-0: Error from server: The filter "concept in ^999000531000000100" was not understood in the context of http://snomed.info/sct
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-ResidentialStatus-1-0-0.xml ==
