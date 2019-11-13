@@ -4,19 +4,6 @@
 	<meta>
 		<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient|1-0-0"/>
 	</meta>
-	<identifier>
-		<extension url="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus-1-0-0">
-			<valueCodeableConcept>
-				<coding>
-					<system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSNumberVerificationStatus-1-0-0"/>
-					<code value="01"/>
-					<display value="Number present and verified"/>
-				</coding>
-			</valueCodeableConcept>
-		</extension>
-		<system value="https://fhir.nhs.uk/Id/nhs-number"/>
-		<value value="6105551234"/>
-	</identifier>
 	<name>
 		<use value="official"/>
 		<family value="SMITH"/>

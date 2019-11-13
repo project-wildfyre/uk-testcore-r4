@@ -91,7 +91,7 @@
 		"ValueSet/UKCore-SourceOfAdmission-1-0-0": {
 			"source": "ValueSet-UKCore-SourceOfAdmission-1-0-0.xml",
 			"base": "ValueSet-UKCore-SourceOfAdmission-1-0-0.html"
-		},		
+		},
 		"ValueSet/UKCore-DeathNotificationStatus-1-0-0": {
 			"source": "ValueSet-UKCore-DeathNotificationStatus-1-0-0.xml",
 			"base": "ValueSet-UKCore-DeathNotificationStatus-1-0-0.html"
@@ -151,7 +151,7 @@
 		"ValueSet/UKCore-ProcedureCode-1-0-0": {
 			"source": "ValueSet-UKCore-ProcedureCode-1-0-0.xml",
 			"base": "ValueSet-UKCore-ProcedureCode-1-0-0.html"
-		},		
+		},
 		"ValueSet/UKCore-ConditionCategory-1-0-0": {
 			"source": "ValueSet-UKCore-ConditionCategory-1-0-0.xml",
 			"base": "ValueSet-UKCore-ConditionCategory-1-0-0.html"
@@ -203,7 +203,7 @@
 		"CodeSystem/UKCore-ListEmptyReasonCode-1-0-0": {
 			"source": "CodeSystem-UKCore-ListEmptyReasonCode-1-0-0.xml",
 			"base": "CodeSystem-UKCore-ListEmptyReasonCode-1-0-0.html"
-		},		
+		},
 		"CodeSystem/UKCore-HumanLanguage-1-0-0": {
 			"source": "CodeSystem-UKCore-HumanLanguage-1-0-0.xml",
 			"base": "CodeSystem-UKCore-HumanLanguage-1-0-0.html"
@@ -211,11 +211,11 @@
 		"CodeSystem/UKCore-ConditionEpisodicity-1-0-0": {
 			"source": "CodeSystem-UKCore-ConditionEpisodicity-1-0-0.xml",
 			"base": "CodeSystem-UKCore-ConditionEpisodicity-1-0-0.html"
-		},	
+		},
 		"CodeSystem/UKCore-ConditionCategory-1-0-0": {
 			"source": "CodeSystem-UKCore-ConditionCategory-1-0-0.xml",
 			"base": "CodeSystem-UKCore-ConditionCategory-1-0-0.html"
-		},			
+		},
 		"CodeSystem/UKCore-NHSNumberVerificationStatus-1-0-0": {
 			"source": "CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0.xml",
 			"base": "CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0.html"
@@ -251,7 +251,7 @@
 		"CodeSystem/UKCore-SourceOfAdmission-1-0-0": {
 			"source": "CodeSystem-UKCore-SourceOfAdmission-1-0-0.xml",
 			"base": "CodeSystem-UKCore-SourceOfAdmission-1-0-0.html"
-		},		
+		},
 		"CodeSystem/UKCore-LanguageAbilityMode-1-0-0": {
 			"source": "CodeSystem-UKCore-LanguageAbilityMode-1-0-0.xml",
 			"base": "CodeSystem-UKCore-LanguageAbilityMode-1-0-0.html"
@@ -344,9 +344,13 @@
 			"base": "Extension-UKCore-MainLocation-1-0-0.html",
 			"defns": "Extension-UKCore-MainLocation-1-0-0-definitions.html"
 		},
-		"CodeSystem/CodeSystem-CareConnect-LanguageAbilityMode-1": {
-			"source": "CodeSystem-CareConnect-LanguageAbilityMode-1.xml",
-			"base": "CodeSystem-CareConnect-LanguageAbilityMode-1.html"
+		"CodeSystem/CodeSystem-CareConnect-LanguageAbilityMode-1-0-0": {
+			"source": "CodeSystem-CareConnect-LanguageAbilityMode-1-0-0.xml",
+			"base": "CodeSystem-CareConnect-LanguageAbilityMode-1-0-0.html"
+		},
+		"Patient/UKCore-Patient-Example": {
+			"source": "UKCore-Patient-Example.xml",
+			"base": "UKCore-Patient-Example.html"
 		}
 	},
 	"tool": "jekyll",

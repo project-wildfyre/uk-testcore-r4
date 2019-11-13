@@ -5,4 +5,4 @@ title: Examples
 layout: default
 ---
 
-Currently there are no examples available with this specification.
+- [UK Core Patient Example](UKCore-Patient-Example.html)

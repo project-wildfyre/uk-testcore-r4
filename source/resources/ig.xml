@@ -462,5 +462,11 @@
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>
+		<resource>
+			<reference>
+				<reference value="Patient/UKCore-Patient-Example"/>
+			</reference>
+			<exampleBoolean value="true"/>
+		</resource>		
 	</definition>
 </ImplementationGuide>
