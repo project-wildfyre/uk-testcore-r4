@@ -7,4 +7,4 @@
 
 ### Profile Minimum Viable Content ###
 
-This FHIR profile has no mandatory elements.
+The Minimum Viable Content for this profile has not yet been defined and may be added in a later release.

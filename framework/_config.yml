@@ -2,7 +2,7 @@ title: "FHIR R4 Core Prototype"
 copyrightyear: "2019" # copyright date for footer
 historypath: "history.html" # complete path to IG history file use "history" for an example of what this page would look like
 igName: "FHIR R4 Core Prototype" 
-changelink: https://github.com/nhsconnect/FHIR-R4-Core-IG-1.0.0/issues
+changelink: https://github.com/nhsconnect/FHIR-R4-Core-IG-Prototype/issues
 summaries: false #true if want custom profile summaries in summary tab
 diff2: false # true if want to show intermediate differentials - probably never use this.
 build: version  # choice of ci|ballot|version

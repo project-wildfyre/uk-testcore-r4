@@ -11,7 +11,7 @@ The following elements are mandatory in this UKCore-Profile-1-0-0 FHIR profile (
 
 1.	
 
-This FHIR profile has no mandatory elements.
+The Minimum Viable Content for this profile has not yet been defined and may be added in a later release.
 
 ### Examples ###
 

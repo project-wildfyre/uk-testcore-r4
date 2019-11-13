@@ -6,7 +6,7 @@ active: guidance
 
 ### Summary
 
-FHIR R4 Core Demo Implementation Guide - November 2019 Release.  
+FHIR R4 Core Prototype Implementation Guide - November 2019 Release.  
 
 **Important:**
 
@@ -22,5 +22,5 @@ Nothing contained in this specification should be implemented or proposed as a s
 
 For queries and comments please email the <a href="mailto:interoperabilityteam@nhs.net?subject=FHIR%STU3%Core%20Specification">Interoperability Team</a>.
 
-Issues can be reported on the <a href="https://github.com/nhsconnect/FHIR-R4-Core-IG-1.0.0/issues" target="_blank">FHIR-R4-Core-IG-1.0.0 GitHub repository</a>.
+Issues can be reported on the <a href="https://github.com/nhsconnect/FHIR-R4-Core-IG-Prototype/issues" target="_blank">FHIR-R4-Core-IG-Prototype GitHub repository</a>.
 <br />
