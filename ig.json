@@ -284,10 +284,10 @@
 			"source": "ConceptMap-UKCore-AdministrativeGender-1-0-0.xml",
 			"base": "ConceptMap-UKCore-AdministrativeGender-1-0-0.html"
 		},
-		"StructureDefinition/UKCore-Patient-1-0-0": {
-			"source": "UKCore-Patient-1-0-0.xml",
-			"base": "UKCore-Patient-1-0-0.html",
-			"defns": "UKCore-Patient-1-0-0-definitions.html"
+		"StructureDefinition/UKCore-Patient": {
+			"source": "UKCore-Patient.xml",
+			"base": "UKCore-Patient.html",
+			"defns": "UKCore-Patient-definitions.html"
 		},
 		"StructureDefinition/UKCore-Practitioner-1-0-0": {
 			"source": "UKCore-Practitioner-1-0-0.xml",
