@@ -1015,11 +1015,11 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-Patient-1-0-0.html"
+            "valueUri": "UKCore-Patient.html"
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/UKCore-Patient-1-0-0"
+          "reference": "StructureDefinition/UKCore-Patient"
         },
         "exampleBoolean": false
       },
@@ -1198,6 +1198,22 @@
           "reference": "StructureDefinition/Extension-UKCore-MainLocation-1-0-0"
         },
         "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "UKCore-Patient-Example.html"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/UKCore-Patient-Example"
+        },
+        "exampleBoolean": true
       }
     ]
   }

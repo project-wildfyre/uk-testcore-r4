@@ -418,7 +418,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/UKCore-Patient-1-0-0"/>
+        <reference value="StructureDefinition/UKCore-Patient"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -487,6 +487,12 @@
         <reference value="StructureDefinition/Extension-UKCore-MainLocation-1-0-0"/>
       </reference>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/UKCore-Patient-Example"/>
+      </reference>
+      <exampleBoolean value="true"/>
     </resource>
     <parameter>
       <code value="apply"/>
