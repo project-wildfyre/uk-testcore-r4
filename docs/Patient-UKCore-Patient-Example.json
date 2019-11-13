@@ -1,0 +1,30 @@
+{
+  "resourceType": "Patient",
+  "id": "UKCore-Patient-Example",
+  "meta": {
+    "profile": [
+      "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient|1-0-0"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Patient-Example</p><p><b>meta</b>: </p><p><b>name</b>: Richard SMITH (OFFICIAL)</p><p><b>birthDate</b>: </p><p><b style=\"color: maroon\">Exception generating Narrative: null</b></p></div>"
+  },
+  "name": [
+    {
+      "use": "official",
+      "family": "SMITH",
+      "given": [
+        "Richard"
+      ]
+    }
+  ],
+  "_birthDate": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/patient-birthTime",
+        "valueDateTime": "1970-09-11T13:46:00+00:00"
+      }
+    ]
+  }
+}
