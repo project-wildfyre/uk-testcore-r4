@@ -4,11 +4,11 @@
 {% if {{include.active}} == "content" %}
 	<li class="active"><a href="#">Narrative Content</a></li>
 {% else %}
-	{% if {{include.type}} == "StructureDefinition" %}
+	{% if {{include.type}} == "StructureDefinition" or {{include.type}} == "Example" %}
 	<li><a href="{{include.id}}.html">Narrative Content</a></li>
 	{% else %}
 		<li><a href="{{include.type}}-{{include.id}}.html">Narrative Content</a></li>
-	{% endif %}
+	{% endif %}	
 {% endif %}
 
 {% if {{include.type}} == "StructureDefinition"  %}

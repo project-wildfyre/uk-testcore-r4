@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Patient xmlns="http://hl7.org/fhir">
+<Patient xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Git/SchemasR4/patient.xsd">
 	<id value="UKCore-Patient-Example"/>
 	<meta>
 		<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient|1.0.0"/>
@@ -9,7 +9,7 @@
 		<family value="SMITH"/>
 		<given value="Richard"/>
 	</name>
-	<birthDate>
+	<birthDate value="1970-09-11">
 		<extension url="http://hl7.org/fhir/StructureDefinition/patient-birthTime">
 			<valueDateTime value="1970-09-11T13:46:00+00:00"/>
 		</extension>

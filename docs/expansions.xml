@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="5443af3c-2bdc-4b80-a338-651f2e2a90dc"/>
+  <id value="915ce1f1-ee52-4428-a627-86357e970b20"/>
   <meta>
-    <lastUpdated value="2019-11-13T14:11:18.910+00:00"/>
+    <lastUpdated value="2019-11-14T10:00:55.866+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -70,8 +70,8 @@
         <description value="A ValueSet that identifies the residential status of a patient."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:7cb9d204-5b39-4ee5-b498-53958663e641"/>
-          <timestamp value="2019-11-13T14:11:45+00:00"/>
+          <identifier value="urn:uuid:883df11e-0536-43f3-a99b-234f35ce1c3c"/>
+          <timestamp value="2019-11-14T10:01:06+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -96,10 +96,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisode-1-0-0"/>
     <resource>
       <ValueSet>
-        <id value="UKCore-ConditionEpisode-1-0-0"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -165,31 +163,9 @@
             </table>
           </div>
         </text>
-        <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisode-1-0-0"/>
-        <version value="1.0.0"/>
-        <name value="UKCoreConditionEpisode"/>
-        <title value="UK Core Condition Episode"/>
-        <status value="draft"/>
-        <date value="2019-11-11T00:00:00+00:00"/>
-        <publisher value="NHS Digital"/>
-        <contact>
-          <name value="Interoperability Team"/>
-          <telecom>
-            <system value="email"/>
-            <value value="interoperabilityteam@nhs.net"/>
-            <use value="work"/>
-          </telecom>
-        </contact>
-        <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the episodicity of a Condition."/>
-        <copyright value="This value set includes content from SNOMED CT, which is copyright &#xA9; 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."/>
         <expansion>
-          <identifier value="urn:uuid:512b51e0-c615-40f5-8294-8c74c2cb335b"/>
-          <timestamp value="2019-11-13T14:11:52+00:00"/>
-          <total value="5"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:54c4c437-5b45-46bd-8771-074a620aeb04"/>
+          <timestamp value="2019-11-13T14:11:53.313Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -315,8 +291,8 @@
         <description value="A ValueSet to identify the category of a condition."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:a38df6e7-a634-467e-aa3f-efde8d7e8bde"/>
-          <timestamp value="2019-11-13T14:11:55+00:00"/>
+          <identifier value="urn:uuid:9370e8a0-0d0d-4404-8be9-5dc34ca34826"/>
+          <timestamp value="2019-11-14T10:01:08+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -435,8 +411,8 @@
         <description value="A ValueSet to identify the episodicity of a condition."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:09e4fda6-75c2-4f4d-b545-bff8adb1b388"/>
-          <timestamp value="2019-11-13T14:11:55+00:00"/>
+          <identifier value="urn:uuid:b08465e5-8dae-463c-a2cd-d8a956c824a2"/>
+          <timestamp value="2019-11-14T10:01:08+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -471,10 +447,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ListCode-1-0-0"/>
     <resource>
       <ValueSet>
-        <id value="UKCore-ListCode-1-0-0"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -604,31 +578,9 @@
             </table>
           </div>
         </text>
-        <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ListCode-1-0-0"/>
-        <version value="1.0.0"/>
-        <name value="UKCoreListCode"/>
-        <title value="UK Core List Code"/>
-        <status value="draft"/>
-        <date value="2019-11-04T00:00:00+00:00"/>
-        <publisher value="NHS Digital"/>
-        <contact>
-          <name value="Interoperability Team"/>
-          <telecom>
-            <system value="email"/>
-            <value value="interoperabilityteam@nhs.net"/>
-            <use value="work"/>
-          </telecom>
-        </contact>
-        <description value="A ValueSet to identify the purpose of a list."/>
-        <copyright value="This value set includes content from SNOMED CT, which is copyright &#xA9; 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."/>
         <expansion>
-          <identifier value="urn:uuid:200a0151-1a73-4e5b-ac6e-54042353ccfe"/>
-          <timestamp value="2019-11-13T14:12:03+00:00"/>
-          <total value="13"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:bf97e514-7d32-452b-b7c3-eeabf9ada065"/>
+          <timestamp value="2019-11-13T14:12:04.047Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -762,8 +714,8 @@
         <description value="A ValueSet to identify the reason a list may be empty."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:cee0c55d-b9dc-4896-ad6b-59927fe77be5"/>
-          <timestamp value="2019-11-13T14:12:04+00:00"/>
+          <identifier value="urn:uuid:dbf40b69-5d3a-41f8-b5e4-e26126365f88"/>
+          <timestamp value="2019-11-14T10:01:10+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -854,8 +806,8 @@
         <description value="A ValueSet to identify the reason a list may be incomplete."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:6993a0ed-56cb-4a7f-b376-0ea6018dedde"/>
-          <timestamp value="2019-11-13T14:12:04+00:00"/>
+          <identifier value="urn:uuid:5da6c7c3-cfcc-4ab6-b591-77c49f34245b"/>
+          <timestamp value="2019-11-14T10:01:10+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -980,8 +932,8 @@
         <description value="A ValueSet that identifies the treatment category for a patient."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:ce7ab697-6769-4fa4-be71-bc56713c5909"/>
-          <timestamp value="2019-11-13T14:12:12+00:00"/>
+          <identifier value="urn:uuid:de2801f4-18b0-4056-b7e7-95d04deca010"/>
+          <timestamp value="2019-11-14T10:01:12+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2597,8 +2549,8 @@
         <description value="A ValueSet that identifies the language used by a person."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:e56f3440-be7e-4dc7-865d-88736c049a92"/>
-          <timestamp value="2019-11-13T14:12:13+00:00"/>
+          <identifier value="urn:uuid:a478d4b8-d976-40ea-b399-702c52f00822"/>
+          <timestamp value="2019-11-14T10:01:12+00:00"/>
           <total value="190"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3662,8 +3614,8 @@
         <description value="A ValueSet that identifies the mode the patient can communicate in, representing the method of expression of the language."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:1c3688e0-4a8b-4fa6-891f-f1824b6d8959"/>
-          <timestamp value="2019-11-13T14:12:13+00:00"/>
+          <identifier value="urn:uuid:ad1697cf-642c-439f-9b9a-f853bbbf5eec"/>
+          <timestamp value="2019-11-14T10:01:12+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3791,8 +3743,8 @@
         <description value="A ValueSet to identify the level of proficiency in communicating a language."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:44fb13fc-2468-4b47-a4d9-d3e1a3d8e929"/>
-          <timestamp value="2019-11-13T14:12:13+00:00"/>
+          <identifier value="urn:uuid:5ffa36fc-47d4-4a47-8184-c64579788b30"/>
+          <timestamp value="2019-11-14T10:01:12+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -7010,8 +6962,8 @@
         <description value="A ValueSet that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:dc661a57-9e2b-4366-88f3-24c61032e06d"/>
-          <timestamp value="2019-11-13T14:12:13+00:00"/>
+          <identifier value="urn:uuid:908dac11-b30d-444b-837f-f238dea03565"/>
+          <timestamp value="2019-11-14T10:01:13+00:00"/>
           <total value="392"/>
           <parameter>
             <name value="excludeNested"/>
@@ -9049,8 +9001,8 @@
         <description value="A ValueSet to identify the type of death notice as held on Personal Demographics Service (PDS)."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:45c595b9-49a8-4e72-9f46-7d678556738d"/>
-          <timestamp value="2019-11-13T14:12:14+00:00"/>
+          <identifier value="urn:uuid:0bbe82d8-8b54-408a-885c-29c2e709d573"/>
+          <timestamp value="2019-11-14T10:01:13+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -9673,8 +9625,8 @@
         <description value="A ValueSet to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a person&#39;s ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:b9083a33-30e3-4c29-aa06-575937fb1acc"/>
-          <timestamp value="2019-11-13T14:12:14+00:00"/>
+          <identifier value="urn:uuid:b40b0565-6af5-4a03-89e9-ce80f4633357"/>
+          <timestamp value="2019-11-14T10:01:13+00:00"/>
           <total value="68"/>
           <parameter>
             <name value="excludeNested"/>
@@ -10223,8 +10175,8 @@
         <description value="The method of admission to a Hospital Provider Spell."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:1d915bce-2fbf-4a36-be05-6a7f65442d2b"/>
-          <timestamp value="2019-11-13T14:12:14+00:00"/>
+          <identifier value="urn:uuid:df1984fc-29a3-49a4-a332-88108e7c2077"/>
+          <timestamp value="2019-11-14T10:01:14+00:00"/>
           <total value="18"/>
           <parameter>
             <name value="excludeNested"/>
@@ -10531,8 +10483,8 @@
         <description value="The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:f656af34-5c3a-46f2-a382-2c5238cc5a12"/>
-          <timestamp value="2019-11-13T14:12:15+00:00"/>
+          <identifier value="urn:uuid:b7fe8759-d6e1-4ca4-b37a-e84ed0c450c3"/>
+          <timestamp value="2019-11-14T10:01:14+00:00"/>
           <total value="19"/>
           <parameter>
             <name value="excludeNested"/>
@@ -10748,8 +10700,8 @@
         <description value="The method of discharge from a Hospital Provider Spell."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:32407a09-3294-4179-be61-9134d62fcaf2"/>
-          <timestamp value="2019-11-13T14:12:15+00:00"/>
+          <identifier value="urn:uuid:b7a9babd-e3b0-4694-998c-73a317ee1901"/>
+          <timestamp value="2019-11-14T10:01:14+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -10873,8 +10825,8 @@
         <description value="This records the outcome of an Out-Patient Attendance Consultant."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:e20c0e0e-e348-42d0-8398-018eeaecf07c"/>
-          <timestamp value="2019-11-13T14:12:15+00:00"/>
+          <identifier value="urn:uuid:de1c2329-5fb6-4cfe-b2e5-61d7f2116048"/>
+          <timestamp value="2019-11-14T10:01:14+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -11066,8 +11018,8 @@
         <description value="The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:4b52972c-cc69-4d74-afc8-ed9e3a9c7e7a"/>
-          <timestamp value="2019-11-13T14:12:16+00:00"/>
+          <identifier value="urn:uuid:d6d0a0d8-b705-468b-a68f-b398497b8a89"/>
+          <timestamp value="2019-11-14T10:01:15+00:00"/>
           <total value="14"/>
           <parameter>
             <name value="excludeNested"/>
@@ -11266,8 +11218,8 @@
         <description value="A ValueSet that identifies the trace status of the NHS number. The CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:4137acfb-5022-4440-b7ed-cfe24de3d598"/>
-          <timestamp value="2019-11-13T14:12:16+00:00"/>
+          <identifier value="urn:uuid:288160b6-3e8e-4aff-9f0f-15a62ae703e2"/>
+          <timestamp value="2019-11-14T10:01:15+00:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -11412,8 +11364,8 @@
         <description value="An indicator to identify the legal marital status of a Person."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:5c0e877f-5e5d-488e-91be-05b5c03eebb2"/>
-          <timestamp value="2019-11-13T14:12:18+00:00"/>
+          <identifier value="urn:uuid:71082f9d-2f6a-4905-8c90-68638498c340"/>
+          <timestamp value="2019-11-14T10:01:16+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -11532,8 +11484,8 @@
         <description value="The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender."/>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:9e646644-9a2d-4b19-88e4-ebd3273ec082"/>
-          <timestamp value="2019-11-13T14:12:24+00:00"/>
+          <identifier value="urn:uuid:e41e95a7-d2b1-4159-ae05-69c9e88506aa"/>
+          <timestamp value="2019-11-14T10:01:23+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>

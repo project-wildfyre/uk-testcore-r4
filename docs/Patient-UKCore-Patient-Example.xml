@@ -6,14 +6,14 @@
     <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient|1.0.0"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Patient-Example</p><p><b>meta</b>: </p><p><b>name</b>: Richard SMITH (OFFICIAL)</p><p><b>birthDate</b>: </p><p><b style="color: maroon">Exception generating Narrative: null</b></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Patient-Example</p><p><b>meta</b>: </p><p><b>name</b>: Richard SMITH (OFFICIAL)</p><p><b>birthDate</b>: 1970-09-11</p></div>
   </text>
   <name>
     <use value="official"/>
     <family value="SMITH"/>
     <given value="Richard"/>
   </name>
-  <birthDate>
+  <birthDate value="1970-09-11">
     <extension url="http://hl7.org/fhir/StructureDefinition/patient-birthTime">
       <valueDateTime value="1970-09-11T13:46:00+00:00"/>
     </extension>

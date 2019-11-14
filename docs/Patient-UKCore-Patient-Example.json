@@ -8,7 +8,7 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Patient-Example</p><p><b>meta</b>: </p><p><b>name</b>: Richard SMITH (OFFICIAL)</p><p><b>birthDate</b>: </p><p><b style=\"color: maroon\">Exception generating Narrative: null</b></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Patient-Example</p><p><b>meta</b>: </p><p><b>name</b>: Richard SMITH (OFFICIAL)</p><p><b>birthDate</b>: 1970-09-11</p></div>"
   },
   "name": [
     {
@@ -19,6 +19,7 @@
       ]
     }
   ],
+  "birthDate": "1970-09-11",
   "_birthDate": {
     "extension": [
       {
