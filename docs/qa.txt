@@ -2,8 +2,8 @@
 =========================================
 
 err = 26, warn = 0, info = 0
-IG Publisher Version: v0.9.96-SNAPSHOT
-Generated Fri Nov 15 10:50:32 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype#1.0.0 (canonical = https://fhir.nhs.uk/R4)
+IG Publisher Version: v0.9.95-SNAPSHOT Out of date - current version is v0.9.96-SNAPSHOT
+Generated Fri Nov 15 12:54:27 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype#1.0.0 (canonical = https://fhir.nhs.uk/R4)
 
  Build Errors : 247 / 1
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-AdmissionMethod : 0 / 0
@@ -408,7 +408,7 @@ ERROR: UKCore-EncounterType: Error from server: The filter "constraint = <<18531
 ERROR: UKCore-ObservationType: Error from server: The filter "constraint = (<<363787002 | Observable entity|)" was not understood in the context of http://snomed.info/sct
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-OutcomeOfAttendance.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-ProcedureCode.xml ==
-ERROR: UKCore-ProcedureCode: Error from server: The filter "constraint = (<<71388002 |Procedure|<<129125009 OR |Procedure with explicit context|)" was not understood in the context of http://snomed.info/sct
+ERROR: UKCore-ProcedureCode: Error sending HTTP Post/Put Payload
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-ReligiousAffiliation.xml ==
 ERROR: UKCore-ReligiousAffiliation: Error from server: The filter "concept in ^999000531000000100" was not understood in the context of http://snomed.info/sct
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-ResidentialStatus.xml ==
