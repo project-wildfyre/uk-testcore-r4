@@ -52,13 +52,6 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
       </type>
     </element>
-    <element id="PractitionerRole.identifier.assigner.identifier.assigner">
-      <path value="PractitionerRole.identifier.assigner.identifier.assigner" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
-      </type>
-    </element>
     <element id="PractitionerRole.practitioner">
       <path value="PractitionerRole.practitioner" />
       <type>
@@ -68,13 +61,6 @@
     </element>
     <element id="PractitionerRole.practitioner.identifier.assigner">
       <path value="PractitionerRole.practitioner.identifier.assigner" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
-      </type>
-    </element>
-    <element id="PractitionerRole.practitioner.identifier.assigner.identifier.assigner">
-      <path value="PractitionerRole.practitioner.identifier.assigner.identifier.assigner" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
@@ -94,13 +80,6 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
       </type>
     </element>
-    <element id="PractitionerRole.organization.identifier.assigner.identifier.assigner">
-      <path value="PractitionerRole.organization.identifier.assigner.identifier.assigner" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
-      </type>
-    </element>
     <element id="PractitionerRole.location">
       <path value="PractitionerRole.location" />
       <type>
@@ -115,13 +94,6 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
       </type>
     </element>
-    <element id="PractitionerRole.location.identifier.assigner.identifier.assigner">
-      <path value="PractitionerRole.location.identifier.assigner.identifier.assigner" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
-      </type>
-    </element>
     <element id="PractitionerRole.healthcareService.identifier.assigner">
       <path value="PractitionerRole.healthcareService.identifier.assigner" />
       <type>
@@ -129,22 +101,8 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
       </type>
     </element>
-    <element id="PractitionerRole.healthcareService.identifier.assigner.identifier.assigner">
-      <path value="PractitionerRole.healthcareService.identifier.assigner.identifier.assigner" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
-      </type>
-    </element>
     <element id="PractitionerRole.endpoint.identifier.assigner">
       <path value="PractitionerRole.endpoint.identifier.assigner" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
-      </type>
-    </element>
-    <element id="PractitionerRole.endpoint.identifier.assigner.identifier.assigner">
-      <path value="PractitionerRole.endpoint.identifier.assigner.identifier.assigner" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />

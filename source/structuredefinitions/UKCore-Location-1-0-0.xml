@@ -70,13 +70,6 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
       </type>
     </element>
-    <element id="Location.identifier:odsSiteCode.assigner.identifier.assigner">
-      <path value="Location.identifier.assigner.identifier.assigner" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
-      </type>
-    </element>
     <element id="Location.managingOrganization">
       <path value="Location.managingOrganization" />
       <type>
@@ -86,13 +79,6 @@
     </element>
     <element id="Location.managingOrganization.identifier.assigner">
       <path value="Location.managingOrganization.identifier.assigner" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
-      </type>
-    </element>
-    <element id="Location.managingOrganization.identifier.assigner.identifier.assigner">
-      <path value="Location.managingOrganization.identifier.assigner.identifier.assigner" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
@@ -115,25 +101,11 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
       </type>
     </element>
-    <element id="Location.partOf.identifier.assigner.identifier.assigner">
-      <path value="Location.partOf.identifier.assigner.identifier.assigner" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
-      </type>
-    </element>
     <element id="Location.endpoint.identifier.assigner">
       <path value="Location.endpoint.identifier.assigner" />
       <type>
         <code value="Reference" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization" />
-        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
-      </type>
-    </element>
-    <element id="Location.endpoint.identifier.assigner.identifier.assigner">
-      <path value="Location.endpoint.identifier.assigner.identifier.assigner" />
-      <type>
-        <code value="Reference" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0" />
       </type>
     </element>
