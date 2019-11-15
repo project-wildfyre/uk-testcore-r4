@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ConceptMap xmlns="http://hl7.org/fhir">
-	<id value="UKCore-ConditionEpisodicity-1-0-0"/>
-	<url value="https://fhir.nhs.uk/R4/ConceptMap/UKCore-ConditionEpisodicity-1-0-0"/>
+	<id value="UKCore-ConditionEpisodicity"/>
+	<url value="https://fhir.nhs.uk/R4/ConceptMap/UKCore-ConditionEpisodicity"/>
 	<version value="1.0.0"/>
 	<name value="ConceptMapUKCoreConditionEpisodicity"/>
 	<title value="ConceptMap - UK Core Condition Episodicity"/>
@@ -18,10 +18,10 @@
 	</contact>
 	<description value="A Concept Map from ValueSet Condition Episodicity Severity to equivalent Snomed CT codes"/>
 	<copyright value="Copyright © 2019 NHS Digital"/>
-<sourceUri value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisodicity-1-0-0"/>
-<targetUri value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisode-1-0-0"/>
+<sourceUri value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisodicity"/>
+<targetUri value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisode"/>
 	<group>
-		<source value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConditionEpisodicity-1-0-0"/>
+		<source value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConditionEpisodicity"/>
 		<target value="http://snomed.info/sct"/>
 		<element>
 			<code value="first"/>

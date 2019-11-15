@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ConceptMap xmlns="http://hl7.org/fhir">
-	<id value="UKCore-MaritalStatus-1-0-0"/>
-	<url value="https://fhir.nhs.uk/R4/ConceptMap/UKCore-MaritalStatus-1-0-0"/>
+	<id value="UKCore-MaritalStatus"/>
+	<url value="https://fhir.nhs.uk/R4/ConceptMap/UKCore-MaritalStatus"/>
 	<version value="1.0.0"/>
 	<name value="ConceptMapUKCoreMaritalStatus"/>
 	<title value="Concept Map - UK Core Marital Status"/>
@@ -19,10 +19,10 @@
 	<description value="A Concept Map from ValueSet Marital Status to NHS Data Dictionary Person Marital Status to aid interpretation."/>
 	<copyright value="Copyright © 2019 NHS Digital"/>
 	<sourceUri value="http://hl7.org/fhir/ValueSet/marital-status"/>
-	<targetUri value="https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0"/>
+	<targetUri value="https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus"/>
 	<group>
 		<source value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
-		<target value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0"/>
+		<target value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus"/>
 		<element>
 			<code value="U"/>
 			<display value="unmarried"/>
@@ -80,7 +80,7 @@
 	</group>
 	<group>
 		<source value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
-		<target value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0"/>
+		<target value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus"/>
 		<element>
 			<code value="UNK"/>
 			<display value="unknown"/>
