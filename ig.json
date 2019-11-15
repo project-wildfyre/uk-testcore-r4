@@ -48,241 +48,245 @@
 		"bar"
 	],
 	"resources": {
-		"ValueSet/UKCore-ResidentialStatus-1-0-0": {
-			"source": "ValueSet-UKCore-ResidentialStatus-1-0-0.xml",
-			"base": "ValueSet-UKCore-ResidentialStatus-1-0-0.html"
+		"ValueSet/UKCore-ResidentialStatus": {
+			"source": "ValueSet-UKCore-ResidentialStatus.xml",
+			"base": "ValueSet-UKCore-ResidentialStatus.html"
 		},
-		"ValueSet/UKCore-AllergyManifestation-1-0-0": {
-			"source": "ValueSet-UKCore-AllergyManifestation-1-0-0.xml",
-			"base": "ValueSet-UKCore-AllergyManifestation-1-0-0.html"
+		"ValueSet/UKCore-AllergyManifestation": {
+			"source": "ValueSet-UKCore-AllergyManifestation.xml",
+			"base": "ValueSet-UKCore-AllergyManifestation.html"
 		},
-		"ValueSet/UKCore-AllergyCertainty-1-0-0": {
-			"source": "ValueSet-UKCore-AllergyCertainty-1-0-0.xml",
-			"base": "ValueSet-UKCore-AllergyCertainty-1-0-0.html"
+		"ValueSet/UKCore-AllergyCertainty": {
+			"source": "ValueSet-UKCore-AllergyCertainty.xml",
+			"base": "ValueSet-UKCore-AllergyCertainty.html"
 		},
-		"ValueSet/UKCore-AllergyCode-1-0-0": {
-			"source": "ValueSet-UKCore-AllergyCode-1-0-0.xml",
-			"base": "ValueSet-UKCore-AllergyCode-1-0-0.html"
+		"ValueSet/UKCore-AllergyCode": {
+			"source": "ValueSet-UKCore-AllergyCode.xml",
+			"base": "ValueSet-UKCore-AllergyCode.html"
 		},
-		"ValueSet/UKCore-AllergySeverity-1-0-0": {
-			"source": "ValueSet-UKCore-AllergySeverity-1-0-0.xml",
-			"base": "ValueSet-UKCore-AllergySeverity-1-0-0.html"
+		"ValueSet/UKCore-AllergySeverity": {
+			"source": "ValueSet-UKCore-AllergySeverity.xml",
+			"base": "ValueSet-UKCore-AllergySeverity.html"
 		},
-		"ValueSet/UKCore-AllergyExposureRoute-1-0-0": {
-			"source": "ValueSet-UKCore-AllergyExposureRoute-1-0-0.xml",
-			"base": "ValueSet-UKCore-AllergyExposureRoute-1-0-0.html"
+		"ValueSet/UKCore-AllergyExposureRoute": {
+			"source": "ValueSet-UKCore-AllergyExposureRoute.xml",
+			"base": "ValueSet-UKCore-AllergyExposureRoute.html"
 		},
-		"ValueSet/UKCore-AdmissionMethod-1-0-0": {
-			"source": "ValueSet-UKCore-AdmissionMethod-1-0-0.xml",
-			"base": "ValueSet-UKCore-AdmissionMethod-1-0-0.html"
+		"ValueSet/UKCore-AdmissionMethod": {
+			"source": "ValueSet-UKCore-AdmissionMethod.xml",
+			"base": "ValueSet-UKCore-AdmissionMethod.html"
 		},
-		"ValueSet/UKCore-DischargeDestination-1-0-0": {
-			"source": "ValueSet-UKCore-DischargeDestination-1-0-0.xml",
-			"base": "ValueSet-UKCore-DischargeDestination-1-0-0.html"
+		"ValueSet/UKCore-DischargeDestination": {
+			"source": "ValueSet-UKCore-DischargeDestination.xml",
+			"base": "ValueSet-UKCore-DischargeDestination.html"
 		},
-		"ValueSet/UKCore-DischargeMethod-1-0-0": {
-			"source": "ValueSet-UKCore-DischargeMethod-1-0-0.xml",
-			"base": "ValueSet-UKCore-DischargeMethod-1-0-0.html"
+		"ValueSet/UKCore-DischargeMethod": {
+			"source": "ValueSet-UKCore-DischargeMethod.xml",
+			"base": "ValueSet-UKCore-DischargeMethod.html"
 		},
-		"ValueSet/UKCore-OutcomeOfAttendance-1-0-0": {
-			"source": "ValueSet-UKCore-OutcomeOfAttendance-1-0-0.xml",
-			"base": "ValueSet-UKCore-OutcomeOfAttendance-1-0-0.html"
+		"ValueSet/UKCore-OutcomeOfAttendance": {
+			"source": "ValueSet-UKCore-OutcomeOfAttendance.xml",
+			"base": "ValueSet-UKCore-OutcomeOfAttendance.html"
 		},
-		"ValueSet/UKCore-SourceOfAdmission-1-0-0": {
-			"source": "ValueSet-UKCore-SourceOfAdmission-1-0-0.xml",
-			"base": "ValueSet-UKCore-SourceOfAdmission-1-0-0.html"
+		"ValueSet/UKCore-SourceOfAdmission": {
+			"source": "ValueSet-UKCore-SourceOfAdmission.xml",
+			"base": "ValueSet-UKCore-SourceOfAdmission.html"
 		},
-		"ValueSet/UKCore-DeathNotificationStatus-1-0-0": {
-			"source": "ValueSet-UKCore-DeathNotificationStatus-1-0-0.xml",
-			"base": "ValueSet-UKCore-DeathNotificationStatus-1-0-0.html"
+		"ValueSet/UKCore-DeathNotificationStatus": {
+			"source": "ValueSet-UKCore-DeathNotificationStatus.xml",
+			"base": "ValueSet-UKCore-DeathNotificationStatus.html"
 		},
-		"ValueSet/UKCore-EthnicCategory-1-0-0": {
-			"source": "ValueSet-UKCore-EthnicCategory-1-0-0.xml",
-			"base": "ValueSet-UKCore-EthnicCategory-1-0-0.html"
+		"ValueSet/UKCore-EthnicCategory": {
+			"source": "ValueSet-UKCore-EthnicCategory.xml",
+			"base": "ValueSet-UKCore-EthnicCategory.html"
 		},
-		"ValueSet/UKCore-HumanLanguage-1-0-0": {
-			"source": "ValueSet-UKCore-HumanLanguage-1-0-0.xml",
-			"base": "ValueSet-UKCore-HumanLanguage-1-0-0.html"
+		"ValueSet/UKCore-HumanLanguage": {
+			"source": "ValueSet-UKCore-HumanLanguage.xml",
+			"base": "ValueSet-UKCore-HumanLanguage.html"
 		},
-		"ValueSet/UKCore-LanguageAbilityMode-1-0-0": {
-			"source": "ValueSet-UKCore-LanguageAbilityMode-1-0-0.xml",
-			"base": "ValueSet-UKCore-LanguageAbilityMode-1-0-0.html"
+		"ValueSet/UKCore-LanguageAbilityMode": {
+			"source": "ValueSet-UKCore-LanguageAbilityMode.xml",
+			"base": "ValueSet-UKCore-LanguageAbilityMode.html"
 		},
-		"ValueSet/UKCore-LanguageAbilityProficiency-1-0-0": {
-			"source": "ValueSet-UKCore-LanguageAbilityProficiency-1-0-0.xml",
-			"base": "ValueSet-UKCore-LanguageAbilityProficiency-1-0-0.html"
+		"ValueSet/UKCore-LanguageAbilityProficiency": {
+			"source": "ValueSet-UKCore-LanguageAbilityProficiency.xml",
+			"base": "ValueSet-UKCore-LanguageAbilityProficiency.html"
 		},
-		"ValueSet/UKCore-SDSJobRoleName-1-0-0": {
-			"source": "ValueSet-UKCore-SDSJobRoleName-1-0-0.xml",
-			"base": "ValueSet-UKCore-SDSJobRoleName-1-0-0.html"
+		"ValueSet/UKCore-SDSJobRoleName": {
+			"source": "ValueSet-UKCore-SDSJobRoleName.xml",
+			"base": "ValueSet-UKCore-SDSJobRoleName.html"
 		},
-		"ValueSet/UKCore-NHSNumberVerificationStatus-1-0-0": {
-			"source": "ValueSet-UKCore-NHSNumberVerificationStatus-1-0-0.xml",
-			"base": "ValueSet-UKCore-NHSNumberVerificationStatus-1-0-0.html"
+		"ValueSet/UKCore-NHSNumberVerificationStatus": {
+			"source": "ValueSet-UKCore-NHSNumberVerificationStatus.xml",
+			"base": "ValueSet-UKCore-NHSNumberVerificationStatus.html"
 		},
-		"ValueSet/UKCore-ReligiousAffiliation-1-0-0": {
-			"source": "ValueSet-UKCore-ReligiousAffiliation-1-0-0.xml",
-			"base": "ValueSet-UKCore-ReligiousAffiliation-1-0-0.html"
+		"ValueSet/UKCore-ReligiousAffiliation": {
+			"source": "ValueSet-UKCore-ReligiousAffiliation.xml",
+			"base": "ValueSet-UKCore-ReligiousAffiliation.html"
 		},
-		"ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0": {
-			"source": "ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.xml",
-			"base": "ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.html"
+		"ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus": {
+			"source": "ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus.xml",
+			"base": "ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus.html"
 		},
-		"ValueSet/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0": {
-			"source": "ValueSet-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0.xml",
-			"base": "ValueSet-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0.html"
+		"ValueSet/UKCore-NHSDataDictionary-PersonStatedGender": {
+			"source": "ValueSet-UKCore-NHSDataDictionary-PersonStatedGender.xml",
+			"base": "ValueSet-UKCore-NHSDataDictionary-PersonStatedGender.html"
 		},
-		"ValueSet/UKCore-TreatmentCategory-1-0-0": {
-			"source": "ValueSet-UKCore-TreatmentCategory-1-0-0.xml",
-			"base": "ValueSet-UKCore-TreatmentCategory-1-0-0.html"
+		"ValueSet/UKCore-TreatmentCategory": {
+			"source": "ValueSet-UKCore-TreatmentCategory.xml",
+			"base": "ValueSet-UKCore-TreatmentCategory.html"
 		},
-		"ValueSet/UKCore-BodySite-1-0-0": {
-			"source": "ValueSet-UKCore-BodySite-1-0-0.xml",
-			"base": "ValueSet-UKCore-BodySite-1-0-0.html"
+		"ValueSet/UKCore-BodySite": {
+			"source": "ValueSet-UKCore-BodySite.xml",
+			"base": "ValueSet-UKCore-BodySite.html"
 		},
-		"ValueSet/UKCore-ConditionEpisode-1-0-0": {
-			"source": "ValueSet-UKCore-ConditionEpisode-1-0-0.xml",
-			"base": "ValueSet-UKCore-ConditionEpisode-1-0-0.html"
+		"ValueSet/UKCore-ConditionEpisode": {
+			"source": "ValueSet-UKCore-ConditionEpisode.xml",
+			"base": "ValueSet-UKCore-ConditionEpisode.html"
 		},
-		"ValueSet/UKCore-ConditionCode-1-0-0": {
-			"source": "ValueSet-UKCore-ConditionCode-1-0-0.xml",
-			"base": "ValueSet-UKCore-ConditionCode-1-0-0.html"
+		"ValueSet/UKCore-ConditionCode": {
+			"source": "ValueSet-UKCore-ConditionCode.xml",
+			"base": "ValueSet-UKCore-ConditionCode.html"
 		},
-		"ValueSet/UKCore-ProcedureCode-1-0-0": {
-			"source": "ValueSet-UKCore-ProcedureCode-1-0-0.xml",
-			"base": "ValueSet-UKCore-ProcedureCode-1-0-0.html"
+		"ValueSet/UKCore-ProcedureCode": {
+			"source": "ValueSet-UKCore-ProcedureCode.xml",
+			"base": "ValueSet-UKCore-ProcedureCode.html"
 		},
-		"ValueSet/UKCore-ConditionCategory-1-0-0": {
-			"source": "ValueSet-UKCore-ConditionCategory-1-0-0.xml",
-			"base": "ValueSet-UKCore-ConditionCategory-1-0-0.html"
+		"ValueSet/UKCore-ConditionCategory": {
+			"source": "ValueSet-UKCore-ConditionCategory.xml",
+			"base": "ValueSet-UKCore-ConditionCategory.html"
 		},
-		"ValueSet/UKCore-ConditionEpisodicity-1-0-0": {
-			"source": "ValueSet-UKCore-ConditionEpisodicity-1-0-0.xml",
-			"base": "ValueSet-UKCore-ConditionEpisodicity-1-0-0.html"
+		"ValueSet/UKCore-ConditionEpisodicity": {
+			"source": "ValueSet-UKCore-ConditionEpisodicity.xml",
+			"base": "ValueSet-UKCore-ConditionEpisodicity.html"
 		},
-		"ValueSet/UKCore-EncounterType-1-0-0": {
-			"source": "ValueSet-UKCore-EncounterType-1-0-0.xml",
-			"base": "ValueSet-UKCore-EncounterType-1-0-0.html"
+		"ValueSet/UKCore-EncounterType": {
+			"source": "ValueSet-UKCore-EncounterType.xml",
+			"base": "ValueSet-UKCore-EncounterType.html"
 		},
-		"ValueSet/UKCore-EmergencyCareDischargeStatus-1-0-0": {
-			"source": "ValueSet-UKCore-EmergencyCareDischargeStatus-1-0-0.xml",
-			"base": "ValueSet-UKCore-EmergencyCareDischargeStatus-1-0-0.html"
+		"ValueSet/UKCore-EmergencyCareDischargeStatus": {
+			"source": "ValueSet-UKCore-EmergencyCareDischargeStatus.xml",
+			"base": "ValueSet-UKCore-EmergencyCareDischargeStatus.html"
 		},
-		"ValueSet/UKCore-ObservationType-1-0-0": {
-			"source": "ValueSet-UKCore-ObservationType-1-0-0.xml",
-			"base": "ValueSet-UKCore-ObservationType-1-0-0.html"
+		"ValueSet/UKCore-ObservationType": {
+			"source": "ValueSet-UKCore-ObservationType.xml",
+			"base": "ValueSet-UKCore-ObservationType.html"
 		},
-		"ValueSet/UKCore-ListCode-1-0-0": {
-			"source": "ValueSet-UKCore-ListCode-1-0-0.xml",
-			"base": "ValueSet-UKCore-ListCode-1-0-0.html"
+		"ValueSet/UKCore-ListCode": {
+			"source": "ValueSet-UKCore-ListCode.xml",
+			"base": "ValueSet-UKCore-ListCode.html"
 		},
-		"ValueSet/UKCore-ListWarningCode-1-0-0": {
-			"source": "ValueSet-UKCore-ListWarningCode-1-0-0.xml",
-			"base": "ValueSet-UKCore-ListWarningCode-1-0-0.html"
+		"ValueSet/UKCore-ListWarningCode": {
+			"source": "ValueSet-UKCore-ListWarningCode.xml",
+			"base": "ValueSet-UKCore-ListWarningCode.html"
 		},
-		"ValueSet/UKCore-ListEmptyReasonCode-1-0-0": {
-			"source": "ValueSet-UKCore-ListEmptyReasonCode-1-0-0.xml",
-			"base": "ValueSet-UKCore-ListEmptyReasonCode-1-0-0.html"
+		"ValueSet/UKCore-ListEmptyReasonCode": {
+			"source": "ValueSet-UKCore-ListEmptyReasonCode.xml",
+			"base": "ValueSet-UKCore-ListEmptyReasonCode.html"
 		},
-		"CodeSystem/UKCore-ResidentialStatus-1-0-0": {
-			"source": "CodeSystem-UKCore-ResidentialStatus-1-0-0.xml",
-			"base": "CodeSystem-UKCore-ResidentialStatus-1-0-0.html"
+		"CodeSystem/UKCore-ResidentialStatus": {
+			"source": "CodeSystem-UKCore-ResidentialStatus.xml",
+			"base": "CodeSystem-UKCore-ResidentialStatus.html"
 		},
-		"CodeSystem/UKCore-DeathNotificationStatus-1-0-0": {
-			"source": "CodeSystem-UKCore-DeathNotificationStatus-1-0-0.xml",
-			"base": "CodeSystem-UKCore-DeathNotificationStatus-1-0-0.html"
+		"CodeSystem/UKCore-DeathNotificationStatus": {
+			"source": "CodeSystem-UKCore-DeathNotificationStatus.xml",
+			"base": "CodeSystem-UKCore-DeathNotificationStatus.html"
 		},
-		"CodeSystem/UKCore-EthnicCategory-1-0-0": {
-			"source": "CodeSystem-UKCore-EthnicCategory-1-0-0.xml",
-			"base": "CodeSystem-UKCore-EthnicCategory-1-0-0.html"
+		"CodeSystem/UKCore-EthnicCategory": {
+			"source": "CodeSystem-UKCore-EthnicCategory.xml",
+			"base": "CodeSystem-UKCore-EthnicCategory.html"
 		},
-		"CodeSystem/UKCore-ListWarningCode-1-0-0": {
-			"source": "CodeSystem-UKCore-ListWarningCode-1-0-0.xml",
-			"base": "CodeSystem-UKCore-ListWarningCode-1-0-0.html"
+		"CodeSystem/UKCore-ListWarningCode": {
+			"source": "CodeSystem-UKCore-ListWarningCode.xml",
+			"base": "CodeSystem-UKCore-ListWarningCode.html"
 		},
-		"CodeSystem/UKCore-ListEmptyReasonCode-1-0-0": {
-			"source": "CodeSystem-UKCore-ListEmptyReasonCode-1-0-0.xml",
-			"base": "CodeSystem-UKCore-ListEmptyReasonCode-1-0-0.html"
+		"CodeSystem/UKCore-ListEmptyReasonCode": {
+			"source": "CodeSystem-UKCore-ListEmptyReasonCode.xml",
+			"base": "CodeSystem-UKCore-ListEmptyReasonCode.html"
 		},
-		"CodeSystem/UKCore-HumanLanguage-1-0-0": {
-			"source": "CodeSystem-UKCore-HumanLanguage-1-0-0.xml",
-			"base": "CodeSystem-UKCore-HumanLanguage-1-0-0.html"
+		"CodeSystem/UKCore-HumanLanguage": {
+			"source": "CodeSystem-UKCore-HumanLanguage.xml",
+			"base": "CodeSystem-UKCore-HumanLanguage.html"
 		},
-		"CodeSystem/UKCore-ConditionEpisodicity-1-0-0": {
-			"source": "CodeSystem-UKCore-ConditionEpisodicity-1-0-0.xml",
-			"base": "CodeSystem-UKCore-ConditionEpisodicity-1-0-0.html"
+		"CodeSystem/UKCore-ConditionEpisodicity": {
+			"source": "CodeSystem-UKCore-ConditionEpisodicity.xml",
+			"base": "CodeSystem-UKCore-ConditionEpisodicity.html"
 		},
-		"CodeSystem/UKCore-ConditionCategory-1-0-0": {
-			"source": "CodeSystem-UKCore-ConditionCategory-1-0-0.xml",
-			"base": "CodeSystem-UKCore-ConditionCategory-1-0-0.html"
+		"CodeSystem/UKCore-ConditionCategory": {
+			"source": "CodeSystem-UKCore-ConditionCategory.xml",
+			"base": "CodeSystem-UKCore-ConditionCategory.html"
 		},
-		"CodeSystem/UKCore-NHSNumberVerificationStatus-1-0-0": {
-			"source": "CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0.xml",
-			"base": "CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0.html"
+		"CodeSystem/UKCore-NHSNumberVerificationStatus": {
+			"source": "CodeSystem-UKCore-NHSNumberVerificationStatus.xml",
+			"base": "CodeSystem-UKCore-NHSNumberVerificationStatus.html"
 		},
-		"CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0": {
-			"source": "CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.xml",
-			"base": "CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.html"
+		"CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus": {
+			"source": "CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus.xml",
+			"base": "CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus.html"
 		},
-		"CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0": {
-			"source": "CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0.xml",
-			"base": "CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0.html"
+		"CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender": {
+			"source": "CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender.xml",
+			"base": "CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender.html"
 		},
-		"CodeSystem/UKCore-TreatmentCategory-1-0-0": {
-			"source": "CodeSystem-UKCore-TreatmentCategory-1-0-0.xml",
-			"base": "CodeSystem-UKCore-TreatmentCategory-1-0-0.html"
+		"CodeSystem/UKCore-TreatmentCategory": {
+			"source": "CodeSystem-UKCore-TreatmentCategory.xml",
+			"base": "CodeSystem-UKCore-TreatmentCategory.html"
 		},
-		"CodeSystem/UKCore-AdmissionMethod-1-0-0": {
-			"source": "CodeSystem-UKCore-AdmissionMethod-1-0-0.xml",
-			"base": "CodeSystem-UKCore-AdmissionMethod-1-0-0.html"
+		"CodeSystem/UKCore-AdmissionMethod": {
+			"source": "CodeSystem-UKCore-AdmissionMethod.xml",
+			"base": "CodeSystem-UKCore-AdmissionMethod.html"
 		},
-		"CodeSystem/UKCore-DischargeDestination-1-0-0": {
-			"source": "CodeSystem-UKCore-DischargeDestination-1-0-0.xml",
-			"base": "CodeSystem-UKCore-DischargeDestination-1-0-0.html"
+		"CodeSystem/UKCore-DischargeDestination": {
+			"source": "CodeSystem-UKCore-DischargeDestination.xml",
+			"base": "CodeSystem-UKCore-DischargeDestination.html"
 		},
-		"CodeSystem/UKCore-DischargeMethod-1-0-0": {
-			"source": "CodeSystem-UKCore-DischargeMethod-1-0-0.xml",
-			"base": "CodeSystem-UKCore-DischargeMethod-1-0-0.html"
+		"CodeSystem/UKCore-DischargeMethod": {
+			"source": "CodeSystem-UKCore-DischargeMethod.xml",
+			"base": "CodeSystem-UKCore-DischargeMethod.html"
 		},
-		"CodeSystem/UKCore-OutcomeOfAttendance-1-0-0": {
-			"source": "CodeSystem-UKCore-OutcomeOfAttendance-1-0-0.xml",
-			"base": "CodeSystem-UKCore-OutcomeOfAttendance-1-0-0.html"
+		"CodeSystem/UKCore-OutcomeOfAttendance": {
+			"source": "CodeSystem-UKCore-OutcomeOfAttendance.xml",
+			"base": "CodeSystem-UKCore-OutcomeOfAttendance.html"
 		},
-		"CodeSystem/UKCore-SourceOfAdmission-1-0-0": {
-			"source": "CodeSystem-UKCore-SourceOfAdmission-1-0-0.xml",
-			"base": "CodeSystem-UKCore-SourceOfAdmission-1-0-0.html"
+		"CodeSystem/UKCore-SourceOfAdmission": {
+			"source": "CodeSystem-UKCore-SourceOfAdmission.xml",
+			"base": "CodeSystem-UKCore-SourceOfAdmission.html"
 		},
-		"CodeSystem/UKCore-LanguageAbilityMode-1-0-0": {
-			"source": "CodeSystem-UKCore-LanguageAbilityMode-1-0-0.xml",
-			"base": "CodeSystem-UKCore-LanguageAbilityMode-1-0-0.html"
+		"CodeSystem/UKCore-LanguageAbilityMode": {
+			"source": "CodeSystem-UKCore-LanguageAbilityMode.xml",
+			"base": "CodeSystem-UKCore-LanguageAbilityMode.html"
 		},
-		"CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0": {
-			"source": "CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.xml",
-			"base": "CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.html"
+		"CodeSystem/UKCore-LanguageAbilityProficiency": {
+			"source": "CodeSystem-UKCore-LanguageAbilityProficiency.xml",
+			"base": "CodeSystem-UKCore-LanguageAbilityProficiency.html"
 		},
-		"CodeSystem/UKCore-SDSJobRoleName-1-0-0": {
-			"source": "CodeSystem-UKCore-SDSJobRoleName-1-0-0.xml",
-			"base": "CodeSystem-UKCore-SDSJobRoleName-1-0-0.html"
+		"CodeSystem/UKCore-SDSJobRoleName": {
+			"source": "CodeSystem-UKCore-SDSJobRoleName.xml",
+			"base": "CodeSystem-UKCore-SDSJobRoleName.html"
 		},
-		"ConceptMap/UKCore-MaritalStatus-1-0-0": {
-			"source": "ConceptMap-UKCore-MaritalStatus-1-0-0.xml",
-			"base": "ConceptMap-UKCore-MaritalStatus-1-0-0.html"
+		"ConceptMap/UKCore-MaritalStatus": {
+			"source": "ConceptMap-UKCore-MaritalStatus.xml",
+			"base": "ConceptMap-UKCore-MaritalStatus.html"
 		},
-		"ConceptMap/UKCore-AllergySeverity-1-0-0": {
-			"source": "ConceptMap-UKCore-AllergySeverity-1-0-0.xml",
-			"base": "ConceptMap-UKCore-AllergySeverity-1-0-0.html"
+		"ConceptMap/UKCore-AllergySeverity": {
+			"source": "ConceptMap-UKCore-AllergySeverity.xml",
+			"base": "ConceptMap-UKCore-AllergySeverity.html"
 		},
-		"ConceptMap/UKCore-ConditionEpisodicity-1-0-0": {
-			"source": "ConceptMap-UKCore-ConditionEpisodicity-1-0-0.xml",
-			"base": "ConceptMap-UKCore-ConditionEpisodicity-1-0-0.html"
+		"ConceptMap/UKCore-ConditionEpisodicity": {
+			"source": "ConceptMap-UKCore-ConditionEpisodicity.xml",
+			"base": "ConceptMap-UKCore-ConditionEpisodicity.html"
 		},
-		"ConceptMap/UKCore-AllergyVerificationStatus-1-0-0": {
-			"source": "ConceptMap-UKCore-AllergyVerificationStatus-1-0-0.xml",
-			"base": "ConceptMap-UKCore-AllergyVerificationStatus-1-0-0.html"
+		"ConceptMap/UKCore-AllergyVerificationStatus": {
+			"source": "ConceptMap-UKCore-AllergyVerificationStatus.xml",
+			"base": "ConceptMap-UKCore-AllergyVerificationStatus.html"
 		},
-		"ConceptMap/UKCore-AdministrativeGender-1-0-0": {
-			"source": "ConceptMap-UKCore-AdministrativeGender-1-0-0.xml",
-			"base": "ConceptMap-UKCore-AdministrativeGender-1-0-0.html"
+		"ConceptMap/UKCore-AdministrativeGender": {
+			"source": "ConceptMap-UKCore-AdministrativeGender.xml",
+			"base": "ConceptMap-UKCore-AdministrativeGender.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-LanguageAbilityMode": {
+			"source": "CodeSystem-CareConnect-LanguageAbilityMode.xml",
+			"base": "CodeSystem-CareConnect-LanguageAbilityMode.html"
 		},
 		"StructureDefinition/UKCore-Patient": {
 			"source": "UKCore-Patient.xml",
@@ -343,10 +347,6 @@
 			"source": "Extension-UKCore-MainLocation-1-0-0.xml",
 			"base": "Extension-UKCore-MainLocation-1-0-0.html",
 			"defns": "Extension-UKCore-MainLocation-1-0-0-definitions.html"
-		},
-		"CodeSystem/CodeSystem-CareConnect-LanguageAbilityMode-1-0-0": {
-			"source": "CodeSystem-CareConnect-LanguageAbilityMode-1-0-0.xml",
-			"base": "CodeSystem-CareConnect-LanguageAbilityMode-1-0-0.html"
 		},
 		"Patient/UKCore-Patient-Example": {
 			"source": "UKCore-Patient-Example.xml",
