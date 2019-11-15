@@ -5,7 +5,7 @@
   "jurisdiction": "GB",
   "extensions": [
     {
-      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-DeathNotificationStatus-1-0-0",
+      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-DeathNotificationStatus",
       "title": "UK Core Death Notification Status Extension",
       "types": [
         "base64Binary",
@@ -163,14 +163,14 @@
       ]
     },
     {
-      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EthnicCategory-1-0-0",
+      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EthnicCategory",
       "title": "UK Core Ethnic Category Extension",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MainLocation-1-0-0",
+      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MainLocation",
       "title": "UK Core Main Location Extension",
       "types": [
         "Reference",
@@ -191,7 +191,7 @@
       ]
     },
     {
-      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSCommunication-1-0-0",
+      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSCommunication",
       "title": "UK Core NHS Communication Extension",
       "types": [
         "base64Binary",
@@ -502,35 +502,35 @@
       ]
     },
     {
-      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus-1-0-0",
+      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus",
       "title": "UK Core NHS Number Verification Status Extension",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NominatedPharmacy-1-0-0",
+      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NominatedPharmacy",
       "title": "UK Core Nominated Pharmacy Extension",
       "types": [
         "Reference"
       ]
     },
     {
-      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ReligiousAffiliation-1-0-0",
+      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ReligiousAffiliation",
       "title": "UK Core Religious Affiliation Extension",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ResidentialStatus-1-0-0",
+      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ResidentialStatus",
       "title": "UK Core Residential Status Extension",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-TreatmentCategory-1-0-0",
+      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-TreatmentCategory",
       "title": "UK Core Treatment Category Extension",
       "types": [
         "CodeableConcept"
@@ -540,7 +540,7 @@
   "profiles": {
     "Organization": [
       {
-        "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization-1-0-0",
+        "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization",
         "title": "UK Core Organization Profile"
       }
     ],
@@ -552,7 +552,7 @@
     ],
     "Practitioner": [
       {
-        "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner-1-0-0",
+        "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner",
         "title": "UK Core Practitioner Profile"
       }
     ]
@@ -598,7 +598,7 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus-1-0-0": [
+    "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus": [
       "Patient.identifier"
     ]
   }

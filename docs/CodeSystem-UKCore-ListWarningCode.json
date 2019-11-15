@@ -1,0 +1,48 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "UKCore-ListWarningCode",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UK Core List Warning Code</h2><div><p>A CodeSystem to identify the reason a list may be incomplete.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListWarningCode defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">confidential-items<a name=\"UKCore-ListWarningCode-confidential-items\"> </a></td><td>Confidential Items</td><td>Items excluded due to confidentiality and/or patient preferences.</td></tr><tr><td style=\"white-space:nowrap\">data-in-transit<a name=\"UKCore-ListWarningCode-data-in-transit\"> </a></td><td>Data in Transit</td><td>Patient record transfer from previous GP practice not yet complete; any information recorded before dd-mmm-yyyy has been excluded.</td></tr><tr><td style=\"white-space:nowrap\">data-awaiting-filing<a name=\"UKCore-ListWarningCode-data-awaiting-filing\"> </a></td><td>Data Awaiting Filing</td><td>Patient data may be incomplete as there is data supplied by a third party awaiting review before becoming available.</td></tr></table></div>"
+  },
+  "url": "https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListWarningCode",
+  "version": "1.0.0",
+  "name": "UKCoreListWarningCode",
+  "title": "UK Core List Warning Code",
+  "status": "draft",
+  "date": "2019-11-04T00:00:00+00:00",
+  "publisher": "NHS Digital",
+  "contact": [
+    {
+      "name": "Interoperability Team",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "interoperabilityteam@nhs.net",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "A CodeSystem to identify the reason a list may be incomplete.",
+  "copyright": "Copyright © 2019 NHS Digital",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "confidential-items",
+      "display": "Confidential Items",
+      "definition": "Items excluded due to confidentiality and/or patient preferences."
+    },
+    {
+      "code": "data-in-transit",
+      "display": "Data in Transit",
+      "definition": "Patient record transfer from previous GP practice not yet complete; any information recorded before dd-mmm-yyyy has been excluded."
+    },
+    {
+      "code": "data-awaiting-filing",
+      "display": "Data Awaiting Filing",
+      "definition": "Patient data may be incomplete as there is data supplied by a third party awaiting review before becoming available."
+    }
+  ]
+}

@@ -39,10 +39,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-ResidentialStatus-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-ResidentialStatus.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-ResidentialStatus-1-0-0"/>
+        <reference value="ValueSet/UKCore-ResidentialStatus"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -51,10 +51,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-AllergyManifestation-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-AllergyManifestation.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-AllergyManifestation-1-0-0"/>
+        <reference value="ValueSet/UKCore-AllergyManifestation"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -63,10 +63,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-AllergyCertainty-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-AllergyCertainty.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-AllergyCertainty-1-0-0"/>
+        <reference value="ValueSet/UKCore-AllergyCertainty"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -75,10 +75,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-AllergySeverity-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-AllergySeverity.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-AllergySeverity-1-0-0"/>
+        <reference value="ValueSet/UKCore-AllergySeverity"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -87,10 +87,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-ConditionEpisode-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-ConditionEpisode.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-ConditionEpisode-1-0-0"/>
+        <reference value="ValueSet/UKCore-ConditionEpisode"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -99,10 +99,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-ConditionCode-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-ConditionCode.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-ConditionCode-1-0-0"/>
+        <reference value="ValueSet/UKCore-ConditionCode"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -111,10 +111,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-ConditionCategory-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-ConditionCategory.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-ConditionCategory-1-0-0"/>
+        <reference value="ValueSet/UKCore-ConditionCategory"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -123,10 +123,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-ConditionEpisodicity-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-ConditionEpisodicity.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-ConditionEpisodicity-1-0-0"/>
+        <reference value="ValueSet/UKCore-ConditionEpisodicity"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -135,10 +135,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-AllergyCode-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-AllergyCode.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-AllergyCode-1-0-0"/>
+        <reference value="ValueSet/UKCore-AllergyCode"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -147,10 +147,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-AllergyExposureRoute-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-AllergyExposureRoute.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-AllergyExposureRoute-1-0-0"/>
+        <reference value="ValueSet/UKCore-AllergyExposureRoute"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -159,10 +159,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-CareSettingType-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-CareSettingType.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-CareSettingType-1-0-0"/>
+        <reference value="ValueSet/UKCore-CareSettingType"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -171,10 +171,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-ProcedureCode-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-ProcedureCode.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-ProcedureCode-1-0-0"/>
+        <reference value="ValueSet/UKCore-ProcedureCode"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -183,10 +183,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-ListCode-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-ListCode.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-ListCode-1-0-0"/>
+        <reference value="ValueSet/UKCore-ListCode"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -195,10 +195,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-ListEmptyReasonCode-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-ListEmptyReasonCode.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-ListEmptyReasonCode-1-0-0"/>
+        <reference value="ValueSet/UKCore-ListEmptyReasonCode"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -207,10 +207,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-ListWarningCode-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-ListWarningCode.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-ListWarningCode-1-0-0"/>
+        <reference value="ValueSet/UKCore-ListWarningCode"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -219,10 +219,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-BodySite-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-BodySite.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-BodySite-1-0-0"/>
+        <reference value="ValueSet/UKCore-BodySite"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -231,10 +231,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-EncounterType-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-EncounterType.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-EncounterType-1-0-0"/>
+        <reference value="ValueSet/UKCore-EncounterType"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -243,10 +243,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-EmergencyCareDischargeStatus-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-EmergencyCareDischargeStatus.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-EmergencyCareDischargeStatus-1-0-0"/>
+        <reference value="ValueSet/UKCore-EmergencyCareDischargeStatus"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -255,10 +255,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-ObservationType-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-ObservationType.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-ObservationType-1-0-0"/>
+        <reference value="ValueSet/UKCore-ObservationType"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -267,10 +267,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-TreatmentCategory-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-TreatmentCategory.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-TreatmentCategory-1-0-0"/>
+        <reference value="ValueSet/UKCore-TreatmentCategory"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -279,10 +279,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-HumanLanguage-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-HumanLanguage.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-HumanLanguage-1-0-0"/>
+        <reference value="ValueSet/UKCore-HumanLanguage"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -291,10 +291,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-LanguageAbilityMode-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-LanguageAbilityMode.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-LanguageAbilityMode-1-0-0"/>
+        <reference value="ValueSet/UKCore-LanguageAbilityMode"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -303,10 +303,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-LanguageAbilityProficiency-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-LanguageAbilityProficiency.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-LanguageAbilityProficiency-1-0-0"/>
+        <reference value="ValueSet/UKCore-LanguageAbilityProficiency"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -315,10 +315,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-SDSJobRoleName-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-SDSJobRoleName.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-SDSJobRoleName-1-0-0"/>
+        <reference value="ValueSet/UKCore-SDSJobRoleName"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -327,10 +327,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-DeathNotificationStatus-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-DeathNotificationStatus.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-DeathNotificationStatus-1-0-0"/>
+        <reference value="ValueSet/UKCore-DeathNotificationStatus"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -339,10 +339,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-EthnicCategory-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-EthnicCategory.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-EthnicCategory-1-0-0"/>
+        <reference value="ValueSet/UKCore-EthnicCategory"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -351,10 +351,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-AdmissionMethod-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-AdmissionMethod.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-AdmissionMethod-1-0-0"/>
+        <reference value="ValueSet/UKCore-AdmissionMethod"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -363,10 +363,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-DischargeDestination-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-DischargeDestination.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-DischargeDestination-1-0-0"/>
+        <reference value="ValueSet/UKCore-DischargeDestination"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -375,10 +375,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-DischargeMethod-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-DischargeMethod.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-DischargeMethod-1-0-0"/>
+        <reference value="ValueSet/UKCore-DischargeMethod"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -387,10 +387,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-OutcomeOfAttendance-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-OutcomeOfAttendance.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-OutcomeOfAttendance-1-0-0"/>
+        <reference value="ValueSet/UKCore-OutcomeOfAttendance"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -399,10 +399,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-SourceOfAdmission-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-SourceOfAdmission.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-SourceOfAdmission-1-0-0"/>
+        <reference value="ValueSet/UKCore-SourceOfAdmission"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -411,10 +411,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-NHSNumberVerificationStatus-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-NHSNumberVerificationStatus.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-NHSNumberVerificationStatus-1-0-0"/>
+        <reference value="ValueSet/UKCore-NHSNumberVerificationStatus"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -423,10 +423,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-ReligiousAffiliation-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-ReligiousAffiliation.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-ReligiousAffiliation-1-0-0"/>
+        <reference value="ValueSet/UKCore-ReligiousAffiliation"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -435,10 +435,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0"/>
+        <reference value="ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -447,10 +447,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-UKCore-AdmissionMethod-1-0-0.html"/>
+        <valueUri value="CodeSystem-UKCore-AdmissionMethod.html"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/UKCore-AdmissionMethod-1-0-0"/>
+        <reference value="CodeSystem/UKCore-AdmissionMethod"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -459,10 +459,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-UKCore-DischargeDestination-1-0-0.html"/>
+        <valueUri value="CodeSystem-UKCore-DischargeDestination.html"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/UKCore-DischargeDestination-1-0-0"/>
+        <reference value="CodeSystem/UKCore-DischargeDestination"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -471,10 +471,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-UKCore-DischargeMethod-1-0-0.html"/>
+        <valueUri value="CodeSystem-UKCore-DischargeMethod.html"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/UKCore-DischargeMethod-1-0-0"/>
+        <reference value="CodeSystem/UKCore-DischargeMethod"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -483,10 +483,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-UKCore-OutcomeOfAttendance-1-0-0.html"/>
+        <valueUri value="CodeSystem-UKCore-OutcomeOfAttendance.html"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/UKCore-OutcomeOfAttendance-1-0-0"/>
+        <reference value="CodeSystem/UKCore-OutcomeOfAttendance"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -495,10 +495,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-UKCore-SourceOfAdmission-1-0-0.html"/>
+        <valueUri value="CodeSystem-UKCore-SourceOfAdmission.html"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/UKCore-SourceOfAdmission-1-0-0"/>
+        <reference value="CodeSystem/UKCore-SourceOfAdmission"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -507,10 +507,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-UKCore-ConditionEpisodicity-1-0-0.html"/>
+        <valueUri value="CodeSystem-UKCore-ConditionEpisodicity.html"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/UKCore-ConditionEpisodicity-1-0-0"/>
+        <reference value="CodeSystem/UKCore-ConditionEpisodicity"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -519,10 +519,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-UKCore-ConditionCategory-1-0-0.html"/>
+        <valueUri value="CodeSystem-UKCore-ConditionCategory.html"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/UKCore-ConditionCategory-1-0-0"/>
+        <reference value="CodeSystem/UKCore-ConditionCategory"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -531,10 +531,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-UKCore-ResidentialStatus-1-0-0.html"/>
+        <valueUri value="CodeSystem-UKCore-ResidentialStatus.html"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/UKCore-ResidentialStatus-1-0-0"/>
+        <reference value="CodeSystem/UKCore-ResidentialStatus"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -543,10 +543,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-UKCore-TreatmentCategory-1-0-0.html"/>
+        <valueUri value="CodeSystem-UKCore-TreatmentCategory.html"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/UKCore-TreatmentCategory-1-0-0"/>
+        <reference value="CodeSystem/UKCore-TreatmentCategory"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -555,10 +555,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-UKCore-HumanLanguage-1-0-0.html"/>
+        <valueUri value="CodeSystem-UKCore-HumanLanguage.html"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/UKCore-HumanLanguage-1-0-0"/>
+        <reference value="CodeSystem/UKCore-HumanLanguage"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -567,10 +567,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-UKCore-LanguageAbilityProficiency-1-0-0.html"/>
+        <valueUri value="CodeSystem-UKCore-LanguageAbilityProficiency.html"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0"/>
+        <reference value="CodeSystem/UKCore-LanguageAbilityProficiency"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -579,10 +579,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-UKCore-LanguageAbilityMode-1-0-0.html"/>
+        <valueUri value="CodeSystem-UKCore-LanguageAbilityMode.html"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/UKCore-LanguageAbilityMode-1-0-0"/>
+        <reference value="CodeSystem/UKCore-LanguageAbilityMode"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -591,10 +591,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-UKCore-SDSJobRoleName-1-0-0.html"/>
+        <valueUri value="CodeSystem-UKCore-SDSJobRoleName.html"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/UKCore-SDSJobRoleName-1-0-0"/>
+        <reference value="CodeSystem/UKCore-SDSJobRoleName"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -603,10 +603,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-UKCore-ListWarningCode-1-0-0.html"/>
+        <valueUri value="CodeSystem-UKCore-ListWarningCode.html"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/UKCore-ListWarningCode-1-0-0"/>
+        <reference value="CodeSystem/UKCore-ListWarningCode"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -615,10 +615,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-UKCore-ListEmptyReasonCode-1-0-0.html"/>
+        <valueUri value="CodeSystem-UKCore-ListEmptyReasonCode.html"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/UKCore-ListEmptyReasonCode-1-0-0"/>
+        <reference value="CodeSystem/UKCore-ListEmptyReasonCode"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -627,10 +627,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-UKCore-DeathNotificationStatus-1-0-0.html"/>
+        <valueUri value="CodeSystem-UKCore-DeathNotificationStatus.html"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/UKCore-DeathNotificationStatus-1-0-0"/>
+        <reference value="CodeSystem/UKCore-DeathNotificationStatus"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -639,10 +639,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-UKCore-EthnicCategory-1-0-0.html"/>
+        <valueUri value="CodeSystem-UKCore-EthnicCategory.html"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/UKCore-EthnicCategory-1-0-0"/>
+        <reference value="CodeSystem/UKCore-EthnicCategory"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -651,10 +651,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-UKCore-NHSNumberVerificationStatus-1-0-0.html"/>
+        <valueUri value="CodeSystem-UKCore-NHSNumberVerificationStatus.html"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/UKCore-NHSNumberVerificationStatus-1-0-0"/>
+        <reference value="CodeSystem/UKCore-NHSNumberVerificationStatus"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -663,10 +663,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0.html"/>
+        <valueUri value="CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus.html"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0"/>
+        <reference value="CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -675,10 +675,10 @@
         <valueString value="ConceptMap"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-UKCore-MaritalStatus-1-0-0.html"/>
+        <valueUri value="ConceptMap-UKCore-MaritalStatus.html"/>
       </extension>
       <reference>
-        <reference value="ConceptMap/UKCore-MaritalStatus-1-0-0"/>
+        <reference value="ConceptMap/UKCore-MaritalStatus"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -687,10 +687,10 @@
         <valueString value="ConceptMap"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-UKCore-ConditionEpisodicity-1-0-0.html"/>
+        <valueUri value="ConceptMap-UKCore-ConditionEpisodicity.html"/>
       </extension>
       <reference>
-        <reference value="ConceptMap/UKCore-ConditionEpisodicity-1-0-0"/>
+        <reference value="ConceptMap/UKCore-ConditionEpisodicity"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -699,10 +699,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0.html"/>
+        <valueUri value="CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender.html"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0"/>
+        <reference value="CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -711,10 +711,10 @@
         <valueString value="ConceptMap"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-UKCore-AdministrativeGender-1-0-0.html"/>
+        <valueUri value="ConceptMap-UKCore-AdministrativeGender.html"/>
       </extension>
       <reference>
-        <reference value="ConceptMap/UKCore-AdministrativeGender-1-0-0"/>
+        <reference value="ConceptMap/UKCore-AdministrativeGender"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -723,10 +723,10 @@
         <valueString value="ConceptMap"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-UKCore-AllergySeverity-1-0-0.html"/>
+        <valueUri value="ConceptMap-UKCore-AllergySeverity.html"/>
       </extension>
       <reference>
-        <reference value="ConceptMap/UKCore-AllergySeverity-1-0-0"/>
+        <reference value="ConceptMap/UKCore-AllergySeverity"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -735,10 +735,10 @@
         <valueString value="ConceptMap"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-UKCore-AllergyVerificationStatus-1-0-0.html"/>
+        <valueUri value="ConceptMap-UKCore-AllergyVerificationStatus.html"/>
       </extension>
       <reference>
-        <reference value="ConceptMap/UKCore-AllergyVerificationStatus-1-0-0"/>
+        <reference value="ConceptMap/UKCore-AllergyVerificationStatus"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -747,10 +747,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-UKCore-NHSDataDictionary-PersonStatedGender-1-0-0.html"/>
+        <valueUri value="ValueSet-UKCore-NHSDataDictionary-PersonStatedGender.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0"/>
+        <reference value="ValueSet/UKCore-NHSDataDictionary-PersonStatedGender"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -771,10 +771,10 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-Practitioner-1-0-0.html"/>
+        <valueUri value="UKCore-Practitioner.html"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/UKCore-Practitioner-1-0-0"/>
+        <reference value="StructureDefinition/UKCore-Practitioner"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -783,10 +783,10 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-Organization-1-0-0.html"/>
+        <valueUri value="UKCore-Organization.html"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/UKCore-Organization-1-0-0"/>
+        <reference value="StructureDefinition/UKCore-Organization"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -795,10 +795,10 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-NHSNumberVerificationStatus-1-0-0.html"/>
+        <valueUri value="Extension-UKCore-NHSNumberVerificationStatus.html"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus-1-0-0"/>
+        <reference value="StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -807,10 +807,10 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-NHSCommunication-1-0-0.html"/>
+        <valueUri value="Extension-UKCore-NHSCommunication.html"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Extension-UKCore-NHSCommunication-1-0-0"/>
+        <reference value="StructureDefinition/Extension-UKCore-NHSCommunication"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -819,10 +819,10 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-DeathNotificationStatus-1-0-0.html"/>
+        <valueUri value="Extension-UKCore-DeathNotificationStatus.html"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Extension-UKCore-DeathNotificationStatus-1-0-0"/>
+        <reference value="StructureDefinition/Extension-UKCore-DeathNotificationStatus"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -831,10 +831,10 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-EthnicCategory-1-0-0.html"/>
+        <valueUri value="Extension-UKCore-EthnicCategory.html"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Extension-UKCore-EthnicCategory-1-0-0"/>
+        <reference value="StructureDefinition/Extension-UKCore-EthnicCategory"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -843,10 +843,10 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-ReligiousAffiliation-1-0-0.html"/>
+        <valueUri value="Extension-UKCore-ReligiousAffiliation.html"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Extension-UKCore-ReligiousAffiliation-1-0-0"/>
+        <reference value="StructureDefinition/Extension-UKCore-ReligiousAffiliation"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -855,10 +855,10 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-ResidentialStatus-1-0-0.html"/>
+        <valueUri value="Extension-UKCore-ResidentialStatus.html"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Extension-UKCore-ResidentialStatus-1-0-0"/>
+        <reference value="StructureDefinition/Extension-UKCore-ResidentialStatus"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -867,10 +867,10 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-TreatmentCategory-1-0-0.html"/>
+        <valueUri value="Extension-UKCore-TreatmentCategory.html"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Extension-UKCore-TreatmentCategory-1-0-0"/>
+        <reference value="StructureDefinition/Extension-UKCore-TreatmentCategory"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -879,10 +879,10 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-NominatedPharmacy-1-0-0.html"/>
+        <valueUri value="Extension-UKCore-NominatedPharmacy.html"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Extension-UKCore-NominatedPharmacy-1-0-0"/>
+        <reference value="StructureDefinition/Extension-UKCore-NominatedPharmacy"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -891,10 +891,10 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-MainLocation-1-0-0.html"/>
+        <valueUri value="Extension-UKCore-MainLocation.html"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Extension-UKCore-MainLocation-1-0-0"/>
+        <reference value="StructureDefinition/Extension-UKCore-MainLocation"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

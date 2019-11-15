@@ -1,0 +1,122 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "UKCore-MaritalStatus",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ConceptMapUKCoreMaritalStatus (https://fhir.nhs.uk/R4/ConceptMap/UKCore-MaritalStatus)</h2><p>Mapping from <a href=\"http://build.fhir.org/valueset-marital-status.html\">http://hl7.org/fhir/ValueSet/marital-status</a> to <a href=\"ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus.html\">https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus</a></p><p>DRAFT. Published on 18-Oct-2019 13:00:00 by NHS Digital (Interoperability Team: <a href=\"mailto:interoperabilityteam@nhs.net\">interoperabilityteam@nhs.net</a>). Copyright © 2019 NHS Digital</p><div><p>A Concept Map from ValueSet Marital Status to NHS Data Dictionary Person Marital Status to aid interpretation.</p>\n</div><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>U (unmarried)</td><td>equivalent</td><td>S (Single)</td></tr><tr><td>D (Divorced)</td><td>equivalent</td><td>D (Divorced/Person whose Civil Partnership has been dissolved)</td></tr><tr><td>L (Legally Separated)</td><td>equivalent</td><td>P (Separated)</td></tr><tr><td>M (Married)</td><td>equivalent</td><td>M (Married/Civil Partner)</td></tr><tr><td>S (Never Married)</td><td>equivalent</td><td>S (Single)</td></tr><tr><td>W (Widowed)</td><td>equivalent</td><td>W (Widowed/Surviving Civil Partner)</td></tr></table><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>UNK (unknown)</td><td>equivalent</td><td>N (Not disclosed)</td></tr></table></div>"
+  },
+  "url": "https://fhir.nhs.uk/R4/ConceptMap/UKCore-MaritalStatus",
+  "version": "1.0.0",
+  "name": "ConceptMapUKCoreMaritalStatus",
+  "title": "Concept Map - UK Core Marital Status",
+  "status": "draft",
+  "date": "2019-10-18T13:00:00+01:00",
+  "publisher": "NHS Digital",
+  "contact": [
+    {
+      "name": "Interoperability Team",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "interoperabilityteam@nhs.net",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "A Concept Map from ValueSet Marital Status to NHS Data Dictionary Person Marital Status to aid interpretation.",
+  "copyright": "Copyright © 2019 NHS Digital",
+  "sourceUri": "http://hl7.org/fhir/ValueSet/marital-status",
+  "targetUri": "https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus",
+  "group": [
+    {
+      "source": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "target": "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus",
+      "element": [
+        {
+          "code": "U",
+          "display": "unmarried",
+          "target": [
+            {
+              "code": "S",
+              "display": "Single",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "D",
+          "display": "Divorced",
+          "target": [
+            {
+              "code": "D",
+              "display": "Divorced/Person whose Civil Partnership has been dissolved",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "L",
+          "display": "Legally Separated",
+          "target": [
+            {
+              "code": "P",
+              "display": "Separated",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "M",
+          "display": "Married",
+          "target": [
+            {
+              "code": "M",
+              "display": "Married/Civil Partner",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "S",
+          "display": "Never Married",
+          "target": [
+            {
+              "code": "S",
+              "display": "Single",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "W",
+          "display": "Widowed",
+          "target": [
+            {
+              "code": "W",
+              "display": "Widowed/Surviving Civil Partner",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "target": "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus",
+      "element": [
+        {
+          "code": "UNK",
+          "display": "unknown",
+          "target": [
+            {
+              "code": "N",
+              "display": "Not disclosed",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

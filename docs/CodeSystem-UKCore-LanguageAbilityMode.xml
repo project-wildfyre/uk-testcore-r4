@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="UKCore-LanguageAbilityMode"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>UK Core Language Ability Mode</h2><div><p>A CodeSystem that identifies the mode the patient can communicate in, representing the method of expression of the language.</p>
+</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">ESGN<a name="UKCore-LanguageAbilityMode-ESGN"> </a></td><td>Expressed signed</td><td/></tr><tr><td style="white-space:nowrap">ESP<a name="UKCore-LanguageAbilityMode-ESP"> </a></td><td>Expressed spoken</td><td/></tr><tr><td style="white-space:nowrap">EWR<a name="UKCore-LanguageAbilityMode-EWR"> </a></td><td>Expressed written</td><td/></tr><tr><td style="white-space:nowrap">RSGN<a name="UKCore-LanguageAbilityMode-RSGN"> </a></td><td>Received signed</td><td/></tr><tr><td style="white-space:nowrap">RSP<a name="UKCore-LanguageAbilityMode-RSP"> </a></td><td>Received spoken</td><td/></tr><tr><td style="white-space:nowrap">RWR<a name="UKCore-LanguageAbilityMode-RWR"> </a></td><td>Received written</td><td/></tr></table></div>
+  </text>
+  <url value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode"/>
+  <version value="1.0.0"/>
+  <name value="UKCoreLanguageAbilityMode"/>
+  <title value="UK Core Language Ability Mode"/>
+  <status value="draft"/>
+  <date value="2019-10-25T01:00:00+01:00"/>
+  <publisher value="NHS Digital"/>
+  <contact>
+    <name value="Interoperability Team"/>
+    <telecom>
+      <system value="email"/>
+      <value value="interoperabilityteam@nhs.net"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="A CodeSystem that identifies the mode the patient can communicate in, representing the method of expression of the language."/>
+  <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="ESGN"/>
+    <display value="Expressed signed"/>
+  </concept>
+  <concept>
+    <code value="ESP"/>
+    <display value="Expressed spoken"/>
+  </concept>
+  <concept>
+    <code value="EWR"/>
+    <display value="Expressed written"/>
+  </concept>
+  <concept>
+    <code value="RSGN"/>
+    <display value="Received signed"/>
+  </concept>
+  <concept>
+    <code value="RSP"/>
+    <display value="Received spoken"/>
+  </concept>
+  <concept>
+    <code value="RWR"/>
+    <display value="Received written"/>
+  </concept>
+</CodeSystem>

@@ -398,67 +398,67 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/UKCore-Practitioner-1-0-0"/>
+				<reference value="StructureDefinition/UKCore-Practitioner"/>
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/UKCore-Organization-1-0-0"/>
+				<reference value="StructureDefinition/UKCore-Organization"/>
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus-1-0-0"/>
+				<reference value="StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus"/>
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Extension-UKCore-NHSCommunication-1-0-0"/>
+				<reference value="StructureDefinition/Extension-UKCore-NHSCommunication"/>
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Extension-UKCore-DeathNotificationStatus-1-0-0"/>
+				<reference value="StructureDefinition/Extension-UKCore-DeathNotificationStatus"/>
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Extension-UKCore-EthnicCategory-1-0-0"/>
+				<reference value="StructureDefinition/Extension-UKCore-EthnicCategory"/>
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Extension-UKCore-ReligiousAffiliation-1-0-0"/>
+				<reference value="StructureDefinition/Extension-UKCore-ReligiousAffiliation"/>
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Extension-UKCore-ResidentialStatus-1-0-0"/>
+				<reference value="StructureDefinition/Extension-UKCore-ResidentialStatus"/>
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Extension-UKCore-TreatmentCategory-1-0-0"/>
+				<reference value="StructureDefinition/Extension-UKCore-TreatmentCategory"/>
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Extension-UKCore-NominatedPharmacy-1-0-0"/>
+				<reference value="StructureDefinition/Extension-UKCore-NominatedPharmacy"/>
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Extension-UKCore-MainLocation-1-0-0"/>
+				<reference value="StructureDefinition/Extension-UKCore-MainLocation"/>
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>		

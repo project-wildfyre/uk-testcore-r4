@@ -293,60 +293,60 @@
 			"base": "UKCore-Patient.html",
 			"defns": "UKCore-Patient-definitions.html"
 		},
-		"StructureDefinition/UKCore-Practitioner-1-0-0": {
-			"source": "UKCore-Practitioner-1-0-0.xml",
-			"base": "UKCore-Practitioner-1-0-0.html",
-			"defns": "UKCore-Practitioner-1-0-0-definitions.html"
+		"StructureDefinition/UKCore-Practitioner": {
+			"source": "UKCore-Practitioner.xml",
+			"base": "UKCore-Practitioner.html",
+			"defns": "UKCore-Practitioner-definitions.html"
 		},
-		"StructureDefinition/UKCore-Organization-1-0-0": {
-			"source": "UKCore-Organization-1-0-0.xml",
-			"base": "UKCore-Organization-1-0-0.html",
-			"defns": "UKCore-Organization-1-0-0-definitions.html"
+		"StructureDefinition/UKCore-Organization": {
+			"source": "UKCore-Organization.xml",
+			"base": "UKCore-Organization.html",
+			"defns": "UKCore-Organization-definitions.html"
 		},
-		"StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus-1-0-0": {
-			"source": "Extension-UKCore-NHSNumberVerificationStatus-1-0-0.xml",
-			"base": "Extension-UKCore-NHSNumberVerificationStatus-1-0-0.html",
-			"defns": "Extension-UKCore-NHSNumberVerificationStatus-1-0-0-definitions.html"
+		"StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus": {
+			"source": "Extension-UKCore-NHSNumberVerificationStatus.xml",
+			"base": "Extension-UKCore-NHSNumberVerificationStatus.html",
+			"defns": "Extension-UKCore-NHSNumberVerificationStatus-definitions.html"
 		},
-		"StructureDefinition/Extension-UKCore-NHSCommunication-1-0-0": {
-			"source": "Extension-UKCore-NHSCommunication-1-0-0.xml",
-			"base": "Extension-UKCore-NHSCommunication-1-0-0.html",
-			"defns": "Extension-UKCore-NHSCommunication-1-0-0-definitions.html"
+		"StructureDefinition/Extension-UKCore-NHSCommunication": {
+			"source": "Extension-UKCore-NHSCommunication.xml",
+			"base": "Extension-UKCore-NHSCommunication.html",
+			"defns": "Extension-UKCore-NHSCommunication-definitions.html"
 		},
-		"StructureDefinition/Extension-UKCore-EthnicCategory-1-0-0": {
-			"source": "Extension-UKCore-EthnicCategory-1-0-0.xml",
-			"base": "Extension-UKCore-EthnicCategory-1-0-0.html",
-			"defns": "Extension-UKCore-EthnicCategory-1-0-0-definitions.html"
+		"StructureDefinition/Extension-UKCore-EthnicCategory": {
+			"source": "Extension-UKCore-EthnicCategory.xml",
+			"base": "Extension-UKCore-EthnicCategory.html",
+			"defns": "Extension-UKCore-EthnicCategory-definitions.html"
 		},
-		"StructureDefinition/Extension-UKCore-DeathNotificationStatus-1-0-0": {
-			"source": "Extension-UKCore-DeathNotificationStatus-1-0-0.xml",
-			"base": "Extension-UKCore-DeathNotificationStatus-1-0-0.html",
-			"defns": "Extension-UKCore-DeathNotificationStatus-1-0-0-definitions.html"
+		"StructureDefinition/Extension-UKCore-DeathNotificationStatus": {
+			"source": "Extension-UKCore-DeathNotificationStatus.xml",
+			"base": "Extension-UKCore-DeathNotificationStatus.html",
+			"defns": "Extension-UKCore-DeathNotificationStatus-definitions.html"
 		},
-		"StructureDefinition/Extension-UKCore-ReligiousAffiliation-1-0-0": {
-			"source": "Extension-UKCore-ReligiousAffiliation-1-0-0.xml",
-			"base": "Extension-UKCore-ReligiousAffiliation-1-0-0.html",
-			"defns": "Extension-UKCore-ReligiousAffiliation-1-0-0-definitions.html"
+		"StructureDefinition/Extension-UKCore-ReligiousAffiliation": {
+			"source": "Extension-UKCore-ReligiousAffiliation.xml",
+			"base": "Extension-UKCore-ReligiousAffiliation.html",
+			"defns": "Extension-UKCore-ReligiousAffiliation-definitions.html"
 		},
-		"StructureDefinition/Extension-UKCore-ResidentialStatus-1-0-0": {
-			"source": "Extension-UKCore-ResidentialStatus-1-0-0.xml",
-			"base": "Extension-UKCore-ResidentialStatus-1-0-0.html",
-			"defns": "Extension-UKCore-ResidentialStatus-1-0-0-definitions.html"
+		"StructureDefinition/Extension-UKCore-ResidentialStatus": {
+			"source": "Extension-UKCore-ResidentialStatus.xml",
+			"base": "Extension-UKCore-ResidentialStatus.html",
+			"defns": "Extension-UKCore-ResidentialStatus-definitions.html"
 		},
-		"StructureDefinition/Extension-UKCore-TreatmentCategory-1-0-0": {
-			"source": "Extension-UKCore-TreatmentCategory-1-0-0.xml",
-			"base": "Extension-UKCore-TreatmentCategory-1-0-0.html",
-			"defns": "Extension-UKCore-TreatmentCategory-1-0-0-definitions.html"
+		"StructureDefinition/Extension-UKCore-TreatmentCategory": {
+			"source": "Extension-UKCore-TreatmentCategory.xml",
+			"base": "Extension-UKCore-TreatmentCategory.html",
+			"defns": "Extension-UKCore-TreatmentCategory-definitions.html"
 		},
-		"StructureDefinition/Extension-UKCore-NominatedPharmacy-1-0-0": {
-			"source": "Extension-UKCore-NominatedPharmacy-1-0-0.xml",
-			"base": "Extension-UKCore-NominatedPharmacy-1-0-0.html",
-			"defns": "Extension-UKCore-NominatedPharmacy-1-0-0-definitions.html"
+		"StructureDefinition/Extension-UKCore-NominatedPharmacy": {
+			"source": "Extension-UKCore-NominatedPharmacy.xml",
+			"base": "Extension-UKCore-NominatedPharmacy.html",
+			"defns": "Extension-UKCore-NominatedPharmacy-definitions.html"
 		},
-		"StructureDefinition/Extension-UKCore-MainLocation-1-0-0": {
-			"source": "Extension-UKCore-MainLocation-1-0-0.xml",
-			"base": "Extension-UKCore-MainLocation-1-0-0.html",
-			"defns": "Extension-UKCore-MainLocation-1-0-0-definitions.html"
+		"StructureDefinition/Extension-UKCore-MainLocation": {
+			"source": "Extension-UKCore-MainLocation.xml",
+			"base": "Extension-UKCore-MainLocation.html",
+			"defns": "Extension-UKCore-MainLocation-definitions.html"
 		},
 		"Patient/UKCore-Patient-Example": {
 			"source": "UKCore-Patient-Example.xml",

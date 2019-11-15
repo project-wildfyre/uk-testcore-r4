@@ -65,361 +65,361 @@
     }],
     "resource" : [{
       "reference" : {
-        "reference" : "ValueSet/UKCore-ResidentialStatus-1-0-0"
+        "reference" : "ValueSet/UKCore-ResidentialStatus"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-AllergyManifestation-1-0-0"
+        "reference" : "ValueSet/UKCore-AllergyManifestation"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-AllergyCertainty-1-0-0"
+        "reference" : "ValueSet/UKCore-AllergyCertainty"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-AllergySeverity-1-0-0"
+        "reference" : "ValueSet/UKCore-AllergySeverity"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-ConditionEpisode-1-0-0"
+        "reference" : "ValueSet/UKCore-ConditionEpisode"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-ConditionCode-1-0-0"
+        "reference" : "ValueSet/UKCore-ConditionCode"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-ConditionCategory-1-0-0"
+        "reference" : "ValueSet/UKCore-ConditionCategory"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-ConditionEpisodicity-1-0-0"
+        "reference" : "ValueSet/UKCore-ConditionEpisodicity"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-AllergyCode-1-0-0"
+        "reference" : "ValueSet/UKCore-AllergyCode"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-AllergyExposureRoute-1-0-0"
+        "reference" : "ValueSet/UKCore-AllergyExposureRoute"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-CareSettingType-1-0-0"
+        "reference" : "ValueSet/UKCore-CareSettingType"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-ProcedureCode-1-0-0"
+        "reference" : "ValueSet/UKCore-ProcedureCode"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-ListCode-1-0-0"
+        "reference" : "ValueSet/UKCore-ListCode"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-ListEmptyReasonCode-1-0-0"
+        "reference" : "ValueSet/UKCore-ListEmptyReasonCode"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-ListWarningCode-1-0-0"
+        "reference" : "ValueSet/UKCore-ListWarningCode"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-BodySite-1-0-0"
+        "reference" : "ValueSet/UKCore-BodySite"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-EncounterType-1-0-0"
+        "reference" : "ValueSet/UKCore-EncounterType"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-EmergencyCareDischargeStatus-1-0-0"
+        "reference" : "ValueSet/UKCore-EmergencyCareDischargeStatus"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-ObservationType-1-0-0"
+        "reference" : "ValueSet/UKCore-ObservationType"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-TreatmentCategory-1-0-0"
+        "reference" : "ValueSet/UKCore-TreatmentCategory"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-HumanLanguage-1-0-0"
+        "reference" : "ValueSet/UKCore-HumanLanguage"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-LanguageAbilityMode-1-0-0"
+        "reference" : "ValueSet/UKCore-LanguageAbilityMode"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-LanguageAbilityProficiency-1-0-0"
+        "reference" : "ValueSet/UKCore-LanguageAbilityProficiency"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-SDSJobRoleName-1-0-0"
+        "reference" : "ValueSet/UKCore-SDSJobRoleName"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-DeathNotificationStatus-1-0-0"
+        "reference" : "ValueSet/UKCore-DeathNotificationStatus"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-EthnicCategory-1-0-0"
+        "reference" : "ValueSet/UKCore-EthnicCategory"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-AdmissionMethod-1-0-0"
+        "reference" : "ValueSet/UKCore-AdmissionMethod"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-DischargeDestination-1-0-0"
+        "reference" : "ValueSet/UKCore-DischargeDestination"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-DischargeMethod-1-0-0"
+        "reference" : "ValueSet/UKCore-DischargeMethod"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-OutcomeOfAttendance-1-0-0"
+        "reference" : "ValueSet/UKCore-OutcomeOfAttendance"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-SourceOfAdmission-1-0-0"
+        "reference" : "ValueSet/UKCore-SourceOfAdmission"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-NHSNumberVerificationStatus-1-0-0"
+        "reference" : "ValueSet/UKCore-NHSNumberVerificationStatus"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-ReligiousAffiliation-1-0-0"
+        "reference" : "ValueSet/UKCore-ReligiousAffiliation"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0"
+        "reference" : "ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "CodeSystem/UKCore-AdmissionMethod-1-0-0"
+        "reference" : "CodeSystem/UKCore-AdmissionMethod"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "CodeSystem/UKCore-DischargeDestination-1-0-0"
+        "reference" : "CodeSystem/UKCore-DischargeDestination"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "CodeSystem/UKCore-DischargeMethod-1-0-0"
+        "reference" : "CodeSystem/UKCore-DischargeMethod"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "CodeSystem/UKCore-OutcomeOfAttendance-1-0-0"
+        "reference" : "CodeSystem/UKCore-OutcomeOfAttendance"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "CodeSystem/UKCore-SourceOfAdmission-1-0-0"
+        "reference" : "CodeSystem/UKCore-SourceOfAdmission"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "CodeSystem/UKCore-ConditionEpisodicity-1-0-0"
+        "reference" : "CodeSystem/UKCore-ConditionEpisodicity"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "CodeSystem/UKCore-ConditionCategory-1-0-0"
+        "reference" : "CodeSystem/UKCore-ConditionCategory"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "CodeSystem/UKCore-ResidentialStatus-1-0-0"
+        "reference" : "CodeSystem/UKCore-ResidentialStatus"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "CodeSystem/UKCore-TreatmentCategory-1-0-0"
+        "reference" : "CodeSystem/UKCore-TreatmentCategory"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "CodeSystem/UKCore-HumanLanguage-1-0-0"
+        "reference" : "CodeSystem/UKCore-HumanLanguage"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "CodeSystem/UKCore-LanguageAbilityProficiency-1-0-0"
+        "reference" : "CodeSystem/UKCore-LanguageAbilityProficiency"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "CodeSystem/UKCore-LanguageAbilityMode-1-0-0"
+        "reference" : "CodeSystem/UKCore-LanguageAbilityMode"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "CodeSystem/UKCore-SDSJobRoleName-1-0-0"
+        "reference" : "CodeSystem/UKCore-SDSJobRoleName"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "CodeSystem/UKCore-ListWarningCode-1-0-0"
+        "reference" : "CodeSystem/UKCore-ListWarningCode"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "CodeSystem/UKCore-ListEmptyReasonCode-1-0-0"
+        "reference" : "CodeSystem/UKCore-ListEmptyReasonCode"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "CodeSystem/UKCore-DeathNotificationStatus-1-0-0"
+        "reference" : "CodeSystem/UKCore-DeathNotificationStatus"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "CodeSystem/UKCore-EthnicCategory-1-0-0"
+        "reference" : "CodeSystem/UKCore-EthnicCategory"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "CodeSystem/UKCore-NHSNumberVerificationStatus-1-0-0"
+        "reference" : "CodeSystem/UKCore-NHSNumberVerificationStatus"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus-1-0-0"
+        "reference" : "CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ConceptMap/UKCore-MaritalStatus-1-0-0"
+        "reference" : "ConceptMap/UKCore-MaritalStatus"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ConceptMap/UKCore-ConditionEpisodicity-1-0-0"
+        "reference" : "ConceptMap/UKCore-ConditionEpisodicity"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0"
+        "reference" : "CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ConceptMap/UKCore-AdministrativeGender-1-0-0"
+        "reference" : "ConceptMap/UKCore-AdministrativeGender"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ConceptMap/UKCore-AllergySeverity-1-0-0"
+        "reference" : "ConceptMap/UKCore-AllergySeverity"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ConceptMap/UKCore-AllergyVerificationStatus-1-0-0"
+        "reference" : "ConceptMap/UKCore-AllergyVerificationStatus"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-NHSDataDictionary-PersonStatedGender-1-0-0"
+        "reference" : "ValueSet/UKCore-NHSDataDictionary-PersonStatedGender"
       },
       "exampleBoolean" : false
     },
@@ -431,67 +431,67 @@
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/UKCore-Practitioner-1-0-0"
+        "reference" : "StructureDefinition/UKCore-Practitioner"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/UKCore-Organization-1-0-0"
+        "reference" : "StructureDefinition/UKCore-Organization"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus-1-0-0"
+        "reference" : "StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/Extension-UKCore-NHSCommunication-1-0-0"
+        "reference" : "StructureDefinition/Extension-UKCore-NHSCommunication"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/Extension-UKCore-DeathNotificationStatus-1-0-0"
+        "reference" : "StructureDefinition/Extension-UKCore-DeathNotificationStatus"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/Extension-UKCore-EthnicCategory-1-0-0"
+        "reference" : "StructureDefinition/Extension-UKCore-EthnicCategory"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/Extension-UKCore-ReligiousAffiliation-1-0-0"
+        "reference" : "StructureDefinition/Extension-UKCore-ReligiousAffiliation"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/Extension-UKCore-ResidentialStatus-1-0-0"
+        "reference" : "StructureDefinition/Extension-UKCore-ResidentialStatus"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/Extension-UKCore-TreatmentCategory-1-0-0"
+        "reference" : "StructureDefinition/Extension-UKCore-TreatmentCategory"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/Extension-UKCore-NominatedPharmacy-1-0-0"
+        "reference" : "StructureDefinition/Extension-UKCore-NominatedPharmacy"
       },
       "exampleBoolean" : false
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/Extension-UKCore-MainLocation-1-0-0"
+        "reference" : "StructureDefinition/Extension-UKCore-MainLocation"
       },
       "exampleBoolean" : false
     },

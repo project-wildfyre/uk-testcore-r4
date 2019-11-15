@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="UKCore-LanguageAbilityProficiency"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>UK Core Language Ability Proficiency</h2><div><p>A CodeSystem to identify the level of proficiency in communicating a language.</p>
+</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityProficiency defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">E<a name="UKCore-LanguageAbilityProficiency-E"> </a></td><td>Excellent</td><td/></tr><tr><td style="white-space:nowrap">F<a name="UKCore-LanguageAbilityProficiency-F"> </a></td><td>Fair</td><td/></tr><tr><td style="white-space:nowrap">G<a name="UKCore-LanguageAbilityProficiency-G"> </a></td><td>Good</td><td/></tr><tr><td style="white-space:nowrap">P<a name="UKCore-LanguageAbilityProficiency-P"> </a></td><td>Poor</td><td/></tr></table></div>
+  </text>
+  <url value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityProficiency"/>
+  <version value="1.0.0"/>
+  <name value="UKCoreLanguageAbilityProficiency"/>
+  <title value="UK Core Language Ability Proficiency"/>
+  <status value="draft"/>
+  <date value="2019-10-30T00:00:00+00:00"/>
+  <publisher value="NHS Digital"/>
+  <contact>
+    <name value="Interoperability Team"/>
+    <telecom>
+      <system value="email"/>
+      <value value="interoperabilityteam@nhs.net"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="A CodeSystem to identify the level of proficiency in communicating a language."/>
+  <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="E"/>
+    <display value="Excellent"/>
+  </concept>
+  <concept>
+    <code value="F"/>
+    <display value="Fair"/>
+  </concept>
+  <concept>
+    <code value="G"/>
+    <display value="Good"/>
+  </concept>
+  <concept>
+    <code value="P"/>
+    <display value="Poor"/>
+  </concept>
+</CodeSystem>
