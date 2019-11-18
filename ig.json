@@ -297,6 +297,11 @@
 			"base": "UKCore-Practitioner.html",
 			"defns": "UKCore-Practitioner-definitions.html"
 		},
+		"StructureDefinition/UKCore-PractitionerRole": {
+			"source": "UKCore-PractitionerRole.xml",
+			"base": "UKCore-PractitionerRole.html",
+			"defns": "UKCore-PractitionerRole-definitions.html"
+		},
 		"StructureDefinition/UKCore-Organization": {
 			"source": "UKCore-Organization.xml",
 			"base": "UKCore-Organization.html",

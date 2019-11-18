@@ -404,6 +404,12 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="StructureDefinition/UKCore-PractitionerRole"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="StructureDefinition/UKCore-Organization"/>
 			</reference>
 			<exampleBoolean value="false"/>

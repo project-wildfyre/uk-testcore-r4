@@ -555,6 +555,12 @@
         "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner",
         "title": "UK Core Practitioner Profile"
       }
+    ],
+    "PractitionerRole": [
+      {
+        "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole",
+        "title": "UK Core PractitionerRole Profile"
+      }
     ]
   },
   "usage": {
