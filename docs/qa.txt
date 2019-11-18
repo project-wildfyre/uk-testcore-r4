@@ -3,9 +3,9 @@
 
 err = 26, warn = 0, info = 0
 IG Publisher Version: v0.9.97-SNAPSHOT
-Generated Mon Nov 18 12:21:57 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
+Generated Mon Nov 18 14:15:17 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
 
- Build Errors : 251 / 1
+ Build Errors : 255 / 1
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\codesystems\CodeSystem-UKCore-AdmissionMethod : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\codesystems\CodeSystem-UKCore-ConditionCategory : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\codesystems\CodeSystem-UKCore-ConditionEpisodicity : 0 / 0
@@ -42,6 +42,7 @@ Generated Mon Nov 18 12:21:57 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-ReligiousAffiliation : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-ResidentialStatus : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-TreatmentCategory : 0 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\UKCore-Location : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\UKCore-Organization : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\UKCore-Patient : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\UKCore-Practitioner : 0 / 0
@@ -201,6 +202,8 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-Exte
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-Extension-UKCore-ResidentialStatus.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-Extension-UKCore-TreatmentCategory.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-Extension-UKCore-TreatmentCategory.xml.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-UKCore-Location.json.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-UKCore-Location.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-UKCore-Organization.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-UKCore-Organization.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-UKCore-Patient.json.html: The html source does not contain the publish box
@@ -209,6 +212,8 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-UKCo
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-UKCore-Practitioner.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-UKCore-PractitionerRole.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-UKCore-PractitionerRole.xml.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\UKCore-Location-definitions.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\UKCore-Location.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\UKCore-Organization-definitions.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\UKCore-Organization.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\UKCore-Patient-Example.html: The html source does not contain the publish box
@@ -371,6 +376,7 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\valuesets.html: The html
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-ReligiousAffiliation.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-ResidentialStatus.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-TreatmentCategory.xml ==
+== C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\UKCore-Location.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\UKCore-Organization.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\UKCore-Patient.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\UKCore-Practitioner.xml ==

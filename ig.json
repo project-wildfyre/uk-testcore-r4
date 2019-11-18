@@ -302,6 +302,11 @@
 			"base": "UKCore-PractitionerRole.html",
 			"defns": "UKCore-PractitionerRole-definitions.html"
 		},
+		"StructureDefinition/UKCore-Location": {
+			"source": "UKCore-Location.xml",
+			"base": "UKCore-Location.html",
+			"defns": "UKCore-Location-definitions.html"
+		},
 		"StructureDefinition/UKCore-Organization": {
 			"source": "UKCore-Organization.xml",
 			"base": "UKCore-Organization.html",

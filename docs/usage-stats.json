@@ -538,6 +538,12 @@
     }
   ],
   "profiles": {
+    "Location": [
+      {
+        "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location",
+        "title": "UK Core Location Profile"
+      }
+    ],
     "Organization": [
       {
         "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization",

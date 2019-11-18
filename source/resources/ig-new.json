@@ -449,6 +449,12 @@
     },
     {
       "reference" : {
+        "reference" : "StructureDefinition/UKCore-Location"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus"
       },
       "exampleBoolean" : false

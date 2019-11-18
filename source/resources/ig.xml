@@ -416,6 +416,12 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="StructureDefinition/UKCore-Location"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus"/>
 			</reference>
 			<exampleBoolean value="false"/>
