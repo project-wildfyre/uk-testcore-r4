@@ -1,6 +1,5 @@
 {
 	"source": "ig.xml",
-	"fixed-business-version": "1.0.0",
 	"specification": "http://hl7.org/fhir",
 	"paths": {
 		"history": "source/history",
