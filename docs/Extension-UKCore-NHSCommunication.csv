@@ -35,7 +35,7 @@ boolean {[]} {[]}canonical {[]} {[]}code {[]} {[]}date {[]} {[]}dateTime {[]} {[
 "Extension.extension.value[x]","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Languages which may be used for communication","Languages which may be used for communication","","","","","","","","","",,"extensible","Human Language","https://fhir.nhs.uk/R4/ValueSet/UKCore-HumanLanguage","",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
-"Extension.extension","preferred","","",0,*,"","","","Extension {[]} {[]}
+"Extension.extension","preferred","","",0,1,"","","","Extension {[]} {[]}
 ","Language preference indicator","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
