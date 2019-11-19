@@ -53,6 +53,10 @@
       <type>
         <code value="Reference" />
       </type>
+      <fixedReference>
+        <reference value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location" />
+        <type value="StructureDefinition" />
+      </fixedReference>
     </element>
     <element id="Extension.value[x].identifier.assigner">
       <path value="Extension.value[x].identifier.assigner" />
@@ -60,6 +64,10 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
+    </element>
+    <element id="Extension.value[x].identifier.assigner.identifier.assigner">
+      <path value="Extension.value[x].identifier.assigner.identifier.assigner" />
+      <max value="0" />
     </element>
   </differential>
 </StructureDefinition>
