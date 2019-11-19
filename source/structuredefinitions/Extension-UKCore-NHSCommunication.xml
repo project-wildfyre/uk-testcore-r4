@@ -83,6 +83,7 @@
       <path value="Extension.extension" />
       <sliceName value="preferred" />
       <short value="Language preference indicator" />
+      <max value="1" />
     </element>
     <element id="Extension.extension:preferred.url">
       <path value="Extension.extension.url" />
