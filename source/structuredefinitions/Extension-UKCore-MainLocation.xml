@@ -55,7 +55,6 @@
       </type>
       <fixedReference>
         <reference value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location" />
-        <type value="StructureDefinition" />
       </fixedReference>
     </element>
     <element id="Extension.value[x].identifier.assigner">
