@@ -6,7 +6,7 @@
   <name value="ExtensionUKCoreMainLocation" />
   <title value="UK Core Main Location Extension" />
   <status value="draft" />
-  <date value="2019-11-08" />
+  <date value="2019-11-20" />
   <publisher value="NHS Digital" />
   <contact>
     <name value="Interoperability Team" />
@@ -48,14 +48,12 @@
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
       <short value="Main location" />
-      <definition value="Reference to the main location for an organisation." />
+      <definition value="Reference to the main location for an organization." />
       <min value="1" />
       <type>
         <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location" />
       </type>
-      <fixedReference>
-        <reference value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location" />
-      </fixedReference>
     </element>
     <element id="Extension.value[x].identifier.assigner">
       <path value="Extension.value[x].identifier.assigner" />
