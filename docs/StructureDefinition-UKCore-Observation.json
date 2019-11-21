@@ -24,7 +24,7 @@
       ]
     }
   ],
-  "description": "This Observation resource has been constrained to represent a Location profile for use by the FHIR R4 Core Demo specification.",
+  "description": "This Observation resource has been constrained to represent an Observation profile for use by the FHIR R4 Core Demo specification.",
   "purpose": "This profile has been developed to demonstrate the representation of an Observation profile for wider use.",
   "copyright": "Copyright © 2019 NHS Digital",
   "fhirVersion": "4.0.1",
