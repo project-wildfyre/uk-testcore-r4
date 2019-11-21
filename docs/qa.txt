@@ -2,8 +2,8 @@
 =========================================
 
 err = 26, warn = 0, info = 0
-IG Publisher Version: v1.0.1-SNAPSHOT Out of date - current version is v1.0.2-SNAPSHOT
-Generated Thu Nov 21 13:33:59 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
+IG Publisher Version: v1.0.2-SNAPSHOT
+Generated Thu Nov 21 14:42:21 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
 
  Build Errors : 257 / 1
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-AdmissionMethod : 0 / 0
