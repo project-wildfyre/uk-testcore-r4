@@ -6,9 +6,18 @@
 <li>
   <a href="index.html">Home</a>
 </li>
-
-<li>
-  <a href="guidance.html">Guidance</a>
+<li class="dropdown">
+    <a href="#" data-toggle="dropdown" class="dropdown-toggle">Guidance<b class="caret">
+    </b>
+  </a>
+  <ul class="dropdown-menu">
+	<li>
+      <a href="summary.html">Summary</a>
+    </li>
+		<li>
+      <a href="releases.html">Releases</a>
+    </li>
+  </ul>
 </li>
 <li class="dropdown">
     <a href="#" data-toggle="dropdown" class="dropdown-toggle">Profiles<b class="caret">
