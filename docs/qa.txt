@@ -3,9 +3,9 @@
 
 err = 26, warn = 0, info = 0
 IG Publisher Version: v1.0.2-SNAPSHOT
-Generated Thu Nov 21 14:42:21 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
+Generated Thu Nov 21 14:48:04 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
 
- Build Errors : 257 / 1
+ Build Errors : 256 / 1
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-AdmissionMethod : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-ConditionCategory : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-ConditionEpisodicity : 0 / 0
@@ -336,7 +336,6 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\examples.html: The html sour
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\extension_library.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\history.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\index.html: The html source does not contain the publish box
-ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\index.html#/html/head/body/div/div/div/div/div/div/p/br/p/a at Line 257, column 42: The link 'guidance.html' for "Guidance" cannot be resolved
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\profiles.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\releases.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\schematrons.html: The html source does not contain the publish box
