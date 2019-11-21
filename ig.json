@@ -312,6 +312,11 @@
 			"base": "UKCore-Organization.html",
 			"defns": "UKCore-Organization-definitions.html"
 		},
+		"StructureDefinition/UKCore-Observation": {
+		"source": "UKCore-Observation.xml",
+		"base": "UKCore-Observation.html",
+		"defns": "UKCore-Observation-definitions.html"
+		},
 		"StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus": {
 			"source": "Extension-UKCore-NHSNumberVerificationStatus.xml",
 			"base": "Extension-UKCore-NHSNumberVerificationStatus.html",
