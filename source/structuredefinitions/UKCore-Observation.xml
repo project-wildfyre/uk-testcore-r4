@@ -16,7 +16,7 @@
       <use value="work" />
     </telecom>
   </contact>
-  <description value="This Observation resource has been constrained to represent a Location profile for use by the FHIR R4 Core Demo specification." />
+  <description value="This Observation resource has been constrained to represent an Observation profile for use by the FHIR R4 Core Demo specification." />
   <purpose value="This profile has been developed to demonstrate the representation of an Observation profile for wider use." />
   <copyright value="Copyright © 2019 NHS Digital" />
   <fhirVersion value="4.0.0" />
