@@ -3,7 +3,7 @@
   "name": "FHIRR4CorePrototype",
   "package-id": "nhsdigital.fhir.r4.core.prototype",
   "ig-ver": "1.0.0",
-  "date": "Wed, 20 Nov, 2019 12:22:25 +0000",
+  "date": "Thu, 21 Nov, 2019 13:30:55 +0000",
   "errs": 26,
   "warnings": 0,
   "hints": 0,
