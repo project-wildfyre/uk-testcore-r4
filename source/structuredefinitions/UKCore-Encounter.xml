@@ -37,6 +37,38 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
     </element>
+    <element id="Encounter.type.coding">
+      <path value="Encounter.type.coding" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="system" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Encounter.type.coding:snomedCT">
+      <path value="Encounter.type.coding" />
+      <sliceName value="snomedCT" />
+      <binding>
+        <strength value="extensible" />
+        <description value="A code from the SNOMED Clinical Terminology UK coding system that describes an encounter between a care professional and the patient (or patient's record)." />
+        <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-EncounterType" />
+      </binding>
+    </element>
+    <element id="Encounter.type.coding:snomedCT.system">
+      <path value="Encounter.type.coding.system" />
+      <min value="1" />
+      <fixedUri value="http://snomed.info/sct" />
+    </element>
+    <element id="Encounter.type.coding:snomedCT.code">
+      <path value="Encounter.type.coding.code" />
+      <min value="1" />
+    </element>
+    <element id="Encounter.type.coding:snomedCT.display">
+      <path value="Encounter.type.coding.display" />
+      <min value="1" />
+    </element>
     <element id="Encounter.subject">
       <path value="Encounter.subject" />
       <type>
@@ -142,6 +174,41 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
     </element>
+    <element id="Encounter.hospitalization.admitSource">
+      <path value="Encounter.hospitalization.admitSource" />
+      <binding>
+        <strength value="extensible" />
+        <description value="The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home." />
+        <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-SourceOfAdmission" />
+      </binding>
+    </element>
+    <element id="Encounter.hospitalization.reAdmission.coding">
+      <path value="Encounter.hospitalization.reAdmission.coding" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="system" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Encounter.hospitalization.reAdmission.coding:snomedCT">
+      <path value="Encounter.hospitalization.reAdmission.coding" />
+      <sliceName value="snomedCT" />
+    </element>
+    <element id="Encounter.hospitalization.reAdmission.coding:snomedCT.system">
+      <path value="Encounter.hospitalization.reAdmission.coding.system" />
+      <min value="1" />
+      <fixedUri value="http://snomed.info/sct" />
+    </element>
+    <element id="Encounter.hospitalization.reAdmission.coding:snomedCT.code">
+      <path value="Encounter.hospitalization.reAdmission.coding.code" />
+      <min value="1" />
+    </element>
+    <element id="Encounter.hospitalization.reAdmission.coding:snomedCT.display">
+      <path value="Encounter.hospitalization.reAdmission.coding.display" />
+      <min value="1" />
+    </element>
     <element id="Encounter.hospitalization.destination">
       <path value="Encounter.hospitalization.destination" />
       <type>
@@ -156,6 +223,14 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
+    </element>
+    <element id="Encounter.hospitalization.dischargeDisposition">
+      <path value="Encounter.hospitalization.dischargeDisposition" />
+      <binding>
+        <strength value="extensible" />
+        <description value="The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth." />
+        <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-DischargeDestination" />
+      </binding>
     </element>
     <element id="Encounter.location.location">
       <path value="Encounter.location.location" />
