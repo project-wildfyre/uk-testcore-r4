@@ -43,10 +43,6 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
     </element>
-    <element id="List.identifier.assigner.identifier.assigner">
-      <path value="List.identifier.assigner.identifier.assigner" />
-      <max value="0" />
-    </element>
     <element id="List.code">
       <path value="List.code" />
       <binding>
@@ -71,20 +67,12 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
     </element>
-    <element id="List.subject.identifier.assigner.identifier.assigner">
-      <path value="List.subject.identifier.assigner.identifier.assigner" />
-      <max value="0" />
-    </element>
     <element id="List.encounter.identifier.assigner">
       <path value="List.encounter.identifier.assigner" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
-    </element>
-    <element id="List.encounter.identifier.assigner.identifier.assigner">
-      <path value="List.encounter.identifier.assigner.identifier.assigner" />
-      <max value="0" />
     </element>
     <element id="List.source">
       <path value="List.source" />
@@ -102,10 +90,6 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
-    </element>
-    <element id="List.source.identifier.assigner.identifier.assigner">
-      <path value="List.source.identifier.assigner.identifier.assigner" />
-      <max value="0" />
     </element>
     <element id="List.note.author[x]">
       <path value="List.note.author[x]" />
@@ -126,10 +110,6 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
-    </element>
-    <element id="List.entry.item.identifier.assigner.identifier.assigner">
-      <path value="List.entry.item.identifier.assigner.identifier.assigner" />
-      <max value="0" />
     </element>
     <element id="List.emptyReason">
       <path value="List.emptyReason" />
