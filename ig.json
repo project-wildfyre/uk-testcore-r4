@@ -75,6 +75,10 @@
 			"source": "ValueSet-UKCore-AdmissionMethod.xml",
 			"base": "ValueSet-UKCore-AdmissionMethod.html"
 		},
+		"ValueSet/UKCore-CareSettingType": {
+			"source": "ValueSet-UKCore-CareSettingType.xml",
+			"base": "ValueSet-UKCore-CareSettingType.html"
+		},
 		"ValueSet/UKCore-DischargeDestination": {
 			"source": "ValueSet-UKCore-DischargeDestination.xml",
 			"base": "ValueSet-UKCore-DischargeDestination.html"
@@ -317,6 +321,11 @@
 		"base": "UKCore-Observation.html",
 		"defns": "UKCore-Observation-definitions.html"
 		},
+		"StructureDefinition/UKCore-List": {
+		"source": "UKCore-List.xml",
+		"base": "UKCore-List.html",
+		"defns": "UKCore-List-definitions.html"
+		},
 		"StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus": {
 			"source": "Extension-UKCore-NHSNumberVerificationStatus.xml",
 			"base": "Extension-UKCore-NHSNumberVerificationStatus.html",
@@ -361,6 +370,16 @@
 			"source": "Extension-UKCore-MainLocation.xml",
 			"base": "Extension-UKCore-MainLocation.html",
 			"defns": "Extension-UKCore-MainLocation-definitions.html"
+		},
+		"StructureDefinition/Extension-UKCore-ClinicalSetting": {
+			"source": "Extension-UKCore-ClinicalSetting.xml",
+			"base": "Extension-UKCore-ClinicalSetting.html",
+			"defns": "Extension-UKCore-ClinicalSetting-definitions.html"
+		},
+		"StructureDefinition/Extension-UKCore-ListWarningCode": {
+			"source": "Extension-UKCore-ListWarningCode.xml",
+			"base": "Extension-UKCore-ListWarningCode.html",
+			"defns": "Extension-UKCore-ListWarningCode-definitions.html"
 		},
 		"Patient/UKCore-Patient-Example": {
 			"source": "UKCore-Patient-Example.xml",

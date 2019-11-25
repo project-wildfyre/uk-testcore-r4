@@ -428,6 +428,12 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="StructureDefinition/UKCore-List"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus"/>
 			</reference>
 			<exampleBoolean value="false"/>
@@ -477,6 +483,18 @@
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/Extension-UKCore-MainLocation"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Extension-UKCore-ClinicalSetting"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Extension-UKCore-ListWarningCode"/>
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>		

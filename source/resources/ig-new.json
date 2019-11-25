@@ -461,6 +461,12 @@
     },
     {
       "reference" : {
+        "reference" : "StructureDefinition/UKCore-List"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus"
       },
       "exampleBoolean" : false
@@ -510,6 +516,18 @@
     {
       "reference" : {
         "reference" : "StructureDefinition/Extension-UKCore-MainLocation"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/Extension-UKCore-ClinicalSetting"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/Extension-UKCore-ListWarningCode"
       },
       "exampleBoolean" : false
     },

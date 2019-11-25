@@ -5,6 +5,13 @@
   "jurisdiction": "GB",
   "extensions": [
     {
+      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ClinicalSetting",
+      "title": "UK Core Clinical Setting Extension",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
       "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-DeathNotificationStatus",
       "title": "UK Core Death Notification Status Extension",
       "types": [
@@ -167,6 +174,13 @@
       "title": "UK Core Ethnic Category Extension",
       "types": [
         "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ListWarningCode",
+      "title": "UK Core List Warning Code Extension",
+      "types": [
+        "code"
       ]
     },
     {
@@ -580,6 +594,12 @@
     }
   ],
   "profiles": {
+    "List": [
+      {
+        "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-List",
+        "title": "UK Core List Profile"
+      }
+    ],
     "Location": [
       {
         "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location",

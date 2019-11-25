@@ -828,6 +828,18 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="UKCore-List.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/UKCore-List"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
@@ -931,6 +943,30 @@
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-MainLocation"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Extension-UKCore-ClinicalSetting.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-ClinicalSetting"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Extension-UKCore-ListWarningCode.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-ListWarningCode"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

@@ -3,9 +3,9 @@
 
 err = 26, warn = 0, info = 0
 IG Publisher Version: v1.0.2-SNAPSHOT
-Generated Thu Nov 21 16:40:07 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
+Generated Mon Nov 25 14:00:25 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
 
- Build Errors : 260 / 1
+ Build Errors : 272 / 1
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\codesystems\CodeSystem-UKCore-AdmissionMethod : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\codesystems\CodeSystem-UKCore-ConditionCategory : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\codesystems\CodeSystem-UKCore-ConditionEpisodicity : 0 / 0
@@ -33,8 +33,10 @@ Generated Thu Nov 21 16:40:07 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\conceptmaps\ConceptMap-UKCore-MaritalStatus : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\examples\UKCore-Patient-Example : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\resources\ig : 0 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-ClinicalSetting : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-DeathNotificationStatus : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-EthnicCategory : 0 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-ListWarningCode : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-MainLocation : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-NHSCommunication : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-NHSNumberVerificationStatus : 0 / 0
@@ -42,6 +44,7 @@ Generated Thu Nov 21 16:40:07 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-ReligiousAffiliation : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-ResidentialStatus : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-TreatmentCategory : 0 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\UKCore-List : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\UKCore-Location : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\UKCore-Observation : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\UKCore-Organization : 0 / 0
@@ -55,6 +58,7 @@ Generated Thu Nov 21 16:40:07 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-AllergyManifestation : 1 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-AllergySeverity : 1 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-BodySite : 1 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-CareSettingType : 1 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-ConditionCategory : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-ConditionCode : 1 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-ConditionEpisode : 0 / 0
@@ -82,7 +86,6 @@ Generated Thu Nov 21 16:40:07 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-SDSJobRoleName : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-SourceOfAdmission : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-TreatmentCategory : 0 / 0
- C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\valueset-UKCore-CareSettingType : 1 / 0
 </table>
 == n/a ==
 WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be nhsdigital.fhir.r4.core.prototype
@@ -162,10 +165,14 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\ConceptMap-UKCore-Condit
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\ConceptMap-UKCore-MaritalStatus.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\ConceptMap-UKCore-MaritalStatus.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\ConceptMap-UKCore-MaritalStatus.xml.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\Extension-UKCore-ClinicalSetting-definitions.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\Extension-UKCore-ClinicalSetting.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\Extension-UKCore-DeathNotificationStatus-definitions.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\Extension-UKCore-DeathNotificationStatus.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\Extension-UKCore-EthnicCategory-definitions.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\Extension-UKCore-EthnicCategory.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\Extension-UKCore-ListWarningCode-definitions.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\Extension-UKCore-ListWarningCode.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\Extension-UKCore-MainLocation-definitions.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\Extension-UKCore-MainLocation.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\Extension-UKCore-NHSCommunication-definitions.html: The html source does not contain the publish box
@@ -185,10 +192,14 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\ImplementationGuide-nhsd
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\ImplementationGuide-nhsdigital-fhir-r4-core-prototype.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\Patient-UKCore-Patient-Example.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\Patient-UKCore-Patient-Example.xml.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-Extension-UKCore-ClinicalSetting.json.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-Extension-UKCore-ClinicalSetting.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-Extension-UKCore-DeathNotificationStatus.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-Extension-UKCore-DeathNotificationStatus.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-Extension-UKCore-EthnicCategory.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-Extension-UKCore-EthnicCategory.xml.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-Extension-UKCore-ListWarningCode.json.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-Extension-UKCore-ListWarningCode.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-Extension-UKCore-MainLocation.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-Extension-UKCore-MainLocation.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-Extension-UKCore-NHSCommunication.json.html: The html source does not contain the publish box
@@ -203,6 +214,8 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-Exte
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-Extension-UKCore-ResidentialStatus.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-Extension-UKCore-TreatmentCategory.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-Extension-UKCore-TreatmentCategory.xml.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-UKCore-List.json.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-UKCore-List.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-UKCore-Location.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-UKCore-Location.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-UKCore-Observation.json.html: The html source does not contain the publish box
@@ -215,6 +228,8 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-UKCo
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-UKCore-Practitioner.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-UKCore-PractitionerRole.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\StructureDefinition-UKCore-PractitionerRole.xml.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\UKCore-List-definitions.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\UKCore-List.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\UKCore-Location-definitions.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\UKCore-Location.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\UKCore-Observation-definitions.html: The html source does not contain the publish box
@@ -373,8 +388,10 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\valuesets.html: The html
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\conceptmaps\ConceptMap-UKCore-MaritalStatus.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\examples\UKCore-Patient-Example.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\resources\ig.xml ==
+== C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-ClinicalSetting.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-DeathNotificationStatus.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-EthnicCategory.xml ==
+== C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-ListWarningCode.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-MainLocation.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-NHSCommunication.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-NHSNumberVerificationStatus.xml ==
@@ -382,6 +399,7 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\docs\valuesets.html: The html
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-ReligiousAffiliation.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-ResidentialStatus.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\Extension-UKCore-TreatmentCategory.xml ==
+== C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\UKCore-List.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\UKCore-Location.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\UKCore-Observation.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\structuredefinitions\UKCore-Organization.xml ==
@@ -400,10 +418,12 @@ ERROR: UKCore-AllergyManifestation: Error from server: The filter "concept in lt
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-AllergySeverity.xml ==
 ERROR: UKCore-AllergySeverity: Error from server: The filter "constraint = (255604002 |Mild| OR 6736007 |Moderate| OR 24484000 |Severe| OR 399166001 |Fatal| OR 442452003 |Life threatening severity|)" was not understood in the context of http://snomed.info/sct
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-BodySite.xml ==
-ERROR: UKCore-BodySite: Error from server: The filter "constraint = (<<442083009 |anatomical or acquired body structure|)" was not understood in the context of http://snomed.info/sct
+ERROR: UKCore-BodySite: Error sending HTTP Post/Put Payload
+== C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-CareSettingType.xml ==
+ERROR: UKCore-CareSettingType: Error from server: The filter "concept in ^999000381000000107" was not understood in the context of http://snomed.info/sct
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-ConditionCategory.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-ConditionCode.xml ==
-ERROR: UKCore-ConditionCode: Error from server: The filter "constraint = (< 404684003 |Clinical finding| OR < 413350009 |Finding with explicit context| OR < 272379006 |Event|)" was not understood in the context of http://snomed.info/sct
+ERROR: UKCore-ConditionCode: Error sending HTTP Post/Put Payload
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-ConditionEpisode.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-ConditionEpisodicity.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-DeathNotificationStatus.xml ==
@@ -412,7 +432,7 @@ ERROR: UKCore-ConditionCode: Error from server: The filter "constraint = (< 4046
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-EmergencyCareDischargeStatus.xml ==
 ERROR: UKCore-EmergencyCareDischargeStatus: Error from server: The filter "concept in ^999003021000000104" was not understood in the context of http://snomed.info/sct
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-EncounterType.xml ==
-ERROR: UKCore-EncounterType: Error from server: The filter "constraint = <<185316007 OR <<308467007 OR <<185201007" was not understood in the context of http://snomed.info/sct
+ERROR: UKCore-EncounterType: Error sending HTTP Post/Put Payload
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-EthnicCategory.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-HumanLanguage.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-LanguageAbilityMode.xml ==
@@ -424,7 +444,7 @@ ERROR: UKCore-EncounterType: Error from server: The filter "constraint = <<18531
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-NHSDataDictionary-PersonStatedGender.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-NHSNumberVerificationStatus.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-ObservationType.xml ==
-ERROR: UKCore-ObservationType: Error from server: The filter "constraint = (<<363787002 | Observable entity|)" was not understood in the context of http://snomed.info/sct
+ERROR: UKCore-ObservationType: Error sending HTTP Post/Put Payload
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-OutcomeOfAttendance.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-ProcedureCode.xml ==
 ERROR: UKCore-ProcedureCode: Error from server: The filter "constraint = (<<71388002 |Procedure|<<129125009 OR |Procedure with explicit context|)" was not understood in the context of http://snomed.info/sct
@@ -434,5 +454,3 @@ ERROR: UKCore-ReligiousAffiliation: Error from server: The filter "concept in ^9
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-SDSJobRoleName.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-SourceOfAdmission.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-TreatmentCategory.xml ==
-== C:\RepoGitHub\FHIR-R4-Core-IG-Prototype-new\source\valuesets\ValueSet-UKCore-CareSettingType.xml ==
-ERROR: UKCore-CareSettingType: Error from server: The filter "concept in ^999000381000000107" was not understood in the context of http://snomed.info/sct

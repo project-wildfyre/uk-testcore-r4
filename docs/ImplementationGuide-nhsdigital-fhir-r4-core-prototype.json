@@ -1107,6 +1107,22 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "UKCore-List.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-List"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "StructureDefinition:extension"
           },
           {
@@ -1244,6 +1260,38 @@
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-MainLocation"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Extension-UKCore-ClinicalSetting.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-ClinicalSetting"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Extension-UKCore-ListWarningCode.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-ListWarningCode"
         },
         "exampleBoolean": false
       },
