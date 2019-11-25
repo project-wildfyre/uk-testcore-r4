@@ -145,10 +145,6 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
     </element>
-    <element id="Patient.generalPractitioner.identifier.assigner.identifier.assigner">
-      <path value="Patient.generalPractitioner.identifier.assigner.identifier.assigner" />
-      <max value="0" />
-    </element>
     <element id="Patient.managingOrganization">
       <path value="Patient.managingOrganization" />
       <type>
