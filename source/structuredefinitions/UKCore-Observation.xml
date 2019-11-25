@@ -63,10 +63,6 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
     </element>
-    <element id="Observation.identifier.assigner.identifier.assigner">
-      <path value="Observation.identifier.assigner.identifier.assigner" />
-      <max value="0" />
-    </element>
     <element id="Observation.basedOn.identifier.assigner">
       <path value="Observation.basedOn.identifier.assigner" />
       <type>
@@ -74,20 +70,12 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
     </element>
-    <element id="Observation.basedOn.identifier.assigner.identifier.assigner">
-      <path value="Observation.basedOn.identifier.assigner.identifier.assigner" />
-      <max value="0" />
-    </element>
     <element id="Observation.partOf.identifier.assigner">
       <path value="Observation.partOf.identifier.assigner" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
-    </element>
-    <element id="Observation.partOf.identifier.assigner.identifier.assigner">
-      <path value="Observation.partOf.identifier.assigner.identifier.assigner" />
-      <max value="0" />
     </element>
     <element id="Observation.code.coding">
       <path value="Observation.code.coding" />
@@ -139,10 +127,6 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
     </element>
-    <element id="Observation.subject.identifier.assigner.identifier.assigner">
-      <path value="Observation.subject.identifier.assigner.identifier.assigner" />
-      <max value="0" />
-    </element>
     <element id="Observation.focus.identifier.assigner">
       <path value="Observation.focus.identifier.assigner" />
       <type>
@@ -150,20 +134,12 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
     </element>
-    <element id="Observation.focus.identifier.assigner.identifier.assigner">
-      <path value="Observation.focus.identifier.assigner.identifier.assigner" />
-      <max value="0" />
-    </element>
     <element id="Observation.encounter.identifier.assigner">
       <path value="Observation.encounter.identifier.assigner" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
-    </element>
-    <element id="Observation.encounter.identifier.assigner.identifier.assigner">
-      <path value="Observation.encounter.identifier.assigner.identifier.assigner" />
-      <max value="0" />
     </element>
     <element id="Observation.performer">
       <path value="Observation.performer" />
@@ -183,10 +159,6 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
-    </element>
-    <element id="Observation.performer.identifier.assigner.identifier.assigner">
-      <path value="Observation.performer.identifier.assigner.identifier.assigner" />
-      <max value="0" />
     </element>
     <element id="Observation.note.author[x]">
       <path value="Observation.note.author[x]" />
@@ -241,20 +213,12 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
     </element>
-    <element id="Observation.specimen.identifier.assigner.identifier.assigner">
-      <path value="Observation.specimen.identifier.assigner.identifier.assigner" />
-      <max value="0" />
-    </element>
     <element id="Observation.device.identifier.assigner">
       <path value="Observation.device.identifier.assigner" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
-    </element>
-    <element id="Observation.device.identifier.assigner.identifier.assigner">
-      <path value="Observation.device.identifier.assigner.identifier.assigner" />
-      <max value="0" />
     </element>
     <element id="Observation.hasMember">
       <path value="Observation.hasMember" />
@@ -271,10 +235,6 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
-    </element>
-    <element id="Observation.hasMember.identifier.assigner.identifier.assigner">
-      <path value="Observation.hasMember.identifier.assigner.identifier.assigner" />
-      <max value="0" />
     </element>
     <element id="Observation.derivedFrom">
       <path value="Observation.derivedFrom" />
@@ -294,10 +254,6 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
-    </element>
-    <element id="Observation.derivedFrom.identifier.assigner.identifier.assigner">
-      <path value="Observation.derivedFrom.identifier.assigner.identifier.assigner" />
-      <max value="0" />
     </element>
   </differential>
 </StructureDefinition>
