@@ -61,9 +61,5 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
     </element>
-    <element id="Extension.value[x].identifier.assigner.identifier.assigner">
-      <path value="Extension.value[x].identifier.assigner.identifier.assigner" />
-      <max value="0" />
-    </element>
   </differential>
 </StructureDefinition>
