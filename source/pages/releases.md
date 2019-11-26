@@ -37,7 +37,9 @@ Only two releases of the UK Core will be supported concurrently, and it is deeme
 
 The diagram below illustrates the release cycle of the UK Core.
 
-{% include img.html img="release_diagram.svg" %} 
+{% include img.html img="release_diagram.svg" %}
+
+Note: Due to the time required to implement a UK Core based solution, it is anticipated there will be a requirement to have two live releases at anyone time. 
 
 ## Release Types
 The release of a UK Core specification needs to indicate the magnitude of the changes supported by a new release, so that implementers can gauge the impact of moving to a new release on their current development. It is envisioned that the release will have been developed in full agreement and collaboration with all current implementers, including the scale and scope of the release. 
