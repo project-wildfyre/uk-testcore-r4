@@ -25,6 +25,9 @@ Each version of the UK Core will be in the following format:
 
 - UK Core 'Month of release' 'Year of release', for example 'UK Core February 2020’.
 
+The ‘business version’ which is the default behaviour for versioning by the HL7 IG tooling will not be used. The FHIR assets will be versioned independently of the UK Core.
+
+
 ## Release Schedule
 The first few iterations of the UK Core will be released on an ad hoc basis. This is in order to facilitate a speedier review, feedback and re-development cycle based on first of type implementations experience and consultation with subject matter experts.  
 
@@ -39,7 +42,7 @@ The diagram below illustrates the release cycle of the UK Core.
 
 {% include img.html img="release_diagram.svg" %}
 
-Note: Due to the time required to implement a UK Core based solution, it is anticipated there will be a requirement to have two live releases at anyone time. 
+Note: Due to the time required to implement a UK Core based solution, it is anticipated there will be a requirement to have two live releases at any one time. 
 
 ## Release Types
 The release of a UK Core specification needs to indicate the magnitude of the changes supported by a new release, so that implementers can gauge the impact of moving to a new release on their current development. It is envisioned that the release will have been developed in full agreement and collaboration with all current implementers, including the scale and scope of the release. 
