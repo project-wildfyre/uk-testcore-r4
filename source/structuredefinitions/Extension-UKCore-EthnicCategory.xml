@@ -16,8 +16,8 @@
       <use value="work" />
     </telecom>
   </contact>
-  <description value="This extension is constrained to represent the a patient's ethnic category for use by the FHIR R4 Core Demo specification." />
-  <purpose value="This extension has been developed to represent the ethnic category of a patient for wider use." />
+  <description value="This extension has been constrained to represent a patient's ethnic category." />
+  <purpose value="This extension has been developed to demonstrate the representation of the ethnic category of a patient." />
   <copyright value="Copyright © 2019 NHS Digital" />
   <fhirVersion value="4.0.0" />
   <mapping>

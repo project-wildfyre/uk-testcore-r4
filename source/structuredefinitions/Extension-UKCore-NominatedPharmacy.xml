@@ -16,8 +16,8 @@
       <use value="work" />
     </telecom>
   </contact>
-  <description value="This extension has been constrained to represent a patient's nominated pharmacy for use by the FHIR R4 Core Demo specification." />
-  <purpose value="This extension has been developed to represent a patient's nominated pharmacy for wider use." />
+  <description value="This extension has been constrained to represent a patient's nominated pharmacy." />
+  <purpose value="This extension has been developed to demonstrate the representation of a patient's nominated pharmacy." />
   <copyright value="Copyright © 2019 NHS Digital" />
   <fhirVersion value="4.0.0" />
   <mapping>
