@@ -55,4 +55,5 @@ The format is:
 
 For example - https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient\|1.2.0 see fig2 below for a real example.
 
-{% include img.html img="instance_versioning.svg" %} 
+{% include img.html img="instance_versioning.svg" %}
+
