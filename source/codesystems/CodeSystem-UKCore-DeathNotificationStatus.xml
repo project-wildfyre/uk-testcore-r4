@@ -28,4 +28,8 @@
 		<code value="2"/>
 		<display value="Formal - death notice received from Registrar of Deaths"/>
 	</concept>
+	<concept>
+		<code value="U"/>
+		<display value="Removed"/>
+	</concept>	
 </CodeSystem>
