@@ -566,6 +566,12 @@
     }
   ],
   "profiles": {
+    "Consent": [
+      {
+        "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Consent",
+        "title": "UK Core Consent"
+      }
+    ],
     "List": [
       {
         "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-List",
@@ -653,8 +659,17 @@
       "StructureDefinition.differential.element.type",
       "StructureDefinition.snapshot.element.type"
     ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-json-type": [
+      "StructureDefinition.snapshot.element.type.code"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-rdf-type": [
+      "StructureDefinition.snapshot.element.type.code"
+    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
       "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-xml-type": [
+      "StructureDefinition.snapshot.element.type.code"
     ],
     "http://hl7.org/fhir/StructureDefinition/valueset-sourceReference": [
       "ValueSet"

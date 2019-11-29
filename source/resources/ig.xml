@@ -416,6 +416,12 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="StructureDefinition/UKCore-Consent"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="StructureDefinition/UKCore-RelatedPerson"/>
 			</reference>
 			<exampleBoolean value="false"/>

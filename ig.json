@@ -326,6 +326,11 @@
 		"base": "UKCore-List.html",
 		"defns": "UKCore-List-definitions.html"
 		},
+		"StructureDefinition/UKCore-Consent": {
+		"source": "UKCore-Consent.xml",
+		"base": "UKCore-Consent.html",
+		"defns": "UKCore-Consent-definitions.html"
+		},
 		"StructureDefinition/UKCore-RelatedPerson": {
 		"source": "UKCore-RelatedPerson.xml",
 		"base": "UKCore-RelatedPerson.html",

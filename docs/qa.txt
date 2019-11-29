@@ -3,9 +3,9 @@
 
 err = 26, warn = 0, info = 0
 IG Publisher Version: v1.0.4-SNAPSHOT
-Generated Fri Nov 29 11:17:01 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
+Generated Fri Nov 29 11:26:53 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
 
- Build Errors : 277 / 1
+ Build Errors : 281 / 1
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-AdmissionMethod : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-ConditionCategory : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-ConditionEpisodicity : 0 / 0
@@ -44,6 +44,7 @@ Generated Fri Nov 29 11:17:01 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-ReligiousAffiliation : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-ResidentialStatus : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-TreatmentCategory : 0 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-Consent : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-List : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-Location : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-Observation : 0 / 0
@@ -215,6 +216,8 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extensio
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-ResidentialStatus.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-TreatmentCategory.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-TreatmentCategory.xml.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-UKCore-Consent.json.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-UKCore-Consent.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-UKCore-List.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-UKCore-List.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-UKCore-Location.json.html: The html source does not contain the publish box
@@ -231,6 +234,8 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-UKCore-P
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-UKCore-PractitionerRole.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-UKCore-RelatedPerson.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-UKCore-RelatedPerson.xml.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Consent-definitions.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Consent.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-List-definitions.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-List.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Location-definitions.html: The html source does not contain the publish box
@@ -405,6 +410,7 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\versioning.html: The html so
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-ReligiousAffiliation.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-ResidentialStatus.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-TreatmentCategory.xml ==
+== C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-Consent.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-List.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-Location.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-Observation.xml ==

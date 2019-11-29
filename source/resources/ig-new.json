@@ -449,6 +449,12 @@
     },
     {
       "reference" : {
+        "reference" : "StructureDefinition/UKCore-Consent"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "StructureDefinition/UKCore-RelatedPerson"
       },
       "exampleBoolean" : false
