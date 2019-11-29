@@ -14,46 +14,46 @@ active: Versioning
 
 
 ### Overview
-This section details the versioning approach that will be applied for the FHIR Assets contained within the UK Core.
+This section details the versioning approach that will be applied for the FHIR assets contained within the UK Core.
 
 These Assets are:
-- Profiles (StructureDefinitions)
+- StructureDefinitions (Profiles and Extensions)
 - ValueSets
 - CodeSystems
 - ConceptMaps
-- Extensions
    
-**Important:**
+**Important**
 
-The versioning approach documented here is currently out for consultation and therefore subject to change.
+The versioning approach documented here is currently under consultation and is therefore subject to change.
 
 ## Versioning of the UK Core Assets
-The ‘business version’ which is the default behaviour for versioning by the HL7 IG tooling will not be used. The FHIR assets will be versioned independently of the UK Core.
+The ‘fixed-business-version’ property, which is the default HL7 IG Publisher behaviour for versioning of StructureDefinitions, will not be used. The FHIR assets will be versioned independently of the implementation guide.
 
 ## URL and Name Format for Profiles
-The URL format is defined as
+The URL format is defined as:
 
 'URL' / 'FHIR Version' / 'FHIR asset type' / 'Resource ID'
 
 For example - https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient.
 
-Note : The actual URL will be dependant of where the FHIR assets are hosted.
-  
+Note : The actual URL will depend on where the FHIR assets are hosted.
 
 ## URL and Profile Versioning
-The FHIR profiles (StructureDefinitions) will have not carry version information in the URL, however the UK Core FHIR profiles will use the internal version element as per the FHIR Standard. See Fig 1 below:
+StructureDefinitions will not carry version information in the URL, but will use the internal version element as per the FHIR Standard. This is demonstrated below:
 
 {% include img.html img="sd_versioning.svg" %} 
 
 ## Instance Conformance Identification
 
-For some information flows there a requirement to identify which UK Core profile or profiles an ‘on the wire’ instance conforms to for the purpose of validation and/or conformance testing. This identification is done using the profile meta element. This element carries the profile URL appended with the version information. 
+For some information flows, there is a requirement to identify which UK Core profile(s) an ‘on the wire’ instance conforms to for the purpose of validation and/or conformance testing. This profile conformance is declared using the profile.meta element. This element carries the profile URL appended with the version information. 
 
 The format is:
 
 'URL' "\|" 'version'
 
-For example - https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient\|1.2.0 see fig2 below for a real example.
+For example - https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient\|1.2.0.
+
+This is demonstrated below:
 
 {% include img.html img="instance_versioning.svg" %}
 
