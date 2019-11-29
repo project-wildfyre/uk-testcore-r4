@@ -188,7 +188,7 @@
       <sliceName value="snomedCT" />
       <max value="1" />
       <binding>
-        <strength value="preferred" />
+        <strength value="extensible" />
         <description value="A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;442083009 |anatomical or acquired body structure|)" />
         <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-BodySite" />
       </binding>
