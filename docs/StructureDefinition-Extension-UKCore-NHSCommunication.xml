@@ -39,8 +39,8 @@
       <use value="work"/>
     </telecom>
   </contact>
-  <description value="This extension is constrained to support the communication preferences for a resource in the NHS for use by the FHIR R4 Core Demo specification."/>
-  <purpose value="This extension has been developed to support the communication preferences for a resource in the NHS for wider use."/>
+  <description value="This extension has been constrained to support the communication preferences for a resource in the NHS."/>
+  <purpose value="This extension has been developed to support the communication preferences for a resource in the NHS."/>
   <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
   <fhirVersion value="4.0.1"/>
   <mapping>

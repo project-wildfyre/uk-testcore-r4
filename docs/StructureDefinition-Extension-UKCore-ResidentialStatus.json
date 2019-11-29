@@ -24,8 +24,8 @@
       ]
     }
   ],
-  "description": "This extension is constrained to represent a patient's residential status for use by the FHIR R4 Core Demo specification.",
-  "purpose": "This extension has been developed to represent the residential status of a patient for wider use.",
+  "description": "This extension has been constrained to represent a patient's residential status.",
+  "purpose": "This extension has been developed to demonstrate the representation of a patient's residential status.",
   "copyright": "Copyright © 2019 NHS Digital",
   "fhirVersion": "4.0.1",
   "mapping": [

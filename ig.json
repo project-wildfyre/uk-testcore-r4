@@ -326,6 +326,11 @@
 		"base": "UKCore-List.html",
 		"defns": "UKCore-List-definitions.html"
 		},
+		"StructureDefinition/UKCore-RelatedPerson": {
+		"source": "UKCore-RelatedPerson.xml",
+		"base": "UKCore-RelatedPerson.html",
+		"defns": "UKCore-RelatedPerson-definitions.html"
+		},
 		"StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus": {
 			"source": "Extension-UKCore-NHSNumberVerificationStatus.xml",
 			"base": "Extension-UKCore-NHSNumberVerificationStatus.html",

@@ -24,8 +24,8 @@
       ]
     }
   ],
-  "description": "This extension is constrained to represent a patient’s death notification (as held on Personal Demographics Service (PDS)) for use by the FHIR R4 Core Demo specification.",
-  "purpose": "This extension has been developed to represent the death notification status of a patient for wider use.",
+  "description": "This extension has been constrained to represent a patient’s death notification (as held on Personal Demographics Service (PDS)).",
+  "purpose": "This extension has been developed to demonstrate the representation of a patient's death notification status.",
   "copyright": "Copyright © 2019 NHS Digital",
   "fhirVersion": "4.0.1",
   "mapping": [

@@ -24,8 +24,8 @@
       ]
     }
   ],
-  "description": "This extension is constrained to warnings that the list may be incomplete as data has been excluded due to confidentiality or may be missing due to data being in transit.",
-  "purpose": "This extension has been developed for wider use in order to represent warnings that the list may be incomplete as data has been excluded due to confidentiality or may be missing due to data being in transit.",
+  "description": "This extension has been constrained to represent warnings that a list may be incomplete as data has been excluded due to confidentiality or may be missing due to data being in transit.",
+  "purpose": "This extension has been developed to demonstrate the representation of warnings that the list may be incomplete as data has been excluded due to confidentiality or may be missing due to data being in transit.",
   "copyright": "Copyright © 2019 NHS Digital",
   "fhirVersion": "4.0.1",
   "mapping": [

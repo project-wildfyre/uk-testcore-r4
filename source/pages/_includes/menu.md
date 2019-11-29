@@ -17,6 +17,9 @@
 		<li>
       <a href="releases.html">Releases</a>
     </li>
+		<li>
+      <a href="versioning.html">Versioning</a>
+    </li>
   </ul>
 </li>
 <li class="dropdown">

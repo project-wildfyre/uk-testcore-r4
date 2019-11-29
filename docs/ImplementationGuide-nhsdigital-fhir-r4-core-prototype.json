@@ -1079,6 +1079,22 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "UKCore-RelatedPerson.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-RelatedPerson"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
             "valueUri": "UKCore-Location.html"
           }
         ],

@@ -416,10 +416,16 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/UKCore-Location"/>
+				<reference value="StructureDefinition/UKCore-RelatedPerson"/>
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/UKCore-Location"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>		
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/UKCore-Observation"/>

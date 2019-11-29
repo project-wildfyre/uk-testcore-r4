@@ -24,8 +24,8 @@
       ]
     }
   ],
-  "description": "This extension has been constrained to represent a patient's religious affiliation for use by the FHIR R4 Core Demo specification.",
-  "purpose": "This extension has been developed to represent the religious affiliation of a patient for wider use.",
+  "description": "This extension has been constrained to represent a patient's religious affiliation.",
+  "purpose": "This extension has been developed to demonstrate the representation of a patient's religious affiliation.",
   "copyright": "Copyright © 2019 NHS Digital",
   "fhirVersion": "4.0.1",
   "mapping": [

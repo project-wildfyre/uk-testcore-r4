@@ -607,6 +607,12 @@
         "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole",
         "title": "UK Core PractitionerRole Profile"
       }
+    ],
+    "RelatedPerson": [
+      {
+        "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson",
+        "title": "UK Core RelatedPerson"
+      }
     ]
   },
   "usage": {

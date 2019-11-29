@@ -24,8 +24,8 @@
       ]
     }
   ],
-  "description": "This extension has been constrained to represent a reference to the main location for an organisation for use by the FHIR R4 Core Demo specification.",
-  "purpose": "This extension has been developed to represent a reference to the main location for an organisation for wider use.",
+  "description": "This extension has been constrained to represent a reference to the main location for an organisation.",
+  "purpose": "This extension has been developed to demonstrate the representation of a reference to the main location for an organisation.",
   "copyright": "Copyright © 2019 NHS Digital",
   "fhirVersion": "4.0.1",
   "mapping": [
