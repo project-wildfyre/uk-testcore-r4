@@ -434,6 +434,24 @@
 		</resource>		
 		<resource>
 			<reference>
+				<reference value="StructureDefinition/UKCore-Procedure"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>		
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/UKCore-Condition"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/UKCore-AllergyIntolerance"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>       
+		<resource>
+			<reference>
 				<reference value="StructureDefinition/UKCore-Observation"/>
 			</reference>
 			<exampleBoolean value="false"/>

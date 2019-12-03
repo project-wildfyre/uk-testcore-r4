@@ -467,6 +467,24 @@
     },
     {
       "reference" : {
+        "reference" : "StructureDefinition/UKCore-Procedure"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/UKCore-Condition"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/UKCore-AllergyIntolerance"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "StructureDefinition/UKCore-Observation"
       },
       "exampleBoolean" : false

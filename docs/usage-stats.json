@@ -566,6 +566,18 @@
     }
   ],
   "profiles": {
+    "AllergyIntolerance": [
+      {
+        "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-AllergyIntolerance",
+        "title": "UK Core AllergyIntolerance"
+      }
+    ],
+    "Condition": [
+      {
+        "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Condition",
+        "title": "UK Core Condition"
+      }
+    ],
     "Consent": [
       {
         "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Consent",
@@ -612,6 +624,12 @@
       {
         "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole",
         "title": "UK Core PractitionerRole Profile"
+      }
+    ],
+    "Procedure": [
+      {
+        "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Procedure",
+        "title": "UK Core Procedure"
       }
     ],
     "RelatedPerson": [

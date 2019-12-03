@@ -331,7 +331,21 @@
 		"base": "UKCore-Consent.html",
 		"defns": "UKCore-Consent-definitions.html"
 		},
-		"StructureDefinition/UKCore-RelatedPerson": {
+		"StructureDefinition/UKCore-AllergyIntolerance": {
+		"source": "UKCore-AllergyIntolerance.xml",
+		"base": "UKCore-AllergyIntolerance.html",
+		"defns": "UKCore-AllergyIntolerance-definitions.html"
+		},		
+		"StructureDefinition/UKCore-Condition": {
+		"source": "UKCore-Condition.xml",
+		"base": "UKCore-Condition.html",
+		"defns": "UKCore-Condition-definitions.html"
+		},	
+		"StructureDefinition/UKCore-Procedure": {
+		"source": "UKCore-Procedure.xml",
+		"base": "UKCore-Procedure.html",
+		"defns": "UKCore-Procedure-definitions.html"
+		},			"StructureDefinition/UKCore-RelatedPerson": {
 		"source": "UKCore-RelatedPerson.xml",
 		"base": "UKCore-RelatedPerson.html",
 		"defns": "UKCore-RelatedPerson-definitions.html"
