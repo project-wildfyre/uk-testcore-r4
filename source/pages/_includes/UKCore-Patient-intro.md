@@ -9,7 +9,7 @@
 
 This profile allows exchange of demographics and other administrative information about an individual receiving care or other health-related services.
 
-### Example Usage Scenarios: ###
+### Example Usage Scenarios ###
 
 The following are example usage scenarios for the UK Core Patient profile:
 
