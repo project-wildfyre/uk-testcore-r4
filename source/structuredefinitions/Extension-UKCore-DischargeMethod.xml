@@ -4,7 +4,7 @@
   <url value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-DischargeMethod" />
   <version value="1.0.0" />
   <name value="ExtensionUKCoreDischargeMethod" />
-  <title value="UK Core Discharge Method Extension" />
+  <title value="Extension UK Core Discharge Method" />
   <status value="draft" />
   <date value="2019-11-28" />
   <publisher value="NHS Digital" />

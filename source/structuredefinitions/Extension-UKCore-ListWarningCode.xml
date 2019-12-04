@@ -4,7 +4,7 @@
   <url value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ListWarningCode" />
   <version value="1.0.0" />
   <name value="ExtensionUKCoreListWarningCode" />
-  <title value="UK Core List Warning Code Extension" />
+  <title value="Extension UK Core List Warning Code" />
   <status value="draft" />
   <date value="2019-11-25" />
   <publisher value="NHS Digital" />

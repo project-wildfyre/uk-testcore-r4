@@ -4,7 +4,7 @@
   <url value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ClinicalSetting" />
   <version value="1.0.0" />
   <name value="ExtensionUKCoreClinicalSetting" />
-  <title value="UK Core Clinical Setting Extension" />
+  <title value="Extension UK Core Clinical Setting" />
   <status value="draft" />
   <date value="2019-11-22" />
   <publisher value="NHS Digital" />
