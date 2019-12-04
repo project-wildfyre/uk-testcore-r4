@@ -37,6 +37,7 @@
       <path value="Extension" />
       <short value="Details of any adverse reaction to any anaesthetic agents" />
       <definition value="Details of any adverse reaction to any anaesthetic agents." />
+      <max value="1" />
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
