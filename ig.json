@@ -420,6 +420,11 @@
 			"base": "Extension-UKCore-AdmissionMethod.html",
 			"defns": "Extension-UKCore-AdmissionMethod-definitions.html"
 		},
+		"StructureDefinition/Extension-UKCore-AnaestheticIssues": {
+			"source": "Extension-UKCore-AnaestheticIssues.xml",
+			"base": "Extension-UKCore-AnaestheticIssues.html",
+			"defns": "Extension-UKCore-AnaestheticIssues-definitions.html"
+		},
 		"StructureDefinition/Extension-UKCore-DischargeMethod": {
 			"source": "Extension-UKCore-DischargeMethod.xml",
 			"base": "Extension-UKCore-DischargeMethod.html",
@@ -435,6 +440,54 @@
 			"base": "Extension-UKCore-EmergencyCareDischargeStatus.html",
 			"defns": "Extension-UKCore-EmergencyCareDischargeStatus-definitions.html"
 		},
+		"AllergyIntolerance/UKCore-AllergyIntolerance-Example": {
+			"source": "UKCore-AllergyIntolerance-Example.xml",
+			"base": "UKCore-AllergyIntolerance-Example.html"
+		},
+		"Organization/UKCore-Organisation-Example": {
+			"source": "UKCore-Organisation-Example.xml",
+			"base": "UKCore-Organisation-Example.html"
+		},
+		"Location/UKCore-Location-Example": {
+			"source": "UKCore-Location-Example.xml",
+			"base": "UKCore-Location-Example.html"
+		},
+		"RelatedPerson/UKCore-RelatedPerson-Example": {
+			"source": "UKCore-RelatedPerson-Example.xml",
+			"base": "UKCore-RelatedPerson-Example.html"
+		},
+		"PractitionerRole/UKCore-PractitionerRole-Example": {
+			"source": "UKCore-PractitionerRole-Example.xml",
+			"base": "UKCore-PractitionerRole-Example.html"
+		},
+		"Procedure/UKCore-Procedure-Example": {
+			"source": "UKCore-Procedure-Example.xml",
+			"base": "UKCore-Procedure-Example.html"
+		},
+		"Practitioner/UKCore-Practitioner-Example": {
+			"source": "UKCore-Practitioner-Example.xml",
+			"base": "UKCore-Practitioner-Example.html"
+		},
+		"Observation/UKCore-Observation-Example": {
+			"source": "UKCore-Observation-Example.xml",
+			"base": "UKCore-Observation-Example.html"
+		},
+		"List/UKCore-List-Example": {
+			"source": "UKCore-List-Example.xml",
+			"base": "UKCore-List-Example.html"
+		},
+		"Encounter/UKCore-Encounter-Example": {
+			"source": "UKCore-Encounter-Example.xml",
+			"base": "UKCore-Encounter-Example.html"
+		},
+		"Consent/UKCore-Consent-Example": {
+			"source": "UKCore-Consent-Example.xml",
+			"base": "UKCore-Consent-Example.html"
+		},
+		"Condition/UKCore-Condition-Example": {
+			"source": "UKCore-Condition-Example.xml",
+			"base": "UKCore-Condition-Example.html"
+		},		
 		"Patient/UKCore-Patient-Example": {
 			"source": "UKCore-Patient-Example.xml",
 			"base": "UKCore-Patient-Example.html"

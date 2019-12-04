@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Condition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Git/SchemasR4/condition.xsd">
+	<id value="UKCore-Condition-Example"/>
+	<meta>
+		<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Condition"/>
+	</meta>
+	<clinicalStatus>
+		<coding>
+			<system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+			<code value="active"/>
+			<display value="Active"/>
+		</coding>
+	</clinicalStatus>
+	<subject>
+		<reference value="Patient/UKCore-Patient-Example"/>
+	</subject>
+</Condition>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Encounter xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Git/SchemasR4/encounter.xsd">
+	<id value="UKCore-Encounter-Example"/>
+	<meta>
+		<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Encounter"/>
+	</meta>
+	<status value="finished"/>
+	<class>
+		<system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+		<code value="IMP"/>
+		<display value="inpatient encounter"/>
+	</class>
+</Encounter>

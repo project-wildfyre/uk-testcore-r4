@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Location xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Git/SchemasR4/location.xsd">
+	<id value="UKCore-Location-Example"/>
+	<meta>
+		<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location"/>
+	</meta>
+	<managingOrganization>
+		<reference value="Organization/UKCore-Organisation-Example"/>
+	</managingOrganization>
+</Location>
