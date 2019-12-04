@@ -146,6 +146,13 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
     </element>
+    <element id="Observation.encounter">
+      <path value="Observation.encounter" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Encounter" />
+      </type>
+    </element>
     <element id="Observation.encounter.identifier.assigner">
       <path value="Observation.encounter.identifier.assigner" />
       <type>
