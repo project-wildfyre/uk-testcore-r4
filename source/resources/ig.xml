@@ -572,6 +572,12 @@
 		</resource>		
 		<resource>
 			<reference>
+				<reference value="StructureDefinition/Extension-UKCore-ConditionEpisode"/>
+			</reference>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="Patient/UKCore-Patient-Example"/>
 			</reference>
 			<exampleBoolean value="true"/>

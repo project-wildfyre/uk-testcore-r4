@@ -440,6 +440,11 @@
 			"base": "Extension-UKCore-EmergencyCareDischargeStatus.html",
 			"defns": "Extension-UKCore-EmergencyCareDischargeStatus-definitions.html"
 		},
+		"StructureDefinition/Extension-UKCore-ConditionEpisode": {
+			"source": "Extension-UKCore-ConditionEpisode.xml",
+			"base": "Extension-UKCore-ConditionEpisode.html",
+			"defns": "Extension-UKCore-ConditionEpisode-definitions.html"
+		},		
 		"AllergyIntolerance/UKCore-AllergyIntolerance-Example": {
 			"source": "UKCore-AllergyIntolerance-Example.xml",
 			"base": "UKCore-AllergyIntolerance-Example.html"
