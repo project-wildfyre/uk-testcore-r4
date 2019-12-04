@@ -27,7 +27,7 @@
   <url value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSCommunication"/>
   <version value="1.0.0"/>
   <name value="ExtensionUKCoreNHSCommunication"/>
-  <title value="UK Core NHS Communication Extension"/>
+  <title value="Extension UK Core NHS Communication"/>
   <status value="draft"/>
   <date value="2019-10-30T00:00:00+00:00"/>
   <publisher value="NHS Digital"/>

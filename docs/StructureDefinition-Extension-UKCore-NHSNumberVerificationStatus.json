@@ -8,7 +8,7 @@
   "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus",
   "version": "1.0.0",
   "name": "ExtensionUKCoreNHSNumberVerificationStatus",
-  "title": "UK Core NHS Number Verification Status Extension",
+  "title": "Extension UK Core NHS Number Verification Status",
   "status": "draft",
   "date": "2019-10-18T00:00:00+01:00",
   "publisher": "NHS Digital",

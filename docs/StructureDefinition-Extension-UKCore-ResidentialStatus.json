@@ -8,7 +8,7 @@
   "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ResidentialStatus",
   "version": "1.0.0",
   "name": "ExtensionUKCoreResidentialStatus",
-  "title": "UK Core Residential Status Extension",
+  "title": "Extension UK Core Residential Status",
   "status": "draft",
   "date": "2019-10-21T00:00:00+01:00",
   "publisher": "NHS Digital",

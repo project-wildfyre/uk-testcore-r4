@@ -8,7 +8,7 @@
   "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSCommunication",
   "version": "1.0.0",
   "name": "ExtensionUKCoreNHSCommunication",
-  "title": "UK Core NHS Communication Extension",
+  "title": "Extension UK Core NHS Communication",
   "status": "draft",
   "date": "2019-10-30T00:00:00+00:00",
   "publisher": "NHS Digital",

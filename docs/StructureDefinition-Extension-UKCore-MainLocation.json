@@ -8,7 +8,7 @@
   "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MainLocation",
   "version": "1.0.0",
   "name": "ExtensionUKCoreMainLocation",
-  "title": "UK Core Main Location Extension",
+  "title": "Extension UK Core Main Location",
   "status": "draft",
   "date": "2019-11-20T00:00:00+00:00",
   "publisher": "NHS Digital",

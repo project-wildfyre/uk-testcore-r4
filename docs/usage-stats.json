@@ -6,21 +6,21 @@
   "extensions": [
     {
       "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AdmissionMethod",
-      "title": "UK Core Admission Method Extension",
+      "title": "Extension UK Core Admission Method",
       "types": [
         "CodeableConcept"
       ]
     },
     {
       "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ClinicalSetting",
-      "title": "UK Core Clinical Setting Extension",
+      "title": "Extension UK Core Clinical Setting",
       "types": [
         "CodeableConcept"
       ]
     },
     {
       "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-DeathNotificationStatus",
-      "title": "UK Core Death Notification Status Extension",
+      "title": "Extension UK Core Death Notification Status",
       "types": [
         "base64Binary",
         "boolean",
@@ -178,21 +178,21 @@
     },
     {
       "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-DischargeMethod",
-      "title": "UK Core Discharge Method Extension",
+      "title": "Extension UK Core Discharge Method",
       "types": [
         "CodeableConcept"
       ]
     },
     {
       "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EmergencyCareDischargeStatus",
-      "title": "UK Core Emergency Care Discharge Status Extension",
+      "title": "Extension UK Core Emergency Care Discharge Status",
       "types": [
         "CodeableConcept"
       ]
     },
     {
       "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EncounterTransport",
-      "title": "UK Core Encounter transport Extension",
+      "title": "Extension UK Core Encounter transport",
       "types": [
         "base64Binary",
         "boolean",
@@ -401,21 +401,21 @@
     },
     {
       "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EthnicCategory",
-      "title": "UK Core Ethnic Category Extension",
+      "title": "Extension UK Core Ethnic Category",
       "types": [
         "CodeableConcept"
       ]
     },
     {
       "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ListWarningCode",
-      "title": "UK Core List Warning Code Extension",
+      "title": "Extension UK Core List Warning Code",
       "types": [
         "code"
       ]
     },
     {
       "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MainLocation",
-      "title": "UK Core Main Location Extension",
+      "title": "Extension UK Core Main Location",
       "types": [
         "Reference",
         "string",
@@ -436,7 +436,7 @@
     },
     {
       "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSCommunication",
-      "title": "UK Core NHS Communication Extension",
+      "title": "Extension UK Core NHS Communication",
       "types": [
         "base64Binary",
         "boolean",
@@ -747,14 +747,14 @@
     },
     {
       "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus",
-      "title": "UK Core NHS Number Verification Status Extension",
+      "title": "Extension UK Core NHS Number Verification Status",
       "types": [
         "CodeableConcept"
       ]
     },
     {
       "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NominatedPharmacy",
-      "title": "UK Core Nominated Pharmacy Extension",
+      "title": "Extension UK Core Nominated Pharmacy",
       "types": [
         "Reference",
         "string",
@@ -775,28 +775,28 @@
     },
     {
       "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-OutcomeOfAttendance",
-      "title": "UK Core Outcome of Attendance Extension",
+      "title": "Extension UK Core Outcome of Attendance",
       "types": [
         "CodeableConcept"
       ]
     },
     {
       "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ReligiousAffiliation",
-      "title": "UK Core Religious Affiliation Extension",
+      "title": "Extension UK Core Religious Affiliation",
       "types": [
         "CodeableConcept"
       ]
     },
     {
       "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ResidentialStatus",
-      "title": "UK Core Residential Status Extension",
+      "title": "Extension UK Core Residential Status",
       "types": [
         "CodeableConcept"
       ]
     },
     {
       "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-TreatmentCategory",
-      "title": "UK Core Treatment Category Extension",
+      "title": "Extension UK Core Treatment Category",
       "types": [
         "CodeableConcept"
       ]

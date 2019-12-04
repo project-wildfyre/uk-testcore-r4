@@ -11,7 +11,7 @@
   <url value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EthnicCategory"/>
   <version value="1.0.0"/>
   <name value="ExtensionUKCoreEthnicCategory"/>
-  <title value="UK Core Ethnic Category Extension"/>
+  <title value="Extension UK Core Ethnic Category"/>
   <status value="draft"/>
   <date value="2019-10-21T00:00:00+01:00"/>
   <publisher value="NHS Digital"/>

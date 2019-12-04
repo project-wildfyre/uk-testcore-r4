@@ -8,7 +8,7 @@
   "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ReligiousAffiliation",
   "version": "1.0.0",
   "name": "ExtensionUKCoreReligiousAffiliation",
-  "title": "UK Core Religious Affiliation Extension",
+  "title": "Extension UK Core Religious Affiliation",
   "status": "draft",
   "date": "2019-10-21T00:00:00+01:00",
   "publisher": "NHS Digital",

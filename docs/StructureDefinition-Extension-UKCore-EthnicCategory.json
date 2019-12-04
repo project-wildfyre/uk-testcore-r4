@@ -8,7 +8,7 @@
   "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EthnicCategory",
   "version": "1.0.0",
   "name": "ExtensionUKCoreEthnicCategory",
-  "title": "UK Core Ethnic Category Extension",
+  "title": "Extension UK Core Ethnic Category",
   "status": "draft",
   "date": "2019-10-21T00:00:00+01:00",
   "publisher": "NHS Digital",

@@ -8,7 +8,7 @@
   "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-OutcomeOfAttendance",
   "version": "1.0.0",
   "name": "ExtensionUKCoreOutcomeOfAttendance",
-  "title": "UK Core Outcome of Attendance Extension",
+  "title": "Extension UK Core Outcome of Attendance",
   "status": "draft",
   "date": "2019-11-27T00:00:00+00:00",
   "publisher": "NHS Digital",

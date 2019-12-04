@@ -8,7 +8,7 @@
   "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-DeathNotificationStatus",
   "version": "1.0.0",
   "name": "ExtensionUKCoreDeathNotificationStatus",
-  "title": "UK Core Death Notification Status Extension",
+  "title": "Extension UK Core Death Notification Status",
   "status": "draft",
   "date": "2019-10-28T00:00:00+00:00",
   "publisher": "NHS Digital",

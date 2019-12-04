@@ -8,7 +8,7 @@
   "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-TreatmentCategory",
   "version": "1.0.0",
   "name": "ExtensionUKCoreTreatmentCategory",
-  "title": "UK Core Treatment Category Extension",
+  "title": "Extension UK Core Treatment Category",
   "status": "draft",
   "date": "2019-10-25T00:00:00+01:00",
   "publisher": "NHS Digital",
