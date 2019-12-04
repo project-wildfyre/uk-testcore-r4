@@ -891,6 +891,18 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="UKCore-Encounter.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/UKCore-Encounter"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
         <valueUri value="UKCore-List.html"/>
       </extension>
       <reference>
@@ -1027,6 +1039,66 @@
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-ListWarningCode"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Extension-UKCore-AdmissionMethod.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-AdmissionMethod"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Extension-UKCore-EncounterTransport.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-EncounterTransport"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Extension-UKCore-OutcomeOfAttendance.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-OutcomeOfAttendance"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Extension-UKCore-DischargeMethod.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-DischargeMethod"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Extension-UKCore-EmergencyCareDischargeStatus.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-EmergencyCareDischargeStatus"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

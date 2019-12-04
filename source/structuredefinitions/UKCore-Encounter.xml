@@ -4,7 +4,7 @@
   <url value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Encounter" />
   <version value="1.0.0" />
   <name value="UKCoreEncounter" />
-  <title value="UK Core Encounter Profile" />
+  <title value="UK Core Encounter" />
   <status value="draft" />
   <date value="2019-11-27" />
   <publisher value="NHS Digital" />
@@ -118,9 +118,9 @@
       <path value="Encounter.participant.individual" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson" />
       </type>
     </element>
     <element id="Encounter.participant.individual.identifier.assigner">
@@ -147,10 +147,10 @@
       <path value="Encounter.reasonReference" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Condition" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Procedure" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Condition" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Procedure" />
       </type>
     </element>
     <element id="Encounter.reasonReference.identifier.assigner">
@@ -158,6 +158,14 @@
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
+      </type>
+    </element>
+    <element id="Encounter.diagnosis.condition">
+      <path value="Encounter.diagnosis.condition" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Condition" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Procedure" />
       </type>
     </element>
     <element id="Encounter.diagnosis.condition.identifier.assigner">

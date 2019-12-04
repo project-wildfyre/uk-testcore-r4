@@ -1191,6 +1191,22 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "UKCore-Encounter.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-Encounter"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
             "valueUri": "UKCore-List.html"
           }
         ],
@@ -1372,6 +1388,86 @@
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-ListWarningCode"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Extension-UKCore-AdmissionMethod.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-AdmissionMethod"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Extension-UKCore-EncounterTransport.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-EncounterTransport"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Extension-UKCore-OutcomeOfAttendance.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-OutcomeOfAttendance"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Extension-UKCore-DischargeMethod.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-DischargeMethod"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Extension-UKCore-EmergencyCareDischargeStatus.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-EmergencyCareDischargeStatus"
         },
         "exampleBoolean": false
       },

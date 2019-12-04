@@ -484,6 +484,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/UKCore-Encounter"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/UKCore-List"/>
       </reference>
       <exampleBoolean value="false"/>
@@ -551,6 +557,36 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-ListWarningCode"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-AdmissionMethod"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-EncounterTransport"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-OutcomeOfAttendance"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-DischargeMethod"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-EmergencyCareDischargeStatus"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

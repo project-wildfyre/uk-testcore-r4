@@ -4,7 +4,7 @@
   <url value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-List" />
   <version value="1.0.0" />
   <name value="UKCoreList" />
-  <title value="UK Core List Profile" />
+  <title value="UK Core List" />
   <status value="draft" />
   <date value="2019-11-22" />
   <publisher value="NHS Digital" />
@@ -16,8 +16,8 @@
       <use value="work" />
     </telecom>
   </contact>
-  <description value="This List resource has been constrained to represent a List profile for use by the FHIR R4 Core Demo specification." />
-  <purpose value="This profile has been developed to demonstrate the representation of a List profile for wider use." />
+  <description value="This List resource has been constrained to represent a List profile." />
+  <purpose value="This profile has been developed to demonstrate the representation of a List profile." />
   <copyright value="Copyright © 2019 NHS Digital" />
   <fhirVersion value="4.0.0" />
   <mapping>
@@ -67,6 +67,13 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
     </element>
+    <element id="List.encounter">
+      <path value="List.encounter" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Encounter" />
+      </type>
+    </element>
     <element id="List.encounter.identifier.assigner">
       <path value="List.encounter.identifier.assigner" />
       <type>
@@ -95,10 +102,10 @@
       <path value="List.note.author[x]" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner" />
+        <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson" />
       </type>
       <type>
         <code value="string" />

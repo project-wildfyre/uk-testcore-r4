@@ -316,6 +316,11 @@
 			"base": "UKCore-Organization.html",
 			"defns": "UKCore-Organization-definitions.html"
 		},
+		"StructureDefinition/UKCore-Encounter": {
+			"source": "UKCore-Encounter.xml",
+			"base": "UKCore-Encounter.html",
+			"defns": "UKCore-Encounter-definitions.html"
+		},
 		"StructureDefinition/UKCore-Observation": {
 		"source": "UKCore-Observation.xml",
 		"base": "UKCore-Observation.html",
@@ -404,6 +409,31 @@
 			"source": "Extension-UKCore-ListWarningCode.xml",
 			"base": "Extension-UKCore-ListWarningCode.html",
 			"defns": "Extension-UKCore-ListWarningCode-definitions.html"
+		},
+		"StructureDefinition/Extension-UKCore-EncounterTransport": {
+			"source": "Extension-UKCore-EncounterTransport.xml",
+			"base": "Extension-UKCore-EncounterTransport.html",
+			"defns": "Extension-UKCore-EncounterTransport-definitions.html"
+		},
+		"StructureDefinition/Extension-UKCore-AdmissionMethod": {
+			"source": "Extension-UKCore-AdmissionMethod.xml",
+			"base": "Extension-UKCore-AdmissionMethod.html",
+			"defns": "Extension-UKCore-AdmissionMethod-definitions.html"
+		},
+		"StructureDefinition/Extension-UKCore-DischargeMethod": {
+			"source": "Extension-UKCore-DischargeMethod.xml",
+			"base": "Extension-UKCore-DischargeMethod.html",
+			"defns": "Extension-UKCore-DischargeMethod-definitions.html"
+		},
+		"StructureDefinition/Extension-UKCore-OutcomeOfAttendance": {
+			"source": "Extension-UKCore-OutcomeOfAttendance.xml",
+			"base": "Extension-UKCore-OutcomeOfAttendance.html",
+			"defns": "Extension-UKCore-OutcomeOfAttendance-definitions.html"
+		},
+		"StructureDefinition/Extension-UKCore-EmergencyCareDischargeStatus": {
+			"source": "Extension-UKCore-EmergencyCareDischargeStatus.xml",
+			"base": "Extension-UKCore-EmergencyCareDischargeStatus.html",
+			"defns": "Extension-UKCore-EmergencyCareDischargeStatus-definitions.html"
 		},
 		"Patient/UKCore-Patient-Example": {
 			"source": "UKCore-Patient-Example.xml",

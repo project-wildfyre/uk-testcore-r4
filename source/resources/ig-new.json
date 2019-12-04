@@ -491,6 +491,12 @@
     },
     {
       "reference" : {
+        "reference" : "StructureDefinition/UKCore-Encounter"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "StructureDefinition/UKCore-List"
       },
       "exampleBoolean" : false
@@ -558,6 +564,36 @@
     {
       "reference" : {
         "reference" : "StructureDefinition/Extension-UKCore-ListWarningCode"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/Extension-UKCore-AdmissionMethod"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/Extension-UKCore-EncounterTransport"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/Extension-UKCore-OutcomeOfAttendance"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/Extension-UKCore-DischargeMethod"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/Extension-UKCore-EmergencyCareDischargeStatus"
       },
       "exampleBoolean" : false
     },

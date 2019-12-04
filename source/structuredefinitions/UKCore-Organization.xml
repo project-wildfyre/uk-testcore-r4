@@ -4,7 +4,7 @@
   <url value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
   <version value="1.0.0" />
   <name value="UKCoreOrganization" />
-  <title value="UK Core Organization Profile" />
+  <title value="UK Core Organization" />
   <status value="draft" />
   <date value="2019-11-06" />
   <publisher value="NHS Digital" />
@@ -16,8 +16,8 @@
       <use value="work" />
     </telecom>
   </contact>
-  <description value="This Organization resource has been constrained to represent an Organization profile for use by the FHIR R4 Core Demo specification." />
-  <purpose value="This profile has been developed to demonstrate the representation of an Organization profile for wider use." />
+  <description value="This Organization resource has been constrained to represent an Organization profile." />
+  <purpose value="This profile has been developed to demonstrate the representation of an Organization profile." />
   <copyright value="Copyright © 2019 NHS Digital" />
   <fhirVersion value="4.0.0" />
   <mapping>

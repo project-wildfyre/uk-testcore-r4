@@ -2,10 +2,10 @@
 =========================================
 
 err = 26, warn = 0, info = 0
-IG Publisher Version: v1.0.5-SNAPSHOT
-Generated Tue Dec 03 11:57:38 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
+IG Publisher Version: v1.0.7-SNAPSHOT
+Generated Wed Dec 04 00:15:34 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
 
- Build Errors : 293 / 1
+ Build Errors : 317 / 1
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-AdmissionMethod : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-ConditionCategory : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-ConditionEpisodicity : 0 / 0
@@ -33,20 +33,26 @@ Generated Tue Dec 03 11:57:38 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\conceptmaps\ConceptMap-UKCore-MaritalStatus : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Patient-Example : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\resources\ig : 0 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-AdmissionMethod : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-ClinicalSetting : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-DeathNotificationStatus : 0 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-DischargeMethod : 0 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-EmergencyCareDischargeStatus : 0 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-EncounterTransport : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-EthnicCategory : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-ListWarningCode : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-MainLocation : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-NHSCommunication : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-NHSNumberVerificationStatus : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-NominatedPharmacy : 0 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-OutcomeOfAttendance : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-ReligiousAffiliation : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-ResidentialStatus : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-TreatmentCategory : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-AllergyIntolerance : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-Condition : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-Consent : 0 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-Encounter : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-List : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-Location : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-Observation : 0 / 0
@@ -170,10 +176,18 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\ConceptMap-UKCore-ConditionE
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\ConceptMap-UKCore-MaritalStatus.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\ConceptMap-UKCore-MaritalStatus.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\ConceptMap-UKCore-MaritalStatus.xml.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Extension-UKCore-AdmissionMethod-definitions.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Extension-UKCore-AdmissionMethod.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Extension-UKCore-ClinicalSetting-definitions.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Extension-UKCore-ClinicalSetting.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Extension-UKCore-DeathNotificationStatus-definitions.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Extension-UKCore-DeathNotificationStatus.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Extension-UKCore-DischargeMethod-definitions.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Extension-UKCore-DischargeMethod.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Extension-UKCore-EmergencyCareDischargeStatus-definitions.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Extension-UKCore-EmergencyCareDischargeStatus.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Extension-UKCore-EncounterTransport-definitions.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Extension-UKCore-EncounterTransport.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Extension-UKCore-EthnicCategory-definitions.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Extension-UKCore-EthnicCategory.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Extension-UKCore-ListWarningCode-definitions.html: The html source does not contain the publish box
@@ -186,6 +200,8 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Extension-UKCore-NHSNumberVe
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Extension-UKCore-NHSNumberVerificationStatus.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Extension-UKCore-NominatedPharmacy-definitions.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Extension-UKCore-NominatedPharmacy.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Extension-UKCore-OutcomeOfAttendance-definitions.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Extension-UKCore-OutcomeOfAttendance.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Extension-UKCore-ReligiousAffiliation-definitions.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Extension-UKCore-ReligiousAffiliation.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Extension-UKCore-ResidentialStatus-definitions.html: The html source does not contain the publish box
@@ -197,10 +213,18 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\ImplementationGuide-nhsdigit
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\ImplementationGuide-nhsdigital-fhir-r4-core-prototype.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Patient-UKCore-Patient-Example.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Patient-UKCore-Patient-Example.xml.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-AdmissionMethod.json.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-AdmissionMethod.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-ClinicalSetting.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-ClinicalSetting.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-DeathNotificationStatus.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-DeathNotificationStatus.xml.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-DischargeMethod.json.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-DischargeMethod.xml.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-EmergencyCareDischargeStatus.json.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-EmergencyCareDischargeStatus.xml.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-EncounterTransport.json.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-EncounterTransport.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-EthnicCategory.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-EthnicCategory.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-ListWarningCode.json.html: The html source does not contain the publish box
@@ -213,6 +237,8 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extensio
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-NHSNumberVerificationStatus.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-NominatedPharmacy.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-NominatedPharmacy.xml.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-OutcomeOfAttendance.json.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-OutcomeOfAttendance.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-ReligiousAffiliation.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-ReligiousAffiliation.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-Extension-UKCore-ResidentialStatus.json.html: The html source does not contain the publish box
@@ -225,6 +251,8 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-UKCore-C
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-UKCore-Condition.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-UKCore-Consent.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-UKCore-Consent.xml.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-UKCore-Encounter.json.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-UKCore-Encounter.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-UKCore-List.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-UKCore-List.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-UKCore-Location.json.html: The html source does not contain the publish box
@@ -249,6 +277,8 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Condition-definitions
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Condition.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Consent-definitions.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Consent.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Encounter-definitions.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Encounter.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-List-definitions.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-List.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Location-definitions.html: The html source does not contain the publish box
@@ -414,20 +444,26 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\versioning.html: The html so
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\conceptmaps\ConceptMap-UKCore-MaritalStatus.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Patient-Example.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\resources\ig.xml ==
+== C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-AdmissionMethod.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-ClinicalSetting.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-DeathNotificationStatus.xml ==
+== C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-DischargeMethod.xml ==
+== C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-EmergencyCareDischargeStatus.xml ==
+== C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-EncounterTransport.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-EthnicCategory.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-ListWarningCode.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-MainLocation.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-NHSCommunication.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-NHSNumberVerificationStatus.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-NominatedPharmacy.xml ==
+== C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-OutcomeOfAttendance.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-ReligiousAffiliation.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-ResidentialStatus.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-TreatmentCategory.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-AllergyIntolerance.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-Condition.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-Consent.xml ==
+== C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-Encounter.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-List.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-Location.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-Observation.xml ==

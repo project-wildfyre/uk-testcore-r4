@@ -5,6 +5,13 @@
   "jurisdiction": "GB",
   "extensions": [
     {
+      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AdmissionMethod",
+      "title": "UK Core Admission Method Extension",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
       "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ClinicalSetting",
       "title": "UK Core Clinical Setting Extension",
       "types": [
@@ -117,6 +124,229 @@
         "Dosage",
         "Meta",
         "dateTime",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-DischargeMethod",
+      "title": "UK Core Discharge Method Extension",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EmergencyCareDischargeStatus",
+      "title": "UK Core Emergency Care Discharge Status Extension",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EncounterTransport",
+      "title": "UK Core Encounter transport Extension",
+      "types": [
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta",
+        "CodeableConcept",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta",
+        "Period",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta",
+        "string",
         "base64Binary",
         "boolean",
         "canonical",
@@ -544,6 +774,13 @@
       ]
     },
     {
+      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-OutcomeOfAttendance",
+      "title": "UK Core Outcome of Attendance Extension",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
       "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ReligiousAffiliation",
       "title": "UK Core Religious Affiliation Extension",
       "types": [
@@ -584,46 +821,52 @@
         "title": "UK Core Consent"
       }
     ],
+    "Encounter": [
+      {
+        "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Encounter",
+        "title": "UK Core Encounter"
+      }
+    ],
     "List": [
       {
         "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-List",
-        "title": "UK Core List Profile"
+        "title": "UK Core List"
       }
     ],
     "Location": [
       {
         "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location",
-        "title": "UK Core Location Profile"
+        "title": "UK Core Location"
       }
     ],
     "Observation": [
       {
         "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation",
-        "title": "UK Core Observation Profile"
+        "title": "UK Core Observation"
       }
     ],
     "Organization": [
       {
         "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization",
-        "title": "UK Core Organization Profile"
+        "title": "UK Core Organization"
       }
     ],
     "Patient": [
       {
         "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient",
-        "title": "UK Core Patient Profile"
+        "title": "UK Core Patient"
       }
     ],
     "Practitioner": [
       {
         "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner",
-        "title": "UK Core Practitioner Profile"
+        "title": "UK Core Practitioner"
       }
     ],
     "PractitionerRole": [
       {
         "url": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole",
-        "title": "UK Core PractitionerRole Profile"
+        "title": "UK Core PractitionerRole"
       }
     ],
     "Procedure": [
