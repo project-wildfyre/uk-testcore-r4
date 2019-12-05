@@ -1,5 +1,6 @@
 {
 	"source": "ig.xml",
+	"sct-edition" : "http://snomed.info/sct/999000031000000106",
 	"specification": "http://hl7.org/fhir",
 	"paths": {
 		"history": "source/history",
@@ -155,10 +156,6 @@
 			"source": "ValueSet-UKCore-ProcedureCode.xml",
 			"base": "ValueSet-UKCore-ProcedureCode.html"
 		},
-		"ValueSet/UKCore-ConditionCategory": {
-			"source": "ValueSet-UKCore-ConditionCategory.xml",
-			"base": "ValueSet-UKCore-ConditionCategory.html"
-		},
 		"ValueSet/UKCore-ConditionEpisodicity": {
 			"source": "ValueSet-UKCore-ConditionEpisodicity.xml",
 			"base": "ValueSet-UKCore-ConditionEpisodicity.html"
@@ -214,10 +211,6 @@
 		"CodeSystem/UKCore-ConditionEpisodicity": {
 			"source": "CodeSystem-UKCore-ConditionEpisodicity.xml",
 			"base": "CodeSystem-UKCore-ConditionEpisodicity.html"
-		},
-		"CodeSystem/UKCore-ConditionCategory": {
-			"source": "CodeSystem-UKCore-ConditionCategory.xml",
-			"base": "CodeSystem-UKCore-ConditionCategory.html"
 		},
 		"CodeSystem/UKCore-NHSNumberVerificationStatus": {
 			"source": "CodeSystem-UKCore-NHSNumberVerificationStatus.xml",

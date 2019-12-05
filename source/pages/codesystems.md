@@ -13,7 +13,6 @@ This page lists all the CodeSystems defined as part of this Implementation Guide
 - [NHS Data Model and Dictionary Source Of Admission](CodeSystem-UKCore-SourceOfAdmission.html)
 - [NHS Data Model and Dictionary Person Stated Gender Code](CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender.html)
 - [NHS Data Model and Dictionary Person Marital Status Code](CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus.html)
-- [UK Core Condition Category](CodeSystem-UKCore-ConditionCategory.html)
 - [UK Core Condition Episodicity](CodeSystem-UKCore-ConditionEpisodicity.html) 
 - [UK Core Death Notification Status](CodeSystem-UKCore-DeathNotificationStatus.html)
 - [UK Core Ethnic Category](CodeSystem-UKCore-EthnicCategory.html)

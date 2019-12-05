@@ -3,11 +3,10 @@
 
 err = 26, warn = 2, info = 0
 IG Publisher Version: v1.0.13-SNAPSHOT
-Generated Thu Dec 05 12:09:25 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
+Generated Thu Dec 05 13:51:48 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
 
- Build Errors : 369 / 1
+ Build Errors : 363 / 1
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-AdmissionMethod : 0 / 0
- C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-ConditionCategory : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-ConditionEpisodicity : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-DeathNotificationStatus : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-DischargeDestination : 0 / 0
@@ -86,7 +85,6 @@ Generated Thu Dec 05 12:09:25 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-AllergySeverity : 1 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-BodySite : 1 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-CareSettingType : 1 / 0
- C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-ConditionCategory : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-ConditionCode : 1 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-ConditionEpisode : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-ConditionEpisodicity : 0 / 0
@@ -122,9 +120,6 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Any.html: The html source do
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\CodeSystem-UKCore-AdmissionMethod.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\CodeSystem-UKCore-AdmissionMethod.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\CodeSystem-UKCore-AdmissionMethod.xml.html: The html source does not contain the publish box
-ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\CodeSystem-UKCore-ConditionCategory.html: The html source does not contain the publish box
-ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\CodeSystem-UKCore-ConditionCategory.json.html: The html source does not contain the publish box
-ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\CodeSystem-UKCore-ConditionCategory.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\CodeSystem-UKCore-ConditionEpisodicity.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\CodeSystem-UKCore-ConditionEpisodicity.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\CodeSystem-UKCore-ConditionEpisodicity.xml.html: The html source does not contain the publish box
@@ -390,9 +385,6 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\ValueSet-UKCore-BodySite.xml
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\ValueSet-UKCore-CareSettingType.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\ValueSet-UKCore-CareSettingType.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\ValueSet-UKCore-CareSettingType.xml.html: The html source does not contain the publish box
-ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\ValueSet-UKCore-ConditionCategory.html: The html source does not contain the publish box
-ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\ValueSet-UKCore-ConditionCategory.json.html: The html source does not contain the publish box
-ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\ValueSet-UKCore-ConditionCategory.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\ValueSet-UKCore-ConditionCode.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\ValueSet-UKCore-ConditionCode.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\ValueSet-UKCore-ConditionCode.xml.html: The html source does not contain the publish box
@@ -486,7 +478,6 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\summary.html: The html sourc
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\valuesets.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\versioning.html: The html source does not contain the publish box
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-AdmissionMethod.xml ==
-== C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-ConditionCategory.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-ConditionEpisodicity.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-DeathNotificationStatus.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-DischargeDestination.xml ==
@@ -573,7 +564,6 @@ ERROR: UKCore-AllergySeverity: Error from server: The filter "constraint = (2556
 ERROR: UKCore-BodySite: Error from server: The filter "constraint = (<<442083009 |anatomical or acquired body structure|)" was not understood in the context of http://snomed.info/sct
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-CareSettingType.xml ==
 ERROR: UKCore-CareSettingType: Error from server: The filter "concept in ^999000381000000107" was not understood in the context of http://snomed.info/sct
-== C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-ConditionCategory.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-ConditionCode.xml ==
 ERROR: UKCore-ConditionCode: Error from server: The filter "constraint = (< 404684003 |Clinical finding| OR < 413350009 |Finding with explicit context| OR < 272379006 |Event|)" was not understood in the context of http://snomed.info/sct
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-ConditionEpisode.xml ==

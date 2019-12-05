@@ -101,12 +101,6 @@
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UKCore-ConditionCategory"
-      },
-      "exampleBoolean" : false
-    },
-    {
-      "reference" : {
         "reference" : "ValueSet/UKCore-ConditionEpisodicity"
       },
       "exampleBoolean" : false
@@ -300,12 +294,6 @@
     {
       "reference" : {
         "reference" : "CodeSystem/UKCore-ConditionEpisodicity"
-      },
-      "exampleBoolean" : false
-    },
-    {
-      "reference" : {
-        "reference" : "CodeSystem/UKCore-ConditionCategory"
       },
       "exampleBoolean" : false
     },

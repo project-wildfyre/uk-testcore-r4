@@ -151,22 +151,6 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ValueSet-UKCore-ConditionCategory.html"
-          }
-        ],
-        "reference": {
-          "reference": "ValueSet/UKCore-ConditionCategory"
-        },
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
             "valueUri": "ValueSet-UKCore-ConditionEpisodicity.html"
           }
         ],
@@ -684,22 +668,6 @@
         ],
         "reference": {
           "reference": "CodeSystem/UKCore-ConditionEpisodicity"
-        },
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "CodeSystem-UKCore-ConditionCategory.html"
-          }
-        ],
-        "reference": {
-          "reference": "CodeSystem/UKCore-ConditionCategory"
         },
         "exampleBoolean": false
       },

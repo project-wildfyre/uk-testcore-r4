@@ -68,12 +68,6 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/UKCore-ConditionCategory"/>
-			</reference>
-			<exampleBoolean value="false"/>
-		</resource>
-		<resource>
-			<reference>
 				<reference value="ValueSet/UKCore-ConditionEpisodicity"/>
 			</reference>
 			<exampleBoolean value="false"/>
@@ -267,12 +261,6 @@
 		<resource>
 			<reference>
 				<reference value="CodeSystem/UKCore-ConditionEpisodicity"/>
-			</reference>
-			<exampleBoolean value="false"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="CodeSystem/UKCore-ConditionCategory"/>
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>
