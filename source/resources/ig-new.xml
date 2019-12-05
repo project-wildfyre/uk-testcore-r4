@@ -580,6 +580,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/Extension-UKCore-AnaestheticIssues"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/Extension-UKCore-DischargeMethod"/>
       </reference>
       <exampleBoolean value="false"/>
@@ -592,7 +598,85 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/Extension-UKCore-ConditionEpisode"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Patient/UKCore-Patient-Example"/>
+      </reference>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Condition/UKCore-Condition-Example"/>
+      </reference>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="AllergyIntolerance/UKCore-AllergyIntolerance-Example"/>
+      </reference>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Organization/UKCore-Organisation-Example"/>
+      </reference>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Location/UKCore-Location-Example"/>
+      </reference>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="RelatedPerson/UKCore-RelatedPerson-Example"/>
+      </reference>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="PractitionerRole/UKCore-PractitionerRole-Example"/>
+      </reference>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Procedure/UKCore-Procedure-Example"/>
+      </reference>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Practitioner/UKCore-Practitioner-Example"/>
+      </reference>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/UKCore-Observation-Example"/>
+      </reference>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="List/UKCore-List-Example"/>
+      </reference>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Encounter/UKCore-Encounter-Example"/>
+      </reference>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Consent/UKCore-Consent-Example"/>
       </reference>
       <exampleBoolean value="true"/>
     </resource>

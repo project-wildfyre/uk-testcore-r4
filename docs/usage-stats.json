@@ -12,10 +12,25 @@
       ]
     },
     {
+      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AnaestheticIssues",
+      "title": "Extension UK Core Anaesthetic Issues",
+      "types": [
+        "CodeableConcept",
+        "Reference"
+      ]
+    },
+    {
       "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ClinicalSetting",
       "title": "Extension UK Core Clinical Setting",
       "types": [
         "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ConditionEpisode",
+      "title": "Extension UK Core Condition Episode",
+      "types": [
+        "code"
       ]
     },
     {
@@ -192,7 +207,7 @@
     },
     {
       "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EncounterTransport",
-      "title": "Extension UK Core Encounter transport",
+      "title": "Extension UK Core Encounter Transport",
       "types": [
         "base64Binary",
         "boolean",
@@ -937,6 +952,9 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MainLocation": [
+      "Organization"
     ],
     "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus": [
       "Patient.identifier"

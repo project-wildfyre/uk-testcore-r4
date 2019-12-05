@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="UKCore-Observation-Example"/>
+  <meta>
+    <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Observation-Example</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: Awareness of diagnosis (observable entity) <span style="background: LightGoldenRodYellow">(Details : {SNOMED CT code '162564003' = 'Awareness of diagnosis', given as 'Awareness of diagnosis (observable entity)'})</span></p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="162564003"/>
+      <display value="Awareness of diagnosis (observable entity)"/>
+    </coding>
+  </code>
+</Observation>

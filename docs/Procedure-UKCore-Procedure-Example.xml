@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Procedure xmlns="http://hl7.org/fhir">
+  <id value="UKCore-Procedure-Example"/>
+  <meta>
+    <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Procedure"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Procedure-Example</p><p><b>meta</b>: </p><p><b>status</b>: completed</p><p><b>subject</b>: <a href="UKCore-Patient-Example.html">Generated Summary: id: UKCore-Patient-Example; Richard SMITH (OFFICIAL); birthDate: 1970-09-11</a></p></div>
+  </text>
+  <status value="completed"/>
+  <subject>
+    <reference value="Patient/UKCore-Patient-Example"/>
+  </subject>
+</Procedure>

@@ -587,6 +587,12 @@
     },
     {
       "reference" : {
+        "reference" : "StructureDefinition/Extension-UKCore-AnaestheticIssues"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "StructureDefinition/Extension-UKCore-DischargeMethod"
       },
       "exampleBoolean" : false
@@ -599,7 +605,85 @@
     },
     {
       "reference" : {
+        "reference" : "StructureDefinition/Extension-UKCore-ConditionEpisode"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "Patient/UKCore-Patient-Example"
+      },
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "Condition/UKCore-Condition-Example"
+      },
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "AllergyIntolerance/UKCore-AllergyIntolerance-Example"
+      },
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "Organization/UKCore-Organisation-Example"
+      },
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "Location/UKCore-Location-Example"
+      },
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "RelatedPerson/UKCore-RelatedPerson-Example"
+      },
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "PractitionerRole/UKCore-PractitionerRole-Example"
+      },
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "Procedure/UKCore-Procedure-Example"
+      },
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "Practitioner/UKCore-Practitioner-Example"
+      },
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "Observation/UKCore-Observation-Example"
+      },
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "List/UKCore-List-Example"
+      },
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "Encounter/UKCore-Encounter-Example"
+      },
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "Consent/UKCore-Consent-Example"
       },
       "exampleBoolean" : true
     }],

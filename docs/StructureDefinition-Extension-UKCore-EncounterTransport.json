@@ -8,7 +8,7 @@
   "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EncounterTransport",
   "version": "1.0.0",
   "name": "ExtensionUKCoreEncounterTransport",
-  "title": "Extension UK Core Encounter transport",
+  "title": "Extension UK Core Encounter Transport",
   "status": "draft",
   "date": "2019-11-26T00:00:00+00:00",
   "publisher": "NHS Digital",

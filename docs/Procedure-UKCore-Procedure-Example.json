@@ -1,0 +1,17 @@
+{
+  "resourceType": "Procedure",
+  "id": "UKCore-Procedure-Example",
+  "meta": {
+    "profile": [
+      "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Procedure"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Procedure-Example</p><p><b>meta</b>: </p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"UKCore-Patient-Example.html\">Generated Summary: id: UKCore-Patient-Example; Richard SMITH (OFFICIAL); birthDate: 1970-09-11</a></p></div>"
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/UKCore-Patient-Example"
+  }
+}

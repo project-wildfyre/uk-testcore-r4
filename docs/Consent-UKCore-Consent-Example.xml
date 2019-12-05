@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Consent xmlns="http://hl7.org/fhir">
+  <id value="UKCore-Consent-Example"/>
+  <meta>
+    <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Consent"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Consent-Example</p><p><b>meta</b>: </p><p><b>status</b>: active</p><p><b>scope</b>: Privacy Consent <span style="background: LightGoldenRodYellow">(Details : {http://terminology.hl7.org/CodeSystem/consentscope code 'patient-privacy' = 'Privacy Consent', given as 'Privacy Consent'})</span></p><p><b>category</b>: information access <span style="background: LightGoldenRodYellow">(Details : {http://terminology.hl7.org/CodeSystem/v3-ActCode code 'INFA' = 'information access', given as 'information access'})</span></p><p><b>patient</b>: <a href="UKCore-Patient-Example.html">Generated Summary: id: UKCore-Patient-Example; Richard SMITH (OFFICIAL); birthDate: 1970-09-11</a></p><h3>Policies</h3><table class="grid"><tr><td>-</td><td><b>Authority</b></td><td><b>Uri</b></td></tr><tr><td>*</td><td><a href="https://www.exampleauthority.nhs.uk">https://www.exampleauthority.nhs.uk</a></td><td><a href="https://www.exampleauthority.nhs.uk/policies/policy-example-v1.0">https://www.exampleauthority.nhs.uk/policies/policy-example-v1.0</a></td></tr></table></div>
+  </text>
+  <status value="active"/>
+  <scope>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/consentscope"/>
+      <code value="patient-privacy"/>
+      <display value="Privacy Consent"/>
+    </coding>
+  </scope>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+      <code value="INFA"/>
+      <display value="information access"/>
+    </coding>
+  </category>
+  <patient>
+    <reference value="Patient/UKCore-Patient-Example"/>
+  </patient>
+  <policy>
+    <authority value="https://www.exampleauthority.nhs.uk"/>
+    <uri value="https://www.exampleauthority.nhs.uk/policies/policy-example-v1.0"/>
+  </policy>
+</Consent>

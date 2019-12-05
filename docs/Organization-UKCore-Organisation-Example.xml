@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="UKCore-Organisation-Example"/>
+  <meta>
+    <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Organisation-Example</p><p><b>meta</b>: </p><p><b>identifier</b>: RY6 (OFFICIAL)</p></div>
+  </text>
+  <extension url="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MainLocation">
+    <valueReference>
+      <reference value="Location/UKCore-Location-Example"/>
+    </valueReference>
+  </extension>
+  <identifier>
+    <use value="official"/>
+    <system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+    <value value="RY6"/>
+  </identifier>
+</Organization>

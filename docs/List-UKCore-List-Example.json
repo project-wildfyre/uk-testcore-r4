@@ -1,0 +1,15 @@
+{
+  "resourceType": "List",
+  "id": "UKCore-List-Example",
+  "meta": {
+    "profile": [
+      "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-List"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-List-Example</p><p><b>meta</b>: </p><p><b>status</b>: current</p><p><b>mode</b>: working</p></div>"
+  },
+  "status": "current",
+  "mode": "working"
+}

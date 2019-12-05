@@ -1,0 +1,19 @@
+{
+  "resourceType": "Practitioner",
+  "id": "UKCore-Practitioner-Example",
+  "meta": {
+    "profile": [
+      "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Practitioner-Example</p><p><b>meta</b>: </p><p><b>identifier</b>: G12345678</p></div>"
+  },
+  "identifier": [
+    {
+      "system": "https://fhir.nhs.uk/Id/sds-user-id",
+      "value": "G12345678"
+    }
+  ]
+}

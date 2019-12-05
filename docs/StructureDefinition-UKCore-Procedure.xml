@@ -46,7 +46,7 @@
   <name value="UKCoreProcedure"/>
   <title value="UK Core Procedure"/>
   <status value="draft"/>
-  <date value="2019-12-04T11:30:25+00:00"/>
+  <date value="2019-12-05T09:11:57+00:00"/>
   <publisher value="NHS Digital"/>
   <contact>
     <name value="Interoperability Team"/>
@@ -56,8 +56,8 @@
       <use value="work"/>
     </telecom>
   </contact>
-  <description value="This Procedure resource has been constrained to represent a Procedure profile."/>
-  <purpose value="This profile has been developed to demonstrate the representation of a Procedure profile."/>
+  <description value="Defines the UK Core constraints and extensions on the Procedure resource for the minimal set of data to query and retrieve the patient&#x2019;s procedure information."/>
+  <purpose value="This profile allows exchange of details of current and historical procedures performed on or for an individual. A procedure is an activity that is performed on, with, or for an individual as part of the provision of care. Examples include surgical procedures, diagnostic procedures, endoscopic procedures, biopsies, counselling, physiotherapy, personal support services, adult day care services, non-emergency transportation, home modification, exercise, etc. Procedures may be performed by a healthcare professional, a service provider, a friend or relative or in some cases by themselves."/>
   <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
   <fhirVersion value="4.0.1"/>
   <mapping>

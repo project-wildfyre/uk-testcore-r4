@@ -1,0 +1,28 @@
+{
+  "resourceType": "Organization",
+  "id": "UKCore-Organisation-Example",
+  "meta": {
+    "profile": [
+      "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Organisation-Example</p><p><b>meta</b>: </p><p><b>identifier</b>: RY6 (OFFICIAL)</p></div>"
+  },
+  "extension": [
+    {
+      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MainLocation",
+      "valueReference": {
+        "reference": "Location/UKCore-Location-Example"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "use": "official",
+      "system": "https://fhir.nhs.uk/Id/ods-organization-code",
+      "value": "RY6"
+    }
+  ]
+}

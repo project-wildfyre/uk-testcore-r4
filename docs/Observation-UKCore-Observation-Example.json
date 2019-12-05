@@ -1,0 +1,23 @@
+{
+  "resourceType": "Observation",
+  "id": "UKCore-Observation-Example",
+  "meta": {
+    "profile": [
+      "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Observation-Example</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: Awareness of diagnosis (observable entity) <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '162564003' = 'Awareness of diagnosis', given as 'Awareness of diagnosis (observable entity)'})</span></p></div>"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "162564003",
+        "display": "Awareness of diagnosis (observable entity)"
+      }
+    ]
+  }
+}

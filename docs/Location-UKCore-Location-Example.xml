@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Location xmlns="http://hl7.org/fhir">
+  <id value="UKCore-Location-Example"/>
+  <meta>
+    <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Location-Example</p><p><b>meta</b>: </p><p><b>managingOrganization</b>: <a href="UKCore-Organisation-Example.html">Generated Summary: id: UKCore-Organisation-Example; RY6 (OFFICIAL)</a></p></div>
+  </text>
+  <managingOrganization>
+    <reference value="Organization/UKCore-Organisation-Example"/>
+  </managingOrganization>
+</Location>

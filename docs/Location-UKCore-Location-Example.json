@@ -1,0 +1,16 @@
+{
+  "resourceType": "Location",
+  "id": "UKCore-Location-Example",
+  "meta": {
+    "profile": [
+      "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Location-Example</p><p><b>meta</b>: </p><p><b>managingOrganization</b>: <a href=\"UKCore-Organisation-Example.html\">Generated Summary: id: UKCore-Organisation-Example; RY6 (OFFICIAL)</a></p></div>"
+  },
+  "managingOrganization": {
+    "reference": "Organization/UKCore-Organisation-Example"
+  }
+}

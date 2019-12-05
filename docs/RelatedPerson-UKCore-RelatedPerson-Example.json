@@ -1,0 +1,16 @@
+{
+  "resourceType": "RelatedPerson",
+  "id": "UKCore-RelatedPerson-Example",
+  "meta": {
+    "profile": [
+      "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-RelatedPerson-Example</p><p><b>meta</b>: </p><p><b>patient</b>: <a href=\"UKCore-Patient-Example.html\">Generated Summary: id: UKCore-Patient-Example; Richard SMITH (OFFICIAL); birthDate: 1970-09-11</a></p></div>"
+  },
+  "patient": {
+    "reference": "Patient/UKCore-Patient-Example"
+  }
+}
