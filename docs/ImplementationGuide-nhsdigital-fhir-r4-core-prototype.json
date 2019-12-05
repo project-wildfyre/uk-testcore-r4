@@ -1255,6 +1255,38 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Extension-UKCore-Evidence.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-Evidence"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Extension-UKCore-AllergyIntoleranceEnd.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-AllergyIntoleranceEnd"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
             "valueUri": "Extension-UKCore-DeathNotificationStatus.html"
           }
         ],

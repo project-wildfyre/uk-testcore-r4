@@ -17,10 +17,10 @@ active: Versioning
 This section details the versioning approach that will be applied for the FHIR assets contained within the UK Core.
 
 These Assets are:
-- StructureDefinitions (Profiles and Extensions)
-- ValueSets
-- CodeSystems
-- ConceptMaps
+- StructureDefinitions (<a href="profiles.html">Profiles</a> and  <a href="extension_library.html">Extensions</a>)
+- <a href="valuesets.html">ValueSets</a>
+- <a href="codesystems.html">CodeSystems</a>
+- <a href="conceptmaps.html">ConceptMaps</a>
    
 **Important**
 

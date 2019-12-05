@@ -445,6 +445,16 @@
 			"base": "Extension-UKCore-ConditionEpisode.html",
 			"defns": "Extension-UKCore-ConditionEpisode-definitions.html"
 		},		
+		"StructureDefinition/Extension-UKCore-AllergyIntoleranceEnd": {
+			"source": "Extension-UKCore-AllergyIntoleranceEnd.xml",
+			"base": "Extension-UKCore-AllergyIntoleranceEnd.html",
+			"defns": "Extension-UKCore-AllergyIntoleranceEnd-definitions.html"
+		},			
+		"StructureDefinition/Extension-UKCore-Evidence": {
+			"source": "Extension-UKCore-Evidence.xml",
+			"base": "Extension-UKCore-Evidence.html",
+			"defns": "Extension-UKCore-Evidence-definitions.html"
+		},		
 		"AllergyIntolerance/UKCore-AllergyIntolerance-Example": {
 			"source": "UKCore-AllergyIntolerance-Example.xml",
 			"base": "UKCore-AllergyIntolerance-Example.html"

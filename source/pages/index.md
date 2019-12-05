@@ -1,5 +1,5 @@
 ---
-title: FHIR R4 Core Prototype Implementation Guide - December 2019 Release
+title: FHIR R4 Core Prototype Implementation Guide - December 2019
 layout: default
 active: home
 ---

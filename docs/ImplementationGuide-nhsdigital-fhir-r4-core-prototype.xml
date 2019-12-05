@@ -939,6 +939,30 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Extension-UKCore-Evidence.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-Evidence"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Extension-UKCore-AllergyIntoleranceEnd.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-AllergyIntoleranceEnd"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
         <valueUri value="Extension-UKCore-DeathNotificationStatus.html"/>
       </extension>
       <reference>

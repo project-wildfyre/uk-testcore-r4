@@ -25,7 +25,7 @@ Each version of the UK Core will be in the following format:
 
 - UK Core 'Month of release' 'Year of release', for example 'UK Core February 2020’.
 
-The ‘business version’ which is the default behaviour for versioning by the HL7 IG tooling will not be used. The FHIR assets will be versioned independently of the UK Core.
+The ‘fixed-business-version’ property, which is the default HL7 IG Publisher behaviour for versioning of StructureDefinitions, will not be used. The FHIR assets will be versioned independently of the implementation guide.
 
 
 ## Release Schedule

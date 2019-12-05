@@ -515,6 +515,18 @@
     },
     {
       "reference" : {
+        "reference" : "StructureDefinition/Extension-UKCore-Evidence"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/Extension-UKCore-AllergyIntoleranceEnd"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "StructureDefinition/Extension-UKCore-DeathNotificationStatus"
       },
       "exampleBoolean" : false

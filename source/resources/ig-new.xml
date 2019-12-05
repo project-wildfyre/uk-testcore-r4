@@ -508,6 +508,18 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/Extension-UKCore-Evidence"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-AllergyIntoleranceEnd"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/Extension-UKCore-DeathNotificationStatus"/>
       </reference>
       <exampleBoolean value="false"/>
