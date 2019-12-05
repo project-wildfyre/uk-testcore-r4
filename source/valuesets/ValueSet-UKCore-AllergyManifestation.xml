@@ -23,7 +23,7 @@
 			<filter>
 				<property value="concept"/>
 				<op value="in"/>
-				<value value="lt;lt;404684003"/>
+				<value value="&lt;&lt;404684003"/>
 			</filter>
 		</include>
 		<include>

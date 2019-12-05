@@ -17,6 +17,7 @@ This page lists all the ValueSets defined as part of this Implementation Guide.
 - [NHS Data Model and Dictionary Person Stated Gender Code](ValueSet-UKCore-NHSDataDictionary-PersonStatedGender.html)
 - [NHS Data Model and Dictionary Person Marital Status Code](ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus.html)
 - [UK Core Allergy Code](ValueSet-UKCore-AllergyCode.html)
+- [UK Core Allergy Manifestation](ValueSet-UKCore-AllergyManifestation.html)
 - [UK Core Condition Category](ValueSet-UKCore-ConditionCategory.html)
 - [UK Core Condition Episodicity](ValueSet-UKCore-ConditionEpisodicity.html)
 - [UK Core Death Notification Status](ValueSet-UKCore-DeathNotificationStatus.html)
@@ -33,7 +34,6 @@ This page lists all the ValueSets defined as part of this Implementation Guide.
 
 ### SNOMED CT Code List ###
 
-- [UK Core Allergy Manifestation](ValueSet-UKCore-AllergyManifestation.html)
 - [UK Core Allergy Certainty](ValueSet-UKCore-AllergyCertainty.html)
 - [UK Core Allergy Exposure Route](ValueSet-UKCore-AllergyExposureRoute.html)
 - [UK Core Allergy Severity](ValueSet-UKCore-AllergySeverity.html)
