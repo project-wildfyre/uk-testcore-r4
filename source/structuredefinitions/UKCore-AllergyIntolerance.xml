@@ -15,8 +15,8 @@
       <use value="work" />
     </telecom>
   </contact>
-  <description value="This AllergyIntolerance resource has been constrained to represent an AllergyIntolerance profile." />
-  <purpose value="This profile has been developed to demonstrate the representation of an AllergyIntolerance profile." />
+  <description value="Defines the UK Core constraints and extensions on the AllergyIntolerance resource for the minimal set of data to query and retrieve allergy information." />
+  <purpose value="This profile allows a record of a clinical assessment of an allergy or intolerance; a propensity, or a potential risk to an individual, to have an adverse reaction on future exposure to the specified substance, or class of substance.&#xD;&#xA;&#xD;&#xA;Where a propensity is identified, to record information or evidence about a reaction event that is characterised by any harmful or undesirable physiological response that is specific to the individual and triggered by exposure of an individual to the identified substance or class of substance.&#xD;&#xA;&#xD;&#xA;Substances include but are not limited to a therapeutic substance administered correctly at an appropriate dosage for the individual; food; material derived from plants or animals; or venom from insect stings." />
   <copyright value="Copyright © 2019 NHS Digital" />
   <fhirVersion value="4.0.0" />
   <mapping>
@@ -47,37 +47,13 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
     </element>
-    <element id="AllergyIntolerance.code.coding">
-      <path value="AllergyIntolerance.code.coding" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="system" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-    </element>
-    <element id="AllergyIntolerance.code.coding:snomedCT">
-      <path value="AllergyIntolerance.code.coding" />
-      <sliceName value="snomedCT" />
+    <element id="AllergyIntolerance.code">
+      <path value="AllergyIntolerance.code" />
       <binding>
         <strength value="extensible" />
-        <description value="A code from the SNOMED Clinical Terminology UK with the expression (&lt;105590001 |Substance OR &lt;373873005 |Pharmaceutical / biologic product| OR &lt;716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy), or a code from the v3 Code System NullFlavor specifying why a valid value is not present." />
+        <description value="A code from the SNOMED Clinical Terminology UK with the expression &lt;105590001 |Substance OR &lt;373873005 |Pharmaceutical / biologic product| OR &lt;716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy), or a code from the v3 Code System NullFlavor specifying why a valid value is not present." />
         <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-AllergyCode" />
       </binding>
-    </element>
-    <element id="AllergyIntolerance.code.coding:snomedCT.system">
-      <path value="AllergyIntolerance.code.coding.system" />
-      <min value="1" />
-      <fixedUri value="http://snomed.info/sct" />
-    </element>
-    <element id="AllergyIntolerance.code.coding:snomedCT.code">
-      <path value="AllergyIntolerance.code.coding.code" />
-      <min value="1" />
-    </element>
-    <element id="AllergyIntolerance.code.coding:snomedCT.display">
-      <path value="AllergyIntolerance.code.coding.display" />
-      <min value="1" />
     </element>
     <element id="AllergyIntolerance.patient">
       <path value="AllergyIntolerance.patient" />
@@ -126,37 +102,13 @@
         <code value="string" />
       </type>
     </element>
-    <element id="AllergyIntolerance.reaction.manifestation.coding">
-      <path value="AllergyIntolerance.reaction.manifestation.coding" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="system" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-    </element>
-    <element id="AllergyIntolerance.reaction.manifestation.coding:snomedCT">
-      <path value="AllergyIntolerance.reaction.manifestation.coding" />
-      <sliceName value="snomedCT" />
+    <element id="AllergyIntolerance.reaction.manifestation">
+      <path value="AllergyIntolerance.reaction.manifestation" />
       <binding>
         <strength value="extensible" />
         <description value="A code from the SNOMED Clinical Terminology UK hierarchy with concept id '404684003' to record an allergy manifestation or a value from the HL7 FHIR nullFlavors code system." />
         <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-AllergyManifestation" />
       </binding>
-    </element>
-    <element id="AllergyIntolerance.reaction.manifestation.coding:snomedCT.system">
-      <path value="AllergyIntolerance.reaction.manifestation.coding.system" />
-      <min value="1" />
-      <fixedUri value="http://snomed.info/sct" />
-    </element>
-    <element id="AllergyIntolerance.reaction.manifestation.coding:snomedCT.code">
-      <path value="AllergyIntolerance.reaction.manifestation.coding.code" />
-      <min value="1" />
-    </element>
-    <element id="AllergyIntolerance.reaction.manifestation.coding:snomedCT.display">
-      <path value="AllergyIntolerance.reaction.manifestation.coding.display" />
-      <min value="1" />
     </element>
     <element id="AllergyIntolerance.reaction.exposureRoute.coding">
       <path value="AllergyIntolerance.reaction.exposureRoute.coding" />
