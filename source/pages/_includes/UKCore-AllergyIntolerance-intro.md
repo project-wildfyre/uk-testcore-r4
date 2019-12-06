@@ -13,3 +13,7 @@ The following elements are mandatory in this UKCore-AllergyIntolerance FHIR prof
 
 The Minimum Viable Content for this profile has not yet been defined and may be added in a later release.
 
+### Example ###
+
+- [UK Core AllergyIntolerance Example](UKCore-AllergyIntolerance-Example.html)
+

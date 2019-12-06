@@ -15,3 +15,7 @@ The following elements are mandatory in this UKCore-Consent FHIR profile (i.e. M
 
 The Minimum Viable Content for this profile has not yet been defined and may be added in a later release.
 
+### Example ###
+
+- [UK Core Consent Example](UKCore-Consent-Example.html)
+

@@ -8,3 +8,7 @@
 ### Profile Minimum Viable Content ###
 
 The Minimum Viable Content for this profile has not yet been defined and may be added in a later release.
+
+### Example ###
+
+- [UK Core Organisation Example](UKCore-Organisation-Example.html)

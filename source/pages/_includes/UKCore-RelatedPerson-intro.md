@@ -13,3 +13,7 @@ The following elements are mandatory in this UKCore-RelatedPerson FHIR profile (
 
 The Minimum Viable Content for this profile has not yet been defined and may be added in a later release.
 
+### Example ###
+
+- [UK Core RelatedPerson Example](UKCore-RelatedPerson-Example.html)
+
