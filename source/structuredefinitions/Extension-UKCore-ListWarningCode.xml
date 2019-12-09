@@ -39,7 +39,6 @@
       <path value="Extension" />
       <short value="To capture warnings that the list may be incomplete" />
       <definition value="To capture warnings that the list may be incomplete." />
-      <max value="1" />
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
