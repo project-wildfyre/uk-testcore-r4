@@ -76,6 +76,10 @@
         <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-DeathNotificationStatus" />
       </binding>
     </element>
+    <element id="Extension.extension:deathNotificationStatus.value[x].coding.system">
+      <path value="Extension.extension.value[x].coding.system" />
+      <fixedUri value="https://fhir.nhs.uk/R4/ValueSet/UKCore-DeathNotificationStatus" />
+    </element>
     <element id="Extension.extension:systemEffectiveDate">
       <path value="Extension.extension" />
       <sliceName value="systemEffectiveDate" />
