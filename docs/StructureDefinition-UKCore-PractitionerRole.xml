@@ -34,7 +34,7 @@
   <name value="UKCorePractitionerRole"/>
   <title value="UK Core PractitionerRole"/>
   <status value="draft"/>
-  <date value="2019-12-06T10:03:14+00:00"/>
+  <date value="2019-12-06T22:28:26+00:00"/>
   <publisher value="NHS Digital"/>
   <contact>
     <name value="Interoperability Team"/>
@@ -44,8 +44,8 @@
       <use value="work"/>
     </telecom>
   </contact>
-  <description value="This PractitionerRole resource has been constrained to represent a PractitionerRole profile."/>
-  <purpose value="This profile has been developed to demonstrate the representation of a PractitionerRole profile."/>
+  <description value="Defines the UK Core constraints and extensions on the PractitionerRole resource for the minimal set of data to query and retrieve practitioner role information."/>
+  <purpose value="This profile allows exchange of a specific set of roles, specialties and services that a practitioner may perform at an organisation for a period of time."/>
   <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
   <fhirVersion value="4.0.1"/>
   <mapping>

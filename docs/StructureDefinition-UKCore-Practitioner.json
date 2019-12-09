@@ -24,8 +24,8 @@
       ]
     }
   ],
-  "description": "This Practitioner resource has been constrained to represent a Practitioner profile.",
-  "purpose": "This profile has been developed to demonstrate the representation of a Practitioner profile.",
+  "description": "Defines the UK Core constraints and extensions on the Practitioner resource for the minimal set of data to query and retrieve practitioner information.",
+  "purpose": "This profile allows exchange of information about all individuals who are engaged in the healthcare process and healthcare-related services as part of their formal responsibilities and this profile is used for attribution of activities and responsibilities to these individuals.",
   "copyright": "Copyright © 2019 NHS Digital",
   "fhirVersion": "4.0.1",
   "mapping": [
