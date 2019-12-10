@@ -8,4 +8,14 @@
 		<system value="https://fhir.nhs.uk/Id/sds-user-id"/>
 		<value value="G12345678"/>
 	</identifier>
+	<name>
+		<family value="Rastall"/>
+		<given value="Paul"/>
+		<prefix value="Dr"/>
+	</name>
+	<telecom>
+		<system value="phone"/>
+		<value value="0113 6323200"/>
+		<use value="work"/>
+	</telecom>
 </Practitioner>

@@ -4,7 +4,6 @@
 	<meta>
 		<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson"/>
 	</meta>
-	<active value="true"/>
 	<patient>
 		<reference value="Patient/UKCore-Patient-Example"/>
 	</patient>
