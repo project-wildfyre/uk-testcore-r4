@@ -4,6 +4,9 @@
 {{site.data.structuredefinitions.[id].description}}
 
 <!-- end TOC -->
+### Profile Purpose ###
+
+This profile allows exchange of a formally or informally recognised grouping of people or organisations formed for the purpose of achieving some form of collective action. Includes companies, institutions, corporations, departments, community groups, healthcare practice groups, etc.
 
 ### Profile Minimum Viable Content ###
 

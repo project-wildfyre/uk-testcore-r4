@@ -4,6 +4,9 @@
 {{site.data.structuredefinitions.[id].description}}
 
 <!-- end TOC -->
+### Profile Purpose ###
+
+This profile allows exchange of information about a person that is involved in the care for an individual, but who is not the target of healthcare, nor has a formal responsibility in the care process.
 
 ### Profile Minimum Viable Content ###
 

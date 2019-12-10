@@ -4,6 +4,9 @@
 {{site.data.structuredefinitions.[id].description}}
 
 <!-- end TOC -->
+### Profile Purpose ###
+
+This profile allows exchange of information about all individuals who are engaged in the healthcare process and healthcare-related services as part of their formal responsibilities and this profile is used for attribution of activities and responsibilities to these individuals. 
 
 ### Profile Minimum Viable Content ###
 

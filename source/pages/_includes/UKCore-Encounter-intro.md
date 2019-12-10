@@ -4,6 +4,9 @@
 {{site.data.structuredefinitions.[id].description}}
 
 <!-- end TOC -->
+### Profile Purpose ###
+
+This profile allows exchange of information about an interaction between an individual and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of an individual.
 
 ### Profile Minimum Viable Content ###
 

@@ -4,6 +4,9 @@
 {{site.data.structuredefinitions.[id].description}}
 
 <!-- end TOC -->
+### Profile Purpose ###
+
+This profile allows exchange of a specific set of roles, specialties and services that a practitioner may perform at an organisation for a period of time.
 
 ### Profile Minimum Viable Content ###
 

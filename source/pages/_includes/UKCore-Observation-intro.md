@@ -4,6 +4,9 @@
 {{site.data.structuredefinitions.[id].description}}
 
 <!-- end TOC -->
+### Profile Purpose ###
+
+This profile allows exchange of information of Measurements and simple assertions made about an individual, device or other subject. Note: this profile MUST not be used where a more specific UK Core profile exists.
 
 ### Profile Minimum Viable Content ###
 
