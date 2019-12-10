@@ -48,5 +48,6 @@
 				<display value="Urticarial rash"/>
 			</coding>
 		</manifestation>
+	<severity value="mild"/>	
 	</reaction>
 </AllergyIntolerance>

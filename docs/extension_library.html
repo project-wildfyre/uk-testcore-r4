@@ -258,37 +258,130 @@ This is the {% if {{site.build}} == "ci" %}
 <p>This page lists all the Extensions that have been approved for use with the <a href="profiles.html">FHIR Profiles</a>.
 <br /></p>
 
-<li><a href="Extension-UKCore-NHSNumberVerificationStatus.html">Extension UK Core NHS Number Verification Status</a> This extension has been constrained to represent the verification status of an NHS number.</li>
-<li><a href="Extension-UKCore-NHSCommunication.html">Extension UK Core NHS Communication</a> This extension has been constrained to support the communication preferences for a resource in the NHS.</li>
-<li><a href="Extension-UKCore-Evidence.html">Extension UK Core Evidence</a> This Extension resource is constrained to support a reference to results of investigations that confirmed the certainty of the diagnosis. Examples might include results of skin prick allergy tests.</li>
-<li><a href="Extension-UKCore-AllergyIntoleranceEnd.html">Extension UK Core Allergy Intolerance End</a> Supports the date and reason that the allergy was no longer valid.</li>
-<li><a href="Extension-UKCore-DeathNotificationStatus.html">Extension UK Core Death Notification Status</a> This extension has been constrained to represent a patient’s death notification (as held on Personal Demographics Service (PDS)).</li>
-<li><a href="Extension-UKCore-EthnicCategory.html">Extension UK Core Ethnic Category</a> This extension has been constrained to represent a patient's ethnic category.</li>
-<li><a href="Extension-UKCore-ReligiousAffiliation.html">Extension UK Core Religious Affiliation</a> This extension has been constrained to represent a patient's religious affiliation.</li>
-<li><a href="Extension-UKCore-ResidentialStatus.html">Extension UK Core Residential Status</a> This extension has been constrained to represent a patient's residential status.</li>
-<li><a href="Extension-UKCore-TreatmentCategory.html">Extension UK Core Treatment Category</a> This extension has been constrained to represent a patient's treatment category.</li>
-<li><a href="Extension-UKCore-NominatedPharmacy.html">Extension UK Core Nominated Pharmacy</a> This extension has been constrained to represent a patient's nominated pharmacy.</li>
-<li><a href="Extension-UKCore-MainLocation.html">Extension UK Core Main Location</a> This extension has been constrained to represent a reference to the main location for an organisation.</li>
-<li><a href="Extension-UKCore-ClinicalSetting.html">Extension UK Core Clinical Setting</a> This extension has been constrained to represent the clinical setting of a List.</li>
-<li><a href="Extension-UKCore-ListWarningCode.html">Extension UK Core List Warning Code</a> This extension has been constrained to represent warnings that a list may be incomplete as data has been excluded due to confidentiality or may be missing due to data being in transit.</li>
-<li><a href="Extension-UKCore-AdmissionMethod.html">Extension UK Core Admission Method</a> This extension has been constrained to represent the method by which a patient was admitted to hospital.</li>
-<li><a href="Extension-UKCore-EncounterTransport.html">Extension UK Core Encounter Transport</a> This extension has been constrained to represent the transport used by the subject for an encounter.</li>
-<li><a href="Extension-UKCore-OutcomeOfAttendance.html">Extension UK Core Outcome of Attendance</a> This extension has been constrained to represent the outcome of an Outpatient attendance.</li>
-<li><a href="Extension-UKCore-AnaestheticIssues.html">Extension UK Core Anaesthetic Issues</a> An Extension to record details of any adverse reaction to any anaesthetic agents including local anaesthesia. Problematic intubation, transfusion reaction, etc.</li>
-<li><a href="Extension-UKCore-DischargeMethod.html">Extension UK Core Discharge Method</a> This extension has been constrained to represent the method of discharge from hospital.</li>
-<li><a href="Extension-UKCore-EmergencyCareDischargeStatus.html">Extension UK Core Emergency Care Discharge Status</a> This extension has been constrained to represent the status of a patient on discharge from an Emergency Care Department.</li>
-<li><a href="Extension-UKCore-ConditionEpisode.html">Extension UK Core Condition Episode</a> The episodicity status of a condition.</li>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Context of Use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="Extension-UKCore-AdmissionMethod.html">Extension UK Core AdmissionMethod</a></td>
+      <td>Encounter.hospitalization</td>
+    </tr>
+    <tr>
+      <td><a href="Extension-UKCore-AllergyIntoleranceEnd.html">Extension UK Core AllergyIntoleranceEnd</a></td>
+      <td>AllergyIntolerance</td>
+    </tr>
+    <tr>
+      <td><a href="Extension-UKCore-AnaestheticIssues.html">Extension UK Core AnaestheticIssues</a></td>
+      <td>Procedure</td>
+    </tr>
+    <tr>
+      <td><a href="Extension-UKCore-ClinicalSetting.html">Extension UK Core ClinicalSetting</a></td>
+      <td>List</td>
+    </tr>
+    <tr>
+      <td><a href="Extension-UKCore-ConditionEpisode.html">Extension UK Core ConditionEpisode</a></td>
+      <td>Condition</td>
+    </tr>
+    <tr>
+      <td><a href="Extension-UKCore-DeathNotificationStatus.html">Extension UK Core DeathNotificationStatus</a></td>
+      <td>Patient</td>
+    </tr>
+    <tr>
+      <td><a href="Extension-UKCore-DischargeMethod.html">Extension UK Core DischargeMethod</a></td>
+      <td>Encounter.hospitalization</td>
+    </tr>
+    <tr>
+      <td><a href="Extension-UKCore-EmergencyCareDischargeStatus.html">Extension UK Core EmergencyCareDischargeStatus</a></td>
+      <td>Encounter</td>
+    </tr>
+    <tr>
+      <td><a href="Extension-UKCore-EncounterTransport.html">Extension UK Core EncounterTransport</a></td>
+      <td>Encounter</td>
+    </tr>
+    <tr>
+      <td><a href="Extension-UKCore-EthnicCategory.html">Extension UK Core EthnicCategory</a></td>
+      <td>Patient</td>
+    </tr>
+    <tr>
+      <td><a href="Extension-UKCore-Evidence.html">Extension UK Core Evidence</a></td>
+      <td>AllergyIntolerance</td>
+    </tr>
+    <tr>
+      <td><a href="Extension-UKCore-ListWarningCode.html">Extension UK Core ListWarningCode</a></td>
+      <td>List</td>
+    </tr>
+    <tr>
+      <td><a href="Extension-UKCore-MainLocation.html">Extension UK Core MainLocation</a></td>
+      <td>Organization</td>
+    </tr>
+    <tr>
+      <td><a href="Extension-UKCore-NHSCommunication.html">Extension UK Core NHSCommunication</a></td>
+      <td>Patient, Practitioner</td>
+    </tr>
+    <tr>
+      <td><a href="Extension-UKCore-NHSNumberVerificationStatus.html">Extension UK Core NHSNumberVerificationStatus</a></td>
+      <td>Patient.identifier</td>
+    </tr>
+    <tr>
+      <td><a href="Extension-UKCore-NominatedPharmacy.html">Extension UK Core NominatedPharmacy</a></td>
+      <td>Patient</td>
+    </tr>
+    <tr>
+      <td><a href="Extension-UKCore-OutcomeOfAttendance.html">Extension UK Core OutcomeOfAttendance</a></td>
+      <td>Encounter</td>
+    </tr>
+    <tr>
+      <td><a href="Extension-UKCore-ReligiousAffiliation.html">Extension UK Core ReligiousAffiliation</a></td>
+      <td>Patient</td>
+    </tr>
+    <tr>
+      <td><a href="Extension-UKCore-ResidentialStatus.html">Extension UK Core ResidentialStatus</a></td>
+      <td>Patient</td>
+    </tr>
+    <tr>
+      <td><a href="Extension-UKCore-TreatmentCategory.html">Extension UK Core TreatmentCategory</a></td>
+      <td>Patient</td>
+    </tr>
+  </tbody>
+</table>
 
 <p><br />
 The following <a href="http://hl7.org/fhir/extensibility-registry.html" target="_blank">HL7 extensions</a> are also approved for use with the <a href="profiles.html">FHIR Profiles</a>.</p>
 
-<ul>
-  <li><a href="http://hl7.org/fhir/StructureDefinition/patient-birthPlace">patient-birthPlace</a></li>
-  <li><a href="http://hl7.org/fhir/StructureDefinition/patient-birthTime">patient-birthTime</a></li>
-  <li><a href="http://hl7.org/fhir/StructureDefinition/patient-cadavericDonor">patient-cadavericDonor</a></li>
-  <li><a href="http://hl7.org/fhir/StructureDefinition/organization-period">organization-period</a></li>
-  <li><a href="http://hl7.org/fhir/StructureDefinition/coding-sctdescid">coding-sctdescid</a></li>
-</ul>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Context of Use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="http://hl7.org/fhir/StructureDefinition/patient-birthPlace">patient-birthPlace</a></td>
+      <td>Patient</td>
+    </tr>
+    <tr>
+      <td><a href="http://hl7.org/fhir/StructureDefinition/patient-birthTime">patient-birthTime</a></td>
+      <td>Patient.birthDate</td>
+    </tr>
+    <tr>
+      <td><a href="http://hl7.org/fhir/StructureDefinition/patient-cadavericDonor">patient-cadavericDonor</a></td>
+      <td>Patient</td>
+    </tr>
+    <tr>
+      <td><a href="http://hl7.org/fhir/StructureDefinition/organization-period">organization-period</a></td>
+      <td>Organization</td>
+    </tr>
+    <tr>
+      <td><a href="http://hl7.org/fhir/StructureDefinition/coding-sctdescid">coding-sctdescid</a></td>
+      <td>Coding</td>
+    </tr>
+  </tbody>
+</table>
 
 
   <!-- ==============END CONTENT END CONTENT=================== -->
@@ -319,7 +412,7 @@ The following <a href="http://hl7.org/fhir/extensibility-registry.html" target="
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.fhir.r4.core.prototype# based on <a style="color: #81BEF7" href="http://build.fhir.org/index.html">FHIR 4.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Tue, Dec 10, 2019 13:03+0000">2019-12-10</span>. <br/>
+     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.fhir.r4.core.prototype# based on <a style="color: #81BEF7" href="http://build.fhir.org/index.html">FHIR 4.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Tue, Dec 10, 2019 14:05+0000">2019-12-10</span>. <br/>
       Links: <!--<a style="color: #81BEF7" href="toc.html">Table of Contents</a>-->
 	  <a style="color: #81BEF7" href="qa.html">QA Report</a>
 	  | <a style="color: #81BEF7" href="history.html">Version History</a>
