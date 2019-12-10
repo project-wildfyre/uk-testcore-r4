@@ -6,10 +6,20 @@
     <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Practitioner-Example</p><p><b>meta</b>: </p><p><b>identifier</b>: G12345678</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Practitioner-Example</p><p><b>meta</b>: </p><p><b>identifier</b>: G12345678</p><p><b>name</b>: Paul Rastall </p><p><b>telecom</b>: ph: 0113 6323200(WORK)</p></div>
   </text>
   <identifier>
     <system value="https://fhir.nhs.uk/Id/sds-user-id"/>
     <value value="G12345678"/>
   </identifier>
+  <name>
+    <family value="Rastall"/>
+    <given value="Paul"/>
+    <prefix value="Dr"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="0113 6323200"/>
+    <use value="work"/>
+  </telecom>
 </Practitioner>

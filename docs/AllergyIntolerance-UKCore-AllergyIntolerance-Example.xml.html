@@ -281,7 +281,7 @@ This is the {% if {{site.build}} == "ci" %}
   &lt;/meta&gt;
   &lt;<a href="http://build.fhir.org/allergyintolerance.html#AllergyIntolerance.text">text</a>&gt;
     &lt;<a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: UKCore-AllergyIntolerance-Example&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;clinicalStatus&lt;/b&gt;: Active &lt;span style=&quot;background: LightGoldenRodYellow&quot;&gt;(Details : {http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical code 'active' = 'Active', given as 'Active'})&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;verificationStatus&lt;/b&gt;: Confirmed &lt;span style=&quot;background: LightGoldenRodYellow&quot;&gt;(Details : {http://terminology.hl7.org/CodeSystem/allergyintolerance-verification code 'confirmed' = 'Confirmed', given as 'Confirmed'})&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;patient&lt;/b&gt;: &lt;a href=&quot;UKCore-Patient-Example.html&quot;&gt;Generated Summary: id: UKCore-Patient-Example; Richard SMITH (OFFICIAL); birthDate: 1970-09-11&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;recordedDate&lt;/b&gt;: 11-Sep-2019 14:46:00&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: UKCore-AllergyIntolerance-Example&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;clinicalStatus&lt;/b&gt;: Active &lt;span style=&quot;background: LightGoldenRodYellow&quot;&gt;(Details : {http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical code 'active' = 'Active', given as 'Active'})&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;verificationStatus&lt;/b&gt;: Confirmed &lt;span style=&quot;background: LightGoldenRodYellow&quot;&gt;(Details : {http://terminology.hl7.org/CodeSystem/allergyintolerance-verification code 'confirmed' = 'Confirmed', given as 'Confirmed'})&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: allergy&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: medication&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: Amoxicillin &lt;span style=&quot;background: LightGoldenRodYellow&quot;&gt;(Details : {SNOMED CT code '372687004' = 'Amoxicillin (substance)', given as 'Amoxicillin'})&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;patient&lt;/b&gt;: &lt;a href=&quot;UKCore-Patient-Example.html&quot;&gt;Generated Summary: id: UKCore-Patient-Example; Richard SMITH (OFFICIAL); birthDate: 1970-09-11&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;encounter&lt;/b&gt;: &lt;a href=&quot;UKCore-Encounter-Example.html&quot;&gt;Generated Summary: id: UKCore-Encounter-Example; status: finished; &lt;span title=&quot;{http://terminology.hl7.org/CodeSystem/v3-ActCode IMP}&quot;&gt;inpatient encounter&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;recordedDate&lt;/b&gt;: 10-Dec-2019 13:00:00&lt;/p&gt;&lt;p&gt;&lt;b&gt;recorder&lt;/b&gt;: &lt;a href=&quot;UKCore-Practitioner-Example.html&quot;&gt;Generated Summary: id: UKCore-Practitioner-Example; G12345678; Paul Rastall ; ph: 0113 6323200(WORK)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;asserter&lt;/b&gt;: &lt;a href=&quot;UKCore-Practitioner-Example.html&quot;&gt;Generated Summary: id: UKCore-Practitioner-Example; G12345678; Paul Rastall ; ph: 0113 6323200(WORK)&lt;/a&gt;&lt;/p&gt;&lt;h3&gt;Reactions&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Manifestation&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;Urticarial rash &lt;span style=&quot;background: LightGoldenRodYellow&quot;&gt;(Details : {SNOMED CT code '247472004' = 'Weal', given as 'Urticarial rash'})&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/text&gt;
   &lt;<a href="http://build.fhir.org/allergyintolerance.html#AllergyIntolerance.clinicalStatus">clinicalStatus</a>&gt;
     &lt;<a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
@@ -299,10 +299,37 @@ This is the {% if {{site.build}} == "ci" %}
       &lt;<a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Confirmed&quot;/&gt;
     &lt;/coding&gt;
   &lt;/verificationStatus&gt;
+  &lt;<a href="http://build.fhir.org/allergyintolerance.html#AllergyIntolerance.type">type</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;allergy&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/allergyintolerance.html#AllergyIntolerance.category">category</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;medication&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/allergyintolerance.html#AllergyIntolerance.code">code</a>&gt;
+    &lt;<a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">system</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;372687004&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Amoxicillin&quot;/&gt;
+    &lt;/coding&gt;
+  &lt;/code&gt;
   &lt;<a href="http://build.fhir.org/allergyintolerance.html#AllergyIntolerance.patient">patient</a>&gt;
     &lt;<a href="http://build.fhir.org/references.html#Reference#Reference.reference">reference</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Patient/UKCore-Patient-Example&quot;/&gt;
   &lt;/patient&gt;
-  &lt;<a href="http://build.fhir.org/allergyintolerance.html#AllergyIntolerance.recordedDate">recordedDate</a> <a href="http://build.fhir.org/datatypes.html#dateTime">value</a>=&quot;2019-09-11T13:46:00+00:00&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/allergyintolerance.html#AllergyIntolerance.encounter">encounter</a>&gt;
+    &lt;<a href="http://build.fhir.org/references.html#Reference#Reference.reference">reference</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Encounter/UKCore-Encounter-Example&quot;/&gt;
+  &lt;/encounter&gt;
+  &lt;<a href="http://build.fhir.org/allergyintolerance.html#AllergyIntolerance.recordedDate">recordedDate</a> <a href="http://build.fhir.org/datatypes.html#dateTime">value</a>=&quot;2019-12-10T13:00:00+00:00&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/allergyintolerance.html#AllergyIntolerance.recorder">recorder</a>&gt;
+    &lt;<a href="http://build.fhir.org/references.html#Reference#Reference.reference">reference</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Practitioner/UKCore-Practitioner-Example&quot;/&gt;
+  &lt;/recorder&gt;
+  &lt;<a href="http://build.fhir.org/allergyintolerance.html#AllergyIntolerance.asserter">asserter</a>&gt;
+    &lt;<a href="http://build.fhir.org/references.html#Reference#Reference.reference">reference</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Practitioner/UKCore-Practitioner-Example&quot;/&gt;
+  &lt;/asserter&gt;
+  &lt;<a href="http://build.fhir.org/allergyintolerance.html#AllergyIntolerance.reaction">reaction</a>&gt;
+    &lt;<a href="http://build.fhir.org/allergyintolerance.html#AllergyIntolerance.reaction.manifestation">manifestation</a>&gt;
+      &lt;<a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">system</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;247472004&quot;/&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Urticarial rash&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/manifestation&gt;
+  &lt;/reaction&gt;
 &lt;/AllergyIntolerance&gt;</pre>
 
 
@@ -334,7 +361,7 @@ This is the {% if {{site.build}} == "ci" %}
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.fhir.r4.core.prototype# based on <a style="color: #81BEF7" href="http://build.fhir.org/index.html">FHIR 4.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Tue, Dec 10, 2019 11:23+0000">2019-12-10</span>. <br/>
+     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.fhir.r4.core.prototype# based on <a style="color: #81BEF7" href="http://build.fhir.org/index.html">FHIR 4.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Tue, Dec 10, 2019 13:03+0000">2019-12-10</span>. <br/>
       Links: <!--<a style="color: #81BEF7" href="toc.html">Table of Contents</a>-->
 	  <a style="color: #81BEF7" href="qa.html">QA Report</a>
 	  | <a style="color: #81BEF7" href="history.html">Version History</a>

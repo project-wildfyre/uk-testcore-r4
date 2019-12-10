@@ -6,9 +6,21 @@
     <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-RelatedPerson-Example</p><p><b>meta</b>: </p><p><b>patient</b>: <a href="UKCore-Patient-Example.html">Generated Summary: id: UKCore-Patient-Example; Richard SMITH (OFFICIAL); birthDate: 1970-09-11</a></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-RelatedPerson-Example</p><p><b>meta</b>: </p><p><b>patient</b>: <a href="UKCore-Patient-Example.html">Generated Summary: id: UKCore-Patient-Example; Richard SMITH (OFFICIAL); birthDate: 1970-09-11</a></p><p><b>relationship</b>: wife <span style="background: LightGoldenRodYellow">(Details : {http://terminology.hl7.org/CodeSystem/v3-RoleCode code 'WIFE' = 'wife', given as 'wife'})</span></p><p><b>name</b>: Joy SMITH (OFFICIAL)</p></div>
   </text>
   <patient>
     <reference value="Patient/UKCore-Patient-Example"/>
   </patient>
+  <relationship>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+      <code value="WIFE"/>
+      <display value="wife"/>
+    </coding>
+  </relationship>
+  <name>
+    <use value="official"/>
+    <family value="SMITH"/>
+    <given value="Joy"/>
+  </name>
 </RelatedPerson>

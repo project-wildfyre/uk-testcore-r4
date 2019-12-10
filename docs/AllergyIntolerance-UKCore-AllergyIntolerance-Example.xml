@@ -6,7 +6,7 @@
     <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-AllergyIntolerance"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-AllergyIntolerance-Example</p><p><b>meta</b>: </p><p><b>clinicalStatus</b>: Active <span style="background: LightGoldenRodYellow">(Details : {http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical code 'active' = 'Active', given as 'Active'})</span></p><p><b>verificationStatus</b>: Confirmed <span style="background: LightGoldenRodYellow">(Details : {http://terminology.hl7.org/CodeSystem/allergyintolerance-verification code 'confirmed' = 'Confirmed', given as 'Confirmed'})</span></p><p><b>patient</b>: <a href="UKCore-Patient-Example.html">Generated Summary: id: UKCore-Patient-Example; Richard SMITH (OFFICIAL); birthDate: 1970-09-11</a></p><p><b>recordedDate</b>: 11-Sep-2019 14:46:00</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-AllergyIntolerance-Example</p><p><b>meta</b>: </p><p><b>clinicalStatus</b>: Active <span style="background: LightGoldenRodYellow">(Details : {http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical code 'active' = 'Active', given as 'Active'})</span></p><p><b>verificationStatus</b>: Confirmed <span style="background: LightGoldenRodYellow">(Details : {http://terminology.hl7.org/CodeSystem/allergyintolerance-verification code 'confirmed' = 'Confirmed', given as 'Confirmed'})</span></p><p><b>type</b>: allergy</p><p><b>category</b>: medication</p><p><b>code</b>: Amoxicillin <span style="background: LightGoldenRodYellow">(Details : {SNOMED CT code '372687004' = 'Amoxicillin (substance)', given as 'Amoxicillin'})</span></p><p><b>patient</b>: <a href="UKCore-Patient-Example.html">Generated Summary: id: UKCore-Patient-Example; Richard SMITH (OFFICIAL); birthDate: 1970-09-11</a></p><p><b>encounter</b>: <a href="UKCore-Encounter-Example.html">Generated Summary: id: UKCore-Encounter-Example; status: finished; <span title="{http://terminology.hl7.org/CodeSystem/v3-ActCode IMP}">inpatient encounter</span></a></p><p><b>recordedDate</b>: 10-Dec-2019 13:00:00</p><p><b>recorder</b>: <a href="UKCore-Practitioner-Example.html">Generated Summary: id: UKCore-Practitioner-Example; G12345678; Paul Rastall ; ph: 0113 6323200(WORK)</a></p><p><b>asserter</b>: <a href="UKCore-Practitioner-Example.html">Generated Summary: id: UKCore-Practitioner-Example; G12345678; Paul Rastall ; ph: 0113 6323200(WORK)</a></p><h3>Reactions</h3><table class="grid"><tr><td>-</td><td><b>Manifestation</b></td></tr><tr><td>*</td><td>Urticarial rash <span style="background: LightGoldenRodYellow">(Details : {SNOMED CT code '247472004' = 'Weal', given as 'Urticarial rash'})</span></td></tr></table></div>
   </text>
   <clinicalStatus>
     <coding>
@@ -22,8 +22,35 @@
       <display value="Confirmed"/>
     </coding>
   </verificationStatus>
+  <type value="allergy"/>
+  <category value="medication"/>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="372687004"/>
+      <display value="Amoxicillin"/>
+    </coding>
+  </code>
   <patient>
     <reference value="Patient/UKCore-Patient-Example"/>
   </patient>
-  <recordedDate value="2019-09-11T13:46:00+00:00"/>
+  <encounter>
+    <reference value="Encounter/UKCore-Encounter-Example"/>
+  </encounter>
+  <recordedDate value="2019-12-10T13:00:00+00:00"/>
+  <recorder>
+    <reference value="Practitioner/UKCore-Practitioner-Example"/>
+  </recorder>
+  <asserter>
+    <reference value="Practitioner/UKCore-Practitioner-Example"/>
+  </asserter>
+  <reaction>
+    <manifestation>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="247472004"/>
+        <display value="Urticarial rash"/>
+      </coding>
+    </manifestation>
+  </reaction>
 </AllergyIntolerance>
