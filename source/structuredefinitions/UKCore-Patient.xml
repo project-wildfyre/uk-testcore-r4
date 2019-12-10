@@ -104,13 +104,6 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
     </element>
-    <element id="Patient.gender">
-      <path value="Patient.gender" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://hl7.org/fhir/ValueSet/administrative-gender" />
-      </binding>
-    </element>
     <element id="Patient.address">
       <path value="Patient.address" />
       <definition value="An address for the individual" />
