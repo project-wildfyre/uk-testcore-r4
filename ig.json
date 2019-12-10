@@ -1,6 +1,5 @@
 {
 	"source": "ig.xml",
-	"sct-edition" : "http://snomed.info/sct/999000021000000109",
 	"specification": "http://hl7.org/fhir",
 	"paths": {
 		"history": "source/history",
