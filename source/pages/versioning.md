@@ -53,7 +53,7 @@ The format is:
 
 For example - https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient\|1.2.0.
 
-This is demonstrated below:
+This is illustrated below:
 
 {% include img.html img="instance_versioning.svg" %}
 
