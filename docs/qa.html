@@ -1,13 +1,13 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 364, errors = 16, warn = 1, info = 0 -->
+<!-- broken links = 365, errors = 19, warn = 1, info = 0 -->
 <head>
   <title>FHIRR4CorePrototype : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for FHIRR4CorePrototype</h1>
- <p>Generated Tue Dec 10 14:08:51 GMT 2019, FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = <a href="https://fhir.nhs.uk/R4">https://fhir.nhs.uk/R4</a> (<a href="https://fhir.nhs.uk/R4/history.html">history</a>))</p>
+ <p>Generated Wed Dec 11 10:34:09 GMT 2019, FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = <a href="https://fhir.nhs.uk/R4">https://fhir.nhs.uk/R4</a> (<a href="https://fhir.nhs.uk/R4/history.html">history</a>))</p>
 <p>IG Publisher Version: v1.0.17-SNAPSHOT</p>
 <p>No Suppressed Errors</p>
  <p>HL7 Publication check:</p> <ul><li>n/a - not an HL7.org or FHIR.org implementation guide</li></ul>
@@ -17,7 +17,7 @@
      <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Information messages &amp; Warnings</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>363</b></td><td><b>1</b></td>
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>364</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#C__RepoGitHub_FHIR-R4-Core-IG-Prototype_source_codesystems_CodeSystem-UKCore-AdmissionMethod"><b>C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-AdmissionMethod</b></a></td><td><b>0</b></td><td><b>0</b></td>
@@ -100,8 +100,8 @@
    <tr style="background-color: #ffcccc">
      <td><a href="#C__RepoGitHub_FHIR-R4-Core-IG-Prototype_source_examples_UKCore-Consent-Example"><b>C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Consent-Example</b></a></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
-   <tr style="background-color: #EFFFEF">
-     <td><a href="#C__RepoGitHub_FHIR-R4-Core-IG-Prototype_source_examples_UKCore-Encounter-Example"><b>C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Encounter-Example</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__RepoGitHub_FHIR-R4-Core-IG-Prototype_source_examples_UKCore-Encounter-Example"><b>C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Encounter-Example</b></a></td><td><b>3</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#C__RepoGitHub_FHIR-R4-Core-IG-Prototype_source_examples_UKCore-List-Example"><b>C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-List-Example</b></a></td><td><b>0</b></td><td><b>0</b></td>
@@ -997,6 +997,9 @@
      <td><b>UKCore-Encounter-Example.html</b></td><td><b>error</b></td><td><b>The html source does not contain the publish box</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
+     <td><b><a href="UKCore-Encounter-Example.html#9c8e0caf-4a13-45f2-9a41-2c7ece15562e">UKCore-Encounter-Example.html#/html/head/body/div/div/div/div/div/div/p/br/div/div/div/div/div/div/div/p/a at Line 274, column 1611</a></b></td><td><b>error</b></td><td><b>The link 'Orgnization/UKCore-Organisation-Example' for &quot;Orgnization/UKCore-Organisation-Example&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
      <td><b>UKCore-Encounter-definitions.html</b></td><td><b>error</b></td><td><b>The html source does not contain the publish box</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
@@ -1662,7 +1665,16 @@
 <h2><a href="UKCore-Encounter-Example.html">C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Encounter-Example.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Encounter/UKCore-Encounter-Example: Encounter.participant[0].type[0].coding[0]</b></td><td><b>error</b></td><td><b>Coding.system must be an absolute reference, not a local reference</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Encounter/UKCore-Encounter-Example: Encounter.participant[0].type[0].coding[0].system</b></td><td><b>error</b></td><td><b>URI values cannot have whitespace</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Encounter/UKCore-Encounter-Example: Encounter.serviceProvider</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'Orgnization/UKCore-Organisation-Example'</b></td>
    </tr>
 </table>
 <hr/>

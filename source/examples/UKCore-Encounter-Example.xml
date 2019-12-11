@@ -7,7 +7,44 @@
 	<status value="finished"/>
 	<class>
 		<system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
-		<code value="IMP"/>
-		<display value="inpatient encounter"/>
+		<code value="AMB"/>
+		<display value="ambulatory"/>
 	</class>
+	<serviceType>
+		<coding>
+			<system value="http://terminology.hl7.org/CodeSystem/service-type"/>
+			<code value="124"/>
+			<display value="General Practice"/>
+		</coding>
+	</serviceType>
+	<priority>
+		<coding>
+			<system value="http://terminology.hl7.org/CodeSystem/v3-ActPriority"/>
+			<code value="R"/>
+			<display value="routine"/>
+		</coding>
+	</priority>
+	<subject>
+		<reference value="Patient/UKCore-Patient-Example"/>
+	</subject>
+	<participant>
+		<type>
+			<coding>
+				<system value="	http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+				<code value="ATND"/>
+				<display value="attender"/>
+			</coding>
+		</type>
+		<individual>
+			<reference value="Practitioner/UKCore-Practitioner-Example"/>
+		</individual>
+	</participant>
+	<location>
+		<location>
+			<reference value="Location/UKCore-Location-Example"/>
+		</location>
+	</location>
+	<serviceProvider>
+		<reference value="Orgnization/UKCore-Organisation-Example"/>
+	</serviceProvider>
 </Encounter>

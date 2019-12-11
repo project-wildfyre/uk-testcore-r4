@@ -31,7 +31,7 @@
 	</organization>
 	<policy>
 		<authority value="https://www.exampleauthority.nhs.uk"/>
-		<uri value="https://www.exampleauthority.nhs.uk/policies/policy-example-v1.0"/>
+		<uri value="https://www.exampleauthority.nhs.uk/policies/ukcore-policy-example-v1.0"/>
 	</policy>
 	<provision>
 		<purpose>

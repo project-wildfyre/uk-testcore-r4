@@ -1,11 +1,11 @@
 ﻿FHIRR4CorePrototype : Validation Results
 =========================================
 
-err = 32, warn = 2, info = 0
+err = 38, warn = 2, info = 0
 IG Publisher Version: v1.0.17-SNAPSHOT
-Generated Tue Dec 10 14:08:52 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
+Generated Wed Dec 11 10:34:10 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
 
- Build Errors : 363 / 1
+ Build Errors : 364 / 1
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-AdmissionMethod : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-ConditionEpisodicity : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-DeathNotificationStatus : 0 / 0
@@ -33,7 +33,7 @@ Generated Tue Dec 10 14:08:52 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-AllergyIntolerance-Example : 2 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Condition-Example : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Consent-Example : 1 / 0
- C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Encounter-Example : 0 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Encounter-Example : 3 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-List-Example : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Location-Example : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Observation-Example : 0 / 1
@@ -332,6 +332,7 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Consent-Example.html:
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Consent-definitions.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Consent.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Encounter-Example.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Encounter-Example.html#/html/head/body/div/div/div/div/div/div/p/br/div/div/div/div/div/div/div/p/a at Line 274, column 1611: The link 'Orgnization/UKCore-Organisation-Example' for "Orgnization/UKCore-Organisation-Example" cannot be resolved
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Encounter-definitions.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Encounter.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-List-Example.html: The html source does not contain the publish box
@@ -508,6 +509,9 @@ ERROR: AllergyIntolerance/UKCore-AllergyIntolerance-Example: AllergyIntolerance.
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Consent-Example.xml ==
 ERROR: Consent/UKCore-Consent-Example: Consent.provision.purpose[0]: Unable to provide support for code system http://snomed.info/sct version http://snomed.info/sct/999000021000000109 for 'http://snomed.info/sct#370856009'
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Encounter-Example.xml ==
+ERROR: Encounter/UKCore-Encounter-Example: Encounter.participant[0].type[0].coding[0]: Coding.system must be an absolute reference, not a local reference
+ERROR: Encounter/UKCore-Encounter-Example: Encounter.participant[0].type[0].coding[0].system: URI values cannot have whitespace
+ERROR: Encounter/UKCore-Encounter-Example: Encounter.serviceProvider: Unable to resolve resource 'Orgnization/UKCore-Organisation-Example'
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-List-Example.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Location-Example.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Observation-Example.xml ==

@@ -8,12 +8,61 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Encounter-Example</p><p><b>meta</b>: </p><p><b>status</b>: finished</p><p><b>class</b>: inpatient encounter (Details: http://terminology.hl7.org/CodeSystem/v3-ActCode code IMP = 'inpatient encounter', stated as 'inpatient encounter')</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Encounter-Example</p><p><b>meta</b>: </p><p><b>status</b>: finished</p><p><b>class</b>: ambulatory (Details: http://terminology.hl7.org/CodeSystem/v3-ActCode code AMB = 'ambulatory', stated as 'ambulatory')</p><p><b>serviceType</b>: General Practice <span style=\"background: LightGoldenRodYellow\">(Details : {http://terminology.hl7.org/CodeSystem/service-type code '124' = 'General Practice', given as 'General Practice'})</span></p><p><b>priority</b>: routine <span style=\"background: LightGoldenRodYellow\">(Details : {http://terminology.hl7.org/CodeSystem/v3-ActPriority code 'R' = 'routine', given as 'routine'})</span></p><p><b>subject</b>: <a href=\"UKCore-Patient-Example.html\">Generated Summary: id: UKCore-Patient-Example; Richard SMITH (OFFICIAL); birthDate: 1970-09-11</a></p><h3>Participants</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Individual</b></td></tr><tr><td>*</td><td>attender <span style=\"background: LightGoldenRodYellow\">(Details : { http://terminology.hl7.org/CodeSystem/v3-ParticipationType code 'ATND' = 'attender', given as 'attender'})</span></td><td><a href=\"UKCore-Practitioner-Example.html\">Generated Summary: id: UKCore-Practitioner-Example; G12345678; Paul Rastall ; ph: 0113 6323200(WORK)</a></td></tr></table><h3>Locations</h3><table class=\"grid\"><tr><td>-</td><td><b>Location</b></td></tr><tr><td>*</td><td><a href=\"UKCore-Location-Example.html\">Generated Summary: id: UKCore-Location-Example; </a></td></tr></table><p><b>serviceProvider</b>: <a href=\"Orgnization/UKCore-Organisation-Example\">Orgnization/UKCore-Organisation-Example</a></p></div>"
   },
   "status": "finished",
   "class": {
     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-    "code": "IMP",
-    "display": "inpatient encounter"
+    "code": "AMB",
+    "display": "ambulatory"
+  },
+  "serviceType": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/service-type",
+        "code": "124",
+        "display": "General Practice"
+      }
+    ]
+  },
+  "priority": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+        "code": "R",
+        "display": "routine"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/UKCore-Patient-Example"
+  },
+  "participant": [
+    {
+      "type": [
+        {
+          "coding": [
+            {
+              "system": " http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+              "code": "ATND",
+              "display": "attender"
+            }
+          ]
+        }
+      ],
+      "individual": {
+        "reference": "Practitioner/UKCore-Practitioner-Example"
+      }
+    }
+  ],
+  "location": [
+    {
+      "location": {
+        "reference": "Location/UKCore-Location-Example"
+      }
+    }
+  ],
+  "serviceProvider": {
+    "reference": "Orgnization/UKCore-Organisation-Example"
   }
 }
