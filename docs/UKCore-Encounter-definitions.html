@@ -1544,6 +1544,7 @@ This is the {% if {{site.build}} == "ci" %}
   <tr><td>Definition</td><td><p>Reason the encounter takes place, expressed as a code. For admissions, this can be used for a coded admission diagnosis.</p>
 </td></tr>
   <tr><td><a href="http://build.fhir.org/conformance-rules.html#conformance">Control</a></td><td>0..*</td></tr>
+  <tr><td><a href="http://build.fhir.org/terminologies.html">Binding</a></td><td>Reason why the encounter takes place.<br/>The codes SHOULD be taken from <a href="http://build.fhir.org/valueset-encounter-reason.html">EncounterReasonCodes</a></td></tr>
   <tr><td><a href="http://build.fhir.org/datatypes.html">Type</a></td><td><a href="http://build.fhir.org/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
   <tr><td title="Other names by which this resource/element may be known">Alternate Names</td><td>Indication, Admission diagnosis</td></tr>
   <tr><td>Comments</td><td><p>For systems that need to know which was the primary diagnosis, these will be marked with the standard extension primaryDiagnosis (which is a sequence value rather than a flag, 1 = primary diagnosis).</p>
@@ -3183,7 +3184,7 @@ This is the {% if {{site.build}} == "ci" %}
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.fhir.r4.core.prototype# based on <a style="color: #81BEF7" href="http://build.fhir.org/index.html">FHIR 4.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Wed, Dec 11, 2019 10:30+0000">2019-12-11</span>. <br/>
+     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.fhir.r4.core.prototype# based on <a style="color: #81BEF7" href="http://build.fhir.org/index.html">FHIR 4.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Wed, Dec 11, 2019 11:28+0000">2019-12-11</span>. <br/>
       Links: <!--<a style="color: #81BEF7" href="toc.html">Table of Contents</a>-->
 	  <a style="color: #81BEF7" href="qa.html">QA Report</a>
 	  | <a style="color: #81BEF7" href="history.html">Version History</a>
