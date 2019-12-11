@@ -8,7 +8,12 @@
 
 This profile allows exchange of a formally or informally recognised grouping of people or organisations formed for the purpose of achieving some form of collective action. Includes companies, institutions, corporations, departments, community groups, healthcare practice groups, etc.
 
-### Profile Minimum Viable Content ###
+### Example Usage Scenarios ###
+
+The following are example usage scenarios for the UK Core Organisation profile:
+
+- Query for organisation information using an ODS code carried in the identifier element
+- Exchange organisation information within a FHIR document or message.
 
 ### Profile Minimum Viable Content (Mandatory and Must Support Data Elements) ###
 
