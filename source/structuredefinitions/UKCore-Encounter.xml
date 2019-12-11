@@ -137,12 +137,6 @@
         <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
       </type>
     </element>
-    <element id="Encounter.reasonCode">
-      <path value="Encounter.reasonCode" />
-      <binding>
-        <strength value="extensible" />
-      </binding>
-    </element>
     <element id="Encounter.reasonReference">
       <path value="Encounter.reasonReference" />
       <type>
