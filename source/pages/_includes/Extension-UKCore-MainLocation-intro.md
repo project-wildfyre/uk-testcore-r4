@@ -8,6 +8,8 @@ The following contexts of use have been applied to this Extension:
 
 - Organization
 
-### Profile Minimum Viable Content ###
+### Profile Minimum Viable Content (MVC) ###
 
-The Minimum Viable Content for this profile has not yet been defined and may be added in a later release.
+The following elements are mandatory in this extension (i.e. MUST be present):
+
+1.	valueReference
