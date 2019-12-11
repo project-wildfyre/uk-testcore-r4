@@ -13,8 +13,8 @@ This profile allows exchange of demographics and other administrative informatio
 
 The following are example usage scenarios for the UK Core Patient profile:
 
-- Query for a Patient demographic information using NHS number, which is a type of identifier. The NHS number is identifiable by identifier.system.
-- Query for a Patient demographic information using parameters such as first name, last name, birthdate, and gender.
+- Query for a Patient demographic information using the query parameter identifier (Patient.identifier) for a known NHS number
+- Query for a Patient demographic information using query parameters such as family, given, birthdate, and gender.
 - Exchange Patient demographic information within a FHIR document or message.
 
 ### Profile Minimum Viable Content (Mandatory and Must Support Data Elements) ###
