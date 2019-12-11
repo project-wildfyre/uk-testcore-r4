@@ -10,7 +10,7 @@
   "name": "ExtensionUKCoreAllergyIntoleranceEnd",
   "title": "Extension UK Core Allergy Intolerance End",
   "status": "draft",
-  "date": "2019-12-11T11:28:54+00:00",
+  "date": "2019-12-11T12:45:32+00:00",
   "publisher": "NHS Digital",
   "contact": [
     {
@@ -24,7 +24,7 @@
       ]
     }
   ],
-  "description": "Supports the date and reason that the allergy was no longer valid.",
+  "description": "An extension to support the date and/or reason that the allergy or intolerance was no longer valid.",
   "copyright": "Copyright © 2019 NHS Digital",
   "fhirVersion": "4.0.1",
   "mapping": [

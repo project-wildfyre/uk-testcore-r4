@@ -24,7 +24,7 @@
       ]
     }
   ],
-  "description": "This extension has been constrained to represent the clinical setting of a List.",
+  "description": "An extension to support the clinical setting associated with a list.",
   "purpose": "This extension has been developed to represent the clinical setting of a List.",
   "copyright": "Copyright © 2019 NHS Digital",
   "fhirVersion": "4.0.1",

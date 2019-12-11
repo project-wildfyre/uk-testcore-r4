@@ -23,7 +23,7 @@
       <use value="work"/>
     </telecom>
   </contact>
-  <description value="This extension has been constrained to represent a patient&#39;s ethnic category."/>
+  <description value="An extension to support the ethnic category of an individual."/>
   <purpose value="This extension has been developed to demonstrate the representation of the ethnic category of a patient."/>
   <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
   <fhirVersion value="4.0.1"/>

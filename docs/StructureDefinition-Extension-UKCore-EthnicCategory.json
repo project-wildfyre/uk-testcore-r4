@@ -24,7 +24,7 @@
       ]
     }
   ],
-  "description": "This extension has been constrained to represent a patient's ethnic category.",
+  "description": "An extension to support the ethnic category of an individual.",
   "purpose": "This extension has been developed to demonstrate the representation of the ethnic category of a patient.",
   "copyright": "Copyright © 2019 NHS Digital",
   "fhirVersion": "4.0.1",

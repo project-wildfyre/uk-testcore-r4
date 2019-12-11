@@ -1118,6 +1118,9 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
+    "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EthnicCategory": [
+      "Patient"
+    ],
     "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MainLocation": [
       "Organization"
     ],

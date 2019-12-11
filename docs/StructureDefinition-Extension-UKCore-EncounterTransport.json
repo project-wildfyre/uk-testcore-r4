@@ -24,7 +24,7 @@
       ]
     }
   ],
-  "description": "This extension has been constrained to represent the transport used by the subject for an encounter.",
+  "description": "An extension to support the transport used by the individual who is the subject of an encounter.",
   "purpose": "This extension has been developed to demonstrate the representation of the transport used by the subject for an encounter.",
   "copyright": "Copyright © 2019 NHS Digital",
   "fhirVersion": "4.0.1",

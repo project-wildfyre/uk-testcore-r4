@@ -30,7 +30,7 @@
 	<participant>
 		<type>
 			<coding>
-				<system value="	http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+				<system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
 				<code value="ATND"/>
 				<display value="attender"/>
 			</coding>
@@ -45,6 +45,6 @@
 		</location>
 	</location>
 	<serviceProvider>
-		<reference value="Orgnization/UKCore-Organisation-Example"/>
+		<reference value="Organization/UKCore-Organisation-Example"/>
 	</serviceProvider>
 </Encounter>

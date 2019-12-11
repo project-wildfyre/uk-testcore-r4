@@ -282,8 +282,42 @@ This is the {% if {{site.build}} == "ci" %}
   },
   "<a href="http://build.fhir.org/patient.html#Patient.text">text</a>" : {
     "<a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: UKCore-Patient-Example&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Richard SMITH (OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;birthDate&lt;/b&gt;: 1970-09-11&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+    "<a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: UKCore-Patient-Example&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: 9912003888&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Richard SMITH (OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;telecom&lt;/b&gt;: ph: 01131231234&lt;/p&gt;&lt;p&gt;&lt;b&gt;gender&lt;/b&gt;: male&lt;/p&gt;&lt;p&gt;&lt;b&gt;birthDate&lt;/b&gt;: 1970-09-11&lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: 4 Sandmoor Drive LEEDS LS17 7DF &lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
   },
+  "<a href="http://build.fhir.org/patient.html#Patient.extension">extension</a>" : [
+    {
+      "<a href="http://build.fhir.org/extensibility.html#Extension#Extension.url">url</a>" : "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EthnicCategory",
+      "<a href="http://build.fhir.org/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>" : {
+        "<a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">system</a>" : "https://fhir.nhs.uk/R4/UKCore-EthnicCategory-1",
+            "<a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">code</a>" : "A",
+            "<a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">display</a>" : "British, Mixed British"
+          }
+        ]
+      }
+    }
+  ],
+  "<a href="http://build.fhir.org/patient.html#Patient.identifier">identifier</a>" : [
+    {
+      "<a href="http://build.fhir.org/datatypes.html#Identifier#Identifier.extension">extension</a>" : [
+        {
+          "<a href="http://build.fhir.org/extensibility.html#Extension#Extension.url">url</a>" : "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus",
+          "<a href="http://build.fhir.org/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>" : {
+            "<a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">system</a>" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSNumberVerificationStatus",
+                "<a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">code</a>" : "01",
+                "<a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">display</a>" : "Number present and verified"
+              }
+            ]
+          }
+        }
+      ],
+      "<a href="http://build.fhir.org/datatypes.html#Identifier#Identifier.system">system</a>" : "https://fhir.nhs.uk/Id/nhs-number",
+      "<a href="http://build.fhir.org/datatypes.html#Identifier#Identifier.value">value</a>" : "9912003888"
+    }
+  ],
   "<a href="http://build.fhir.org/patient.html#Patient.name">name</a>" : [
     {
       "<a href="http://build.fhir.org/datatypes.html#HumanName#HumanName.use">use</a>" : "official",
@@ -293,6 +327,13 @@ This is the {% if {{site.build}} == "ci" %}
       ]
     }
   ],
+  "<a href="http://build.fhir.org/patient.html#Patient.telecom">telecom</a>" : [
+    {
+      "<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "phone",
+      "<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "01131231234"
+    }
+  ],
+  "<a href="http://build.fhir.org/patient.html#Patient.gender">gender</a>" : "male",
   "<a href="http://build.fhir.org/patient.html#Patient.birthDate">birthDate</a>" : "1970-09-11",
   "<a href="http://build.fhir.org/patient.html#Patient.birthDate">_birthDate</a>" : {
     "<a href="http://build.fhir.org/datatypes.html#date#date.extension">extension</a>" : [
@@ -301,7 +342,16 @@ This is the {% if {{site.build}} == "ci" %}
         "<a href="http://build.fhir.org/extensibility.html#Extension#Extension.value[x]">valueDateTime</a>" : "1970-09-11T13:46:00+00:00"
       }
     ]
-  }
+  },
+  "<a href="http://build.fhir.org/patient.html#Patient.address">address</a>" : [
+    {
+      "<a href="http://build.fhir.org/datatypes.html#Address#Address.line">line</a>" : [
+        "4 Sandmoor Drive",
+        "LEEDS"
+      ],
+      "<a href="http://build.fhir.org/datatypes.html#Address#Address.postalCode">postalCode</a>" : "LS17 7DF"
+    }
+  ]
 }</pre>
 
 
@@ -333,7 +383,7 @@ This is the {% if {{site.build}} == "ci" %}
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.fhir.r4.core.prototype# based on <a style="color: #81BEF7" href="http://build.fhir.org/index.html">FHIR 4.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Wed, Dec 11, 2019 11:28+0000">2019-12-11</span>. <br/>
+     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.fhir.r4.core.prototype# based on <a style="color: #81BEF7" href="http://build.fhir.org/index.html">FHIR 4.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Wed, Dec 11, 2019 12:45+0000">2019-12-11</span>. <br/>
       Links: <!--<a style="color: #81BEF7" href="toc.html">Table of Contents</a>-->
 	  <a style="color: #81BEF7" href="qa.html">QA Report</a>
 	  | <a style="color: #81BEF7" href="history.html">Version History</a>

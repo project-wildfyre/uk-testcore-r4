@@ -20,7 +20,7 @@
   <name value="ExtensionUKCoreAllergyIntoleranceEnd"/>
   <title value="Extension UK Core Allergy Intolerance End"/>
   <status value="draft"/>
-  <date value="2019-12-11T11:28:54+00:00"/>
+  <date value="2019-12-11T12:45:32+00:00"/>
   <publisher value="NHS Digital"/>
   <contact>
     <name value="Interoperability Team"/>
@@ -30,7 +30,7 @@
       <use value="work"/>
     </telecom>
   </contact>
-  <description value="Supports the date and reason that the allergy was no longer valid."/>
+  <description value="An extension to support the date and/or reason that the allergy or intolerance was no longer valid."/>
   <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
   <fhirVersion value="4.0.1"/>
   <mapping>

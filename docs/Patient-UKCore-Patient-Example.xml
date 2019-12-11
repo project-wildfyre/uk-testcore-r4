@@ -6,16 +6,48 @@
     <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient|1.0.0"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Patient-Example</p><p><b>meta</b>: </p><p><b>name</b>: Richard SMITH (OFFICIAL)</p><p><b>birthDate</b>: 1970-09-11</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Patient-Example</p><p><b>meta</b>: </p><p><b>identifier</b>: 9912003888</p><p><b>name</b>: Richard SMITH (OFFICIAL)</p><p><b>telecom</b>: ph: 01131231234</p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1970-09-11</p><p><b>address</b>: 4 Sandmoor Drive LEEDS LS17 7DF </p></div>
   </text>
+  <extension url="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EthnicCategory">
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://fhir.nhs.uk/R4/UKCore-EthnicCategory-1"/>
+        <code value="A"/>
+        <display value="British, Mixed British"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <identifier>
+    <extension url="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus">
+      <valueCodeableConcept>
+        <coding>
+          <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSNumberVerificationStatus"/>
+          <code value="01"/>
+          <display value="Number present and verified"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+    <system value="https://fhir.nhs.uk/Id/nhs-number"/>
+    <value value="9912003888"/>
+  </identifier>
   <name>
     <use value="official"/>
     <family value="SMITH"/>
     <given value="Richard"/>
   </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="01131231234"/>
+  </telecom>
+  <gender value="male"/>
   <birthDate value="1970-09-11">
     <extension url="http://hl7.org/fhir/StructureDefinition/patient-birthTime">
       <valueDateTime value="1970-09-11T13:46:00+00:00"/>
     </extension>
   </birthDate>
+  <address>
+    <line value="4 Sandmoor Drive"/>
+    <line value="LEEDS"/>
+    <postalCode value="LS17 7DF"/>
+  </address>
 </Patient>

@@ -24,7 +24,7 @@
       ]
     }
   ],
-  "description": "This extension has been constrained to represent a patient's religious affiliation.",
+  "description": "An extension to support the religious affiliation of an individual.",
   "purpose": "This extension has been developed to demonstrate the representation of a patient's religious affiliation.",
   "copyright": "Copyright © 2019 NHS Digital",
   "fhirVersion": "4.0.1",

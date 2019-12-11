@@ -24,7 +24,7 @@
       ]
     }
   ],
-  "description": "This extension has been constrained to represent a patient's residential status.",
+  "description": "An extension to support the residential status of an individual.",
   "purpose": "This extension has been developed to demonstrate the representation of a patient's residential status.",
   "copyright": "Copyright © 2019 NHS Digital",
   "fhirVersion": "4.0.1",

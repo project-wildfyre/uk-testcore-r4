@@ -23,7 +23,7 @@
       <use value="work"/>
     </telecom>
   </contact>
-  <description value="This extension has been constrained to represent the method by which a patient was admitted to hospital."/>
+  <description value="An extension to support the method by which an individual was admitted into hospital."/>
   <purpose value="This extension has been developed to demonstrate the representation of the method by which a patient was admitted to hospital."/>
   <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
   <fhirVersion value="4.0.1"/>

@@ -10,7 +10,7 @@
   "name": "ExtensionUKCoreConditionEpisode",
   "title": "Extension UK Core Condition Episode",
   "status": "draft",
-  "date": "2019-12-11T11:28:54+00:00",
+  "date": "2019-12-11T12:45:32+00:00",
   "publisher": "NHS Digital",
   "contact": [
     {
@@ -24,7 +24,7 @@
       ]
     }
   ],
-  "description": "The episodicity status of a condition.",
+  "description": "An extension to support the episodicity status of a condition.",
   "copyright": "Copyright © 2019 NHS Digital",
   "fhirVersion": "4.0.1",
   "mapping": [

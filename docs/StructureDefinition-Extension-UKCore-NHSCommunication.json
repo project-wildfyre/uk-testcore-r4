@@ -24,7 +24,7 @@
       ]
     }
   ],
-  "description": "This extension has been constrained to support the communication preferences for a resource in the NHS.",
+  "description": "An extension to support the communication preferences for an individual.",
   "purpose": "This extension has been developed to support the communication preferences for a resource in the NHS.",
   "copyright": "Copyright © 2019 NHS Digital",
   "fhirVersion": "4.0.1",

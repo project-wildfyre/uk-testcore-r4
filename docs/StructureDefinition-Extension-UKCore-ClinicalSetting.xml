@@ -23,7 +23,7 @@
       <use value="work"/>
     </telecom>
   </contact>
-  <description value="This extension has been constrained to represent the clinical setting of a List."/>
+  <description value="An extension to support the clinical setting associated with a list."/>
   <purpose value="This extension has been developed to represent the clinical setting of a List."/>
   <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
   <fhirVersion value="4.0.1"/>

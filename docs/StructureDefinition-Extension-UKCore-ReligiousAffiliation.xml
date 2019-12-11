@@ -23,7 +23,7 @@
       <use value="work"/>
     </telecom>
   </contact>
-  <description value="This extension has been constrained to represent a patient&#39;s religious affiliation."/>
+  <description value="An extension to support the religious affiliation of an individual."/>
   <purpose value="This extension has been developed to demonstrate the representation of a patient&#39;s religious affiliation."/>
   <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
   <fhirVersion value="4.0.1"/>

@@ -8,8 +8,42 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Patient-Example</p><p><b>meta</b>: </p><p><b>name</b>: Richard SMITH (OFFICIAL)</p><p><b>birthDate</b>: 1970-09-11</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Patient-Example</p><p><b>meta</b>: </p><p><b>identifier</b>: 9912003888</p><p><b>name</b>: Richard SMITH (OFFICIAL)</p><p><b>telecom</b>: ph: 01131231234</p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1970-09-11</p><p><b>address</b>: 4 Sandmoor Drive LEEDS LS17 7DF </p></div>"
   },
+  "extension": [
+    {
+      "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EthnicCategory",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "https://fhir.nhs.uk/R4/UKCore-EthnicCategory-1",
+            "code": "A",
+            "display": "British, Mixed British"
+          }
+        ]
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "extension": [
+        {
+          "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSNumberVerificationStatus",
+                "code": "01",
+                "display": "Number present and verified"
+              }
+            ]
+          }
+        }
+      ],
+      "system": "https://fhir.nhs.uk/Id/nhs-number",
+      "value": "9912003888"
+    }
+  ],
   "name": [
     {
       "use": "official",
@@ -19,6 +53,13 @@
       ]
     }
   ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "01131231234"
+    }
+  ],
+  "gender": "male",
   "birthDate": "1970-09-11",
   "_birthDate": {
     "extension": [
@@ -27,5 +68,14 @@
         "valueDateTime": "1970-09-11T13:46:00+00:00"
       }
     ]
-  }
+  },
+  "address": [
+    {
+      "line": [
+        "4 Sandmoor Drive",
+        "LEEDS"
+      ],
+      "postalCode": "LS17 7DF"
+    }
+  ]
 }

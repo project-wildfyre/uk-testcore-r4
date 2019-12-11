@@ -24,7 +24,7 @@
       ]
     }
   ],
-  "description": "This extension has been constrained to represent the status of a patient on discharge from an Emergency Care Department.",
+  "description": "An extension to support the status of an individual on discharge from an Emergency Care Department.",
   "purpose": "This extension has been developed to demonstrate the representation of the status of a patient on discharge from an Emergency Care Department.",
   "copyright": "Copyright © 2019 NHS Digital",
   "fhirVersion": "4.0.1",

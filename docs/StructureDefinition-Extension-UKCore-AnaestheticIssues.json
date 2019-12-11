@@ -10,7 +10,7 @@
   "name": "ExtensionUKCoreAnaestheticIssues",
   "title": "Extension UK Core Anaesthetic Issues",
   "status": "draft",
-  "date": "2019-12-11T11:28:54+00:00",
+  "date": "2019-12-11T12:45:32+00:00",
   "publisher": "NHS Digital",
   "contact": [
     {
@@ -24,7 +24,7 @@
       ]
     }
   ],
-  "description": "An Extension to record details of any adverse reaction to any anaesthetic agents including local anaesthesia. Problematic intubation, transfusion reaction, etc.",
+  "description": "An extension to support recording of details of any adverse reaction to any anaesthetic agents including local anaesthesia and problematic intubation, transfusion reaction, etc.",
   "copyright": "Copyright © 2019 NHS Digital",
   "fhirVersion": "4.0.1",
   "mapping": [
