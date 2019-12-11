@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="UKCore-AdditionalRelatedPersonRole"/>
+	<url value="https://fhir.nhs.uk/R4/Codesystem/UKCore-AdditionalRelatedPersonRole"/>
+	<version value="1.0.0"/>
+	<name value="UKCoreAdditionalRelatedPersonRole"/>
+	<status value="draft"/>
+	<date value="2019-12-06T00:00:00+00:00"/>
+	<publisher value="NHS Digital"/>
+	<description value="A CodeSystem to identify the additional relationship roles for RelatedPerson resources."/>
+	<copyright value="Copyright © 2019 NHS Digital"/>
+	<content value="complete"/>
+	<concept>
+		<code value="Agent"/>
+		<display value="Agent of patient"/>
+	</concept>
+	<concept>
+		<code value="Guardian"/>
+		<display value="Guardian of patient"/>
+	</concept>
+</CodeSystem>
