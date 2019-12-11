@@ -15,7 +15,7 @@
       <use value="work" />
     </telecom>
   </contact>
-  <description value="Supports the date and reason that the allergy was no longer valid." />
+  <description value="An extension to support the date and/or reason that the allergy or intolerance was no longer valid." />
   <copyright value="Copyright © 2019 NHS Digital" />
   <fhirVersion value="4.0.0" />
   <mapping>

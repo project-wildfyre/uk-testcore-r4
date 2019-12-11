@@ -16,7 +16,7 @@
       <use value="work" />
     </telecom>
   </contact>
-  <description value="This extension has been constrained to represent a patient’s death notification (as held on Personal Demographics Service (PDS))." />
+  <description value="An extension to support death notification for an individual. For example, as held on Personal Demographics Service (PDS)." />
   <purpose value="This extension has been developed to demonstrate the representation of a patient's death notification status." />
   <copyright value="Copyright © 2019 NHS Digital" />
   <fhirVersion value="4.0.0" />

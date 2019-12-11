@@ -16,7 +16,7 @@
       <use value="work" />
     </telecom>
   </contact>
-  <description value="This extension has been constrained to represent a patient's nominated pharmacy." />
+  <description value="An extension to support an individual’s nominated pharmacy." />
   <purpose value="This extension has been developed to demonstrate the representation of a patient's nominated pharmacy." />
   <copyright value="Copyright © 2019 NHS Digital" />
   <fhirVersion value="4.0.0" />

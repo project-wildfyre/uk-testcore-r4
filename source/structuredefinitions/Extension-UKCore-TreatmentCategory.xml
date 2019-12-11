@@ -16,7 +16,7 @@
       <use value="work" />
     </telecom>
   </contact>
-  <description value="This extension has been constrained to represent a patient's treatment category." />
+  <description value="An extension to support an individual’s treatment category." />
   <purpose value="This extension has been developed to demonstrate the representation of a patient's treatment category." />
   <copyright value="Copyright © 2019 NHS Digital" />
   <fhirVersion value="4.0.0" />

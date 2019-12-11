@@ -16,7 +16,7 @@
       <use value="work" />
     </telecom>
   </contact>
-  <description value="This extension has been constrained to represent a patient's residential status." />
+  <description value="An extension to support the residential status of an individual." />
   <purpose value="This extension has been developed to demonstrate the representation of a patient's residential status." />
   <copyright value="Copyright © 2019 NHS Digital" />
   <fhirVersion value="4.0.0" />

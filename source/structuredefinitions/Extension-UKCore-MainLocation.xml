@@ -16,7 +16,7 @@
       <use value="work" />
     </telecom>
   </contact>
-  <description value="This extension has been constrained to represent a reference to the main location for an organisation." />
+  <description value="An extension to support a reference to the main location for an organisation." />
   <purpose value="This extension has been developed to demonstrate the representation of a reference to the main location for an organisation." />
   <copyright value="Copyright © 2019 NHS Digital" />
   <fhirVersion value="4.0.0" />

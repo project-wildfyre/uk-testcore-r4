@@ -16,7 +16,7 @@
       <use value="work" />
     </telecom>
   </contact>
-  <description value="This extension has been constrained to represent the method of discharge from hospital." />
+  <description value="An extension to support the method of discharge from a hospital." />
   <purpose value="This extension has been developed to demonstrate the representation of the method by which a patient was discharged from hospital." />
   <copyright value="Copyright © 2019 NHS Digital" />
   <fhirVersion value="4.0.0" />
