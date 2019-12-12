@@ -1,9 +1,9 @@
 ﻿FHIRR4CorePrototype : Validation Results
 =========================================
 
-err = 32, warn = 2, info = 0
-IG Publisher Version: v1.0.17-SNAPSHOT
-Generated Wed Dec 11 12:48:59 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
+err = 26, warn = 0, info = 0
+IG Publisher Version: v1.0.18-SNAPSHOT
+Generated Thu Dec 12 09:16:03 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
 
  Build Errors : 363 / 1
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-AdmissionMethod : 0 / 0
@@ -30,13 +30,13 @@ Generated Wed Dec 11 12:48:59 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\conceptmaps\ConceptMap-UKCore-AllergyVerificationStatus : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\conceptmaps\ConceptMap-UKCore-ConditionEpisodicity : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\conceptmaps\ConceptMap-UKCore-MaritalStatus : 0 / 0
- C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-AllergyIntolerance-Example : 2 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-AllergyIntolerance-Example : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Condition-Example : 0 / 0
- C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Consent-Example : 1 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Consent-Example : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Encounter-Example : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-List-Example : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Location-Example : 0 / 0
- C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Observation-Example : 0 / 1
+ C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Observation-Example : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Organisation-Example : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Patient-Example : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Practitioner-Example : 0 / 0
@@ -502,16 +502,12 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\versioning.html: The html so
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\conceptmaps\ConceptMap-UKCore-ConditionEpisodicity.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\conceptmaps\ConceptMap-UKCore-MaritalStatus.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-AllergyIntolerance-Example.xml ==
-ERROR: AllergyIntolerance/UKCore-AllergyIntolerance-Example: AllergyIntolerance.code.coding[0]: Unable to provide support for code system http://snomed.info/sct version http://snomed.info/sct/999000021000000109 for 'http://snomed.info/sct#372687004'
-ERROR: AllergyIntolerance/UKCore-AllergyIntolerance-Example: AllergyIntolerance.reaction[0].manifestation[0].coding[0]: Unable to provide support for code system http://snomed.info/sct version http://snomed.info/sct/999000021000000109 for 'http://snomed.info/sct#247472004'
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Condition-Example.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Consent-Example.xml ==
-ERROR: Consent/UKCore-Consent-Example: Consent.provision.purpose[0]: Unable to provide support for code system http://snomed.info/sct version http://snomed.info/sct/999000021000000109 for 'http://snomed.info/sct#370856009'
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Encounter-Example.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-List-Example.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Location-Example.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Observation-Example.xml ==
-WARNING: Observation/UKCore-Observation-Example: Observation.code.coding[0]: The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-ObservationType (https://fhir.nhs.uk/R4/ValueSet/UKCore-ObservationType, and a code should come from this value set unless it has no suitable code) (error message = The filter "constraint = (<<363787002 | Observable entity|)" was not understood in the context of http://snomed.info/sct)
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Organisation-Example.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Patient-Example.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Practitioner-Example.xml ==
