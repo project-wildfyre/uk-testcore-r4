@@ -4,7 +4,7 @@
   <url value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ContactRank" />
   <version value="1.0.0" />
   <name value="ExtensionUKCoreContactRank" />
-  <title value="Extension UK Core Contact Rank" />
+  <title value="Extension UK Core ContactRank" />
   <status value="draft" />
   <experimental value="false" />
   <publisher value="NHS Digital" />

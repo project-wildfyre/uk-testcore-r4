@@ -4,7 +4,7 @@
   <url value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey" />
   <version value="1.0.0" />
   <name value="ExtensionUKCoreAddressKey" />
-  <title value="Extension UK Core Address Key " />
+  <title value="Extension UK Core AddressKey " />
   <status value="draft" />
   <experimental value="false" />
   <publisher value="NHS Digital" />

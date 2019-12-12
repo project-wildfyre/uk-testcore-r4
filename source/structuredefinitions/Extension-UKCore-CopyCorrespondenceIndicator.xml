@@ -4,7 +4,7 @@
   <url value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-CopyCorrespondenceIndicator" />
   <version value="v0.1" />
   <name value="ExtensionUKCoreCopyCorrespondenceIndicator" />
-  <title value="Extension UK Core Copy Correspondence Indicator" />
+  <title value="Extension UK Core CopyCorrespondenceIndicator" />
   <status value="draft" />
   <experimental value="false" />
   <publisher value="NHS Digital" />
