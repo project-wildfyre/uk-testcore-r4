@@ -4,6 +4,7 @@
 	<url value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-PreferredWrittenCommunicationFormat"/>
 	<version value="1.0.0"/>
 	<name value="UKCorePreferredWrittenCommunicationFormat"/>
+	<title value="UK Core Preferred Written Communication Format"/>
 	<status value="draft"/>
 	<date value="2019-12-06T00:00:00+00:00"/>
 	<publisher value="NHS Digital"/>
