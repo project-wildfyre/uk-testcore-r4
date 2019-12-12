@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="UKCore-AdditionalRelatedPersonRole"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>UK Core Additional RelatedPerson Role</h2><div><p>A CodeSystem to identify the additional relationship roles for RelatedPerson resources.</p>
+</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This code system https://fhir.nhs.uk/R4/Codesystem/UKCore-AdditionalRelatedPersonRole defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">Agent<a name="UKCore-AdditionalRelatedPersonRole-Agent"> </a></td><td>Agent of patient</td><td/></tr><tr><td style="white-space:nowrap">Guardian<a name="UKCore-AdditionalRelatedPersonRole-Guardian"> </a></td><td>Guardian of patient</td><td/></tr></table></div>
+  </text>
+  <url value="https://fhir.nhs.uk/R4/Codesystem/UKCore-AdditionalRelatedPersonRole"/>
+  <version value="1.0.0"/>
+  <name value="UKCoreAdditionalRelatedPersonRole"/>
+  <title value="UK Core Additional RelatedPerson Role"/>
+  <status value="draft"/>
+  <date value="2019-12-06T00:00:00+00:00"/>
+  <publisher value="NHS Digital"/>
+  <contact>
+    <name value="Interoperability Team"/>
+    <telecom>
+      <system value="email"/>
+      <value value="interoperabilityteam@nhs.net"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="A CodeSystem to identify the additional relationship roles for RelatedPerson resources."/>
+  <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
+  <content value="complete"/>
+  <concept>
+    <code value="Agent"/>
+    <display value="Agent of patient"/>
+  </concept>
+  <concept>
+    <code value="Guardian"/>
+    <display value="Guardian of patient"/>
+  </concept>
+</CodeSystem>

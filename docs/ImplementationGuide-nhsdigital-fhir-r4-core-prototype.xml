@@ -1282,5 +1282,161 @@
       </reference>
       <exampleBoolean value="true"/>
     </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CodeSystem-UKCore-PreferredWrittenCommunicationFormat.html"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/UKCore-PreferredWrittenCommunicationFormat"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CodeSystem-UKCore-PreferredContactMethod.html"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/UKCore-PreferredContactMethod"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CodeSystem-UKCore-ConsentUpdateMode.html"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/UKCore-ConsentUpdateMode"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CodeSystem-UKCore-AddressKeyType.html"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/UKCore-AddressKeyType"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CodeSystem-UKCore-AdditionalRelatedPersonRole.html"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/UKCore-AdditionalRelatedPersonRole"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-UKCore-PreferredWrittenCommunicationFormat.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/UKCore-PreferredWrittenCommunicationFormat"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-UKCore-PreferredContactMethod.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/UKCore-PreferredContactMethod"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-UKCore-AddressKeyType.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/UKCore-AddressKeyType"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Extension-UKCore-CopyCorrespondenceIndicator.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-CopyCorrespondenceIndicator"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Extension-UKCore-ContactRank.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-ContactRank"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Extension-UKCore-ContactPreference.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-ContactPreference"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Extension-UKCore-AddressKey.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-AddressKey"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Extension-UKCore-EffectivePeriod.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Extension-UKCore-EffectivePeriod"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
   </definition>
 </ImplementationGuide>

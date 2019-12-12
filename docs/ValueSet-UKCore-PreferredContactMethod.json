@@ -1,0 +1,36 @@
+{
+  "resourceType": "ValueSet",
+  "id": "UKCore-PreferredContactMethod",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UK Core Preferred Contact Method</h2><div><p>A ValueSet to identify the preferred Contact Method of a Patient, contact or RelatedPerson.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-UKCore-PreferredContactMethod.html\"><code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-PreferredContactMethod</code></a></li></ul></div>"
+  },
+  "url": "https://fhir.nhs.uk/R4/ValueSet/UKCore-PreferredContactMethod",
+  "version": "1.0.0",
+  "name": "UKCorePreferredContactMethod",
+  "title": "UK Core Preferred Contact Method",
+  "status": "draft",
+  "date": "2019-12-06T00:00:00+00:00",
+  "publisher": "NHS Digital",
+  "contact": [
+    {
+      "name": "Interoperability Team",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "interoperabilityteam@nhs.net",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "A ValueSet to identify the preferred Contact Method of a Patient, contact or RelatedPerson.",
+  "copyright": "Copyright © 2019 NHS Digital",
+  "compose": {
+    "include": [
+      {
+        "system": "https://fhir.nhs.uk/R4/CodeSystem/UKCore-PreferredContactMethod"
+      }
+    ]
+  }
+}

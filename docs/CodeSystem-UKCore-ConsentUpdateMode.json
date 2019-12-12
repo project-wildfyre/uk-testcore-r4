@@ -1,0 +1,40 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "UKCore-ConsentUpdateMode",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UK Core Consent Update Mode</h2><div><p>A CodeSystem to identify the whether this is the original or an amended resource.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This code system https://fhir.nhs.uk/R4/Codesystem/UKCore-ConsentUpdateMode defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">added<a name=\"UKCore-ConsentUpdateMode-added\"> </a></td><td>Resource added</td><td/></tr><tr><td style=\"white-space:nowrap\">altered<a name=\"UKCore-ConsentUpdateMode-altered\"> </a></td><td>Resource altered</td><td/></tr></table></div>"
+  },
+  "url": "https://fhir.nhs.uk/R4/Codesystem/UKCore-ConsentUpdateMode",
+  "version": "1.0.0",
+  "name": "UKCoreConsentUpdateMode",
+  "title": "UK Core Consent Update Mode",
+  "status": "draft",
+  "date": "2019-12-06T00:00:00+00:00",
+  "publisher": "NHS Digital",
+  "contact": [
+    {
+      "name": "Interoperability Team",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "interoperabilityteam@nhs.net",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "A CodeSystem to identify the whether this is the original or an amended resource.",
+  "copyright": "Copyright © 2019 NHS Digital",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "added",
+      "display": "Resource added"
+    },
+    {
+      "code": "altered",
+      "display": "Resource altered"
+    }
+  ]
+}

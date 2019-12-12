@@ -9,13 +9,18 @@ This page lists all the Extensions that have been approved for use with the <a h
 
 | Name                                                                                                | Context of Use            |
 |-----------------------------------------------------------------------------------------------------|---------------------------|
+| [Extension UK Core AddressKey](Extension-UKCore-AddressKey.html)                           | Address |
 | [Extension UK Core AdmissionMethod](Extension-UKCore-AdmissionMethod.html)                           | Encounter.hospitalization |
 | [Extension UK Core AllergyIntoleranceEnd](Extension-UKCore-AllergyIntoleranceEnd.html)               | AllergyIntolerance        |
 | [Extension UK Core AnaestheticIssues](Extension-UKCore-AnaestheticIssues.html)                       | Procedure                 |
 | [Extension UK Core ClinicalSetting](Extension-UKCore-ClinicalSetting.html)                           | List                      |
 | [Extension UK Core ConditionEpisode](Extension-UKCore-ConditionEpisode.html)                         | Condition                 |
+| [Extension UK Core ContactPreference](Extension-UKCore-ContactPreference.html)                         | Patient.contact, Patient.telecom, RelatedPerson.telecom                 |
+| [Extension UK Core ContactRank](Extension-UKCore-ContactRank.html)                         | Patient.contact, RelatedPerson                 |
+| [Extension UK Core CopyCorrespondenceIndicator](Extension-UKCore-CopyCorrespondenceIndicator.html)                         | Patient.contact, RelatedPerson                 |
 | [Extension UK Core DeathNotificationStatus](Extension-UKCore-DeathNotificationStatus.html)           | Patient                   |
 | [Extension UK Core DischargeMethod](Extension-UKCore-DischargeMethod.html)                           | Encounter.hospitalization |
+| [Extension UK Core EffectivePeriod](Extension-UKCore-EffectivePeriod.html) 						   | Resource                 |
 | [Extension UK Core EmergencyCareDischargeStatus](Extension-UKCore-EmergencyCareDischargeStatus.html) | Encounter                 |
 | [Extension UK Core EncounterTransport](Extension-UKCore-EncounterTransport.html)                     | Encounter                 |
 | [Extension UK Core EthnicCategory](Extension-UKCore-EthnicCategory.html)                             | Patient                   |
@@ -40,3 +45,6 @@ The following <a href="http://hl7.org/fhir/extensibility-registry.html" target="
 | [patient-cadavericDonor](http://hl7.org/fhir/StructureDefinition/patient-cadavericDonor)                       | Patient                 |
 | [organization-period](http://hl7.org/fhir/StructureDefinition/organization-period)                           | Organization                      |
 | [coding-sctdescid](http://hl7.org/fhir/StructureDefinition/coding-sctdescid)                         | Coding                 |
+
+
+ 

@@ -151,6 +151,18 @@
 			"source": "ValueSet-UKCore-ConditionCode.xml",
 			"base": "ValueSet-UKCore-ConditionCode.html"
 		},
+		"ValueSet/UKCore-AddressKeyType": {
+			"source": "ValueSet-UKCore-AddressKeyType.xml",
+			"base": "ValueSet-UKCore-AddressKeyType.html"
+		},
+		"ValueSet/UKCore-PreferredContactMethod": {
+			"source": "ValueSet-UKCore-PreferredContactMethod.xml",
+			"base": "ValueSet-UKCore-PreferredContactMethod.html"
+		},
+		"ValueSet/UKCore-PreferredWrittenCommunicationFormat": {
+			"source": "ValueSet-UKCore-PreferredWrittenCommunicationFormat.xml",
+			"base": "ValueSet-UKCore-PreferredWrittenCommunicationFormat.html"
+		},		
 		"ValueSet/UKCore-ProcedureCode": {
 			"source": "ValueSet-UKCore-ProcedureCode.xml",
 			"base": "ValueSet-UKCore-ProcedureCode.html"
@@ -279,10 +291,30 @@
 			"source": "ConceptMap-UKCore-AdministrativeGender.xml",
 			"base": "ConceptMap-UKCore-AdministrativeGender.html"
 		},
-		"CodeSystem/CodeSystem-CareConnect-LanguageAbilityMode": {
+		"CodeSystem/CareConnect-LanguageAbilityMode": {
 			"source": "CodeSystem-CareConnect-LanguageAbilityMode.xml",
 			"base": "CodeSystem-CareConnect-LanguageAbilityMode.html"
 		},
+		"CodeSystem/UKCore-AdditionalRelatedPersonRole": {
+			"source": "CodeSystem-UKCore-AdditionalRelatedPersonRole.xml",
+			"base": "CodeSystem-UKCore-AdditionalRelatedPersonRole.html"
+		},
+		"CodeSystem/UKCore-AddressKeyType": {
+			"source": "CodeSystem-UKCore-AddressKeyType.xml",
+			"base": "CodeSystem-UKCore-AddressKeyType.html"
+		},
+		"CodeSystem/UKCore-ConsentUpdateMode": {
+			"source": "CodeSystem-UKCore-ConsentUpdateMode.xml",
+			"base": "CodeSystem-UKCore-ConsentUpdateMode.html"
+		},
+		"CodeSystem/UKCore-PreferredContactMethod": {
+			"source": "CodeSystem-UKCore-PreferredContactMethod.xml",
+			"base": "CodeSystem-UKCore-PreferredContactMethod.html"
+		},
+		"CodeSystem/UKCore-PreferredWrittenCommunicationFormat": {
+			"source": "CodeSystem-UKCore-PreferredWrittenCommunicationFormat.xml",
+			"base": "CodeSystem-UKCore-PreferredWrittenCommunicationFormat.html"
+		},		
 		"StructureDefinition/UKCore-Patient": {
 			"source": "UKCore-Patient.xml",
 			"base": "UKCore-Patient.html",
@@ -387,6 +419,31 @@
 			"base": "Extension-UKCore-NominatedPharmacy.html",
 			"defns": "Extension-UKCore-NominatedPharmacy-definitions.html"
 		},
+		"StructureDefinition/Extension-UKCore-AddressKey": {
+			"source": "Extension-UKCore-AddressKey.xml",
+			"base": "Extension-UKCore-AddressKey.html",
+			"defns": "Extension-UKCore-AddressKey-definitions.html"
+		},
+		"StructureDefinition/Extension-UKCore-ContactPreference": {
+			"source": "Extension-UKCore-ContactPreference.xml",
+			"base": "Extension-UKCore-ContactPreference.html",
+			"defns": "Extension-UKCore-ContactPreference-definitions.html"
+		},
+		"StructureDefinition/Extension-UKCore-ContactRank": {
+			"source": "Extension-UKCore-ContactRank.xml",
+			"base": "Extension-UKCore-ContactRank.html",
+			"defns": "Extension-UKCore-ContactRank-definitions.html"
+		},
+		"StructureDefinition/Extension-UKCore-CopyCorrespondenceIndicator": {
+			"source": "Extension-UKCore-CopyCorrespondenceIndicator.xml",
+			"base": "Extension-UKCore-CopyCorrespondenceIndicator.html",
+			"defns": "Extension-UKCore-CopyCorrespondenceIndicator-definitions.html"
+		},
+		"StructureDefinition/Extension-UKCore-EffectivePeriod": {
+			"source": "Extension-UKCore-EffectivePeriod.xml",
+			"base": "Extension-UKCore-EffectivePeriod.html",
+			"defns": "Extension-UKCore-EffectivePeriod-definitions.html"
+		},										
 		"StructureDefinition/Extension-UKCore-MainLocation": {
 			"source": "Extension-UKCore-MainLocation.xml",
 			"base": "Extension-UKCore-MainLocation.html",
