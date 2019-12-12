@@ -739,7 +739,7 @@
       <binding>
         <strength value="extensible" />
         <description value="Preferred Written Communication Format" />
-        <valueSet value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-PreferredWrittenCommunicationFormat" />
+        <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-PreferredWrittenCommunicationFormat" />
       </binding>
       <mapping>
         <identity value="rim" />
@@ -1038,7 +1038,7 @@
       <binding>
         <strength value="extensible" />
         <description value="Preferred Written Communication Format" />
-        <valueSet value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-PreferredWrittenCommunicationFormat" />
+        <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-PreferredWrittenCommunicationFormat" />
       </binding>
     </element>
     <element id="Extension.url">
