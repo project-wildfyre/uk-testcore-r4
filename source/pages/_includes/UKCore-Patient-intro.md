@@ -21,11 +21,11 @@ The following are example usage scenarios for the UK Core Patient profile:
 
 The following data-elements are mandatory (i.e data MUST be present) or must be supported if the data is present in the sending system (Must Support definition). They are presented below in a simple human-readable explanation. Profile specific guidance and examples are provided as well. The Formal Profile Definition below provides the formal summary, definitions, and terminology requirements.
 
-**Each Patient must have:**
+**Each Patient resource must have:**
 
 1. a patient identifier (e.g. NHS Number, CHI Number, Local patient identifier)
 
-**Each Patient must support:**
+**Each Patient resource must support:**
 
 1. a patient name
 2. a gender
@@ -33,8 +33,7 @@ The following data-elements are mandatory (i.e data MUST be present) or must be 
 4. a birth date
 5. an address
 6. a communication language
-7. a race
-8. an ethnicity
+7. an ethnicity
 
 **Profile specific implementation guidance:**
 
