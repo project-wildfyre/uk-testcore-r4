@@ -73,6 +73,18 @@
 				<code value="826501000000100"/>
 				<display value="Miscellaneous record"/>
 			</concept>
+			<concept>
+				<code value="792931000000107"/>
+				<display value="Outbound referral"/>
+			</concept>
+			<concept>
+				<code value="887191000000108"/>
+				<display value="Investigations and results"/>
+			</concept>
+			<concept>
+				<code value="1149501000000101"/>
+				<display value="List of consultations"/>
+			</concept>
 		</include>
 	</compose>
 </ValueSet>
