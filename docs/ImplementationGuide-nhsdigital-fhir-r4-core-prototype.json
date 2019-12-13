@@ -3,12 +3,12 @@
   "id": "nhsdigital-fhir-r4-core-prototype",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>FHIRR4CorePrototype</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype</pre></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HL7FHIRUKCore</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype</pre></div>"
   },
   "url": "https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype",
   "version": "1.0.0",
-  "name": "FHIRR4CorePrototype",
-  "title": "FHIR R4 Core Prototype",
+  "name": "HL7FHIRUKCore",
+  "title": "HL7 FHIR®  UK Core",
   "status": "draft",
   "experimental": true,
   "date": "2019-10-14T00:00:00+01:00",
@@ -43,7 +43,7 @@
   "definition": {
     "grouping": [
       {
-        "name": "FHIR R4 Core Prototype"
+        "name": "HL7 FHIR®  UK Core"
       }
     ],
     "resource": [

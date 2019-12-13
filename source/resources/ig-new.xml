@@ -28,8 +28,8 @@
   </extension>
   <url value="https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype"/>
   <version value="1.0.0"/>
-  <name value="FHIRR4CorePrototype"/>
-  <title value="FHIR R4 Core Prototype"/>
+  <name value="HL7FHIRUKCore"/>
+  <title value="HL7 FHIR&#xAE;  UK Core"/>
   <status value="draft"/>
   <experimental value="true"/>
   <date value="2019-10-14T00:00:00+01:00"/>
@@ -54,7 +54,7 @@
   <fhirVersion value="4.0.1"/>
   <definition>
     <grouping>
-      <name value="FHIR R4 Core Prototype"/>
+      <name value="HL7 FHIR&#xAE;  UK Core"/>
     </grouping>
     <resource>
       <reference>

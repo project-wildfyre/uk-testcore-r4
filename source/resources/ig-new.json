@@ -35,8 +35,8 @@
   }],
   "url" : "https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype",
   "version" : "1.0.0",
-  "name" : "FHIRR4CorePrototype",
-  "title" : "FHIR R4 Core Prototype",
+  "name" : "HL7FHIRUKCore",
+  "title" : "HL7 FHIR®  UK Core",
   "status" : "draft",
   "experimental" : true,
   "date" : "2019-10-14T00:00:00+01:00",
@@ -61,7 +61,7 @@
   "4.0.1"],
   "definition" : {
     "grouping" : [{
-      "name" : "FHIR R4 Core Prototype"
+      "name" : "HL7 FHIR®  UK Core"
     }],
     "resource" : [{
       "reference" : {

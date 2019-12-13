@@ -6,7 +6,7 @@ active: guidance
 
 ### Summary
 
-FHIR R4 Core Prototype Implementation Guide - December 2019.  
+HL7 FHIR®  UK Core Implementation Guide R4 - December 2019 
 
 **Important:**
 

@@ -3,12 +3,12 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="nhsdigital-fhir-r4-core-prototype"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>FHIRR4CorePrototype</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype</pre></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>HL7FHIRUKCore</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype</pre></div>
   </text>
   <url value="https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype"/>
   <version value="1.0.0"/>
-  <name value="FHIRR4CorePrototype"/>
-  <title value="FHIR R4 Core Prototype"/>
+  <name value="HL7FHIRUKCore"/>
+  <title value="HL7 FHIR&#xAE;  UK Core"/>
   <status value="draft"/>
   <experimental value="true"/>
   <date value="2019-10-14T00:00:00+01:00"/>
@@ -32,7 +32,7 @@
   <fhirVersion value="4.0.1"/>
   <definition>
     <grouping>
-      <name value="FHIR R4 Core Prototype"/>
+      <name value="HL7 FHIR&#xAE;  UK Core"/>
     </grouping>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

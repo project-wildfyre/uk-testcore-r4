@@ -761,6 +761,6 @@
 			"template-base": "base.html"
 		},
 		"publisher": "NHS Digital",
-		"title": "FHIR R4 Core Prototype"
+		"title": "HL7 FHIR®  UK Core"
 	}
 }
