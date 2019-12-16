@@ -23,17 +23,17 @@ The following data-elements are mandatory (i.e data MUST be present) or must be 
 
 **Each Patient resource must have:**
 
-1. a patient identifier (e.g. NHS Number, CHI Number, Local patient identifier)
+1. A patient identifier (e.g. NHS Number, CHI Number, Local patient identifier)
 
 **Each Patient resource must support:**
 
-1. a patient name
-2. a gender
+1. A patient name
+2. A gender
 3. contact detail (e.g. a telephone number or an email address)
-4. a birth date
-5. an address
-6. a communication language
-7. an ethnicity
+4. A birth date
+5. An address
+6. A communication language
+7. An ethnicity
 
 **Profile specific implementation guidance:**
 
