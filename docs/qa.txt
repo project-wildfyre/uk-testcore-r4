@@ -1,9 +1,9 @@
 ﻿HL7FHIRUKCore : Validation Results
 =========================================
 
-err = 26, warn = 2, info = 0
-IG Publisher Version: v1.0.19-SNAPSHOT
-Generated Fri Dec 13 14:52:37 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
+err = 26, warn = 4, info = 0
+IG Publisher Version: v1.0.19-SNAPSHOT Out of date - current version is v1.0.20-SNAPSHOT
+Generated Sun Dec 15 10:16:10 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
 
  Build Errors : 407 / 1
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-AdditionalRelatedPersonRole : 0 / 0
@@ -37,11 +37,11 @@ Generated Fri Dec 13 14:52:37 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\conceptmaps\ConceptMap-UKCore-MaritalStatus : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-AllergyIntolerance-Example : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Condition-Example : 0 / 0
- C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Consent-Example : 0 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Consent-Example : 0 / 1
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Encounter-Example : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-List-Example : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Location-Example : 0 / 0
- C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Observation-Example : 0 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Observation-Example : 0 / 1
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Organisation-Example : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Patient-Example : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Practitioner-Example : 0 / 0
@@ -49,7 +49,7 @@ Generated Fri Dec 13 14:52:37 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Procedure-Example : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-RelatedPerson-Example : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\resources\ig : 0 / 0
- C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-AddressKey : 0 / 1
+ C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-AddressKey : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-AdmissionMethod : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-AllergyIntoleranceEnd : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-AnaestheticIssues : 0 / 0
@@ -566,10 +566,12 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\versioning.html: The html so
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-AllergyIntolerance-Example.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Condition-Example.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Consent-Example.xml ==
+WARNING: Consent/UKCore-Consent-Example: Consent.provision.purpose[0]: The Coding provided is not in the value set http://terminology.hl7.org/ValueSet/v3-PurposeOfUse (http://terminology.hl7.org/ValueSet/v3-PurposeOfUse, and a code should come from this value set unless it has no suitable code) (error message = The code provided (http://snomed.info/sct#370856009) is not  valid in the value set v3.PurposeOfUse)
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Encounter-Example.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-List-Example.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Location-Example.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Observation-Example.xml ==
+WARNING: Observation/UKCore-Observation-Example: Observation.code.coding[0]: The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-ObservationType (https://fhir.nhs.uk/R4/ValueSet/UKCore-ObservationType, and a code should come from this value set unless it has no suitable code) (error message = The filter "constraint = (<<363787002 | Observable entity|)" was not understood in the context of http://snomed.info/sct)
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Organisation-Example.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Patient-Example.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Practitioner-Example.xml ==
@@ -578,7 +580,6 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\versioning.html: The html so
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-RelatedPerson-Example.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\resources\ig.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-AddressKey.xml ==
-WARNING: StructureDefinition/Extension-UKCore-AddressKey: StructureDefinition.title: value should not start or finish with whitespace
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-AdmissionMethod.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-AllergyIntoleranceEnd.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\Extension-UKCore-AnaestheticIssues.xml ==
