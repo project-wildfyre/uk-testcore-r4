@@ -28,14 +28,12 @@ The following data-elements are mandatory (i.e data MUST be present) or must be 
 
 **Each List resource must support:**
 
-1. A list item
+1. A list subject
 2. A date when the list was prepared
-3. A list subject
+3. A list item
 4. An emptyReason
 
-
 **Profile specific implementation guidance:**
-
 
 ### Example ###
 

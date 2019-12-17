@@ -6,8 +6,7 @@
 <!-- end TOC -->
 ### Profile Purpose ###
 
-This profile allows exchange of information about an interaction between an individual and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of an individual.
-
+This profile allows exchange of information about an interaction between an individual and healthcare provider(s) for the purpose of providing healthcare service(s), or assessing the health status of an individual.
 
 ### Example Usage Scenarios ###
 
@@ -24,10 +23,10 @@ The following data-elements are mandatory (i.e data MUST be present) or must be 
 **Each Encounter resource must have:**
 
 1. A status
-2. An classification such as inpatient, outpatient or emergency
+2. An classification - such as inpatient, outpatient or emergency
 3. An encounter type
 4. A patient
-5. 
+
 **Each Encounter resource must support:**
 
 1. An encounter identifier
@@ -38,7 +37,6 @@ The following data-elements are mandatory (i.e data MUST be present) or must be 
 6. Where the encounter occurred
 
 **Profile specific implementation guidance:**
-
 
 ### Example ###
 

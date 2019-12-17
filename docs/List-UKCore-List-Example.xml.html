@@ -280,18 +280,26 @@ This is the {% if {{site.build}} == "ci" %}
   &lt;/meta&gt;
   &lt;<a href="http://build.fhir.org/list.html#List.text">text</a>&gt;
     &lt;<a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: UKCore-List-Example&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: current&lt;/p&gt;&lt;p&gt;&lt;b&gt;mode&lt;/b&gt;: working&lt;/p&gt;&lt;p&gt;&lt;b&gt;emptyReason&lt;/b&gt;: No Content Recorded &lt;span style=&quot;background: LightGoldenRodYellow&quot;&gt;(Details : {https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListEmptyReasonCode code 'no-content-recorded' = 'No Content Recorded', given as 'No Content Recorded'})&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: UKCore-List-Example&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: current&lt;/p&gt;&lt;p&gt;&lt;b&gt;mode&lt;/b&gt;: working&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: Allergies and adverse reactions &lt;span style=&quot;background: LightGoldenRodYellow&quot;&gt;(Details : {SNOMED CT code '886921000000105' = '886921000000105', given as 'Allergies and adverse reactions'})&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=&quot;UKCore-Patient-Example.html&quot;&gt;Generated Summary: id: UKCore-Patient-Example; 9912003888; Richard SMITH (OFFICIAL); ph: 01131231234; gender: male; birthDate: 1970-09-11&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 10-Dec-2019 13:00:00&lt;/p&gt;&lt;h3&gt;Entries&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Item&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;UKCore-AllergyIntolerance-Example.html&quot;&gt;Generated Summary: id: UKCore-AllergyIntolerance-Example; &lt;span title=&quot;Codes: {http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical active}&quot;&gt;Active&lt;/span&gt;; &lt;span title=&quot;Codes: {http://terminology.hl7.org/CodeSystem/allergyintolerance-verification confirmed}&quot;&gt;Confirmed&lt;/span&gt;; type: allergy; category: medication; &lt;span title=&quot;Codes: {http://snomed.info/sct 372687004}&quot;&gt;Amoxicillin&lt;/span&gt;; recordedDate: 10-Dec-2019 13:00:00&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/text&gt;
   &lt;<a href="http://build.fhir.org/list.html#List.status">status</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;current&quot;/&gt;
   &lt;<a href="http://build.fhir.org/list.html#List.mode">mode</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;working&quot;/&gt;
-  &lt;<a href="http://build.fhir.org/list.html#List.emptyReason">emptyReason</a>&gt;
+  &lt;<a href="http://build.fhir.org/list.html#List.code">code</a>&gt;
     &lt;<a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-      &lt;<a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">system</a>
-              <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListEmptyReasonCode&quot;/&gt;
-      &lt;<a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;no-content-recorded&quot;/&gt;
-      &lt;<a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;No Content Recorded&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">system</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;886921000000105&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Allergies and adverse reactions&quot;/&gt;
     &lt;/coding&gt;
-  &lt;/emptyReason&gt;
+  &lt;/code&gt;
+  &lt;<a href="http://build.fhir.org/list.html#List.subject">subject</a>&gt;
+    &lt;<a href="http://build.fhir.org/references.html#Reference#Reference.reference">reference</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Patient/UKCore-Patient-Example&quot;/&gt;
+  &lt;/subject&gt;
+  &lt;<a href="http://build.fhir.org/list.html#List.date">date</a> <a href="http://build.fhir.org/datatypes.html#dateTime">value</a>=&quot;2019-12-10T13:00:00+00:00&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/list.html#List.entry">entry</a>&gt;
+    &lt;<a href="http://build.fhir.org/list.html#List.entry.item">item</a>&gt;
+      &lt;<a href="http://build.fhir.org/references.html#Reference#Reference.reference">reference</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;AllergyIntolerance/UKCore-AllergyIntolerance-Example&quot;/&gt;
+    &lt;/item&gt;
+  &lt;/entry&gt;
 &lt;/List&gt;</pre>
 
 
@@ -323,7 +331,7 @@ This is the {% if {{site.build}} == "ci" %}
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.fhir.r4.core.prototype# based on <a style="color: #81BEF7" href="http://build.fhir.org/index.html">FHIR 4.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Tue, Dec 17, 2019 11:15+0000">2019-12-17</span>. <br/>
+     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.fhir.r4.core.prototype# based on <a style="color: #81BEF7" href="http://build.fhir.org/index.html">FHIR 4.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Tue, Dec 17, 2019 11:37+0000">2019-12-17</span>. <br/>
       Links: <!--<a style="color: #81BEF7" href="toc.html">Table of Contents</a>-->
 	  <a style="color: #81BEF7" href="qa.html">QA Report</a>
 	  | <a style="color: #81BEF7" href="history.html">Version History</a>
