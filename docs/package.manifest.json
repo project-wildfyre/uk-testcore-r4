@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
   "fhirVersion": "[4.0.1]",
-  "date": "20191215101045",
+  "date": "20191217092406",
   "name": "nhsdigital.fhir.r4.core.prototype"
 }
