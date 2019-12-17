@@ -12,7 +12,7 @@ This profile allows exchange of a formally or informally recognised grouping of 
 
 The following are example usage scenarios for the UK Core Organisation profile:
 
-- Query for organisation information using the query parameter identifier(Organization.identifier) for a known ODS code. 
+- Query for organisation information using the query parameter identifier (Organization.identifier) for a known ODS code. 
 - Exchange organisation information within a FHIR document or message.
 
 ### Profile Minimum Viable Content (Mandatory and Must Support Data Elements) ###

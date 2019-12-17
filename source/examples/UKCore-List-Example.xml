@@ -6,4 +6,11 @@
 	</meta>
 	<status value="current"/>
 	<mode value="working"/>
+	<emptyReason>
+		<coding>
+			<system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListEmptyReasonCode"/>
+			<code value="no-content-recorded"/>
+			<display value="No Content Recorded"/>
+		</coding>
+	</emptyReason>
 </List>

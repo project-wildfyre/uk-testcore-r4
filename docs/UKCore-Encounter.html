@@ -323,9 +323,39 @@ Formats: <a href="StructureDefinition-UKCore-Encounter.html">Narrative</a>, <a h
 
 <p>This profile allows exchange of information about an interaction between an individual and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of an individual.</p>
 
-<h3 id="profile-minimum-viable-content">Profile Minimum Viable Content</h3>
+<h3 id="example-usage-scenarios">Example Usage Scenarios</h3>
 
-<p>The Minimum Viable Content for this profile has not yet been defined and may be added in a later release.</p>
+<p>The following are example usage scenarios for the UK Core Encounter profile:</p>
+
+<ul>
+  <li>Query for a specific patient encounter</li>
+  <li>Query for recent patient encounters</li>
+  <li>Record or update an encounter</li>
+</ul>
+
+<h3 id="profile-minimum-viable-content-mandatory-and-must-support-data-elements">Profile Minimum Viable Content (Mandatory and Must Support Data Elements)</h3>
+
+<p>The following data-elements are mandatory (i.e data MUST be present) or must be supported if the data is present in the sending system (Must Support definition). They are presented below in a simple human-readable explanation. Profile specific guidance and examples are provided as well. The formal Profile Definition below provides the formal summary, definitions, and terminology requirements.</p>
+
+<p><strong>Each Encounter resource must have:</strong></p>
+
+<ol>
+  <li>A status</li>
+  <li>An classification such as inpatient, outpatient or emergency</li>
+  <li>An encounter type</li>
+  <li>A patient</li>
+  <li>
+    <p><strong>Each Encounter resource must support:</strong></p>
+  </li>
+  <li>An encounter identifier</li>
+  <li>Providers involved in the encounter</li>
+  <li>When the encounter occurred</li>
+  <li>Reason for the visit</li>
+  <li>The discharge disposition</li>
+  <li>Where the encounter occurred</li>
+</ol>
+
+<p><strong>Profile specific implementation guidance:</strong></p>
 
 <h3 id="example">Example</h3>
 
@@ -1481,7 +1511,7 @@ $( '#tabs' ).tabs({
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.fhir.r4.core.prototype# based on <a style="color: #81BEF7" href="http://build.fhir.org/index.html">FHIR 4.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Tue, Dec 17, 2019 10:27+0000">2019-12-17</span>. <br/>
+     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.fhir.r4.core.prototype# based on <a style="color: #81BEF7" href="http://build.fhir.org/index.html">FHIR 4.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Tue, Dec 17, 2019 11:03+0000">2019-12-17</span>. <br/>
       Links: <!--<a style="color: #81BEF7" href="toc.html">Table of Contents</a>-->
 	  <a style="color: #81BEF7" href="qa.html">QA Report</a>
 	  | <a style="color: #81BEF7" href="history.html">Version History</a>

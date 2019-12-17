@@ -329,19 +329,19 @@ Formats: <a href="StructureDefinition-UKCore-Patient.html">Narrative</a>, <a hre
 <p>The following are example usage scenarios for the UK Core Patient profile:</p>
 
 <ul>
-  <li>Query for a Patient demographic information using the query parameter identifier (Patient.identifier) for a known NHS number</li>
-  <li>Query for a Patient demographic information using query parameters such as family, given, birthdate, and gender.</li>
+  <li>Query for Patient demographic information using the query parameter identifier (Patient.identifier) for a known NHS number</li>
+  <li>Query for Patient demographic information using query parameters such as family name, given name, birthDate, and gender.</li>
   <li>Exchange Patient demographic information within a FHIR document or message.</li>
 </ul>
 
 <h3 id="profile-minimum-viable-content-mandatory-and-must-support-data-elements">Profile Minimum Viable Content (Mandatory and Must Support Data Elements)</h3>
 
-<p>The following data-elements are mandatory (i.e data MUST be present) or must be supported if the data is present in the sending system (Must Support definition). They are presented below in a simple human-readable explanation. Profile specific guidance and examples are provided as well. The Formal Profile Definition below provides the formal summary, definitions, and terminology requirements.</p>
+<p>The following data-elements are mandatory (i.e data MUST be present) or must be supported if the data is present in the sending system (Must Support definition). They are presented below in a simple human-readable explanation. Profile specific guidance and examples are provided as well. The formal Profile Definition below provides the formal summary, definitions, and terminology requirements.</p>
 
 <p><strong>Each Patient resource must have:</strong></p>
 
 <ol>
-  <li>A patient identifier (e.g. NHS Number, CHI Number, Local patient identifier)</li>
+  <li>A patient identifier (e.g. NHS Number, CHI Number, local patient identifier)</li>
 </ol>
 
 <p><strong>Each Patient resource must support:</strong></p>
@@ -349,7 +349,7 @@ Formats: <a href="StructureDefinition-UKCore-Patient.html">Narrative</a>, <a hre
 <ol>
   <li>A patient name</li>
   <li>A gender</li>
-  <li>contact detail (e.g. a telephone number or an email address)</li>
+  <li>Contact detail (e.g. a telephone number or an email address)</li>
   <li>A birth date</li>
   <li>An address</li>
   <li>A communication language</li>
@@ -358,7 +358,7 @@ Formats: <a href="StructureDefinition-UKCore-Patient.html">Narrative</a>, <a hre
 
 <p><strong>Profile specific implementation guidance:</strong></p>
 
-<p>When the Patient profile is being used with an NHS Number in the patient.identifier elements the status of the NHS Number MUST also be carried.</p>
+<p>When the Patient profile is being used with an NHS Number in the patient.identifier element, the verification status of the NHS Number MUST also be carried.</p>
 
 <h3 id="example">Example</h3>
 
@@ -997,7 +997,7 @@ $( '#tabs' ).tabs({
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.fhir.r4.core.prototype# based on <a style="color: #81BEF7" href="http://build.fhir.org/index.html">FHIR 4.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Tue, Dec 17, 2019 10:27+0000">2019-12-17</span>. <br/>
+     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.fhir.r4.core.prototype# based on <a style="color: #81BEF7" href="http://build.fhir.org/index.html">FHIR 4.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Tue, Dec 17, 2019 11:03+0000">2019-12-17</span>. <br/>
       Links: <!--<a style="color: #81BEF7" href="toc.html">Table of Contents</a>-->
 	  <a style="color: #81BEF7" href="qa.html">QA Report</a>
 	  | <a style="color: #81BEF7" href="history.html">Version History</a>

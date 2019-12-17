@@ -323,9 +323,38 @@ Formats: <a href="StructureDefinition-UKCore-List.html">Narrative</a>, <a href="
 
 <p>This profile allows exchange of a flat, possibly ordered collection of records. The list profile can be used in many places, including allergies, medications, alerts, family history, medical history, etc. This list profile can be used to support individual-specific clinical lists as well as lists that manage workflows such as tracking patients, managing teaching cases, etc. The list profile supports lists that are homogeneous – consisting of only one type of resource (e.g. allergy lists) as well as heterogeneous – containing a variety of resources (e.g. a problem list including Conditions, AllergyIntolerances, recent Procedures, etc.).</p>
 
-<h3 id="profile-minimum-viable-content">Profile Minimum Viable Content</h3>
+<h3 id="example-usage-scenarios">Example Usage Scenarios</h3>
 
-<p>The Minimum Viable Content for this profile has not yet been defined and may be added in a later release.</p>
+<p>The following are example usage scenarios for the UK Core Procedure profile:</p>
+
+<ul>
+  <li>A list of allergies for a Patient</li>
+  <li>A list of current medication for a Patient</li>
+  <li>Record or update a list of information for Patient</li>
+</ul>
+
+<h3 id="profile-minimum-viable-content-mandatory-and-must-support-data-elements">Profile Minimum Viable Content (Mandatory and Must Support Data Elements)</h3>
+
+<p>The following data-elements are mandatory (i.e data MUST be present) or must be supported if the data is present in the sending system (Must Support definition). They are presented below in a simple human-readable explanation. Profile specific guidance and examples are provided as well. The formal Profile Definition below provides the formal summary, definitions, and terminology requirements.</p>
+
+<p><strong>Each List resource must have:</strong></p>
+
+<ol>
+  <li>A status</li>
+  <li>A mode</li>
+  <li>A code that describes the purpose of the list</li>
+</ol>
+
+<p><strong>Each List resource must support:</strong></p>
+
+<ol>
+  <li>A list item</li>
+  <li>A date when the list was prepared</li>
+  <li>A list subject</li>
+  <li>A emptyReason</li>
+</ol>
+
+<p><strong>Profile specific implementation guidance:</strong></p>
 
 <h3 id="example">Example</h3>
 
@@ -892,7 +921,7 @@ $( '#tabs' ).tabs({
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.fhir.r4.core.prototype# based on <a style="color: #81BEF7" href="http://build.fhir.org/index.html">FHIR 4.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Tue, Dec 17, 2019 10:27+0000">2019-12-17</span>. <br/>
+     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.fhir.r4.core.prototype# based on <a style="color: #81BEF7" href="http://build.fhir.org/index.html">FHIR 4.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Tue, Dec 17, 2019 11:03+0000">2019-12-17</span>. <br/>
       Links: <!--<a style="color: #81BEF7" href="toc.html">Table of Contents</a>-->
 	  <a style="color: #81BEF7" href="qa.html">QA Report</a>
 	  | <a style="color: #81BEF7" href="history.html">Version History</a>
