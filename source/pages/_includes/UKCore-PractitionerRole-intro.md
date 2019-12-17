@@ -25,7 +25,7 @@ The following data-elements are mandatory (i.e data MUST be present) or must be 
 
 At least one of the must support elements must be present in any instance of this resource.
 
-**Each Patient resource must support:**
+**Each PractitionerRole resource must support:**
 
 1. An associated practitioner
 2. An associated organization
@@ -34,6 +34,9 @@ At least one of the must support elements must be present in any instance of thi
 5. An associated location
 6. Contact information
 
+**Profile specific implementation guidance:**
+
+There is no specific guidance for this profile.
 
 ### Example ###
 
