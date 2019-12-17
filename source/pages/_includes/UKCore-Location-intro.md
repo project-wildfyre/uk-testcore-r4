@@ -21,17 +21,20 @@ The following are example usage scenarios for the UK Core location profile:
 
 The following data-elements are mandatory (i.e data MUST be present) or must be supported if the data is present in the sending system (Must Support definition). They are presented below in a simple human-readable explanation. Profile specific guidance and examples are provided as well. The formal Profile Definition below provides the formal summary, definitions, and terminology requirements.
 
-**Each Location must have:**
+**Each Location resource must have:**
 
 1. A name
 
-**Each Location must support:**
+**Each Location resource must support:**
 
 1. A type
 2. An identifier
 3. A telecom
 4. An address
 
+**Profile specific implementation guidance:**
+
+There is no specific guidance for this profile.
 
 ### Example ###
 

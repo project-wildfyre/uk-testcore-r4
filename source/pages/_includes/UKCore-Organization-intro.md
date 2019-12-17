@@ -19,15 +19,19 @@ The following are example usage scenarios for the UK Core Organisation profile:
 
 The following data-elements are mandatory (i.e data MUST be present) or must be supported if the data is present in the sending system (Must Support definition). They are presented below in a simple human-readable explanation. Profile specific guidance and examples are provided as well. The formal Profile Definition below provides the formal summary, definitions, and terminology requirements.
 
-**Each Organisation must have:**
+**Each Organisation resource must have:**
 
 1. An identifier (e.g. ODS Code, local identifier)
 2. A name
 
-**Each Organisation must support:**
+**Each Organisation resource must support:**
 
 1. A telecom
 2. An address
+
+**Profile specific implementation guidance:**
+
+There is no specific guidance for this profile.
 
 ### Example ###
 

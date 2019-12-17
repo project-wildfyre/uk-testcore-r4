@@ -31,7 +31,7 @@ The following data-elements are mandatory (i.e data MUST be present) or must be 
 
 **Profile specific implementation guidance:**
 
-
+There is no specific guidance for this profile.
 
 ### Example ###
 
