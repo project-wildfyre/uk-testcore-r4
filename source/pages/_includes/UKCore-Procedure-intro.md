@@ -23,8 +23,8 @@ The following data-elements are mandatory (i.e data MUST be present) or must be 
 **Each Procedure resource must have:**
 
 1. A status
-2. A code that identifies the type of procedure performed on the patient
-3. A patient
+2. A code that describes the type of procedure performed on the Patient
+3. A Patient
 4. When the procedure was performed
 
 **Profile specific implementation guidance:**
