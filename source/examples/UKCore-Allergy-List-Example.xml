@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<List xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Git/SchemasR4/list.xsd">
+	<id value="UKCore-Allergy-List-Example"/>
+	<meta>
+		<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-List"/>
+	</meta>
+	<status value="current"/>
+	<mode value="working"/>
+	<code>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="886921000000105"/>
+			<display value="Allergies and adverse reactions"/>
+		</coding>
+	</code>
+	<subject>
+		<reference value="Patient/UKCore-Patient-Example"/>
+	</subject>
+	<date value="2019-12-10T13:00:00+00:00"/>
+	<entry>
+		<item>
+			<reference value="AllergyIntolerance/UKCore-AllergyIntolerance-Example"/>
+		</item>
+	</entry>
+</List>

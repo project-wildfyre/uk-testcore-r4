@@ -1,11 +1,11 @@
 ﻿HL7FHIRUKCore : Validation Results
 =========================================
 
-err = 30, warn = 6, info = 0
+err = 32, warn = 6, info = 0
 IG Publisher Version: v1.0.24-SNAPSHOT
-Generated Tue Dec 17 13:08:38 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
+Generated Tue Dec 17 13:47:41 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
 
- Build Errors : 408 / 1
+ Build Errors : 410 / 1
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-AdditionalRelatedPersonRole : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-AddressKeyType : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-AdmissionMethod : 0 / 0
@@ -35,6 +35,7 @@ Generated Tue Dec 17 13:08:38 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\conceptmaps\ConceptMap-UKCore-AllergyVerificationStatus : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\conceptmaps\ConceptMap-UKCore-ConditionEpisodicity : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\conceptmaps\ConceptMap-UKCore-MaritalStatus : 0 / 0
+ C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Allergy-List-Example : 1 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-AllergyIntolerance-Example : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Condition-Example : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Consent-Example : 0 / 1
@@ -276,6 +277,8 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Extension-UKCore-TreatmentCa
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\ImplementationGuide-nhsdigital-fhir-r4-core-prototype.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\ImplementationGuide-nhsdigital-fhir-r4-core-prototype.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\ImplementationGuide-nhsdigital-fhir-r4-core-prototype.xml.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\List-UKCore-Allergy-List-Example.json.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\List-UKCore-Allergy-List-Example.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\List-UKCore-List-Example.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\List-UKCore-List-Example.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\Location-UKCore-Location-Example.json.html: The html source does not contain the publish box
@@ -370,6 +373,7 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-UKCore-P
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-UKCore-Procedure.xml.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-UKCore-RelatedPerson.json.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\StructureDefinition-UKCore-RelatedPerson.xml.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Allergy-List-Example.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-AllergyIntolerance-Example.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-AllergyIntolerance-definitions.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-AllergyIntolerance.html: The html source does not contain the publish box
@@ -385,7 +389,6 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Encounter.html: The h
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-List-Example.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-List-definitions.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-List.html: The html source does not contain the publish box
-ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-List.html#/html/head/body/div/div/div/div/div/div/p/br/ul/li/a at Line 365, column 8: The link 'UKCore-Allergy-List-Example.html' for "UK Core Allergy List Example" cannot be resolved
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Location-Example.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Location-definitions.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Location.html: The html source does not contain the publish box
@@ -564,13 +567,15 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\versioning.html: The html so
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\conceptmaps\ConceptMap-UKCore-AllergyVerificationStatus.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\conceptmaps\ConceptMap-UKCore-ConditionEpisodicity.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\conceptmaps\ConceptMap-UKCore-MaritalStatus.xml ==
+== C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Allergy-List-Example.xml ==
+ERROR: List/UKCore-Allergy-List-Example: List.code.coding[0]: unable to find code 886921000000105 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20190731) for 'http://snomed.info/sct#886921000000105'
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-AllergyIntolerance-Example.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Condition-Example.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Consent-Example.xml ==
 WARNING: Consent/UKCore-Consent-Example: Consent.provision.purpose[0]: The Coding provided is not in the value set http://terminology.hl7.org/ValueSet/v3-PurposeOfUse (http://terminology.hl7.org/ValueSet/v3-PurposeOfUse, and a code should come from this value set unless it has no suitable code) (error message = The code provided (http://snomed.info/sct#370856009) is not  valid in the value set v3.PurposeOfUse)
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Encounter-Example.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-List-Example.xml ==
-ERROR: List/UKCore-List-Example: List.code.coding[0]: unable to find code 886921000000105 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20190731) for 'http://snomed.info/sct#886921000000105'
+ERROR: List/UKCore-List-Example: List.code.coding[0]: unable to find code 1149501000000101 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20190731) for 'http://snomed.info/sct#1149501000000101'
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Location-Example.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Observation-Example.xml ==
 WARNING: Observation/UKCore-Observation-Example: Observation.code.coding[0]: The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-ObservationType (https://fhir.nhs.uk/R4/ValueSet/UKCore-ObservationType, and a code should come from this value set unless it has no suitable code) (error message = The filter "constraint = (<<363787002 | Observable entity|)" was not understood in the context of http://snomed.info/sct)

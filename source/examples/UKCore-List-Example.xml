@@ -9,8 +9,8 @@
 	<code>
 		<coding>
 			<system value="http://snomed.info/sct"/>
-			<code value="886921000000105"/>
-			<display value="Allergies and adverse reactions"/>
+			<code value="1149501000000101"/>
+			<display value="List of consultations"/>
 		</coding>
 	</code>
 	<subject>
@@ -19,7 +19,7 @@
 	<date value="2019-12-10T13:00:00+00:00"/>
 	<entry>
 		<item>
-			<reference value="AllergyIntolerance/UKCore-AllergyIntolerance-Example"/>
+			<reference value="Encounter/UKCore-Encounter-Example"/>
 		</item>
 	</entry>
 </List>

@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "993642fb-9741-489b-95e5-2325b1ccb33f",
+  "id" : "b6ceb066-900e-4a7c-9746-5a256cc3f89b",
   "meta" : {
-    "lastUpdated" : "2019-12-17T13:05:17.964+00:00"
+    "lastUpdated" : "2019-12-17T13:44:25.695+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -32,8 +32,8 @@
       "description" : "A ValueSet that identifies the residential status of a patient.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:b1f51edc-e037-41c0-a26b-c4ebbf1dd1b2",
-        "timestamp" : "2019-12-17T13:05:37+00:00",
+        "identifier" : "urn:uuid:8ff52072-f59e-4c4a-844b-c922fda507b9",
+        "timestamp" : "2019-12-17T13:44:43+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -129,8 +129,8 @@
       "description" : "A ValueSet to identify the episodicity of a condition.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:8c3839a1-6e99-4df7-9a71-76168e010f0f",
-        "timestamp" : "2019-12-17T13:05:39+00:00",
+        "identifier" : "urn:uuid:0a52bc04-240c-436a-9d31-ea9f3e52b35e",
+        "timestamp" : "2019-12-17T13:44:45+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -291,8 +291,8 @@
       "description" : "A ValueSet to identify the reason a list may be empty.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:2dd6d3f8-304c-41ff-9a3b-7fa4eab367db",
-        "timestamp" : "2019-12-17T13:05:40+00:00",
+        "identifier" : "urn:uuid:1f357d8d-e2e4-466c-83d6-39a5ed923c36",
+        "timestamp" : "2019-12-17T13:44:47+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -337,8 +337,8 @@
       "description" : "A ValueSet to identify the reason a list may be incomplete.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:2628a32e-f619-4d6a-af65-83eb0d31f5e6",
-        "timestamp" : "2019-12-17T13:05:41+00:00",
+        "identifier" : "urn:uuid:ca898ef1-0a4c-4e6d-a0a8-3dfe926c046b",
+        "timestamp" : "2019-12-17T13:44:47+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -393,8 +393,8 @@
       "description" : "A ValueSet that identifies the treatment category for a patient.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:9f082752-8d2f-484b-b1c2-f44807ec0b4a",
-        "timestamp" : "2019-12-17T13:05:42+00:00",
+        "identifier" : "urn:uuid:3510d16c-be77-44e0-8937-fb2a5433c82f",
+        "timestamp" : "2019-12-17T13:44:48+00:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -468,8 +468,8 @@
       "description" : "A ValueSet that identifies the language used by a person.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:a9134e7f-d61d-4464-9ed3-d006833d49e6",
-        "timestamp" : "2019-12-17T13:05:42+00:00",
+        "identifier" : "urn:uuid:9bc27ab2-e456-4ab4-9239-6bd8eac9a19b",
+        "timestamp" : "2019-12-17T13:44:48+00:00",
         "total" : 190,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1463,8 +1463,8 @@
       "description" : "A ValueSet that identifies the mode the patient can communicate in, representing the method of expression of the language.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:62dde466-8158-4655-8729-29f466247f57",
-        "timestamp" : "2019-12-17T13:05:42+00:00",
+        "identifier" : "urn:uuid:55f7702b-07cb-4c97-80b3-f2b9f209524d",
+        "timestamp" : "2019-12-17T13:44:49+00:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1538,8 +1538,8 @@
       "description" : "A ValueSet to identify the level of proficiency in communicating a language.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:fb7ba947-0a18-4e76-a3f1-a2fcc2c26101",
-        "timestamp" : "2019-12-17T13:05:42+00:00",
+        "identifier" : "urn:uuid:0f6c9975-6eaa-444a-befe-4238ce680a02",
+        "timestamp" : "2019-12-17T13:44:49+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1599,8 +1599,8 @@
       "description" : "A ValueSet that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:d4fec976-8794-4e18-aa5b-2db80b4c0151",
-        "timestamp" : "2019-12-17T13:05:43+00:00",
+        "identifier" : "urn:uuid:861cf765-0df2-41b3-8fcb-ccfd5a849cec",
+        "timestamp" : "2019-12-17T13:44:49+00:00",
         "total" : 392,
         "parameter" : [{
           "name" : "excludeNested",
@@ -3600,8 +3600,8 @@
       "description" : "A ValueSet to identify the type of death notice as held on Personal Demographics Service (PDS).",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:a32ae9c1-4598-4545-b44b-329f81e0b56f",
-        "timestamp" : "2019-12-17T13:05:43+00:00",
+        "identifier" : "urn:uuid:7f9b900c-ef58-4477-ad7d-e1ac803bd95f",
+        "timestamp" : "2019-12-17T13:44:49+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -3664,8 +3664,8 @@
       "description" : "A ValueSet to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a person's ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:0f0a7f74-c412-4296-85ec-df5ef2d641c9",
-        "timestamp" : "2019-12-17T13:05:43+00:00",
+        "identifier" : "urn:uuid:2e36e792-0a78-495d-b748-802ad5aeed53",
+        "timestamp" : "2019-12-17T13:44:50+00:00",
         "total" : 68,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4049,8 +4049,8 @@
       "description" : "The method of admission to a Hospital Provider Spell.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:59bd4b1a-bae7-444f-be6a-da8959a9c76c",
-        "timestamp" : "2019-12-17T13:05:44+00:00",
+        "identifier" : "urn:uuid:2820afed-6f65-4bab-8b26-ec96c70ac48f",
+        "timestamp" : "2019-12-17T13:44:50+00:00",
         "total" : 18,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4184,8 +4184,8 @@
       "description" : "The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:fba9e81c-b015-477d-ae4a-9fd8ef2aac8b",
-        "timestamp" : "2019-12-17T13:05:44+00:00",
+        "identifier" : "urn:uuid:3b59d915-b3a7-457b-b7ac-802694d76d8f",
+        "timestamp" : "2019-12-17T13:44:50+00:00",
         "total" : 19,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4324,8 +4324,8 @@
       "description" : "The method of discharge from a Hospital Provider Spell.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:b6d4abdc-2809-49fe-8e75-dcf8b2bbedc2",
-        "timestamp" : "2019-12-17T13:05:44+00:00",
+        "identifier" : "urn:uuid:d60e2ebf-dea3-4dd3-8d23-6ab275a76d4d",
+        "timestamp" : "2019-12-17T13:44:50+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4404,8 +4404,8 @@
       "description" : "This records the outcome of an Out-Patient Attendance Consultant.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:fdd9fd41-4de9-45f7-afae-147ce4b44b9d",
-        "timestamp" : "2019-12-17T13:05:44+00:00",
+        "identifier" : "urn:uuid:d0428163-28f6-4d25-8e4b-4f5a34a4a44f",
+        "timestamp" : "2019-12-17T13:44:51+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4464,8 +4464,8 @@
       "description" : "The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:7a1f82e5-b637-4669-b1c4-c619d925787e",
-        "timestamp" : "2019-12-17T13:05:45+00:00",
+        "identifier" : "urn:uuid:aad758f4-debf-47a0-818c-fa1ffdbfb466",
+        "timestamp" : "2019-12-17T13:44:51+00:00",
         "total" : 14,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4579,8 +4579,8 @@
       "description" : "A ValueSet that identifies the trace status of the NHS number. The CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:f5bac712-9123-457b-9774-4b1e687f40c1",
-        "timestamp" : "2019-12-17T13:05:45+00:00",
+        "identifier" : "urn:uuid:0820b235-2f0a-42d3-9af9-55b970375905",
+        "timestamp" : "2019-12-17T13:44:51+00:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4656,8 +4656,8 @@
       "description" : "An indicator to identify the legal marital status of a Person.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:66e5f19b-3075-4f74-80f1-410900e1c4a0",
-        "timestamp" : "2019-12-17T13:05:45+00:00",
+        "identifier" : "urn:uuid:9a969596-39fb-4fc4-8163-713cf70a87eb",
+        "timestamp" : "2019-12-17T13:44:51+00:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4723,8 +4723,8 @@
       "description" : "The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:bfcd6a64-ad4a-4f7e-a827-2fd2043d6b33",
-        "timestamp" : "2019-12-17T13:05:51+00:00",
+        "identifier" : "urn:uuid:b0b717d1-5184-4b85-99d7-28ef817576ec",
+        "timestamp" : "2019-12-17T13:44:57+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4784,8 +4784,8 @@
       "description" : "A ValueSet to identify the preferred written communication format of a Patient, contact or RelatedPerson.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:58df56e9-d1bf-4a41-865a-48f0400abf7b",
-        "timestamp" : "2019-12-17T13:06:43+00:00",
+        "identifier" : "urn:uuid:2482f1f5-6d4f-4d06-b746-c52f28230db8",
+        "timestamp" : "2019-12-17T13:45:49+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4840,8 +4840,8 @@
       "description" : "A ValueSet to identify the preferred Contact Method of a Patient, contact or RelatedPerson.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:c18c1167-0e4c-44e7-adc2-603786376bf6",
-        "timestamp" : "2019-12-17T13:06:43+00:00",
+        "identifier" : "urn:uuid:81f2d0dc-4c3e-4389-adf2-69e7b7a78744",
+        "timestamp" : "2019-12-17T13:45:49+00:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4921,8 +4921,8 @@
       "description" : "A ValueSet to identify the type of Address Key recorded.",
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:a23361ad-7a41-4f0c-a8e2-130d1cb3793c",
-        "timestamp" : "2019-12-17T13:06:44+00:00",
+        "identifier" : "urn:uuid:9271cffa-8ea1-4f1d-bc84-84400bd38792",
+        "timestamp" : "2019-12-17T13:45:50+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",

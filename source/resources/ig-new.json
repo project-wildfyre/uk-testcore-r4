@@ -677,6 +677,12 @@
     },
     {
       "reference" : {
+        "reference" : "List/UKCore-Allergy-List-Example"
+      },
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
         "reference" : "Encounter/UKCore-Encounter-Example"
       },
       "exampleBoolean" : true

@@ -6,6 +6,7 @@ layout: default
 ---
 
 - [UK Core AllergyIntolerance Example](UKCore-AllergyIntolerance-Example.html)
+- [UK Core Allergy List Example](UKCore-Allergy-List-Example.html)
 - [UK Core Condition Example](UKCore-Condition-Example.html)
 - [UK Core Consent Example](UKCore-Consent-Example.html)
 - [UK Core Encounter Example](UKCore-Encounter-Example.html)

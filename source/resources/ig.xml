@@ -644,6 +644,12 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="List/UKCore-Allergy-List-Example"/>
+			</reference>
+			<exampleBoolean value="true"/>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="Encounter/UKCore-Encounter-Example"/>
 			</reference>
 			<exampleBoolean value="true"/>

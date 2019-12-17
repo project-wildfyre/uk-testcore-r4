@@ -8,7 +8,7 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-PractitionerRole-Example</p><p><b>meta</b>: </p><p><b>practitioner</b>: <a href=\"UKCore-Practitioner-Example.html\">Generated Summary: id: UKCore-Practitioner-Example; G12345678; Paul Rastall ; ph: 0113 6323200(WORK)</a></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-PractitionerRole-Example</p><p><b>meta</b>: </p><p><b>practitioner</b>: <a href=\"UKCore-Practitioner-Example.html\">Generated Summary: id: UKCore-Practitioner-Example; G12345678; Paul Rastall ; ph: 0113 6323200(WORK); gender: male</a></p></div>"
   },
   "practitioner": {
     "reference": "Practitioner/UKCore-Practitioner-Example"

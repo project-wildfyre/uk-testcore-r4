@@ -540,6 +540,10 @@
 			"source": "UKCore-List-Example.xml",
 			"base": "UKCore-List-Example.html"
 		},
+		"List/UKCore-Allergy-List-Example": {
+			"source": "UKCore-Allergy-List-Example.xml",
+			"base": "UKCore-Allergy-List-Example.html"
+		},		
 		"Encounter/UKCore-Encounter-Example": {
 			"source": "UKCore-Encounter-Example.xml",
 			"base": "UKCore-Encounter-Example.html"

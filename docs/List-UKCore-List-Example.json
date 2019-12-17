@@ -8,7 +8,7 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-List-Example</p><p><b>meta</b>: </p><p><b>status</b>: current</p><p><b>mode</b>: working</p><p><b>code</b>: Allergies and adverse reactions <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '886921000000105' = '886921000000105', given as 'Allergies and adverse reactions'})</span></p><p><b>subject</b>: <a href=\"UKCore-Patient-Example.html\">Generated Summary: id: UKCore-Patient-Example; 9912003888; Richard SMITH (OFFICIAL); ph: 01131231234; gender: male; birthDate: 1970-09-11</a></p><p><b>date</b>: 10-Dec-2019 13:00:00</p><h3>Entries</h3><table class=\"grid\"><tr><td>-</td><td><b>Item</b></td></tr><tr><td>*</td><td><a href=\"UKCore-AllergyIntolerance-Example.html\">Generated Summary: id: UKCore-AllergyIntolerance-Example; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical active}\">Active</span>; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/allergyintolerance-verification confirmed}\">Confirmed</span>; type: allergy; category: medication; <span title=\"Codes: {http://snomed.info/sct 372687004}\">Amoxicillin</span>; recordedDate: 10-Dec-2019 13:00:00</a></td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-List-Example</p><p><b>meta</b>: </p><p><b>status</b>: current</p><p><b>mode</b>: working</p><p><b>code</b>: List of consultations <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '1149501000000101' = '1149501000000101', given as 'List of consultations'})</span></p><p><b>subject</b>: <a href=\"UKCore-Patient-Example.html\">Generated Summary: id: UKCore-Patient-Example; 9912003888; Richard SMITH (OFFICIAL); ph: 01131231234; gender: male; birthDate: 1970-09-11</a></p><p><b>date</b>: 10-Dec-2019 13:00:00</p><h3>Entries</h3><table class=\"grid\"><tr><td>-</td><td><b>Item</b></td></tr><tr><td>*</td><td><a href=\"UKCore-Encounter-Example.html\">Generated Summary: id: UKCore-Encounter-Example; status: finished; <span title=\"{http://terminology.hl7.org/CodeSystem/v3-ActCode AMB}\">ambulatory</span>; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/service-type 124}\">General Practice</span>; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-ActPriority R}\">routine</span></a></td></tr></table></div>"
   },
   "status": "current",
   "mode": "working",
@@ -16,8 +16,8 @@
     "coding": [
       {
         "system": "http://snomed.info/sct",
-        "code": "886921000000105",
-        "display": "Allergies and adverse reactions"
+        "code": "1149501000000101",
+        "display": "List of consultations"
       }
     ]
   },
@@ -28,7 +28,7 @@
   "entry": [
     {
       "item": {
-        "reference": "AllergyIntolerance/UKCore-AllergyIntolerance-Example"
+        "reference": "Encounter/UKCore-Encounter-Example"
       }
     }
   ]
