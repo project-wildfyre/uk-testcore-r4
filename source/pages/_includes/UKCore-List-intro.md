@@ -35,8 +35,9 @@ The following data-elements are mandatory (i.e data MUST be present) or must be 
 
 **Profile specific implementation guidance:**
 
-There is no specific guidance for this profile.
+For details on how to create an allergy list see the AllergyIntolerance [Profile](UKCore-AllergyIntolerance.html)  
 
 ### Example ###
 
 - [UK Core List Example](UKCore-List-Example.html)
+- [UK Core Allergy List Example](UKCore-Allergy-List-Example.html)
