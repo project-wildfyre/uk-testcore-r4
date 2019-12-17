@@ -282,10 +282,19 @@ This is the {% if {{site.build}} == "ci" %}
   },
   "<a href="http://build.fhir.org/list.html#List.text">text</a>" : {
     "<a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: UKCore-List-Example&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: current&lt;/p&gt;&lt;p&gt;&lt;b&gt;mode&lt;/b&gt;: working&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+    "<a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: UKCore-List-Example&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: current&lt;/p&gt;&lt;p&gt;&lt;b&gt;mode&lt;/b&gt;: working&lt;/p&gt;&lt;p&gt;&lt;b&gt;emptyReason&lt;/b&gt;: No Content Recorded &lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt;(Details : {https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListEmptyReasonCode code 'no-content-recorded' = 'No Content Recorded', given as 'No Content Recorded'})&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
   },
   "<a href="http://build.fhir.org/list.html#List.status">status</a>" : "current",
-  "<a href="http://build.fhir.org/list.html#List.mode">mode</a>" : "working"
+  "<a href="http://build.fhir.org/list.html#List.mode">mode</a>" : "working",
+  "<a href="http://build.fhir.org/list.html#List.emptyReason">emptyReason</a>" : {
+    "<a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+      {
+        "<a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">system</a>" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListEmptyReasonCode",
+        "<a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">code</a>" : "no-content-recorded",
+        "<a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">display</a>" : "No Content Recorded"
+      }
+    ]
+  }
 }</pre>
 
 
@@ -317,7 +326,7 @@ This is the {% if {{site.build}} == "ci" %}
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.fhir.r4.core.prototype# based on <a style="color: #81BEF7" href="http://build.fhir.org/index.html">FHIR 4.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Tue, Dec 17, 2019 11:03+0000">2019-12-17</span>. <br/>
+     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.fhir.r4.core.prototype# based on <a style="color: #81BEF7" href="http://build.fhir.org/index.html">FHIR 4.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Tue, Dec 17, 2019 11:15+0000">2019-12-17</span>. <br/>
       Links: <!--<a style="color: #81BEF7" href="toc.html">Table of Contents</a>-->
 	  <a style="color: #81BEF7" href="qa.html">QA Report</a>
 	  | <a style="color: #81BEF7" href="history.html">Version History</a>

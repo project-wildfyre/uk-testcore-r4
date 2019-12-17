@@ -6,8 +6,15 @@
     <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-List"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-List-Example</p><p><b>meta</b>: </p><p><b>status</b>: current</p><p><b>mode</b>: working</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-List-Example</p><p><b>meta</b>: </p><p><b>status</b>: current</p><p><b>mode</b>: working</p><p><b>emptyReason</b>: No Content Recorded <span style="background: LightGoldenRodYellow">(Details : {https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListEmptyReasonCode code 'no-content-recorded' = 'No Content Recorded', given as 'No Content Recorded'})</span></p></div>
   </text>
   <status value="current"/>
   <mode value="working"/>
+  <emptyReason>
+    <coding>
+      <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListEmptyReasonCode"/>
+      <code value="no-content-recorded"/>
+      <display value="No Content Recorded"/>
+    </coding>
+  </emptyReason>
 </List>

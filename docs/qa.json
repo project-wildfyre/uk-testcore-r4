@@ -3,7 +3,7 @@
   "name": "HL7FHIRUKCore",
   "package-id": "nhsdigital.fhir.r4.core.prototype",
   "ig-ver": "1.0.0",
-  "date": "Tue, 17 Dec, 2019 11:03:09 +0000",
+  "date": "Tue, 17 Dec, 2019 11:15:30 +0000",
   "errs": 28,
   "warnings": 6,
   "hints": 0,
