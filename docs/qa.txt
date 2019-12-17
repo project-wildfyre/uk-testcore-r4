@@ -2,10 +2,10 @@
 =========================================
 
 err = 30, warn = 6, info = 0
-IG Publisher Version: v1.0.24-SNAPSHOT Out of date - current version is ??
-Generated Tue Dec 17 11:41:27 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
+IG Publisher Version: v1.0.24-SNAPSHOT
+Generated Tue Dec 17 13:08:38 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
 
- Build Errors : 407 / 1
+ Build Errors : 408 / 1
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-AdditionalRelatedPersonRole : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-AddressKeyType : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-AdmissionMethod : 0 / 0
@@ -385,6 +385,7 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Encounter.html: The h
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-List-Example.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-List-definitions.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-List.html: The html source does not contain the publish box
+ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-List.html#/html/head/body/div/div/div/div/div/div/p/br/ul/li/a at Line 365, column 8: The link 'UKCore-Allergy-List-Example.html' for "UK Core Allergy List Example" cannot be resolved
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Location-Example.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Location-definitions.html: The html source does not contain the publish box
 ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\UKCore-Location.html: The html source does not contain the publish box
