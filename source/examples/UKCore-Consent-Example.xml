@@ -36,8 +36,8 @@
 	<provision>
 		<purpose>
 			<system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
-			<code value="HOPERAT"/>
-			<display value="healthcare operations"/>
+			<code value="GOV"/>
+			<display value="government"/>
 		</purpose>
 	</provision>
 </Consent>
