@@ -8,9 +8,52 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-PractitionerRole-Example</p><p><b>meta</b>: </p><p><b>practitioner</b>: <a href=\"UKCore-Practitioner-Example.html\">Generated Summary: id: UKCore-Practitioner-Example; G12345678; Paul Rastall ; ph: 0113 6323200(WORK); gender: male</a></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-PractitionerRole-Example</p><p><b>meta</b>: </p><p><b>identifier</b>: 100334993514</p><p><b>practitioner</b>: <a href=\"UKCore-Practitioner-Example.html\">Generated Summary: id: UKCore-Practitioner-Example; G12345678; Paul Rastall ; ph: 0113 6323200(WORK); gender: male</a></p><p><b>organization</b>: <a href=\"UKCore-Organisation-Example.html\">Generated Summary: id: UKCore-Organisation-Example; RR8 (OFFICIAL); name: LEEDS TEACHING HOSPITALS NHS TRUST; ph: 0113 243 3144</a></p><p><b>code</b>: General Medical Practitioner <span style=\"background: LightGoldenRodYellow\">(Details : {https://fhir.nhs.uk/R4/CodeSystem/UKCore-SDSJobRoleName code 'R0260' = 'General Medical Practitioner', given as 'General Medical Practitioner'})</span></p><p><b>specialty</b>: General medical practice <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '408443003' = 'General medical practice (qualifier value)', given as 'General medical practice'})</span></p><p><b>location</b>: <a href=\"UKCore-Location-Example.html\">Generated Summary: id: UKCore-Location-Example; </a></p><p><b>telecom</b>: ph: 0113 6323200(WORK)</p></div>"
   },
+  "identifier": [
+    {
+      "system": "https://fhir.nhs.uk/Id/sds-role-profile-id",
+      "value": "100334993514"
+    }
+  ],
   "practitioner": {
     "reference": "Practitioner/UKCore-Practitioner-Example"
-  }
+  },
+  "organization": {
+    "reference": "Organization/UKCore-Organisation-Example"
+  },
+  "code": [
+    {
+      "coding": [
+        {
+          "system": "https://fhir.nhs.uk/R4/CodeSystem/UKCore-SDSJobRoleName",
+          "code": "R0260",
+          "display": "General Medical Practitioner"
+        }
+      ]
+    }
+  ],
+  "specialty": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "408443003",
+          "display": "General medical practice"
+        }
+      ]
+    }
+  ],
+  "location": [
+    {
+      "reference": "Location/UKCore-Location-Example"
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "0113 6323200",
+      "use": "work"
+    }
+  ]
 }

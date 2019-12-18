@@ -3,7 +3,7 @@
 
 err = 32, warn = 6, info = 0
 IG Publisher Version: v1.0.24-SNAPSHOT
-Generated Tue Dec 17 13:47:41 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
+Generated Tue Dec 17 23:20:58 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
 
  Build Errors : 410 / 1
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-AdditionalRelatedPersonRole : 0 / 0
@@ -635,7 +635,7 @@ ERROR: UKCore-AllergyCode: Error from server: The filter "constraint = (<<105590
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-AllergyExposureRoute.xml ==
 ERROR: UKCore-AllergyExposureRoute: Error from server: The filter "constraint = ^999000051000001100 |ePrescribing route of administration simple reference set|" was not understood in the context of http://snomed.info/sct
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-AllergyManifestation.xml ==
-ERROR: UKCore-AllergyManifestation: Error from server: The filter "concept in <<404684003" was not understood in the context of http://snomed.info/sct
+ERROR: UKCore-AllergyManifestation: Error from server: Unable to provide support for code system http://snomed.info/sct version http://snomed.info/sct/999000031000000106
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-AllergySeverity.xml ==
 ERROR: UKCore-AllergySeverity: Error from server: The filter "constraint = (255604002 |Mild| OR 6736007 |Moderate| OR 24484000 |Severe| OR 399166001 |Fatal| OR 442452003 |Life threatening severity|)" was not understood in the context of http://snomed.info/sct
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-BodySite.xml ==

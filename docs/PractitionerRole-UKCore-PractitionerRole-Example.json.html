@@ -282,11 +282,54 @@ This is the {% if {{site.build}} == "ci" %}
   },
   "<a href="http://build.fhir.org/practitionerrole.html#PractitionerRole.text">text</a>" : {
     "<a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: UKCore-PractitionerRole-Example&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;practitioner&lt;/b&gt;: &lt;a href=\&quot;UKCore-Practitioner-Example.html\&quot;&gt;Generated Summary: id: UKCore-Practitioner-Example; G12345678; Paul Rastall ; ph: 0113 6323200(WORK); gender: male&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+    "<a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: UKCore-PractitionerRole-Example&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: 100334993514&lt;/p&gt;&lt;p&gt;&lt;b&gt;practitioner&lt;/b&gt;: &lt;a href=\&quot;UKCore-Practitioner-Example.html\&quot;&gt;Generated Summary: id: UKCore-Practitioner-Example; G12345678; Paul Rastall ; ph: 0113 6323200(WORK); gender: male&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;organization&lt;/b&gt;: &lt;a href=\&quot;UKCore-Organisation-Example.html\&quot;&gt;Generated Summary: id: UKCore-Organisation-Example; RR8 (OFFICIAL); name: LEEDS TEACHING HOSPITALS NHS TRUST; ph: 0113 243 3144&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: General Medical Practitioner &lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt;(Details : {https://fhir.nhs.uk/R4/CodeSystem/UKCore-SDSJobRoleName code 'R0260' = 'General Medical Practitioner', given as 'General Medical Practitioner'})&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;specialty&lt;/b&gt;: General medical practice &lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt;(Details : {SNOMED CT code '408443003' = 'General medical practice (qualifier value)', given as 'General medical practice'})&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;location&lt;/b&gt;: &lt;a href=\&quot;UKCore-Location-Example.html\&quot;&gt;Generated Summary: id: UKCore-Location-Example; &lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;telecom&lt;/b&gt;: ph: 0113 6323200(WORK)&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
   },
+  "<a href="http://build.fhir.org/practitionerrole.html#PractitionerRole.identifier">identifier</a>" : [
+    {
+      "<a href="http://build.fhir.org/datatypes.html#Identifier#Identifier.system">system</a>" : "https://fhir.nhs.uk/Id/sds-role-profile-id",
+      "<a href="http://build.fhir.org/datatypes.html#Identifier#Identifier.value">value</a>" : "100334993514"
+    }
+  ],
   "<a href="http://build.fhir.org/practitionerrole.html#PractitionerRole.practitioner">practitioner</a>" : {
     "<a href="http://build.fhir.org/references.html#Reference#Reference.reference">reference</a>" : "Practitioner/UKCore-Practitioner-Example"
-  }
+  },
+  "<a href="http://build.fhir.org/practitionerrole.html#PractitionerRole.organization">organization</a>" : {
+    "<a href="http://build.fhir.org/references.html#Reference#Reference.reference">reference</a>" : "Organization/UKCore-Organisation-Example"
+  },
+  "<a href="http://build.fhir.org/practitionerrole.html#PractitionerRole.code">code</a>" : [
+    {
+      "<a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">system</a>" : "https://fhir.nhs.uk/R4/CodeSystem/UKCore-SDSJobRoleName",
+          "<a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">code</a>" : "R0260",
+          "<a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">display</a>" : "General Medical Practitioner"
+        }
+      ]
+    }
+  ],
+  "<a href="http://build.fhir.org/practitionerrole.html#PractitionerRole.specialty">specialty</a>" : [
+    {
+      "<a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">system</a>" : "http://snomed.info/sct",
+          "<a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">code</a>" : "408443003",
+          "<a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">display</a>" : "General medical practice"
+        }
+      ]
+    }
+  ],
+  "<a href="http://build.fhir.org/practitionerrole.html#PractitionerRole.location">location</a>" : [
+    {
+      "<a href="http://build.fhir.org/references.html#Reference#Reference.reference">reference</a>" : "Location/UKCore-Location-Example"
+    }
+  ],
+  "<a href="http://build.fhir.org/practitionerrole.html#PractitionerRole.telecom">telecom</a>" : [
+    {
+      "<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "phone",
+      "<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "0113 6323200",
+      "<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.use">use</a>" : "work"
+    }
+  ]
 }</pre>
 
 
@@ -318,7 +361,7 @@ This is the {% if {{site.build}} == "ci" %}
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.fhir.r4.core.prototype# based on <a style="color: #81BEF7" href="http://build.fhir.org/index.html">FHIR 4.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Tue, Dec 17, 2019 13:44+0000">2019-12-17</span>. <br/>
+     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.fhir.r4.core.prototype# based on <a style="color: #81BEF7" href="http://build.fhir.org/index.html">FHIR 4.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Tue, Dec 17, 2019 23:17+0000">2019-12-17</span>. <br/>
       Links: <!--<a style="color: #81BEF7" href="toc.html">Table of Contents</a>-->
 	  <a style="color: #81BEF7" href="qa.html">QA Report</a>
 	  | <a style="color: #81BEF7" href="history.html">Version History</a>

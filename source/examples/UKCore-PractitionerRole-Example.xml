@@ -12,7 +12,7 @@
 		<reference value="Practitioner/UKCore-Practitioner-Example"/>
 	</practitioner>
 	<organization>
-		<reference value="Organization/UKCore-Organization-Example"/>
+		<reference value="Organization/UKCore-Organisation-Example"/>
 	</organization>
 	<code>
 		<coding>
