@@ -6,28 +6,25 @@
     <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Encounter"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Encounter-Example</p><p><b>meta</b>: </p><p><b>status</b>: finished</p><p><b>class</b>: ambulatory (Details: http://terminology.hl7.org/CodeSystem/v3-ActCode code AMB = 'ambulatory', stated as 'ambulatory')</p><p><b>serviceType</b>: General Practice <span style="background: LightGoldenRodYellow">(Details : {http://terminology.hl7.org/CodeSystem/service-type code '124' = 'General Practice', given as 'General Practice'})</span></p><p><b>priority</b>: routine <span style="background: LightGoldenRodYellow">(Details : {http://terminology.hl7.org/CodeSystem/v3-ActPriority code 'R' = 'routine', given as 'routine'})</span></p><p><b>subject</b>: <a href="UKCore-Patient-Example.html">Generated Summary: id: UKCore-Patient-Example; 9912003888; Richard SMITH (OFFICIAL); ph: 01131231234; gender: male; birthDate: 1970-09-11</a></p><h3>Participants</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Individual</b></td></tr><tr><td>*</td><td>attender <span style="background: LightGoldenRodYellow">(Details : {http://terminology.hl7.org/CodeSystem/v3-ParticipationType code 'ATND' = 'attender', given as 'attender'})</span></td><td><a href="UKCore-Practitioner-Example.html">Generated Summary: id: UKCore-Practitioner-Example; G12345678; Paul Rastall ; ph: 0113 6323200(WORK); gender: male</a></td></tr></table><h3>Locations</h3><table class="grid"><tr><td>-</td><td><b>Location</b></td></tr><tr><td>*</td><td><a href="UKCore-Location-Example.html">Generated Summary: id: UKCore-Location-Example; </a></td></tr></table><p><b>serviceProvider</b>: <a href="UKCore-Organisation-Example.html">Generated Summary: id: UKCore-Organisation-Example; RR8 (OFFICIAL); name: LEEDS TEACHING HOSPITALS NHS TRUST; ph: 0113 243 3144</a></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Encounter-Example</p><p><b>meta</b>: </p><p><b>identifier</b>: 6f40cebe-7b55-461d-9d7f-eadb4c065762</p><p><b>status</b>: finished</p><p><b>class</b>: inpatient encounter (Details: http://terminology.hl7.org/CodeSystem/v3-ActCode code IMP = 'inpatient encounter', stated as 'inpatient encounter')</p><p><b>type</b>: Seen in hospital ward (finding) <span style="background: LightGoldenRodYellow">(Details : {SNOMED CT code '185212007' = 'Seen in hospital ward', given as 'Seen in hospital ward (finding)'})</span></p><p><b>subject</b>: <a href="UKCore-Patient-Example.html">Generated Summary: id: UKCore-Patient-Example; 9912003888; Richard SMITH (OFFICIAL); ph: 01131231234; gender: male; birthDate: 1970-09-11</a></p><h3>Participants</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Individual</b></td></tr><tr><td>*</td><td>attender <span style="background: LightGoldenRodYellow">(Details : {http://terminology.hl7.org/CodeSystem/v3-ParticipationType code 'ATND' = 'attender', given as 'attender'})</span></td><td><a href="UKCore-Practitioner-Example.html">Generated Summary: id: UKCore-Practitioner-Example; G12345678; Paul Rastall ; ph: 0113 6323200(WORK); gender: male</a></td></tr></table><p><b>period</b>: 10-Dec-2019 13:00:00 --&gt; 11-Dec-2019 13:00:00</p><p><b>reasonCode</b>: General treatment (procedure) <span style="background: LightGoldenRodYellow">(Details : {SNOMED CT code '7922000' = 'General treatment', given as 'General treatment (procedure)'})</span></p><h3>Hospitalizations</h3><table class="grid"><tr><td>-</td><td><b>DischargeDisposition</b></td></tr><tr><td>*</td><td>Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode. <span style="background: LightGoldenRodYellow">(Details : {https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination code '19' = 'Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode.', given as 'Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode.'})</span></td></tr></table><h3>Locations</h3><table class="grid"><tr><td>-</td><td><b>Location</b></td></tr><tr><td>*</td><td><a href="UKCore-Location-Example.html">Generated Summary: id: UKCore-Location-Example; </a></td></tr></table><p><b>serviceProvider</b>: <a href="UKCore-Organisation-Example.html">Generated Summary: id: UKCore-Organisation-Example; RR8 (OFFICIAL); name: LEEDS TEACHING HOSPITALS NHS TRUST; ph: 0113 243 3144</a></p></div>
   </text>
+  <identifier>
+    <system value="https://tools.ietf.org/html/rfc4122"/>
+    <value value="6f40cebe-7b55-461d-9d7f-eadb4c065762"/>
+  </identifier>
   <status value="finished"/>
   <class>
     <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
-    <code value="AMB"/>
-    <display value="ambulatory"/>
+    <code value="IMP"/>
+    <display value="inpatient encounter"/>
   </class>
-  <serviceType>
+  <type>
     <coding>
-      <system value="http://terminology.hl7.org/CodeSystem/service-type"/>
-      <code value="124"/>
-      <display value="General Practice"/>
+      <system value="http://snomed.info/sct"/>
+      <code value="185212007"/>
+      <display value="Seen in hospital ward (finding)"/>
     </coding>
-  </serviceType>
-  <priority>
-    <coding>
-      <system value="http://terminology.hl7.org/CodeSystem/v3-ActPriority"/>
-      <code value="R"/>
-      <display value="routine"/>
-    </coding>
-  </priority>
+  </type>
   <subject>
     <reference value="Patient/UKCore-Patient-Example"/>
   </subject>
@@ -43,6 +40,26 @@
       <reference value="Practitioner/UKCore-Practitioner-Example"/>
     </individual>
   </participant>
+  <period>
+    <start value="2019-12-10T13:00:00+00:00"/>
+    <end value="2019-12-11T13:00:00+00:00"/>
+  </period>
+  <reasonCode>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="7922000"/>
+      <display value="General treatment (procedure)"/>
+    </coding>
+  </reasonCode>
+  <hospitalization>
+    <dischargeDisposition>
+      <coding>
+        <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination"/>
+        <code value="19"/>
+        <display value="Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode."/>
+      </coding>
+    </dischargeDisposition>
+  </hospitalization>
   <location>
     <location>
       <reference value="Location/UKCore-Location-Example"/>

@@ -23,19 +23,19 @@ The following are example usage scenarios for the UK Core Consent profile:
 
 ### Profile Minimum Viable Content (Mandatory and Must Support Data Elements) ###
 
-The following data-elements are mandatory (i.e data MUST be present) or must be supported if the data is present in the sending system (Must Support definition). They are presented below in a simple human-readable explanation. Profile specific guidance and examples are provided as well. The Formal Profile Definition below provides the formal summary, definitions, and terminology requirements.
+The following data-elements are mandatory (i.e data MUST be present) or must be supported if the data is present in the sending system (Must Support definition). They are presented below in a simple human-readable explanation. Profile specific guidance and examples are provided as well. The formal Profile Definition below provides the formal summary, definitions, and terminology requirements.
 
 **Each Consent resource must have:**
 
 1. A status
-2. Scope
-3. A Category 
+2. The scope
+3. A category 
 
 **Each Consent resource must support:**
 
 1. A patient
-2. A Performer - Who is agreeing to the policy and rules
-3. An Organization - Custodian of the consent 
+2. A performer - who is agreeing to the policy and rules
+3. An organization - custodian of the consent 
 
 **Profile specific implementation guidance:**
 
