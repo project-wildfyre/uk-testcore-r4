@@ -9,17 +9,19 @@
 	<code>
 		<coding>
 			<system value="http://snomed.info/sct"/>
-			<code value="1149501000000101"/>
-			<display value="List of consultations"/>
+			<code value="826501000000100"/>
+			<display value="Miscellaneous record"/>
 		</coding>
 	</code>
 	<subject>
 		<reference value="Patient/UKCore-Patient-Example"/>
 	</subject>
 	<date value="2019-12-10T13:00:00+00:00"/>
-	<entry>
-		<item>
-			<reference value="Encounter/UKCore-Encounter-Example"/>
-		</item>
-	</entry>
+	<emptyReason>
+		<coding>
+			<system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListEmptyReasonCode"/>
+			<code value="no-content-recorded"/>
+			<display value="No Content Recorded"/>
+		</coding>
+	</emptyReason>
 </List>
