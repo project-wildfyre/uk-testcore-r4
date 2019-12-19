@@ -29,7 +29,7 @@ The following data-elements are mandatory (i.e data MUST be present) or must be 
 
 **Profile specific implementation guidance:**
 
-Procedure codes SNOMED-CT are required. Further guidance will be issued on the use of SNOMED CT in a later release.
+SNOMED-CT procedure codes are required. Further guidance will be issued on the use of SNOMED-CT in a later release.
 
 A procedure including an implantable device SHOULD use Procedure.focalDevice with a reference to the UK Core Device Profile.
 

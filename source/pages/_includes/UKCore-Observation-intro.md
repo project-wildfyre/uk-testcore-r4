@@ -6,10 +6,9 @@
 <!-- end TOC -->
 ### Profile Purpose ###
 
-This profile allows exchange of information of Measurements and simple assertions made about an individual, device or other subject. More specific observation profiles will be added to this specification in later releases when the use cases for more specific observations have been evaluated.
+This profile allows exchange of information of measurements and simple assertions made about an individual, device or other subject. More observation profiles will be added to this specification in later releases when the use cases for more specific observations have been evaluated.
 
-Note: this profile MUST not be used where a more specific UK Core profile exists.
-
+Note: this profile MUST NOT be used where a more specific UK Core profile exists.
 
 ### Example Usage Scenarios ###
 
