@@ -19,4 +19,8 @@
 		<family value="SMITH"/>
 		<given value="Joy"/>
 	</name>
+	<telecom>
+		<system value="phone"/>
+		<value value="01131231234"/>
+	</telecom>	
 </RelatedPerson>

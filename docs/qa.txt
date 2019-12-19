@@ -1,9 +1,9 @@
 ﻿HL7FHIRUKCore : Validation Results
 =========================================
 
-err = 30, warn = 6, info = 0
-IG Publisher Version: v1.0.28-SNAPSHOT
-Generated Thu Dec 19 10:33:01 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
+err = 30, warn = 4, info = 0
+IG Publisher Version: v1.0.29-SNAPSHOT
+Generated Thu Dec 19 13:12:58 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = https://fhir.nhs.uk/R4)
 
  Build Errors : 410 / 1
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems\CodeSystem-UKCore-AdditionalRelatedPersonRole : 0 / 0
@@ -37,7 +37,7 @@ Generated Thu Dec 19 10:33:01 GMT 2019. FHIR version 4.0.1 for nhsdigital.fhir.r
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\conceptmaps\ConceptMap-UKCore-MaritalStatus : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Allergy-List-Example : 1 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-AllergyIntolerance-Example : 0 / 0
- C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Condition-Example : 0 / 1
+ C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Condition-Example : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Consent-Example : 0 / 0
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Encounter-Example : 0 / 1
  C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-List-Example : 1 / 0
@@ -571,7 +571,6 @@ ERROR: C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\docs\versioning.html: The html so
 ERROR: List/UKCore-Allergy-List-Example: List.code.coding[0]: unable to find code 886921000000105 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20190731) for 'http://snomed.info/sct#886921000000105'
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-AllergyIntolerance-Example.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Condition-Example.xml ==
-WARNING: Condition/UKCore-Condition-Example: Condition.code.coding[0]: The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionCode (https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionCode, and a code should come from this value set unless it has no suitable code) (error message = The filter "constraint = (< 404684003 |Clinical finding| OR < 413350009 |Finding with explicit context| OR < 272379006 |Event|)" was not understood in the context of http://snomed.info/sct)
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Consent-Example.xml ==
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Encounter-Example.xml ==
 WARNING: Encounter/UKCore-Encounter-Example: Encounter.type[0].coding[0]: The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-EncounterType (https://fhir.nhs.uk/R4/ValueSet/UKCore-EncounterType, and a code should come from this value set unless it has no suitable code) (error message = The filter "constraint = <<185316007 OR <<308467007 OR <<185201007" was not understood in the context of http://snomed.info/sct)
@@ -634,7 +633,7 @@ ERROR: UKCore-AllergyCode: Error from server: The filter "constraint = (<<105590
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-AllergyExposureRoute.xml ==
 ERROR: UKCore-AllergyExposureRoute: Error from server: The filter "constraint = ^999000051000001100 |ePrescribing route of administration simple reference set|" was not understood in the context of http://snomed.info/sct
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-AllergyManifestation.xml ==
-ERROR: UKCore-AllergyManifestation: Error from server: Unable to provide support for code system http://snomed.info/sct version http://snomed.info/sct/999000031000000106
+ERROR: UKCore-AllergyManifestation: Error from server: The filter "concept in <<404684003" was not understood in the context of http://snomed.info/sct
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-AllergySeverity.xml ==
 ERROR: UKCore-AllergySeverity: Error from server: The filter "constraint = (255604002 |Mild| OR 6736007 |Moderate| OR 24484000 |Severe| OR 399166001 |Fatal| OR 442452003 |Life threatening severity|)" was not understood in the context of http://snomed.info/sct
 == C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets\ValueSet-UKCore-BodySite.xml ==
