@@ -225,12 +225,6 @@
       <path value="Observation.bodySite.coding.display" />
       <min value="1" />
     </element>
-    <element id="Observation.method">
-      <path value="Observation.method" />
-      <binding>
-        <strength value="extensible" />
-      </binding>
-    </element>
     <element id="Observation.specimen.identifier.assigner">
       <path value="Observation.specimen.identifier.assigner" />
       <type>

@@ -1,14 +1,14 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 411, errors = 16, warn = 3, info = 0 -->
+<!-- broken links = 411, errors = 15, warn = 3, info = 0 -->
 <head>
   <title>HL7FHIRUKCore : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for HL7FHIRUKCore</h1>
- <p>Generated Wed Dec 18 13:45:23 GMT 2019, FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = <a href="https://fhir.nhs.uk/R4">https://fhir.nhs.uk/R4</a> (<a href="https://fhir.nhs.uk/R4/history.html">history</a>))</p>
-<p>IG Publisher Version: v1.0.25-SNAPSHOT</p>
+ <p>Generated Thu Dec 19 10:33:00 GMT 2019, FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = <a href="https://fhir.nhs.uk/R4">https://fhir.nhs.uk/R4</a> (<a href="https://fhir.nhs.uk/R4/history.html">history</a>))</p>
+<p>IG Publisher Version: v1.0.28-SNAPSHOT</p>
 <p>No Suppressed Errors</p>
  <p>HL7 Publication check:</p> <ul><li>n/a - not an HL7.org or FHIR.org implementation guide</li></ul>
 
@@ -113,7 +113,7 @@
      <td><a href="#C__RepoGitHub_FHIR-R4-Core-IG-Prototype_source_examples_UKCore-AllergyIntolerance-Example"><b>C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-AllergyIntolerance-Example</b></a></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__RepoGitHub_FHIR-R4-Core-IG-Prototype_source_examples_UKCore-Condition-Example"><b>C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Condition-Example</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__RepoGitHub_FHIR-R4-Core-IG-Prototype_source_examples_UKCore-Condition-Example"><b>C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Condition-Example</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#C__RepoGitHub_FHIR-R4-Core-IG-Prototype_source_examples_UKCore-Consent-Example"><b>C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Consent-Example</b></a></td><td><b>0</b></td><td><b>0</b></td>
@@ -244,8 +244,8 @@
    <tr style="background-color: #EFFFEF">
      <td><a href="#C__RepoGitHub_FHIR-R4-Core-IG-Prototype_source_structuredefinitions_UKCore-Location"><b>C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-Location</b></a></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#C__RepoGitHub_FHIR-R4-Core-IG-Prototype_source_structuredefinitions_UKCore-Observation"><b>C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-Observation</b></a></td><td><b>1</b></td><td><b>1</b></td>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__RepoGitHub_FHIR-R4-Core-IG-Prototype_source_structuredefinitions_UKCore-Observation"><b>C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-Observation</b></a></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#C__RepoGitHub_FHIR-R4-Core-IG-Prototype_source_structuredefinitions_UKCore-Organization"><b>C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-Organization</b></a></td><td><b>0</b></td><td><b>0</b></td>
@@ -1871,7 +1871,10 @@
 <h2><a href="UKCore-Condition-Example.html">C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Condition-Example.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Condition/UKCore-Condition-Example: Condition.code.coding[0]</b></td><td><b>warning</b></td><td><b>The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionCode (https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionCode, and a code should come from this value set unless it has no suitable code) (error message = The filter &quot;constraint = (&lt; 404684003 |Clinical finding| OR &lt; 413350009 |Finding with explicit context| OR &lt; 272379006 |Event|)&quot; was not understood in the context of http://snomed.info/sct)</b></td>
    </tr>
 </table>
 <hr/>
@@ -2232,13 +2235,7 @@
 <h2><a href="UKCore-Observation.html">C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions\UKCore-Observation.xml</a></h2>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition/UKCore-Observation: StructureDefinition.snapshot.element[63].mapping[3].map</b></td><td><b>warning</b></td><td><b>value should not start or finish with whitespace</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/UKCore-Observation: StructureDefinition.snapshot.element[147]</b></td><td><b>error</b></td><td><b>sdf-10: provide either a binding reference or a description (or both) [binding.empty() or binding.valueSet.exists() or binding.description.exists()]</b></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -2346,7 +2343,7 @@
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>UKCore-AllergyManifestation</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;concept in &lt;&lt;404684003&quot; was not understood in the context of http://snomed.info/sct</b></td>
+     <td><b>UKCore-AllergyManifestation</b></td><td><b>error</b></td><td><b>Error from server: Unable to provide support for code system http://snomed.info/sct version http://snomed.info/sct/999000031000000106</b></td>
    </tr>
 </table>
 <hr/>

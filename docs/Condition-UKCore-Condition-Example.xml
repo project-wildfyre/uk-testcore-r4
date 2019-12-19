@@ -6,7 +6,7 @@
     <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Condition"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Condition-Example</p><p><b>meta</b>: </p><p><b>clinicalStatus</b>: Active <span style="background: LightGoldenRodYellow">(Details : {http://terminology.hl7.org/CodeSystem/condition-clinical code 'active' = 'Active', given as 'Active'})</span></p><p><b>subject</b>: <a href="UKCore-Patient-Example.html">Generated Summary: id: UKCore-Patient-Example; 9912003888; Richard SMITH (OFFICIAL); ph: 01131231234; gender: male; birthDate: 1970-09-11</a></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Condition-Example</p><p><b>meta</b>: </p><p><b>clinicalStatus</b>: Active <span style="background: LightGoldenRodYellow">(Details : {http://terminology.hl7.org/CodeSystem/condition-clinical code 'active' = 'Active', given as 'Active'})</span></p><p><b>verificationStatus</b>: Confirmed <span style="background: LightGoldenRodYellow">(Details : {http://terminology.hl7.org/CodeSystem/condition-ver-status code 'confirmed' = 'Confirmed', given as 'Confirmed'})</span></p><p><b>category</b>: Encounter Diagnosis <span style="background: LightGoldenRodYellow">(Details : {http://terminology.hl7.org/CodeSystem/condition-category code 'encounter-diagnosis' = 'Encounter Diagnosis', given as 'Encounter Diagnosis'})</span></p><p><b>code</b>: Bleeding from ear <span style="background: LightGoldenRodYellow">(Details : {SNOMED CT code '26322001' = 'Bleeding from the ear', given as 'Bleeding from ear'})</span></p><p><b>subject</b>: <a href="UKCore-Patient-Example.html">Generated Summary: id: UKCore-Patient-Example; 9912003888; Richard SMITH (OFFICIAL); ph: 01131231234; gender: male; birthDate: 1970-09-11</a></p></div>
   </text>
   <clinicalStatus>
     <coding>
@@ -15,6 +15,27 @@
       <display value="Active"/>
     </coding>
   </clinicalStatus>
+  <verificationStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status"/>
+      <code value="confirmed"/>
+      <display value="Confirmed"/>
+    </coding>
+  </verificationStatus>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-category"/>
+      <code value="encounter-diagnosis"/>
+      <display value="Encounter Diagnosis"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="26322001"/>
+      <display value="Bleeding from ear"/>
+    </coding>
+  </code>
   <subject>
     <reference value="Patient/UKCore-Patient-Example"/>
   </subject>

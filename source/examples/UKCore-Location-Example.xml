@@ -29,6 +29,6 @@
 		<country value="ENGLAND"/>
 	</address>
 	<managingOrganization>
-		<reference value="Organization/UKCore-Organization-Example"/>
+		<reference value="Organization/UKCore-Organisation-Example"/>
 	</managingOrganization>
 </Location>

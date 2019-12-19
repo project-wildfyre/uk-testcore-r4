@@ -6,8 +6,32 @@
     <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Location-Example</p><p><b>meta</b>: </p><p><b>managingOrganization</b>: <a href="UKCore-Organisation-Example.html">Generated Summary: id: UKCore-Organisation-Example; RR8 (OFFICIAL); name: LEEDS TEACHING HOSPITALS NHS TRUST; ph: 0113 243 3144</a></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Location-Example</p><p><b>meta</b>: </p><p><b>identifier</b>: RR8D7</p><p><b>name</b>: CARDIOLOGY SJUH</p><p><b>type</b>: Ambulatory Health Care Facilities; Clinic/Center; Rehabilitation: Cardiac Facilities <span style="background: LightGoldenRodYellow">(Details : {http://terminology.hl7.org/CodeSystem/v3-RoleCode code 'CARD' = 'Ambulatory Health Care Facilities; Clinic/Center; Rehabilitation: Cardiac Facilities', given as 'Ambulatory Health Care Facilities; Clinic/Center; Rehabilitation: Cardiac Facilities'})</span></p><p><b>telecom</b>: ph: 0113 243 3149</p><p><b>address</b>: CARDIOLOGY SJUH ST. JAMES'S UNIVERSITY HOSPITAL BECKETT STREET LEEDS LS9 7TF ENGLAND </p><p><b>managingOrganization</b>: <a href="UKCore-Organisation-Example.html">Generated Summary: id: UKCore-Organisation-Example; RR8 (OFFICIAL); name: LEEDS TEACHING HOSPITALS NHS TRUST; ph: 0113 243 3144</a></p></div>
   </text>
+  <identifier>
+    <system value="https://fhir.nhs.uk/Id/ods-site-code"/>
+    <value value="RR8D7"/>
+  </identifier>
+  <name value="CARDIOLOGY SJUH"/>
+  <type>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+      <code value="CARD"/>
+      <display value="Ambulatory Health Care Facilities; Clinic/Center; Rehabilitation: Cardiac Facilities"/>
+    </coding>
+  </type>
+  <telecom>
+    <system value="phone"/>
+    <value value="0113 243 3149"/>
+  </telecom>
+  <address>
+    <line value="CARDIOLOGY SJUH"/>
+    <line value="ST. JAMES&#39;S UNIVERSITY HOSPITAL"/>
+    <line value="BECKETT STREET"/>
+    <city value="LEEDS"/>
+    <postalCode value="LS9 7TF"/>
+    <country value="ENGLAND"/>
+  </address>
   <managingOrganization>
     <reference value="Organization/UKCore-Organisation-Example"/>
   </managingOrganization>
