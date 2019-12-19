@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Observation xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Git/SchemasR4/observation.xsd">
+<Observation xmlns="http://hl7.org/fhir">
 	<id value="UKCore-Observation-Example"/>
 	<meta>
 		<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
@@ -9,7 +9,11 @@
 		<coding>
 			<system value="http://snomed.info/sct"/>
 			<code value="162564003"/>
-			<display value="Awareness of diagnosis (observable entity)"/>
+			<display value="Awareness of diagnosis"/>
 		</coding>
 	</code>
+	<subject>
+		<reference value="Patient/UKCore-Patient-Example"/>
+	</subject>
+	<effectiveDateTime value="2019-02-12"/>
 </Observation>

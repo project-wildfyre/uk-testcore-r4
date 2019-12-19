@@ -7,8 +7,8 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for HL7FHIRUKCore</h1>
- <p>Generated Thu Dec 19 13:12:57 GMT 2019, FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = <a href="https://fhir.nhs.uk/R4">https://fhir.nhs.uk/R4</a> (<a href="https://fhir.nhs.uk/R4/history.html">history</a>))</p>
-<p>IG Publisher Version: v1.0.29-SNAPSHOT</p>
+ <p>Generated Thu Dec 19 14:00:15 GMT 2019, FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype# (canonical = <a href="https://fhir.nhs.uk/R4">https://fhir.nhs.uk/R4</a> (<a href="https://fhir.nhs.uk/R4/history.html">history</a>))</p>
+<p style="background-color: #ffcccc">IG Publisher Version: v1.0.28-SNAPSHOT, which is out of date. The current version is v1.0.29-SNAPSHOT <a hhef="https://fhir.github.io/latest-ig-publisher/org.hl7.fhir.publisher.jar">Download Latest</a></p>
 <p>No Suppressed Errors</p>
  <p>HL7 Publication check:</p> <ul><li>n/a - not an HL7.org or FHIR.org implementation guide</li></ul>
 
@@ -113,7 +113,7 @@
      <td><a href="#C__RepoGitHub_FHIR-R4-Core-IG-Prototype_source_examples_UKCore-AllergyIntolerance-Example"><b>C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-AllergyIntolerance-Example</b></a></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__RepoGitHub_FHIR-R4-Core-IG-Prototype_source_examples_UKCore-Condition-Example"><b>C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Condition-Example</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__RepoGitHub_FHIR-R4-Core-IG-Prototype_source_examples_UKCore-Condition-Example"><b>C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Condition-Example</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#C__RepoGitHub_FHIR-R4-Core-IG-Prototype_source_examples_UKCore-Consent-Example"><b>C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Consent-Example</b></a></td><td><b>0</b></td><td><b>0</b></td>
@@ -128,7 +128,7 @@
      <td><a href="#C__RepoGitHub_FHIR-R4-Core-IG-Prototype_source_examples_UKCore-Location-Example"><b>C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Location-Example</b></a></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__RepoGitHub_FHIR-R4-Core-IG-Prototype_source_examples_UKCore-Observation-Example"><b>C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Observation-Example</b></a></td><td><b>0</b></td><td><b>1</b></td>
+     <td><a href="#C__RepoGitHub_FHIR-R4-Core-IG-Prototype_source_examples_UKCore-Observation-Example"><b>C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Observation-Example</b></a></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#C__RepoGitHub_FHIR-R4-Core-IG-Prototype_source_examples_UKCore-Organisation-Example"><b>C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Organisation-Example</b></a></td><td><b>0</b></td><td><b>0</b></td>
@@ -1871,7 +1871,10 @@
 <h2><a href="UKCore-Condition-Example.html">C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Condition-Example.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Condition/UKCore-Condition-Example: Condition.code.coding[0]</b></td><td><b>warning</b></td><td><b>The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionCode (https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionCode, and a code should come from this value set unless it has no suitable code) (error message = The filter &quot;constraint = (&lt; 404684003 |Clinical finding| OR &lt; 413350009 |Finding with explicit context| OR &lt; 272379006 |Event|)&quot; was not understood in the context of http://snomed.info/sct)</b></td>
    </tr>
 </table>
 <hr/>
@@ -1917,10 +1920,7 @@
 <h2><a href="UKCore-Observation-Example.html">C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples\UKCore-Observation-Example.xml</a></h2>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>Observation/UKCore-Observation-Example: Observation.code.coding[0]</b></td><td><b>warning</b></td><td><b>The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-ObservationType (https://fhir.nhs.uk/R4/ValueSet/UKCore-ObservationType, and a code should come from this value set unless it has no suitable code) (error message = The filter &quot;constraint = (&lt;&lt;363787002 | Observable entity|)&quot; was not understood in the context of http://snomed.info/sct)</b></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -2340,7 +2340,7 @@
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>UKCore-AllergyManifestation</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;concept in &lt;&lt;404684003&quot; was not understood in the context of http://snomed.info/sct</b></td>
+     <td><b>UKCore-AllergyManifestation</b></td><td><b>error</b></td><td><b>Error from server: Unable to provide support for code system http://snomed.info/sct version http://snomed.info/sct/999000031000000106</b></td>
    </tr>
 </table>
 <hr/>
