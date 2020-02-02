@@ -1,9 +1,9 @@
 {
   "url": "https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype",
   "name": "HL7FHIRUKCore",
-  "package-id": "nhsdigital.fhir.r4.core.prototype",
+  "package-id": "uk.testcore.r4",
   "ig-ver": "1.0.0",
-  "date": "Sun, 02 Feb, 2020 10:42:14 +0000",
+  "date": "Sun, 02 Feb, 2020 11:47:23 +0000",
   "errs": 66,
   "warnings": 56,
   "hints": 6,

@@ -71,7 +71,7 @@
        fhir:Coding.code [ fhir:value "GB" ]
      ]
   ];
-  fhir:ImplementationGuide.packageId [ fhir:value "nhsdigital.fhir.r4.core.prototype"];
+  fhir:ImplementationGuide.packageId [ fhir:value "uk.testcore.r4"];
   fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
   fhir:ImplementationGuide.fhirVersion [
      fhir:value "4.0.1";

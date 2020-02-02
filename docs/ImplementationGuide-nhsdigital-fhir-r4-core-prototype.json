@@ -69,7 +69,7 @@
       ]
     }
   ],
-  "packageId": "nhsdigital.fhir.r4.core.prototype",
+  "packageId": "uk.testcore.r4",
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"

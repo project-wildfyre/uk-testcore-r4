@@ -3,7 +3,7 @@
 
 err = 66, warn = 56, info = 6
 IG Publisher Version: v1.0.56-SNAPSHOT
-Generated Sun Feb 02 10:56:04 GMT 2020. FHIR version 4.0.1 for nhsdigital.fhir.r4.core.prototype#1.0.0 (canonical = https://fhir.nhs.uk/R4)
+Generated Sun Feb 02 11:49:44 GMT 2020. FHIR version 4.0.1 for uk.testcore.r4#1.0.0 (canonical = https://fhir.nhs.uk/R4)
 
  Build Errors : 40 / 14
  /Users/kevinmayfield/Development/kevinmayfield/FHIR-R4-Core-IG-Prototype/input/examples/UKCore-Allergy-List-Example : 1 / 0
@@ -129,7 +129,7 @@ Generated Sun Feb 02 10:56:04 GMT 2020. FHIR version 4.0.1 for nhsdigital.fhir.r
  /Users/kevinmayfield/Development/kevinmayfield/FHIR-R4-Core-IG-Prototype/input/resources/ValueSet-UKCore-TreatmentCategory : 0 / 0
 </table>
 == n/a ==
-WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be nhsdigital.fhir.r4.core.prototype
+WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be uk.testcore.r4
 WARNING: Unable to find description for the resource.  Descriptions are strongly encouraged to allow proper population of the artifact list.
 WARNING: Unable to find description for the resource.  Descriptions are strongly encouraged to allow proper population of the artifact list.
 WARNING: Unable to find description for the resource.  Descriptions are strongly encouraged to allow proper population of the artifact list.

@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "UKCoreAllergyCertainty"];
   fhir:ValueSet.title [ fhir:value "UK Core Allergy Certainty"];
   fhir:ValueSet.status [ fhir:value "draft"];
-  fhir:ValueSet.date [ fhir:value "2020-02-02T10:42:14+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2020-02-02T11:47:23+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "NHS Digital"];
   fhir:ValueSet.contact [
      fhir:index 0;
