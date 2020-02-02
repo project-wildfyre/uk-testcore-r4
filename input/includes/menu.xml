@@ -1,0 +1,29 @@
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li><a href="index.html">UK Core Implementation Guide</a></li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Profiles<b class="caret">
+    </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a href="extension_library.html">Extensions</a></li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Terminology<b class="caret">
+    </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="codesystems.html">CodeSystems</a>
+      </li>
+      <li>
+        <a href="valuesets.html">ValueSets</a>
+      </li>
+      <li>
+        <a href="conceptmaps.html">ConceptMaps</a>
+      </li>
+    </ul>
+  </li>
+  <!--<li><a href="examples.html">Examples</a></li>-->
+ <li><a href="artifacts.html">Artifact Summary</a></li>
+</ul>

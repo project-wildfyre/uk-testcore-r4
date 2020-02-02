@@ -1,0 +1,77 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "UKCore-TreatmentCategory"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UK Core Treatment Category</h2><div><p>A CodeSystem that identifies the treatment category for a patient.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"UKCore-TreatmentCategory-1\"> </a></td><td>Exempt from payment - subject to reciprocal health agreement</td><td/></tr><tr><td style=\"white-space:nowrap\">2<a name=\"UKCore-TreatmentCategory-2\"> </a></td><td>Exempt from payment - other</td><td/></tr><tr><td style=\"white-space:nowrap\">3<a name=\"UKCore-TreatmentCategory-3\"> </a></td><td>To pay hotel fees only</td><td/></tr><tr><td style=\"white-space:nowrap\">4<a name=\"UKCore-TreatmentCategory-4\"> </a></td><td>To pay all fees</td><td/></tr><tr><td style=\"white-space:nowrap\">9<a name=\"UKCore-TreatmentCategory-9\"> </a></td><td>Charging rate not known</td><td/></tr><tr><td style=\"white-space:nowrap\">8<a name=\"UKCore-TreatmentCategory-8\"> </a></td><td>Not applicable</td><td>Not an Overseas Visitor</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory"];
+  fhir:CodeSystem.version [ fhir:value "1.0.0"];
+  fhir:CodeSystem.name [ fhir:value "UKCoreTreatmentCategory"];
+  fhir:CodeSystem.title [ fhir:value "UK Core Treatment Category"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.date [ fhir:value "2019-10-25T01:00:00+01:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "NHS Digital"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "NHS Digital" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "mailto:interoperabilityteam@nhs.net" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "A CodeSystem that identifies the treatment category for a patient."];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "GB" ]
+     ]
+  ];
+  fhir:CodeSystem.copyright [ fhir:value "Copyright © 2019 NHS Digital"];
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "1" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Exempt from payment - subject to reciprocal health agreement" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "2" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Exempt from payment - other" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "3" ];
+     fhir:CodeSystem.concept.display [ fhir:value "To pay hotel fees only" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "4" ];
+     fhir:CodeSystem.concept.display [ fhir:value "To pay all fees" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "9" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Charging rate not known" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "8" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Not applicable" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Not an Overseas Visitor" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

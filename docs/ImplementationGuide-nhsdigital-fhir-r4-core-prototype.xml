@@ -5,6 +5,30 @@
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>HL7FHIRUKCore</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype</pre></div>
   </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
+    <valueString value="C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\resources"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
+    <valueString value="C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\codesystems"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
+    <valueString value="C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\valuesets"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
+    <valueString value="C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\structuredefinitions"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
+    <valueString value="C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\examples"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
+    <valueString value="C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\conceptmaps"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages">
+    <valueString value="C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\framework"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages">
+    <valueString value="C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\pages"/>
+  </extension>
   <url value="https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype"/>
   <version value="1.0.0"/>
   <name value="HL7FHIRUKCore"/>
@@ -31,6 +55,158 @@
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <definition>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="copyrightyear"/>
+      </extension>
+      <extension url="value">
+        <valueString value="2020+"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="releaselabel"/>
+      </extension>
+      <extension url="value">
+        <valueString value="CI Build"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="generate"/>
+      </extension>
+      <extension url="value">
+        <valueString value="xml"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="generate"/>
+      </extension>
+      <extension url="value">
+        <valueString value="JSON"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="autoload-resources"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-qa"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/qa"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-temp"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/pages"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-output"/>
+      </extension>
+      <extension url="value">
+        <valueString value="output"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-suppressed-warnings"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-html"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-md"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page-md.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-contact"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-context"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-copyright"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-jurisdiction"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-license"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-publisher"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="active-tables"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
     <grouping>
       <name value="HL7 FHIR&#xAE;  UK Core"/>
     </grouping>
@@ -44,6 +220,8 @@
       <reference>
         <reference value="ValueSet/UKCore-ResidentialStatus"/>
       </reference>
+      <name value="UK Core Residential Status"/>
+      <description value="A ValueSet that identifies the residential status of a patient."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -56,6 +234,8 @@
       <reference>
         <reference value="ValueSet/UKCore-AllergyManifestation"/>
       </reference>
+      <name value="UK Core Allergy Manifestation"/>
+      <description value="A code from the SNOMED Clinical Terminology UK hierarchy with concept id &#39;404684003&#39; to record an allergy manifestation or a value from the HL7 FHIR nullFlavors code system."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -68,6 +248,8 @@
       <reference>
         <reference value="ValueSet/UKCore-AllergyCertainty"/>
       </reference>
+      <name value="UK Core Allergy Certainty"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the certainty of an allergy."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -80,6 +262,8 @@
       <reference>
         <reference value="ValueSet/UKCore-AllergySeverity"/>
       </reference>
+      <name value="UK Core Allergy Severity"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the severity of an allergy."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -92,6 +276,8 @@
       <reference>
         <reference value="ValueSet/UKCore-ConditionEpisode"/>
       </reference>
+      <name value="UK Core Condition Episode"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the episodicity of a Condition."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -104,6 +290,8 @@
       <reference>
         <reference value="ValueSet/UKCore-ConditionCode"/>
       </reference>
+      <name value="UK Core Condition Code"/>
+      <description value="A code from the SNOMED Clinical Terminology UK with the expression (&lt; 404684003 |Clinical finding| OR &lt; 413350009 |Finding with explicit context| OR &lt; 272379006 |Event|)."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -116,6 +304,8 @@
       <reference>
         <reference value="ValueSet/UKCore-ConditionEpisodicity"/>
       </reference>
+      <name value="UK Core Condition Episodicity"/>
+      <description value="A ValueSet to identify the episodicity of a condition."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -128,6 +318,8 @@
       <reference>
         <reference value="ValueSet/UKCore-AllergyCode"/>
       </reference>
+      <name value="UK Core Allergy Code"/>
+      <description value="A code from the SNOMED Clinical Terminology UK with the expression (&lt;105590001 |Substance OR &lt;373873005 |Pharmaceutical / biologic product| OR &lt;716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy), or a code from the v3 Code System NullFlavor specifying why a valid value is not present."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -140,6 +332,8 @@
       <reference>
         <reference value="ValueSet/UKCore-AllergyExposureRoute"/>
       </reference>
+      <name value="UK Core Allergy Exposure Route"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK &#39;NHS e-Prescribing route of administration subset&#39; with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is &#39;ePrescribing route of administration simple reference set (foundation metadata concept)&#39; with Refset Id 999000051000001100."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -152,6 +346,8 @@
       <reference>
         <reference value="ValueSet/UKCore-CareSettingType"/>
       </reference>
+      <name value="UK Core Care Setting Type"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system that describes a correspondence care setting type. Any code from the SNOMED CT UK &#39;Correspondence Care setting type&#39; subset with subset original id 43971000000130; the corresponding SNOMED CT UK Refset fully specified name is &#39;Correspondence care setting type simple reference set (foundation metadata concept)&#39; with Refset Id 999000381000000107"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -164,6 +360,8 @@
       <reference>
         <reference value="ValueSet/UKCore-ProcedureCode"/>
       </reference>
+      <name value="UK Core Procedure Code"/>
+      <description value="A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;71388002 |Procedure|&lt;&lt;129125009 |Procedure with explicit context|)."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -176,6 +374,8 @@
       <reference>
         <reference value="ValueSet/UKCore-ListCode"/>
       </reference>
+      <name value="UK Core List Code"/>
+      <description value="A ValueSet to identify the purpose of a list."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -188,6 +388,8 @@
       <reference>
         <reference value="ValueSet/UKCore-ListEmptyReasonCode"/>
       </reference>
+      <name value="UK Core List Empty Reason Code"/>
+      <description value="A ValueSet to identify the reason a list may be empty."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -200,6 +402,8 @@
       <reference>
         <reference value="ValueSet/UKCore-ListWarningCode"/>
       </reference>
+      <name value="UK Core List Warning Code"/>
+      <description value="A ValueSet to identify the reason a list may be incomplete."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -212,6 +416,8 @@
       <reference>
         <reference value="ValueSet/UKCore-BodySite"/>
       </reference>
+      <name value="UK Core Body Site"/>
+      <description value="A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;442083009 |anatomical or acquired body structure|)."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -224,6 +430,8 @@
       <reference>
         <reference value="ValueSet/UKCore-EncounterType"/>
       </reference>
+      <name value="UK Core Encounter Type"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system that describes an encounter between a care professional and the patient (or patient&#39;s record)."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -236,6 +444,8 @@
       <reference>
         <reference value="ValueSet/UKCore-EmergencyCareDischargeStatus"/>
       </reference>
+      <name value="UK Core Emergency Care Discharge Status"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the status of the Patient on discharge from an Emergency Care Department. Captures whether treatment took place within the ED, if the patient was streamed to another service or if the patient left before treatment was complete. Any code from the SNOMED CT UK &#39;Emergency care discharge status&#39; subset with subset original id 75041000000135; the corresponding SNOMED CT UK Refset fully specified name is &#39;Emergency care discharge status simple reference set (foundation metadata concept)&#39; with Refset Id 999003021000000104."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -248,6 +458,8 @@
       <reference>
         <reference value="ValueSet/UKCore-ObservationType"/>
       </reference>
+      <name value="UK Core Observation Type"/>
+      <description value="A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;363787002 | Observable entity|)."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -260,6 +472,8 @@
       <reference>
         <reference value="ValueSet/UKCore-TreatmentCategory"/>
       </reference>
+      <name value="UK Core Treatment Category"/>
+      <description value="A ValueSet that identifies the treatment category for a patient."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -272,6 +486,8 @@
       <reference>
         <reference value="ValueSet/UKCore-HumanLanguage"/>
       </reference>
+      <name value="UK Core Human Language"/>
+      <description value="A ValueSet that identifies the language used by a person."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -284,6 +500,8 @@
       <reference>
         <reference value="ValueSet/UKCore-LanguageAbilityMode"/>
       </reference>
+      <name value="UK Core Language Ability Mode"/>
+      <description value="A ValueSet that identifies the mode the patient can communicate in, representing the method of expression of the language."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -296,6 +514,8 @@
       <reference>
         <reference value="ValueSet/UKCore-LanguageAbilityProficiency"/>
       </reference>
+      <name value="UK Core Language Ability Proficiency"/>
+      <description value="A ValueSet to identify the level of proficiency in communicating a language."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -308,6 +528,8 @@
       <reference>
         <reference value="ValueSet/UKCore-SDSJobRoleName"/>
       </reference>
+      <name value="UK Core SDS Job Role Name"/>
+      <description value="A ValueSet that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -320,6 +542,8 @@
       <reference>
         <reference value="ValueSet/UKCore-DeathNotificationStatus"/>
       </reference>
+      <name value="UK Core Death Notification Status"/>
+      <description value="A ValueSet to identify the type of death notice as held on Personal Demographics Service (PDS)."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -332,6 +556,8 @@
       <reference>
         <reference value="ValueSet/UKCore-EthnicCategory"/>
       </reference>
+      <name value="UK Core Ethnic Category"/>
+      <description value="A ValueSet to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a person&#39;s ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -344,6 +570,8 @@
       <reference>
         <reference value="ValueSet/UKCore-AdmissionMethod"/>
       </reference>
+      <name value="NHS Data Model and Dictionary Admission Method"/>
+      <description value="The method of admission to a Hospital Provider Spell."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -356,6 +584,8 @@
       <reference>
         <reference value="ValueSet/UKCore-DischargeDestination"/>
       </reference>
+      <name value="NHS Data Model and Dictionary Discharge Destination"/>
+      <description value="The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -368,6 +598,8 @@
       <reference>
         <reference value="ValueSet/UKCore-DischargeMethod"/>
       </reference>
+      <name value="NHS Data Model and Dictionary Discharge Method"/>
+      <description value="The method of discharge from a Hospital Provider Spell."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -380,6 +612,8 @@
       <reference>
         <reference value="ValueSet/UKCore-OutcomeOfAttendance"/>
       </reference>
+      <name value="NHS Data Model and Dictionary Outcome Of Attendance"/>
+      <description value="This records the outcome of an Out-Patient Attendance Consultant."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -392,6 +626,8 @@
       <reference>
         <reference value="ValueSet/UKCore-SourceOfAdmission"/>
       </reference>
+      <name value="NHS Data Model and Dictionary Source Of Admission"/>
+      <description value="The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -404,6 +640,8 @@
       <reference>
         <reference value="ValueSet/UKCore-NHSNumberVerificationStatus"/>
       </reference>
+      <name value="UK Core NHS Number Verification Status"/>
+      <description value="A ValueSet that identifies the trace status of the NHS number. The CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -416,6 +654,8 @@
       <reference>
         <reference value="ValueSet/UKCore-ReligiousAffiliation"/>
       </reference>
+      <name value="UK Core Religious Affiliation"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the religious or other belief system affiliation of a person. Any code from the SNOMED CT UK &#39;Religious Affiliation SnCT&#39; subset with subset original id 10791000000130; the corresponding SNOMED CT UK Refset fully specified name is &#39;Religious or other belief system affiliation simple reference set (foundation metadata concept)&#39; with Refset Id 999000531000000100."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -428,6 +668,8 @@
       <reference>
         <reference value="ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus"/>
       </reference>
+      <name value="NHS Data Model and Dictionary Person Marital Status Code"/>
+      <description value="An indicator to identify the legal marital status of a Person."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -440,6 +682,8 @@
       <reference>
         <reference value="CodeSystem/UKCore-AdmissionMethod"/>
       </reference>
+      <name value="NHS Data Model and Dictionary Admission Method"/>
+      <description value="The method of admission to a Hospital Provider Spell."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -452,6 +696,8 @@
       <reference>
         <reference value="CodeSystem/UKCore-DischargeDestination"/>
       </reference>
+      <name value="NHS Data Model and Dictionary Discharge Destination"/>
+      <description value="The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -464,6 +710,8 @@
       <reference>
         <reference value="CodeSystem/UKCore-DischargeMethod"/>
       </reference>
+      <name value="NHS Data Model and Dictionary Discharge Method"/>
+      <description value="The method of discharge from a Hospital Provider Spell."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -476,6 +724,8 @@
       <reference>
         <reference value="CodeSystem/UKCore-OutcomeOfAttendance"/>
       </reference>
+      <name value="NHS Data Model and Dictionary Outcome of Attendance"/>
+      <description value="This records the outcome of an Out-Patient Attendance Consultant."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -488,6 +738,8 @@
       <reference>
         <reference value="CodeSystem/UKCore-SourceOfAdmission"/>
       </reference>
+      <name value="NHS Data Model and Dictionary Source Of Admission"/>
+      <description value="The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -500,6 +752,8 @@
       <reference>
         <reference value="CodeSystem/UKCore-ConditionEpisodicity"/>
       </reference>
+      <name value="UK Core Condition Episodicity"/>
+      <description value="A CodeSystem to identify the episodicity of a condition."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -512,6 +766,8 @@
       <reference>
         <reference value="CodeSystem/UKCore-ResidentialStatus"/>
       </reference>
+      <name value="UK Core Residential Status"/>
+      <description value="A CodeSystem that identifies the residential status of a patient."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -524,6 +780,8 @@
       <reference>
         <reference value="CodeSystem/UKCore-TreatmentCategory"/>
       </reference>
+      <name value="UK Core Treatment Category"/>
+      <description value="A CodeSystem that identifies the treatment category for a patient."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -536,6 +794,8 @@
       <reference>
         <reference value="CodeSystem/UKCore-HumanLanguage"/>
       </reference>
+      <name value="UK Core Human Language"/>
+      <description value="A CodeSystem that identifies the language used by a person."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -548,6 +808,8 @@
       <reference>
         <reference value="CodeSystem/UKCore-LanguageAbilityProficiency"/>
       </reference>
+      <name value="UK Core Language Ability Proficiency"/>
+      <description value="A CodeSystem to identify the level of proficiency in communicating a language."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -560,6 +822,8 @@
       <reference>
         <reference value="CodeSystem/UKCore-LanguageAbilityMode"/>
       </reference>
+      <name value="UK Core Language Ability Mode"/>
+      <description value="A CodeSystem that identifies the mode the patient can communicate in, representing the method of expression of the language."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -572,6 +836,8 @@
       <reference>
         <reference value="CodeSystem/UKCore-SDSJobRoleName"/>
       </reference>
+      <name value="UK Core SDS Job Role Name"/>
+      <description value="A CodeSystem that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -584,6 +850,8 @@
       <reference>
         <reference value="CodeSystem/UKCore-ListWarningCode"/>
       </reference>
+      <name value="UK Core List Warning Code"/>
+      <description value="A CodeSystem to identify the reason a list may be incomplete."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -596,6 +864,8 @@
       <reference>
         <reference value="CodeSystem/UKCore-ListEmptyReasonCode"/>
       </reference>
+      <name value="UK Core List Empty Reason Code"/>
+      <description value="A CodeSystem to identify the reason a list may be empty."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -608,6 +878,8 @@
       <reference>
         <reference value="CodeSystem/UKCore-DeathNotificationStatus"/>
       </reference>
+      <name value="UK Core Death Notification Status"/>
+      <description value="A CodeSystem to identify the type of death notice as held on Personal Demographics Service (PDS)."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -620,6 +892,8 @@
       <reference>
         <reference value="CodeSystem/UKCore-EthnicCategory"/>
       </reference>
+      <name value="UK Core Ethnic Category"/>
+      <description value="A CodeSystem to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a persons ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -632,6 +906,8 @@
       <reference>
         <reference value="CodeSystem/UKCore-NHSNumberVerificationStatus"/>
       </reference>
+      <name value="UK Core NHS Number Verification Status"/>
+      <description value="A CodeSystem that identifies the trace status of the NHS number. This CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -644,6 +920,8 @@
       <reference>
         <reference value="CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus"/>
       </reference>
+      <name value="NHS Data Model and Dictionary Person Marital Status Code"/>
+      <description value="An indicator to identify the legal marital status of a Person."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -656,6 +934,8 @@
       <reference>
         <reference value="ConceptMap/UKCore-MaritalStatus"/>
       </reference>
+      <name value="Concept Map - UK Core Marital Status"/>
+      <description value="A Concept Map from ValueSet Marital Status to NHS Data Dictionary Person Marital Status to aid interpretation."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -668,6 +948,8 @@
       <reference>
         <reference value="ConceptMap/UKCore-ConditionEpisodicity"/>
       </reference>
+      <name value="ConceptMap - UK Core Condition Episodicity"/>
+      <description value="A Concept Map from ValueSet Condition Episodicity Severity to equivalent Snomed CT codes"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -680,6 +962,8 @@
       <reference>
         <reference value="CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender"/>
       </reference>
+      <name value="NHS Data Model and Dictionary Person Stated Gender Code"/>
+      <description value="The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -692,6 +976,8 @@
       <reference>
         <reference value="ConceptMap/UKCore-AdministrativeGender"/>
       </reference>
+      <name value="Concept Map - UK Core Administrative Gender"/>
+      <description value="A Concept Map from ValueSet Administrative Gender to NHS Data Dictionary Person Stated Gender to aid interpretation."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -704,6 +990,8 @@
       <reference>
         <reference value="ConceptMap/UKCore-AllergySeverity"/>
       </reference>
+      <name value="Concept Map - UK Core Allergy Severity"/>
+      <description value="A Concept Map from the HL7 FHIR ValueSet Reaction Event Severity to Allergy Severity to aid interpretation."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -716,6 +1004,8 @@
       <reference>
         <reference value="ConceptMap/UKCore-AllergyVerificationStatus"/>
       </reference>
+      <name value="Concept Map - UK Core Allergy Verification Status"/>
+      <description value="A Concept Map from the HL7 FHIR ValueSet Allergy Verification Status to Allergy Certainity to aid interpretation."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -728,6 +1018,8 @@
       <reference>
         <reference value="ValueSet/UKCore-NHSDataDictionary-PersonStatedGender"/>
       </reference>
+      <name value="NHS Data Model and Dictionary Person Stated Gender Code"/>
+      <description value="The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -735,11 +1027,13 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-Patient.html"/>
+        <valueUri value="StructureDefinition-UKCore-Patient.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/UKCore-Patient"/>
       </reference>
+      <name value="UK Core Patient"/>
+      <description value="Defines the UK Core constraints and extensions on the Patient resource for the minimal set of data to query and retrieve an individual&#x2019;s demographic information."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -747,11 +1041,13 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-Practitioner.html"/>
+        <valueUri value="StructureDefinition-UKCore-Practitioner.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/UKCore-Practitioner"/>
       </reference>
+      <name value="UK Core Practitioner"/>
+      <description value="Defines the UK Core constraints and extensions on the Practitioner resource for the minimal set of data to query and retrieve practitioner information."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -759,11 +1055,13 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-PractitionerRole.html"/>
+        <valueUri value="StructureDefinition-UKCore-PractitionerRole.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/UKCore-PractitionerRole"/>
       </reference>
+      <name value="UK Core PractitionerRole"/>
+      <description value="Defines the UK Core constraints and extensions on the PractitionerRole resource for the minimal set of data to query and retrieve practitioner role information."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -771,11 +1069,13 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-Organization.html"/>
+        <valueUri value="StructureDefinition-UKCore-Organization.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/UKCore-Organization"/>
       </reference>
+      <name value="UK Core Organization"/>
+      <description value="Defines the UK Core constraints and extensions on the Organization resource for the minimal set of data to query and retrieve organisation information."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -783,23 +1083,13 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-Consent.html"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/UKCore-Consent"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-RelatedPerson.html"/>
+        <valueUri value="StructureDefinition-UKCore-RelatedPerson.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/UKCore-RelatedPerson"/>
       </reference>
+      <name value="UK Core RelatedPerson"/>
+      <description value="Defines the UK Core constraints and extensions on the RelatedPerson resource for the minimal set of data to query and retrieve related person information."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -807,11 +1097,13 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-Location.html"/>
+        <valueUri value="StructureDefinition-UKCore-Location.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/UKCore-Location"/>
       </reference>
+      <name value="UK Core Location"/>
+      <description value="Defines the UK Core constraints and extensions on the Location resource for the minimal set of data to query and retrieve location information."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -819,11 +1111,13 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-Procedure.html"/>
+        <valueUri value="StructureDefinition-UKCore-Procedure.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/UKCore-Procedure"/>
       </reference>
+      <name value="UK Core Procedure"/>
+      <description value="Defines the UK Core constraints and extensions on the Procedure resource for the minimal set of data to query and retrieve the patient&#x2019;s procedure information."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -831,11 +1125,13 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-Condition.html"/>
+        <valueUri value="StructureDefinition-UKCore-Condition.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/UKCore-Condition"/>
       </reference>
+      <name value="UK Core Condition"/>
+      <description value="Defines the UK Core constraints and extensions on the Condition resource for the minimal set of data to query and retrieve problems and health concerns information."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -843,11 +1139,13 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-AllergyIntolerance.html"/>
+        <valueUri value="StructureDefinition-UKCore-AllergyIntolerance.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/UKCore-AllergyIntolerance"/>
       </reference>
+      <name value="UK Core AllergyIntolerance"/>
+      <description value="Defines the UK Core constraints and extensions on the AllergyIntolerance resource for the minimal set of data to query and retrieve allergy information."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -855,11 +1153,13 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-Observation.html"/>
+        <valueUri value="StructureDefinition-UKCore-Observation.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/UKCore-Observation"/>
       </reference>
+      <name value="UK Core Observation"/>
+      <description value="Defines the UK Core constraints and extensions on the observation resource for the minimal set of data to query and retrieve generic observation information."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -867,11 +1167,13 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-Encounter.html"/>
+        <valueUri value="StructureDefinition-UKCore-Encounter.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/UKCore-Encounter"/>
       </reference>
+      <name value="UK Core Encounter"/>
+      <description value="Defines the UK Core constraints and extensions on the Encounter resource for the minimal set of data to query and retrieve encounter information."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -879,11 +1181,13 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-List.html"/>
+        <valueUri value="StructureDefinition-UKCore-List.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/UKCore-List"/>
       </reference>
+      <name value="UK Core List"/>
+      <description value="Defines the UK Core constraints and extensions on the List resource for the minimal set of data to query and retrieve a list of information."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -891,11 +1195,13 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-NHSNumberVerificationStatus.html"/>
+        <valueUri value="StructureDefinition-Extension-UKCore-NHSNumberVerificationStatus.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus"/>
       </reference>
+      <name value="Extension UK Core NHS Number Verification Status"/>
+      <description value="An extension to support the verification status of an NHS number."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -903,11 +1209,13 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-NHSCommunication.html"/>
+        <valueUri value="StructureDefinition-Extension-UKCore-NHSCommunication.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-NHSCommunication"/>
       </reference>
+      <name value="Extension UK Core NHS Communication"/>
+      <description value="An extension to support the communication preferences for an individual."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -915,11 +1223,13 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-Evidence.html"/>
+        <valueUri value="StructureDefinition-Extension-UKCore-Evidence.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-Evidence"/>
       </reference>
+      <name value="Extension UK Core Evidence"/>
+      <description value="An extension to support a reference to results of investigations that confirmed the certainty of the diagnosis. Examples might include results of skin prick allergy tests."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -927,11 +1237,13 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-AllergyIntoleranceEnd.html"/>
+        <valueUri value="StructureDefinition-Extension-UKCore-AllergyIntoleranceEnd.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-AllergyIntoleranceEnd"/>
       </reference>
+      <name value="Extension UK Core Allergy Intolerance End"/>
+      <description value="An extension to support the date and/or reason that the allergy or intolerance was no longer valid."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -939,11 +1251,13 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-DeathNotificationStatus.html"/>
+        <valueUri value="StructureDefinition-Extension-UKCore-DeathNotificationStatus.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-DeathNotificationStatus"/>
       </reference>
+      <name value="Extension UK Core Death Notification Status"/>
+      <description value="An extension to support death notification for an individual. For example, as held on Personal Demographics Service (PDS)."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -951,11 +1265,13 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-EthnicCategory.html"/>
+        <valueUri value="StructureDefinition-Extension-UKCore-EthnicCategory.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-EthnicCategory"/>
       </reference>
+      <name value="Extension UK Core Ethnic Category"/>
+      <description value="An extension to support the ethnic category of an individual."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -963,11 +1279,13 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-ReligiousAffiliation.html"/>
+        <valueUri value="StructureDefinition-Extension-UKCore-ReligiousAffiliation.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-ReligiousAffiliation"/>
       </reference>
+      <name value="Extension UK Core Religious Affiliation"/>
+      <description value="An extension to support the religious affiliation of an individual."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -975,11 +1293,13 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-ResidentialStatus.html"/>
+        <valueUri value="StructureDefinition-Extension-UKCore-ResidentialStatus.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-ResidentialStatus"/>
       </reference>
+      <name value="Extension UK Core Residential Status"/>
+      <description value="An extension to support the residential status of an individual."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -987,11 +1307,13 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-TreatmentCategory.html"/>
+        <valueUri value="StructureDefinition-Extension-UKCore-TreatmentCategory.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-TreatmentCategory"/>
       </reference>
+      <name value="Extension UK Core Treatment Category"/>
+      <description value="An extension to support an individual&#x2019;s treatment category."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -999,11 +1321,13 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-NominatedPharmacy.html"/>
+        <valueUri value="StructureDefinition-Extension-UKCore-NominatedPharmacy.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-NominatedPharmacy"/>
       </reference>
+      <name value="Extension UK Core Nominated Pharmacy"/>
+      <description value="An extension to support an individual&#x2019;s nominated pharmacy."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1011,11 +1335,13 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-MainLocation.html"/>
+        <valueUri value="StructureDefinition-Extension-UKCore-MainLocation.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-MainLocation"/>
       </reference>
+      <name value="Extension UK Core Main Location"/>
+      <description value="An extension to support a reference to the main location for an organisation."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1023,11 +1349,13 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-ClinicalSetting.html"/>
+        <valueUri value="StructureDefinition-Extension-UKCore-ClinicalSetting.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-ClinicalSetting"/>
       </reference>
+      <name value="Extension UK Core Clinical Setting"/>
+      <description value="An extension to support the clinical setting associated with a list."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1035,11 +1363,13 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-ListWarningCode.html"/>
+        <valueUri value="StructureDefinition-Extension-UKCore-ListWarningCode.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-ListWarningCode"/>
       </reference>
+      <name value="Extension UK Core List Warning Code"/>
+      <description value="An extension to support warnings that a list may be incomplete as data has been excluded due to confidentiality or may be missing due to data being in transit."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1047,11 +1377,13 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-AdmissionMethod.html"/>
+        <valueUri value="StructureDefinition-Extension-UKCore-AdmissionMethod.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-AdmissionMethod"/>
       </reference>
+      <name value="Extension UK Core Admission Method"/>
+      <description value="An extension to support the method by which an individual was admitted into hospital."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1059,11 +1391,13 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-EncounterTransport.html"/>
+        <valueUri value="StructureDefinition-Extension-UKCore-EncounterTransport.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-EncounterTransport"/>
       </reference>
+      <name value="Extension UK Core Encounter Transport"/>
+      <description value="An extension to support the transport used by the individual who is the subject of an encounter."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1071,11 +1405,13 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-OutcomeOfAttendance.html"/>
+        <valueUri value="StructureDefinition-Extension-UKCore-OutcomeOfAttendance.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-OutcomeOfAttendance"/>
       </reference>
+      <name value="Extension UK Core Outcome of Attendance"/>
+      <description value="An extension to support the outcome of an Outpatient attendance."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1083,11 +1419,13 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-AnaestheticIssues.html"/>
+        <valueUri value="StructureDefinition-Extension-UKCore-AnaestheticIssues.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-AnaestheticIssues"/>
       </reference>
+      <name value="Extension UK Core Anaesthetic Issues"/>
+      <description value="An extension to support recording of details of any adverse reaction to any anaesthetic agents including local anaesthesia and problematic intubation, transfusion reaction, etc."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1095,11 +1433,13 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-DischargeMethod.html"/>
+        <valueUri value="StructureDefinition-Extension-UKCore-DischargeMethod.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-DischargeMethod"/>
       </reference>
+      <name value="Extension UK Core Discharge Method"/>
+      <description value="An extension to support the method of discharge from a hospital."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1107,11 +1447,13 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-EmergencyCareDischargeStatus.html"/>
+        <valueUri value="StructureDefinition-Extension-UKCore-EmergencyCareDischargeStatus.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-EmergencyCareDischargeStatus"/>
       </reference>
+      <name value="Extension UK Core Emergency Care Discharge Status"/>
+      <description value="An extension to support the status of an individual on discharge from an Emergency Care Department."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1119,11 +1461,13 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-ConditionEpisode.html"/>
+        <valueUri value="StructureDefinition-Extension-UKCore-ConditionEpisode.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-ConditionEpisode"/>
       </reference>
+      <name value="Extension UK Core Condition Episode"/>
+      <description value="An extension to support the episodicity status of a condition."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1131,7 +1475,7 @@
         <valueString value="Patient"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-Patient-Example.html"/>
+        <valueUri value="Patient-UKCore-Patient-Example.html"/>
       </extension>
       <reference>
         <reference value="Patient/UKCore-Patient-Example"/>
@@ -1143,7 +1487,7 @@
         <valueString value="Condition"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-Condition-Example.html"/>
+        <valueUri value="Condition-UKCore-Condition-Example.html"/>
       </extension>
       <reference>
         <reference value="Condition/UKCore-Condition-Example"/>
@@ -1155,7 +1499,7 @@
         <valueString value="AllergyIntolerance"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-AllergyIntolerance-Example.html"/>
+        <valueUri value="AllergyIntolerance-UKCore-AllergyIntolerance-Example.html"/>
       </extension>
       <reference>
         <reference value="AllergyIntolerance/UKCore-AllergyIntolerance-Example"/>
@@ -1167,7 +1511,7 @@
         <valueString value="Organization"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-Organisation-Example.html"/>
+        <valueUri value="Organization-UKCore-Organisation-Example.html"/>
       </extension>
       <reference>
         <reference value="Organization/UKCore-Organisation-Example"/>
@@ -1179,7 +1523,7 @@
         <valueString value="Location"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-Location-Example.html"/>
+        <valueUri value="Location-UKCore-Location-Example.html"/>
       </extension>
       <reference>
         <reference value="Location/UKCore-Location-Example"/>
@@ -1191,7 +1535,7 @@
         <valueString value="RelatedPerson"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-RelatedPerson-Example.html"/>
+        <valueUri value="RelatedPerson-UKCore-RelatedPerson-Example.html"/>
       </extension>
       <reference>
         <reference value="RelatedPerson/UKCore-RelatedPerson-Example"/>
@@ -1203,7 +1547,7 @@
         <valueString value="PractitionerRole"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-PractitionerRole-Example.html"/>
+        <valueUri value="PractitionerRole-UKCore-PractitionerRole-Example.html"/>
       </extension>
       <reference>
         <reference value="PractitionerRole/UKCore-PractitionerRole-Example"/>
@@ -1215,7 +1559,7 @@
         <valueString value="Procedure"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-Procedure-Example.html"/>
+        <valueUri value="Procedure-UKCore-Procedure-Example.html"/>
       </extension>
       <reference>
         <reference value="Procedure/UKCore-Procedure-Example"/>
@@ -1227,7 +1571,7 @@
         <valueString value="Practitioner"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-Practitioner-Example.html"/>
+        <valueUri value="Practitioner-UKCore-Practitioner-Example.html"/>
       </extension>
       <reference>
         <reference value="Practitioner/UKCore-Practitioner-Example"/>
@@ -1239,7 +1583,7 @@
         <valueString value="Observation"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-Observation-Example.html"/>
+        <valueUri value="Observation-UKCore-Observation-Example.html"/>
       </extension>
       <reference>
         <reference value="Observation/UKCore-Observation-Example"/>
@@ -1251,7 +1595,7 @@
         <valueString value="List"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-List-Example.html"/>
+        <valueUri value="List-UKCore-List-Example.html"/>
       </extension>
       <reference>
         <reference value="List/UKCore-List-Example"/>
@@ -1263,7 +1607,7 @@
         <valueString value="List"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-Allergy-List-Example.html"/>
+        <valueUri value="List-UKCore-Allergy-List-Example.html"/>
       </extension>
       <reference>
         <reference value="List/UKCore-Allergy-List-Example"/>
@@ -1275,22 +1619,10 @@
         <valueString value="Encounter"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-Encounter-Example.html"/>
+        <valueUri value="Encounter-UKCore-Encounter-Example.html"/>
       </extension>
       <reference>
         <reference value="Encounter/UKCore-Encounter-Example"/>
-      </reference>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Consent"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="UKCore-Consent-Example.html"/>
-      </extension>
-      <reference>
-        <reference value="Consent/UKCore-Consent-Example"/>
       </reference>
       <exampleBoolean value="true"/>
     </resource>
@@ -1304,6 +1636,8 @@
       <reference>
         <reference value="CodeSystem/UKCore-PreferredWrittenCommunicationFormat"/>
       </reference>
+      <name value="UK Core Preferred Written Communication Format"/>
+      <description value="A CodeSystem to identify the preferred written communication format of a Patient, contact or RelatedPerson."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1316,6 +1650,8 @@
       <reference>
         <reference value="CodeSystem/UKCore-PreferredContactMethod"/>
       </reference>
+      <name value="UK Core Preferred Contact Method"/>
+      <description value="A CodeSystem to identify the preferred Contact Method of a Patient, contact or RelatedPerson."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1328,6 +1664,8 @@
       <reference>
         <reference value="CodeSystem/UKCore-ConsentUpdateMode"/>
       </reference>
+      <name value="UK Core Consent Update Mode"/>
+      <description value="A CodeSystem to identify the whether this is the original or an amended resource."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1340,6 +1678,8 @@
       <reference>
         <reference value="CodeSystem/UKCore-AddressKeyType"/>
       </reference>
+      <name value="UK Core Address Key Type"/>
+      <description value="A CodeSystem to identify the type of Address Key recorded."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1352,6 +1692,8 @@
       <reference>
         <reference value="CodeSystem/UKCore-AdditionalRelatedPersonRole"/>
       </reference>
+      <name value="UK Core Additional RelatedPerson Role"/>
+      <description value="A CodeSystem to identify the additional relationship roles for RelatedPerson resources."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1364,6 +1706,8 @@
       <reference>
         <reference value="ValueSet/UKCore-PreferredWrittenCommunicationFormat"/>
       </reference>
+      <name value="UK Core Preferred Written Communication Format"/>
+      <description value="A ValueSet to identify the preferred written communication format of a Patient, contact or RelatedPerson."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1376,6 +1720,8 @@
       <reference>
         <reference value="ValueSet/UKCore-PreferredContactMethod"/>
       </reference>
+      <name value="UK Core Preferred Contact Method"/>
+      <description value="A ValueSet to identify the preferred Contact Method of a Patient, contact or RelatedPerson."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1388,6 +1734,8 @@
       <reference>
         <reference value="ValueSet/UKCore-AddressKeyType"/>
       </reference>
+      <name value="UK Core Address Key Type"/>
+      <description value="A ValueSet to identify the type of Address Key recorded."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1395,11 +1743,13 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-CopyCorrespondenceIndicator.html"/>
+        <valueUri value="StructureDefinition-Extension-UKCore-CopyCorrespondenceIndicator.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-CopyCorrespondenceIndicator"/>
       </reference>
+      <name value="Extension UK Core CopyCorrespondenceIndicator"/>
+      <description value="To indicate correspondence must be copied to the contact or RelatedPerson"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1407,11 +1757,13 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-ContactRank.html"/>
+        <valueUri value="StructureDefinition-Extension-UKCore-ContactRank.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-ContactRank"/>
       </reference>
+      <name value="Extension UK Core ContactRank"/>
+      <description value="Extension UK Core ContactRank"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1419,11 +1771,13 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-ContactPreference.html"/>
+        <valueUri value="StructureDefinition-Extension-UKCore-ContactPreference.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-ContactPreference"/>
       </reference>
+      <name value="Extension UK Core ContactPreference"/>
+      <description value="UKCore Contact preferences for Patient, Patient.contact or RelatedPerson"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1431,11 +1785,13 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-AddressKey.html"/>
+        <valueUri value="StructureDefinition-Extension-UKCore-AddressKey.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-AddressKey"/>
       </reference>
+      <name value="Extension UK Core AddressKey"/>
+      <description value="To support recording of Address Keys within addresses"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1443,12 +1799,159 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Extension-UKCore-EffectivePeriod.html"/>
+        <valueUri value="StructureDefinition-Extension-UKCore-EffectivePeriod.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/Extension-UKCore-EffectivePeriod"/>
       </reference>
+      <name value="Extension UKCore Effective Period"/>
+      <description value="To record effective start and end dates"/>
       <exampleBoolean value="false"/>
     </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-UKCore-ConditionCategory.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/UKCore-ConditionCategory"/>
+      </reference>
+      <name value="UK Core Condition Category"/>
+      <description value="A ValueSet to identify the category of a condition."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-UKCore-DocumentType.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/UKCore-DocumentType"/>
+      </reference>
+      <name value="UK Core Document Type"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system that describes a clinical document type. Any code from the SNOMED CT UK &#39;Document Type&#39; subset with subset original id 44041000000135; the corresponding SNOMED CT UK Refset fully specified name is &#39;Correspondence document type simple reference set (foundation metadata concept)&#39; with Refset Id 999000391000000109."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-UKCore-MedicationStatement.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/UKCore-MedicationStatement"/>
+      </reference>
+      <name value="UK Core MedicationStatement"/>
+      <description value="Defines the UK Core constraints and extensions on the MedicationStatement resource for the minimal set of data to query and retrieve medication statement information. "/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-UKCore-DocumentReference.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/UKCore-DocumentReference"/>
+      </reference>
+      <name value="UK Core DocumentReference"/>
+      <description value="Defines the UK Core constraints and extensions on the DocumentReference resource. "/>
+    </resource>
+    <page>
+      <nameUrl value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+      <page>
+        <nameUrl value="index.html"/>
+        <title value="UK Core STU3 Implementation Guide"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="profiles.html"/>
+        <title value="Profiles"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="extension_library.html"/>
+        <title value="Extensions"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="codesystems.html"/>
+        <title value="CodeSystems"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="valuesets.html"/>
+        <title value="ValueSets"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="conceptmaps.html"/>
+        <title value="ConceptMaps"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="examples.html"/>
+        <title value="Examples"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="history.html"/>
+        <title value="Change History"/>
+        <generation value="markdown"/>
+      </page>
+    </page>
+    <parameter>
+      <code value="html-template"/>
+      <value value="test-template-master/instance-template-format.html"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/capabilities"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/examples"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/extensions"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/models"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/operations"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/profiles"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/vocabulary"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="template/config"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="input/images"/>
+    </parameter>
+    <parameter>
+      <code value="path-tx-cache"/>
+      <value value="input-cache/txcache"/>
+    </parameter>
   </definition>
 </ImplementationGuide>

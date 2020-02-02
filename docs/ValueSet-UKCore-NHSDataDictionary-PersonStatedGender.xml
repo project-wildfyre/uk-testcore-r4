@@ -16,7 +16,21 @@
   <status value="active"/>
   <date value="2019-10-18T13:00:00+01:00"/>
   <publisher value="NHS Digital"/>
+  <contact>
+    <name value="NHS Digital"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:interoperabilityteam@nhs.net"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
   <description value="The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="GB"/>
+    </coding>
+  </jurisdiction>
   <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
   <compose>
     <include>

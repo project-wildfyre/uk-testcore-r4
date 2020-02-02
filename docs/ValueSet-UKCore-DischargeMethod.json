@@ -20,17 +20,27 @@
   "publisher": "NHS Digital",
   "contact": [
     {
-      "name": "Interoperability Team",
+      "name": "NHS Digital",
       "telecom": [
         {
           "system": "email",
-          "value": "interoperabilityteam@nhs.net",
+          "value": "mailto:interoperabilityteam@nhs.net",
           "use": "work"
         }
       ]
     }
   ],
   "description": "The method of discharge from a Hospital Provider Spell.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "GB"
+        }
+      ]
+    }
+  ],
   "copyright": "Copyright © 2019 NHS Digital",
   "compose": {
     "include": [

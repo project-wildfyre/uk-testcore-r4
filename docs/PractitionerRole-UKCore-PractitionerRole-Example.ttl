@@ -1,0 +1,73 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/PractitionerRole/UKCore-PractitionerRole-Example> a fhir:PractitionerRole;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "UKCore-PractitionerRole-Example"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole";
+       fhir:index 0;
+       fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-PractitionerRole-Example</p><p><b>meta</b>: </p><p><b>identifier</b>: 100334993514</p><p><b>practitioner</b>: <a href=\"{{[type]}}-{{[id]}}.html\">Generated Summary: id: UKCore-Practitioner-Example; G12345678; Paul Rastall ; ph: 0113 6323200(WORK); gender: male</a></p><p><b>organization</b>: <a href=\"{{[type]}}-{{[id]}}.html\">Generated Summary: id: UKCore-Organisation-Example; RR8 (OFFICIAL); name: LEEDS TEACHING HOSPITALS NHS TRUST; ph: 0113 243 3144</a></p><p><b>code</b>: General Medical Practitioner <span style=\"background: LightGoldenRodYellow\">(Details : {https://fhir.nhs.uk/R4/CodeSystem/UKCore-SDSJobRoleName code 'R0260' = 'General Medical Practitioner', given as 'General Medical Practitioner'})</span></p><p><b>specialty</b>: General medical practice <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '408443003' = 'General medical practice (qualifier value)', given as 'General medical practice'})</span></p><p><b>location</b>: <a href=\"{{[type]}}-{{[id]}}.html\">Generated Summary: id: UKCore-Location-Example; RR8D7; name: CARDIOLOGY SJUH; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-RoleCode CARD}\">Ambulatory Health Care Facilities; Clinic/Center; Rehabilitation: Cardiac Facilities</span>; ph: 0113 243 3149</a></p><p><b>telecom</b>: ph: 0113 6323200(WORK)</p></div>"
+  ];
+  fhir:PractitionerRole.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "https://fhir.nhs.uk/Id/sds-role-profile-id" ];
+     fhir:Identifier.value [ fhir:value "100334993514" ]
+  ];
+  fhir:PractitionerRole.practitioner [
+     fhir:link <https://fhir.nhs.uk/R4/Practitioner/UKCore-Practitioner-Example>;
+     fhir:Reference.reference [ fhir:value "Practitioner/UKCore-Practitioner-Example" ]
+  ];
+  fhir:PractitionerRole.organization [
+     fhir:link <https://fhir.nhs.uk/R4/Organization/UKCore-Organisation-Example>;
+     fhir:Reference.reference [ fhir:value "Organization/UKCore-Organisation-Example" ]
+  ];
+  fhir:PractitionerRole.code [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://fhir.nhs.uk/R4/CodeSystem/UKCore-SDSJobRoleName" ];
+       fhir:Coding.code [ fhir:value "R0260" ];
+       fhir:Coding.display [ fhir:value "General Medical Practitioner" ]
+     ]
+  ];
+  fhir:PractitionerRole.specialty [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a sct:408443003;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "408443003" ];
+       fhir:Coding.display [ fhir:value "General medical practice" ]
+     ]
+  ];
+  fhir:PractitionerRole.location [
+     fhir:index 0;
+     fhir:link <https://fhir.nhs.uk/R4/Location/UKCore-Location-Example>;
+     fhir:Reference.reference [ fhir:value "Location/UKCore-Location-Example" ]
+  ];
+  fhir:PractitionerRole.telecom [
+     fhir:index 0;
+     fhir:ContactPoint.system [ fhir:value "phone" ];
+     fhir:ContactPoint.value [ fhir:value "0113 6323200" ];
+     fhir:ContactPoint.use [ fhir:value "work" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/PractitionerRole/UKCore-PractitionerRole-Example.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

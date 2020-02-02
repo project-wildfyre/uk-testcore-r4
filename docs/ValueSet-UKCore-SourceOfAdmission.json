@@ -20,17 +20,27 @@
   "publisher": "NHS Digital",
   "contact": [
     {
-      "name": "Interoperability Team",
+      "name": "NHS Digital",
       "telecom": [
         {
           "system": "email",
-          "value": "interoperabilityteam@nhs.net",
+          "value": "mailto:interoperabilityteam@nhs.net",
           "use": "work"
         }
       ]
     }
   ],
   "description": "The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "GB"
+        }
+      ]
+    }
+  ],
   "copyright": "Copyright © 2019 NHS Digital",
   "compose": {
     "include": [

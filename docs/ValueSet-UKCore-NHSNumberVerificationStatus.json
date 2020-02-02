@@ -20,17 +20,27 @@
   "publisher": "NHS Digital",
   "contact": [
     {
-      "name": "Interoperability Team",
+      "name": "NHS Digital",
       "telecom": [
         {
           "system": "email",
-          "value": "interoperabilityteam@nhs.net",
+          "value": "mailto:interoperabilityteam@nhs.net",
           "use": "work"
         }
       ]
     }
   ],
   "description": "A ValueSet that identifies the trace status of the NHS number. The CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "GB"
+        }
+      ]
+    }
+  ],
   "copyright": "Copyright © 2019 NHS Digital",
   "compose": {
     "include": [

@@ -3,7 +3,7 @@
 <ConceptMap xmlns="http://hl7.org/fhir">
   <id value="UKCore-AdministrativeGender"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ConceptMapUKCoreAdministrativeGender (https://fhir.nhs.uk/R4/ConceptMap/UKCore-AdministrativeGender)</h2><p>Mapping from <a href="http://build.fhir.org/valueset-administrative-gender.html">http://hl7.org/fhir/ValueSet/administrative-gender</a> to <a href="ValueSet-UKCore-NHSDataDictionary-PersonStatedGender.html">https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonStatedGender</a></p><p>DRAFT. Published on 18-Oct-2019 13:00:00 by NHS Digital (Interoperability Team: <a href="mailto:interoperabilityteam@nhs.net">interoperabilityteam@nhs.net</a>). Copyright © 2019 NHS Digital</p><div><p>A Concept Map from ValueSet Administrative Gender to NHS Data Dictionary Person Stated Gender to aid interpretation.</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ConceptMapUKCoreAdministrativeGender (https://fhir.nhs.uk/R4/ConceptMap/UKCore-AdministrativeGender)</h2><p>Mapping from <a href="http://hl7.org/fhir/R4/valueset-administrative-gender.html">http://hl7.org/fhir/ValueSet/administrative-gender</a> to <a href="ValueSet-UKCore-NHSDataDictionary-PersonStatedGender.html">https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonStatedGender</a></p><p>DRAFT. Published on 18 Oct 2019, 13:00:00 by NHS Digital (NHS Digital: <a href="mailto:mailto:interoperabilityteam@nhs.net">mailto:interoperabilityteam@nhs.net</a>). Copyright © 2019 NHS Digital</p><div><p>A Concept Map from ValueSet Administrative Gender to NHS Data Dictionary Person Stated Gender to aid interpretation.</p>
 </div><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>male</td><td>equivalent</td><td>1 (Male)</td></tr><tr><td>female</td><td>equivalent</td><td>2 (Female)</td></tr><tr><td>other</td><td>equivalent</td><td>9 (Indeterminate (unable to be classified as either male or female))</td></tr><tr><td>unknown</td><td>equivalent</td><td>X (Not Known (not recorded))</td></tr></table></div>
   </text>
   <url value="https://fhir.nhs.uk/R4/ConceptMap/UKCore-AdministrativeGender"/>
@@ -14,14 +14,20 @@
   <date value="2019-10-18T13:00:00+01:00"/>
   <publisher value="NHS Digital"/>
   <contact>
-    <name value="Interoperability Team"/>
+    <name value="NHS Digital"/>
     <telecom>
       <system value="email"/>
-      <value value="interoperabilityteam@nhs.net"/>
+      <value value="mailto:interoperabilityteam@nhs.net"/>
       <use value="work"/>
     </telecom>
   </contact>
   <description value="A Concept Map from ValueSet Administrative Gender to NHS Data Dictionary Person Stated Gender to aid interpretation."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="GB"/>
+    </coding>
+  </jurisdiction>
   <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
   <sourceUri value="http://hl7.org/fhir/ValueSet/administrative-gender"/>
   <targetUri value="https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonStatedGender"/>

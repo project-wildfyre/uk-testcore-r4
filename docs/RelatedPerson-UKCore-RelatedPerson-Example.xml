@@ -6,7 +6,7 @@
     <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-RelatedPerson-Example</p><p><b>meta</b>: </p><p><b>patient</b>: <a href="UKCore-Patient-Example.html">Generated Summary: id: UKCore-Patient-Example; 9912003888; Richard SMITH (OFFICIAL); ph: 01131231234; gender: male; birthDate: 1970-09-11</a></p><p><b>relationship</b>: wife <span style="background: LightGoldenRodYellow">(Details : {http://terminology.hl7.org/CodeSystem/v3-RoleCode code 'WIFE' = 'wife', given as 'wife'})</span></p><p><b>name</b>: Joy SMITH (OFFICIAL)</p><p><b>telecom</b>: ph: 01131231234</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-RelatedPerson-Example</p><p><b>meta</b>: </p><p><b>patient</b>: <a href="{{[type]}}-{{[id]}}.html">Generated Summary: id: UKCore-Patient-Example; 9912003888; Richard SMITH (OFFICIAL); ph: 01131231234; gender: male; birthDate: 1970-09-11</a></p><p><b>relationship</b>: wife <span style="background: LightGoldenRodYellow">(Details : {http://terminology.hl7.org/CodeSystem/v3-RoleCode code 'WIFE' = 'wife', given as 'wife'})</span></p><p><b>name</b>: Joy SMITH (OFFICIAL)</p><p><b>telecom</b>: ph: 01131231234</p></div>
   </text>
   <patient>
     <reference value="Patient/UKCore-Patient-Example"/>

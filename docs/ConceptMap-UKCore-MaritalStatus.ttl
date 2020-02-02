@@ -1,0 +1,132 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/ConceptMap/UKCore-MaritalStatus> a fhir:ConceptMap;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "UKCore-MaritalStatus"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ConceptMapUKCoreMaritalStatus (https://fhir.nhs.uk/R4/ConceptMap/UKCore-MaritalStatus)</h2><p>Mapping from <a href=\"http://hl7.org/fhir/R4/valueset-marital-status.html\">http://hl7.org/fhir/ValueSet/marital-status</a> to <a href=\"ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus.html\">https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus</a></p><p>DRAFT. Published on 18 Oct 2019, 13:00:00 by NHS Digital (NHS Digital: <a href=\"mailto:mailto:interoperabilityteam@nhs.net\">mailto:interoperabilityteam@nhs.net</a>). Copyright © 2019 NHS Digital</p><div><p>A Concept Map from ValueSet Marital Status to NHS Data Dictionary Person Marital Status to aid interpretation.</p>\n</div><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>U (unmarried)</td><td>equivalent</td><td>S (Single)</td></tr><tr><td>D (Divorced)</td><td>equivalent</td><td>D (Divorced/Person whose Civil Partnership has been dissolved)</td></tr><tr><td>L (Legally Separated)</td><td>equivalent</td><td>P (Separated)</td></tr><tr><td>M (Married)</td><td>equivalent</td><td>M (Married/Civil Partner)</td></tr><tr><td>S (Never Married)</td><td>equivalent</td><td>S (Single)</td></tr><tr><td>W (Widowed)</td><td>equivalent</td><td>W (Widowed/Surviving Civil Partner)</td></tr></table><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>UNK (unknown)</td><td>equivalent</td><td>N (Not disclosed)</td></tr></table></div>"
+  ];
+  fhir:ConceptMap.url [ fhir:value "https://fhir.nhs.uk/R4/ConceptMap/UKCore-MaritalStatus"];
+  fhir:ConceptMap.version [ fhir:value "1.0.0"];
+  fhir:ConceptMap.name [ fhir:value "ConceptMapUKCoreMaritalStatus"];
+  fhir:ConceptMap.title [ fhir:value "Concept Map - UK Core Marital Status"];
+  fhir:ConceptMap.status [ fhir:value "draft"];
+  fhir:ConceptMap.date [ fhir:value "2019-10-18T13:00:00+01:00"^^xsd:dateTime];
+  fhir:ConceptMap.publisher [ fhir:value "NHS Digital"];
+  fhir:ConceptMap.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "NHS Digital" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "mailto:interoperabilityteam@nhs.net" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ];
+  fhir:ConceptMap.description [ fhir:value "A Concept Map from ValueSet Marital Status to NHS Data Dictionary Person Marital Status to aid interpretation."];
+  fhir:ConceptMap.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "GB" ]
+     ]
+  ];
+  fhir:ConceptMap.copyright [ fhir:value "Copyright © 2019 NHS Digital"];
+  fhir:ConceptMap.sourceUri [ fhir:value "http://hl7.org/fhir/ValueSet/marital-status"];
+  fhir:ConceptMap.targetUri [ fhir:value "https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus"];
+  fhir:ConceptMap.group [
+     fhir:index 0;
+     fhir:ConceptMap.group.source [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus" ];
+     fhir:ConceptMap.group.target [ fhir:value "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus" ];
+     fhir:ConceptMap.group.element [
+       fhir:index 0;
+       fhir:ConceptMap.group.element.code [ fhir:value "U" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "unmarried" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "S" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Single" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:ConceptMap.group.element.code [ fhir:value "D" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Divorced" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "D" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Divorced/Person whose Civil Partnership has been dissolved" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:ConceptMap.group.element.code [ fhir:value "L" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Legally Separated" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "P" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Separated" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:ConceptMap.group.element.code [ fhir:value "M" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Married" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "M" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Married/Civil Partner" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ]
+       ]
+     ], [
+       fhir:index 4;
+       fhir:ConceptMap.group.element.code [ fhir:value "S" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Never Married" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "S" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Single" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ]
+       ]
+     ], [
+       fhir:index 5;
+       fhir:ConceptMap.group.element.code [ fhir:value "W" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Widowed" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "W" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Widowed/Surviving Civil Partner" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ]
+       ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ConceptMap.group.source [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-NullFlavor" ];
+     fhir:ConceptMap.group.target [ fhir:value "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus" ];
+     fhir:ConceptMap.group.element [
+       fhir:index 0;
+       fhir:ConceptMap.group.element.code [ fhir:value "UNK" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "unknown" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "N" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Not disclosed" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/ConceptMap/UKCore-MaritalStatus.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -11,17 +11,23 @@
   <name value="UKCoreAllergyCertainty"/>
   <title value="UK Core Allergy Certainty"/>
   <status value="draft"/>
-  <date value="2019-12-19T13:56:30+00:00"/>
+  <date value="2020-02-02T10:42:14+00:00"/>
   <publisher value="NHS Digital"/>
   <contact>
-    <name value="Interoperability Team"/>
+    <name value="NHS Digital"/>
     <telecom>
       <system value="email"/>
-      <value value="interoperabilityteam@nhs.net"/>
+      <value value="mailto:interoperabilityteam@nhs.net"/>
       <use value="work"/>
     </telecom>
   </contact>
   <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the certainty of an allergy."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="GB"/>
+    </coding>
+  </jurisdiction>
   <copyright value="This value set includes content from SNOMED CT, which is copyright &#xA9; 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."/>
   <compose>
     <include>

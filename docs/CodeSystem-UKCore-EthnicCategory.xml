@@ -17,14 +17,20 @@
   <date value="2019-10-17T01:00:00+01:00"/>
   <publisher value="NHS Digital"/>
   <contact>
-    <name value="Interoperability Team"/>
+    <name value="NHS Digital"/>
     <telecom>
       <system value="email"/>
-      <value value="interoperabilityteam@nhs.net"/>
+      <value value="mailto:interoperabilityteam@nhs.net"/>
       <use value="work"/>
     </telecom>
   </contact>
   <description value="A CodeSystem to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a persons ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="GB"/>
+    </coding>
+  </jurisdiction>
   <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
   <caseSensitive value="true"/>
   <content value="complete"/>

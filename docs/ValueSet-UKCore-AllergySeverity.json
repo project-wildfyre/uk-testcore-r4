@@ -10,20 +10,31 @@
   "name": "UKCoreAllergySeverity",
   "title": "UK Core Allergy Severity",
   "status": "draft",
-  "date": "2019-12-19T13:56:30+00:00",
+  "date": "2020-02-02T10:42:14+00:00",
+  "publisher": "NHS Digital",
   "contact": [
     {
-      "name": "Interoperability Team",
+      "name": "NHS Digital",
       "telecom": [
         {
           "system": "email",
-          "value": "interoperabilityteam@nhs.net",
+          "value": "mailto:interoperabilityteam@nhs.net",
           "use": "work"
         }
       ]
     }
   ],
   "description": "A code from the SNOMED Clinical Terminology UK coding system that describes the severity of an allergy.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "GB"
+        }
+      ]
+    }
+  ],
   "copyright": "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.",
   "compose": {
     "include": [

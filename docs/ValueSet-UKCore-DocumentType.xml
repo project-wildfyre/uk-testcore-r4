@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="UKCore-DocumentType"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>UK Core Document Type</h2><div><p>A code from the SNOMED Clinical Terminology UK coding system that describes a clinical document type. Any code from the SNOMED CT UK 'Document Type' subset with subset original id 44041000000135; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence document type simple reference set (foundation metadata concept)' with Refset Id 999000391000000109.</p>
+</div><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  in  999000391000000109</li></ul></div>
+  </text>
+  <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-DocumentType"/>
+  <version value="1.0.0"/>
+  <name value="UKCoreDocumentType"/>
+  <title value="UK Core Document Type"/>
+  <status value="draft"/>
+  <date value="2020-01-16T00:00:00+00:00"/>
+  <publisher value="NHS Digital"/>
+  <contact>
+    <name value="NHS Digital"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:interoperabilityteam@nhs.net"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="A code from the SNOMED Clinical Terminology UK coding system that describes a clinical document type. Any code from the SNOMED CT UK &#39;Document Type&#39; subset with subset original id 44041000000135; the corresponding SNOMED CT UK Refset fully specified name is &#39;Correspondence document type simple reference set (foundation metadata concept)&#39; with Refset Id 999000391000000109."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="GB"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <filter>
+        <property value="concept"/>
+        <op value="in"/>
+        <value value="999000391000000109"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

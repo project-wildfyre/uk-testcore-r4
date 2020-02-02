@@ -1,0 +1,60 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/ValueSet/UKCore-LanguageAbilityMode> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "UKCore-LanguageAbilityMode"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UK Core Language Ability Mode</h2><div><p>A ValueSet that identifies the mode the patient can communicate in, representing the method of expression of the language.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-UKCore-LanguageAbilityMode.html\"><code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode</code></a></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "https://fhir.nhs.uk/R4/ValueSet/UKCore-LanguageAbilityMode"];
+  fhir:ValueSet.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
+     fhir:Identifier.value [ fhir:value "urn:oid:2.16.840.1.113883.5.60" ]
+  ];
+  fhir:ValueSet.version [ fhir:value "1.0.0"];
+  fhir:ValueSet.name [ fhir:value "UKCoreLanguageAbilityMode"];
+  fhir:ValueSet.title [ fhir:value "UK Core Language Ability Mode"];
+  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.date [ fhir:value "2019-10-25T01:00:00+01:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "NHS Digital"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "NHS Digital" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "mailto:interoperabilityteam@nhs.net" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "A ValueSet that identifies the mode the patient can communicate in, representing the method of expression of the language."];
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "GB" ]
+     ]
+  ];
+  fhir:ValueSet.copyright [ fhir:value "Copyright © 2019 NHS Digital"];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/ValueSet/UKCore-LanguageAbilityMode.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

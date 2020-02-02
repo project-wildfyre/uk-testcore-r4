@@ -1,0 +1,106 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/Encounter/UKCore-Encounter-Example> a fhir:Encounter;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "UKCore-Encounter-Example"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Encounter";
+       fhir:index 0;
+       fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Encounter>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Encounter-Example</p><p><b>meta</b>: </p><p><b>identifier</b>: 6f40cebe-7b55-461d-9d7f-eadb4c065762</p><p><b>status</b>: finished</p><p><b>class</b>: inpatient encounter (Details: http://terminology.hl7.org/CodeSystem/v3-ActCode code IMP = 'inpatient encounter', stated as 'inpatient encounter')</p><p><b>type</b>: Seen in hospital ward (finding) <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '185212007' = 'Seen in hospital ward', given as 'Seen in hospital ward (finding)'})</span></p><p><b>subject</b>: <a href=\"{{[type]}}-{{[id]}}.html\">Generated Summary: id: UKCore-Patient-Example; 9912003888; Richard SMITH (OFFICIAL); ph: 01131231234; gender: male; birthDate: 1970-09-11</a></p><h3>Participants</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Individual</b></td></tr><tr><td>*</td><td>attender <span style=\"background: LightGoldenRodYellow\">(Details : {http://terminology.hl7.org/CodeSystem/v3-ParticipationType code 'ATND' = 'attender', given as 'attender'})</span></td><td><a href=\"{{[type]}}-{{[id]}}.html\">Generated Summary: id: UKCore-Practitioner-Example; G12345678; Paul Rastall ; ph: 0113 6323200(WORK); gender: male</a></td></tr></table><p><b>period</b>: 10 Dec 2019, 13:00:00 --&gt; 11 Dec 2019, 13:00:00</p><p><b>reasonCode</b>: General treatment (procedure) <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '7922000' = 'General treatment', given as 'General treatment (procedure)'})</span></p><h3>Hospitalizations</h3><table class=\"grid\"><tr><td>-</td><td><b>DischargeDisposition</b></td></tr><tr><td>*</td><td>Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode. <span style=\"background: LightGoldenRodYellow\">(Details : {https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination code '19' = 'Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode.', given as 'Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode.'})</span></td></tr></table><h3>Locations</h3><table class=\"grid\"><tr><td>-</td><td><b>Location</b></td></tr><tr><td>*</td><td><a href=\"{{[type]}}-{{[id]}}.html\">Generated Summary: id: UKCore-Location-Example; RR8D7; name: CARDIOLOGY SJUH; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-RoleCode CARD}\">Ambulatory Health Care Facilities; Clinic/Center; Rehabilitation: Cardiac Facilities</span>; ph: 0113 243 3149</a></td></tr></table><p><b>serviceProvider</b>: <a href=\"{{[type]}}-{{[id]}}.html\">Generated Summary: id: UKCore-Organisation-Example; RR8 (OFFICIAL); name: LEEDS TEACHING HOSPITALS NHS TRUST; ph: 0113 243 3144</a></p></div>"
+  ];
+  fhir:Encounter.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "https://tools.ietf.org/html/rfc4122" ];
+     fhir:Identifier.value [ fhir:value "6f40cebe-7b55-461d-9d7f-eadb4c065762" ]
+  ];
+  fhir:Encounter.status [ fhir:value "finished"];
+  fhir:Encounter.class [
+     fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ActCode" ];
+     fhir:Coding.code [ fhir:value "IMP" ];
+     fhir:Coding.display [ fhir:value "inpatient encounter" ]
+  ];
+  fhir:Encounter.type [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a sct:185212007;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "185212007" ];
+       fhir:Coding.display [ fhir:value "Seen in hospital ward (finding)" ]
+     ]
+  ];
+  fhir:Encounter.subject [
+     fhir:link <https://fhir.nhs.uk/R4/Patient/UKCore-Patient-Example>;
+     fhir:Reference.reference [ fhir:value "Patient/UKCore-Patient-Example" ]
+  ];
+  fhir:Encounter.participant [
+     fhir:index 0;
+     fhir:Encounter.participant.type [
+       fhir:index 0;
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ParticipationType" ];
+         fhir:Coding.code [ fhir:value "ATND" ];
+         fhir:Coding.display [ fhir:value "attender" ]
+       ]
+     ];
+     fhir:Encounter.participant.individual [
+       fhir:link <https://fhir.nhs.uk/R4/Practitioner/UKCore-Practitioner-Example>;
+       fhir:Reference.reference [ fhir:value "Practitioner/UKCore-Practitioner-Example" ]
+     ]
+  ];
+  fhir:Encounter.period [
+     fhir:Period.start [ fhir:value "2019-12-10T13:00:00+00:00"^^xsd:dateTime ];
+     fhir:Period.end [ fhir:value "2019-12-11T13:00:00+00:00"^^xsd:dateTime ]
+  ];
+  fhir:Encounter.reasonCode [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a sct:7922000;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "7922000" ];
+       fhir:Coding.display [ fhir:value "General treatment (procedure)" ]
+     ]
+  ];
+  fhir:Encounter.hospitalization [
+     fhir:Encounter.hospitalization.dischargeDisposition [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination" ];
+         fhir:Coding.code [ fhir:value "19" ];
+         fhir:Coding.display [ fhir:value "Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode." ]
+       ]
+     ]
+  ];
+  fhir:Encounter.location [
+     fhir:index 0;
+     fhir:Encounter.location.location [
+       fhir:link <https://fhir.nhs.uk/R4/Location/UKCore-Location-Example>;
+       fhir:Reference.reference [ fhir:value "Location/UKCore-Location-Example" ]
+     ]
+  ];
+  fhir:Encounter.serviceProvider [
+     fhir:link <https://fhir.nhs.uk/R4/Organization/UKCore-Organisation-Example>;
+     fhir:Reference.reference [ fhir:value "Organization/UKCore-Organisation-Example" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/Encounter/UKCore-Encounter-Example.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

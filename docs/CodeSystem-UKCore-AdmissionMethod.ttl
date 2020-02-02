@@ -1,0 +1,147 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "UKCore-AdmissionMethod"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NHS Data Model and Dictionary Admission Method</h2><div><p>The method of admission to a Hospital Provider Spell.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"UKCore-AdmissionMethod-11\"> </a></td><td>Waiting list</td><td>Elective Admission, when the Decision To Admit could be separated in time from the actual admission. Note that this does not include a transfer from another Hospital Provider (see 81).</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"UKCore-AdmissionMethod-12\"> </a></td><td>Booked</td><td>Elective Admission, when the Decision To Admit could be separated in time from the actual admission. Note that this does not include a transfer from another Hospital Provider (see 81).</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"UKCore-AdmissionMethod-13\"> </a></td><td>Planned</td><td>Elective Admission, when the Decision To Admit could be separated in time from the actual admission. Note that this does not include a transfer from another Hospital Provider (see 81).</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"UKCore-AdmissionMethod-21\"> </a></td><td>Accident and emergency or dental casualty department of the Health Care Provider</td><td>Emergency Admission, when admission is unpredictable and at short notice because of clinical need.</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"UKCore-AdmissionMethod-22\"> </a></td><td>General Practitioner: after a request for immediate admission has been made direct to a Hospital Provider, i.e. not through a Bed bureau, by a General Practitioner or deputy</td><td>Emergency Admission, when admission is unpredictable and at short notice because of clinical need.</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"UKCore-AdmissionMethod-23\"> </a></td><td>Bed bureau</td><td>Emergency Admission, when admission is unpredictable and at short notice because of clinical need.</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"UKCore-AdmissionMethod-24\"> </a></td><td>Consultant Clinic, of this or another Health Care Provider</td><td>Emergency Admission, when admission is unpredictable and at short notice because of clinical need.</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"UKCore-AdmissionMethod-25\"> </a></td><td>Admission via Mental Health Crisis Resolution Team</td><td>Emergency Admission, when admission is unpredictable and at short notice because of clinical need.</td></tr><tr><td style=\"white-space:nowrap\">2A<a name=\"UKCore-AdmissionMethod-2A\"> </a></td><td>Accident and Emergency Department of another provider where the Patient had not been admitted</td><td>Emergency Admission, when admission is unpredictable and at short notice because of clinical need. Note - National Codes 2A, 2B, 2C and 2D have been introduced to replace National Code 28 'Other means'.  National Code 28 will be retired in the next version of the Commissioning Data Set.</td></tr><tr><td style=\"white-space:nowrap\">2B<a name=\"UKCore-AdmissionMethod-2B\"> </a></td><td>Transfer of an admitted Patient from another Hospital Provider in an emergency</td><td>Emergency Admission, when admission is unpredictable and at short notice because of clinical need. Note - National Codes 2A, 2B, 2C and 2D have been introduced to replace National Code 28 'Other means'.  National Code 28 will be retired in the next version of the Commissioning Data Set.</td></tr><tr><td style=\"white-space:nowrap\">2C<a name=\"UKCore-AdmissionMethod-2C\"> </a></td><td>Baby born at home as intended</td><td>Emergency Admission, when admission is unpredictable and at short notice because of clinical need. Note - National Codes 2A, 2B, 2C and 2D have been introduced to replace National Code 28 'Other means'.  National Code 28 will be retired in the next version of the Commissioning Data Set.</td></tr><tr><td style=\"white-space:nowrap\">2D<a name=\"UKCore-AdmissionMethod-2D\"> </a></td><td>Other emergency admission</td><td>Emergency Admission, when admission is unpredictable and at short notice because of clinical need. Note - National Codes 2A, 2B, 2C and 2D have been introduced to replace National Code 28 'Other means'.  National Code 28 will be retired in the next version of the Commissioning Data Set.</td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"UKCore-AdmissionMethod-28\"> </a></td><td>Other means</td><td>Emergency Admission, when admission is unpredictable and at short notice because of clinical need. Note - National Code 28 is NOT valid for use in the Mental Health Services Data Set</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"UKCore-AdmissionMethod-31\"> </a></td><td>Admitted ante-partum</td><td>Maternity Admission, of a pregnant or recently pregnant woman to a maternity ward (including delivery facilities) except when the intention is to terminate the pregnancy.</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"UKCore-AdmissionMethod-32\"> </a></td><td>Admitted post-partum</td><td>Maternity Admission, of a pregnant or recently pregnant woman to a maternity ward (including delivery facilities) except when the intention is to terminate the pregnancy.</td></tr><tr><td style=\"white-space:nowrap\">82<a name=\"UKCore-AdmissionMethod-82\"> </a></td><td>The birth of a baby in this Health Care Provider</td><td>Other Admission not specified above</td></tr><tr><td style=\"white-space:nowrap\">83<a name=\"UKCore-AdmissionMethod-83\"> </a></td><td>Baby born outside the Health Care Provider except when born at home as intended.</td><td>Other Admission not specified above</td></tr><tr><td style=\"white-space:nowrap\">81<a name=\"UKCore-AdmissionMethod-81\"> </a></td><td>Transfer of any admitted Patient from other Hospital Provider other than in an emergency</td><td>Other Admission not specified above</td></tr></table></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference" ];
+     fhir:Extension.valueUri [ fhir:value "http://www.datadictionary.nhs.uk/data_dictionary/attributes/a/add/admission_method_de.asp?shownav=1" ]
+  ];
+  fhir:CodeSystem.url [ fhir:value "https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod"];
+  fhir:CodeSystem.version [ fhir:value "1.0.0"];
+  fhir:CodeSystem.name [ fhir:value "NHSDataModelandDictionaryAdmissionMethod"];
+  fhir:CodeSystem.title [ fhir:value "NHS Data Model and Dictionary Admission Method"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.date [ fhir:value "2019-11-05T00:00:00+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "NHS Digital"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "NHS Digital" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "mailto:interoperabilityteam@nhs.net" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "The method of admission to a Hospital Provider Spell."];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "GB" ]
+     ]
+  ];
+  fhir:CodeSystem.copyright [ fhir:value "Copyright © 2019 NHS Digital"];
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "11" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Waiting list" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Elective Admission, when the Decision To Admit could be separated in time from the actual admission. Note that this does not include a transfer from another Hospital Provider (see 81)." ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "12" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Booked" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Elective Admission, when the Decision To Admit could be separated in time from the actual admission. Note that this does not include a transfer from another Hospital Provider (see 81)." ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "13" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Planned" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Elective Admission, when the Decision To Admit could be separated in time from the actual admission. Note that this does not include a transfer from another Hospital Provider (see 81)." ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "21" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Accident and emergency or dental casualty department of the Health Care Provider" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Emergency Admission, when admission is unpredictable and at short notice because of clinical need." ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "22" ];
+     fhir:CodeSystem.concept.display [ fhir:value "General Practitioner: after a request for immediate admission has been made direct to a Hospital Provider, i.e. not through a Bed bureau, by a General Practitioner or deputy" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Emergency Admission, when admission is unpredictable and at short notice because of clinical need." ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "23" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Bed bureau" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Emergency Admission, when admission is unpredictable and at short notice because of clinical need." ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "24" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Consultant Clinic, of this or another Health Care Provider" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Emergency Admission, when admission is unpredictable and at short notice because of clinical need." ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "25" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Admission via Mental Health Crisis Resolution Team" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Emergency Admission, when admission is unpredictable and at short notice because of clinical need." ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "2A" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Accident and Emergency Department of another provider where the Patient had not been admitted" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Emergency Admission, when admission is unpredictable and at short notice because of clinical need. Note - National Codes 2A, 2B, 2C and 2D have been introduced to replace National Code 28 'Other means'.  National Code 28 will be retired in the next version of the Commissioning Data Set." ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "2B" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Transfer of an admitted Patient from another Hospital Provider in an emergency" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Emergency Admission, when admission is unpredictable and at short notice because of clinical need. Note - National Codes 2A, 2B, 2C and 2D have been introduced to replace National Code 28 'Other means'.  National Code 28 will be retired in the next version of the Commissioning Data Set." ]
+  ], [
+     fhir:index 10;
+     fhir:CodeSystem.concept.code [ fhir:value "2C" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Baby born at home as intended" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Emergency Admission, when admission is unpredictable and at short notice because of clinical need. Note - National Codes 2A, 2B, 2C and 2D have been introduced to replace National Code 28 'Other means'.  National Code 28 will be retired in the next version of the Commissioning Data Set." ]
+  ], [
+     fhir:index 11;
+     fhir:CodeSystem.concept.code [ fhir:value "2D" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Other emergency admission" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Emergency Admission, when admission is unpredictable and at short notice because of clinical need. Note - National Codes 2A, 2B, 2C and 2D have been introduced to replace National Code 28 'Other means'.  National Code 28 will be retired in the next version of the Commissioning Data Set." ]
+  ], [
+     fhir:index 12;
+     fhir:CodeSystem.concept.code [ fhir:value "28" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Other means" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Emergency Admission, when admission is unpredictable and at short notice because of clinical need. Note - National Code 28 is NOT valid for use in the Mental Health Services Data Set" ]
+  ], [
+     fhir:index 13;
+     fhir:CodeSystem.concept.code [ fhir:value "31" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Admitted ante-partum" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Maternity Admission, of a pregnant or recently pregnant woman to a maternity ward (including delivery facilities) except when the intention is to terminate the pregnancy." ]
+  ], [
+     fhir:index 14;
+     fhir:CodeSystem.concept.code [ fhir:value "32" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Admitted post-partum" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Maternity Admission, of a pregnant or recently pregnant woman to a maternity ward (including delivery facilities) except when the intention is to terminate the pregnancy." ]
+  ], [
+     fhir:index 15;
+     fhir:CodeSystem.concept.code [ fhir:value "82" ];
+     fhir:CodeSystem.concept.display [ fhir:value "The birth of a baby in this Health Care Provider" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Other Admission not specified above" ]
+  ], [
+     fhir:index 16;
+     fhir:CodeSystem.concept.code [ fhir:value "83" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Baby born outside the Health Care Provider except when born at home as intended." ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Other Admission not specified above" ]
+  ], [
+     fhir:index 17;
+     fhir:CodeSystem.concept.code [ fhir:value "81" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Transfer of any admitted Patient from other Hospital Provider other than in an emergency" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Other Admission not specified above" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

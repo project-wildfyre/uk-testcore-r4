@@ -1,0 +1,68 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/Practitioner/UKCore-Practitioner-Example> a fhir:Practitioner;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "UKCore-Practitioner-Example"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner";
+       fhir:index 0;
+       fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Practitioner-Example</p><p><b>meta</b>: </p><p><b>identifier</b>: G12345678</p><p><b>name</b>: Paul Rastall </p><p><b>telecom</b>: ph: 0113 6323200(WORK)</p><p><b>address</b>: Chapel Main Practice 22 Brightside Crescent Overtown LS10 4YU (WORK)</p><p><b>gender</b>: male</p></div>"
+  ];
+  fhir:Practitioner.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "https://fhir.nhs.uk/Id/sds-user-id" ];
+     fhir:Identifier.value [ fhir:value "G12345678" ]
+  ];
+  fhir:Practitioner.name [
+     fhir:index 0;
+     fhir:HumanName.family [ fhir:value "Rastall" ];
+     fhir:HumanName.given [
+       fhir:value "Paul";
+       fhir:index 0
+     ];
+     fhir:HumanName.prefix [
+       fhir:value "Dr";
+       fhir:index 0
+     ]
+  ];
+  fhir:Practitioner.telecom [
+     fhir:index 0;
+     fhir:ContactPoint.system [ fhir:value "phone" ];
+     fhir:ContactPoint.value [ fhir:value "0113 6323200" ];
+     fhir:ContactPoint.use [ fhir:value "work" ]
+  ];
+  fhir:Practitioner.address [
+     fhir:index 0;
+     fhir:Address.use [ fhir:value "work" ];
+     fhir:Address.type [ fhir:value "both" ];
+     fhir:Address.line [
+       fhir:value "Chapel Main Practice";
+       fhir:index 0
+     ], [
+       fhir:value "22 Brightside Crescent";
+       fhir:index 1
+     ];
+     fhir:Address.city [ fhir:value "Overtown" ];
+     fhir:Address.district [ fhir:value "West Yorkshire" ];
+     fhir:Address.postalCode [ fhir:value "LS10 4YU" ]
+  ];
+  fhir:Practitioner.gender [ fhir:value "male"] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/Practitioner/UKCore-Practitioner-Example.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

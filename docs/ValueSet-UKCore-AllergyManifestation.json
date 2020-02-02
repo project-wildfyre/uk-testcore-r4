@@ -3,7 +3,7 @@
   "id": "UKCore-AllergyManifestation",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UK Core Allergy Manifestation</h2><div><p>A code from the SNOMED Clinical Terminology UK hierarchy with concept id '404684003' to record an allergy manifestation or a value from the HL7 FHIR nullFlavors code system.</p>\n</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  in  &lt;&lt;404684003</li><li>Include codes from <a href=\"http://build.fhir.org/v3/NullFlavor/cs.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a> where concept  =  <a href=\"http://build.fhir.org/v3/NullFlavor/cs.html#v3-NullFlavor-UNC\">UNC</a>, concept  =  <a href=\"http://build.fhir.org/v3/NullFlavor/cs.html#v3-NullFlavor-ASKU\">ASKU</a> and concept  =  <a href=\"http://build.fhir.org/v3/NullFlavor/cs.html#v3-NullFlavor-NI\">NI</a></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UK Core Allergy Manifestation</h2><div><p>A code from the SNOMED Clinical Terminology UK hierarchy with concept id '404684003' to record an allergy manifestation or a value from the HL7 FHIR nullFlavors code system.</p>\n</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  in  &lt;&lt;404684003</li><li>Include codes from <a href=\"http://hl7.org/fhir/R4/v3/NullFlavor/cs.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a> where concept  =  <a href=\"http://hl7.org/fhir/R4/v3/NullFlavor/cs.html#v3-NullFlavor-UNC\">UNC</a>, concept  =  <a href=\"http://hl7.org/fhir/R4/v3/NullFlavor/cs.html#v3-NullFlavor-ASKU\">ASKU</a> and concept  =  <a href=\"http://hl7.org/fhir/R4/v3/NullFlavor/cs.html#v3-NullFlavor-NI\">NI</a></li></ul></div>"
   },
   "url": "https://fhir.nhs.uk/R4/ValueSet/UKCore-AllergyManifestation",
   "version": "1.0.0",
@@ -14,17 +14,27 @@
   "publisher": "NHS Digital",
   "contact": [
     {
-      "name": "Interoperability Team",
+      "name": "NHS Digital",
       "telecom": [
         {
           "system": "email",
-          "value": "interoperabilityteam@nhs.net",
+          "value": "mailto:interoperabilityteam@nhs.net",
           "use": "work"
         }
       ]
     }
   ],
   "description": "A code from the SNOMED Clinical Terminology UK hierarchy with concept id '404684003' to record an allergy manifestation or a value from the HL7 FHIR nullFlavors code system.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "GB"
+        }
+      ]
+    }
+  ],
   "copyright": "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.",
   "compose": {
     "include": [

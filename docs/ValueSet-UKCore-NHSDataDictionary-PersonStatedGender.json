@@ -18,7 +18,29 @@
   "status": "active",
   "date": "2019-10-18T13:00:00+01:00",
   "publisher": "NHS Digital",
+  "contact": [
+    {
+      "name": "NHS Digital",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:interoperabilityteam@nhs.net",
+          "use": "work"
+        }
+      ]
+    }
+  ],
   "description": "The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "GB"
+        }
+      ]
+    }
+  ],
   "copyright": "Copyright © 2019 NHS Digital",
   "compose": {
     "include": [

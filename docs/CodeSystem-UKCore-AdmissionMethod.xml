@@ -17,14 +17,20 @@
   <date value="2019-11-05T00:00:00+00:00"/>
   <publisher value="NHS Digital"/>
   <contact>
-    <name value="Interoperability Team"/>
+    <name value="NHS Digital"/>
     <telecom>
       <system value="email"/>
-      <value value="interoperabilityteam@nhs.net"/>
+      <value value="mailto:interoperabilityteam@nhs.net"/>
       <use value="work"/>
     </telecom>
   </contact>
   <description value="The method of admission to a Hospital Provider Spell."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="GB"/>
+    </coding>
+  </jurisdiction>
   <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
   <caseSensitive value="true"/>
   <content value="complete"/>

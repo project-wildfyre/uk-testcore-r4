@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "UKCore-DocumentType",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UK Core Document Type</h2><div><p>A code from the SNOMED Clinical Terminology UK coding system that describes a clinical document type. Any code from the SNOMED CT UK 'Document Type' subset with subset original id 44041000000135; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence document type simple reference set (foundation metadata concept)' with Refset Id 999000391000000109.</p>\n</div><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  in  999000391000000109</li></ul></div>"
+  },
+  "url": "https://fhir.nhs.uk/R4/ValueSet/UKCore-DocumentType",
+  "version": "1.0.0",
+  "name": "UKCoreDocumentType",
+  "title": "UK Core Document Type",
+  "status": "draft",
+  "date": "2020-01-16T00:00:00+00:00",
+  "publisher": "NHS Digital",
+  "contact": [
+    {
+      "name": "NHS Digital",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:interoperabilityteam@nhs.net",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "A code from the SNOMED Clinical Terminology UK coding system that describes a clinical document type. Any code from the SNOMED CT UK 'Document Type' subset with subset original id 44041000000135; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence document type simple reference set (foundation metadata concept)' with Refset Id 999000391000000109.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "GB"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "in",
+            "value": "999000391000000109"
+          }
+        ]
+      }
+    ]
+  }
+}

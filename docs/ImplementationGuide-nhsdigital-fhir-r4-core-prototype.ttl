@@ -1,0 +1,2548 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype> a fhir:ImplementationGuide;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "nhsdigital-fhir-r4-core-prototype"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HL7FHIRUKCore</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype</pre></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource" ];
+     fhir:Extension.valueString [ fhir:value "C:\\RepoGitHub\\FHIR-R4-Core-IG-Prototype\\source\\resources" ]
+  ], [
+     fhir:index 1;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource" ];
+     fhir:Extension.valueString [ fhir:value "C:\\RepoGitHub\\FHIR-R4-Core-IG-Prototype\\source\\codesystems" ]
+  ], [
+     fhir:index 2;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource" ];
+     fhir:Extension.valueString [ fhir:value "C:\\RepoGitHub\\FHIR-R4-Core-IG-Prototype\\source\\valuesets" ]
+  ], [
+     fhir:index 3;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource" ];
+     fhir:Extension.valueString [ fhir:value "C:\\RepoGitHub\\FHIR-R4-Core-IG-Prototype\\source\\structuredefinitions" ]
+  ], [
+     fhir:index 4;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource" ];
+     fhir:Extension.valueString [ fhir:value "C:\\RepoGitHub\\FHIR-R4-Core-IG-Prototype\\source\\examples" ]
+  ], [
+     fhir:index 5;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource" ];
+     fhir:Extension.valueString [ fhir:value "C:\\RepoGitHub\\FHIR-R4-Core-IG-Prototype\\source\\conceptmaps" ]
+  ], [
+     fhir:index 6;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages" ];
+     fhir:Extension.valueString [ fhir:value "C:\\RepoGitHub\\FHIR-R4-Core-IG-Prototype\\framework" ]
+  ], [
+     fhir:index 7;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages" ];
+     fhir:Extension.valueString [ fhir:value "C:\\RepoGitHub\\FHIR-R4-Core-IG-Prototype\\source\\pages" ]
+  ];
+  fhir:ImplementationGuide.url [ fhir:value "https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype"];
+  fhir:ImplementationGuide.version [ fhir:value "1.0.0"];
+  fhir:ImplementationGuide.name [ fhir:value "HL7FHIRUKCore"];
+  fhir:ImplementationGuide.title [ fhir:value "HL7 FHIR®  UK Core"];
+  fhir:ImplementationGuide.status [ fhir:value "draft"];
+  fhir:ImplementationGuide.experimental [ fhir:value "true"^^xsd:boolean];
+  fhir:ImplementationGuide.date [ fhir:value "2019-10-14T00:00:00+01:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.publisher [ fhir:value "NHS Digital"];
+  fhir:ImplementationGuide.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "NHS Digital" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "mailto:interoperabilityteam@nhs.net" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ];
+  fhir:ImplementationGuide.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "GB" ]
+     ]
+  ];
+  fhir:ImplementationGuide.packageId [ fhir:value "nhsdigital.fhir.r4.core.prototype"];
+  fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
+  fhir:ImplementationGuide.fhirVersion [
+     fhir:value "4.0.1";
+     fhir:index 0
+  ];
+  fhir:ImplementationGuide.definition [
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "copyrightyear" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "2020+" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "releaselabel" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "CI Build" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "generate" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "xml" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "generate" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "JSON" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "autoload-resources" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-qa" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "temp/qa" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-temp" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "temp/pages" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-output" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "output" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-suppressed-warnings" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "input/ignoreWarnings.txt" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "template-html" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "template-page.html" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "template-md" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "template-page-md.html" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-contact" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-context" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 13;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-copyright" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-jurisdiction" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-license" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-publisher" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-version" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "active-tables" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ];
+     fhir:ImplementationGuide.definition.grouping [
+       fhir:index 0;
+       fhir:ImplementationGuide.definition.grouping.name [ fhir:value "HL7 FHIR®  UK Core" ]
+     ];
+     fhir:ImplementationGuide.definition.resource [
+       fhir:index 0;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-ResidentialStatus.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-ResidentialStatus>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-ResidentialStatus" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Residential Status" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A ValueSet that identifies the residential status of a patient." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-AllergyManifestation.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-AllergyManifestation>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-AllergyManifestation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Allergy Manifestation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A code from the SNOMED Clinical Terminology UK hierarchy with concept id '404684003' to record an allergy manifestation or a value from the HL7 FHIR nullFlavors code system." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-AllergyCertainty.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-AllergyCertainty>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-AllergyCertainty" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Allergy Certainty" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A code from the SNOMED Clinical Terminology UK coding system that describes the certainty of an allergy." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-AllergySeverity.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-AllergySeverity>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-AllergySeverity" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Allergy Severity" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A code from the SNOMED Clinical Terminology UK coding system that describes the severity of an allergy." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-ConditionEpisode.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisode>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-ConditionEpisode" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Condition Episode" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A code from the SNOMED Clinical Terminology UK coding system that describes the episodicity of a Condition." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-ConditionCode.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionCode>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-ConditionCode" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Condition Code" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A code from the SNOMED Clinical Terminology UK with the expression (< 404684003 |Clinical finding| OR < 413350009 |Finding with explicit context| OR < 272379006 |Event|)." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-ConditionEpisodicity.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisodicity>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-ConditionEpisodicity" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Condition Episodicity" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A ValueSet to identify the episodicity of a condition." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-AllergyCode.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-AllergyCode>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-AllergyCode" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Allergy Code" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A code from the SNOMED Clinical Terminology UK with the expression (<105590001 |Substance OR <373873005 |Pharmaceutical / biologic product| OR <716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy), or a code from the v3 Code System NullFlavor specifying why a valid value is not present." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-AllergyExposureRoute.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-AllergyExposureRoute>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-AllergyExposureRoute" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Allergy Exposure Route" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK 'NHS e-Prescribing route of administration subset' with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is 'ePrescribing route of administration simple reference set (foundation metadata concept)' with Refset Id 999000051000001100." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-CareSettingType.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-CareSettingType>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-CareSettingType" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Care Setting Type" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A code from the SNOMED Clinical Terminology UK coding system that describes a correspondence care setting type. Any code from the SNOMED CT UK 'Correspondence Care setting type' subset with subset original id 43971000000130; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence care setting type simple reference set (foundation metadata concept)' with Refset Id 999000381000000107" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-ProcedureCode.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-ProcedureCode>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-ProcedureCode" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Procedure Code" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A code from the SNOMED Clinical Terminology UK with the expression (<<71388002 |Procedure|<<129125009 |Procedure with explicit context|)." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-ListCode.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-ListCode>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-ListCode" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core List Code" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A ValueSet to identify the purpose of a list." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-ListEmptyReasonCode.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-ListEmptyReasonCode>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-ListEmptyReasonCode" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core List Empty Reason Code" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A ValueSet to identify the reason a list may be empty." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 13;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-ListWarningCode.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-ListWarningCode>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-ListWarningCode" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core List Warning Code" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A ValueSet to identify the reason a list may be incomplete." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-BodySite.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-BodySite>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-BodySite" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Body Site" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A code from the SNOMED Clinical Terminology UK with the expression (<<442083009 |anatomical or acquired body structure|)." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-EncounterType.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-EncounterType>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-EncounterType" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Encounter Type" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A code from the SNOMED Clinical Terminology UK coding system that describes an encounter between a care professional and the patient (or patient's record)." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-EmergencyCareDischargeStatus.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-EmergencyCareDischargeStatus>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-EmergencyCareDischargeStatus" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Emergency Care Discharge Status" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A code from the SNOMED Clinical Terminology UK coding system that describes the status of the Patient on discharge from an Emergency Care Department. Captures whether treatment took place within the ED, if the patient was streamed to another service or if the patient left before treatment was complete. Any code from the SNOMED CT UK 'Emergency care discharge status' subset with subset original id 75041000000135; the corresponding SNOMED CT UK Refset fully specified name is 'Emergency care discharge status simple reference set (foundation metadata concept)' with Refset Id 999003021000000104." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-ObservationType.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-ObservationType>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-ObservationType" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Observation Type" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A code from the SNOMED Clinical Terminology UK with the expression (<<363787002 | Observable entity|)." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-TreatmentCategory.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-TreatmentCategory>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-TreatmentCategory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Treatment Category" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A ValueSet that identifies the treatment category for a patient." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 19;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-HumanLanguage.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-HumanLanguage>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-HumanLanguage" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Human Language" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A ValueSet that identifies the language used by a person." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 20;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-LanguageAbilityMode.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-LanguageAbilityMode>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-LanguageAbilityMode" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Language Ability Mode" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A ValueSet that identifies the mode the patient can communicate in, representing the method of expression of the language." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 21;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-LanguageAbilityProficiency.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-LanguageAbilityProficiency>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-LanguageAbilityProficiency" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Language Ability Proficiency" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A ValueSet to identify the level of proficiency in communicating a language." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 22;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-SDSJobRoleName.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-SDSJobRoleName>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-SDSJobRoleName" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core SDS Job Role Name" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A ValueSet that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 23;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-DeathNotificationStatus.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-DeathNotificationStatus>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-DeathNotificationStatus" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Death Notification Status" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A ValueSet to identify the type of death notice as held on Personal Demographics Service (PDS)." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 24;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-EthnicCategory.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-EthnicCategory>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-EthnicCategory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Ethnic Category" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A ValueSet to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a person's ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 25;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-AdmissionMethod.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-AdmissionMethod>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-AdmissionMethod" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NHS Data Model and Dictionary Admission Method" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The method of admission to a Hospital Provider Spell." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 26;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-DischargeDestination.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-DischargeDestination>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-DischargeDestination" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NHS Data Model and Dictionary Discharge Destination" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 27;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-DischargeMethod.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-DischargeMethod>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-DischargeMethod" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NHS Data Model and Dictionary Discharge Method" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The method of discharge from a Hospital Provider Spell." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 28;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-OutcomeOfAttendance.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-OutcomeOfAttendance>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-OutcomeOfAttendance" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NHS Data Model and Dictionary Outcome Of Attendance" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This records the outcome of an Out-Patient Attendance Consultant." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 29;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-SourceOfAdmission.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-SourceOfAdmission>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-SourceOfAdmission" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NHS Data Model and Dictionary Source Of Admission" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 30;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-NHSNumberVerificationStatus.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSNumberVerificationStatus>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-NHSNumberVerificationStatus" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core NHS Number Verification Status" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A ValueSet that identifies the trace status of the NHS number. The CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 31;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-ReligiousAffiliation.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-ReligiousAffiliation>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-ReligiousAffiliation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Religious Affiliation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A code from the SNOMED Clinical Terminology UK coding system that describes the religious or other belief system affiliation of a person. Any code from the SNOMED CT UK 'Religious Affiliation SnCT' subset with subset original id 10791000000130; the corresponding SNOMED CT UK Refset fully specified name is 'Religious or other belief system affiliation simple reference set (foundation metadata concept)' with Refset Id 999000531000000100." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 32;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NHS Data Model and Dictionary Person Marital Status Code" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An indicator to identify the legal marital status of a Person." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 33;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-UKCore-AdmissionMethod.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdmissionMethod>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/UKCore-AdmissionMethod" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NHS Data Model and Dictionary Admission Method" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The method of admission to a Hospital Provider Spell." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 34;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-UKCore-DischargeDestination.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/UKCore-DischargeDestination" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NHS Data Model and Dictionary Discharge Destination" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 35;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-UKCore-DischargeMethod.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeMethod>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/UKCore-DischargeMethod" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NHS Data Model and Dictionary Discharge Method" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The method of discharge from a Hospital Provider Spell." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 36;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-UKCore-OutcomeOfAttendance.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/CodeSystem/UKCore-OutcomeOfAttendance>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/UKCore-OutcomeOfAttendance" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NHS Data Model and Dictionary Outcome of Attendance" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This records the outcome of an Out-Patient Attendance Consultant." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 37;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-UKCore-SourceOfAdmission.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/CodeSystem/UKCore-SourceOfAdmission>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/UKCore-SourceOfAdmission" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NHS Data Model and Dictionary Source Of Admission" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 38;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-UKCore-ConditionEpisodicity.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConditionEpisodicity>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/UKCore-ConditionEpisodicity" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Condition Episodicity" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A CodeSystem to identify the episodicity of a condition." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 39;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-UKCore-ResidentialStatus.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/CodeSystem/UKCore-ResidentialStatus>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/UKCore-ResidentialStatus" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Residential Status" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A CodeSystem that identifies the residential status of a patient." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 40;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-UKCore-TreatmentCategory.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/UKCore-TreatmentCategory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Treatment Category" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A CodeSystem that identifies the treatment category for a patient." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 41;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-UKCore-HumanLanguage.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/UKCore-HumanLanguage" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Human Language" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A CodeSystem that identifies the language used by a person." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 42;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-UKCore-LanguageAbilityProficiency.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityProficiency>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/UKCore-LanguageAbilityProficiency" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Language Ability Proficiency" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A CodeSystem to identify the level of proficiency in communicating a language." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 43;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-UKCore-LanguageAbilityMode.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/UKCore-LanguageAbilityMode" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Language Ability Mode" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A CodeSystem that identifies the mode the patient can communicate in, representing the method of expression of the language." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 44;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-UKCore-SDSJobRoleName.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/CodeSystem/UKCore-SDSJobRoleName>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/UKCore-SDSJobRoleName" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core SDS Job Role Name" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A CodeSystem that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 45;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-UKCore-ListWarningCode.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListWarningCode>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/UKCore-ListWarningCode" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core List Warning Code" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A CodeSystem to identify the reason a list may be incomplete." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 46;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-UKCore-ListEmptyReasonCode.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListEmptyReasonCode>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/UKCore-ListEmptyReasonCode" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core List Empty Reason Code" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A CodeSystem to identify the reason a list may be empty." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 47;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-UKCore-DeathNotificationStatus.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/CodeSystem/UKCore-DeathNotificationStatus>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/UKCore-DeathNotificationStatus" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Death Notification Status" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A CodeSystem to identify the type of death notice as held on Personal Demographics Service (PDS)." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 48;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-UKCore-EthnicCategory.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/UKCore-EthnicCategory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Ethnic Category" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A CodeSystem to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a persons ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 49;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-UKCore-NHSNumberVerificationStatus.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSNumberVerificationStatus>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/UKCore-NHSNumberVerificationStatus" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core NHS Number Verification Status" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A CodeSystem that identifies the trace status of the NHS number. This CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 50;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NHS Data Model and Dictionary Person Marital Status Code" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An indicator to identify the legal marital status of a Person." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 51;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ConceptMap-UKCore-MaritalStatus.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ConceptMap/UKCore-MaritalStatus>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/UKCore-MaritalStatus" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Concept Map - UK Core Marital Status" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A Concept Map from ValueSet Marital Status to NHS Data Dictionary Person Marital Status to aid interpretation." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 52;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ConceptMap-UKCore-ConditionEpisodicity.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ConceptMap/UKCore-ConditionEpisodicity>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/UKCore-ConditionEpisodicity" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ConceptMap - UK Core Condition Episodicity" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A Concept Map from ValueSet Condition Episodicity Severity to equivalent Snomed CT codes" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 53;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NHS Data Model and Dictionary Person Stated Gender Code" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 54;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ConceptMap-UKCore-AdministrativeGender.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ConceptMap/UKCore-AdministrativeGender>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/UKCore-AdministrativeGender" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Concept Map - UK Core Administrative Gender" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A Concept Map from ValueSet Administrative Gender to NHS Data Dictionary Person Stated Gender to aid interpretation." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 55;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ConceptMap-UKCore-AllergySeverity.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ConceptMap/UKCore-AllergySeverity>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/UKCore-AllergySeverity" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Concept Map - UK Core Allergy Severity" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A Concept Map from the HL7 FHIR ValueSet Reaction Event Severity to Allergy Severity to aid interpretation." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 56;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ConceptMap-UKCore-AllergyVerificationStatus.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ConceptMap/UKCore-AllergyVerificationStatus>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/UKCore-AllergyVerificationStatus" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Concept Map - UK Core Allergy Verification Status" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A Concept Map from the HL7 FHIR ValueSet Allergy Verification Status to Allergy Certainity to aid interpretation." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 57;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-NHSDataDictionary-PersonStatedGender.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonStatedGender>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-NHSDataDictionary-PersonStatedGender" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NHS Data Model and Dictionary Person Stated Gender Code" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 58;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-UKCore-Patient.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/UKCore-Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Patient" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Defines the UK Core constraints and extensions on the Patient resource for the minimal set of data to query and retrieve an individual’s demographic information." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 59;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-UKCore-Practitioner.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/UKCore-Practitioner" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Practitioner" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Defines the UK Core constraints and extensions on the Practitioner resource for the minimal set of data to query and retrieve practitioner information." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 60;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-UKCore-PractitionerRole.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/UKCore-PractitionerRole" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core PractitionerRole" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Defines the UK Core constraints and extensions on the PractitionerRole resource for the minimal set of data to query and retrieve practitioner role information." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 61;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-UKCore-Organization.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/UKCore-Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Organization" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Defines the UK Core constraints and extensions on the Organization resource for the minimal set of data to query and retrieve organisation information." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 62;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-UKCore-RelatedPerson.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/UKCore-RelatedPerson" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core RelatedPerson" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Defines the UK Core constraints and extensions on the RelatedPerson resource for the minimal set of data to query and retrieve related person information." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 63;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-UKCore-Location.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/UKCore-Location" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Location" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Defines the UK Core constraints and extensions on the Location resource for the minimal set of data to query and retrieve location information." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 64;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-UKCore-Procedure.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Procedure>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/UKCore-Procedure" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Procedure" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Defines the UK Core constraints and extensions on the Procedure resource for the minimal set of data to query and retrieve the patient’s procedure information." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 65;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-UKCore-Condition.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Condition>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/UKCore-Condition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Condition" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Defines the UK Core constraints and extensions on the Condition resource for the minimal set of data to query and retrieve problems and health concerns information." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 66;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-UKCore-AllergyIntolerance.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-AllergyIntolerance>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/UKCore-AllergyIntolerance" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core AllergyIntolerance" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Defines the UK Core constraints and extensions on the AllergyIntolerance resource for the minimal set of data to query and retrieve allergy information." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 67;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-UKCore-Observation.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/UKCore-Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Defines the UK Core constraints and extensions on the observation resource for the minimal set of data to query and retrieve generic observation information." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 68;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-UKCore-Encounter.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Encounter>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/UKCore-Encounter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Encounter" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Defines the UK Core constraints and extensions on the Encounter resource for the minimal set of data to query and retrieve encounter information." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 69;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-UKCore-List.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-List>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/UKCore-List" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core List" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Defines the UK Core constraints and extensions on the List resource for the minimal set of data to query and retrieve a list of information." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 70;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-UKCore-NHSNumberVerificationStatus.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension UK Core NHS Number Verification Status" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension to support the verification status of an NHS number." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 71;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-UKCore-NHSCommunication.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSCommunication>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Extension-UKCore-NHSCommunication" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension UK Core NHS Communication" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension to support the communication preferences for an individual." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 72;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-UKCore-Evidence.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-Evidence>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Extension-UKCore-Evidence" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension UK Core Evidence" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension to support a reference to results of investigations that confirmed the certainty of the diagnosis. Examples might include results of skin prick allergy tests." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 73;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-UKCore-AllergyIntoleranceEnd.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AllergyIntoleranceEnd>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Extension-UKCore-AllergyIntoleranceEnd" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension UK Core Allergy Intolerance End" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension to support the date and/or reason that the allergy or intolerance was no longer valid." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 74;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-UKCore-DeathNotificationStatus.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-DeathNotificationStatus>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Extension-UKCore-DeathNotificationStatus" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension UK Core Death Notification Status" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension to support death notification for an individual. For example, as held on Personal Demographics Service (PDS)." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 75;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-UKCore-EthnicCategory.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EthnicCategory>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Extension-UKCore-EthnicCategory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension UK Core Ethnic Category" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension to support the ethnic category of an individual." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 76;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-UKCore-ReligiousAffiliation.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ReligiousAffiliation>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Extension-UKCore-ReligiousAffiliation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension UK Core Religious Affiliation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension to support the religious affiliation of an individual." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 77;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-UKCore-ResidentialStatus.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ResidentialStatus>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Extension-UKCore-ResidentialStatus" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension UK Core Residential Status" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension to support the residential status of an individual." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 78;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-UKCore-TreatmentCategory.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-TreatmentCategory>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Extension-UKCore-TreatmentCategory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension UK Core Treatment Category" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension to support an individual’s treatment category." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 79;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-UKCore-NominatedPharmacy.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NominatedPharmacy>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Extension-UKCore-NominatedPharmacy" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension UK Core Nominated Pharmacy" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension to support an individual’s nominated pharmacy." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 80;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-UKCore-MainLocation.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MainLocation>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Extension-UKCore-MainLocation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension UK Core Main Location" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension to support a reference to the main location for an organisation." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 81;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-UKCore-ClinicalSetting.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ClinicalSetting>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Extension-UKCore-ClinicalSetting" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension UK Core Clinical Setting" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension to support the clinical setting associated with a list." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 82;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-UKCore-ListWarningCode.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ListWarningCode>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Extension-UKCore-ListWarningCode" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension UK Core List Warning Code" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension to support warnings that a list may be incomplete as data has been excluded due to confidentiality or may be missing due to data being in transit." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 83;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-UKCore-AdmissionMethod.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AdmissionMethod>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Extension-UKCore-AdmissionMethod" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension UK Core Admission Method" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension to support the method by which an individual was admitted into hospital." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 84;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-UKCore-EncounterTransport.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EncounterTransport>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Extension-UKCore-EncounterTransport" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension UK Core Encounter Transport" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension to support the transport used by the individual who is the subject of an encounter." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 85;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-UKCore-OutcomeOfAttendance.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-OutcomeOfAttendance>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Extension-UKCore-OutcomeOfAttendance" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension UK Core Outcome of Attendance" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension to support the outcome of an Outpatient attendance." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 86;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-UKCore-AnaestheticIssues.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AnaestheticIssues>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Extension-UKCore-AnaestheticIssues" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension UK Core Anaesthetic Issues" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension to support recording of details of any adverse reaction to any anaesthetic agents including local anaesthesia and problematic intubation, transfusion reaction, etc." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 87;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-UKCore-DischargeMethod.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-DischargeMethod>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Extension-UKCore-DischargeMethod" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension UK Core Discharge Method" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension to support the method of discharge from a hospital." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 88;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-UKCore-EmergencyCareDischargeStatus.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EmergencyCareDischargeStatus>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Extension-UKCore-EmergencyCareDischargeStatus" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension UK Core Emergency Care Discharge Status" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension to support the status of an individual on discharge from an Emergency Care Department." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 89;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-UKCore-ConditionEpisode.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ConditionEpisode>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Extension-UKCore-ConditionEpisode" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension UK Core Condition Episode" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension to support the episodicity status of a condition." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 90;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "Patient-UKCore-Patient-Example.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/Patient/UKCore-Patient-Example>;
+         fhir:Reference.reference [ fhir:value "Patient/UKCore-Patient-Example" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 91;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Condition" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "Condition-UKCore-Condition-Example.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/Condition/UKCore-Condition-Example>;
+         fhir:Reference.reference [ fhir:value "Condition/UKCore-Condition-Example" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 92;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "AllergyIntolerance" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "AllergyIntolerance-UKCore-AllergyIntolerance-Example.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/AllergyIntolerance/UKCore-AllergyIntolerance-Example>;
+         fhir:Reference.reference [ fhir:value "AllergyIntolerance/UKCore-AllergyIntolerance-Example" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 93;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "Organization-UKCore-Organisation-Example.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/Organization/UKCore-Organisation-Example>;
+         fhir:Reference.reference [ fhir:value "Organization/UKCore-Organisation-Example" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 94;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Location" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "Location-UKCore-Location-Example.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/Location/UKCore-Location-Example>;
+         fhir:Reference.reference [ fhir:value "Location/UKCore-Location-Example" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 95;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "RelatedPerson" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "RelatedPerson-UKCore-RelatedPerson-Example.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/RelatedPerson/UKCore-RelatedPerson-Example>;
+         fhir:Reference.reference [ fhir:value "RelatedPerson/UKCore-RelatedPerson-Example" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 96;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PractitionerRole" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "PractitionerRole-UKCore-PractitionerRole-Example.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/PractitionerRole/UKCore-PractitionerRole-Example>;
+         fhir:Reference.reference [ fhir:value "PractitionerRole/UKCore-PractitionerRole-Example" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 97;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Procedure" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "Procedure-UKCore-Procedure-Example.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/Procedure/UKCore-Procedure-Example>;
+         fhir:Reference.reference [ fhir:value "Procedure/UKCore-Procedure-Example" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 98;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Practitioner" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "Practitioner-UKCore-Practitioner-Example.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/Practitioner/UKCore-Practitioner-Example>;
+         fhir:Reference.reference [ fhir:value "Practitioner/UKCore-Practitioner-Example" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 99;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "Observation-UKCore-Observation-Example.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/Observation/UKCore-Observation-Example>;
+         fhir:Reference.reference [ fhir:value "Observation/UKCore-Observation-Example" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 100;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "List" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "List-UKCore-List-Example.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/List/UKCore-List-Example>;
+         fhir:Reference.reference [ fhir:value "List/UKCore-List-Example" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 101;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "List" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "List-UKCore-Allergy-List-Example.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/List/UKCore-Allergy-List-Example>;
+         fhir:Reference.reference [ fhir:value "List/UKCore-Allergy-List-Example" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 102;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Encounter" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "Encounter-UKCore-Encounter-Example.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/Encounter/UKCore-Encounter-Example>;
+         fhir:Reference.reference [ fhir:value "Encounter/UKCore-Encounter-Example" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 103;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-UKCore-PreferredWrittenCommunicationFormat.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/CodeSystem/UKCore-PreferredWrittenCommunicationFormat>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/UKCore-PreferredWrittenCommunicationFormat" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Preferred Written Communication Format" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A CodeSystem to identify the preferred written communication format of a Patient, contact or RelatedPerson." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 104;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-UKCore-PreferredContactMethod.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/CodeSystem/UKCore-PreferredContactMethod>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/UKCore-PreferredContactMethod" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Preferred Contact Method" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A CodeSystem to identify the preferred Contact Method of a Patient, contact or RelatedPerson." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 105;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-UKCore-ConsentUpdateMode.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConsentUpdateMode>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/UKCore-ConsentUpdateMode" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Consent Update Mode" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A CodeSystem to identify the whether this is the original or an amended resource." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 106;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-UKCore-AddressKeyType.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/CodeSystem/UKCore-AddressKeyType>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/UKCore-AddressKeyType" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Address Key Type" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A CodeSystem to identify the type of Address Key recorded." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 107;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-UKCore-AdditionalRelatedPersonRole.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdditionalRelatedPersonRole>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/UKCore-AdditionalRelatedPersonRole" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Additional RelatedPerson Role" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A CodeSystem to identify the additional relationship roles for RelatedPerson resources." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 108;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-PreferredWrittenCommunicationFormat.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-PreferredWrittenCommunicationFormat>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-PreferredWrittenCommunicationFormat" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Preferred Written Communication Format" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A ValueSet to identify the preferred written communication format of a Patient, contact or RelatedPerson." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 109;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-PreferredContactMethod.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-PreferredContactMethod>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-PreferredContactMethod" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Preferred Contact Method" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A ValueSet to identify the preferred Contact Method of a Patient, contact or RelatedPerson." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 110;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-AddressKeyType.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-AddressKeyType>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-AddressKeyType" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Address Key Type" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A ValueSet to identify the type of Address Key recorded." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 111;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-UKCore-CopyCorrespondenceIndicator.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-CopyCorrespondenceIndicator>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Extension-UKCore-CopyCorrespondenceIndicator" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension UK Core CopyCorrespondenceIndicator" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "To indicate correspondence must be copied to the contact or RelatedPerson" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 112;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-UKCore-ContactRank.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ContactRank>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Extension-UKCore-ContactRank" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension UK Core ContactRank" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension UK Core ContactRank" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 113;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-UKCore-ContactPreference.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ContactPreference>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Extension-UKCore-ContactPreference" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension UK Core ContactPreference" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "UKCore Contact preferences for Patient, Patient.contact or RelatedPerson" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 114;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-UKCore-AddressKey.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Extension-UKCore-AddressKey" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension UK Core AddressKey" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "To support recording of Address Keys within addresses" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 115;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-UKCore-EffectivePeriod.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EffectivePeriod>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Extension-UKCore-EffectivePeriod" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension UKCore Effective Period" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "To record effective start and end dates" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 116;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-ConditionCategory.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionCategory>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-ConditionCategory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Condition Category" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A ValueSet to identify the category of a condition." ]
+     ], [
+       fhir:index 117;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-UKCore-DocumentType.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/ValueSet/UKCore-DocumentType>;
+         fhir:Reference.reference [ fhir:value "ValueSet/UKCore-DocumentType" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core Document Type" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A code from the SNOMED Clinical Terminology UK coding system that describes a clinical document type. Any code from the SNOMED CT UK 'Document Type' subset with subset original id 44041000000135; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence document type simple reference set (foundation metadata concept)' with Refset Id 999000391000000109." ]
+     ], [
+       fhir:index 118;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-UKCore-MedicationStatement.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationStatement>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/UKCore-MedicationStatement" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core MedicationStatement" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Defines the UK Core constraints and extensions on the MedicationStatement resource for the minimal set of data to query and retrieve medication statement information. " ]
+     ], [
+       fhir:index 119;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-UKCore-DocumentReference.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-DocumentReference>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/UKCore-DocumentReference" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "UK Core DocumentReference" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Defines the UK Core constraints and extensions on the DocumentReference resource. " ]
+     ];
+     fhir:ImplementationGuide.definition.page [
+       fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];
+       fhir:ImplementationGuide.definition.page.title [ fhir:value "Table of Contents" ];
+       fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ];
+       fhir:ImplementationGuide.definition.page.page [
+         fhir:index 0;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "index.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "UK Core STU3 Implementation Guide" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 1;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "profiles.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Profiles" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 2;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "extension_library.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Extensions" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 3;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "codesystems.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "CodeSystems" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 4;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "valuesets.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "ValueSets" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 5;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "conceptmaps.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "ConceptMaps" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 6;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "examples.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Examples" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 7;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "history.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Change History" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ]
+     ];
+     fhir:ImplementationGuide.definition.parameter [
+       fhir:index 0;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "html-template" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "test-template-master/instance-template-format.html" ]
+     ], [
+       fhir:index 1;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/capabilities" ]
+     ], [
+       fhir:index 2;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/examples" ]
+     ], [
+       fhir:index 3;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/extensions" ]
+     ], [
+       fhir:index 4;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/models" ]
+     ], [
+       fhir:index 5;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/operations" ]
+     ], [
+       fhir:index 6;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/profiles" ]
+     ], [
+       fhir:index 7;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/resources" ]
+     ], [
+       fhir:index 8;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/vocabulary" ]
+     ], [
+       fhir:index 9;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "template/config" ]
+     ], [
+       fhir:index 10;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/images" ]
+     ], [
+       fhir:index 11;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-tx-cache" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input-cache/txcache" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -5,6 +5,40 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HL7FHIRUKCore</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype</pre></div>"
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
+      "valueString": "C:\\RepoGitHub\\FHIR-R4-Core-IG-Prototype\\source\\resources"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
+      "valueString": "C:\\RepoGitHub\\FHIR-R4-Core-IG-Prototype\\source\\codesystems"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
+      "valueString": "C:\\RepoGitHub\\FHIR-R4-Core-IG-Prototype\\source\\valuesets"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
+      "valueString": "C:\\RepoGitHub\\FHIR-R4-Core-IG-Prototype\\source\\structuredefinitions"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
+      "valueString": "C:\\RepoGitHub\\FHIR-R4-Core-IG-Prototype\\source\\examples"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
+      "valueString": "C:\\RepoGitHub\\FHIR-R4-Core-IG-Prototype\\source\\conceptmaps"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
+      "valueString": "C:\\RepoGitHub\\FHIR-R4-Core-IG-Prototype\\framework"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
+      "valueString": "C:\\RepoGitHub\\FHIR-R4-Core-IG-Prototype\\source\\pages"
+    }
+  ],
   "url": "https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype",
   "version": "1.0.0",
   "name": "HL7FHIRUKCore",
@@ -41,6 +75,255 @@
     "4.0.1"
   ],
   "definition": {
+    "extension": [
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "copyrightyear"
+          },
+          {
+            "url": "value",
+            "valueString": "2020+"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "releaselabel"
+          },
+          {
+            "url": "value",
+            "valueString": "CI Build"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "generate"
+          },
+          {
+            "url": "value",
+            "valueString": "xml"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "generate"
+          },
+          {
+            "url": "value",
+            "valueString": "JSON"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "autoload-resources"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-qa"
+          },
+          {
+            "url": "value",
+            "valueString": "temp/qa"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-temp"
+          },
+          {
+            "url": "value",
+            "valueString": "temp/pages"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-output"
+          },
+          {
+            "url": "value",
+            "valueString": "output"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-suppressed-warnings"
+          },
+          {
+            "url": "value",
+            "valueString": "input/ignoreWarnings.txt"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "template-html"
+          },
+          {
+            "url": "value",
+            "valueString": "template-page.html"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "template-md"
+          },
+          {
+            "url": "value",
+            "valueString": "template-page-md.html"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-contact"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-context"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-copyright"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-jurisdiction"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-license"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-publisher"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-version"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "active-tables"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      }
+    ],
     "grouping": [
       {
         "name": "HL7 FHIR®  UK Core"
@@ -61,6 +344,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-ResidentialStatus"
         },
+        "name": "UK Core Residential Status",
+        "description": "A ValueSet that identifies the residential status of a patient.",
         "exampleBoolean": false
       },
       {
@@ -77,6 +362,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-AllergyManifestation"
         },
+        "name": "UK Core Allergy Manifestation",
+        "description": "A code from the SNOMED Clinical Terminology UK hierarchy with concept id '404684003' to record an allergy manifestation or a value from the HL7 FHIR nullFlavors code system.",
         "exampleBoolean": false
       },
       {
@@ -93,6 +380,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-AllergyCertainty"
         },
+        "name": "UK Core Allergy Certainty",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system that describes the certainty of an allergy.",
         "exampleBoolean": false
       },
       {
@@ -109,6 +398,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-AllergySeverity"
         },
+        "name": "UK Core Allergy Severity",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system that describes the severity of an allergy.",
         "exampleBoolean": false
       },
       {
@@ -125,6 +416,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-ConditionEpisode"
         },
+        "name": "UK Core Condition Episode",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system that describes the episodicity of a Condition.",
         "exampleBoolean": false
       },
       {
@@ -141,6 +434,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-ConditionCode"
         },
+        "name": "UK Core Condition Code",
+        "description": "A code from the SNOMED Clinical Terminology UK with the expression (< 404684003 |Clinical finding| OR < 413350009 |Finding with explicit context| OR < 272379006 |Event|).",
         "exampleBoolean": false
       },
       {
@@ -157,6 +452,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-ConditionEpisodicity"
         },
+        "name": "UK Core Condition Episodicity",
+        "description": "A ValueSet to identify the episodicity of a condition.",
         "exampleBoolean": false
       },
       {
@@ -173,6 +470,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-AllergyCode"
         },
+        "name": "UK Core Allergy Code",
+        "description": "A code from the SNOMED Clinical Terminology UK with the expression (<105590001 |Substance OR <373873005 |Pharmaceutical / biologic product| OR <716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy), or a code from the v3 Code System NullFlavor specifying why a valid value is not present.",
         "exampleBoolean": false
       },
       {
@@ -189,6 +488,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-AllergyExposureRoute"
         },
+        "name": "UK Core Allergy Exposure Route",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK 'NHS e-Prescribing route of administration subset' with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is 'ePrescribing route of administration simple reference set (foundation metadata concept)' with Refset Id 999000051000001100.",
         "exampleBoolean": false
       },
       {
@@ -205,6 +506,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-CareSettingType"
         },
+        "name": "UK Core Care Setting Type",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system that describes a correspondence care setting type. Any code from the SNOMED CT UK 'Correspondence Care setting type' subset with subset original id 43971000000130; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence care setting type simple reference set (foundation metadata concept)' with Refset Id 999000381000000107",
         "exampleBoolean": false
       },
       {
@@ -221,6 +524,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-ProcedureCode"
         },
+        "name": "UK Core Procedure Code",
+        "description": "A code from the SNOMED Clinical Terminology UK with the expression (<<71388002 |Procedure|<<129125009 |Procedure with explicit context|).",
         "exampleBoolean": false
       },
       {
@@ -237,6 +542,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-ListCode"
         },
+        "name": "UK Core List Code",
+        "description": "A ValueSet to identify the purpose of a list.",
         "exampleBoolean": false
       },
       {
@@ -253,6 +560,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-ListEmptyReasonCode"
         },
+        "name": "UK Core List Empty Reason Code",
+        "description": "A ValueSet to identify the reason a list may be empty.",
         "exampleBoolean": false
       },
       {
@@ -269,6 +578,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-ListWarningCode"
         },
+        "name": "UK Core List Warning Code",
+        "description": "A ValueSet to identify the reason a list may be incomplete.",
         "exampleBoolean": false
       },
       {
@@ -285,6 +596,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-BodySite"
         },
+        "name": "UK Core Body Site",
+        "description": "A code from the SNOMED Clinical Terminology UK with the expression (<<442083009 |anatomical or acquired body structure|).",
         "exampleBoolean": false
       },
       {
@@ -301,6 +614,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-EncounterType"
         },
+        "name": "UK Core Encounter Type",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system that describes an encounter between a care professional and the patient (or patient's record).",
         "exampleBoolean": false
       },
       {
@@ -317,6 +632,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-EmergencyCareDischargeStatus"
         },
+        "name": "UK Core Emergency Care Discharge Status",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system that describes the status of the Patient on discharge from an Emergency Care Department. Captures whether treatment took place within the ED, if the patient was streamed to another service or if the patient left before treatment was complete. Any code from the SNOMED CT UK 'Emergency care discharge status' subset with subset original id 75041000000135; the corresponding SNOMED CT UK Refset fully specified name is 'Emergency care discharge status simple reference set (foundation metadata concept)' with Refset Id 999003021000000104.",
         "exampleBoolean": false
       },
       {
@@ -333,6 +650,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-ObservationType"
         },
+        "name": "UK Core Observation Type",
+        "description": "A code from the SNOMED Clinical Terminology UK with the expression (<<363787002 | Observable entity|).",
         "exampleBoolean": false
       },
       {
@@ -349,6 +668,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-TreatmentCategory"
         },
+        "name": "UK Core Treatment Category",
+        "description": "A ValueSet that identifies the treatment category for a patient.",
         "exampleBoolean": false
       },
       {
@@ -365,6 +686,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-HumanLanguage"
         },
+        "name": "UK Core Human Language",
+        "description": "A ValueSet that identifies the language used by a person.",
         "exampleBoolean": false
       },
       {
@@ -381,6 +704,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-LanguageAbilityMode"
         },
+        "name": "UK Core Language Ability Mode",
+        "description": "A ValueSet that identifies the mode the patient can communicate in, representing the method of expression of the language.",
         "exampleBoolean": false
       },
       {
@@ -397,6 +722,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-LanguageAbilityProficiency"
         },
+        "name": "UK Core Language Ability Proficiency",
+        "description": "A ValueSet to identify the level of proficiency in communicating a language.",
         "exampleBoolean": false
       },
       {
@@ -413,6 +740,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-SDSJobRoleName"
         },
+        "name": "UK Core SDS Job Role Name",
+        "description": "A ValueSet that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained.",
         "exampleBoolean": false
       },
       {
@@ -429,6 +758,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-DeathNotificationStatus"
         },
+        "name": "UK Core Death Notification Status",
+        "description": "A ValueSet to identify the type of death notice as held on Personal Demographics Service (PDS).",
         "exampleBoolean": false
       },
       {
@@ -445,6 +776,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-EthnicCategory"
         },
+        "name": "UK Core Ethnic Category",
+        "description": "A ValueSet to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a person's ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary.",
         "exampleBoolean": false
       },
       {
@@ -461,6 +794,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-AdmissionMethod"
         },
+        "name": "NHS Data Model and Dictionary Admission Method",
+        "description": "The method of admission to a Hospital Provider Spell.",
         "exampleBoolean": false
       },
       {
@@ -477,6 +812,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-DischargeDestination"
         },
+        "name": "NHS Data Model and Dictionary Discharge Destination",
+        "description": "The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth.",
         "exampleBoolean": false
       },
       {
@@ -493,6 +830,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-DischargeMethod"
         },
+        "name": "NHS Data Model and Dictionary Discharge Method",
+        "description": "The method of discharge from a Hospital Provider Spell.",
         "exampleBoolean": false
       },
       {
@@ -509,6 +848,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-OutcomeOfAttendance"
         },
+        "name": "NHS Data Model and Dictionary Outcome Of Attendance",
+        "description": "This records the outcome of an Out-Patient Attendance Consultant.",
         "exampleBoolean": false
       },
       {
@@ -525,6 +866,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-SourceOfAdmission"
         },
+        "name": "NHS Data Model and Dictionary Source Of Admission",
+        "description": "The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home.",
         "exampleBoolean": false
       },
       {
@@ -541,6 +884,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-NHSNumberVerificationStatus"
         },
+        "name": "UK Core NHS Number Verification Status",
+        "description": "A ValueSet that identifies the trace status of the NHS number. The CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code.",
         "exampleBoolean": false
       },
       {
@@ -557,6 +902,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-ReligiousAffiliation"
         },
+        "name": "UK Core Religious Affiliation",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system that describes the religious or other belief system affiliation of a person. Any code from the SNOMED CT UK 'Religious Affiliation SnCT' subset with subset original id 10791000000130; the corresponding SNOMED CT UK Refset fully specified name is 'Religious or other belief system affiliation simple reference set (foundation metadata concept)' with Refset Id 999000531000000100.",
         "exampleBoolean": false
       },
       {
@@ -573,6 +920,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus"
         },
+        "name": "NHS Data Model and Dictionary Person Marital Status Code",
+        "description": "An indicator to identify the legal marital status of a Person.",
         "exampleBoolean": false
       },
       {
@@ -589,6 +938,8 @@
         "reference": {
           "reference": "CodeSystem/UKCore-AdmissionMethod"
         },
+        "name": "NHS Data Model and Dictionary Admission Method",
+        "description": "The method of admission to a Hospital Provider Spell.",
         "exampleBoolean": false
       },
       {
@@ -605,6 +956,8 @@
         "reference": {
           "reference": "CodeSystem/UKCore-DischargeDestination"
         },
+        "name": "NHS Data Model and Dictionary Discharge Destination",
+        "description": "The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth.",
         "exampleBoolean": false
       },
       {
@@ -621,6 +974,8 @@
         "reference": {
           "reference": "CodeSystem/UKCore-DischargeMethod"
         },
+        "name": "NHS Data Model and Dictionary Discharge Method",
+        "description": "The method of discharge from a Hospital Provider Spell.",
         "exampleBoolean": false
       },
       {
@@ -637,6 +992,8 @@
         "reference": {
           "reference": "CodeSystem/UKCore-OutcomeOfAttendance"
         },
+        "name": "NHS Data Model and Dictionary Outcome of Attendance",
+        "description": "This records the outcome of an Out-Patient Attendance Consultant.",
         "exampleBoolean": false
       },
       {
@@ -653,6 +1010,8 @@
         "reference": {
           "reference": "CodeSystem/UKCore-SourceOfAdmission"
         },
+        "name": "NHS Data Model and Dictionary Source Of Admission",
+        "description": "The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home.",
         "exampleBoolean": false
       },
       {
@@ -669,6 +1028,8 @@
         "reference": {
           "reference": "CodeSystem/UKCore-ConditionEpisodicity"
         },
+        "name": "UK Core Condition Episodicity",
+        "description": "A CodeSystem to identify the episodicity of a condition.",
         "exampleBoolean": false
       },
       {
@@ -685,6 +1046,8 @@
         "reference": {
           "reference": "CodeSystem/UKCore-ResidentialStatus"
         },
+        "name": "UK Core Residential Status",
+        "description": "A CodeSystem that identifies the residential status of a patient.",
         "exampleBoolean": false
       },
       {
@@ -701,6 +1064,8 @@
         "reference": {
           "reference": "CodeSystem/UKCore-TreatmentCategory"
         },
+        "name": "UK Core Treatment Category",
+        "description": "A CodeSystem that identifies the treatment category for a patient.",
         "exampleBoolean": false
       },
       {
@@ -717,6 +1082,8 @@
         "reference": {
           "reference": "CodeSystem/UKCore-HumanLanguage"
         },
+        "name": "UK Core Human Language",
+        "description": "A CodeSystem that identifies the language used by a person.",
         "exampleBoolean": false
       },
       {
@@ -733,6 +1100,8 @@
         "reference": {
           "reference": "CodeSystem/UKCore-LanguageAbilityProficiency"
         },
+        "name": "UK Core Language Ability Proficiency",
+        "description": "A CodeSystem to identify the level of proficiency in communicating a language.",
         "exampleBoolean": false
       },
       {
@@ -749,6 +1118,8 @@
         "reference": {
           "reference": "CodeSystem/UKCore-LanguageAbilityMode"
         },
+        "name": "UK Core Language Ability Mode",
+        "description": "A CodeSystem that identifies the mode the patient can communicate in, representing the method of expression of the language.",
         "exampleBoolean": false
       },
       {
@@ -765,6 +1136,8 @@
         "reference": {
           "reference": "CodeSystem/UKCore-SDSJobRoleName"
         },
+        "name": "UK Core SDS Job Role Name",
+        "description": "A CodeSystem that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained.",
         "exampleBoolean": false
       },
       {
@@ -781,6 +1154,8 @@
         "reference": {
           "reference": "CodeSystem/UKCore-ListWarningCode"
         },
+        "name": "UK Core List Warning Code",
+        "description": "A CodeSystem to identify the reason a list may be incomplete.",
         "exampleBoolean": false
       },
       {
@@ -797,6 +1172,8 @@
         "reference": {
           "reference": "CodeSystem/UKCore-ListEmptyReasonCode"
         },
+        "name": "UK Core List Empty Reason Code",
+        "description": "A CodeSystem to identify the reason a list may be empty.",
         "exampleBoolean": false
       },
       {
@@ -813,6 +1190,8 @@
         "reference": {
           "reference": "CodeSystem/UKCore-DeathNotificationStatus"
         },
+        "name": "UK Core Death Notification Status",
+        "description": "A CodeSystem to identify the type of death notice as held on Personal Demographics Service (PDS).",
         "exampleBoolean": false
       },
       {
@@ -829,6 +1208,8 @@
         "reference": {
           "reference": "CodeSystem/UKCore-EthnicCategory"
         },
+        "name": "UK Core Ethnic Category",
+        "description": "A CodeSystem to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a persons ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary.",
         "exampleBoolean": false
       },
       {
@@ -845,6 +1226,8 @@
         "reference": {
           "reference": "CodeSystem/UKCore-NHSNumberVerificationStatus"
         },
+        "name": "UK Core NHS Number Verification Status",
+        "description": "A CodeSystem that identifies the trace status of the NHS number. This CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code.",
         "exampleBoolean": false
       },
       {
@@ -861,6 +1244,8 @@
         "reference": {
           "reference": "CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus"
         },
+        "name": "NHS Data Model and Dictionary Person Marital Status Code",
+        "description": "An indicator to identify the legal marital status of a Person.",
         "exampleBoolean": false
       },
       {
@@ -877,6 +1262,8 @@
         "reference": {
           "reference": "ConceptMap/UKCore-MaritalStatus"
         },
+        "name": "Concept Map - UK Core Marital Status",
+        "description": "A Concept Map from ValueSet Marital Status to NHS Data Dictionary Person Marital Status to aid interpretation.",
         "exampleBoolean": false
       },
       {
@@ -893,6 +1280,8 @@
         "reference": {
           "reference": "ConceptMap/UKCore-ConditionEpisodicity"
         },
+        "name": "ConceptMap - UK Core Condition Episodicity",
+        "description": "A Concept Map from ValueSet Condition Episodicity Severity to equivalent Snomed CT codes",
         "exampleBoolean": false
       },
       {
@@ -909,6 +1298,8 @@
         "reference": {
           "reference": "CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender"
         },
+        "name": "NHS Data Model and Dictionary Person Stated Gender Code",
+        "description": "The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender.",
         "exampleBoolean": false
       },
       {
@@ -925,6 +1316,8 @@
         "reference": {
           "reference": "ConceptMap/UKCore-AdministrativeGender"
         },
+        "name": "Concept Map - UK Core Administrative Gender",
+        "description": "A Concept Map from ValueSet Administrative Gender to NHS Data Dictionary Person Stated Gender to aid interpretation.",
         "exampleBoolean": false
       },
       {
@@ -941,6 +1334,8 @@
         "reference": {
           "reference": "ConceptMap/UKCore-AllergySeverity"
         },
+        "name": "Concept Map - UK Core Allergy Severity",
+        "description": "A Concept Map from the HL7 FHIR ValueSet Reaction Event Severity to Allergy Severity to aid interpretation.",
         "exampleBoolean": false
       },
       {
@@ -957,6 +1352,8 @@
         "reference": {
           "reference": "ConceptMap/UKCore-AllergyVerificationStatus"
         },
+        "name": "Concept Map - UK Core Allergy Verification Status",
+        "description": "A Concept Map from the HL7 FHIR ValueSet Allergy Verification Status to Allergy Certainity to aid interpretation.",
         "exampleBoolean": false
       },
       {
@@ -973,6 +1370,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-NHSDataDictionary-PersonStatedGender"
         },
+        "name": "NHS Data Model and Dictionary Person Stated Gender Code",
+        "description": "The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender.",
         "exampleBoolean": false
       },
       {
@@ -983,12 +1382,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-Patient.html"
+            "valueUri": "StructureDefinition-UKCore-Patient.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/UKCore-Patient"
         },
+        "name": "UK Core Patient",
+        "description": "Defines the UK Core constraints and extensions on the Patient resource for the minimal set of data to query and retrieve an individual’s demographic information.",
         "exampleBoolean": false
       },
       {
@@ -999,12 +1400,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-Practitioner.html"
+            "valueUri": "StructureDefinition-UKCore-Practitioner.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/UKCore-Practitioner"
         },
+        "name": "UK Core Practitioner",
+        "description": "Defines the UK Core constraints and extensions on the Practitioner resource for the minimal set of data to query and retrieve practitioner information.",
         "exampleBoolean": false
       },
       {
@@ -1015,12 +1418,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-PractitionerRole.html"
+            "valueUri": "StructureDefinition-UKCore-PractitionerRole.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/UKCore-PractitionerRole"
         },
+        "name": "UK Core PractitionerRole",
+        "description": "Defines the UK Core constraints and extensions on the PractitionerRole resource for the minimal set of data to query and retrieve practitioner role information.",
         "exampleBoolean": false
       },
       {
@@ -1031,12 +1436,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-Organization.html"
+            "valueUri": "StructureDefinition-UKCore-Organization.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/UKCore-Organization"
         },
+        "name": "UK Core Organization",
+        "description": "Defines the UK Core constraints and extensions on the Organization resource for the minimal set of data to query and retrieve organisation information.",
         "exampleBoolean": false
       },
       {
@@ -1047,28 +1454,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-Consent.html"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/UKCore-Consent"
-        },
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-RelatedPerson.html"
+            "valueUri": "StructureDefinition-UKCore-RelatedPerson.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/UKCore-RelatedPerson"
         },
+        "name": "UK Core RelatedPerson",
+        "description": "Defines the UK Core constraints and extensions on the RelatedPerson resource for the minimal set of data to query and retrieve related person information.",
         "exampleBoolean": false
       },
       {
@@ -1079,12 +1472,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-Location.html"
+            "valueUri": "StructureDefinition-UKCore-Location.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/UKCore-Location"
         },
+        "name": "UK Core Location",
+        "description": "Defines the UK Core constraints and extensions on the Location resource for the minimal set of data to query and retrieve location information.",
         "exampleBoolean": false
       },
       {
@@ -1095,12 +1490,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-Procedure.html"
+            "valueUri": "StructureDefinition-UKCore-Procedure.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/UKCore-Procedure"
         },
+        "name": "UK Core Procedure",
+        "description": "Defines the UK Core constraints and extensions on the Procedure resource for the minimal set of data to query and retrieve the patient’s procedure information.",
         "exampleBoolean": false
       },
       {
@@ -1111,12 +1508,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-Condition.html"
+            "valueUri": "StructureDefinition-UKCore-Condition.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/UKCore-Condition"
         },
+        "name": "UK Core Condition",
+        "description": "Defines the UK Core constraints and extensions on the Condition resource for the minimal set of data to query and retrieve problems and health concerns information.",
         "exampleBoolean": false
       },
       {
@@ -1127,12 +1526,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-AllergyIntolerance.html"
+            "valueUri": "StructureDefinition-UKCore-AllergyIntolerance.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/UKCore-AllergyIntolerance"
         },
+        "name": "UK Core AllergyIntolerance",
+        "description": "Defines the UK Core constraints and extensions on the AllergyIntolerance resource for the minimal set of data to query and retrieve allergy information.",
         "exampleBoolean": false
       },
       {
@@ -1143,12 +1544,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-Observation.html"
+            "valueUri": "StructureDefinition-UKCore-Observation.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/UKCore-Observation"
         },
+        "name": "UK Core Observation",
+        "description": "Defines the UK Core constraints and extensions on the observation resource for the minimal set of data to query and retrieve generic observation information.",
         "exampleBoolean": false
       },
       {
@@ -1159,12 +1562,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-Encounter.html"
+            "valueUri": "StructureDefinition-UKCore-Encounter.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/UKCore-Encounter"
         },
+        "name": "UK Core Encounter",
+        "description": "Defines the UK Core constraints and extensions on the Encounter resource for the minimal set of data to query and retrieve encounter information.",
         "exampleBoolean": false
       },
       {
@@ -1175,12 +1580,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-List.html"
+            "valueUri": "StructureDefinition-UKCore-List.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/UKCore-List"
         },
+        "name": "UK Core List",
+        "description": "Defines the UK Core constraints and extensions on the List resource for the minimal set of data to query and retrieve a list of information.",
         "exampleBoolean": false
       },
       {
@@ -1191,12 +1598,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Extension-UKCore-NHSNumberVerificationStatus.html"
+            "valueUri": "StructureDefinition-Extension-UKCore-NHSNumberVerificationStatus.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus"
         },
+        "name": "Extension UK Core NHS Number Verification Status",
+        "description": "An extension to support the verification status of an NHS number.",
         "exampleBoolean": false
       },
       {
@@ -1207,12 +1616,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Extension-UKCore-NHSCommunication.html"
+            "valueUri": "StructureDefinition-Extension-UKCore-NHSCommunication.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-NHSCommunication"
         },
+        "name": "Extension UK Core NHS Communication",
+        "description": "An extension to support the communication preferences for an individual.",
         "exampleBoolean": false
       },
       {
@@ -1223,12 +1634,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Extension-UKCore-Evidence.html"
+            "valueUri": "StructureDefinition-Extension-UKCore-Evidence.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-Evidence"
         },
+        "name": "Extension UK Core Evidence",
+        "description": "An extension to support a reference to results of investigations that confirmed the certainty of the diagnosis. Examples might include results of skin prick allergy tests.",
         "exampleBoolean": false
       },
       {
@@ -1239,12 +1652,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Extension-UKCore-AllergyIntoleranceEnd.html"
+            "valueUri": "StructureDefinition-Extension-UKCore-AllergyIntoleranceEnd.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-AllergyIntoleranceEnd"
         },
+        "name": "Extension UK Core Allergy Intolerance End",
+        "description": "An extension to support the date and/or reason that the allergy or intolerance was no longer valid.",
         "exampleBoolean": false
       },
       {
@@ -1255,12 +1670,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Extension-UKCore-DeathNotificationStatus.html"
+            "valueUri": "StructureDefinition-Extension-UKCore-DeathNotificationStatus.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-DeathNotificationStatus"
         },
+        "name": "Extension UK Core Death Notification Status",
+        "description": "An extension to support death notification for an individual. For example, as held on Personal Demographics Service (PDS).",
         "exampleBoolean": false
       },
       {
@@ -1271,12 +1688,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Extension-UKCore-EthnicCategory.html"
+            "valueUri": "StructureDefinition-Extension-UKCore-EthnicCategory.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-EthnicCategory"
         },
+        "name": "Extension UK Core Ethnic Category",
+        "description": "An extension to support the ethnic category of an individual.",
         "exampleBoolean": false
       },
       {
@@ -1287,12 +1706,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Extension-UKCore-ReligiousAffiliation.html"
+            "valueUri": "StructureDefinition-Extension-UKCore-ReligiousAffiliation.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-ReligiousAffiliation"
         },
+        "name": "Extension UK Core Religious Affiliation",
+        "description": "An extension to support the religious affiliation of an individual.",
         "exampleBoolean": false
       },
       {
@@ -1303,12 +1724,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Extension-UKCore-ResidentialStatus.html"
+            "valueUri": "StructureDefinition-Extension-UKCore-ResidentialStatus.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-ResidentialStatus"
         },
+        "name": "Extension UK Core Residential Status",
+        "description": "An extension to support the residential status of an individual.",
         "exampleBoolean": false
       },
       {
@@ -1319,12 +1742,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Extension-UKCore-TreatmentCategory.html"
+            "valueUri": "StructureDefinition-Extension-UKCore-TreatmentCategory.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-TreatmentCategory"
         },
+        "name": "Extension UK Core Treatment Category",
+        "description": "An extension to support an individual’s treatment category.",
         "exampleBoolean": false
       },
       {
@@ -1335,12 +1760,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Extension-UKCore-NominatedPharmacy.html"
+            "valueUri": "StructureDefinition-Extension-UKCore-NominatedPharmacy.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-NominatedPharmacy"
         },
+        "name": "Extension UK Core Nominated Pharmacy",
+        "description": "An extension to support an individual’s nominated pharmacy.",
         "exampleBoolean": false
       },
       {
@@ -1351,12 +1778,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Extension-UKCore-MainLocation.html"
+            "valueUri": "StructureDefinition-Extension-UKCore-MainLocation.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-MainLocation"
         },
+        "name": "Extension UK Core Main Location",
+        "description": "An extension to support a reference to the main location for an organisation.",
         "exampleBoolean": false
       },
       {
@@ -1367,12 +1796,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Extension-UKCore-ClinicalSetting.html"
+            "valueUri": "StructureDefinition-Extension-UKCore-ClinicalSetting.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-ClinicalSetting"
         },
+        "name": "Extension UK Core Clinical Setting",
+        "description": "An extension to support the clinical setting associated with a list.",
         "exampleBoolean": false
       },
       {
@@ -1383,12 +1814,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Extension-UKCore-ListWarningCode.html"
+            "valueUri": "StructureDefinition-Extension-UKCore-ListWarningCode.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-ListWarningCode"
         },
+        "name": "Extension UK Core List Warning Code",
+        "description": "An extension to support warnings that a list may be incomplete as data has been excluded due to confidentiality or may be missing due to data being in transit.",
         "exampleBoolean": false
       },
       {
@@ -1399,12 +1832,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Extension-UKCore-AdmissionMethod.html"
+            "valueUri": "StructureDefinition-Extension-UKCore-AdmissionMethod.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-AdmissionMethod"
         },
+        "name": "Extension UK Core Admission Method",
+        "description": "An extension to support the method by which an individual was admitted into hospital.",
         "exampleBoolean": false
       },
       {
@@ -1415,12 +1850,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Extension-UKCore-EncounterTransport.html"
+            "valueUri": "StructureDefinition-Extension-UKCore-EncounterTransport.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-EncounterTransport"
         },
+        "name": "Extension UK Core Encounter Transport",
+        "description": "An extension to support the transport used by the individual who is the subject of an encounter.",
         "exampleBoolean": false
       },
       {
@@ -1431,12 +1868,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Extension-UKCore-OutcomeOfAttendance.html"
+            "valueUri": "StructureDefinition-Extension-UKCore-OutcomeOfAttendance.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-OutcomeOfAttendance"
         },
+        "name": "Extension UK Core Outcome of Attendance",
+        "description": "An extension to support the outcome of an Outpatient attendance.",
         "exampleBoolean": false
       },
       {
@@ -1447,12 +1886,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Extension-UKCore-AnaestheticIssues.html"
+            "valueUri": "StructureDefinition-Extension-UKCore-AnaestheticIssues.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-AnaestheticIssues"
         },
+        "name": "Extension UK Core Anaesthetic Issues",
+        "description": "An extension to support recording of details of any adverse reaction to any anaesthetic agents including local anaesthesia and problematic intubation, transfusion reaction, etc.",
         "exampleBoolean": false
       },
       {
@@ -1463,12 +1904,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Extension-UKCore-DischargeMethod.html"
+            "valueUri": "StructureDefinition-Extension-UKCore-DischargeMethod.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-DischargeMethod"
         },
+        "name": "Extension UK Core Discharge Method",
+        "description": "An extension to support the method of discharge from a hospital.",
         "exampleBoolean": false
       },
       {
@@ -1479,12 +1922,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Extension-UKCore-EmergencyCareDischargeStatus.html"
+            "valueUri": "StructureDefinition-Extension-UKCore-EmergencyCareDischargeStatus.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-EmergencyCareDischargeStatus"
         },
+        "name": "Extension UK Core Emergency Care Discharge Status",
+        "description": "An extension to support the status of an individual on discharge from an Emergency Care Department.",
         "exampleBoolean": false
       },
       {
@@ -1495,12 +1940,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Extension-UKCore-ConditionEpisode.html"
+            "valueUri": "StructureDefinition-Extension-UKCore-ConditionEpisode.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-ConditionEpisode"
         },
+        "name": "Extension UK Core Condition Episode",
+        "description": "An extension to support the episodicity status of a condition.",
         "exampleBoolean": false
       },
       {
@@ -1511,7 +1958,7 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-Patient-Example.html"
+            "valueUri": "Patient-UKCore-Patient-Example.html"
           }
         ],
         "reference": {
@@ -1527,7 +1974,7 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-Condition-Example.html"
+            "valueUri": "Condition-UKCore-Condition-Example.html"
           }
         ],
         "reference": {
@@ -1543,7 +1990,7 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-AllergyIntolerance-Example.html"
+            "valueUri": "AllergyIntolerance-UKCore-AllergyIntolerance-Example.html"
           }
         ],
         "reference": {
@@ -1559,7 +2006,7 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-Organisation-Example.html"
+            "valueUri": "Organization-UKCore-Organisation-Example.html"
           }
         ],
         "reference": {
@@ -1575,7 +2022,7 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-Location-Example.html"
+            "valueUri": "Location-UKCore-Location-Example.html"
           }
         ],
         "reference": {
@@ -1591,7 +2038,7 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-RelatedPerson-Example.html"
+            "valueUri": "RelatedPerson-UKCore-RelatedPerson-Example.html"
           }
         ],
         "reference": {
@@ -1607,7 +2054,7 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-PractitionerRole-Example.html"
+            "valueUri": "PractitionerRole-UKCore-PractitionerRole-Example.html"
           }
         ],
         "reference": {
@@ -1623,7 +2070,7 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-Procedure-Example.html"
+            "valueUri": "Procedure-UKCore-Procedure-Example.html"
           }
         ],
         "reference": {
@@ -1639,7 +2086,7 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-Practitioner-Example.html"
+            "valueUri": "Practitioner-UKCore-Practitioner-Example.html"
           }
         ],
         "reference": {
@@ -1655,7 +2102,7 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-Observation-Example.html"
+            "valueUri": "Observation-UKCore-Observation-Example.html"
           }
         ],
         "reference": {
@@ -1671,7 +2118,7 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-List-Example.html"
+            "valueUri": "List-UKCore-List-Example.html"
           }
         ],
         "reference": {
@@ -1687,7 +2134,7 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-Allergy-List-Example.html"
+            "valueUri": "List-UKCore-Allergy-List-Example.html"
           }
         ],
         "reference": {
@@ -1703,27 +2150,11 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-Encounter-Example.html"
+            "valueUri": "Encounter-UKCore-Encounter-Example.html"
           }
         ],
         "reference": {
           "reference": "Encounter/UKCore-Encounter-Example"
-        },
-        "exampleBoolean": true
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Consent"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "UKCore-Consent-Example.html"
-          }
-        ],
-        "reference": {
-          "reference": "Consent/UKCore-Consent-Example"
         },
         "exampleBoolean": true
       },
@@ -1741,6 +2172,8 @@
         "reference": {
           "reference": "CodeSystem/UKCore-PreferredWrittenCommunicationFormat"
         },
+        "name": "UK Core Preferred Written Communication Format",
+        "description": "A CodeSystem to identify the preferred written communication format of a Patient, contact or RelatedPerson.",
         "exampleBoolean": false
       },
       {
@@ -1757,6 +2190,8 @@
         "reference": {
           "reference": "CodeSystem/UKCore-PreferredContactMethod"
         },
+        "name": "UK Core Preferred Contact Method",
+        "description": "A CodeSystem to identify the preferred Contact Method of a Patient, contact or RelatedPerson.",
         "exampleBoolean": false
       },
       {
@@ -1773,6 +2208,8 @@
         "reference": {
           "reference": "CodeSystem/UKCore-ConsentUpdateMode"
         },
+        "name": "UK Core Consent Update Mode",
+        "description": "A CodeSystem to identify the whether this is the original or an amended resource.",
         "exampleBoolean": false
       },
       {
@@ -1789,6 +2226,8 @@
         "reference": {
           "reference": "CodeSystem/UKCore-AddressKeyType"
         },
+        "name": "UK Core Address Key Type",
+        "description": "A CodeSystem to identify the type of Address Key recorded.",
         "exampleBoolean": false
       },
       {
@@ -1805,6 +2244,8 @@
         "reference": {
           "reference": "CodeSystem/UKCore-AdditionalRelatedPersonRole"
         },
+        "name": "UK Core Additional RelatedPerson Role",
+        "description": "A CodeSystem to identify the additional relationship roles for RelatedPerson resources.",
         "exampleBoolean": false
       },
       {
@@ -1821,6 +2262,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-PreferredWrittenCommunicationFormat"
         },
+        "name": "UK Core Preferred Written Communication Format",
+        "description": "A ValueSet to identify the preferred written communication format of a Patient, contact or RelatedPerson.",
         "exampleBoolean": false
       },
       {
@@ -1837,6 +2280,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-PreferredContactMethod"
         },
+        "name": "UK Core Preferred Contact Method",
+        "description": "A ValueSet to identify the preferred Contact Method of a Patient, contact or RelatedPerson.",
         "exampleBoolean": false
       },
       {
@@ -1853,6 +2298,8 @@
         "reference": {
           "reference": "ValueSet/UKCore-AddressKeyType"
         },
+        "name": "UK Core Address Key Type",
+        "description": "A ValueSet to identify the type of Address Key recorded.",
         "exampleBoolean": false
       },
       {
@@ -1863,12 +2310,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Extension-UKCore-CopyCorrespondenceIndicator.html"
+            "valueUri": "StructureDefinition-Extension-UKCore-CopyCorrespondenceIndicator.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-CopyCorrespondenceIndicator"
         },
+        "name": "Extension UK Core CopyCorrespondenceIndicator",
+        "description": "To indicate correspondence must be copied to the contact or RelatedPerson",
         "exampleBoolean": false
       },
       {
@@ -1879,12 +2328,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Extension-UKCore-ContactRank.html"
+            "valueUri": "StructureDefinition-Extension-UKCore-ContactRank.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-ContactRank"
         },
+        "name": "Extension UK Core ContactRank",
+        "description": "Extension UK Core ContactRank",
         "exampleBoolean": false
       },
       {
@@ -1895,12 +2346,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Extension-UKCore-ContactPreference.html"
+            "valueUri": "StructureDefinition-Extension-UKCore-ContactPreference.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-ContactPreference"
         },
+        "name": "Extension UK Core ContactPreference",
+        "description": "UKCore Contact preferences for Patient, Patient.contact or RelatedPerson",
         "exampleBoolean": false
       },
       {
@@ -1911,12 +2364,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Extension-UKCore-AddressKey.html"
+            "valueUri": "StructureDefinition-Extension-UKCore-AddressKey.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-AddressKey"
         },
+        "name": "Extension UK Core AddressKey",
+        "description": "To support recording of Address Keys within addresses",
         "exampleBoolean": false
       },
       {
@@ -1927,13 +2382,180 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Extension-UKCore-EffectivePeriod.html"
+            "valueUri": "StructureDefinition-Extension-UKCore-EffectivePeriod.html"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/Extension-UKCore-EffectivePeriod"
         },
+        "name": "Extension UKCore Effective Period",
+        "description": "To record effective start and end dates",
         "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-ConditionCategory.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-ConditionCategory"
+        },
+        "name": "UK Core Condition Category",
+        "description": "A ValueSet to identify the category of a condition."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-DocumentType.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-DocumentType"
+        },
+        "name": "UK Core Document Type",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system that describes a clinical document type. Any code from the SNOMED CT UK 'Document Type' subset with subset original id 44041000000135; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence document type simple reference set (foundation metadata concept)' with Refset Id 999000391000000109."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-UKCore-MedicationStatement.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-MedicationStatement"
+        },
+        "name": "UK Core MedicationStatement",
+        "description": "Defines the UK Core constraints and extensions on the MedicationStatement resource for the minimal set of data to query and retrieve medication statement information. "
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-UKCore-DocumentReference.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-DocumentReference"
+        },
+        "name": "UK Core DocumentReference",
+        "description": "Defines the UK Core constraints and extensions on the DocumentReference resource. "
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "UK Core STU3 Implementation Guide",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "profiles.html",
+          "title": "Profiles",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "extension_library.html",
+          "title": "Extensions",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "codesystems.html",
+          "title": "CodeSystems",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "valuesets.html",
+          "title": "ValueSets",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "conceptmaps.html",
+          "title": "ConceptMaps",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "examples.html",
+          "title": "Examples",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "history.html",
+          "title": "Change History",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "html-template",
+        "value": "test-template-master/instance-template-format.html"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/capabilities"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/examples"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/extensions"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/models"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/operations"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/profiles"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/resources"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/vocabulary"
+      },
+      {
+        "code": "path-pages",
+        "value": "template/config"
+      },
+      {
+        "code": "path-pages",
+        "value": "input/images"
+      },
+      {
+        "code": "path-tx-cache",
+        "value": "input-cache/txcache"
       }
     ]
   }

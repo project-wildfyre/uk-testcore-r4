@@ -4,23 +4,30 @@
   <id value="UKCore-AllergyCode"/>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>UK Core Allergy Code</h2><div><p>A code from the SNOMED Clinical Terminology UK with the expression (&lt;105590001 |Substance OR &lt;373873005 |Pharmaceutical / biologic product| OR &lt;716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy), or a code from the v3 Code System NullFlavor specifying why a valid value is not present.</p>
-</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where constraint  =  (&lt;&lt;105590001 |Substance OR &lt;&lt;373873005 |Pharmaceutical / biologic product| OR &lt;&lt;716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy|)</li><li>Include codes from <a href="http://build.fhir.org/v3/NullFlavor/cs.html"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a> where concept  =  <a href="http://build.fhir.org/v3/NullFlavor/cs.html#v3-NullFlavor-NI">NI</a></li></ul></div>
+</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where constraint  =  (&lt;&lt;105590001 |Substance OR &lt;&lt;373873005 |Pharmaceutical / biologic product| OR &lt;&lt;716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy|)</li><li>Include codes from <a href="http://hl7.org/fhir/R4/v3/NullFlavor/cs.html"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a> where concept  =  <a href="http://hl7.org/fhir/R4/v3/NullFlavor/cs.html#v3-NullFlavor-NI">NI</a></li></ul></div>
   </text>
   <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-AllergyCode"/>
   <version value="1.0.0"/>
   <name value="UKCoreAllergyCode"/>
   <title value="UK Core Allergy Code"/>
   <status value="draft"/>
-  <date value="2019-12-19T13:56:30+00:00"/>
+  <date value="2020-02-02T10:42:14+00:00"/>
+  <publisher value="NHS Digital"/>
   <contact>
-    <name value="Interoperability Team"/>
+    <name value="NHS Digital"/>
     <telecom>
       <system value="email"/>
-      <value value="interoperabilityteam@nhs.net"/>
+      <value value="mailto:interoperabilityteam@nhs.net"/>
       <use value="work"/>
     </telecom>
   </contact>
   <description value="A code from the SNOMED Clinical Terminology UK with the expression (&lt;105590001 |Substance OR &lt;373873005 |Pharmaceutical / biologic product| OR &lt;716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy), or a code from the v3 Code System NullFlavor specifying why a valid value is not present."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="GB"/>
+    </coding>
+  </jurisdiction>
   <copyright value="This value set includes content from SNOMED CT, which is copyright &#xA9; 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."/>
   <compose>
     <include>

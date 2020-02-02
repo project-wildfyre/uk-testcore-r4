@@ -1,0 +1,68 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/Location/UKCore-Location-Example> a fhir:Location;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "UKCore-Location-Example"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location";
+       fhir:index 0;
+       fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Location-Example</p><p><b>meta</b>: </p><p><b>identifier</b>: RR8D7</p><p><b>name</b>: CARDIOLOGY SJUH</p><p><b>type</b>: Ambulatory Health Care Facilities; Clinic/Center; Rehabilitation: Cardiac Facilities <span style=\"background: LightGoldenRodYellow\">(Details : {http://terminology.hl7.org/CodeSystem/v3-RoleCode code 'CARD' = 'Ambulatory Health Care Facilities; Clinic/Center; Rehabilitation: Cardiac Facilities', given as 'Ambulatory Health Care Facilities; Clinic/Center; Rehabilitation: Cardiac Facilities'})</span></p><p><b>telecom</b>: ph: 0113 243 3149</p><p><b>address</b>: CARDIOLOGY SJUH ST. JAMES'S UNIVERSITY HOSPITAL BECKETT STREET LEEDS LS9 7TF ENGLAND </p><p><b>managingOrganization</b>: <a href=\"{{[type]}}-{{[id]}}.html\">Generated Summary: id: UKCore-Organisation-Example; RR8 (OFFICIAL); name: LEEDS TEACHING HOSPITALS NHS TRUST; ph: 0113 243 3144</a></p></div>"
+  ];
+  fhir:Location.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "https://fhir.nhs.uk/Id/ods-site-code" ];
+     fhir:Identifier.value [ fhir:value "RR8D7" ]
+  ];
+  fhir:Location.name [ fhir:value "CARDIOLOGY SJUH"];
+  fhir:Location.type [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-RoleCode" ];
+       fhir:Coding.code [ fhir:value "CARD" ];
+       fhir:Coding.display [ fhir:value "Ambulatory Health Care Facilities; Clinic/Center; Rehabilitation: Cardiac Facilities" ]
+     ]
+  ];
+  fhir:Location.telecom [
+     fhir:index 0;
+     fhir:ContactPoint.system [ fhir:value "phone" ];
+     fhir:ContactPoint.value [ fhir:value "0113 243 3149" ]
+  ];
+  fhir:Location.address [
+     fhir:Address.line [
+       fhir:value "CARDIOLOGY SJUH";
+       fhir:index 0
+     ], [
+       fhir:value "ST. JAMES'S UNIVERSITY HOSPITAL";
+       fhir:index 1
+     ], [
+       fhir:value "BECKETT STREET";
+       fhir:index 2
+     ];
+     fhir:Address.city [ fhir:value "LEEDS" ];
+     fhir:Address.postalCode [ fhir:value "LS9 7TF" ];
+     fhir:Address.country [ fhir:value "ENGLAND" ]
+  ];
+  fhir:Location.managingOrganization [
+     fhir:link <https://fhir.nhs.uk/R4/Organization/UKCore-Organisation-Example>;
+     fhir:Reference.reference [ fhir:value "Organization/UKCore-Organisation-Example" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/Location/UKCore-Location-Example.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

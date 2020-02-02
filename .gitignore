@@ -1,3 +1,6 @@
+.idea/
+*.iml
 temp/
-qa/
-org.hl7.fhir.publisher.jar
+template/
+docs/
+input-cache/*.jar
