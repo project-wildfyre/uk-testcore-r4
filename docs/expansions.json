@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "a0e04eeb-efef-41f4-ad25-9ab01f72fd57",
+  "id" : "74bf34cc-6df7-477b-b038-02f23ef5dcca",
   "meta" : {
-    "lastUpdated" : "2020-02-02T11:47:23.663+00:00"
+    "lastUpdated" : "2020-02-15T17:00:48.309+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -38,8 +38,8 @@
       }],
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:5b44dd7f-fee0-4422-89cf-3c0dd7684010",
-        "timestamp" : "2020-02-02T11:47:39+00:00",
+        "identifier" : "urn:uuid:01cb0500-494b-4fbf-bf25-72ea896647cd",
+        "timestamp" : "2020-02-15T17:02:15+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -99,8 +99,8 @@
       }],
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:200bc554-3285-4973-8342-ab1c6c2bbbbe",
-        "timestamp" : "2020-02-02T11:47:47+00:00",
+        "identifier" : "urn:uuid:3a3e2974-2cbb-4b2b-adee-468b80bbdafb",
+        "timestamp" : "2020-02-15T17:02:41+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -165,8 +165,8 @@
       }],
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:74585ba6-e8f4-4f06-99ef-e6e213c6a4ac",
-        "timestamp" : "2020-02-02T11:47:49+00:00",
+        "identifier" : "urn:uuid:5abc2cee-e100-4314-bec8-fbdfb4432a88",
+        "timestamp" : "2020-02-15T17:02:44+00:00",
         "total" : 19,
         "parameter" : [{
           "name" : "excludeNested",
@@ -307,8 +307,8 @@
       }],
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:fffaca69-7a56-4aa5-914e-131d1f7b2d6b",
-        "timestamp" : "2020-02-02T11:47:53+00:00",
+        "identifier" : "urn:uuid:8dcab8b9-2514-41d3-b53d-3146c849a6cb",
+        "timestamp" : "2020-02-15T17:02:57+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -342,16 +342,46 @@
     }
   },
   {
+    "fullUrl" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisode",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "UKCore-ConditionEpisode",
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2019</p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-255217005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255217005\">255217005</a></td><td>First episode</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-288527008\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=288527008\">288527008</a></td><td>New episode</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-303350001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=303350001\">303350001</a></td><td>Ongoing episode</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-272131007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=272131007\">272131007</a></td><td>Old episode</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-394846009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=394846009\">394846009</a></td><td>Undefined episodicity</td><td/></tr></table></div>"
       },
+      "url" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisode",
+      "version" : "1.0.0",
+      "name" : "UKCoreConditionEpisode",
+      "title" : "UK Core Condition Episode",
+      "status" : "draft",
+      "date" : "2019-11-11T00:00:00+00:00",
+      "publisher" : "NHS Digital",
+      "contact" : [{
+        "name" : "NHS Digital",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "mailto:interoperabilityteam@nhs.net",
+          "use" : "work"
+        }]
+      }],
+      "description" : "A code from the SNOMED Clinical Terminology UK coding system that describes the episodicity of a Condition.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "GB"
+        }]
+      }],
+      "copyright" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.",
       "expansion" : {
-        "identifier" : "urn:uuid:bb686d0d-309b-4004-87ce-6edf218f9d9e",
-        "timestamp" : "2020-02-02T09:55:46.143Z",
+        "identifier" : "urn:uuid:6a5c39b1-f802-4104-a821-ca74c49fb8c2",
+        "timestamp" : "2020-02-15T17:03:03+00:00",
+        "total" : 5,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -420,8 +450,8 @@
       }],
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:c358f0d5-a853-41b8-aaa0-4d244d23b27f",
-        "timestamp" : "2020-02-02T11:47:57+00:00",
+        "identifier" : "urn:uuid:228e1b02-aa40-4ae8-9f73-06313a054069",
+        "timestamp" : "2020-02-15T17:03:06+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -486,8 +516,8 @@
       }],
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:caa74cb7-fb8e-42d2-9dee-6d0ddf8bae95",
-        "timestamp" : "2020-02-02T11:47:57+00:00",
+        "identifier" : "urn:uuid:3bf22a04-b401-4233-9099-424ac26eb3a1",
+        "timestamp" : "2020-02-15T17:03:06+00:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -567,8 +597,8 @@
       }],
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:90bcfe92-f180-4b0b-abce-5c034b432556",
-        "timestamp" : "2020-02-02T11:47:59+00:00",
+        "identifier" : "urn:uuid:dd2140ca-7562-4a77-b184-58d70f9a410d",
+        "timestamp" : "2020-02-15T17:03:11+00:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
@@ -654,8 +684,8 @@
       }],
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:522217e2-7974-488b-891c-29cf35fa98d6",
-        "timestamp" : "2020-02-02T11:48:03+00:00",
+        "identifier" : "urn:uuid:a1be1601-0154-4318-b936-0d204f2ffba2",
+        "timestamp" : "2020-02-15T17:03:15+00:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -731,8 +761,8 @@
       }],
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:b3e31a51-477a-40cf-8cdf-988519bce54f",
-        "timestamp" : "2020-02-02T11:48:04+00:00",
+        "identifier" : "urn:uuid:dfea8c9a-1b28-4cd4-b56f-3f46036f86f0",
+        "timestamp" : "2020-02-15T17:03:16+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -756,16 +786,46 @@
     }
   },
   {
+    "fullUrl" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-ListCode",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "UKCore-ListCode",
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 16 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2019</p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-887161000000102\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=887161000000102\">887161000000102</a></td><td>Diagnoses</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-887171000000109\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=887171000000109\">887171000000109</a></td><td>Procedures</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-717711000000103\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=717711000000103\">717711000000103</a></td><td>Problems</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-933361000000108\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=933361000000108\">933361000000108</a></td><td>Medications and medical devices</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-886921000000105\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=886921000000105\">886921000000105</a></td><td>Allergies and adverse reactions</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-1102411000000102\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1102411000000102\">1102411000000102</a></td><td>Active medications</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-1102191000000100\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1102191000000100\">1102191000000100</a></td><td>Discontinued medications</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-1103671000000101\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1103671000000101\">1103671000000101</a></td><td>Ended allergies</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-325851000000107\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=325851000000107\">325851000000107</a></td><td>Consultation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-25851000000105\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=25851000000105\">25851000000105</a></td><td>Topic (EHR)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-24781000000107\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=24781000000107\">24781000000107</a></td><td>Category (EHR)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-1102181000000102\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1102181000000102\">1102181000000102</a></td><td>Immunisations</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-826501000000100\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=826501000000100\">826501000000100</a></td><td>Miscellaneous record</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-792931000000107\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=792931000000107\">792931000000107</a></td><td>Outbound referral</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-887191000000108\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=887191000000108\">887191000000108</a></td><td>Investigations and results</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-1149501000000101\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1149501000000101\">1149501000000101</a></td><td>List of consultations</td><td/></tr></table></div>"
       },
+      "url" : "https://fhir.nhs.uk/R4/ValueSet/UKCore-ListCode",
+      "version" : "1.0.0",
+      "name" : "UKCoreListCode",
+      "title" : "UK Core List Code",
+      "status" : "draft",
+      "date" : "2019-11-04T00:00:00+00:00",
+      "publisher" : "NHS Digital",
+      "contact" : [{
+        "name" : "NHS Digital",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "mailto:interoperabilityteam@nhs.net",
+          "use" : "work"
+        }]
+      }],
+      "description" : "A ValueSet to identify the purpose of a list.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "GB"
+        }]
+      }],
+      "copyright" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.",
       "expansion" : {
-        "identifier" : "urn:uuid:f085dbaa-3a97-4070-9c6c-65326efa4408",
-        "timestamp" : "2020-02-02T09:56:04.471Z",
+        "identifier" : "urn:uuid:1bc43e80-7fe2-49c2-a992-799db87493bb",
+        "timestamp" : "2020-02-15T17:03:16+00:00",
+        "total" : 16,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -893,8 +953,8 @@
       }],
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:650b4498-fb11-44dd-8a48-e5a389c8e7db",
-        "timestamp" : "2020-02-02T11:48:04+00:00",
+        "identifier" : "urn:uuid:0d505a5f-827d-4038-9be4-efaf32630c43",
+        "timestamp" : "2020-02-15T17:03:18+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -964,8 +1024,8 @@
       }],
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:ee08b367-81e0-4a5f-8ae6-8b343ad562db",
-        "timestamp" : "2020-02-02T11:48:09+00:00",
+        "identifier" : "urn:uuid:cfa177ec-01bf-4969-8717-d954fd046e2f",
+        "timestamp" : "2020-02-15T17:03:25+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1050,8 +1110,8 @@
       }],
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:80ea11da-7533-4b65-ad3d-c86cc5b6401d",
-        "timestamp" : "2020-02-02T11:48:09+00:00",
+        "identifier" : "urn:uuid:bef7a917-1898-4f3e-8e60-c8157ee96dbd",
+        "timestamp" : "2020-02-15T17:03:25+00:00",
         "total" : 190,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2051,8 +2111,8 @@
       }],
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:671c9728-2492-43f8-ab96-ab14eeb36047",
-        "timestamp" : "2020-02-02T11:48:10+00:00",
+        "identifier" : "urn:uuid:1bd93f08-1f2e-4efe-abd7-a5110d9eb699",
+        "timestamp" : "2020-02-15T17:03:30+00:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2132,8 +2192,8 @@
       }],
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:8e1e298a-188d-4e2c-8aa5-22ee46a94e2b",
-        "timestamp" : "2020-02-02T11:48:10+00:00",
+        "identifier" : "urn:uuid:4c83f113-a8b4-4ecf-be8b-22fcb1b3ab4d",
+        "timestamp" : "2020-02-15T17:03:30+00:00",
         "total" : 14,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2257,8 +2317,8 @@
       }],
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:dfcc0fa8-a0a6-4887-98fb-5aab7d7fa88c",
-        "timestamp" : "2020-02-02T11:48:15+00:00",
+        "identifier" : "urn:uuid:316bbf21-63dc-4350-ae76-d03dad9cbb44",
+        "timestamp" : "2020-02-15T17:03:42+00:00",
         "total" : 68,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2644,8 +2704,8 @@
       }],
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:ec1c997a-7fc2-409b-9f3b-135a9849b1dd",
-        "timestamp" : "2020-02-02T11:48:16+00:00",
+        "identifier" : "urn:uuid:5c7c37bf-4d88-4d1f-8fed-e8e1fa965fe5",
+        "timestamp" : "2020-02-15T17:03:45+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2710,8 +2770,8 @@
       }],
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:5b7ed7c8-757f-4f35-88a0-bf2e225c6915",
-        "timestamp" : "2020-02-02T11:48:17+00:00",
+        "identifier" : "urn:uuid:e93cd510-498d-4763-8609-33dcae36d6b0",
+        "timestamp" : "2020-02-15T17:03:49+00:00",
         "total" : 18,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2847,8 +2907,8 @@
       }],
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:9d26fe09-83c0-44ed-bd6e-b58cb813cb8e",
-        "timestamp" : "2020-02-02T11:48:19+00:00",
+        "identifier" : "urn:uuid:61679f52-98c5-44c8-8f9c-9a0f8f842fac",
+        "timestamp" : "2020-02-15T17:03:57+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2909,8 +2969,8 @@
       }],
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:7157db04-9364-4108-8828-65e240dda7e2",
-        "timestamp" : "2020-02-02T11:48:20+00:00",
+        "identifier" : "urn:uuid:a459ae41-6103-4e58-b833-c0d29cd89685",
+        "timestamp" : "2020-02-15T17:03:59+00:00",
         "total" : 392,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4916,8 +4976,8 @@
       }],
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:133f4aef-1a6a-47cd-a069-e1a89ee83196",
-        "timestamp" : "2020-02-02T11:48:20+00:00",
+        "identifier" : "urn:uuid:db6fdbf1-8123-420a-a0b2-a7e13dc4ae86",
+        "timestamp" : "2020-02-15T17:03:59+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4968,8 +5028,8 @@
       }],
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:e001ad3b-0399-4acc-8e57-6de1cf5e3557",
-        "timestamp" : "2020-02-02T11:48:20+00:00",
+        "identifier" : "urn:uuid:f21fe4da-69ca-41c4-a595-8e6cd5b7e265",
+        "timestamp" : "2020-02-15T17:04:00+00:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5059,8 +5119,8 @@
       }],
       "copyright" : "Copyright © 2019 NHS Digital",
       "expansion" : {
-        "identifier" : "urn:uuid:05d86727-74dc-46e7-acb2-4a8fcec84f2a",
-        "timestamp" : "2020-02-02T11:48:20+00:00",
+        "identifier" : "urn:uuid:aeb7ce8a-0159-4d49-a620-eda34b960bbd",
+        "timestamp" : "2020-02-15T17:04:00+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",

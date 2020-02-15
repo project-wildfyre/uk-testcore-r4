@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "ExtensionUKCoreConditionEpisode"];
   fhir:StructureDefinition.title [ fhir:value "Extension UK Core Condition Episode"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2020-02-02T11:47:23+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2020-02-15T17:00:48+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "NHS Digital"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
