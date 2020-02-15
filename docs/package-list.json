@@ -1,7 +1,7 @@
 {
     "package-id": "uk.testcore.r4",
     "title": "UK Core R4",
-    "canonical": "https://fhir.nhs.uk/R4",
+    "canonical": "https://project-wildfyre.github.io/uk-testcore-r4/",
     "introduction": "UK Test Core R4",
     "list": [
         {
