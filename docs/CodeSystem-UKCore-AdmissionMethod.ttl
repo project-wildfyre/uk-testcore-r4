@@ -23,10 +23,10 @@
   fhir:CodeSystem.title [ fhir:value "NHS Data Model and Dictionary Admission Method"];
   fhir:CodeSystem.status [ fhir:value "draft"];
   fhir:CodeSystem.date [ fhir:value "2019-11-05T00:00:00+00:00"^^xsd:dateTime];
-  fhir:CodeSystem.publisher [ fhir:value "NHS Digital"];
+  fhir:CodeSystem.publisher [ fhir:value "Project Wildfyre"];
   fhir:CodeSystem.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "NHS Digital" ];
+     fhir:ContactDetail.name [ fhir:value "Project Wildfyre" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "email" ];

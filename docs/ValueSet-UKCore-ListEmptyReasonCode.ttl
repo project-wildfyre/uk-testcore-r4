@@ -18,10 +18,10 @@
   fhir:ValueSet.title [ fhir:value "UK Core List Empty Reason Code"];
   fhir:ValueSet.status [ fhir:value "draft"];
   fhir:ValueSet.date [ fhir:value "2019-11-04T00:00:00+00:00"^^xsd:dateTime];
-  fhir:ValueSet.publisher [ fhir:value "NHS Digital"];
+  fhir:ValueSet.publisher [ fhir:value "Project Wildfyre"];
   fhir:ValueSet.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "NHS Digital" ];
+     fhir:ContactDetail.name [ fhir:value "Project Wildfyre" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "email" ];

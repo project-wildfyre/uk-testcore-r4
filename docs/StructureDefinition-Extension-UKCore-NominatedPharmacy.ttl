@@ -18,10 +18,10 @@
   fhir:StructureDefinition.title [ fhir:value "Extension UK Core Nominated Pharmacy"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
   fhir:StructureDefinition.date [ fhir:value "2019-10-28T00:00:00+00:00"^^xsd:dateTime];
-  fhir:StructureDefinition.publisher [ fhir:value "NHS Digital"];
+  fhir:StructureDefinition.publisher [ fhir:value "Project Wildfyre"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "NHS Digital" ];
+     fhir:ContactDetail.name [ fhir:value "Project Wildfyre" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "email" ];

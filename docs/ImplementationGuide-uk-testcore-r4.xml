@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="nhsdigital-fhir-r4-core-prototype"/>
+  <id value="uk-testcore-r4"/>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>HL7FHIRUKCore</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype</pre></div>
   </text>
@@ -36,9 +36,9 @@
   <status value="draft"/>
   <experimental value="true"/>
   <date value="2019-10-14T00:00:00+01:00"/>
-  <publisher value="NHS Digital"/>
+  <publisher value="Project Wildfyre"/>
   <contact>
-    <name value="NHS Digital"/>
+    <name value="Project Wildfyre"/>
     <telecom>
       <system value="email"/>
       <value value="mailto:interoperabilityteam@nhs.net"/>
@@ -1866,7 +1866,12 @@
       <generation value="html"/>
       <page>
         <nameUrl value="index.html"/>
-        <title value="UK Core STU3 Implementation Guide"/>
+        <title value="UK Core R4 Implementation Guide"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="validation.html"/>
+        <title value="Validation"/>
         <generation value="markdown"/>
       </page>
       <page>

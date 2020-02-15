@@ -17,11 +17,11 @@
   fhir:StructureDefinition.name [ fhir:value "UKCoreCondition"];
   fhir:StructureDefinition.title [ fhir:value "UK Core Condition"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2020-02-15T17:00:48+00:00"^^xsd:dateTime];
-  fhir:StructureDefinition.publisher [ fhir:value "NHS Digital"];
+  fhir:StructureDefinition.date [ fhir:value "2020-02-15T17:50:32+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.publisher [ fhir:value "Project Wildfyre"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "NHS Digital" ];
+     fhir:ContactDetail.name [ fhir:value "Project Wildfyre" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "email" ];

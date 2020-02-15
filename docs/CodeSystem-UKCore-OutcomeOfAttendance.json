@@ -17,10 +17,10 @@
   "title": "NHS Data Model and Dictionary Outcome of Attendance",
   "status": "draft",
   "date": "2019-11-05T00:00:00+00:00",
-  "publisher": "NHS Digital",
+  "publisher": "Project Wildfyre",
   "contact": [
     {
-      "name": "NHS Digital",
+      "name": "Project Wildfyre",
       "telecom": [
         {
           "system": "email",

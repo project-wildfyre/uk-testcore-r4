@@ -14,10 +14,10 @@
   <title value="Extension UK Core CopyCorrespondenceIndicator"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2020-02-15T17:00:48+00:00"/>
-  <publisher value="NHS Digital"/>
+  <date value="2020-02-15T17:50:32+00:00"/>
+  <publisher value="Project Wildfyre"/>
   <contact>
-    <name value="NHS Digital"/>
+    <name value="Project Wildfyre"/>
     <telecom>
       <system value="email"/>
       <value value="mailto:interoperabilityteam@nhs.net"/>

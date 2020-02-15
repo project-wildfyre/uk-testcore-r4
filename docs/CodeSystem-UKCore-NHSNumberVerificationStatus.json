@@ -17,10 +17,10 @@
   "title": "UK Core NHS Number Verification Status",
   "status": "draft",
   "date": "2019-10-14T01:00:00+01:00",
-  "publisher": "NHS Digital",
+  "publisher": "Project Wildfyre",
   "contact": [
     {
-      "name": "NHS Digital",
+      "name": "Project Wildfyre",
       "telecom": [
         {
           "system": "email",

@@ -3,7 +3,7 @@
   "id": "UKCore-AdministrativeGender",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ConceptMapUKCoreAdministrativeGender (https://fhir.nhs.uk/R4/ConceptMap/UKCore-AdministrativeGender)</h2><p>Mapping from <a href=\"http://hl7.org/fhir/R4/valueset-administrative-gender.html\">http://hl7.org/fhir/ValueSet/administrative-gender</a> to <a href=\"ValueSet-UKCore-NHSDataDictionary-PersonStatedGender.html\">https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonStatedGender</a></p><p>DRAFT. Published on 18 Oct 2019, 13:00:00 by NHS Digital (NHS Digital: <a href=\"mailto:mailto:interoperabilityteam@nhs.net\">mailto:interoperabilityteam@nhs.net</a>). Copyright © 2019 NHS Digital</p><div><p>A Concept Map from ValueSet Administrative Gender to NHS Data Dictionary Person Stated Gender to aid interpretation.</p>\n</div><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>male</td><td>equivalent</td><td>1 (Male)</td></tr><tr><td>female</td><td>equivalent</td><td>2 (Female)</td></tr><tr><td>other</td><td>equivalent</td><td>9 (Indeterminate (unable to be classified as either male or female))</td></tr><tr><td>unknown</td><td>equivalent</td><td>X (Not Known (not recorded))</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ConceptMapUKCoreAdministrativeGender (https://fhir.nhs.uk/R4/ConceptMap/UKCore-AdministrativeGender)</h2><p>Mapping from <a href=\"http://hl7.org/fhir/R4/valueset-administrative-gender.html\">http://hl7.org/fhir/ValueSet/administrative-gender</a> to <a href=\"ValueSet-UKCore-NHSDataDictionary-PersonStatedGender.html\">https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonStatedGender</a></p><p>DRAFT. Published on 18 Oct 2019, 13:00:00 by Project Wildfyre (Project Wildfyre: <a href=\"mailto:mailto:interoperabilityteam@nhs.net\">mailto:interoperabilityteam@nhs.net</a>). Copyright © 2019 NHS Digital</p><div><p>A Concept Map from ValueSet Administrative Gender to NHS Data Dictionary Person Stated Gender to aid interpretation.</p>\n</div><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>male</td><td>equivalent</td><td>1 (Male)</td></tr><tr><td>female</td><td>equivalent</td><td>2 (Female)</td></tr><tr><td>other</td><td>equivalent</td><td>9 (Indeterminate (unable to be classified as either male or female))</td></tr><tr><td>unknown</td><td>equivalent</td><td>X (Not Known (not recorded))</td></tr></table></div>"
   },
   "url": "https://fhir.nhs.uk/R4/ConceptMap/UKCore-AdministrativeGender",
   "version": "1.0.0",
@@ -11,10 +11,10 @@
   "title": "Concept Map - UK Core Administrative Gender",
   "status": "draft",
   "date": "2019-10-18T13:00:00+01:00",
-  "publisher": "NHS Digital",
+  "publisher": "Project Wildfyre",
   "contact": [
     {
-      "name": "NHS Digital",
+      "name": "Project Wildfyre",
       "telecom": [
         {
           "system": "email",

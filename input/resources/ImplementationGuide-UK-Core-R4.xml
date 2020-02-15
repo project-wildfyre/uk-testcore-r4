@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="nhsdigital-fhir-r4-core-prototype"/>
+  <id value="uk-testcore-r4"/>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
     <valueString value="C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\resources"/>
   </extension>
@@ -27,18 +27,18 @@
     <valueString value="C:\RepoGitHub\FHIR-R4-Core-IG-Prototype\source\pages"/>
   </extension>
   <url value="https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype"/>
-  <version value="1.0.0"/>
+  <version value="4.0.0"/>
   <name value="HL7FHIRUKCore"/>
   <title value="HL7 FHIR&#xAE;  UK Core"/>
   <status value="draft"/>
   <experimental value="true"/>
   <date value="2019-10-14T00:00:00+01:00"/>
-  <publisher value="NHS Digital"/>
+  <publisher value="Project Wildfyre"/>
   <contact>
-    <name value="NHS Digital"/>
+    <name value="Project Wildfyre"/>
     <telecom>
       <system value="email"/>
-      <value value="mailto:interoperabilityteam@nhs.net"/>
+      <value value="mailto:dunno@dummy.net"/>
       <use value="work"/>
     </telecom>
   </contact>
@@ -783,8 +783,13 @@
       <title value="Table of Contents"></title>
       <generation value="html"></generation>
       <page>
-        <nameUrl value="index.html"></nameUrl>
-        <title value="UK Core STU3 Implementation Guide"></title>
+      <nameUrl value="index.html"></nameUrl>
+      <title value="UK Core R4 Implementation Guide"></title>
+      <generation value="markdown"></generation>
+    </page>
+      <page>
+        <nameUrl value="validation.html"></nameUrl>
+        <title value="Validation"></title>
         <generation value="markdown"></generation>
       </page>
       <page>
@@ -823,5 +828,18 @@
         <generation value="markdown"></generation>
       </page>
     </page>
+    <parameter>
+      <code value="copyrightyear"/>
+      <value value="2020+"/>
+    </parameter>
+    <!-- releaselabel should be the ballot status for HL7-published IGs. -->
+    <parameter>
+      <code value="releaselabel"/>
+      <value value="CI Build"/>
+    </parameter>
+    <parameter>
+      <code value="find-other-resources"/>
+      <value value="true"/>
+    </parameter>
   </definition>
 </ImplementationGuide>

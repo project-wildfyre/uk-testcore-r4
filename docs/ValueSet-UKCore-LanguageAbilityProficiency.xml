@@ -16,9 +16,9 @@
   <title value="UK Core Language Ability Proficiency"/>
   <status value="draft"/>
   <date value="2019-10-25T01:00:00+01:00"/>
-  <publisher value="NHS Digital"/>
+  <publisher value="Project Wildfyre"/>
   <contact>
-    <name value="NHS Digital"/>
+    <name value="Project Wildfyre"/>
     <telecom>
       <system value="email"/>
       <value value="mailto:interoperabilityteam@nhs.net"/>

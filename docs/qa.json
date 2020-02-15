@@ -3,9 +3,9 @@
   "name": "HL7FHIRUKCore",
   "package-id": "uk.testcore.r4",
   "ig-ver": "1.0.0",
-  "date": "Sat, 15 Feb, 2020 17:00:48 +0000",
-  "errs": 66,
-  "warnings": 48,
+  "date": "Sat, 15 Feb, 2020 17:50:32 +0000",
+  "errs": 72,
+  "warnings": 56,
   "hints": 6,
   "version": "4.0.1",
   "tool": "4.2.0 (3)"

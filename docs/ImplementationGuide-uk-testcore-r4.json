@@ -1,6 +1,6 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "nhsdigital-fhir-r4-core-prototype",
+  "id": "uk-testcore-r4",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HL7FHIRUKCore</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype</pre></div>"
@@ -46,10 +46,10 @@
   "status": "draft",
   "experimental": true,
   "date": "2019-10-14T00:00:00+01:00",
-  "publisher": "NHS Digital",
+  "publisher": "Project Wildfyre",
   "contact": [
     {
-      "name": "NHS Digital",
+      "name": "Project Wildfyre",
       "telecom": [
         {
           "system": "email",
@@ -2468,7 +2468,12 @@
       "page": [
         {
           "nameUrl": "index.html",
-          "title": "UK Core STU3 Implementation Guide",
+          "title": "UK Core R4 Implementation Guide",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "validation.html",
+          "title": "Validation",
           "generation": "markdown"
         },
         {

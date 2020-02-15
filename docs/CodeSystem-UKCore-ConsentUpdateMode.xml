@@ -12,9 +12,9 @@
   <title value="UK Core Consent Update Mode"/>
   <status value="draft"/>
   <date value="2019-12-06T00:00:00+00:00"/>
-  <publisher value="NHS Digital"/>
+  <publisher value="Project Wildfyre"/>
   <contact>
-    <name value="NHS Digital"/>
+    <name value="Project Wildfyre"/>
     <telecom>
       <system value="email"/>
       <value value="mailto:interoperabilityteam@nhs.net"/>

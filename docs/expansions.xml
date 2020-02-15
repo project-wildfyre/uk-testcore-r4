@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="74bf34cc-6df7-477b-b038-02f23ef5dcca"/>
+  <id value="41eebf9c-0966-4a48-bb99-6ccc72bd2fae"/>
   <meta>
-    <lastUpdated value="2020-02-15T17:00:48.309+00:00"/>
+    <lastUpdated value="2020-02-15T17:50:32.371+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -58,9 +58,9 @@
         <title value="UK Core Residential Status"/>
         <status value="draft"/>
         <date value="2019-10-18T01:00:00+01:00"/>
-        <publisher value="NHS Digital"/>
+        <publisher value="Project Wildfyre"/>
         <contact>
-          <name value="NHS Digital"/>
+          <name value="Project Wildfyre"/>
           <telecom>
             <system value="email"/>
             <value value="mailto:interoperabilityteam@nhs.net"/>
@@ -76,8 +76,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:01cb0500-494b-4fbf-bf25-72ea896647cd"/>
-          <timestamp value="2020-02-15T17:02:15+00:00"/>
+          <identifier value="urn:uuid:b99af765-897c-471e-8cd3-8c83eae95011"/>
+          <timestamp value="2020-02-15T17:50:57+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -164,9 +164,9 @@
         <title value="NHS Data Model and Dictionary Outcome Of Attendance"/>
         <status value="draft"/>
         <date value="2019-11-05T00:00:00+00:00"/>
-        <publisher value="NHS Digital"/>
+        <publisher value="Project Wildfyre"/>
         <contact>
-          <name value="NHS Digital"/>
+          <name value="Project Wildfyre"/>
           <telecom>
             <system value="email"/>
             <value value="mailto:interoperabilityteam@nhs.net"/>
@@ -182,8 +182,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:3a3e2974-2cbb-4b2b-adee-468b80bbdafb"/>
-          <timestamp value="2020-02-15T17:02:41+00:00"/>
+          <identifier value="urn:uuid:6e3ee469-2bf9-4183-916f-98c5fbd8e5e8"/>
+          <timestamp value="2020-02-15T17:51:08+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -403,9 +403,9 @@
         <title value="NHS Data Model and Dictionary Discharge Destination"/>
         <status value="draft"/>
         <date value="2019-11-05T00:00:00+00:00"/>
-        <publisher value="NHS Digital"/>
+        <publisher value="Project Wildfyre"/>
         <contact>
-          <name value="NHS Digital"/>
+          <name value="Project Wildfyre"/>
           <telecom>
             <system value="email"/>
             <value value="mailto:interoperabilityteam@nhs.net"/>
@@ -421,8 +421,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:5abc2cee-e100-4314-bec8-fbdfb4432a88"/>
-          <timestamp value="2020-02-15T17:02:44+00:00"/>
+          <identifier value="urn:uuid:6232750f-07d5-4ad1-82e1-566b4afa796f"/>
+          <timestamp value="2020-02-15T17:51:12+00:00"/>
           <total value="19"/>
           <parameter>
             <name value="excludeNested"/>
@@ -599,9 +599,9 @@
         <title value="UK Core Condition Episodicity"/>
         <status value="draft"/>
         <date value="2019-11-11T00:00:00+00:00"/>
-        <publisher value="NHS Digital"/>
+        <publisher value="Project Wildfyre"/>
         <contact>
-          <name value="NHS Digital"/>
+          <name value="Project Wildfyre"/>
           <telecom>
             <system value="email"/>
             <value value="mailto:interoperabilityteam@nhs.net"/>
@@ -617,8 +617,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:8dcab8b9-2514-41d3-b53d-3146c849a6cb"/>
-          <timestamp value="2020-02-15T17:02:57+00:00"/>
+          <identifier value="urn:uuid:bc9bf37c-607b-4c18-987a-877cdf28996a"/>
+          <timestamp value="2020-02-15T17:51:48+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -653,10 +653,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisode"/>
     <resource>
       <ValueSet>
-        <id value="UKCore-ConditionEpisode"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -722,37 +720,9 @@
             </table>
           </div>
         </text>
-        <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisode"/>
-        <version value="1.0.0"/>
-        <name value="UKCoreConditionEpisode"/>
-        <title value="UK Core Condition Episode"/>
-        <status value="draft"/>
-        <date value="2019-11-11T00:00:00+00:00"/>
-        <publisher value="NHS Digital"/>
-        <contact>
-          <name value="NHS Digital"/>
-          <telecom>
-            <system value="email"/>
-            <value value="mailto:interoperabilityteam@nhs.net"/>
-            <use value="work"/>
-          </telecom>
-        </contact>
-        <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the episodicity of a Condition."/>
-        <jurisdiction>
-          <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="GB"/>
-          </coding>
-        </jurisdiction>
-        <copyright value="This value set includes content from SNOMED CT, which is copyright &#xA9; 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."/>
         <expansion>
-          <identifier value="urn:uuid:6a5c39b1-f802-4104-a821-ca74c49fb8c2"/>
-          <timestamp value="2020-02-15T17:03:03+00:00"/>
-          <total value="5"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:17f0d3a5-00ba-4657-87d8-b51776a9e14b"/>
+          <timestamp value="2020-02-15T17:03:03.330Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -850,9 +820,9 @@
         <title value="UK Core Death Notification Status"/>
         <status value="draft"/>
         <date value="2019-10-25T01:00:00+01:00"/>
-        <publisher value="NHS Digital"/>
+        <publisher value="Project Wildfyre"/>
         <contact>
-          <name value="NHS Digital"/>
+          <name value="Project Wildfyre"/>
           <telecom>
             <system value="email"/>
             <value value="mailto:interoperabilityteam@nhs.net"/>
@@ -868,8 +838,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:228e1b02-aa40-4ae8-9f73-06313a054069"/>
-          <timestamp value="2020-02-15T17:03:06+00:00"/>
+          <identifier value="urn:uuid:0d95396a-7e91-4202-b291-8715792792ab"/>
+          <timestamp value="2020-02-15T17:52:04+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -986,9 +956,9 @@
         <title value="UK Core Language Ability Mode"/>
         <status value="draft"/>
         <date value="2019-10-25T01:00:00+01:00"/>
-        <publisher value="NHS Digital"/>
+        <publisher value="Project Wildfyre"/>
         <contact>
-          <name value="NHS Digital"/>
+          <name value="Project Wildfyre"/>
           <telecom>
             <system value="email"/>
             <value value="mailto:interoperabilityteam@nhs.net"/>
@@ -1004,8 +974,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:3bf22a04-b401-4233-9099-424ac26eb3a1"/>
-          <timestamp value="2020-02-15T17:03:06+00:00"/>
+          <identifier value="urn:uuid:a74d97a8-10f3-4144-bfdb-1a9ff1b63c24"/>
+          <timestamp value="2020-02-15T17:52:04+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1152,9 +1122,9 @@
         <title value="UK Core NHS Number Verification Status"/>
         <status value="draft"/>
         <date value="2019-10-14T01:00:00+01:00"/>
-        <publisher value="NHS Digital"/>
+        <publisher value="Project Wildfyre"/>
         <contact>
-          <name value="NHS Digital"/>
+          <name value="Project Wildfyre"/>
           <telecom>
             <system value="email"/>
             <value value="mailto:interoperabilityteam@nhs.net"/>
@@ -1170,8 +1140,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:dd2140ca-7562-4a77-b184-58d70f9a410d"/>
-          <timestamp value="2020-02-15T17:03:11+00:00"/>
+          <identifier value="urn:uuid:990f085e-9c7f-459c-af8e-232492969513"/>
+          <timestamp value="2020-02-15T17:52:12+00:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1309,9 +1279,9 @@
         <title value="UK Core Treatment Category"/>
         <status value="draft"/>
         <date value="2019-10-25T01:00:00+01:00"/>
-        <publisher value="NHS Digital"/>
+        <publisher value="Project Wildfyre"/>
         <contact>
-          <name value="NHS Digital"/>
+          <name value="Project Wildfyre"/>
           <telecom>
             <system value="email"/>
             <value value="mailto:interoperabilityteam@nhs.net"/>
@@ -1327,8 +1297,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:a1be1601-0154-4318-b936-0d204f2ffba2"/>
-          <timestamp value="2020-02-15T17:03:15+00:00"/>
+          <identifier value="urn:uuid:7d94582e-dfdd-477c-800b-ceb9c1c52be2"/>
+          <timestamp value="2020-02-15T17:52:20+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1424,9 +1394,9 @@
         <title value="UK Core Address Key Type"/>
         <status value="draft"/>
         <date value="2019-12-06T00:00:00+00:00"/>
-        <publisher value="NHS Digital"/>
+        <publisher value="Project Wildfyre"/>
         <contact>
-          <name value="NHS Digital"/>
+          <name value="Project Wildfyre"/>
           <telecom>
             <system value="email"/>
             <value value="mailto:interoperabilityteam@nhs.net"/>
@@ -1442,8 +1412,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:dfea8c9a-1b28-4cd4-b56f-3f46036f86f0"/>
-          <timestamp value="2020-02-15T17:03:16+00:00"/>
+          <identifier value="urn:uuid:9eb58901-844d-4d8b-b069-fe87f217e700"/>
+          <timestamp value="2020-02-15T17:52:23+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1468,10 +1438,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ListCode"/>
     <resource>
       <ValueSet>
-        <id value="UKCore-ListCode"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -1625,37 +1593,9 @@
             </table>
           </div>
         </text>
-        <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ListCode"/>
-        <version value="1.0.0"/>
-        <name value="UKCoreListCode"/>
-        <title value="UK Core List Code"/>
-        <status value="draft"/>
-        <date value="2019-11-04T00:00:00+00:00"/>
-        <publisher value="NHS Digital"/>
-        <contact>
-          <name value="NHS Digital"/>
-          <telecom>
-            <system value="email"/>
-            <value value="mailto:interoperabilityteam@nhs.net"/>
-            <use value="work"/>
-          </telecom>
-        </contact>
-        <description value="A ValueSet to identify the purpose of a list."/>
-        <jurisdiction>
-          <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="GB"/>
-          </coding>
-        </jurisdiction>
-        <copyright value="This value set includes content from SNOMED CT, which is copyright &#xA9; 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."/>
         <expansion>
-          <identifier value="urn:uuid:1bc43e80-7fe2-49c2-a992-799db87493bb"/>
-          <timestamp value="2020-02-15T17:03:16+00:00"/>
-          <total value="16"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:06429350-8796-4845-8598-1a6363f85489"/>
+          <timestamp value="2020-02-15T17:03:17.127Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -1820,9 +1760,9 @@
         <title value="UK Core Language Ability Proficiency"/>
         <status value="draft"/>
         <date value="2019-10-25T01:00:00+01:00"/>
-        <publisher value="NHS Digital"/>
+        <publisher value="Project Wildfyre"/>
         <contact>
-          <name value="NHS Digital"/>
+          <name value="Project Wildfyre"/>
           <telecom>
             <system value="email"/>
             <value value="mailto:interoperabilityteam@nhs.net"/>
@@ -1838,8 +1778,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:0d505a5f-827d-4038-9be4-efaf32630c43"/>
-          <timestamp value="2020-02-15T17:03:18+00:00"/>
+          <identifier value="urn:uuid:2bcc9f0c-5785-4e72-a196-a86aac7aa7b6"/>
+          <timestamp value="2020-02-15T17:52:23+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1968,9 +1908,9 @@
         <title value="NHS Data Model and Dictionary Discharge Method"/>
         <status value="draft"/>
         <date value="2019-11-05T00:00:00+00:00"/>
-        <publisher value="NHS Digital"/>
+        <publisher value="Project Wildfyre"/>
         <contact>
-          <name value="NHS Digital"/>
+          <name value="Project Wildfyre"/>
           <telecom>
             <system value="email"/>
             <value value="mailto:interoperabilityteam@nhs.net"/>
@@ -1986,8 +1926,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:cfa177ec-01bf-4969-8717-d954fd046e2f"/>
-          <timestamp value="2020-02-15T17:03:25+00:00"/>
+          <identifier value="urn:uuid:86faf55a-4c47-4ee4-a59e-97d80dd133e9"/>
+          <timestamp value="2020-02-15T17:52:30+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3596,9 +3536,9 @@
         <title value="UK Core Human Language"/>
         <status value="draft"/>
         <date value="2019-10-25T01:00:00+01:00"/>
-        <publisher value="NHS Digital"/>
+        <publisher value="Project Wildfyre"/>
         <contact>
-          <name value="NHS Digital"/>
+          <name value="Project Wildfyre"/>
           <telecom>
             <system value="email"/>
             <value value="mailto:interoperabilityteam@nhs.net"/>
@@ -3614,8 +3554,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:bef7a917-1898-4f3e-8e60-c8157ee96dbd"/>
-          <timestamp value="2020-02-15T17:03:25+00:00"/>
+          <identifier value="urn:uuid:f1bdb454-88fa-4869-8934-dad95fde084a"/>
+          <timestamp value="2020-02-15T17:52:30+00:00"/>
           <total value="190"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4666,9 +4606,9 @@
         <title value="NHS Data Model and Dictionary Person Marital Status Code"/>
         <status value="active"/>
         <date value="2019-10-18T13:00:00+01:00"/>
-        <publisher value="NHS Digital"/>
+        <publisher value="Project Wildfyre"/>
         <contact>
-          <name value="NHS Digital"/>
+          <name value="Project Wildfyre"/>
           <telecom>
             <system value="email"/>
             <value value="mailto:interoperabilityteam@nhs.net"/>
@@ -4684,8 +4624,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:1bd93f08-1f2e-4efe-abd7-a5110d9eb699"/>
-          <timestamp value="2020-02-15T17:03:30+00:00"/>
+          <identifier value="urn:uuid:fe6d9120-fb1e-4305-b041-d1dd88a07e3e"/>
+          <timestamp value="2020-02-15T17:52:31+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4880,9 +4820,9 @@
         <title value="NHS Data Model and Dictionary Source Of Admission"/>
         <status value="draft"/>
         <date value="2019-11-05T00:00:00+00:00"/>
-        <publisher value="NHS Digital"/>
+        <publisher value="Project Wildfyre"/>
         <contact>
-          <name value="NHS Digital"/>
+          <name value="Project Wildfyre"/>
           <telecom>
             <system value="email"/>
             <value value="mailto:interoperabilityteam@nhs.net"/>
@@ -4898,8 +4838,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:4c83f113-a8b4-4ecf-be8b-22fcb1b3ab4d"/>
-          <timestamp value="2020-02-15T17:03:30+00:00"/>
+          <identifier value="urn:uuid:938745ac-8414-41dc-b9da-850664b28e59"/>
+          <timestamp value="2020-02-15T17:52:32+00:00"/>
           <total value="14"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5570,9 +5510,9 @@
         <title value="UK Core Ethnic Category"/>
         <status value="draft"/>
         <date value="2019-10-17T01:00:00+01:00"/>
-        <publisher value="NHS Digital"/>
+        <publisher value="Project Wildfyre"/>
         <contact>
-          <name value="NHS Digital"/>
+          <name value="Project Wildfyre"/>
           <telecom>
             <system value="email"/>
             <value value="mailto:interoperabilityteam@nhs.net"/>
@@ -5588,8 +5528,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:316bbf21-63dc-4350-ae76-d03dad9cbb44"/>
-          <timestamp value="2020-02-15T17:03:42+00:00"/>
+          <identifier value="urn:uuid:935e9d8e-6b12-440e-af78-9f8c3c019e5d"/>
+          <timestamp value="2020-02-15T17:52:36+00:00"/>
           <total value="68"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6003,9 +5943,9 @@
         <title value="UK Core Preferred Written Communication Format"/>
         <status value="draft"/>
         <date value="2019-12-06T00:00:00+00:00"/>
-        <publisher value="NHS Digital"/>
+        <publisher value="Project Wildfyre"/>
         <contact>
-          <name value="NHS Digital"/>
+          <name value="Project Wildfyre"/>
           <telecom>
             <system value="email"/>
             <value value="mailto:interoperabilityteam@nhs.net"/>
@@ -6021,8 +5961,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:5c7c37bf-4d88-4d1f-8fed-e8e1fa965fe5"/>
-          <timestamp value="2020-02-15T17:03:45+00:00"/>
+          <identifier value="urn:uuid:b7a8aa39-da9a-4d7f-95bd-d730d48b5c47"/>
+          <timestamp value="2020-02-15T17:52:37+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6234,9 +6174,9 @@
         <title value="NHS Data Model and Dictionary Admission Method"/>
         <status value="draft"/>
         <date value="2019-11-05T00:00:00+00:00"/>
-        <publisher value="NHS Digital"/>
+        <publisher value="Project Wildfyre"/>
         <contact>
-          <name value="NHS Digital"/>
+          <name value="Project Wildfyre"/>
           <telecom>
             <system value="email"/>
             <value value="mailto:interoperabilityteam@nhs.net"/>
@@ -6252,8 +6192,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:e93cd510-498d-4763-8609-33dcae36d6b0"/>
-          <timestamp value="2020-02-15T17:03:49+00:00"/>
+          <identifier value="urn:uuid:c029dbc5-3238-45d3-8f58-e48d54aa5a35"/>
+          <timestamp value="2020-02-15T17:52:39+00:00"/>
           <total value="18"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6417,9 +6357,9 @@
         <title value="UK Core List Warning Code"/>
         <status value="draft"/>
         <date value="2019-11-04T00:00:00+00:00"/>
-        <publisher value="NHS Digital"/>
+        <publisher value="Project Wildfyre"/>
         <contact>
-          <name value="NHS Digital"/>
+          <name value="Project Wildfyre"/>
           <telecom>
             <system value="email"/>
             <value value="mailto:interoperabilityteam@nhs.net"/>
@@ -6435,8 +6375,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:61679f52-98c5-44c8-8f9c-9a0f8f842fac"/>
-          <timestamp value="2020-02-15T17:03:57+00:00"/>
+          <identifier value="urn:uuid:d64669b0-da27-4786-8e51-62570789fe43"/>
+          <timestamp value="2020-02-15T17:52:41+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -9637,9 +9577,9 @@
         <title value="UK Core SDS Job Role Name"/>
         <status value="draft"/>
         <date value="2019-10-31T00:00:00+00:00"/>
-        <publisher value="NHS Digital"/>
+        <publisher value="Project Wildfyre"/>
         <contact>
-          <name value="NHS Digital"/>
+          <name value="Project Wildfyre"/>
           <telecom>
             <system value="email"/>
             <value value="mailto:interoperabilityteam@nhs.net"/>
@@ -9655,8 +9595,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:a459ae41-6103-4e58-b833-c0d29cd89685"/>
-          <timestamp value="2020-02-15T17:03:59+00:00"/>
+          <identifier value="urn:uuid:92fc2ad9-bfc4-4178-bacf-861065fa1143"/>
+          <timestamp value="2020-02-15T17:52:41+00:00"/>
           <total value="392"/>
           <parameter>
             <name value="excludeNested"/>
@@ -11674,9 +11614,9 @@
         <title value="UK Core List Empty Reason Code"/>
         <status value="draft"/>
         <date value="2019-11-04T00:00:00+00:00"/>
-        <publisher value="NHS Digital"/>
+        <publisher value="Project Wildfyre"/>
         <contact>
-          <name value="NHS Digital"/>
+          <name value="Project Wildfyre"/>
           <telecom>
             <system value="email"/>
             <value value="mailto:interoperabilityteam@nhs.net"/>
@@ -11692,8 +11632,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:db6fdbf1-8123-420a-a0b2-a7e13dc4ae86"/>
-          <timestamp value="2020-02-15T17:03:59+00:00"/>
+          <identifier value="urn:uuid:137c20fe-77ec-42ec-ba01-c55a33fa3d7e"/>
+          <timestamp value="2020-02-15T17:52:41+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -11812,9 +11752,9 @@
         <title value="UK Core Preferred Contact Method"/>
         <status value="draft"/>
         <date value="2019-12-06T00:00:00+00:00"/>
-        <publisher value="NHS Digital"/>
+        <publisher value="Project Wildfyre"/>
         <contact>
-          <name value="NHS Digital"/>
+          <name value="Project Wildfyre"/>
           <telecom>
             <system value="email"/>
             <value value="mailto:interoperabilityteam@nhs.net"/>
@@ -11830,8 +11770,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:f21fe4da-69ca-41c4-a595-8e6cd5b7e265"/>
-          <timestamp value="2020-02-15T17:04:00+00:00"/>
+          <identifier value="urn:uuid:35068aaf-4bc0-4503-a63c-7acf50b35db5"/>
+          <timestamp value="2020-02-15T17:52:42+00:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -11956,9 +11896,9 @@
         <title value="NHS Data Model and Dictionary Person Stated Gender Code"/>
         <status value="active"/>
         <date value="2019-10-18T13:00:00+01:00"/>
-        <publisher value="NHS Digital"/>
+        <publisher value="Project Wildfyre"/>
         <contact>
-          <name value="NHS Digital"/>
+          <name value="Project Wildfyre"/>
           <telecom>
             <system value="email"/>
             <value value="mailto:interoperabilityteam@nhs.net"/>
@@ -11974,8 +11914,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
         <expansion>
-          <identifier value="urn:uuid:aeb7ce8a-0159-4d49-a620-eda34b960bbd"/>
-          <timestamp value="2020-02-15T17:04:00+00:00"/>
+          <identifier value="urn:uuid:9e49a0fe-20e2-4695-ad50-397426b79c9c"/>
+          <timestamp value="2020-02-15T17:52:42+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>

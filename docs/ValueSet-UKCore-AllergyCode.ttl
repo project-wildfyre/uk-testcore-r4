@@ -17,11 +17,11 @@
   fhir:ValueSet.name [ fhir:value "UKCoreAllergyCode"];
   fhir:ValueSet.title [ fhir:value "UK Core Allergy Code"];
   fhir:ValueSet.status [ fhir:value "draft"];
-  fhir:ValueSet.date [ fhir:value "2020-02-15T17:00:48+00:00"^^xsd:dateTime];
-  fhir:ValueSet.publisher [ fhir:value "NHS Digital"];
+  fhir:ValueSet.date [ fhir:value "2020-02-15T17:50:32+00:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "Project Wildfyre"];
   fhir:ValueSet.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "NHS Digital" ];
+     fhir:ContactDetail.name [ fhir:value "Project Wildfyre" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "email" ];

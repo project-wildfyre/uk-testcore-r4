@@ -17,10 +17,10 @@
   "title": "NHS Data Model and Dictionary Person Marital Status Code",
   "status": "active",
   "date": "2019-10-18T13:00:00+01:00",
-  "publisher": "NHS Digital",
+  "publisher": "Project Wildfyre",
   "contact": [
     {
-      "name": "NHS Digital",
+      "name": "Project Wildfyre",
       "telecom": [
         {
           "system": "email",

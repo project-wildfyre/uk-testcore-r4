@@ -10,11 +10,11 @@
   "name": "UKCoreAllergyIntolerance",
   "title": "UK Core AllergyIntolerance",
   "status": "draft",
-  "date": "2020-02-15T17:00:48+00:00",
-  "publisher": "NHS Digital",
+  "date": "2020-02-15T17:50:32+00:00",
+  "publisher": "Project Wildfyre",
   "contact": [
     {
-      "name": "NHS Digital",
+      "name": "Project Wildfyre",
       "telecom": [
         {
           "system": "email",

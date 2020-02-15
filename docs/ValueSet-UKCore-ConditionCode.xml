@@ -12,9 +12,9 @@
   <title value="UK Core Condition Code"/>
   <status value="draft"/>
   <date value="2019-11-11T00:00:00+00:00"/>
-  <publisher value="NHS Digital"/>
+  <publisher value="Project Wildfyre"/>
   <contact>
-    <name value="NHS Digital"/>
+    <name value="Project Wildfyre"/>
     <telecom>
       <system value="email"/>
       <value value="mailto:interoperabilityteam@nhs.net"/>

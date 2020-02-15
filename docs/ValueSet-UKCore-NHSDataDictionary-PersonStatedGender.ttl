@@ -23,10 +23,10 @@
   fhir:ValueSet.title [ fhir:value "NHS Data Model and Dictionary Person Stated Gender Code"];
   fhir:ValueSet.status [ fhir:value "active"];
   fhir:ValueSet.date [ fhir:value "2019-10-18T13:00:00+01:00"^^xsd:dateTime];
-  fhir:ValueSet.publisher [ fhir:value "NHS Digital"];
+  fhir:ValueSet.publisher [ fhir:value "Project Wildfyre"];
   fhir:ValueSet.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "NHS Digital" ];
+     fhir:ContactDetail.name [ fhir:value "Project Wildfyre" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "email" ];

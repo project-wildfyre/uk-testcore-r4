@@ -5,9 +5,9 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype> a fhir:ImplementationGuide;
+<https://fhir.nhs.uk/R4/ImplementationGuide/uk-testcore-r4> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "nhsdigital-fhir-r4-core-prototype"];
+  fhir:Resource.id [ fhir:value "uk-testcore-r4"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HL7FHIRUKCore</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype</pre></div>"
@@ -52,10 +52,10 @@
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "true"^^xsd:boolean];
   fhir:ImplementationGuide.date [ fhir:value "2019-10-14T00:00:00+01:00"^^xsd:dateTime];
-  fhir:ImplementationGuide.publisher [ fhir:value "NHS Digital"];
+  fhir:ImplementationGuide.publisher [ fhir:value "Project Wildfyre"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "NHS Digital" ];
+     fhir:ContactDetail.name [ fhir:value "Project Wildfyre" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "email" ];
@@ -2449,40 +2449,45 @@
        fhir:ImplementationGuide.definition.page.page [
          fhir:index 0;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "index.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "UK Core STU3 Implementation Guide" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "UK Core R4 Implementation Guide" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 1;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "validation.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Validation" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 2;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "profiles.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Profiles" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
-         fhir:index 2;
+         fhir:index 3;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "extension_library.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Extensions" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
-         fhir:index 3;
+         fhir:index 4;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "codesystems.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "CodeSystems" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
-         fhir:index 4;
+         fhir:index 5;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "valuesets.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "ValueSets" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
-         fhir:index 5;
+         fhir:index 6;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "conceptmaps.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "ConceptMaps" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
-         fhir:index 6;
+         fhir:index 7;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "examples.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Examples" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
-         fhir:index 7;
+         fhir:index 8;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "history.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Change History" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
@@ -2541,7 +2546,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype.ttl> a owl:Ontology;
+<https://fhir.nhs.uk/R4/ImplementationGuide/uk-testcore-r4.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

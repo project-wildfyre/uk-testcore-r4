@@ -11,10 +11,10 @@
   "title": "UK Core SDS Job Role Name",
   "status": "draft",
   "date": "2019-10-31T00:00:00+00:00",
-  "publisher": "NHS Digital",
+  "publisher": "Project Wildfyre",
   "contact": [
     {
-      "name": "NHS Digital",
+      "name": "Project Wildfyre",
       "telecom": [
         {
           "system": "email",
