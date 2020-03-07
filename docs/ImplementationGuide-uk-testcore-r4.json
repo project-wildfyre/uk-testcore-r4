@@ -5,42 +5,8 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HL7FHIRUKCore</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype</pre></div>"
   },
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-      "valueString": "C:\\RepoGitHub\\FHIR-R4-Core-IG-Prototype\\source\\resources"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-      "valueString": "C:\\RepoGitHub\\FHIR-R4-Core-IG-Prototype\\source\\codesystems"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-      "valueString": "C:\\RepoGitHub\\FHIR-R4-Core-IG-Prototype\\source\\valuesets"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-      "valueString": "C:\\RepoGitHub\\FHIR-R4-Core-IG-Prototype\\source\\structuredefinitions"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-      "valueString": "C:\\RepoGitHub\\FHIR-R4-Core-IG-Prototype\\source\\examples"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-      "valueString": "C:\\RepoGitHub\\FHIR-R4-Core-IG-Prototype\\source\\conceptmaps"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
-      "valueString": "C:\\RepoGitHub\\FHIR-R4-Core-IG-Prototype\\framework"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
-      "valueString": "C:\\RepoGitHub\\FHIR-R4-Core-IG-Prototype\\source\\pages"
-    }
-  ],
   "url": "https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype",
-  "version": "1.0.0",
+  "version": "4.0.0",
   "name": "HL7FHIRUKCore",
   "title": "HL7 FHIR®  UK Core",
   "status": "draft",
@@ -53,7 +19,7 @@
       "telecom": [
         {
           "system": "email",
-          "value": "mailto:interoperabilityteam@nhs.net",
+          "value": "mailto:dunno@dummy.net",
           "use": "work"
         }
       ]
@@ -124,6 +90,32 @@
           {
             "url": "value",
             "valueString": "JSON"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "copyrightyear"
+          },
+          {
+            "url": "value",
+            "valueString": "2020+"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "releaselabel"
+          },
+          {
+            "url": "value",
+            "valueString": "CI Build"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"

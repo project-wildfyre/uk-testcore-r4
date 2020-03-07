@@ -7,7 +7,7 @@
 </div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href="CodeSystem-UKCore-PreferredContactMethod.html"><code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-PreferredContactMethod</code></a></li></ul></div>
   </text>
   <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-PreferredContactMethod"/>
-  <version value="1.0.0"/>
+  <version value="4.0.0"/>
   <name value="UKCorePreferredContactMethod"/>
   <title value="UK Core Preferred Contact Method"/>
   <status value="draft"/>
@@ -17,7 +17,7 @@
     <name value="Project Wildfyre"/>
     <telecom>
       <system value="email"/>
-      <value value="mailto:interoperabilityteam@nhs.net"/>
+      <value value="mailto:dunno@dummy.net"/>
       <use value="work"/>
     </telecom>
   </contact>

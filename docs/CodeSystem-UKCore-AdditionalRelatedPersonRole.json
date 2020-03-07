@@ -6,7 +6,7 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UK Core Additional RelatedPerson Role</h2><div><p>A CodeSystem to identify the additional relationship roles for RelatedPerson resources.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This code system https://fhir.nhs.uk/R4/Codesystem/UKCore-AdditionalRelatedPersonRole defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">Agent<a name=\"UKCore-AdditionalRelatedPersonRole-Agent\"> </a></td><td>Agent of patient</td><td/></tr><tr><td style=\"white-space:nowrap\">Guardian<a name=\"UKCore-AdditionalRelatedPersonRole-Guardian\"> </a></td><td>Guardian of patient</td><td/></tr></table></div>"
   },
   "url": "https://fhir.nhs.uk/R4/Codesystem/UKCore-AdditionalRelatedPersonRole",
-  "version": "1.0.0",
+  "version": "4.0.0",
   "name": "UKCoreAdditionalRelatedPersonRole",
   "title": "UK Core Additional RelatedPerson Role",
   "status": "draft",
@@ -18,7 +18,7 @@
       "telecom": [
         {
           "system": "email",
-          "value": "mailto:interoperabilityteam@nhs.net",
+          "value": "mailto:dunno@dummy.net",
           "use": "work"
         }
       ]

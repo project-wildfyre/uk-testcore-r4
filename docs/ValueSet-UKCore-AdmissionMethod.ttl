@@ -18,7 +18,7 @@
      fhir:Extension.valueUri [ fhir:value "http://www.datadictionary.nhs.uk/data_dictionary/attributes/a/add/admission_method_de.asp?shownav=1" ]
   ];
   fhir:ValueSet.url [ fhir:value "https://fhir.nhs.uk/R4/ValueSet/UKCore-AdmissionMethod"];
-  fhir:ValueSet.version [ fhir:value "1.0.0"];
+  fhir:ValueSet.version [ fhir:value "4.0.0"];
   fhir:ValueSet.name [ fhir:value "NHSDataModelandDictionaryAdmissionMethod"];
   fhir:ValueSet.title [ fhir:value "NHS Data Model and Dictionary Admission Method"];
   fhir:ValueSet.status [ fhir:value "draft"];
@@ -30,7 +30,7 @@
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "mailto:interoperabilityteam@nhs.net" ];
+       fhir:ContactPoint.value [ fhir:value "mailto:dunno@dummy.net" ];
        fhir:ContactPoint.use [ fhir:value "work" ]
      ]
   ];

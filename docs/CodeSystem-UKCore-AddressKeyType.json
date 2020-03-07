@@ -6,7 +6,7 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UK Core Address Key Type</h2><div><p>A CodeSystem to identify the type of Address Key recorded.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-AddressKeyType defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">PAF<a name=\"UKCore-AddressKeyType-PAF\"> </a></td><td>Postal Address File Key</td><td/></tr><tr><td style=\"white-space:nowrap\">UPRN<a name=\"UKCore-AddressKeyType-UPRN\"> </a></td><td>Unique Property Reference Number</td><td/></tr></table></div>"
   },
   "url": "https://fhir.nhs.uk/R4/CodeSystem/UKCore-AddressKeyType",
-  "version": "1.0.0",
+  "version": "4.0.0",
   "name": "UKCoreAddressKeyType",
   "title": "UK Core Address Key Type",
   "status": "draft",
@@ -18,7 +18,7 @@
       "telecom": [
         {
           "system": "email",
-          "value": "mailto:interoperabilityteam@nhs.net",
+          "value": "mailto:dunno@dummy.net",
           "use": "work"
         }
       ]

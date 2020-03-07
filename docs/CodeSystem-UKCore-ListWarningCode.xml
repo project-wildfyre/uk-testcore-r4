@@ -7,7 +7,7 @@
 </div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListWarningCode defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">confidential-items<a name="UKCore-ListWarningCode-confidential-items"> </a></td><td>Confidential Items</td><td>Items excluded due to confidentiality and/or patient preferences.</td></tr><tr><td style="white-space:nowrap">data-in-transit<a name="UKCore-ListWarningCode-data-in-transit"> </a></td><td>Data in Transit</td><td>Patient record transfer from previous GP practice not yet complete; any information recorded before dd-mmm-yyyy has been excluded.</td></tr><tr><td style="white-space:nowrap">data-awaiting-filing<a name="UKCore-ListWarningCode-data-awaiting-filing"> </a></td><td>Data Awaiting Filing</td><td>Patient data may be incomplete as there is data supplied by a third party awaiting review before becoming available.</td></tr></table></div>
   </text>
   <url value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListWarningCode"/>
-  <version value="1.0.0"/>
+  <version value="4.0.0"/>
   <name value="UKCoreListWarningCode"/>
   <title value="UK Core List Warning Code"/>
   <status value="draft"/>
@@ -17,7 +17,7 @@
     <name value="Project Wildfyre"/>
     <telecom>
       <system value="email"/>
-      <value value="mailto:interoperabilityteam@nhs.net"/>
+      <value value="mailto:dunno@dummy.net"/>
       <use value="work"/>
     </telecom>
   </contact>

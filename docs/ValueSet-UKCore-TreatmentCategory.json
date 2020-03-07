@@ -6,7 +6,7 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UK Core Treatment Category</h2><div><p>A ValueSet that identifies the treatment category for a patient.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-UKCore-TreatmentCategory.html\"><code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory</code></a></li></ul></div>"
   },
   "url": "https://fhir.nhs.uk/R4/ValueSet/UKCore-TreatmentCategory",
-  "version": "1.0.0",
+  "version": "4.0.0",
   "name": "UKCoreTreatmentCategory",
   "title": "UK Core Treatment Category",
   "status": "draft",
@@ -18,7 +18,7 @@
       "telecom": [
         {
           "system": "email",
-          "value": "mailto:interoperabilityteam@nhs.net",
+          "value": "mailto:dunno@dummy.net",
           "use": "work"
         }
       ]

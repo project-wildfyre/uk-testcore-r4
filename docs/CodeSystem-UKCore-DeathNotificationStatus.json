@@ -6,7 +6,7 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UK Core Death Notification Status</h2><div><p>A CodeSystem to identify the type of death notice as held on Personal Demographics Service (PDS).</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-DeathNotificationStatus defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"UKCore-DeathNotificationStatus-1\"> </a></td><td>Informal - death notice received via an update from a local NHS Organisation such as GP or Trust</td><td/></tr><tr><td style=\"white-space:nowrap\">2<a name=\"UKCore-DeathNotificationStatus-2\"> </a></td><td>Formal - death notice received from Registrar of Deaths</td><td/></tr><tr><td style=\"white-space:nowrap\">U<a name=\"UKCore-DeathNotificationStatus-U\"> </a></td><td>Removed</td><td/></tr></table></div>"
   },
   "url": "https://fhir.nhs.uk/R4/CodeSystem/UKCore-DeathNotificationStatus",
-  "version": "1.0.0",
+  "version": "4.0.0",
   "name": "UKCoreDeathNotificationStatus",
   "title": "UK Core Death Notification Status",
   "status": "draft",
@@ -18,7 +18,7 @@
       "telecom": [
         {
           "system": "email",
-          "value": "mailto:interoperabilityteam@nhs.net",
+          "value": "mailto:dunno@dummy.net",
           "use": "work"
         }
       ]

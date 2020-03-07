@@ -1,14 +1,14 @@
 ﻿HL7FHIRUKCore : Validation Results
 =========================================
 
-err = 72, warn = 56, info = 6
-IG Publisher Version: v1.0.64-SNAPSHOT
-Generated Sat Feb 15 17:56:05 GMT 2020. FHIR version 4.0.1 for uk.testcore.r4#1.0.0 (canonical = https://fhir.nhs.uk/R4)
+err = 20, warn = 52, info = 6
+IG Publisher Version: v1.0.70-SNAPSHOT
+Generated Sat Mar 07 07:56:28 GMT 2020. FHIR version 4.0.1 for uk.testcore.r4#4.0.0 (canonical = https://fhir.nhs.uk/R4)
 
  Build Errors : 53 / 14
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-Allergy-List-Example : 1 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-AllergyIntolerance-Example : 0 / 0
- /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-Condition-Example : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-Condition-Example : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-Encounter-Example : 0 / 1
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-List-Example : 1 / 1
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-Location-Example : 0 / 0
@@ -17,7 +17,7 @@ Generated Sat Feb 15 17:56:05 GMT 2020. FHIR version 4.0.1 for uk.testcore.r4#1.
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-Patient-Example : 0 / 1
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-Practitioner-Example : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-PractitionerRole-Example : 0 / 0
- /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-Procedure-Example : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-Procedure-Example : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-RelatedPerson-Example : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem-UKCore-AdditionalRelatedPersonRole : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem-UKCore-AddressKeyType : 0 / 0
@@ -73,7 +73,7 @@ Generated Sat Feb 15 17:56:05 GMT 2020. FHIR version 4.0.1 for uk.testcore.r4#1.
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/Extension-UKCore-ReligiousAffiliation : 0 / 1
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/Extension-UKCore-ResidentialStatus : 0 / 1
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/Extension-UKCore-TreatmentCategory : 0 / 1
- /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ImplementationGuide-UK-Core-R4 : 19 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ImplementationGuide-UK-Core-R4 : 3 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/UKCore-AllergyIntolerance : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/UKCore-Condition : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/UKCore-DocumentReference : 0 / 1
@@ -90,13 +90,13 @@ Generated Sat Feb 15 17:56:05 GMT 2020. FHIR version 4.0.1 for uk.testcore.r4#1.
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/UKCore-RelatedPerson : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-AddressKeyType : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-AdmissionMethod : 0 / 0
- /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-AllergyCertainty : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-AllergyCertainty : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-AllergyCode : 1 / 0
- /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-AllergyExposureRoute : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-AllergyExposureRoute : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-AllergyManifestation : 1 / 0
- /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-AllergySeverity : 1 / 0
- /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-BodySite : 1 / 0
- /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-CareSettingType : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-AllergySeverity : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-BodySite : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-CareSettingType : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-ConditionCategory : 1 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-ConditionCode : 1 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-ConditionEpisode : 0 / 0
@@ -104,9 +104,9 @@ Generated Sat Feb 15 17:56:05 GMT 2020. FHIR version 4.0.1 for uk.testcore.r4#1.
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-DeathNotificationStatus : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-DischargeDestination : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-DischargeMethod : 0 / 0
- /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-DocumentType : 1 / 0
- /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-EmergencyCareDischargeStatus : 1 / 0
- /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-EncounterType : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-DocumentType : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-EmergencyCareDischargeStatus : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-EncounterType : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-EthnicCategory : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-HumanLanguage : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-LanguageAbilityMode : 0 / 0
@@ -117,12 +117,12 @@ Generated Sat Feb 15 17:56:05 GMT 2020. FHIR version 4.0.1 for uk.testcore.r4#1.
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-NHSDataDictionary-PersonStatedGender : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-NHSNumberVerificationStatus : 0 / 0
- /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-ObservationType : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-ObservationType : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-OutcomeOfAttendance : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-PreferredContactMethod : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-PreferredWrittenCommunicationFormat : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-ProcedureCode : 1 / 0
- /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-ReligiousAffiliation : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-ReligiousAffiliation : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-ResidentialStatus : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-SDSJobRoleName : 0 / 0
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-SourceOfAdmission : 0 / 0
@@ -197,25 +197,23 @@ ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension
 ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 247, column 12: The link 'Extension-UKCore-TreatmentCategory.html' for "Extension UK Core TreatmentCategory" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/index.html#/html/body/div/div/div/div/div/p/a at Line 138, column 42: The link 'summary.html' for "Summary" cannot be resolved
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-Allergy-List-Example.xml ==
-ERROR: List/UKCore-Allergy-List-Example: List.code.coding[0]: unable to find code 886921000000105 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20190731) for 'http://snomed.info/sct#886921000000105'
+ERROR: List/UKCore-Allergy-List-Example: List.code.coding[0]: unable to find code 886921000000105 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200131) for "http://snomed.info/sct#886921000000105"
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-AllergyIntolerance-Example.xml ==
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-Condition-Example.xml ==
-WARNING: Condition/UKCore-Condition-Example: Condition.code.coding[0]: The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionCode, and a code should come from this value set unless it has no suitable code.  (error message = The filter "constraint = (< 404684003 |Clinical finding| OR < 413350009 |Finding with explicit context| OR < 272379006 |Event|)" was not understood in the context of http://snomed.info/sct)
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-Encounter-Example.xml ==
-WARNING: Encounter/UKCore-Encounter-Example: Encounter.type[0].coding[0]: The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-EncounterType, and a code should come from this value set unless it has no suitable code.  (error message = The filter "constraint = <<185316007 OR <<308467007 OR <<185201007" was not understood in the context of http://snomed.info/sct)
+WARNING: Encounter/UKCore-Encounter-Example: Encounter.type[0].coding[0]: The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-EncounterType, and a code should come from this value set unless it has no suitable code.  (error message = Unknown Code http://snomed.info/sct#185212007 in http://snomed.info/sct)
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-List-Example.xml ==
-ERROR: List/UKCore-List-Example: List.code.coding[0]: unable to find code 826501000000100 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20190731) for 'http://snomed.info/sct#826501000000100'
+ERROR: List/UKCore-List-Example: List.code.coding[0]: unable to find code 826501000000100 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200131) for "http://snomed.info/sct#826501000000100"
 INFORMATION: List/UKCore-List-Example: List.emptyReason: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/list-empty-reason (http://hl7.org/fhir/ValueSet/list-empty-reason, and a code is recommended to come from this value set) (codes = https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListEmptyReasonCode#no-content-recorded)
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-Location-Example.xml ==
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-Observation-Example.xml ==
-WARNING: Observation/UKCore-Observation-Example: Observation.code.coding[0]: The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-ObservationType, and a code should come from this value set unless it has no suitable code.  (error message = The filter "constraint = (<<363787002 | Observable entity|)" was not understood in the context of http://snomed.info/sct)
+WARNING: Observation/UKCore-Observation-Example: Observation.code.coding[0]: The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-ObservationType, and a code should come from this value set unless it has no suitable code.  (error message = Unknown Code http://snomed.info/sct#162564003 in http://snomed.info/sct)
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-Organisation-Example.xml ==
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-Patient-Example.xml ==
-INFORMATION: Patient/UKCore-Patient-Example: Patient.extension[0].value.ofType(CodeableConcept).coding[0]: Code System URI 'https://fhir.nhs.uk/R4/UKCore-EthnicCategory-1' is unknown so the code cannot be validated
+INFORMATION: Patient/UKCore-Patient-Example: Patient.extension[0].value.ofType(CodeableConcept).coding[0]: Code System URI "https://fhir.nhs.uk/R4/UKCore-EthnicCategory-1" is unknown so the code cannot be validated
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-Practitioner-Example.xml ==
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-PractitionerRole-Example.xml ==
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-Procedure-Example.xml ==
-WARNING: Procedure/UKCore-Procedure-Example: Procedure.code.coding[0]: The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-ProcedureCode, and a code should come from this value set unless it has no suitable code.  (error message = The filter "constraint = (<<71388002 |Procedure|<<129125009 OR |Procedure with explicit context|)" was not understood in the context of http://snomed.info/sct)
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/examples/UKCore-RelatedPerson-Example.xml ==
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem-UKCore-AdditionalRelatedPersonRole.xml ==
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem-UKCore-AddressKeyType.xml ==
@@ -296,22 +294,6 @@ WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-TreatmentCa
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ImplementationGuide-UK-Core-R4.xml ==
 ERROR: https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype: Conformance resource /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ImplementationGuide-UK-Core-R4.xml - the canonical URL (https://fhir.nhs.uk/R4/ImplementationGuide/uk-testcore-r4) does not match the URL (https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype)
 ERROR: ImplementationGuide.url: Resource id/url mismatch: uk-testcore-r4/https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype
-ERROR: ImplementationGuide/uk-testcore-r4: ImplementationGuide.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource is unknown, and not allowed here
-ERROR: ImplementationGuide/uk-testcore-r4: ImplementationGuide.extension[0].url: URL value 'http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource' does not resolve
-ERROR: ImplementationGuide/uk-testcore-r4: ImplementationGuide.extension[1]: The extension http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource is unknown, and not allowed here
-ERROR: ImplementationGuide/uk-testcore-r4: ImplementationGuide.extension[1].url: URL value 'http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource' does not resolve
-ERROR: ImplementationGuide/uk-testcore-r4: ImplementationGuide.extension[2]: The extension http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource is unknown, and not allowed here
-ERROR: ImplementationGuide/uk-testcore-r4: ImplementationGuide.extension[2].url: URL value 'http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource' does not resolve
-ERROR: ImplementationGuide/uk-testcore-r4: ImplementationGuide.extension[3]: The extension http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource is unknown, and not allowed here
-ERROR: ImplementationGuide/uk-testcore-r4: ImplementationGuide.extension[3].url: URL value 'http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource' does not resolve
-ERROR: ImplementationGuide/uk-testcore-r4: ImplementationGuide.extension[4]: The extension http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource is unknown, and not allowed here
-ERROR: ImplementationGuide/uk-testcore-r4: ImplementationGuide.extension[4].url: URL value 'http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource' does not resolve
-ERROR: ImplementationGuide/uk-testcore-r4: ImplementationGuide.extension[5]: The extension http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource is unknown, and not allowed here
-ERROR: ImplementationGuide/uk-testcore-r4: ImplementationGuide.extension[5].url: URL value 'http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource' does not resolve
-ERROR: ImplementationGuide/uk-testcore-r4: ImplementationGuide.extension[6]: The extension http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages is unknown, and not allowed here
-ERROR: ImplementationGuide/uk-testcore-r4: ImplementationGuide.extension[6].url: URL value 'http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages' does not resolve
-ERROR: ImplementationGuide/uk-testcore-r4: ImplementationGuide.extension[7]: The extension http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages is unknown, and not allowed here
-ERROR: ImplementationGuide/uk-testcore-r4: ImplementationGuide.extension[7].url: URL value 'http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages' does not resolve
 ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ImplementationGuide-UK-Core-R4: URL Mismatch https://fhir.nhs.uk/R4/ImplementationGuide/uk-testcore-r4 vs https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/UKCore-AllergyIntolerance.xml ==
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/UKCore-Condition.xml ==
@@ -333,19 +315,14 @@ INFORMATION: https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient: The Impl
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-AddressKeyType.xml ==
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-AdmissionMethod.xml ==
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-AllergyCertainty.xml ==
-ERROR: UKCore-AllergyCertainty: Error from server: The filter "constraint = (385434005 |Improbable diagnosis| OR 2931005 |Probable diagnosis| OR 255545003 |Definite| OR 410605003 |Confirmed present|)" was not understood in the context of http://snomed.info/sct
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-AllergyCode.xml ==
 ERROR: UKCore-AllergyCode: Error from server: The filter "constraint = (<<105590001 |Substance OR <<373873005 |Pharmaceutical / biologic product| OR <<716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy|)" was not understood in the context of http://snomed.info/sct
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-AllergyExposureRoute.xml ==
-ERROR: UKCore-AllergyExposureRoute: Error from server: The filter "constraint = ^999000051000001100 |ePrescribing route of administration simple reference set|" was not understood in the context of http://snomed.info/sct
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-AllergyManifestation.xml ==
 ERROR: UKCore-AllergyManifestation: Error from server: The filter "concept in <<404684003" was not understood in the context of http://snomed.info/sct
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-AllergySeverity.xml ==
-ERROR: UKCore-AllergySeverity: Error from server: The filter "constraint = (255604002 |Mild| OR 6736007 |Moderate| OR 24484000 |Severe| OR 399166001 |Fatal| OR 442452003 |Life threatening severity|)" was not understood in the context of http://snomed.info/sct
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-BodySite.xml ==
-ERROR: UKCore-BodySite: Error from server: The filter "constraint = (<<442083009 |anatomical or acquired body structure|)" was not understood in the context of http://snomed.info/sct
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-CareSettingType.xml ==
-ERROR: UKCore-CareSettingType: Error from server: The filter "concept in ^999000381000000107" was not understood in the context of http://snomed.info/sct
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-ConditionCategory.xml ==
 ERROR: UKCore-ConditionCategory: Error from server: Unable to provide support for code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConditionCategory
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-ConditionCode.xml ==
@@ -356,11 +333,8 @@ ERROR: UKCore-ConditionCode: Error from server: The filter "constraint = (< 4046
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-DischargeDestination.xml ==
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-DischargeMethod.xml ==
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-DocumentType.xml ==
-ERROR: UKCore-DocumentType: Error from server: The Snomed Concept 999000391000000109 was not known
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-EmergencyCareDischargeStatus.xml ==
-ERROR: UKCore-EmergencyCareDischargeStatus: Error from server: The filter "concept in ^999003021000000104" was not understood in the context of http://snomed.info/sct
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-EncounterType.xml ==
-ERROR: UKCore-EncounterType: Error from server: The filter "constraint = <<185316007 OR <<308467007 OR <<185201007" was not understood in the context of http://snomed.info/sct
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-EthnicCategory.xml ==
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-HumanLanguage.xml ==
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-LanguageAbilityMode.xml ==
@@ -372,14 +346,12 @@ ERROR: UKCore-EncounterType: Error from server: The filter "constraint = <<18531
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-NHSDataDictionary-PersonStatedGender.xml ==
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-NHSNumberVerificationStatus.xml ==
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-ObservationType.xml ==
-ERROR: UKCore-ObservationType: Error from server: The filter "constraint = (<<363787002 | Observable entity|)" was not understood in the context of http://snomed.info/sct
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-OutcomeOfAttendance.xml ==
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-PreferredContactMethod.xml ==
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-PreferredWrittenCommunicationFormat.xml ==
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-ProcedureCode.xml ==
 ERROR: UKCore-ProcedureCode: Error from server: The filter "constraint = (<<71388002 |Procedure|<<129125009 OR |Procedure with explicit context|)" was not understood in the context of http://snomed.info/sct
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-ReligiousAffiliation.xml ==
-ERROR: UKCore-ReligiousAffiliation: Error from server: The filter "concept in ^999000531000000100" was not understood in the context of http://snomed.info/sct
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-ResidentialStatus.xml ==
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-SDSJobRoleName.xml ==
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet-UKCore-SourceOfAdmission.xml ==

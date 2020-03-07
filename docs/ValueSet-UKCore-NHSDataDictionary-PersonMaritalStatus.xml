@@ -10,7 +10,7 @@
     <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/attributes/p/person/person_marital_status_code_de.asp?shownav=1"/>
   </extension>
   <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus"/>
-  <version value="1.0.0"/>
+  <version value="4.0.0"/>
   <name value="NHSDataModelandDictionaryPersonMaritalStatusCode"/>
   <title value="NHS Data Model and Dictionary Person Marital Status Code"/>
   <status value="active"/>
@@ -20,7 +20,7 @@
     <name value="Project Wildfyre"/>
     <telecom>
       <system value="email"/>
-      <value value="mailto:interoperabilityteam@nhs.net"/>
+      <value value="mailto:dunno@dummy.net"/>
       <use value="work"/>
     </telecom>
   </contact>

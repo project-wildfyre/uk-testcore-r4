@@ -18,7 +18,7 @@
      fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
      fhir:Identifier.value [ fhir:value "urn:oid:2.16.840.1.113883.5.60" ]
   ];
-  fhir:ValueSet.version [ fhir:value "1.0.0"];
+  fhir:ValueSet.version [ fhir:value "4.0.0"];
   fhir:ValueSet.name [ fhir:value "UKCoreLanguageAbilityMode"];
   fhir:ValueSet.title [ fhir:value "UK Core Language Ability Mode"];
   fhir:ValueSet.status [ fhir:value "draft"];
@@ -30,7 +30,7 @@
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "mailto:interoperabilityteam@nhs.net" ];
+       fhir:ContactPoint.value [ fhir:value "mailto:dunno@dummy.net" ];
        fhir:ContactPoint.use [ fhir:value "work" ]
      ]
   ];

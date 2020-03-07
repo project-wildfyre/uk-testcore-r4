@@ -1,6 +1,6 @@
 {
   "package": "uk.testcore.r4",
-  "version": "1.0.0",
+  "version": "4.0.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "GB",
   "extensions": [
@@ -1477,12 +1477,6 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
       "StructureDefinition.snapshot.element"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages": [
-      "ImplementationGuide"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource": [
-      "ImplementationGuide"
     ],
     "http://hl7.org/fhir/StructureDefinition/patient-birthTime": [
       "Patient.birthDate"

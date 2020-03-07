@@ -6,7 +6,7 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UK Core SDS Job Role Name</h2><div><p>A ValueSet that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-UKCore-SDSJobRoleName.html\"><code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-SDSJobRoleName</code></a></li></ul></div>"
   },
   "url": "https://fhir.nhs.uk/R4/ValueSet/UKCore-SDSJobRoleName",
-  "version": "1.0.0",
+  "version": "4.0.0",
   "name": "UKCoreSDSJobRoleName",
   "title": "UK Core SDS Job Role Name",
   "status": "draft",
@@ -18,7 +18,7 @@
       "telecom": [
         {
           "system": "email",
-          "value": "mailto:interoperabilityteam@nhs.net",
+          "value": "mailto:dunno@dummy.net",
           "use": "work"
         }
       ]

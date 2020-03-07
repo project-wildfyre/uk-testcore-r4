@@ -3,11 +3,148 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="UKCore-ListCode"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>UK Core List Code</h2><div><p>A ValueSet to identify the purpose of a list.</p>
-</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=887161000000102">887161000000102</a></td><td>Diagnoses</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=887171000000109">887171000000109</a></td><td>Procedures</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=717711000000103">717711000000103</a></td><td>Problems</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=933361000000108">933361000000108</a></td><td>Medications and medical devices</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=886921000000105">886921000000105</a></td><td>Allergies and adverse reactions</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1102411000000102">1102411000000102</a></td><td>Active medications</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1102191000000100">1102191000000100</a></td><td>Discontinued medications</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1103671000000101">1103671000000101</a></td><td>Ended allergies</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=325851000000107">325851000000107</a></td><td>Consultation</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=25851000000105">25851000000105</a></td><td>Topic (EHR)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=24781000000107">24781000000107</a></td><td>Category (EHR)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1102181000000102">1102181000000102</a></td><td>Immunisations</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=826501000000100">826501000000100</a></td><td>Miscellaneous record</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=792931000000107">792931000000107</a></td><td>Outbound referral</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=887191000000108">887191000000108</a></td><td>Investigations and results</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1149501000000101">1149501000000101</a></td><td>List of consultations</td><td/></tr></table></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+         <h2>UK Core List Code</h2>
+         <div>
+            <p>A ValueSet to identify the purpose of a list.</p> 
+         </div>
+         <p>
+            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.
+         </p>
+         <p>This value set includes codes from the following code systems:</p>
+         <ul>
+            <li>Include these codes as defined in 
+               <a href="http://www.snomed.org/">
+                  <code>http://snomed.info/sct</code>
+               </a>
+               <table class="none">
+                  <tr>
+                     <td style="white-space:nowrap">
+                        <b>Code</b>
+                     </td>
+                     <td>
+                        <b>Display</b>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=887161000000102">887161000000102</a>
+                     </td>
+                     <td>Diagnoses</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=887171000000109">887171000000109</a>
+                     </td>
+                     <td>Procedures</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=717711000000103">717711000000103</a>
+                     </td>
+                     <td>Problems</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=933361000000108">933361000000108</a>
+                     </td>
+                     <td>Medications and medical devices</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=886921000000105">886921000000105</a>
+                     </td>
+                     <td>Allergies and adverse reactions</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1102411000000102">1102411000000102</a>
+                     </td>
+                     <td>Active medications</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1102191000000100">1102191000000100</a>
+                     </td>
+                     <td>Discontinued medications</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1103671000000101">1103671000000101</a>
+                     </td>
+                     <td>Ended allergies</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=325851000000107">325851000000107</a>
+                     </td>
+                     <td>Consultation</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=25851000000105">25851000000105</a>
+                     </td>
+                     <td>Topic (EHR)</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=24781000000107">24781000000107</a>
+                     </td>
+                     <td>Category (EHR)</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1102181000000102">1102181000000102</a>
+                     </td>
+                     <td>Immunisations</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=826501000000100">826501000000100</a>
+                     </td>
+                     <td>Miscellaneous record</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=792931000000107">792931000000107</a>
+                     </td>
+                     <td>Outbound referral</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=887191000000108">887191000000108</a>
+                     </td>
+                     <td>Investigations and results</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1149501000000101">1149501000000101</a>
+                     </td>
+                     <td>List of consultations</td>
+                     <td/>
+                  </tr>
+               </table>
+            </li>
+         </ul>
+      </div>
   </text>
   <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ListCode"/>
-  <version value="1.0.0"/>
+  <version value="4.0.0"/>
   <name value="UKCoreListCode"/>
   <title value="UK Core List Code"/>
   <status value="draft"/>
@@ -17,7 +154,7 @@
     <name value="Project Wildfyre"/>
     <telecom>
       <system value="email"/>
-      <value value="mailto:interoperabilityteam@nhs.net"/>
+      <value value="mailto:dunno@dummy.net"/>
       <use value="work"/>
     </telecom>
   </contact>
@@ -98,4 +235,21 @@
       </concept>
     </include>
   </compose>
+  <expansion>
+    <identifier value="9523d164-2e46-47dc-aedf-057205258548"/>
+    <timestamp value="2020-03-07T07:45:51+00:00"/>
+    <total value="0"/>
+    <parameter>
+      <name value="version"/>
+      <valueUri value="http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"/>
+    </parameter>
+    <parameter>
+      <name value="count"/>
+      <valueInteger value="2147483647"/>
+    </parameter>
+    <parameter>
+      <name value="offset"/>
+      <valueInteger value="0"/>
+    </parameter>
+  </expansion>
 </ValueSet>

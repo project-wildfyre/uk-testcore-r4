@@ -7,7 +7,7 @@
 </div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-AddressKeyType defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">PAF<a name="UKCore-AddressKeyType-PAF"> </a></td><td>Postal Address File Key</td><td/></tr><tr><td style="white-space:nowrap">UPRN<a name="UKCore-AddressKeyType-UPRN"> </a></td><td>Unique Property Reference Number</td><td/></tr></table></div>
   </text>
   <url value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-AddressKeyType"/>
-  <version value="1.0.0"/>
+  <version value="4.0.0"/>
   <name value="UKCoreAddressKeyType"/>
   <title value="UK Core Address Key Type"/>
   <status value="draft"/>
@@ -17,7 +17,7 @@
     <name value="Project Wildfyre"/>
     <telecom>
       <system value="email"/>
-      <value value="mailto:interoperabilityteam@nhs.net"/>
+      <value value="mailto:dunno@dummy.net"/>
       <use value="work"/>
     </telecom>
   </contact>

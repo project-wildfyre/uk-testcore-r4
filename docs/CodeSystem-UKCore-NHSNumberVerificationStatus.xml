@@ -10,7 +10,7 @@
     <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/data_field_notes/n/nhs/nhs_number_status_indicator_code_de.asp?shownav=1"/>
   </extension>
   <url value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSNumberVerificationStatus"/>
-  <version value="1.0.0"/>
+  <version value="4.0.0"/>
   <name value="UKCoreNHSNumberVerificationStatus"/>
   <title value="UK Core NHS Number Verification Status"/>
   <status value="draft"/>
@@ -20,7 +20,7 @@
     <name value="Project Wildfyre"/>
     <telecom>
       <system value="email"/>
-      <value value="mailto:interoperabilityteam@nhs.net"/>
+      <value value="mailto:dunno@dummy.net"/>
       <use value="work"/>
     </telecom>
   </contact>

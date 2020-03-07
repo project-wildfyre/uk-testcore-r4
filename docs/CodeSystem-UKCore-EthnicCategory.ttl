@@ -18,7 +18,7 @@
      fhir:Extension.valueUri [ fhir:value "http://www.datadictionary.nhs.uk/data_dictionary/data_field_notes/p/pds/pds_ethnic_category_code_de.asp?shownav=0" ]
   ];
   fhir:CodeSystem.url [ fhir:value "https://fhir.nhs.uk/R4/CodeSystem/UKCore-EthnicCategory"];
-  fhir:CodeSystem.version [ fhir:value "1.0.0"];
+  fhir:CodeSystem.version [ fhir:value "4.0.0"];
   fhir:CodeSystem.name [ fhir:value "UKCoreEthnicCategory"];
   fhir:CodeSystem.title [ fhir:value "UK Core Ethnic Category"];
   fhir:CodeSystem.status [ fhir:value "draft"];
@@ -30,7 +30,7 @@
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "mailto:interoperabilityteam@nhs.net" ];
+       fhir:ContactPoint.value [ fhir:value "mailto:dunno@dummy.net" ];
        fhir:ContactPoint.use [ fhir:value "work" ]
      ]
   ];

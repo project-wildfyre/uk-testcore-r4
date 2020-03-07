@@ -3,11 +3,26 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="UKCore-AllergyCertainty"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>UK Core Allergy Certainty</h2><div><p>A code from the SNOMED Clinical Terminology UK coding system that describes the certainty of an allergy.</p>
-</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where constraint  =  (385434005 |Improbable diagnosis| OR 2931005 |Probable diagnosis| OR 255545003 |Definite| OR 410605003 |Confirmed present|)</li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+         <h2>UK Core Allergy Certainty</h2>
+         <div>
+            <p>A code from the SNOMED Clinical Terminology UK coding system that describes the certainty of an allergy.</p> 
+         </div>
+         <p>
+            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.
+         </p>
+         <p>This value set includes codes from the following code systems:</p>
+         <ul>
+            <li>Include codes from 
+               <a href="http://www.snomed.org/">
+                  <code>http://snomed.info/sct</code>
+               </a> where constraint  =  (385434005 |Improbable diagnosis| OR 2931005 |Probable diagnosis| OR 255545003 |Definite| OR 410605003 |Confirmed present|)
+            </li>
+         </ul>
+      </div>
   </text>
   <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-AllergyCertainty"/>
-  <version value="1.0.0"/>
+  <version value="4.0.0"/>
   <name value="UKCoreAllergyCertainty"/>
   <title value="UK Core Allergy Certainty"/>
   <status value="draft"/>
@@ -17,7 +32,7 @@
     <name value="Project Wildfyre"/>
     <telecom>
       <system value="email"/>
-      <value value="mailto:interoperabilityteam@nhs.net"/>
+      <value value="mailto:dunno@dummy.net"/>
       <use value="work"/>
     </telecom>
   </contact>
@@ -39,4 +54,41 @@
       </filter>
     </include>
   </compose>
+  <expansion>
+    <identifier value="63865201-af82-4926-80ab-3111a4d6a1a9"/>
+    <timestamp value="2020-03-07T07:45:52+00:00"/>
+    <total value="4"/>
+    <parameter>
+      <name value="version"/>
+      <valueUri value="http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"/>
+    </parameter>
+    <parameter>
+      <name value="count"/>
+      <valueInteger value="2147483647"/>
+    </parameter>
+    <parameter>
+      <name value="offset"/>
+      <valueInteger value="0"/>
+    </parameter>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="385434005"/>
+      <display value="Improbable diagnosis"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="255545003"/>
+      <display value="Definite"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="410605003"/>
+      <display value="Confirmed present"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="2931005"/>
+      <display value="Probable diagnosis"/>
+    </contains>
+  </expansion>
 </ValueSet>

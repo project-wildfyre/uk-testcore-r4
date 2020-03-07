@@ -12,7 +12,7 @@
     }
   ],
   "url": "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender",
-  "version": "1.0.0",
+  "version": "4.0.0",
   "name": "NHSDataModelandDictionaryPersonStatedGenderCode",
   "title": "NHS Data Model and Dictionary Person Stated Gender Code",
   "status": "active",
@@ -24,7 +24,7 @@
       "telecom": [
         {
           "system": "email",
-          "value": "mailto:interoperabilityteam@nhs.net",
+          "value": "mailto:dunno@dummy.net",
           "use": "work"
         }
       ]

@@ -6,7 +6,7 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UK Core List Warning Code</h2><div><p>A ValueSet to identify the reason a list may be incomplete.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-UKCore-ListWarningCode.html\"><code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListWarningCode</code></a></li></ul></div>"
   },
   "url": "https://fhir.nhs.uk/R4/ValueSet/UKCore-ListWarningCode",
-  "version": "1.0.0",
+  "version": "4.0.0",
   "name": "UKCoreListWarningCode",
   "title": "UK Core List Warning Code",
   "status": "draft",
@@ -18,7 +18,7 @@
       "telecom": [
         {
           "system": "email",
-          "value": "mailto:interoperabilityteam@nhs.net",
+          "value": "mailto:dunno@dummy.net",
           "use": "work"
         }
       ]

@@ -2,5 +2,4 @@
 *.iml
 temp/
 template/
-docs/
 input-cache/*.jar
