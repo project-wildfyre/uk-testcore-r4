@@ -1,0 +1,511 @@
+﻿HL7FHIRUKCore : Validation Results
+=========================================
+
+err = 142, warn = 94, info = 12
+IG Publisher Version: v1.0.70-SNAPSHOT Out of date - current version is v1.0.72-SNAPSHOT
+Generated Tue Mar 17 13:36:15 GMT 2020. FHIR version 4.0.1 for uk.testcore.r4#4.0.0 (canonical = https://fhir.nhs.uk/R4)
+
+ Build Errors : 42 / 21
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/AllergyIntolerance-UKCore-AllergyIntolerance-Example : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Condition-UKCore-Condition-Example : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Consent-UKCore-Consent-Example : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Encounter-UKCore-Encounter-Example : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/List-UKCore-List-Example : 1 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Location-UKCore-Location-Example : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Medication-UKCore-Medication-Example : 1 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/MedicationDispense-UKCore-MedicationDispense-Example : 1 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Observation-UKCore-Observation-Example : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Organization-UKCore-Organisation-Example : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Patient-UKCore-Patient-AddressKey-Example : 12 / 3
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Patient-UKCore-Patient-Example : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Practitioner-UKCore-Practitioner-Example : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/PractitionerRole-UKCore-PractitionerRole-Example : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Procedure-UKCore-Procedure-Example : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/RelatedPerson-UKCore-RelatedPerson-Example : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ImplementationGuide-UK-Core-R4 : 3 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-AdditionalRelatedPersonRole : 2 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-AddressKeyType : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-AdmissionMethod : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-ConditionEpisodicity : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-ConsentUpdateMode : 2 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-DeathNotificationStatus : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-DischargeDestination : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-DischargeMethod : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-EthnicCategory : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-HumanLanguage : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-LanguageAbilityMode : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-LanguageAbilityProficiency : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-ListEmptyReasonCode : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-ListWarningCode : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-MedicationSupplyType : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-NHSDataDictionary-PersonMaritalStatus : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-NHSDataDictionary-PersonStatedGender : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-NHSNumberVerificationStatus : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-OutcomeOfAttendance : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-PreferredContactMethod : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-PreferredWrittenCommunicationFormat : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-PrescriptionType : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-ResidentialStatus : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-SDSJobRoleName : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-SourceOfAdmission : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-TreatmentCategory : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/conceptmap/UKCore-AdministrativeGender : 3 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/conceptmap/UKCore-AllergySeverity : 3 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/conceptmap/UKCore-AllergyVerificationStatus : 3 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/conceptmap/UKCore-ConditionEpisodicity : 3 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/conceptmap/UKCore-MaritalStatus : 3 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-AddressKey : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-AdmissionMethod : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-AllergyIntoleranceEnd : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-AnaestheticIssues : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-ClinicalSetting : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-ConditionEpisode : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-ContactPreference : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-ContactRank : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-CopyCorrespondenceIndicator : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-DeathNotificationStatus : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-DischargeMethod : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-EffectivePeriod : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-EmergencyCareDischargeStatus : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-EncounterTransport : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-EthnicCategory : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-Evidence : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-ListWarningCode : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-MainLocation : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-MedicationChangeSummary : 2 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-MedicationDosageLastChanged : 2 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-MedicationPrescribingAgency : 2 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-MedicationQuantityText : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-MedicationRepeatInformation : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-MedicationStatementLastIssueDate : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-NHSCommunication : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-NHSNumberVerificationStatus : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-NominatedPharmacy : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-OutcomeOfAttendance : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-ParentPresent : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-PrescriptionType : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-ReligiousAffiliation : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-ResidentialStatus : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-TreatmentCategory : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-VaccinationProcedure : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-AllergyIntolerance : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-CarePlan : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-CareTeam : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-Condition : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-DiagnosticReport : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-DocumentReference : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-Encounter : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-Immunization : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-List : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-Location : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-Medication : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-MedicationDispense : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-MedicationRequest : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-MedicationStatement : 0 / 2
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-Observation : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-Organization : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-Patient : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-Practitioner : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-PractitionerRole : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-Procedure : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-RelatedPerson : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-ServiceRequest : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-Specimen : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-AddressKeyType : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-AdmissionMethod : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-AllergyCertainty : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-AllergyCode : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-AllergyExposureRoute : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-AllergyManifestation : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-AllergySeverity : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-BodySite : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-CareSettingType : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ConditionCategory : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ConditionCode : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ConditionEpisode : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ConditionEpisodicity : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-DeathNotificationStatus : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-DischargeDestination : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-DischargeMethod : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-DocumentType : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-EmergencyCareDischargeStatus : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-EncounterType : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-EthnicCategory : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-FindingCode : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-HumanLanguage : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ImmunizationExplanationReason : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-LanguageAbilityMode : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-LanguageAbilityProficiency : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ListCode : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ListEmptyReasonCode : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ListWarningCode : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-MedicationCode : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-MedicationDosageRoute : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-MedicationForm : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-MedicationSupplyType : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-NHSDataDictionary-PersonMaritalStatus : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-NHSDataDictionary-PersonStatedGender : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-NHSNumberVerificationStatus : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ObservationType : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-OutcomeOfAttendance : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-PreferredContactMethod : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-PreferredWrittenCommunicationFormat : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-PrescriptionType : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ProcedureCode : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ReasonImmunizationNotAdministered : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ReligiousAffiliation : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ReportCodeSnCT : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ResidentialStatus : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-SDSJobRoleName : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-SourceOfAdmission : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-SpecimenBodySite : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-SpecimenType : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-TreatmentCategory : 0 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-VaccinationProcedure : 1 / 0
+ /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-VaccineCode : 1 / 0
+</table>
+== n/a ==
+WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be uk.testcore.r4
+WARNING: Unable to find description for the resource StructureDefinition/Extension-UKCore-MedicationStatementLastIssueDate.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource StructureDefinition/Extension-UKCore-MedicationDosageLastChanged.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource StructureDefinition/Extension-UKCore-MedicationChangeSummary.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource StructureDefinition/Extension-UKCore-MedicationPrescribingAgency.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource AllergyIntolerance/UKCore-AllergyIntolerance-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource PractitionerRole/UKCore-PractitionerRole-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Encounter/UKCore-Encounter-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Condition/UKCore-Condition-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource List/UKCore-List-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/UKCore-Observation-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Patient/UKCore-Patient-AddressKey-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Consent/UKCore-Consent-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Patient/UKCore-Patient-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Location/UKCore-Location-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Procedure/UKCore-Procedure-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource RelatedPerson/UKCore-RelatedPerson-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Medication/UKCore-Medication-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Organization/UKCore-Organisation-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Practitioner/UKCore-Practitioner-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource MedicationDispense/UKCore-MedicationDispense-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/Location-UKCore-Location-Example.html#/html/body/div/div/div/div/div/div/p/a at Line 151, column 819: The link 'Organization/UKCore-Organization-Example' for "Organization/UKCore-Organization-Example" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/MedicationDispense-UKCore-MedicationDispense-Example.html#/html/body/div/div/div/div/div/div/p/a at Line 151, column 1168: The link 'MedicationRequest/UKCore-MedicationRequest-Example' for "MedicationRequest/UKCore-MedicationRequest-Example" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 144, column 8: The link 'UKCore-AllergyIntolerance-Example.html' for "UK Core AllergyIntolerance Example" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 145, column 8: The link 'UKCore-Allergy-List-Example.html' for "UK Core Allergy List Example" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 146, column 8: The link 'UKCore-Condition-Example.html' for "UK Core Condition Example" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 147, column 8: The link 'UKCore-Consent-Example.html' for "UK Core Consent Example" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 148, column 8: The link 'UKCore-Encounter-Example.html' for "UK Core Encounter Example" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 149, column 8: The link 'UKCore-List-Example.html' for "UK Core List Example" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 150, column 8: The link 'UKCore-Location-Example.html' for "UK Core Location Example" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 151, column 8: The link 'UKCore-Observation-Example.html' for "UK Core Observation Example" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 152, column 8: The link 'UKCore-Organisation-Example.html' for "UK Core Organisation Example" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 153, column 8: The link 'UKCore-Patient-Example.html' for "UK Core Patient Example" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 154, column 8: The link 'UKCore-Practitioner-Example.html' for "UK Core Practitioner Example" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 155, column 8: The link 'UKCore-PractitionerRole-Example.html' for "UK Core PractitionerRole Example" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 156, column 8: The link 'UKCore-Procedure-Example.html' for "UK Core Procedure Example" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 157, column 8: The link 'UKCore-RelatedPerson-Example.html' for "UK Core RelatedPerson Example" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 151, column 12: The link 'Extension-UKCore-AddressKey.html' for "Extension UK Core AddressKey" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 155, column 12: The link 'Extension-UKCore-AdmissionMethod.html' for "Extension UK Core AdmissionMethod" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 159, column 12: The link 'Extension-UKCore-AllergyIntoleranceEnd.html' for "Extension UK Core AllergyIntoleranceEnd" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 163, column 12: The link 'Extension-UKCore-AnaestheticIssues.html' for "Extension UK Core AnaestheticIssues" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 167, column 12: The link 'Extension-UKCore-ClinicalSetting.html' for "Extension UK Core ClinicalSetting" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 171, column 12: The link 'Extension-UKCore-ConditionEpisode.html' for "Extension UK Core ConditionEpisode" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 175, column 12: The link 'Extension-UKCore-ContactPreference.html' for "Extension UK Core ContactPreference" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 179, column 12: The link 'Extension-UKCore-ContactRank.html' for "Extension UK Core ContactRank" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 183, column 12: The link 'Extension-UKCore-CopyCorrespondenceIndicator.html' for "Extension UK Core CopyCorrespondenceIndicator" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 187, column 12: The link 'Extension-UKCore-DeathNotificationStatus.html' for "Extension UK Core DeathNotificationStatus" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 191, column 12: The link 'Extension-UKCore-DischargeMethod.html' for "Extension UK Core DischargeMethod" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 195, column 12: The link 'Extension-UKCore-EffectivePeriod.html' for "Extension UK Core EffectivePeriod" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 199, column 12: The link 'Extension-UKCore-EmergencyCareDischargeStatus.html' for "Extension UK Core EmergencyCareDischargeStatus" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 203, column 12: The link 'Extension-UKCore-EncounterTransport.html' for "Extension UK Core EncounterTransport" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 207, column 12: The link 'Extension-UKCore-EthnicCategory.html' for "Extension UK Core EthnicCategory" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 211, column 12: The link 'Extension-UKCore-Evidence.html' for "Extension UK Core Evidence" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 215, column 12: The link 'Extension-UKCore-ListWarningCode.html' for "Extension UK Core ListWarningCode" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 219, column 12: The link 'Extension-UKCore-MainLocation.html' for "Extension UK Core MainLocation" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 223, column 12: The link 'Extension-UKCore-NHSCommunication.html' for "Extension UK Core NHSCommunication" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 227, column 12: The link 'Extension-UKCore-NHSNumberVerificationStatus.html' for "Extension UK Core NHSNumberVerificationStatus" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 231, column 12: The link 'Extension-UKCore-NominatedPharmacy.html' for "Extension UK Core NominatedPharmacy" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 235, column 12: The link 'Extension-UKCore-OutcomeOfAttendance.html' for "Extension UK Core OutcomeOfAttendance" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 239, column 12: The link 'Extension-UKCore-ReligiousAffiliation.html' for "Extension UK Core ReligiousAffiliation" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 243, column 12: The link 'Extension-UKCore-ResidentialStatus.html' for "Extension UK Core ResidentialStatus" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 247, column 12: The link 'Extension-UKCore-TreatmentCategory.html' for "Extension UK Core TreatmentCategory" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/index.html#/html/body/div/div/div/div/div/p/a at Line 138, column 42: The link 'summary.html' for "Summary" cannot be resolved
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/AllergyIntolerance-UKCore-AllergyIntolerance-Example ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Condition-UKCore-Condition-Example ==
+WARNING: Condition/UKCore-Condition-Example: Condition.code.coding[0]: The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionCode, and a code should come from this value set unless it has no suitable code.  (error message = The filter "constraint = (< 404684003 |Clinical finding| OR < 413350009 |Finding with explicit context| OR < 272379006 |Event|)" was not understood in the context of http://snomed.info/sct)
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Consent-UKCore-Consent-Example ==
+WARNING: Consent/UKCore-Consent-Example: Consent.meta.profile[0]: Profile reference "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Consent" could not be resolved, so has not been checked
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Encounter-UKCore-Encounter-Example ==
+WARNING: Encounter/UKCore-Encounter-Example: Encounter.type[0].coding[0]: The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-EncounterType, and a code should come from this value set unless it has no suitable code.  (error message = The filter "constraint = <<185316007 OR <<308467007 OR <<185201007" was not understood in the context of http://snomed.info/sct)
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/List-UKCore-List-Example ==
+ERROR: List/UKCore-List-Example: List.code.coding[0]: unable to find code 826501000000100 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200131) for "http://snomed.info/sct#826501000000100"
+INFORMATION: List/UKCore-List-Example: List.emptyReason: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/list-empty-reason (http://hl7.org/fhir/ValueSet/list-empty-reason, and a code is recommended to come from this value set) (codes = https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListEmptyReasonCode#no-content-recorded)
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Location-UKCore-Location-Example ==
+ERROR: Location/UKCore-Location-Example: Location.managingOrganization: Unable to resolve resource "Organization/UKCore-Organization-Example"
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Medication-UKCore-Medication-Example ==
+ERROR: Medication/UKCore-Medication-Example: Medication.code.coding[0]: The code "2501-813-16" is not valid in the system http://hl7.org/fhir/sid/ndc; The code provided (http://hl7.org/fhir/sid/ndc#2501-813-16) is not  valid in the value set All codes known to the system for "http://hl7.org/fhir/sid/ndc#2501-813-16"
+WARNING: Medication/UKCore-Medication-Example: Medication.form.coding[0]: The display "Opthalmic Solution (qualifier value)" is not a valid display for the code {http://snomed.info/sct}75359005 - should be one of ["Timolol maleate","Timolol maleate (substance)"]
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/MedicationDispense-UKCore-MedicationDispense-Example ==
+ERROR: MedicationDispense/UKCore-MedicationDispense-Example: MedicationDispense.authorizingPrescription[0]: Unable to resolve resource "MedicationRequest/UKCore-MedicationRequest-Example"
+WARNING: MedicationDispense/UKCore-MedicationDispense-Example: MedicationDispense.dosageInstruction[0].route.coding[0]: The display "Ophthalmic" is not a valid display for the code {http://snomed.info/sct}54485002 - should be one of ["Ophthalmic route","Ophthalmic route (qualifier value)","Ophthalmic use","A route that begins in the eye region."]
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Observation-UKCore-Observation-Example ==
+WARNING: Observation/UKCore-Observation-Example: Observation.code.coding[0]: The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-ObservationType, and a code should come from this value set unless it has no suitable code.  (error message = The filter "constraint = (<<363787002 | Observable entity|)" was not understood in the context of http://snomed.info/sct)
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Organization-UKCore-Organisation-Example ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Patient-UKCore-Patient-AddressKey-Example ==
+INFORMATION: Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[0]: This element does not match any known slice defined in the profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey
+INFORMATION: Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[1]: This element does not match any known slice defined in the profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey
+ERROR: Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0]: Profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey, Element 'Patient.address[0].extension[0].extension[type]': minimum required = 1, but only found 0
+ERROR: Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0]: Profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey, Element 'Patient.address[0].extension[0].extension[value]': minimum required = 1, but only found 0
+ERROR: Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0]: The extension https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey is not allowed to be used at this point (allowed = e:Address; this element is [[Patient.address.extension, Address.extension, Extension])
+ERROR: Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[0]: The Extension "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey" definition allows for the types [] but found type Coding
+ERROR: Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[0]: Profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey, Element 'Patient.address[0].extension[0].extension[0].extension[type]': minimum required = 1, but only found 0
+ERROR: Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[0]: Profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey, Element 'Patient.address[0].extension[0].extension[0].extension[value]': minimum required = 1, but only found 0
+ERROR: Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[0]: Profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey, Element 'Patient.address[0].extension[0].extension[0].value[x]': max allowed = 0, but found 1
+ERROR: Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[0].value.ofType(Coding): Coding.system must be an absolute reference, not a local reference
+INFORMATION: Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[0].value.ofType(Coding): Code System URI "SYSTEM" is unknown so the code cannot be validated
+ERROR: Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[1]: The Extension "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey" definition allows for the types [] but found type string
+ERROR: Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[1]: Profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey, Element 'Patient.address[0].extension[0].extension[1].extension[type]': minimum required = 1, but only found 0
+ERROR: Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[1]: Profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey, Element 'Patient.address[0].extension[0].extension[1].extension[value]': minimum required = 1, but only found 0
+ERROR: Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[1]: Profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey, Element 'Patient.address[0].extension[0].extension[1].value[x]': max allowed = 0, but found 1
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Patient-UKCore-Patient-Example ==
+INFORMATION: Patient/UKCore-Patient-Example: Patient.extension[0].value.ofType(CodeableConcept).coding[0]: Code System URI "https://fhir.nhs.uk/R4/UKCore-EthnicCategory-1" is unknown so the code cannot be validated
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Practitioner-UKCore-Practitioner-Example ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/PractitionerRole-UKCore-PractitionerRole-Example ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Procedure-UKCore-Procedure-Example ==
+WARNING: Procedure/UKCore-Procedure-Example: Procedure.code.coding[0]: The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-ProcedureCode, and a code should come from this value set unless it has no suitable code.  (error message = The filter "constraint = (<<71388002 |Procedure|<<129125009 OR |Procedure with explicit context|)" was not understood in the context of http://snomed.info/sct)
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/RelatedPerson-UKCore-RelatedPerson-Example ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ImplementationGuide-UK-Core-R4.xml ==
+ERROR: https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype: Conformance resource /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ImplementationGuide-UK-Core-R4.xml - the canonical URL (https://fhir.nhs.uk/R4/ImplementationGuide/uk-testcore-r4) does not match the URL (https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype)
+ERROR: ImplementationGuide.url: Resource id/url mismatch: uk-testcore-r4/https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ImplementationGuide-UK-Core-R4: URL Mismatch https://fhir.nhs.uk/R4/ImplementationGuide/uk-testcore-r4 vs https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-AdditionalRelatedPersonRole.xml ==
+ERROR: https://fhir.nhs.uk/R4/Codesystem/UKCore-AdditionalRelatedPersonRole: Conformance resource /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-AdditionalRelatedPersonRole.xml - the canonical URL (https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdditionalRelatedPersonRole) does not match the URL (https://fhir.nhs.uk/R4/Codesystem/UKCore-AdditionalRelatedPersonRole)
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-AdditionalRelatedPersonRole: URL Mismatch https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdditionalRelatedPersonRole vs https://fhir.nhs.uk/R4/Codesystem/UKCore-AdditionalRelatedPersonRole
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-AddressKeyType.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-AdmissionMethod.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-ConditionEpisodicity.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-ConsentUpdateMode.xml ==
+ERROR: https://fhir.nhs.uk/R4/Codesystem/UKCore-ConsentUpdateMode: Conformance resource /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-ConsentUpdateMode.xml - the canonical URL (https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConsentUpdateMode) does not match the URL (https://fhir.nhs.uk/R4/Codesystem/UKCore-ConsentUpdateMode)
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-ConsentUpdateMode: URL Mismatch https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConsentUpdateMode vs https://fhir.nhs.uk/R4/Codesystem/UKCore-ConsentUpdateMode
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-DeathNotificationStatus.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-DischargeDestination.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-DischargeMethod.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-EthnicCategory.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-HumanLanguage.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-LanguageAbilityMode.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-LanguageAbilityProficiency.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-ListEmptyReasonCode.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-ListWarningCode.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-MedicationSupplyType.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-NHSNumberVerificationStatus.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-OutcomeOfAttendance.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-PreferredContactMethod.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-PreferredWrittenCommunicationFormat.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-PrescriptionType.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-ResidentialStatus.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-SDSJobRoleName.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-SourceOfAdmission.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-TreatmentCategory.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ConceptMap/UKCore-AdministrativeGender.xml ==
+ERROR: https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AdministrativeGender: Conformance resource /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ConceptMap/UKCore-AdministrativeGender.xml - the canonical URL (https://fhir.nhs.uk/R4/ConceptMap/UKCore-AdministrativeGender) does not match the URL (https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AdministrativeGender)
+ERROR: ConceptMap.url: Resource id/url mismatch: UKCore-AdministrativeGender/https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AdministrativeGender
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/conceptmap/UKCore-AdministrativeGender: URL Mismatch https://fhir.nhs.uk/R4/ConceptMap/UKCore-AdministrativeGender vs https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AdministrativeGender
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ConceptMap/UKCore-AllergySeverity.xml ==
+ERROR: https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AllergySeverity: Conformance resource /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ConceptMap/UKCore-AllergySeverity.xml - the canonical URL (https://fhir.nhs.uk/R4/ConceptMap/UKCore-AllergySeverity) does not match the URL (https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AllergySeverity)
+ERROR: ConceptMap.url: Resource id/url mismatch: UKCore-AllergySeverity/https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AllergySeverity
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/conceptmap/UKCore-AllergySeverity: URL Mismatch https://fhir.nhs.uk/R4/ConceptMap/UKCore-AllergySeverity vs https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AllergySeverity
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ConceptMap/UKCore-AllergyVerificationStatus.xml ==
+ERROR: https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AllergyVerificationStatus: Conformance resource /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ConceptMap/UKCore-AllergyVerificationStatus.xml - the canonical URL (https://fhir.nhs.uk/R4/ConceptMap/UKCore-AllergyVerificationStatus) does not match the URL (https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AllergyVerificationStatus)
+ERROR: ConceptMap.url: Resource id/url mismatch: UKCore-AllergyVerificationStatus/https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AllergyVerificationStatus
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/conceptmap/UKCore-AllergyVerificationStatus: URL Mismatch https://fhir.nhs.uk/R4/ConceptMap/UKCore-AllergyVerificationStatus vs https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AllergyVerificationStatus
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ConceptMap/UKCore-ConditionEpisodicity.xml ==
+ERROR: https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-ConditionEpisodicity: Conformance resource /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ConceptMap/UKCore-ConditionEpisodicity.xml - the canonical URL (https://fhir.nhs.uk/R4/ConceptMap/UKCore-ConditionEpisodicity) does not match the URL (https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-ConditionEpisodicity)
+ERROR: ConceptMap.url: Resource id/url mismatch: UKCore-ConditionEpisodicity/https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-ConditionEpisodicity
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/conceptmap/UKCore-ConditionEpisodicity: URL Mismatch https://fhir.nhs.uk/R4/ConceptMap/UKCore-ConditionEpisodicity vs https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-ConditionEpisodicity
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ConceptMap/UKCore-MaritalStatus.xml ==
+ERROR: https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-MaritalStatus: Conformance resource /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ConceptMap/UKCore-MaritalStatus.xml - the canonical URL (https://fhir.nhs.uk/R4/ConceptMap/UKCore-MaritalStatus) does not match the URL (https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-MaritalStatus)
+ERROR: ConceptMap.url: Resource id/url mismatch: UKCore-MaritalStatus/https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-MaritalStatus
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/conceptmap/UKCore-MaritalStatus: URL Mismatch https://fhir.nhs.uk/R4/ConceptMap/UKCore-MaritalStatus vs https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-MaritalStatus
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-AddressKey.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-AdmissionMethod.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AdmissionMethod: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-AllergyIntoleranceEnd.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AllergyIntoleranceEnd: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-AnaestheticIssues.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AnaestheticIssues: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-ClinicalSetting.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ClinicalSetting: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-ConditionEpisode.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ConditionEpisode: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-ContactPreference.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ContactPreference: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-ContactRank.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ContactRank: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-CopyCorrespondenceIndicator.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-CopyCorrespondenceIndicator: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-DeathNotificationStatus.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-DeathNotificationStatus: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-DischargeMethod.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-DischargeMethod: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-EffectivePeriod.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EffectivePeriod: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-EmergencyCareDischargeStatus.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EmergencyCareDischargeStatus: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-EncounterTransport.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EncounterTransport: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-EthnicCategory.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-Evidence.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-Evidence: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-ListWarningCode.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ListWarningCode: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-MainLocation.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-MedicationChangeSummary.xml ==
+ERROR: http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationChangeSummary: Conformance resource /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-MedicationChangeSummary.xml - the canonical URL (https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MedicationChangeSummary) does not match the URL (http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationChangeSummary)
+WARNING: http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationChangeSummary: The Implementation Guide contains no examples for this extension
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-MedicationChangeSummary: URL Mismatch https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MedicationChangeSummary vs http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationChangeSummary
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-MedicationDosageLastChanged.xml ==
+ERROR: http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationDosageLastChanged: Conformance resource /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-MedicationDosageLastChanged.xml - the canonical URL (https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MedicationDosageLastChanged) does not match the URL (http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationDosageLastChanged)
+WARNING: http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationDosageLastChanged: The Implementation Guide contains no examples for this extension
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-MedicationDosageLastChanged: URL Mismatch https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MedicationDosageLastChanged vs http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationDosageLastChanged
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-MedicationPrescribingAgency.xml ==
+ERROR: http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationPrescribingAgency: Conformance resource /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-MedicationPrescribingAgency.xml - the canonical URL (https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MedicationPrescribingAgency) does not match the URL (http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationPrescribingAgency)
+WARNING: http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationPrescribingAgency: The Implementation Guide contains no examples for this extension
+ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-MedicationPrescribingAgency: URL Mismatch https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MedicationPrescribingAgency vs http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationPrescribingAgency
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-MedicationQuantityText.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MedicationQuantityText: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-MedicationRepeatInformation.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MedicationRepeatInformation: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-MedicationStatementLastIssueDate.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MedicationStatementLastIssueDate: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-NHSCommunication.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSCommunication: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-NominatedPharmacy.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NominatedPharmacy: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-OutcomeOfAttendance.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-OutcomeOfAttendance: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-ParentPresent.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ParentPresent: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-PrescriptionType.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-PrescriptionType: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-ReligiousAffiliation.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ReligiousAffiliation: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-ResidentialStatus.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ResidentialStatus: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-TreatmentCategory.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-TreatmentCategory: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-VaccinationProcedure.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-VaccinationProcedure: The Implementation Guide contains no examples for this extension
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-AllergyIntolerance.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-CarePlan.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/UKCore-CarePlan: The Implementation Guide contains no examples for this profile
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-CareTeam.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/UKCore-CareTeam: The Implementation Guide contains no examples for this profile
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-Condition.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-DiagnosticReport.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/UKCore-DiagnosticReport: The Implementation Guide contains no examples for this profile
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-DocumentReference.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/UKCore-DocumentReference: The Implementation Guide contains no examples for this profile
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-Encounter.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-Immunization.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Immunization: The Implementation Guide contains no examples for this profile
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-List.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-Location.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-Medication.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-MedicationDispense.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-MedicationRequest.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationRequest: The Implementation Guide contains no examples for this profile
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-MedicationStatement.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationStatement#MedicationStatement.basedOn: Connect check whether the target profile https://fhir.nhs.uk/R4/StructureDefinition/UKCore-ProcedureRequest is valid constraint on the base because it is not known
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationStatement: The Implementation Guide contains no examples for this profile
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-Observation.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-Organization.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-Patient.xml ==
+INFORMATION: https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient: The Implementation Guide contains no explicitly linked examples for this profile
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-Practitioner.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-PractitionerRole.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-Procedure.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-RelatedPerson.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-ServiceRequest.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/UKCore-ServiceRequest: The Implementation Guide contains no examples for this profile
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-Specimen.xml ==
+WARNING: https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Specimen: The Implementation Guide contains no examples for this profile
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-AddressKeyType.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-AdmissionMethod.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-AllergyCertainty.xml ==
+ERROR: UKCore-AllergyCertainty: Error from server: The filter "constraint = (385434005 |Improbable diagnosis| OR 2931005 |Probable diagnosis| OR 255545003 |Definite| OR 410605003 |Confirmed present|)" was not understood in the context of http://snomed.info/sct
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-AllergyCode.xml ==
+ERROR: UKCore-AllergyCode: Error from server: The filter "constraint = (<<105590001 |Substance OR <<373873005 |Pharmaceutical / biologic product| OR <<716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy|)" was not understood in the context of http://snomed.info/sct
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-AllergyExposureRoute.xml ==
+ERROR: UKCore-AllergyExposureRoute: Error from server: The filter "constraint = ^999000051000001100 |ePrescribing route of administration simple reference set|" was not understood in the context of http://snomed.info/sct
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-AllergyManifestation.xml ==
+ERROR: UKCore-AllergyManifestation: Error from server: The filter "concept in <<404684003" was not understood in the context of http://snomed.info/sct
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-AllergySeverity.xml ==
+ERROR: UKCore-AllergySeverity: Error from server: The filter "constraint = (255604002 |Mild| OR 6736007 |Moderate| OR 24484000 |Severe| OR 399166001 |Fatal| OR 442452003 |Life threatening severity|)" was not understood in the context of http://snomed.info/sct
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-BodySite.xml ==
+ERROR: UKCore-BodySite: Error from server: The filter "constraint = (<<442083009 |anatomical or acquired body structure|)" was not understood in the context of http://snomed.info/sct
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-CareSettingType.xml ==
+ERROR: UKCore-CareSettingType: Error from server: The filter "concept in ^999000381000000107" was not understood in the context of http://snomed.info/sct
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ConditionCategory.xml ==
+ERROR: UKCore-ConditionCategory: Error from server: Unable to provide support for code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConditionCategory
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ConditionCode.xml ==
+ERROR: UKCore-ConditionCode: Error from server: The filter "constraint = (< 404684003 |Clinical finding| OR < 413350009 |Finding with explicit context| OR < 272379006 |Event|)" was not understood in the context of http://snomed.info/sct
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ConditionEpisode.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ConditionEpisodicity.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-DeathNotificationStatus.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-DischargeDestination.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-DischargeMethod.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-DocumentType.xml ==
+ERROR: UKCore-DocumentType: Error from server: The filter "concept in ^999000391000000109" was not understood in the context of http://snomed.info/sct
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-EmergencyCareDischargeStatus.xml ==
+ERROR: UKCore-EmergencyCareDischargeStatus: Error from server: The filter "concept in ^999003021000000104" was not understood in the context of http://snomed.info/sct
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-EncounterType.xml ==
+ERROR: UKCore-EncounterType: Error from server: The filter "constraint = <<185316007 OR <<308467007 OR <<185201007" was not understood in the context of http://snomed.info/sct
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-EthnicCategory.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-FindingCode.xml ==
+ERROR: UKCore-FindingCode: Error from server: The filter "constraint = (<<404684003 | clinical finding|)" was not understood in the context of http://snomed.info/sct
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-HumanLanguage.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ImmunizationExplanationReason.xml ==
+ERROR: UKCore-ImmunizationExplanationReason: Error from server: unable to find code 506931000000109 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200309)
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-LanguageAbilityMode.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-LanguageAbilityProficiency.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ListCode.xml ==
+ERROR: UKCore-ListCode: Error from server: unable to find code 887161000000102 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200309)
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ListEmptyReasonCode.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ListWarningCode.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-MedicationCode.xml ==
+ERROR: UKCore-MedicationCode: Error from server: The filter "constraint = (^999000541000001108 |National Health Service dictionary of medicines and devices actual medicinal product simple reference set| OR ^999000551000001106 |National Health Service dictionary of medicines and devices actual medicinal product pack simple reference set| OR ^999000561000001109 |National Health Service dictionary of medicines and devices virtual medicinal product simple reference set| OR ^999000571000001104 |National Health Service dictionary of medicines and devices virtual medicinal product pack simple reference set| OR ^999000581000001102 |National Health Service dictionary of medicines and devices virtual therapeutic moiety simple reference set|)" was not understood in the context of http://snomed.info/sct
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-MedicationDosageRoute.xml ==
+ERROR: UKCore-MedicationDosageRoute: Error from server: The filter "concept in ^999000051000001100" was not understood in the context of http://snomed.info/sct
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-MedicationForm.xml ==
+ERROR: UKCore-MedicationForm: Error from server: The filter "constraint = ^999000781000001107 |NHS dm+d (dictionary of medicines and devices) dose form simple reference set|" was not understood in the context of http://snomed.info/sct
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-MedicationSupplyType.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-NHSDataDictionary-PersonStatedGender.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-NHSNumberVerificationStatus.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ObservationType.xml ==
+ERROR: UKCore-ObservationType: Error from server: The filter "constraint = (<<363787002 | Observable entity|)" was not understood in the context of http://snomed.info/sct
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-OutcomeOfAttendance.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-PreferredContactMethod.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-PreferredWrittenCommunicationFormat.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-PrescriptionType.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ProcedureCode.xml ==
+ERROR: UKCore-ProcedureCode: Error from server: The filter "constraint = (<<71388002 |Procedure|<<129125009 OR |Procedure with explicit context|)" was not understood in the context of http://snomed.info/sct
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ReasonImmunizationNotAdministered.xml ==
+ERROR: UKCore-ReasonImmunizationNotAdministered: Error from server: unable to find code 201741000000102 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200309)
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ReligiousAffiliation.xml ==
+ERROR: UKCore-ReligiousAffiliation: Error from server: The filter "concept in ^999000531000000100" was not understood in the context of http://snomed.info/sct
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ReportCodeSnCT.xml ==
+ERROR: UKCore-ReportCodeSnCT: Error from server: The filter "constraint = (<<371525003 | Clinical procedure report|)" was not understood in the context of http://snomed.info/sct
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ResidentialStatus.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-SDSJobRoleName.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-SourceOfAdmission.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-SpecimenBodySite.xml ==
+ERROR: UKCore-SpecimenBodySite: Error from server: The filter "constraint = (< 442083009 |Anatomical or acquired body structure| OR < 49755003 |Morphologically abnormal structure|)" was not understood in the context of http://snomed.info/sct
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-SpecimenType.xml ==
+ERROR: UKCore-SpecimenType: Error from server: The filter "constraint = (<105590001 |Substance (in which case method and site should also be populated)|OR <49755003 |Morphologically abnormal structure|OR < 260787004 |Physical object|)" was not understood in the context of http://snomed.info/sct
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-TreatmentCategory.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-VaccinationProcedure.xml ==
+ERROR: UKCore-VaccinationProcedure: Error from server: The filter "constraint = (<<33879002 OR <<713404003 OR <<955641000000103 OR <<955691000000108 OR <<955701000000108 OR <<957581000000102 OR <<957751000000103 OR <<1066171000000108 OR <<140611000119104 OR <<15483003 OR <<39343008 OR <<34631000 OR <<72093006 OR <<425897001 OR <<8605003 OR <<428502009 OR <<283451000000105 OR <<308753004 OR <<572481000119103 OR <<965851000000105 OR <<761841000 OR <<16300531000119107 OR <<14747002 OR <<283431000000103 OR <<427633002) MINUS (<<304250009 OR <<51116004 OR <<296811004 OR <<294631000 OR <<425457005 OR <<291705006 OR <<417451006 OR <<47988006 OR <<293095001 OR <<601000000100 OR <<123471000119103 OR <<266758009 OR <<223464006 OR <<185324002 OR <<416064006 OR <<428119001 OR <<308433002 OR <<183944003 OR <<408864009 OR <<202111000000106 OR <<708538000 OR <<418019003 OR <<416237000 OR <<400999005 OR <<309370004)" was not understood in the context of http://snomed.info/sct
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-VaccineCode.xml ==
+ERROR: UKCore-VaccineCode: Error from server: The filter "concept in ^999000811000001105" was not understood in the context of http://snomed.info/sct
