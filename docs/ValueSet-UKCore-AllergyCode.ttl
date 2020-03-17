@@ -1,0 +1,70 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/ValueSet/UKCore-AllergyCode> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "UKCore-AllergyCode"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UK Core Allergy Code</h2><div><p>A code from the SNOMED Clinical Terminology UK with the expression (&lt;105590001 |Substance OR &lt;373873005 |Pharmaceutical / biologic product| OR &lt;716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy), or a code from the v3 Code System NullFlavor specifying why a valid value is not present.</p>\n</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where constraint  =  (&lt;&lt;105590001 |Substance OR &lt;&lt;373873005 |Pharmaceutical / biologic product| OR &lt;&lt;716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy|)</li><li>Include codes from <a href=\"http://hl7.org/fhir/R4/v3/NullFlavor/cs.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a> where concept  =  <a href=\"http://hl7.org/fhir/R4/v3/NullFlavor/cs.html#v3-NullFlavor-NI\">NI</a></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "https://fhir.nhs.uk/R4/ValueSet/UKCore-AllergyCode"];
+  fhir:ValueSet.version [ fhir:value "4.0.0"];
+  fhir:ValueSet.name [ fhir:value "UKCoreAllergyCode"];
+  fhir:ValueSet.title [ fhir:value "UK Core Allergy Code"];
+  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.date [ fhir:value "2020-03-17T13:21:08+00:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "Project Wildfyre"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Project Wildfyre" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "mailto:dunno@dummy.net" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "A code from the SNOMED Clinical Terminology UK with the expression (<105590001 |Substance OR <373873005 |Pharmaceutical / biologic product| OR <716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy), or a code from the v3 Code System NullFlavor specifying why a valid value is not present."];
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "GB" ]
+     ]
+  ];
+  fhir:ValueSet.copyright [ fhir:value "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "constraint" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "=" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "(<<105590001 |Substance OR <<373873005 |Pharmaceutical / biologic product| OR <<716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy|)" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-NullFlavor" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "=" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "NI" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/ValueSet/UKCore-AllergyCode.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

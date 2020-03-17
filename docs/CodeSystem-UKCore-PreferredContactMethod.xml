@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="UKCore-PreferredContactMethod"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>UK Core Preferred Contact Method</h2><div><p>A CodeSystem to identify the preferred Contact Method of a Patient, contact or RelatedPerson.</p>
+</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-PreferredContactMethod defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">1<a name="UKCore-PreferredContactMethod-1"> </a></td><td>Letter</td><td/></tr><tr><td style="white-space:nowrap">2<a name="UKCore-PreferredContactMethod-2"> </a></td><td>Visit</td><td/></tr><tr><td style="white-space:nowrap">3<a name="UKCore-PreferredContactMethod-3"> </a></td><td>Telephone</td><td/></tr><tr><td style="white-space:nowrap">4<a name="UKCore-PreferredContactMethod-4"> </a></td><td>E-mail</td><td/></tr><tr><td style="white-space:nowrap">5<a name="UKCore-PreferredContactMethod-5"> </a></td><td>Minicom (Textphone)</td><td/></tr><tr><td style="white-space:nowrap">6<a name="UKCore-PreferredContactMethod-6"> </a></td><td>Telephone contact via proxy</td><td/></tr><tr><td style="white-space:nowrap">7<a name="UKCore-PreferredContactMethod-7"> </a></td><td>Sign language</td><td/></tr><tr><td style="white-space:nowrap">8<a name="UKCore-PreferredContactMethod-8"> </a></td><td>No Telephone contact</td><td/></tr></table></div>
+  </text>
+  <url value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-PreferredContactMethod"/>
+  <version value="4.0.0"/>
+  <name value="UKCorePreferredContactMethod"/>
+  <title value="UK Core Preferred Contact Method"/>
+  <status value="draft"/>
+  <date value="2019-12-06T00:00:00+00:00"/>
+  <publisher value="Project Wildfyre"/>
+  <contact>
+    <name value="Project Wildfyre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:dunno@dummy.net"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="A CodeSystem to identify the preferred Contact Method of a Patient, contact or RelatedPerson."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="GB"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
+  <content value="complete"/>
+  <concept>
+    <code value="1"/>
+    <display value="Letter"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Visit"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Telephone"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="E-mail"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Minicom (Textphone)"/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="Telephone contact via proxy"/>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="Sign language"/>
+  </concept>
+  <concept>
+    <code value="8"/>
+    <display value="No Telephone contact"/>
+  </concept>
+</CodeSystem>

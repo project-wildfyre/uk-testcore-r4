@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="UKCore-PreferredWrittenCommunicationFormat"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>UK Core Preferred Written Communication Format</h2><div><p>A CodeSystem to identify the preferred written communication format of a Patient, contact or RelatedPerson.</p>
+</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-PreferredWrittenCommunicationFormat defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">11<a name="UKCore-PreferredWrittenCommunicationFormat-11"> </a></td><td>Large print</td><td/></tr><tr><td style="white-space:nowrap">12<a name="UKCore-PreferredWrittenCommunicationFormat-12"> </a></td><td>Braille</td><td/></tr><tr><td style="white-space:nowrap">13<a name="UKCore-PreferredWrittenCommunicationFormat-13"> </a></td><td>Audio tape</td><td/></tr></table></div>
+  </text>
+  <url value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-PreferredWrittenCommunicationFormat"/>
+  <version value="4.0.0"/>
+  <name value="UKCorePreferredWrittenCommunicationFormat"/>
+  <title value="UK Core Preferred Written Communication Format"/>
+  <status value="draft"/>
+  <date value="2019-12-06T00:00:00+00:00"/>
+  <publisher value="Project Wildfyre"/>
+  <contact>
+    <name value="Project Wildfyre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:dunno@dummy.net"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="A CodeSystem to identify the preferred written communication format of a Patient, contact or RelatedPerson."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="GB"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
+  <content value="complete"/>
+  <concept>
+    <code value="11"/>
+    <display value="Large print"/>
+  </concept>
+  <concept>
+    <code value="12"/>
+    <display value="Braille"/>
+  </concept>
+  <concept>
+    <code value="13"/>
+    <display value="Audio tape"/>
+  </concept>
+</CodeSystem>

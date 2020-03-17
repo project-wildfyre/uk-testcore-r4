@@ -1,0 +1,51 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/RelatedPerson/UKCore-RelatedPerson-Example> a fhir:RelatedPerson;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "UKCore-RelatedPerson-Example"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson";
+       fhir:index 0;
+       fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-RelatedPerson-Example</p><p><b>meta</b>: </p><p><b>patient</b>: <a href=\"{{[type]}}-{{[id]}}.html\">Generated Summary: id: UKCore-Patient-Example; 9912003888; Richard SMITH (OFFICIAL); ph: 01131231234; gender: male; birthDate: 1970-09-11</a></p><p><b>relationship</b>: wife <span style=\"background: LightGoldenRodYellow\">(Details : {http://terminology.hl7.org/CodeSystem/v3-RoleCode code 'WIFE' = 'wife', given as 'wife'})</span></p><p><b>name</b>: Joy SMITH (OFFICIAL)</p></div>"
+  ];
+  fhir:RelatedPerson.patient [
+     fhir:link <https://fhir.nhs.uk/R4/Patient/UKCore-Patient-Example>;
+     fhir:Reference.reference [ fhir:value "Patient/UKCore-Patient-Example" ]
+  ];
+  fhir:RelatedPerson.relationship [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-RoleCode" ];
+       fhir:Coding.code [ fhir:value "WIFE" ];
+       fhir:Coding.display [ fhir:value "wife" ]
+     ]
+  ];
+  fhir:RelatedPerson.name [
+     fhir:index 0;
+     fhir:HumanName.use [ fhir:value "official" ];
+     fhir:HumanName.family [ fhir:value "SMITH" ];
+     fhir:HumanName.given [
+       fhir:value "Joy";
+       fhir:index 0
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/RelatedPerson/UKCore-RelatedPerson-Example.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

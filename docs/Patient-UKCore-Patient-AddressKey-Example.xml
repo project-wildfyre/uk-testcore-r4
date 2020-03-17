@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="UKCore-Patient-AddressKey-Example"/>
+  <meta>
+    <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient|1.0.0"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Patient-AddressKey-Example</p><p><b>meta</b>: </p><p><b>address</b>: 4 Sandmoor Drive LEEDS LS17 7DF </p></div>
+  </text>
+  <address>
+    <extension url="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey">
+      <extension url="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey">
+        <valueCoding>
+          <system value="SYSTEM"/>
+          <code value="CODE"/>
+          <display value="DISPLAY"/>
+        </valueCoding>
+      </extension>
+      <extension url="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey">
+        <valueString value="STRING"/>
+      </extension>
+    </extension>
+    <line value="4 Sandmoor Drive"/>
+    <line value="LEEDS"/>
+    <postalCode value="LS17 7DF"/>
+  </address>
+</Patient>

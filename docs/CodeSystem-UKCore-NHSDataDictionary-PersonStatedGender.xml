@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="UKCore-NHSDataDictionary-PersonStatedGender"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NHS Data Model and Dictionary Person Stated Gender Code</h2><div><p>The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender.</p>
+</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">1<a name="UKCore-NHSDataDictionary-PersonStatedGender-1"> </a></td><td>Male</td><td/></tr><tr><td style="white-space:nowrap">2<a name="UKCore-NHSDataDictionary-PersonStatedGender-2"> </a></td><td>Female</td><td/></tr><tr><td style="white-space:nowrap">9<a name="UKCore-NHSDataDictionary-PersonStatedGender-9"> </a></td><td>Indeterminate (unable to be classified as either male or female)</td><td/></tr><tr><td style="white-space:nowrap">X<a name="UKCore-NHSDataDictionary-PersonStatedGender-X"> </a></td><td>Not Known (not recorded)</td><td/></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference">
+    <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/attributes/p/person/person_stated_gender_code_de.asp?shownav=1"/>
+  </extension>
+  <url value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender"/>
+  <version value="4.0.0"/>
+  <name value="NHSDataModelandDictionaryPersonStatedGenderCode"/>
+  <title value="NHS Data Model and Dictionary Person Stated Gender Code"/>
+  <status value="active"/>
+  <date value="2019-10-18T13:00:00+01:00"/>
+  <publisher value="Project Wildfyre"/>
+  <contact>
+    <name value="Project Wildfyre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:dunno@dummy.net"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="GB"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="1"/>
+    <display value="Male"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Female"/>
+  </concept>
+  <concept>
+    <code value="9"/>
+    <display value="Indeterminate (unable to be classified as either male or female)"/>
+  </concept>
+  <concept>
+    <code value="X"/>
+    <display value="Not Known (not recorded)"/>
+  </concept>
+</CodeSystem>

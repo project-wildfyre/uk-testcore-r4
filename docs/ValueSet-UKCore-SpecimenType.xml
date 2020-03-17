@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="UKCore-SpecimenType"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>UK Core Specimen Type</h2><div><p>A code from the SNOMED Clinical Terminology UK coding system to record a specimen type.</p>
+</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where constraint  =  (&lt;105590001 |Substance (in which case method and site should also be populated)|OR &lt;49755003 |Morphologically abnormal structure|OR &lt; 260787004 |Physical object|)</li></ul></div>
+  </text>
+  <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-SpecimenType"/>
+  <version value="4.0.0"/>
+  <name value="UKCoreSpecimenType"/>
+  <title value="UK Core Specimen Type"/>
+  <status value="draft"/>
+  <date value="2020-02-10T00:00:00+00:00"/>
+  <publisher value="Project Wildfyre"/>
+  <contact>
+    <name value="Project Wildfyre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:dunno@dummy.net"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="A code from the SNOMED Clinical Terminology UK coding system to record a specimen type."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="GB"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This value set includes content from SNOMED CT, which is copyright &#xA9; 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <filter>
+        <property value="constraint"/>
+        <op value="="/>
+        <value value="(&lt;105590001 |Substance (in which case method and site should also be populated)|OR &lt;49755003 |Morphologically abnormal structure|OR &lt; 260787004 |Physical object|)"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

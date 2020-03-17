@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="UKCore-ConditionEpisodicity"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ConceptMapUKCoreConditionEpisodicity (https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-ConditionEpisodicity)</h2><p>Mapping from <a href="ValueSet-UKCore-ConditionEpisodicity.html">https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisodicity</a> to <a href="ValueSet-UKCore-ConditionEpisode.html">https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisode</a></p><p>DRAFT. Published on 11-Nov-2019 00:00:00 by Project Wildfyre (Project Wildfyre: <a href="mailto:mailto:dunno@dummy.net">mailto:dunno@dummy.net</a>). Copyright © 2019 NHS Digital</p><div><p>A Concept Map from ValueSet Condition Episodicity Severity to equivalent Snomed CT codes</p>
+</div><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>first</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent">is equivalent to</a></td><td>255217005 (First episode)</td></tr><tr><td>new</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent">is equivalent to</a></td><td>288527008 (New episode)</td></tr><tr><td>review</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent">is equivalent to</a></td><td>303350001 (Ongoing episode)</td></tr><tr><td>end</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent">is equivalent to</a></td><td>272131007 (Old episode)</td></tr></table></div>
+  </text>
+  <url value="https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-ConditionEpisodicity"/>
+  <version value="4.0.0"/>
+  <name value="ConceptMapUKCoreConditionEpisodicity"/>
+  <title value="ConceptMap - UK Core Condition Episodicity"/>
+  <status value="draft"/>
+  <date value="2019-11-11T00:00:00+00:00"/>
+  <publisher value="Project Wildfyre"/>
+  <contact>
+    <name value="Project Wildfyre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:dunno@dummy.net"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="A Concept Map from ValueSet Condition Episodicity Severity to equivalent Snomed CT codes"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="GB"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
+  <sourceUri value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisodicity"/>
+  <targetUri value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisode"/>
+  <group>
+    <source value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConditionEpisodicity"/>
+    <target value="http://snomed.info/sct"/>
+    <element>
+      <code value="first"/>
+      <display value="First"/>
+      <target>
+        <code value="255217005"/>
+        <display value="First episode"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="new"/>
+      <display value="New"/>
+      <target>
+        <code value="288527008"/>
+        <display value="New episode"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="review"/>
+      <display value="Review"/>
+      <target>
+        <code value="303350001"/>
+        <display value="Ongoing episode"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="end"/>
+      <display value="End"/>
+      <target>
+        <code value="272131007"/>
+        <display value="Old episode"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

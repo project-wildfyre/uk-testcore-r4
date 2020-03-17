@@ -1,0 +1,41 @@
+{
+  "resourceType": "Patient",
+  "id": "UKCore-Patient-AddressKey-Example",
+  "meta": {
+    "profile": [
+      "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient|1.0.0"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Patient-AddressKey-Example</p><p><b>meta</b>: </p><p><b>address</b>: 4 Sandmoor Drive LEEDS LS17 7DF </p></div>"
+  },
+  "address": [
+    {
+      "extension": [
+        {
+          "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey",
+          "extension": [
+            {
+              "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey",
+              "valueCoding": {
+                "system": "SYSTEM",
+                "code": "CODE",
+                "display": "DISPLAY"
+              }
+            },
+            {
+              "url": "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey",
+              "valueString": "STRING"
+            }
+          ]
+        }
+      ],
+      "line": [
+        "4 Sandmoor Drive",
+        "LEEDS"
+      ],
+      "postalCode": "LS17 7DF"
+    }
+  ]
+}
