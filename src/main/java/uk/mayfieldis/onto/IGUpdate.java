@@ -207,7 +207,7 @@ public class IGUpdate implements CommandLineRunner {
             }
             for (Map.Entry<String, IDomainResource> entry : myExamples.entrySet()) {
                 Files.createDirectories(Paths.get(outputpath + "/Examples"));
-                Path path = Paths.get(outputpath + "/Examples/"+ entry.getKey());
+                Path path = Paths.get(outputpath + "/Examples/"+ entry.getKey()+".xml");
                 Files.writeString(path, ctxR4.newXmlParser().setPrettyPrint(true).encodeResourceToString(entry.getValue()));
                 String resourceName = entry.getValue().getClass().getSimpleName();
                 if (resourceName.equals("ListResource")) resourceName="List";
