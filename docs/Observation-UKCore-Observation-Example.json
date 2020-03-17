@@ -8,7 +8,7 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Observation-Example</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: Awareness of diagnosis <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '162564003' = 'Awareness of diagnosis', given as 'Awareness of diagnosis'})</span></p><p><b>subject</b>: <a href=\"{{[type]}}-{{[id]}}.html\">Generated Summary: id: UKCore-Patient-Example; 9912003888; Richard SMITH (OFFICIAL); ph: 01131231234; gender: male; birthDate: 1970-09-11</a></p><p><b>effective</b>: 10-Dec-2019 13:00:00</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Observation-Example</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: Awareness of diagnosis <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '162564003' = 'Awareness of diagnosis', given as 'Awareness of diagnosis'})</span></p><p><b>subject</b>: <a href=\"{{[type]}}-{{[id]}}.html\">Generated Summary: id: UKCore-Patient-Example; 9912003888; Richard SMITH (OFFICIAL); ph: 01131231234; gender: male; birthDate: 1970-09-11</a></p><p><b>effective</b>: 10 Dec 2019, 13:00:00</p></div>"
   },
   "status": "final",
   "code": {

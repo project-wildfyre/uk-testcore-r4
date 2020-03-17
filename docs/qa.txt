@@ -3,7 +3,7 @@
 
 err = 142, warn = 94, info = 12
 IG Publisher Version: v1.0.70-SNAPSHOT Out of date - current version is v1.0.72-SNAPSHOT
-Generated Tue Mar 17 13:36:15 GMT 2020. FHIR version 4.0.1 for uk.testcore.r4#4.0.0 (canonical = https://fhir.nhs.uk/R4)
+Generated Tue Mar 17 14:46:59 GMT 2020. FHIR version 4.0.1 for uk.testcore.r4#4.0.0 (canonical = https://fhir.nhs.uk/R4)
 
  Build Errors : 42 / 21
  /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/AllergyIntolerance-UKCore-AllergyIntolerance-Example : 0 / 0
@@ -228,28 +228,28 @@ ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension
 ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 243, column 12: The link 'Extension-UKCore-ResidentialStatus.html' for "Extension UK Core ResidentialStatus" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 247, column 12: The link 'Extension-UKCore-TreatmentCategory.html' for "Extension UK Core TreatmentCategory" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/output/index.html#/html/body/div/div/div/div/div/p/a at Line 138, column 42: The link 'summary.html' for "Summary" cannot be resolved
-== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/AllergyIntolerance-UKCore-AllergyIntolerance-Example ==
-== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Condition-UKCore-Condition-Example ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/AllergyIntolerance-UKCore-AllergyIntolerance-Example.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Condition-UKCore-Condition-Example.xml ==
 WARNING: Condition/UKCore-Condition-Example: Condition.code.coding[0]: The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionCode, and a code should come from this value set unless it has no suitable code.  (error message = The filter "constraint = (< 404684003 |Clinical finding| OR < 413350009 |Finding with explicit context| OR < 272379006 |Event|)" was not understood in the context of http://snomed.info/sct)
-== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Consent-UKCore-Consent-Example ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Consent-UKCore-Consent-Example.xml ==
 WARNING: Consent/UKCore-Consent-Example: Consent.meta.profile[0]: Profile reference "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Consent" could not be resolved, so has not been checked
-== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Encounter-UKCore-Encounter-Example ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Encounter-UKCore-Encounter-Example.xml ==
 WARNING: Encounter/UKCore-Encounter-Example: Encounter.type[0].coding[0]: The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-EncounterType, and a code should come from this value set unless it has no suitable code.  (error message = The filter "constraint = <<185316007 OR <<308467007 OR <<185201007" was not understood in the context of http://snomed.info/sct)
-== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/List-UKCore-List-Example ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/List-UKCore-List-Example.xml ==
 ERROR: List/UKCore-List-Example: List.code.coding[0]: unable to find code 826501000000100 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200131) for "http://snomed.info/sct#826501000000100"
 INFORMATION: List/UKCore-List-Example: List.emptyReason: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/list-empty-reason (http://hl7.org/fhir/ValueSet/list-empty-reason, and a code is recommended to come from this value set) (codes = https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListEmptyReasonCode#no-content-recorded)
-== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Location-UKCore-Location-Example ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Location-UKCore-Location-Example.xml ==
 ERROR: Location/UKCore-Location-Example: Location.managingOrganization: Unable to resolve resource "Organization/UKCore-Organization-Example"
-== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Medication-UKCore-Medication-Example ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Medication-UKCore-Medication-Example.xml ==
 ERROR: Medication/UKCore-Medication-Example: Medication.code.coding[0]: The code "2501-813-16" is not valid in the system http://hl7.org/fhir/sid/ndc; The code provided (http://hl7.org/fhir/sid/ndc#2501-813-16) is not  valid in the value set All codes known to the system for "http://hl7.org/fhir/sid/ndc#2501-813-16"
 WARNING: Medication/UKCore-Medication-Example: Medication.form.coding[0]: The display "Opthalmic Solution (qualifier value)" is not a valid display for the code {http://snomed.info/sct}75359005 - should be one of ["Timolol maleate","Timolol maleate (substance)"]
-== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/MedicationDispense-UKCore-MedicationDispense-Example ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/MedicationDispense-UKCore-MedicationDispense-Example.xml ==
 ERROR: MedicationDispense/UKCore-MedicationDispense-Example: MedicationDispense.authorizingPrescription[0]: Unable to resolve resource "MedicationRequest/UKCore-MedicationRequest-Example"
 WARNING: MedicationDispense/UKCore-MedicationDispense-Example: MedicationDispense.dosageInstruction[0].route.coding[0]: The display "Ophthalmic" is not a valid display for the code {http://snomed.info/sct}54485002 - should be one of ["Ophthalmic route","Ophthalmic route (qualifier value)","Ophthalmic use","A route that begins in the eye region."]
-== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Observation-UKCore-Observation-Example ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Observation-UKCore-Observation-Example.xml ==
 WARNING: Observation/UKCore-Observation-Example: Observation.code.coding[0]: The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-ObservationType, and a code should come from this value set unless it has no suitable code.  (error message = The filter "constraint = (<<363787002 | Observable entity|)" was not understood in the context of http://snomed.info/sct)
-== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Organization-UKCore-Organisation-Example ==
-== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Patient-UKCore-Patient-AddressKey-Example ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Organization-UKCore-Organisation-Example.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Patient-UKCore-Patient-AddressKey-Example.xml ==
 INFORMATION: Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[0]: This element does not match any known slice defined in the profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey
 INFORMATION: Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[1]: This element does not match any known slice defined in the profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey
 ERROR: Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0]: Profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey, Element 'Patient.address[0].extension[0].extension[type]': minimum required = 1, but only found 0
@@ -265,13 +265,13 @@ ERROR: Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0
 ERROR: Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[1]: Profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey, Element 'Patient.address[0].extension[0].extension[1].extension[type]': minimum required = 1, but only found 0
 ERROR: Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[1]: Profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey, Element 'Patient.address[0].extension[0].extension[1].extension[value]': minimum required = 1, but only found 0
 ERROR: Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[1]: Profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey, Element 'Patient.address[0].extension[0].extension[1].value[x]': max allowed = 0, but found 1
-== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Patient-UKCore-Patient-Example ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Patient-UKCore-Patient-Example.xml ==
 INFORMATION: Patient/UKCore-Patient-Example: Patient.extension[0].value.ofType(CodeableConcept).coding[0]: Code System URI "https://fhir.nhs.uk/R4/UKCore-EthnicCategory-1" is unknown so the code cannot be validated
-== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Practitioner-UKCore-Practitioner-Example ==
-== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/PractitionerRole-UKCore-PractitionerRole-Example ==
-== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Procedure-UKCore-Procedure-Example ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Practitioner-UKCore-Practitioner-Example.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/PractitionerRole-UKCore-PractitionerRole-Example.xml ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Procedure-UKCore-Procedure-Example.xml ==
 WARNING: Procedure/UKCore-Procedure-Example: Procedure.code.coding[0]: The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-ProcedureCode, and a code should come from this value set unless it has no suitable code.  (error message = The filter "constraint = (<<71388002 |Procedure|<<129125009 OR |Procedure with explicit context|)" was not understood in the context of http://snomed.info/sct)
-== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/RelatedPerson-UKCore-RelatedPerson-Example ==
+== /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/RelatedPerson-UKCore-RelatedPerson-Example.xml ==
 == /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ImplementationGuide-UK-Core-R4.xml ==
 ERROR: https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype: Conformance resource /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ImplementationGuide-UK-Core-R4.xml - the canonical URL (https://fhir.nhs.uk/R4/ImplementationGuide/uk-testcore-r4) does not match the URL (https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype)
 ERROR: ImplementationGuide.url: Resource id/url mismatch: uk-testcore-r4/https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype
