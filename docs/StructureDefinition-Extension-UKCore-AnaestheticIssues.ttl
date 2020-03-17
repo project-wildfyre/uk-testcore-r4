@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "ExtensionUKCoreAnaestheticIssues"];
   fhir:StructureDefinition.title [ fhir:value "Extension UK Core Anaesthetic Issues"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2020-03-17T13:29:16+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2020-03-17T13:21:08+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Project Wildfyre"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
