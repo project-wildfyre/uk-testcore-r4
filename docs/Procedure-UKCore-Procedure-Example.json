@@ -1,0 +1,27 @@
+{
+  "resourceType": "Procedure",
+  "id": "UKCore-Procedure-Example",
+  "meta": {
+    "profile": [
+      "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Procedure"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Procedure-Example</p><p><b>meta</b>: </p><p><b>status</b>: completed</p><p><b>code</b>: Hand microscope examination of skin (procedure) <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '128004' = 'Hand microscope examination of skin', given as 'Hand microscope examination of skin (procedure)'})</span></p><p><b>subject</b>: <a href=\"{{[type]}}-{{[id]}}.html\">Generated Summary: id: UKCore-Patient-Example; 9912003888; Richard SMITH (OFFICIAL); ph: 01131231234; gender: male; birthDate: 1970-09-11</a></p><p><b>performed</b>: 10 Dec 2019, 13:00:00</p></div>"
+  },
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "128004",
+        "display": "Hand microscope examination of skin (procedure)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/UKCore-Patient-Example"
+  },
+  "performedDateTime": "2019-12-10T13:00:00+00:00"
+}

@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "id": "UKCore-SpecimenType",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UK Core Specimen Type</h2><div><p>A code from the SNOMED Clinical Terminology UK coding system to record a specimen type.</p>\n</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where constraint  =  (&lt;105590001 |Substance (in which case method and site should also be populated)|OR &lt;49755003 |Morphologically abnormal structure|OR &lt; 260787004 |Physical object|)</li></ul></div>"
+  },
+  "url": "https://fhir.nhs.uk/R4/ValueSet/UKCore-SpecimenType",
+  "version": "4.0.0",
+  "name": "UKCoreSpecimenType",
+  "title": "UK Core Specimen Type",
+  "status": "draft",
+  "date": "2020-02-10T00:00:00+00:00",
+  "publisher": "Project Wildfyre",
+  "contact": [
+    {
+      "name": "Project Wildfyre",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:dunno@dummy.net",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "A code from the SNOMED Clinical Terminology UK coding system to record a specimen type.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "GB"
+        }
+      ]
+    }
+  ],
+  "copyright": "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "constraint",
+            "op": "=",
+            "value": "(<105590001 |Substance (in which case method and site should also be populated)|OR <49755003 |Morphologically abnormal structure|OR < 260787004 |Physical object|)"
+          }
+        ]
+      }
+    ]
+  }
+}

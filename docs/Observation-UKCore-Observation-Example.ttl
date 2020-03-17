@@ -1,0 +1,45 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/Observation/UKCore-Observation-Example> a fhir:Observation;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "UKCore-Observation-Example"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation";
+       fhir:index 0;
+       fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Observation-Example</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: Awareness of diagnosis <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '162564003' = 'Awareness of diagnosis', given as 'Awareness of diagnosis'})</span></p><p><b>subject</b>: <a href=\"{{[type]}}-{{[id]}}.html\">Generated Summary: id: UKCore-Patient-Example; 9912003888; Richard SMITH (OFFICIAL); ph: 01131231234; gender: male; birthDate: 1970-09-11</a></p><p><b>effective</b>: 10 Dec 2019, 13:00:00</p></div>"
+  ];
+  fhir:Observation.status [ fhir:value "final"];
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a sct:162564003;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "162564003" ];
+       fhir:Coding.display [ fhir:value "Awareness of diagnosis" ]
+     ]
+  ];
+  fhir:Observation.subject [
+     fhir:link <https://fhir.nhs.uk/R4/Patient/UKCore-Patient-Example>;
+     fhir:Reference.reference [ fhir:value "Patient/UKCore-Patient-Example" ]
+  ];
+  fhir:Observation.effectiveInstant [ fhir:value "2019-12-10T13:00:00+00:00"^^xsd:dateTime] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/Observation/UKCore-Observation-Example.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

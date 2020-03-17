@@ -1,0 +1,97 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/ConceptMap/UKCore-AllergyVerificationStatus> a fhir:ConceptMap;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "UKCore-AllergyVerificationStatus"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ConceptMapUKCoreAllergyVerificationStatus (https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AllergyVerificationStatus)</h2><p>Mapping from <a href=\"http://hl7.org/fhir/R4/valueset-allergyintolerance-verification.html\">http://hl7.org/fhir/ValueSet/allergyintolerance-verification</a> to <a href=\"ValueSet-UKCore-AllergyCertainty.html\">https://fhir.nhs.uk/R4/ValueSet/UKCore-AllergyCertainty</a></p><p>DRAFT. Published on 5 Nov 2019, 00:00:00 by Project Wildfyre (Project Wildfyre: <a href=\"mailto:mailto:dunno@dummy.net\">mailto:dunno@dummy.net</a>). Copyright © 2016 HL7 UK</p><div><p>A Concept Map from the HL7 FHIR ValueSet Allergy Verification Status to Allergy Certainity to aid interpretation.</p>\n</div><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>unconfirmed</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent\">is equivalent to</a></td><td>385434005 (Improbable diagnosis (contextual qualifier) (qualifier value))</td></tr><tr><td>unconfirmed</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent\">is equivalent to</a></td><td>2931005 (Probable diagnosis)</td></tr><tr><td>confirmed</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent\">is equivalent to</a></td><td>255545003 (Definite)</td></tr><tr><td>confirmed</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent\">is equivalent to</a></td><td>410605003 (Confirmed present (qualifier value))</td></tr></table></div>"
+  ];
+  fhir:ConceptMap.url [ fhir:value "https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AllergyVerificationStatus"];
+  fhir:ConceptMap.version [ fhir:value "4.0.0"];
+  fhir:ConceptMap.name [ fhir:value "ConceptMapUKCoreAllergyVerificationStatus"];
+  fhir:ConceptMap.title [ fhir:value "Concept Map - UK Core Allergy Verification Status"];
+  fhir:ConceptMap.status [ fhir:value "draft"];
+  fhir:ConceptMap.date [ fhir:value "2019-11-05T00:00:00+00:00"^^xsd:dateTime];
+  fhir:ConceptMap.publisher [ fhir:value "Project Wildfyre"];
+  fhir:ConceptMap.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Project Wildfyre" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "mailto:dunno@dummy.net" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ];
+  fhir:ConceptMap.description [ fhir:value "A Concept Map from the HL7 FHIR ValueSet Allergy Verification Status to Allergy Certainity to aid interpretation."];
+  fhir:ConceptMap.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "GB" ]
+     ]
+  ];
+  fhir:ConceptMap.copyright [ fhir:value "Copyright © 2016 HL7 UK"];
+  fhir:ConceptMap.sourceUri [ fhir:value "http://hl7.org/fhir/ValueSet/allergyintolerance-verification"];
+  fhir:ConceptMap.targetUri [ fhir:value "https://fhir.nhs.uk/R4/ValueSet/UKCore-AllergyCertainty"];
+  fhir:ConceptMap.group [
+     fhir:index 0;
+     fhir:ConceptMap.group.source [ fhir:value "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification" ];
+     fhir:ConceptMap.group.target [ fhir:value "http://snomed.info/sct" ];
+     fhir:ConceptMap.group.element [
+       fhir:index 0;
+       fhir:ConceptMap.group.element.code [ fhir:value "unconfirmed" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Unconfirmed" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "385434005" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Improbable diagnosis" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:ConceptMap.group.element.code [ fhir:value "unconfirmed" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Unconfirmed" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "2931005" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Probable diagnosis" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:ConceptMap.group.element.code [ fhir:value "confirmed" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Confirmed" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "255545003" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Definite" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:ConceptMap.group.element.code [ fhir:value "confirmed" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Confirmed" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "410605003" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Confirmed present" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/ConceptMap/UKCore-AllergyVerificationStatus.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

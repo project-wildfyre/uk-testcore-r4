@@ -1,0 +1,3077 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "uk-testcore-r4",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HL7FHIRUKCore</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype</pre></div>"
+  },
+  "url": "https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype",
+  "version": "4.0.0",
+  "name": "HL7FHIRUKCore",
+  "title": "HL7 FHIR®  UK Core",
+  "status": "draft",
+  "experimental": true,
+  "date": "2019-10-14T00:00:00+01:00",
+  "publisher": "Project Wildfyre",
+  "contact": [
+    {
+      "name": "Project Wildfyre",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:dunno@dummy.net",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "GB"
+        }
+      ]
+    }
+  ],
+  "packageId": "uk.testcore.r4",
+  "license": "CC0-1.0",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "extension": [
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "copyrightyear"
+          },
+          {
+            "url": "value",
+            "valueString": "2020+"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "releaselabel"
+          },
+          {
+            "url": "value",
+            "valueString": "CI Build"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "generate"
+          },
+          {
+            "url": "value",
+            "valueString": "xml"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "generate"
+          },
+          {
+            "url": "value",
+            "valueString": "JSON"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "copyrightyear"
+          },
+          {
+            "url": "value",
+            "valueString": "2020+"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "releaselabel"
+          },
+          {
+            "url": "value",
+            "valueString": "CI Build"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "autoload-resources"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-qa"
+          },
+          {
+            "url": "value",
+            "valueString": "temp/qa"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-temp"
+          },
+          {
+            "url": "value",
+            "valueString": "temp/pages"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-output"
+          },
+          {
+            "url": "value",
+            "valueString": "output"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-suppressed-warnings"
+          },
+          {
+            "url": "value",
+            "valueString": "input/ignoreWarnings.txt"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "template-html"
+          },
+          {
+            "url": "value",
+            "valueString": "template-page.html"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "template-md"
+          },
+          {
+            "url": "value",
+            "valueString": "template-page-md.html"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-contact"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-context"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-copyright"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-jurisdiction"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-license"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-publisher"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-version"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "active-tables"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      }
+    ],
+    "grouping": [
+      {
+        "name": "HL7 FHIR®  UK Core"
+      }
+    ],
+    "resource": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-ListWarningCode.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-ListWarningCode"
+        },
+        "name": "UKCoreListWarningCode",
+        "description": "A CodeSystem to identify the reason a list may be incomplete."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-PreferredWrittenCommunicationFormat.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-PreferredWrittenCommunicationFormat"
+        },
+        "name": "UKCorePreferredWrittenCommunicationFormat",
+        "description": "A CodeSystem to identify the preferred written communication format of a Patient, contact or RelatedPerson."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender"
+        },
+        "name": "NHSDataModelandDictionaryPersonStatedGenderCode",
+        "description": "The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-SourceOfAdmission.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-SourceOfAdmission"
+        },
+        "name": "NHSDataModelandDictionarySourceOfAdmission",
+        "description": "The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-DischargeDestination.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-DischargeDestination"
+        },
+        "name": "NHSDataModelandDictionaryDischargeDestination",
+        "description": "The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-MedicationSupplyType.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-MedicationSupplyType"
+        },
+        "name": "UKCoreMedicationSupplyType",
+        "description": "A CodeSystem to identify the type of medication supply."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-LanguageAbilityProficiency.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-LanguageAbilityProficiency"
+        },
+        "name": "UKCoreLanguageAbilityProficiency",
+        "description": "A CodeSystem to identify the level of proficiency in communicating a language."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-AdmissionMethod.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-AdmissionMethod"
+        },
+        "name": "NHSDataModelandDictionaryAdmissionMethod",
+        "description": "The method of admission to a Hospital Provider Spell."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-DeathNotificationStatus.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-DeathNotificationStatus"
+        },
+        "name": "UKCoreDeathNotificationStatus",
+        "description": "A CodeSystem to identify the type of death notice as held on Personal Demographics Service (PDS)."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus"
+        },
+        "name": "NHSDataModelandDictionaryPersonMaritalStatusCode",
+        "description": "An indicator to identify the legal marital status of a Person."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-DischargeMethod.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-DischargeMethod"
+        },
+        "name": "NHSDataModelandDictionaryDischargeMethod",
+        "description": "The method of discharge from a Hospital Provider Spell."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-ResidentialStatus.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-ResidentialStatus"
+        },
+        "name": "UKCoreResidentialStatus",
+        "description": "A CodeSystem that identifies the residential status of a patient."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-SDSJobRoleName.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-SDSJobRoleName"
+        },
+        "name": "UKCoreSDSJobRoleName",
+        "description": "A CodeSystem that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-AdditionalRelatedPersonRole.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-AdditionalRelatedPersonRole"
+        },
+        "name": "UKCoreAdditionalRelatedPersonRole",
+        "description": "A CodeSystem to identify the additional relationship roles for RelatedPerson resources."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-ConditionEpisodicity.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-ConditionEpisodicity"
+        },
+        "name": "UKCoreConditionEpisodicity",
+        "description": "A CodeSystem to identify the episodicity of a condition."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-ListEmptyReasonCode.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-ListEmptyReasonCode"
+        },
+        "name": "UKCoreListEmptyReasonCode",
+        "description": "A CodeSystem to identify the reason a list may be empty."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-NHSNumberVerificationStatus.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-NHSNumberVerificationStatus"
+        },
+        "name": "UKCoreNHSNumberVerificationStatus",
+        "description": "A CodeSystem that identifies the trace status of the NHS number. This CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-PreferredContactMethod.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-PreferredContactMethod"
+        },
+        "name": "UKCorePreferredContactMethod",
+        "description": "A CodeSystem to identify the preferred Contact Method of a Patient, contact or RelatedPerson."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-TreatmentCategory.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-TreatmentCategory"
+        },
+        "name": "UKCoreTreatmentCategory",
+        "description": "A CodeSystem that identifies the treatment category for a patient."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-AddressKeyType.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-AddressKeyType"
+        },
+        "name": "UKCoreAddressKeyType",
+        "description": "A CodeSystem to identify the type of Address Key recorded."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-EthnicCategory.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-EthnicCategory"
+        },
+        "name": "UKCoreEthnicCategory",
+        "description": "A CodeSystem to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a persons ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-LanguageAbilityMode.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-LanguageAbilityMode"
+        },
+        "name": "UKCoreLanguageAbilityMode",
+        "description": "A CodeSystem that identifies the mode the patient can communicate in, representing the method of expression of the language."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-HumanLanguage.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-HumanLanguage"
+        },
+        "name": "UKCoreHumanLanguage",
+        "description": "A CodeSystem that identifies the language used by a person."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-ConsentUpdateMode.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-ConsentUpdateMode"
+        },
+        "name": "UKCoreConsentUpdateMode",
+        "description": "A CodeSystem to identify the whether this is the original or an amended resource."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-PrescriptionType.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-PrescriptionType"
+        },
+        "name": "UKCorePrescriptionType",
+        "description": "A CodeSystem to identify the type of prescription."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-UKCore-OutcomeOfAttendance.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/UKCore-OutcomeOfAttendance"
+        },
+        "name": "NHSDataModelandDictionaryOutcomeofAttendance",
+        "description": "This records the outcome of an Out-Patient Attendance Consultant."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-BodySite.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-BodySite"
+        },
+        "name": "UKCoreBodySite",
+        "description": "A code from the SNOMED Clinical Terminology UK with the expression (<<442083009 |anatomical or acquired body structure|)."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-ConditionCategory.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-ConditionCategory"
+        },
+        "name": "UKCoreConditionCategory",
+        "description": "A ValueSet to identify the category of a condition."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-ConditionEpisodicity.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-ConditionEpisodicity"
+        },
+        "name": "UKCoreConditionEpisodicity",
+        "description": "A ValueSet to identify the episodicity of a condition."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-LanguageAbilityMode.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-LanguageAbilityMode"
+        },
+        "name": "UKCoreLanguageAbilityMode",
+        "description": "A ValueSet that identifies the mode the patient can communicate in, representing the method of expression of the language."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-VaccinationProcedure.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-VaccinationProcedure"
+        },
+        "name": "UKCoreVaccinationProcedure",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system to record a vaccination procedure."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-DischargeMethod.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-DischargeMethod"
+        },
+        "name": "NHSDataModelandDictionaryDischargeMethod",
+        "description": "The method of discharge from a Hospital Provider Spell."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-ProcedureCode.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-ProcedureCode"
+        },
+        "name": "UKCoreProcedureCode",
+        "description": "A code from the SNOMED Clinical Terminology UK with the expression (<<71388002 |Procedure|<<129125009 |Procedure with explicit context|)."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus"
+        },
+        "name": "NHSDataModelandDictionaryPersonMaritalStatusCode",
+        "description": "An indicator to identify the legal marital status of a Person."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-PreferredWrittenCommunicationFormat.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-PreferredWrittenCommunicationFormat"
+        },
+        "name": "UKCorePreferredWrittenCommunicationFormat",
+        "description": "A ValueSet to identify the preferred written communication format of a Patient, contact or RelatedPerson."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-AllergyManifestation.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-AllergyManifestation"
+        },
+        "name": "UKCoreAllergyManifestation",
+        "description": "A code from the SNOMED Clinical Terminology UK hierarchy with concept id '404684003' to record an allergy manifestation or a value from the HL7 FHIR nullFlavors code system."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-ReasonImmunizationNotAdministered.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-ReasonImmunizationNotAdministered"
+        },
+        "name": "UKCoreReasonImmunizationNotAdministered",
+        "description": "A ValueSet to identify the reason why an immunization was not administered."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-ListCode.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-ListCode"
+        },
+        "name": "UKCoreListCode",
+        "description": "A ValueSet to identify the purpose of a list."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-NHSNumberVerificationStatus.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-NHSNumberVerificationStatus"
+        },
+        "name": "UKCoreNHSNumberVerificationStatus",
+        "description": "A ValueSet that identifies the trace status of the NHS number. The CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-MedicationDosageRoute.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-MedicationDosageRoute"
+        },
+        "name": "UKCoreMedicationDosageRoute",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK 'NHS e-Prescribing route of administration subset' with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is 'ePrescribing route of administration simple reference set (foundation metadata concept)' with Refset Id 999000051000001100."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-MedicationForm.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-MedicationForm"
+        },
+        "name": "UKCoreMedicationForm",
+        "description": " A code from the SNOMED Clinical Terminology UK coding system that describes a medication dose form."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-DischargeDestination.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-DischargeDestination"
+        },
+        "name": "NHSDataModelandDictionaryDischargeDestination",
+        "description": "The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-ListEmptyReasonCode.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-ListEmptyReasonCode"
+        },
+        "name": "UKCoreListEmptyReasonCode",
+        "description": "A ValueSet to identify the reason a list may be empty."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-DocumentType.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-DocumentType"
+        },
+        "name": "UKCoreDocumentType",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system that describes a clinical document type."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-ResidentialStatus.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-ResidentialStatus"
+        },
+        "name": "UKCoreResidentialStatus",
+        "description": "A ValueSet that identifies the residential status of a patient."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-HumanLanguage.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-HumanLanguage"
+        },
+        "name": "UKCoreHumanLanguage",
+        "description": "A ValueSet that identifies the language used by a person."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-AllergyCertainty.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-AllergyCertainty"
+        },
+        "name": "UKCoreAllergyCertainty",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system that describes the certainty of an allergy."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-AdmissionMethod.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-AdmissionMethod"
+        },
+        "name": "NHSDataModelandDictionaryAdmissionMethod",
+        "description": "The method of admission to a Hospital Provider Spell."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-SourceOfAdmission.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-SourceOfAdmission"
+        },
+        "name": "NHSDataModelandDictionarySourceOfAdmission",
+        "description": "The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-SpecimenType.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-SpecimenType"
+        },
+        "name": "UKCoreSpecimenType",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system to record a specimen type."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-EthnicCategory.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-EthnicCategory"
+        },
+        "name": "UKCoreEthnicCategory",
+        "description": "A ValueSet to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a person's ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-MedicationSupplyType.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-MedicationSupplyType"
+        },
+        "name": "UKCoreMedicationSupplyType",
+        "description": "A ValueSet to identify the type of medication supply."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-TreatmentCategory.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-TreatmentCategory"
+        },
+        "name": "UKCoreTreatmentCategory",
+        "description": "A ValueSet that identifies the treatment category for a patient."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-PrescriptionType.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-PrescriptionType"
+        },
+        "name": "UKCorePrescriptionType",
+        "description": "A ValueSet to identify the type of prescription."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-ListWarningCode.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-ListWarningCode"
+        },
+        "name": "UKCoreListWarningCode",
+        "description": "A ValueSet to identify the reason a list may be incomplete."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-ConditionCode.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-ConditionCode"
+        },
+        "name": "UKCoreConditionCode",
+        "description": "A code from the SNOMED Clinical Terminology UK with the expression (< 404684003 |Clinical finding| OR < 413350009 |Finding with explicit context| OR < 272379006 |Event|)."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-DeathNotificationStatus.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-DeathNotificationStatus"
+        },
+        "name": "UKCoreDeathNotificationStatus",
+        "description": "A ValueSet to identify the type of death notice as held on Personal Demographics Service (PDS)."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-NHSDataDictionary-PersonStatedGender.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-NHSDataDictionary-PersonStatedGender"
+        },
+        "name": "NHSDataModelandDictionaryPersonStatedGenderCode",
+        "description": "The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-ConditionEpisode.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-ConditionEpisode"
+        },
+        "name": "UKCoreConditionEpisode",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system that describes the episodicity of a Condition."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-EncounterType.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-EncounterType"
+        },
+        "name": "UKCoreEncounterType",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system that describes an encounter between a care professional and the patient (or patient's record)."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-FindingCode.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-FindingCode"
+        },
+        "name": "UKCoreFindingCode",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system to record a finding code."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-ObservationType.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-ObservationType"
+        },
+        "name": "UKCoreObservationType",
+        "description": "A code from the SNOMED Clinical Terminology UK with the expression (<<363787002 | Observable entity|)."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-ReportCodeSnCT.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-ReportCodeSnCT"
+        },
+        "name": "UKCoreReportCodeSnCT",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system that describes a diagnostic report."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-AllergyExposureRoute.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-AllergyExposureRoute"
+        },
+        "name": "UKCoreAllergyExposureRoute",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK 'NHS e-Prescribing route of administration subset' with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is 'ePrescribing route of administration simple reference set (foundation metadata concept)' with Refset Id 999000051000001100."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-AllergyCode.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-AllergyCode"
+        },
+        "name": "UKCoreAllergyCode",
+        "description": "A code from the SNOMED Clinical Terminology UK with the expression (<105590001 |Substance OR <373873005 |Pharmaceutical / biologic product| OR <716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy), or a code from the v3 Code System NullFlavor specifying why a valid value is not present."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-CareSettingType.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-CareSettingType"
+        },
+        "name": "UKCoreCareSettingType",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system that describes a correspondence care setting type. Any code from the SNOMED CT UK 'Correspondence Care setting type' subset with subset original id 43971000000130; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence care setting type simple reference set (foundation metadata concept)' with Refset Id 999000381000000107"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-EmergencyCareDischargeStatus.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-EmergencyCareDischargeStatus"
+        },
+        "name": "UKCoreEmergencyCareDischargeStatus",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system that describes the status of the Patient on discharge from an Emergency Care Department. Captures whether treatment took place within the ED, if the patient was streamed to another service or if the patient left before treatment was complete. Any code from the SNOMED CT UK 'Emergency care discharge status' subset with subset original id 75041000000135; the corresponding SNOMED CT UK Refset fully specified name is 'Emergency care discharge status simple reference set (foundation metadata concept)' with Refset Id 999003021000000104."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-AllergySeverity.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-AllergySeverity"
+        },
+        "name": "UKCoreAllergySeverity",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system that describes the severity of an allergy."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-MedicationCode.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-MedicationCode"
+        },
+        "name": "UKCoreMedicationCode",
+        "description": " A code from the SNOMED Clinical Terminology UK coding system to identify the medication."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-AddressKeyType.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-AddressKeyType"
+        },
+        "name": "UKCoreAddressKeyType",
+        "description": "A ValueSet to identify the type of Address Key recorded."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-LanguageAbilityProficiency.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-LanguageAbilityProficiency"
+        },
+        "name": "UKCoreLanguageAbilityProficiency",
+        "description": "A ValueSet to identify the level of proficiency in communicating a language."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-SpecimenBodySite.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-SpecimenBodySite"
+        },
+        "name": "UKCoreSpecimenBodySite",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system to record a specimen body site."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-SDSJobRoleName.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-SDSJobRoleName"
+        },
+        "name": "UKCoreSDSJobRoleName",
+        "description": "A ValueSet that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-ImmunizationExplanationReason.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-ImmunizationExplanationReason"
+        },
+        "name": "UKCoreImmunizationExplanationReason",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system that represents the clinical indication or reason for administering the vaccine."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-PreferredContactMethod.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-PreferredContactMethod"
+        },
+        "name": "UKCorePreferredContactMethod",
+        "description": "A ValueSet to identify the preferred Contact Method of a Patient, contact or RelatedPerson."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-OutcomeOfAttendance.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-OutcomeOfAttendance"
+        },
+        "name": "NHSDataModelandDictionaryOutcomeOfAttendance",
+        "description": "This records the outcome of an Out-Patient Attendance Consultant."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-VaccineCode.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-VaccineCode"
+        },
+        "name": "UKCoreVaccineCode",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system to record a vaccine or a null flavor value."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-UKCore-ReligiousAffiliation.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/UKCore-ReligiousAffiliation"
+        },
+        "name": "UKCoreReligiousAffiliation",
+        "description": "A code from the SNOMED Clinical Terminology UK coding system that describes the religious or other belief system affiliation of a person. Any code from the SNOMED CT UK 'Religious Affiliation SnCT' subset with subset original id 10791000000130; the corresponding SNOMED CT UK Refset fully specified name is 'Religious or other belief system affiliation simple reference set (foundation metadata concept)' with Refset Id 999000531000000100."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-AdmissionMethod.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-AdmissionMethod"
+        },
+        "name": "ExtensionUKCoreAdmissionMethod",
+        "description": "An extension to support the method by which an individual was admitted into hospital."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-AddressKey.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-AddressKey"
+        },
+        "name": "ExtensionUKCoreAddressKey",
+        "description": "To support recording of Address Keys within addresses"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-UKCore-DocumentReference.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-DocumentReference"
+        },
+        "name": "UKCoreDocumentReference",
+        "description": "Defines the UK Core constraints and extensions on the DocumentReference resource."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-UKCore-ServiceRequest.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-ServiceRequest"
+        },
+        "name": "UKCoreServiceRequest",
+        "description": "Defines the UK Core constraints and extensions on the ServiceRequest resource for the minimal set of data to query and retrieve service request information."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-UKCore-Procedure.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-Procedure"
+        },
+        "name": "UKCoreProcedure",
+        "description": "Defines the UK Core constraints and extensions on the Procedure resource for the minimal set of data to query and retrieve the patient’s procedure information."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-EmergencyCareDischargeStatus.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-EmergencyCareDischargeStatus"
+        },
+        "name": "ExtensionUKCoreEmergencyCareDischargeStatus",
+        "description": "An extension to support the status of an individual on discharge from an Emergency Care Department."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-MainLocation.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-MainLocation"
+        },
+        "name": "ExtensionUKCoreMainLocation",
+        "description": "An extension to support a reference to the main location for an organisation."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-UKCore-Location.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-Location"
+        },
+        "name": "UKCoreLocation",
+        "description": "Defines the UK Core constraints and extensions on the Location resource for the minimal set of data to query and retrieve location information."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-CopyCorrespondenceIndicator.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-CopyCorrespondenceIndicator"
+        },
+        "name": "ExtensionUKCoreCopyCorrespondenceIndicator",
+        "description": "To indicate correspondence must be copied to the contact or RelatedPerson"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-MedicationStatementLastIssueDate.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-MedicationStatementLastIssueDate"
+        },
+        "name": "ExtensionUKCoreMedicationStatementLastIssueDate"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-ParentPresent.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-ParentPresent"
+        },
+        "name": "ExtensionUKCoreParentPresent",
+        "description": "This Extension resource is constrained to indicate whether a parent was present at the Immunization."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-UKCore-Practitioner.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-Practitioner"
+        },
+        "name": "UKCorePractitioner",
+        "description": "Defines the UK Core constraints and extensions on the Practitioner resource for the minimal set of data to query and retrieve practitioner information."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-DischargeMethod.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-DischargeMethod"
+        },
+        "name": "ExtensionUKCoreDischargeMethod",
+        "description": "An extension to support the method of discharge from a hospital."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-ContactRank.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-ContactRank"
+        },
+        "name": "ExtensionUKCoreContactRank",
+        "description": "Extension UK Core ContactRank"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-MedicationDosageLastChanged.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-MedicationDosageLastChanged"
+        },
+        "name": "ExtensionUKCoreMedicationDosageLastChanged"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-VaccinationProcedure.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-VaccinationProcedure"
+        },
+        "name": "ExtensionUKCoreVaccinationProcedure",
+        "description": "An extension to hold an immunization procedure code."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-ContactPreference.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-ContactPreference"
+        },
+        "name": "ExtensionUKCoreContactPreference",
+        "description": "UKCore Contact preferences for Patient, Patient.contact or RelatedPerson"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-UKCore-Immunization.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-Immunization"
+        },
+        "name": "UKCoreImmunization",
+        "description": "Defines the UK Core constraints and extensions on the Immunization resource for the minimal set of data to query and retrieve an individual’s immunisation information."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-UKCore-CareTeam.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-CareTeam"
+        },
+        "name": "UKCoreCareTeam",
+        "description": "Defines the UK Core constraints and extensions on the CareTeam resource for the minimal set of data to query and retrieve an individual’s care team. "
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-UKCore-Condition.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-Condition"
+        },
+        "name": "UKCoreCondition",
+        "description": "Defines the UK Core constraints and extensions on the Condition resource for the minimal set of data to query and retrieve problems and health concerns information."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-AnaestheticIssues.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-AnaestheticIssues"
+        },
+        "name": "ExtensionUKCoreAnaestheticIssues",
+        "description": "An extension to support recording of details of any adverse reaction to any anaesthetic agents including local anaesthesia and problematic intubation, transfusion reaction, etc."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-EffectivePeriod.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-EffectivePeriod"
+        },
+        "name": "ExtensionUKCoreEffectivePeriod",
+        "description": "To record effective start and end dates"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-UKCore-List.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-List"
+        },
+        "name": "UKCoreList",
+        "description": "Defines the UK Core constraints and extensions on the List resource for the minimal set of data to query and retrieve a list of information."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-EncounterTransport.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-EncounterTransport"
+        },
+        "name": "ExtensionUKCoreEncounterTransport",
+        "description": "An extension to support the transport used by the individual who is the subject of an encounter."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-UKCore-MedicationRequest.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-MedicationRequest"
+        },
+        "name": "UKCoreMedicationRequest",
+        "description": "Defines the UK Core constraints and extensions on the MedicationRequest resource for the minimal set of data to query and retrieve prescription information."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-MedicationChangeSummary.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-MedicationChangeSummary"
+        },
+        "name": "ExtensionUKCoreMedicationChangeSummary"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-ReligiousAffiliation.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-ReligiousAffiliation"
+        },
+        "name": "ExtensionUKCoreReligiousAffiliation",
+        "description": "An extension to support the religious affiliation of an individual."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-MedicationRepeatInformation.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-MedicationRepeatInformation"
+        },
+        "name": "ExtensionUKCoreMedicationRepeatInformation",
+        "description": "Indicates the specific repeat information of a medication item."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-AllergyIntoleranceEnd.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-AllergyIntoleranceEnd"
+        },
+        "name": "ExtensionUKCoreAllergyIntoleranceEnd",
+        "description": "An extension to support the date and/or reason that the allergy or intolerance was no longer valid."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-Evidence.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-Evidence"
+        },
+        "name": "ExtensionUKCoreEvidence",
+        "description": "An extension to support a reference to results of investigations that confirmed the certainty of the diagnosis. Examples might include results of skin prick allergy tests."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-ListWarningCode.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-ListWarningCode"
+        },
+        "name": "ExtensionUKCoreListWarningCode",
+        "description": "An extension to support warnings that a list may be incomplete as data has been excluded due to confidentiality or may be missing due to data being in transit."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-UKCore-Encounter.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-Encounter"
+        },
+        "name": "UKCoreEncounter",
+        "description": "Defines the UK Core constraints and extensions on the Encounter resource for the minimal set of data to query and retrieve encounter information."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-PrescriptionType.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-PrescriptionType"
+        },
+        "name": "ExtensionUKCorePrescriptionType",
+        "description": "To record the type of prescription."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-ResidentialStatus.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-ResidentialStatus"
+        },
+        "name": "ExtensionUKCoreResidentialStatus",
+        "description": "An extension to support the residential status of an individual."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-UKCore-Observation.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-Observation"
+        },
+        "name": "UKCoreObservation",
+        "description": "Defines the UK Core constraints and extensions on the observation resource for the minimal set of data to query and retrieve generic observation information."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-UKCore-PractitionerRole.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-PractitionerRole"
+        },
+        "name": "UKCorePractitionerRole",
+        "description": "Defines the UK Core constraints and extensions on the PractitionerRole resource for the minimal set of data to query and retrieve practitioner role information."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-UKCore-Patient.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-Patient"
+        },
+        "name": "UKCorePatient",
+        "description": "Defines the UK Core constraints and extensions on the Patient resource for the minimal set of data to query and retrieve an individual’s demographic information."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-MedicationQuantityText.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-MedicationQuantityText"
+        },
+        "name": "ExtensionUKCoreMedicationQuantityText",
+        "description": "This Extension resource is constrained to support the textual representation of a medication structured quantity."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-DeathNotificationStatus.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-DeathNotificationStatus"
+        },
+        "name": "ExtensionUKCoreDeathNotificationStatus",
+        "description": "An extension to support death notification for an individual. For example, as held on Personal Demographics Service (PDS)."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-OutcomeOfAttendance.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-OutcomeOfAttendance"
+        },
+        "name": "ExtensionUKCoreOutcomeOfAttendance",
+        "description": "An extension to support the outcome of an Outpatient attendance."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-TreatmentCategory.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-TreatmentCategory"
+        },
+        "name": "ExtensionUKCoreTreatmentCategory",
+        "description": "An extension to support an individual’s treatment category."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-NominatedPharmacy.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-NominatedPharmacy"
+        },
+        "name": "ExtensionUKCoreNominatedPharmacy",
+        "description": "An extension to support an individual’s nominated pharmacy."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-UKCore-MedicationStatement.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-MedicationStatement"
+        },
+        "name": "UKCoreMedicationStatement",
+        "description": "Defines the UK Core constraints and extensions on the MedicationStatement resource for the minimal set of data to query and retrieve medication statement information. "
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-UKCore-Medication.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-Medication"
+        },
+        "name": "UKCoreMedication",
+        "description": "Defines the UK Core constraints and extensions on the Medication resource for the minimal set of data to query and retrieve medication information."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-NHSCommunication.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-NHSCommunication"
+        },
+        "name": "ExtensionUKCoreNHSCommunication",
+        "description": "An extension to support the communication preferences for an individual."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-UKCore-AllergyIntolerance.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-AllergyIntolerance"
+        },
+        "name": "UKCoreAllergyIntolerance",
+        "description": "Defines the UK Core constraints and extensions on the AllergyIntolerance resource for the minimal set of data to query and retrieve allergy information."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-NHSNumberVerificationStatus.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus"
+        },
+        "name": "ExtensionUKCoreNHSNumberVerificationStatus",
+        "description": "An extension to support the verification status of an NHS number."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-EthnicCategory.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-EthnicCategory"
+        },
+        "name": "ExtensionUKCoreEthnicCategory",
+        "description": "An extension to support the ethnic category of an individual."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-ClinicalSetting.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-ClinicalSetting"
+        },
+        "name": "ExtensionUKCoreClinicalSetting",
+        "description": "An extension to support the clinical setting associated with a list."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-UKCore-Organization.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-Organization"
+        },
+        "name": "UKCoreOrganization",
+        "description": "Defines the UK Core constraints and extensions on the Organization resource for the minimal set of data to query and retrieve organisation information."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-ConditionEpisode.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-ConditionEpisode"
+        },
+        "name": "ExtensionUKCoreConditionEpisode",
+        "description": "An extension to support the episodicity status of a condition."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-UKCore-RelatedPerson.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-RelatedPerson"
+        },
+        "name": "UKCoreRelatedPerson",
+        "description": "Defines the UK Core constraints and extensions on the RelatedPerson resource for the minimal set of data to query and retrieve related person information."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-UKCore-Specimen.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-Specimen"
+        },
+        "name": "UKCoreSpecimen",
+        "description": "Defines the UK Core constraints and extensions on the Specimen resource for the minimal set of data to query and retrieve specimen information."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-UKCore-CarePlan.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-CarePlan"
+        },
+        "name": "UKCoreCarePlan",
+        "description": "Defines the UK Core constraints and extensions on the CarePlan resource for the minimal set of data to query and retrieve a patient’s Care Plan."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Extension-UKCore-MedicationPrescribingAgency.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Extension-UKCore-MedicationPrescribingAgency"
+        },
+        "name": "ExtensionUKCoreMedicationPrescribingAgency"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-UKCore-DiagnosticReport.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-DiagnosticReport"
+        },
+        "name": "UKCoreDiagnosticReport",
+        "description": "Defines the UK Core constraints and extensions on the DiagnosticReport resource for the minimal set of data to query and retrieve diagnostic report information."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-UKCore-MedicationDispense.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/UKCore-MedicationDispense"
+        },
+        "name": "UKCoreMedicationDispense",
+        "description": "Defines the UK Core constraints and extensions on the MedicationDispense resource for the minimal set of data to query and retrieve dispensed medication information."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ConceptMap"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ConceptMap-UKCore-AllergySeverity.html"
+          }
+        ],
+        "reference": {
+          "reference": "ConceptMap/UKCore-AllergySeverity"
+        },
+        "name": "ConceptMapUKCoreAllergySeverity",
+        "description": "A Concept Map from the HL7 FHIR ValueSet Reaction Event Severity to Allergy Severity to aid interpretation."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ConceptMap"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ConceptMap-UKCore-AdministrativeGender.html"
+          }
+        ],
+        "reference": {
+          "reference": "ConceptMap/UKCore-AdministrativeGender"
+        },
+        "name": "ConceptMapUKCoreAdministrativeGender",
+        "description": "A Concept Map from ValueSet Administrative Gender to NHS Data Dictionary Person Stated Gender to aid interpretation."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ConceptMap"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ConceptMap-UKCore-ConditionEpisodicity.html"
+          }
+        ],
+        "reference": {
+          "reference": "ConceptMap/UKCore-ConditionEpisodicity"
+        },
+        "name": "ConceptMapUKCoreConditionEpisodicity",
+        "description": "A Concept Map from ValueSet Condition Episodicity Severity to equivalent Snomed CT codes"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ConceptMap"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ConceptMap-UKCore-MaritalStatus.html"
+          }
+        ],
+        "reference": {
+          "reference": "ConceptMap/UKCore-MaritalStatus"
+        },
+        "name": "ConceptMapUKCoreMaritalStatus",
+        "description": "A Concept Map from ValueSet Marital Status to NHS Data Dictionary Person Marital Status to aid interpretation."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ConceptMap"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ConceptMap-UKCore-AllergyVerificationStatus.html"
+          }
+        ],
+        "reference": {
+          "reference": "ConceptMap/UKCore-AllergyVerificationStatus"
+        },
+        "name": "ConceptMapUKCoreAllergyVerificationStatus",
+        "description": "A Concept Map from the HL7 FHIR ValueSet Allergy Verification Status to Allergy Certainity to aid interpretation."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AllergyIntolerance"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "AllergyIntolerance-UKCore-AllergyIntolerance-Example.html"
+          }
+        ],
+        "reference": {
+          "reference": "AllergyIntolerance/UKCore-AllergyIntolerance-Example"
+        },
+        "name": "AllergyIntolerance-UKCore-AllergyIntolerance-Example",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PractitionerRole"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "PractitionerRole-UKCore-PractitionerRole-Example.html"
+          }
+        ],
+        "reference": {
+          "reference": "PractitionerRole/UKCore-PractitionerRole-Example"
+        },
+        "name": "PractitionerRole-UKCore-PractitionerRole-Example",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Encounter"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Encounter-UKCore-Encounter-Example.html"
+          }
+        ],
+        "reference": {
+          "reference": "Encounter/UKCore-Encounter-Example"
+        },
+        "name": "Encounter-UKCore-Encounter-Example",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Condition"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Condition-UKCore-Condition-Example.html"
+          }
+        ],
+        "reference": {
+          "reference": "Condition/UKCore-Condition-Example"
+        },
+        "name": "Condition-UKCore-Condition-Example",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "List"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "List-UKCore-List-Example.html"
+          }
+        ],
+        "reference": {
+          "reference": "List/UKCore-List-Example"
+        },
+        "name": "List-UKCore-List-Example",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-UKCore-Observation-Example.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/UKCore-Observation-Example"
+        },
+        "name": "Observation-UKCore-Observation-Example",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Patient-UKCore-Patient-AddressKey-Example.html"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/UKCore-Patient-AddressKey-Example"
+        },
+        "name": "Patient-UKCore-Patient-AddressKey-Example",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Consent"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Consent-UKCore-Consent-Example.html"
+          }
+        ],
+        "reference": {
+          "reference": "Consent/UKCore-Consent-Example"
+        },
+        "name": "Consent-UKCore-Consent-Example",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Patient-UKCore-Patient-Example.html"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/UKCore-Patient-Example"
+        },
+        "name": "Patient-UKCore-Patient-Example",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Location-UKCore-Location-Example.html"
+          }
+        ],
+        "reference": {
+          "reference": "Location/UKCore-Location-Example"
+        },
+        "name": "Location-UKCore-Location-Example",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Procedure"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Procedure-UKCore-Procedure-Example.html"
+          }
+        ],
+        "reference": {
+          "reference": "Procedure/UKCore-Procedure-Example"
+        },
+        "name": "Procedure-UKCore-Procedure-Example",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RelatedPerson"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "RelatedPerson-UKCore-RelatedPerson-Example.html"
+          }
+        ],
+        "reference": {
+          "reference": "RelatedPerson/UKCore-RelatedPerson-Example"
+        },
+        "name": "RelatedPerson-UKCore-RelatedPerson-Example",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Medication"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Medication-UKCore-Medication-Example.html"
+          }
+        ],
+        "reference": {
+          "reference": "Medication/UKCore-Medication-Example"
+        },
+        "name": "Medication-UKCore-Medication-Example",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Organization-UKCore-Organisation-Example.html"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/UKCore-Organisation-Example"
+        },
+        "name": "Organization-UKCore-Organisation-Example",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Practitioner"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Practitioner-UKCore-Practitioner-Example.html"
+          }
+        ],
+        "reference": {
+          "reference": "Practitioner/UKCore-Practitioner-Example"
+        },
+        "name": "Practitioner-UKCore-Practitioner-Example",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicationDispense"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "MedicationDispense-UKCore-MedicationDispense-Example.html"
+          }
+        ],
+        "reference": {
+          "reference": "MedicationDispense/UKCore-MedicationDispense-Example"
+        },
+        "name": "MedicationDispense-UKCore-MedicationDispense-Example",
+        "exampleBoolean": true
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "UK Core R4 Implementation Guide",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "validation.html",
+          "title": "Validation",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "profiles.html",
+          "title": "Profiles",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "extension_library.html",
+          "title": "Extensions",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "codesystems.html",
+          "title": "CodeSystems",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "valuesets.html",
+          "title": "ValueSets",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "conceptmaps.html",
+          "title": "ConceptMaps",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "examples.html",
+          "title": "Examples",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "history.html",
+          "title": "Change History",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "html-template",
+        "value": "test-template-master/instance-template-format.html"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/capabilities"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/examples"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/extensions"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/models"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/operations"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/profiles"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/resources"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/vocabulary"
+      },
+      {
+        "code": "path-pages",
+        "value": "template/config"
+      },
+      {
+        "code": "path-pages",
+        "value": "input/images"
+      },
+      {
+        "code": "path-tx-cache",
+        "value": "input-cache/txcache"
+      }
+    ]
+  }
+}

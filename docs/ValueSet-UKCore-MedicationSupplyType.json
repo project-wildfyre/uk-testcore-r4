@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "id": "UKCore-MedicationSupplyType",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UK Core Medication Supply Type</h2><div><p>A ValueSet to identify the type of medication supply.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2020 NHS Digital</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-UKCore-MedicationSupplyType.html\"><code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-MedicationSupplyType</code></a></li></ul></div>"
+  },
+  "url": "https://fhir.nhs.uk/R4/ValueSet/UKCore-MedicationSupplyType",
+  "version": "4.0.0",
+  "name": "UKCoreMedicationSupplyType",
+  "title": "UK Core Medication Supply Type",
+  "status": "draft",
+  "date": "2020-02-07T00:00:00+00:00",
+  "publisher": "Project Wildfyre",
+  "contact": [
+    {
+      "name": "Project Wildfyre",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:dunno@dummy.net",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "A ValueSet to identify the type of medication supply.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "GB"
+        }
+      ]
+    }
+  ],
+  "copyright": "Copyright © 2020 NHS Digital",
+  "compose": {
+    "include": [
+      {
+        "system": "https://fhir.nhs.uk/R4/CodeSystem/UKCore-MedicationSupplyType"
+      }
+    ]
+  }
+}

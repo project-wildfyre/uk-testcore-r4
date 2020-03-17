@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>UK-TESTCORE-R4\Extensions - FHIR v4.0.1</title>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+     
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css"/>
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+  
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+  
+      <!-- Favicons -->
+    <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body>
+
+    <style type="text/css">h2{--heading-prefix:"4"}
+    h3,h4,h5,h6{--heading-prefix:"4"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+        
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">HL7 FHIR&reg;  UK Core</span><br/>4.0.0 - CI Build</p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+    
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+    
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul class="nav navbar-nav">
+  <li><a href="index.html">UK Core Implementation Guide</a></li>
+  <li><a href="validation.html">Validation</a></li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Profiles<b class="caret">
+    </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a href="profiles.html">Profiles</a></li>
+      <li><a href="extension_library.html">Extensions</a></li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Terminology<b class="caret">
+    </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="codesystems.html">CodeSystems</a>
+      </li>
+      <li>
+        <a href="valuesets.html">ValueSets</a>
+      </li>
+      <li>
+        <a href="conceptmaps.html">ConceptMaps</a>
+      </li>
+    </ul>
+  </li>
+    <!-- <li><a href="examples.html">Examples</a></li> -->
+ <li><a href="artifacts.html">Artifact Summary</a></li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->  
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Extensions</b></li>
+        </ul>  
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+    
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">HL7 FHIR&reg;  UK Core - Local Development build (v4.0.0). See the <a href="https://fhir.nhs.uk/R4/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <h2>Extensions</h2>
+  
+  
+  
+<div class="markdown-toc">
+
+</div>
+<hr/>
+<p>title: Extension Library
+layout: default
+active: extensions
+—</p>
+
+<p>This page lists all the Extensions that have been approved for use with the <a href="profiles.html">FHIR Profiles</a>.
+<br/></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Context of Use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a name="414d7c95-98fe-4ec6-8a6d-4962b1a0a333">​</a><a href="Extension-UKCore-AddressKey.html">Extension UK Core AddressKey</a></td>
+      <td>Address</td>
+    </tr>
+    <tr>
+      <td><a name="f443c994-0d01-4e09-94f4-b2e72458d57a">​</a><a href="Extension-UKCore-AdmissionMethod.html">Extension UK Core AdmissionMethod</a></td>
+      <td>Encounter.hospitalization</td>
+    </tr>
+    <tr>
+      <td><a name="98a818d1-fa7d-4136-95e4-ac634b8b96a7">​</a><a href="Extension-UKCore-AllergyIntoleranceEnd.html">Extension UK Core AllergyIntoleranceEnd</a></td>
+      <td>AllergyIntolerance</td>
+    </tr>
+    <tr>
+      <td><a name="0fcd4ef8-c1e6-452c-86eb-48b2f30e04c6">​</a><a href="Extension-UKCore-AnaestheticIssues.html">Extension UK Core AnaestheticIssues</a></td>
+      <td>Procedure</td>
+    </tr>
+    <tr>
+      <td><a name="6a53a555-f94d-41a8-975d-6a54ecd40877">​</a><a href="Extension-UKCore-ClinicalSetting.html">Extension UK Core ClinicalSetting</a></td>
+      <td>List</td>
+    </tr>
+    <tr>
+      <td><a name="f173f566-9f89-406e-b889-f7bcffadadf8">​</a><a href="Extension-UKCore-ConditionEpisode.html">Extension UK Core ConditionEpisode</a></td>
+      <td>Condition</td>
+    </tr>
+    <tr>
+      <td><a name="72762e68-1f85-4532-bfcf-9d97cd657003">​</a><a href="Extension-UKCore-ContactPreference.html">Extension UK Core ContactPreference</a></td>
+      <td>Patient.contact, Patient.telecom, RelatedPerson.telecom</td>
+    </tr>
+    <tr>
+      <td><a name="aae1eb69-4c7e-448f-beba-7acaee2fa441">​</a><a href="Extension-UKCore-ContactRank.html">Extension UK Core ContactRank</a></td>
+      <td>Patient.contact, RelatedPerson</td>
+    </tr>
+    <tr>
+      <td><a name="f756f814-52aa-42d6-91d9-90a7d91be0a6">​</a><a href="Extension-UKCore-CopyCorrespondenceIndicator.html">Extension UK Core CopyCorrespondenceIndicator</a></td>
+      <td>Patient.contact, RelatedPerson</td>
+    </tr>
+    <tr>
+      <td><a name="9b2c2677-57be-403f-8467-f950327891c6">​</a><a href="Extension-UKCore-DeathNotificationStatus.html">Extension UK Core DeathNotificationStatus</a></td>
+      <td>Patient</td>
+    </tr>
+    <tr>
+      <td><a name="6735d8a6-cdb3-4bf2-ba7b-fd19cec36a97">​</a><a href="Extension-UKCore-DischargeMethod.html">Extension UK Core DischargeMethod</a></td>
+      <td>Encounter.hospitalization</td>
+    </tr>
+    <tr>
+      <td><a name="1b1a4158-5705-4b6c-a63e-a9283f3871c6">​</a><a href="Extension-UKCore-EffectivePeriod.html">Extension UK Core EffectivePeriod</a></td>
+      <td>Resource</td>
+    </tr>
+    <tr>
+      <td><a name="721a213e-4cde-41a2-8791-d800fd98a588">​</a><a href="Extension-UKCore-EmergencyCareDischargeStatus.html">Extension UK Core EmergencyCareDischargeStatus</a></td>
+      <td>Encounter</td>
+    </tr>
+    <tr>
+      <td><a name="6c751c50-76a9-44e2-9247-ce79e9d5953d">​</a><a href="Extension-UKCore-EncounterTransport.html">Extension UK Core EncounterTransport</a></td>
+      <td>Encounter</td>
+    </tr>
+    <tr>
+      <td><a name="d91f76dc-2e53-459a-ab32-4520cfdffd7b">​</a><a href="Extension-UKCore-EthnicCategory.html">Extension UK Core EthnicCategory</a></td>
+      <td>Patient</td>
+    </tr>
+    <tr>
+      <td><a name="0f3ea109-8a11-4298-9759-1d1db3eef1c2">​</a><a href="Extension-UKCore-Evidence.html">Extension UK Core Evidence</a></td>
+      <td>AllergyIntolerance</td>
+    </tr>
+    <tr>
+      <td><a name="80c29571-5b12-42dc-97c1-cdb701388045">​</a><a href="Extension-UKCore-ListWarningCode.html">Extension UK Core ListWarningCode</a></td>
+      <td>List</td>
+    </tr>
+    <tr>
+      <td><a name="31d6cf10-92f9-4e89-a763-c8751a1fccaf">​</a><a href="Extension-UKCore-MainLocation.html">Extension UK Core MainLocation</a></td>
+      <td>Organization</td>
+    </tr>
+    <tr>
+      <td><a name="73536f8e-5b71-4d3e-8b1b-1cef577718e0">​</a><a href="Extension-UKCore-NHSCommunication.html">Extension UK Core NHSCommunication</a></td>
+      <td>Patient, Practitioner</td>
+    </tr>
+    <tr>
+      <td><a name="85e0650a-7ffc-41a0-8849-7f76dd8f91df">​</a><a href="Extension-UKCore-NHSNumberVerificationStatus.html">Extension UK Core NHSNumberVerificationStatus</a></td>
+      <td>Patient.identifier</td>
+    </tr>
+    <tr>
+      <td><a name="82acb288-9631-457c-96cd-a3a9c577e9a9">​</a><a href="Extension-UKCore-NominatedPharmacy.html">Extension UK Core NominatedPharmacy</a></td>
+      <td>Patient</td>
+    </tr>
+    <tr>
+      <td><a name="93c46945-da7e-413c-81e2-0d7d20646fc5">​</a><a href="Extension-UKCore-OutcomeOfAttendance.html">Extension UK Core OutcomeOfAttendance</a></td>
+      <td>Encounter</td>
+    </tr>
+    <tr>
+      <td><a name="399ed943-d620-40d5-9fcb-430ec4521032">​</a><a href="Extension-UKCore-ReligiousAffiliation.html">Extension UK Core ReligiousAffiliation</a></td>
+      <td>Patient</td>
+    </tr>
+    <tr>
+      <td><a name="2e6bd601-10d5-4a90-8d1a-2b78be603cd3">​</a><a href="Extension-UKCore-ResidentialStatus.html">Extension UK Core ResidentialStatus</a></td>
+      <td>Patient</td>
+    </tr>
+    <tr>
+      <td><a name="484026a3-23ca-480d-9a73-a68cd8dc143a">​</a><a href="Extension-UKCore-TreatmentCategory.html">Extension UK Core TreatmentCategory</a></td>
+      <td>Patient</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br/>
+The following <a href="http://hl7.org/fhir/extensibility-registry.html" target="_blank">HL7 extensions</a> are also approved for use with the <a href="profiles.html">FHIR Profiles</a>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Context of Use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="http://hl7.org/fhir/StructureDefinition/patient-birthPlace">patient-birthPlace</a></td>
+      <td>Patient</td>
+    </tr>
+    <tr>
+      <td><a href="http://hl7.org/fhir/StructureDefinition/patient-birthTime">patient-birthTime</a></td>
+      <td>Patient.birthDate</td>
+    </tr>
+    <tr>
+      <td><a href="http://hl7.org/fhir/StructureDefinition/patient-cadavericDonor">patient-cadavericDonor</a></td>
+      <td>Patient</td>
+    </tr>
+    <tr>
+      <td><a href="http://hl7.org/fhir/StructureDefinition/organization-period">organization-period</a></td>
+      <td>Organization</td>
+    </tr>
+    <tr>
+      <td><a href="http://hl7.org/fhir/StructureDefinition/coding-sctdescid">coding-sctdescid</a></td>
+      <td>Coding</td>
+    </tr>
+  </tbody>
+</table>
+
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="mailto:dunno@dummy.net">Project Wildfyre</a>.  Package uk.testcore.r4#4.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Mar 17, 2020 13:29+0000">2020-03-17</span>
+          <br/>
+          <span style="color: #FFFF77">
+                      Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+                 <a style="color: #81BEF7" href="qa.html">QA Report</a>
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

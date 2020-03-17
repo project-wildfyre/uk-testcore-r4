@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="UKCore-NHSDataDictionary-PersonStatedGender"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NHS Data Model and Dictionary Person Stated Gender Code</h2><div><p>The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender.</p>
+</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href="CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender.html"><code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender</code></a></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
+    <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/attributes/p/person/person_stated_gender_code_de.asp?shownav=1"/>
+  </extension>
+  <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonStatedGender"/>
+  <version value="4.0.0"/>
+  <name value="NHSDataModelandDictionaryPersonStatedGenderCode"/>
+  <title value="NHS Data Model and Dictionary Person Stated Gender Code"/>
+  <status value="draft"/>
+  <date value="2019-10-18T13:00:00+01:00"/>
+  <publisher value="Project Wildfyre"/>
+  <contact>
+    <name value="Project Wildfyre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:dunno@dummy.net"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="GB"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
+  <compose>
+    <include>
+      <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender"/>
+    </include>
+  </compose>
+</ValueSet>

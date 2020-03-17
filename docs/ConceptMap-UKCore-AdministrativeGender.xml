@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="UKCore-AdministrativeGender"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ConceptMapUKCoreAdministrativeGender (https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AdministrativeGender)</h2><p>Mapping from <a href="http://hl7.org/fhir/R4/valueset-administrative-gender.html">http://hl7.org/fhir/ValueSet/administrative-gender</a> to <a href="ValueSet-UKCore-NHSDataDictionary-PersonStatedGender.html">https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonStatedGender</a></p><p>DRAFT. Published on 18 Oct 2019, 13:00:00 by Project Wildfyre (Project Wildfyre: <a href="mailto:mailto:dunno@dummy.net">mailto:dunno@dummy.net</a>). Copyright © 2019 NHS Digital</p><div><p>A Concept Map from ValueSet Administrative Gender to NHS Data Dictionary Person Stated Gender to aid interpretation.</p>
+</div><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>male</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent">is equivalent to</a></td><td>1 (Male)</td></tr><tr><td>female</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent">is equivalent to</a></td><td>2 (Female)</td></tr><tr><td>other</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent">is equivalent to</a></td><td>9 (Indeterminate (unable to be classified as either male or female))</td></tr><tr><td>unknown</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent">is equivalent to</a></td><td>X (Not Known (not recorded))</td></tr></table></div>
+  </text>
+  <url value="https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AdministrativeGender"/>
+  <version value="4.0.0"/>
+  <name value="ConceptMapUKCoreAdministrativeGender"/>
+  <title value="Concept Map - UK Core Administrative Gender"/>
+  <status value="draft"/>
+  <date value="2019-10-18T13:00:00+01:00"/>
+  <publisher value="Project Wildfyre"/>
+  <contact>
+    <name value="Project Wildfyre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:dunno@dummy.net"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="A Concept Map from ValueSet Administrative Gender to NHS Data Dictionary Person Stated Gender to aid interpretation."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="GB"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
+  <sourceUri value="http://hl7.org/fhir/ValueSet/administrative-gender"/>
+  <targetUri value="https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonStatedGender"/>
+  <group>
+    <source value="http://hl7.org/fhir/administrative-gender"/>
+    <target value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender"/>
+    <element>
+      <code value="male"/>
+      <display value="Male"/>
+      <target>
+        <code value="1"/>
+        <display value="Male"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="female"/>
+      <display value="Female"/>
+      <target>
+        <code value="2"/>
+        <display value="Female"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="other"/>
+      <display value="Other"/>
+      <target>
+        <code value="9"/>
+        <display value="Indeterminate (unable to be classified as either male or female)"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="unknown"/>
+      <display value="Unknown"/>
+      <target>
+        <code value="X"/>
+        <display value="Not Known (not recorded)"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

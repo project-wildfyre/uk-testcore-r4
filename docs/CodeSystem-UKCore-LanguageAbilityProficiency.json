@@ -1,0 +1,59 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "UKCore-LanguageAbilityProficiency",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UK Core Language Ability Proficiency</h2><div><p>A CodeSystem to identify the level of proficiency in communicating a language.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityProficiency defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">E<a name=\"UKCore-LanguageAbilityProficiency-E\"> </a></td><td>Excellent</td><td/></tr><tr><td style=\"white-space:nowrap\">F<a name=\"UKCore-LanguageAbilityProficiency-F\"> </a></td><td>Fair</td><td/></tr><tr><td style=\"white-space:nowrap\">G<a name=\"UKCore-LanguageAbilityProficiency-G\"> </a></td><td>Good</td><td/></tr><tr><td style=\"white-space:nowrap\">P<a name=\"UKCore-LanguageAbilityProficiency-P\"> </a></td><td>Poor</td><td/></tr></table></div>"
+  },
+  "url": "https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityProficiency",
+  "version": "4.0.0",
+  "name": "UKCoreLanguageAbilityProficiency",
+  "title": "UK Core Language Ability Proficiency",
+  "status": "draft",
+  "date": "2019-10-30T00:00:00+00:00",
+  "publisher": "Project Wildfyre",
+  "contact": [
+    {
+      "name": "Project Wildfyre",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:dunno@dummy.net",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "A CodeSystem to identify the level of proficiency in communicating a language.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "GB"
+        }
+      ]
+    }
+  ],
+  "copyright": "Copyright © 2019 NHS Digital",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "E",
+      "display": "Excellent"
+    },
+    {
+      "code": "F",
+      "display": "Fair"
+    },
+    {
+      "code": "G",
+      "display": "Good"
+    },
+    {
+      "code": "P",
+      "display": "Poor"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "UKCore-ConditionEpisodicity",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ConceptMapUKCoreConditionEpisodicity (https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-ConditionEpisodicity)</h2><p>Mapping from <a href=\"ValueSet-UKCore-ConditionEpisodicity.html\">https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisodicity</a> to <a href=\"ValueSet-UKCore-ConditionEpisode.html\">https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisode</a></p><p>DRAFT. Published on 11 Nov 2019, 00:00:00 by Project Wildfyre (Project Wildfyre: <a href=\"mailto:mailto:dunno@dummy.net\">mailto:dunno@dummy.net</a>). Copyright © 2019 NHS Digital</p><div><p>A Concept Map from ValueSet Condition Episodicity Severity to equivalent Snomed CT codes</p>\n</div><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>first</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent\">is equivalent to</a></td><td>255217005 (First episode)</td></tr><tr><td>new</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent\">is equivalent to</a></td><td>288527008 (New episode)</td></tr><tr><td>review</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent\">is equivalent to</a></td><td>303350001 (Ongoing episode)</td></tr><tr><td>end</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent\">is equivalent to</a></td><td>272131007 (Old episode)</td></tr></table></div>"
+  },
+  "url": "https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-ConditionEpisodicity",
+  "version": "4.0.0",
+  "name": "ConceptMapUKCoreConditionEpisodicity",
+  "title": "ConceptMap - UK Core Condition Episodicity",
+  "status": "draft",
+  "date": "2019-11-11T00:00:00+00:00",
+  "publisher": "Project Wildfyre",
+  "contact": [
+    {
+      "name": "Project Wildfyre",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:dunno@dummy.net",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "A Concept Map from ValueSet Condition Episodicity Severity to equivalent Snomed CT codes",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "GB"
+        }
+      ]
+    }
+  ],
+  "copyright": "Copyright © 2019 NHS Digital",
+  "sourceUri": "https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisodicity",
+  "targetUri": "https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionEpisode",
+  "group": [
+    {
+      "source": "https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConditionEpisodicity",
+      "target": "http://snomed.info/sct",
+      "element": [
+        {
+          "code": "first",
+          "display": "First",
+          "target": [
+            {
+              "code": "255217005",
+              "display": "First episode",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "new",
+          "display": "New",
+          "target": [
+            {
+              "code": "288527008",
+              "display": "New episode",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "review",
+          "display": "Review",
+          "target": [
+            {
+              "code": "303350001",
+              "display": "Ongoing episode",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "end",
+          "display": "End",
+          "target": [
+            {
+              "code": "272131007",
+              "display": "Old episode",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2346 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- broken links = 63, errors = 71, warn = 47, info = 6 -->
+<head>
+  <title>HL7FHIRUKCore : Validation Results</title>
+  <link href="fhir.css" rel="stylesheet"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+  </style>
+  <script>
+    function flip(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Reasoning') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Reasoning';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Reasoning';
+      }
+    }
+  </script>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+ <h1>Validation Results for HL7FHIRUKCore</h1>
+ <p>Generated Tue Mar 17 13:36:14 GMT 2020, FHIR version 4.0.1 for uk.testcore.r4#4.0.0 (canonical = <a href="https://fhir.nhs.uk/R4">https://fhir.nhs.uk/R4</a> (<a href="https://fhir.nhs.uk/R4/history.html">history</a>))</p>
+<p style="background-color: #ffcccc">IG Publisher Version: v1.0.70-SNAPSHOT, which is out of date. The current version is v1.0.72-SNAPSHOT <a href="https://fhir.github.io/latest-ig-publisher/org.hl7.fhir.publisher.jar">Download Latest</a></p>
+<p><a href="#suppressed">10 Suppressed Errors</a></p>
+ <p>HL7 Publication check:</p> <ul><li>n/a - not an HL7.org or FHIR.org implementation guide</li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Information messages &amp; Warnings</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>42</b></td><td><b>21</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_AllergyIntolerance-UKCore-AllergyIntolerance-Example"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/AllergyIntolerance-UKCore-AllergyIntolerance-Example</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_Condition-UKCore-Condition-Example"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Condition-UKCore-Condition-Example</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_Consent-UKCore-Consent-Example"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Consent-UKCore-Consent-Example</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_Encounter-UKCore-Encounter-Example"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Encounter-UKCore-Encounter-Example</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_List-UKCore-List-Example"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/List-UKCore-List-Example</b></a></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_Location-UKCore-Location-Example"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Location-UKCore-Location-Example</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_Medication-UKCore-Medication-Example"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Medication-UKCore-Medication-Example</b></a></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_MedicationDispense-UKCore-MedicationDispense-Example"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/MedicationDispense-UKCore-MedicationDispense-Example</b></a></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_Observation-UKCore-Observation-Example"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Observation-UKCore-Observation-Example</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_Organization-UKCore-Organisation-Example"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Organization-UKCore-Organisation-Example</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_Patient-UKCore-Patient-AddressKey-Example"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Patient-UKCore-Patient-AddressKey-Example</b></a></td><td><b>12</b></td><td><b>3</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_Patient-UKCore-Patient-Example"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Patient-UKCore-Patient-Example</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_Practitioner-UKCore-Practitioner-Example"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Practitioner-UKCore-Practitioner-Example</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_PractitionerRole-UKCore-PractitionerRole-Example"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/PractitionerRole-UKCore-PractitionerRole-Example</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_Procedure-UKCore-Procedure-Example"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Procedure-UKCore-Procedure-Example</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_RelatedPerson-UKCore-RelatedPerson-Example"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/RelatedPerson-UKCore-RelatedPerson-Example</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_ImplementationGuide-UK-Core-R4"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ImplementationGuide-UK-Core-R4</b></a></td><td><b>3</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-AdditionalRelatedPersonRole"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-AdditionalRelatedPersonRole</b></a></td><td><b>2</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-AddressKeyType"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-AddressKeyType</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-AdmissionMethod"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-AdmissionMethod</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-ConditionEpisodicity"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-ConditionEpisodicity</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-ConsentUpdateMode"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-ConsentUpdateMode</b></a></td><td><b>2</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-DeathNotificationStatus"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-DeathNotificationStatus</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-DischargeDestination"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-DischargeDestination</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-DischargeMethod"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-DischargeMethod</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-EthnicCategory"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-EthnicCategory</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-HumanLanguage"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-HumanLanguage</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-LanguageAbilityMode"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-LanguageAbilityMode</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-LanguageAbilityProficiency"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-LanguageAbilityProficiency</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-ListEmptyReasonCode"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-ListEmptyReasonCode</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-ListWarningCode"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-ListWarningCode</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-MedicationSupplyType"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-MedicationSupplyType</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-NHSDataDictionary-PersonMaritalStatus"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-NHSDataDictionary-PersonMaritalStatus</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-NHSDataDictionary-PersonStatedGender"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-NHSDataDictionary-PersonStatedGender</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-NHSNumberVerificationStatus"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-NHSNumberVerificationStatus</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-OutcomeOfAttendance"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-OutcomeOfAttendance</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-PreferredContactMethod"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-PreferredContactMethod</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-PreferredWrittenCommunicationFormat"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-PreferredWrittenCommunicationFormat</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-PrescriptionType"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-PrescriptionType</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-ResidentialStatus"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-ResidentialStatus</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-SDSJobRoleName"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-SDSJobRoleName</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-SourceOfAdmission"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-SourceOfAdmission</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-TreatmentCategory"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-TreatmentCategory</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_conceptmap_UKCore-AdministrativeGender"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/conceptmap/UKCore-AdministrativeGender</b></a></td><td><b>3</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_conceptmap_UKCore-AllergySeverity"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/conceptmap/UKCore-AllergySeverity</b></a></td><td><b>3</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_conceptmap_UKCore-AllergyVerificationStatus"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/conceptmap/UKCore-AllergyVerificationStatus</b></a></td><td><b>3</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_conceptmap_UKCore-ConditionEpisodicity"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/conceptmap/UKCore-ConditionEpisodicity</b></a></td><td><b>3</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_conceptmap_UKCore-MaritalStatus"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/conceptmap/UKCore-MaritalStatus</b></a></td><td><b>3</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-AddressKey"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-AddressKey</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-AdmissionMethod"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-AdmissionMethod</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-AllergyIntoleranceEnd"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-AllergyIntoleranceEnd</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-AnaestheticIssues"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-AnaestheticIssues</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-ClinicalSetting"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-ClinicalSetting</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-ConditionEpisode"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-ConditionEpisode</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-ContactPreference"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-ContactPreference</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-ContactRank"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-ContactRank</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-CopyCorrespondenceIndicator"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-CopyCorrespondenceIndicator</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-DeathNotificationStatus"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-DeathNotificationStatus</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-DischargeMethod"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-DischargeMethod</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-EffectivePeriod"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-EffectivePeriod</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-EmergencyCareDischargeStatus"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-EmergencyCareDischargeStatus</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-EncounterTransport"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-EncounterTransport</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-EthnicCategory"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-EthnicCategory</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-Evidence"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-Evidence</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-ListWarningCode"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-ListWarningCode</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-MainLocation"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-MainLocation</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-MedicationChangeSummary"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-MedicationChangeSummary</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-MedicationDosageLastChanged"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-MedicationDosageLastChanged</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-MedicationPrescribingAgency"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-MedicationPrescribingAgency</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-MedicationQuantityText"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-MedicationQuantityText</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-MedicationRepeatInformation"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-MedicationRepeatInformation</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-MedicationStatementLastIssueDate"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-MedicationStatementLastIssueDate</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-NHSCommunication"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-NHSCommunication</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-NHSNumberVerificationStatus"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-NHSNumberVerificationStatus</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-NominatedPharmacy"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-NominatedPharmacy</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-OutcomeOfAttendance"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-OutcomeOfAttendance</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-ParentPresent"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-ParentPresent</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-PrescriptionType"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-PrescriptionType</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-ReligiousAffiliation"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-ReligiousAffiliation</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-ResidentialStatus"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-ResidentialStatus</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-TreatmentCategory"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-TreatmentCategory</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-VaccinationProcedure"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-VaccinationProcedure</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-AllergyIntolerance"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-AllergyIntolerance</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-CarePlan"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-CarePlan</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-CareTeam"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-CareTeam</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-Condition"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-Condition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-DiagnosticReport"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-DiagnosticReport</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-DocumentReference"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-DocumentReference</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-Encounter"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-Encounter</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-Immunization"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-Immunization</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-List"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-List</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-Location"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-Location</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-Medication"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-Medication</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-MedicationDispense"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-MedicationDispense</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-MedicationRequest"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-MedicationRequest</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-MedicationStatement"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-MedicationStatement</b></a></td><td><b>0</b></td><td><b>2</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-Observation"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-Observation</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-Organization"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-Organization</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-Patient"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-Patient</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-Practitioner"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-Practitioner</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-PractitionerRole"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-PractitionerRole</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-Procedure"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-Procedure</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-RelatedPerson"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-RelatedPerson</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-ServiceRequest"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-ServiceRequest</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-Specimen"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/UKCore-Specimen</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-AddressKeyType"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-AddressKeyType</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-AdmissionMethod"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-AdmissionMethod</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-AllergyCertainty"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-AllergyCertainty</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-AllergyCode"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-AllergyCode</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-AllergyExposureRoute"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-AllergyExposureRoute</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-AllergyManifestation"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-AllergyManifestation</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-AllergySeverity"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-AllergySeverity</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-BodySite"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-BodySite</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-CareSettingType"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-CareSettingType</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ConditionCategory"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ConditionCategory</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ConditionCode"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ConditionCode</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ConditionEpisode"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ConditionEpisode</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ConditionEpisodicity"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ConditionEpisodicity</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-DeathNotificationStatus"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-DeathNotificationStatus</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-DischargeDestination"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-DischargeDestination</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-DischargeMethod"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-DischargeMethod</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-DocumentType"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-DocumentType</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-EmergencyCareDischargeStatus"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-EmergencyCareDischargeStatus</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-EncounterType"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-EncounterType</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-EthnicCategory"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-EthnicCategory</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-FindingCode"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-FindingCode</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-HumanLanguage"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-HumanLanguage</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ImmunizationExplanationReason"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ImmunizationExplanationReason</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-LanguageAbilityMode"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-LanguageAbilityMode</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-LanguageAbilityProficiency"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-LanguageAbilityProficiency</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ListCode"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ListCode</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ListEmptyReasonCode"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ListEmptyReasonCode</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ListWarningCode"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ListWarningCode</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-MedicationCode"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-MedicationCode</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-MedicationDosageRoute"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-MedicationDosageRoute</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-MedicationForm"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-MedicationForm</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-MedicationSupplyType"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-MedicationSupplyType</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-NHSDataDictionary-PersonMaritalStatus"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-NHSDataDictionary-PersonMaritalStatus</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-NHSDataDictionary-PersonStatedGender"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-NHSDataDictionary-PersonStatedGender</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-NHSNumberVerificationStatus"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-NHSNumberVerificationStatus</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ObservationType"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ObservationType</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-OutcomeOfAttendance"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-OutcomeOfAttendance</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-PreferredContactMethod"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-PreferredContactMethod</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-PreferredWrittenCommunicationFormat"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-PreferredWrittenCommunicationFormat</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-PrescriptionType"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-PrescriptionType</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ProcedureCode"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ProcedureCode</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ReasonImmunizationNotAdministered"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ReasonImmunizationNotAdministered</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ReligiousAffiliation"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ReligiousAffiliation</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ReportCodeSnCT"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ReportCodeSnCT</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ResidentialStatus"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-ResidentialStatus</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-SDSJobRoleName"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-SDSJobRoleName</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-SourceOfAdmission"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-SourceOfAdmission</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-SpecimenBodySite"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-SpecimenBodySite</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-SpecimenType"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-SpecimenType</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-TreatmentCategory"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-TreatmentCategory</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-VaccinationProcedure"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-VaccinationProcedure</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-VaccineCode"><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/valueset/UKCore-VaccineCode</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="internal"> </a>
+<h2><a href="">n/a</a></h2>
+ <table class="grid">
+   <tr style="background-color: #ffebcc">
+     <td><b>ImplementationGuide.id</b></td><td><b>warning</b></td><td><b>The Implementation Guide Resource id should be uk.testcore.r4</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td><b>Unable to find description for the resource StructureDefinition/Extension-UKCore-MedicationStatementLastIssueDate.  Descriptions are strongly encouraged to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td><b>Unable to find description for the resource StructureDefinition/Extension-UKCore-MedicationDosageLastChanged.  Descriptions are strongly encouraged to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td><b>Unable to find description for the resource StructureDefinition/Extension-UKCore-MedicationChangeSummary.  Descriptions are strongly encouraged to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td><b>Unable to find description for the resource StructureDefinition/Extension-UKCore-MedicationPrescribingAgency.  Descriptions are strongly encouraged to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td><b>Unable to find description for the resource AllergyIntolerance/UKCore-AllergyIntolerance-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td><b>Unable to find description for the resource PractitionerRole/UKCore-PractitionerRole-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td><b>Unable to find description for the resource Encounter/UKCore-Encounter-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td><b>Unable to find description for the resource Condition/UKCore-Condition-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td><b>Unable to find description for the resource List/UKCore-List-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td><b>Unable to find description for the resource Observation/UKCore-Observation-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td><b>Unable to find description for the resource Patient/UKCore-Patient-AddressKey-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td><b>Unable to find description for the resource Consent/UKCore-Consent-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td><b>Unable to find description for the resource Patient/UKCore-Patient-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td><b>Unable to find description for the resource Location/UKCore-Location-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td><b>Unable to find description for the resource Procedure/UKCore-Procedure-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td><b>Unable to find description for the resource RelatedPerson/UKCore-RelatedPerson-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td><b>Unable to find description for the resource Medication/UKCore-Medication-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td><b>Unable to find description for the resource Organization/UKCore-Organisation-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td><b>Unable to find description for the resource Practitioner/UKCore-Practitioner-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td><b>Unable to find description for the resource MedicationDispense/UKCore-MedicationDispense-Example.  Descriptions are strongly encouraged to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Location-UKCore-Location-Example.html#007ba717-229c-4822-bd88-7c2bb3f6050d">Location-UKCore-Location-Example.html#/html/body/div/div/div/div/div/div/p/a at Line 151, column 819</a></b></td><td><b>error</b></td><td><b>The link 'Organization/UKCore-Organization-Example' for &quot;Organization/UKCore-Organization-Example&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="MedicationDispense-UKCore-MedicationDispense-Example.html#8dc9c698-66ed-41c2-908b-0544600f81f0">MedicationDispense-UKCore-MedicationDispense-Example.html#/html/body/div/div/div/div/div/div/p/a at Line 151, column 1168</a></b></td><td><b>error</b></td><td><b>The link 'MedicationRequest/UKCore-MedicationRequest-Example' for &quot;MedicationRequest/UKCore-MedicationRequest-Example&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="examples.html#05335d7c-40f1-40c6-be12-efd4e9fb6f02">examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 144, column 8</a></b></td><td><b>error</b></td><td><b>The link 'UKCore-AllergyIntolerance-Example.html' for &quot;UK Core AllergyIntolerance Example&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="examples.html#3716b629-2994-4eab-ab05-b45f1e28bc95">examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 145, column 8</a></b></td><td><b>error</b></td><td><b>The link 'UKCore-Allergy-List-Example.html' for &quot;UK Core Allergy List Example&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="examples.html#8aa37a90-a2b9-4130-add1-7922969d11d0">examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 146, column 8</a></b></td><td><b>error</b></td><td><b>The link 'UKCore-Condition-Example.html' for &quot;UK Core Condition Example&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="examples.html#8ed3b439-eae1-4484-9da6-2a5e66f25100">examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 147, column 8</a></b></td><td><b>error</b></td><td><b>The link 'UKCore-Consent-Example.html' for &quot;UK Core Consent Example&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="examples.html#f4d2accf-4ce3-4538-a67a-296e96cab128">examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 148, column 8</a></b></td><td><b>error</b></td><td><b>The link 'UKCore-Encounter-Example.html' for &quot;UK Core Encounter Example&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="examples.html#0a60ff7a-8acd-424b-80a4-bafc524f8c72">examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 149, column 8</a></b></td><td><b>error</b></td><td><b>The link 'UKCore-List-Example.html' for &quot;UK Core List Example&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="examples.html#26972792-ac06-4cd5-98b4-07257af72748">examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 150, column 8</a></b></td><td><b>error</b></td><td><b>The link 'UKCore-Location-Example.html' for &quot;UK Core Location Example&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="examples.html#3e0cfb6e-99d2-4bc5-8b2b-80bfa3a92a6d">examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 151, column 8</a></b></td><td><b>error</b></td><td><b>The link 'UKCore-Observation-Example.html' for &quot;UK Core Observation Example&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="examples.html#d3754302-657f-449f-9ee0-497e08a39737">examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 152, column 8</a></b></td><td><b>error</b></td><td><b>The link 'UKCore-Organisation-Example.html' for &quot;UK Core Organisation Example&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="examples.html#52e43323-1ffe-4d15-9aa8-570f15e26cfa">examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 153, column 8</a></b></td><td><b>error</b></td><td><b>The link 'UKCore-Patient-Example.html' for &quot;UK Core Patient Example&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="examples.html#591658dc-b4d2-4f51-99fc-83862082e9b9">examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 154, column 8</a></b></td><td><b>error</b></td><td><b>The link 'UKCore-Practitioner-Example.html' for &quot;UK Core Practitioner Example&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="examples.html#7985e854-aca5-4bc8-b773-2c6a01813a4b">examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 155, column 8</a></b></td><td><b>error</b></td><td><b>The link 'UKCore-PractitionerRole-Example.html' for &quot;UK Core PractitionerRole Example&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="examples.html#4c029540-9454-4768-938c-1e1feb1aaeab">examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 156, column 8</a></b></td><td><b>error</b></td><td><b>The link 'UKCore-Procedure-Example.html' for &quot;UK Core Procedure Example&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="examples.html#37cf83e8-58a0-4348-8bae-40b1a7a1844a">examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 157, column 8</a></b></td><td><b>error</b></td><td><b>The link 'UKCore-RelatedPerson-Example.html' for &quot;UK Core RelatedPerson Example&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="extension_library.html#414d7c95-98fe-4ec6-8a6d-4962b1a0a333">extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 151, column 12</a></b></td><td><b>error</b></td><td><b>The link 'Extension-UKCore-AddressKey.html' for &quot;Extension UK Core AddressKey&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="extension_library.html#f443c994-0d01-4e09-94f4-b2e72458d57a">extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 155, column 12</a></b></td><td><b>error</b></td><td><b>The link 'Extension-UKCore-AdmissionMethod.html' for &quot;Extension UK Core AdmissionMethod&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="extension_library.html#98a818d1-fa7d-4136-95e4-ac634b8b96a7">extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 159, column 12</a></b></td><td><b>error</b></td><td><b>The link 'Extension-UKCore-AllergyIntoleranceEnd.html' for &quot;Extension UK Core AllergyIntoleranceEnd&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="extension_library.html#0fcd4ef8-c1e6-452c-86eb-48b2f30e04c6">extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 163, column 12</a></b></td><td><b>error</b></td><td><b>The link 'Extension-UKCore-AnaestheticIssues.html' for &quot;Extension UK Core AnaestheticIssues&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="extension_library.html#6a53a555-f94d-41a8-975d-6a54ecd40877">extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 167, column 12</a></b></td><td><b>error</b></td><td><b>The link 'Extension-UKCore-ClinicalSetting.html' for &quot;Extension UK Core ClinicalSetting&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="extension_library.html#f173f566-9f89-406e-b889-f7bcffadadf8">extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 171, column 12</a></b></td><td><b>error</b></td><td><b>The link 'Extension-UKCore-ConditionEpisode.html' for &quot;Extension UK Core ConditionEpisode&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="extension_library.html#72762e68-1f85-4532-bfcf-9d97cd657003">extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 175, column 12</a></b></td><td><b>error</b></td><td><b>The link 'Extension-UKCore-ContactPreference.html' for &quot;Extension UK Core ContactPreference&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="extension_library.html#aae1eb69-4c7e-448f-beba-7acaee2fa441">extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 179, column 12</a></b></td><td><b>error</b></td><td><b>The link 'Extension-UKCore-ContactRank.html' for &quot;Extension UK Core ContactRank&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="extension_library.html#f756f814-52aa-42d6-91d9-90a7d91be0a6">extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 183, column 12</a></b></td><td><b>error</b></td><td><b>The link 'Extension-UKCore-CopyCorrespondenceIndicator.html' for &quot;Extension UK Core CopyCorrespondenceIndicator&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="extension_library.html#9b2c2677-57be-403f-8467-f950327891c6">extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 187, column 12</a></b></td><td><b>error</b></td><td><b>The link 'Extension-UKCore-DeathNotificationStatus.html' for &quot;Extension UK Core DeathNotificationStatus&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="extension_library.html#6735d8a6-cdb3-4bf2-ba7b-fd19cec36a97">extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 191, column 12</a></b></td><td><b>error</b></td><td><b>The link 'Extension-UKCore-DischargeMethod.html' for &quot;Extension UK Core DischargeMethod&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="extension_library.html#1b1a4158-5705-4b6c-a63e-a9283f3871c6">extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 195, column 12</a></b></td><td><b>error</b></td><td><b>The link 'Extension-UKCore-EffectivePeriod.html' for &quot;Extension UK Core EffectivePeriod&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="extension_library.html#721a213e-4cde-41a2-8791-d800fd98a588">extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 199, column 12</a></b></td><td><b>error</b></td><td><b>The link 'Extension-UKCore-EmergencyCareDischargeStatus.html' for &quot;Extension UK Core EmergencyCareDischargeStatus&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="extension_library.html#6c751c50-76a9-44e2-9247-ce79e9d5953d">extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 203, column 12</a></b></td><td><b>error</b></td><td><b>The link 'Extension-UKCore-EncounterTransport.html' for &quot;Extension UK Core EncounterTransport&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="extension_library.html#d91f76dc-2e53-459a-ab32-4520cfdffd7b">extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 207, column 12</a></b></td><td><b>error</b></td><td><b>The link 'Extension-UKCore-EthnicCategory.html' for &quot;Extension UK Core EthnicCategory&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="extension_library.html#0f3ea109-8a11-4298-9759-1d1db3eef1c2">extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 211, column 12</a></b></td><td><b>error</b></td><td><b>The link 'Extension-UKCore-Evidence.html' for &quot;Extension UK Core Evidence&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="extension_library.html#80c29571-5b12-42dc-97c1-cdb701388045">extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 215, column 12</a></b></td><td><b>error</b></td><td><b>The link 'Extension-UKCore-ListWarningCode.html' for &quot;Extension UK Core ListWarningCode&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="extension_library.html#31d6cf10-92f9-4e89-a763-c8751a1fccaf">extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 219, column 12</a></b></td><td><b>error</b></td><td><b>The link 'Extension-UKCore-MainLocation.html' for &quot;Extension UK Core MainLocation&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="extension_library.html#73536f8e-5b71-4d3e-8b1b-1cef577718e0">extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 223, column 12</a></b></td><td><b>error</b></td><td><b>The link 'Extension-UKCore-NHSCommunication.html' for &quot;Extension UK Core NHSCommunication&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="extension_library.html#85e0650a-7ffc-41a0-8849-7f76dd8f91df">extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 227, column 12</a></b></td><td><b>error</b></td><td><b>The link 'Extension-UKCore-NHSNumberVerificationStatus.html' for &quot;Extension UK Core NHSNumberVerificationStatus&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="extension_library.html#82acb288-9631-457c-96cd-a3a9c577e9a9">extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 231, column 12</a></b></td><td><b>error</b></td><td><b>The link 'Extension-UKCore-NominatedPharmacy.html' for &quot;Extension UK Core NominatedPharmacy&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="extension_library.html#93c46945-da7e-413c-81e2-0d7d20646fc5">extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 235, column 12</a></b></td><td><b>error</b></td><td><b>The link 'Extension-UKCore-OutcomeOfAttendance.html' for &quot;Extension UK Core OutcomeOfAttendance&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="extension_library.html#399ed943-d620-40d5-9fcb-430ec4521032">extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 239, column 12</a></b></td><td><b>error</b></td><td><b>The link 'Extension-UKCore-ReligiousAffiliation.html' for &quot;Extension UK Core ReligiousAffiliation&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="extension_library.html#2e6bd601-10d5-4a90-8d1a-2b78be603cd3">extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 243, column 12</a></b></td><td><b>error</b></td><td><b>The link 'Extension-UKCore-ResidentialStatus.html' for &quot;Extension UK Core ResidentialStatus&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="extension_library.html#484026a3-23ca-480d-9a73-a68cd8dc143a">extension_library.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 247, column 12</a></b></td><td><b>error</b></td><td><b>The link 'Extension-UKCore-TreatmentCategory.html' for &quot;Extension UK Core TreatmentCategory&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="index.html#95f353a5-d663-4962-bac4-bd16b4bcc202">index.html#/html/body/div/div/div/div/div/p/a at Line 138, column 42</a></b></td><td><b>error</b></td><td><b>The link 'summary.html' for &quot;Summary&quot; cannot be resolved</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_AllergyIntolerance-UKCore-AllergyIntolerance-Example"> </a>
+<h2><a href="AllergyIntolerance-UKCore-AllergyIntolerance-Example.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/AllergyIntolerance-UKCore-AllergyIntolerance-Example</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_Condition-UKCore-Condition-Example"> </a>
+<h2><a href="Condition-UKCore-Condition-Example.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Condition-UKCore-Condition-Example</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Condition/UKCore-Condition-Example: Condition.code.coding[0]</b></td><td><b>warning</b></td><td><b>The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionCode, and a code should come from this value set unless it has no suitable code.  (error message = The filter &quot;constraint = (&lt; 404684003 |Clinical finding| OR &lt; 413350009 |Finding with explicit context| OR &lt; 272379006 |Event|)&quot; was not understood in the context of http://snomed.info/sct)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_Consent-UKCore-Consent-Example"> </a>
+<h2><a href="Consent-UKCore-Consent-Example.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Consent-UKCore-Consent-Example</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Consent/UKCore-Consent-Example: Consent.meta.profile[0]</b></td><td><b>warning</b></td><td><b>Profile reference &quot;https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Consent&quot; could not be resolved, so has not been checked</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_Encounter-UKCore-Encounter-Example"> </a>
+<h2><a href="Encounter-UKCore-Encounter-Example.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Encounter-UKCore-Encounter-Example</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Encounter/UKCore-Encounter-Example: Encounter.type[0].coding[0]</b></td><td><b>warning</b></td><td><b>The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-EncounterType, and a code should come from this value set unless it has no suitable code.  (error message = The filter &quot;constraint = &lt;&lt;185316007 OR &lt;&lt;308467007 OR &lt;&lt;185201007&quot; was not understood in the context of http://snomed.info/sct)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_List-UKCore-List-Example"> </a>
+<h2><a href="List-UKCore-List-Example.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/List-UKCore-List-Example</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>List/UKCore-List-Example: List.code.coding[0]</b></td><td><b>error</b></td><td><b>unable to find code 826501000000100 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200131) for &quot;http://snomed.info/sct#826501000000100&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>List/UKCore-List-Example: List.emptyReason</b></td><td><b>information</b></td><td><b>None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/list-empty-reason (http://hl7.org/fhir/ValueSet/list-empty-reason, and a code is recommended to come from this value set) (codes = https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListEmptyReasonCode#no-content-recorded)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_Location-UKCore-Location-Example"> </a>
+<h2><a href="Location-UKCore-Location-Example.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Location-UKCore-Location-Example</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Location/UKCore-Location-Example: Location.managingOrganization</b></td><td><b>error</b></td><td><b>Unable to resolve resource &quot;Organization/UKCore-Organization-Example&quot;</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_Medication-UKCore-Medication-Example"> </a>
+<h2><a href="Medication-UKCore-Medication-Example.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Medication-UKCore-Medication-Example</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Medication/UKCore-Medication-Example: Medication.code.coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;2501-813-16&quot; is not valid in the system http://hl7.org/fhir/sid/ndc; The code provided (http://hl7.org/fhir/sid/ndc#2501-813-16) is not  valid in the value set All codes known to the system for &quot;http://hl7.org/fhir/sid/ndc#2501-813-16&quot;</b> (<a href="qa-tx.html#l8">see Tx log</a>)</td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Medication/UKCore-Medication-Example: Medication.form.coding[0]</b></td><td><b>warning</b></td><td><b>The display &quot;Opthalmic Solution (qualifier value)&quot; is not a valid display for the code {http://snomed.info/sct}75359005 - should be one of [&quot;Timolol maleate&quot;,&quot;Timolol maleate (substance)&quot;]</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_MedicationDispense-UKCore-MedicationDispense-Example"> </a>
+<h2><a href="MedicationDispense-UKCore-MedicationDispense-Example.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/MedicationDispense-UKCore-MedicationDispense-Example</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>MedicationDispense/UKCore-MedicationDispense-Example: MedicationDispense.authorizingPrescription[0]</b></td><td><b>error</b></td><td><b>Unable to resolve resource &quot;MedicationRequest/UKCore-MedicationRequest-Example&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>MedicationDispense/UKCore-MedicationDispense-Example: MedicationDispense.dosageInstruction[0].route.coding[0]</b></td><td><b>warning</b></td><td><b>The display &quot;Ophthalmic&quot; is not a valid display for the code {http://snomed.info/sct}54485002 - should be one of [&quot;Ophthalmic route&quot;,&quot;Ophthalmic route (qualifier value)&quot;,&quot;Ophthalmic use&quot;,&quot;A route that begins in the eye region.&quot;]</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_Observation-UKCore-Observation-Example"> </a>
+<h2><a href="Observation-UKCore-Observation-Example.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Observation-UKCore-Observation-Example</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Observation/UKCore-Observation-Example: Observation.code.coding[0]</b></td><td><b>warning</b></td><td><b>The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-ObservationType, and a code should come from this value set unless it has no suitable code.  (error message = The filter &quot;constraint = (&lt;&lt;363787002 | Observable entity|)&quot; was not understood in the context of http://snomed.info/sct)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_Organization-UKCore-Organisation-Example"> </a>
+<h2><a href="Organization-UKCore-Organisation-Example.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Organization-UKCore-Organisation-Example</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_Patient-UKCore-Patient-AddressKey-Example"> </a>
+<h2><a href="Patient-UKCore-Patient-AddressKey-Example.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Patient-UKCore-Patient-AddressKey-Example</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b><a href="">Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[0]</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey</b> <span id="sl74" class="flip" onclick="flip('l74')">Show Reasoning</span><div id="l74" style="display: none"><p>&nbsp;</p>This element does not match any known slice defined in the profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey: <ul><li>Patient.address[0].extension[0].extension[0]: discriminator = true and ('type' in url)</li>, <li>Patient.address[0].extension[0].extension[0]: discriminator = true and ('value' in url)</li></ul></div></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b><a href="">Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[1]</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey</b> <span id="sl75" class="flip" onclick="flip('l75')">Show Reasoning</span><div id="l75" style="display: none"><p>&nbsp;</p>This element does not match any known slice defined in the profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey: <ul><li>Patient.address[0].extension[0].extension[1]: discriminator = true and ('type' in url)</li>, <li>Patient.address[0].extension[0].extension[1]: discriminator = true and ('value' in url)</li></ul></div></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0]</b></td><td><b>error</b></td><td><b>Profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey, Element 'Patient.address[0].extension[0].extension[type]': minimum required = 1, but only found 0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0]</b></td><td><b>error</b></td><td><b>Profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey, Element 'Patient.address[0].extension[0].extension[value]': minimum required = 1, but only found 0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0]</b></td><td><b>error</b></td><td><b>The extension https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey is not allowed to be used at this point (allowed = e:Address; this element is [[Patient.address.extension, Address.extension, Extension])</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[0]</b></td><td><b>error</b></td><td><b>The Extension &quot;https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey&quot; definition allows for the types [] but found type Coding</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[0]</b></td><td><b>error</b></td><td><b>Profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey, Element 'Patient.address[0].extension[0].extension[0].extension[type]': minimum required = 1, but only found 0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[0]</b></td><td><b>error</b></td><td><b>Profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey, Element 'Patient.address[0].extension[0].extension[0].extension[value]': minimum required = 1, but only found 0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[0]</b></td><td><b>error</b></td><td><b>Profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey, Element 'Patient.address[0].extension[0].extension[0].value[x]': max allowed = 0, but found 1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[0].value.ofType(Coding)</b></td><td><b>error</b></td><td><b>Coding.system must be an absolute reference, not a local reference</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[0].value.ofType(Coding)</b></td><td><b>information</b></td><td><b>Code System URI &quot;SYSTEM&quot; is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[1]</b></td><td><b>error</b></td><td><b>The Extension &quot;https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey&quot; definition allows for the types [] but found type string</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[1]</b></td><td><b>error</b></td><td><b>Profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey, Element 'Patient.address[0].extension[0].extension[1].extension[type]': minimum required = 1, but only found 0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[1]</b></td><td><b>error</b></td><td><b>Profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey, Element 'Patient.address[0].extension[0].extension[1].extension[value]': minimum required = 1, but only found 0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Patient/UKCore-Patient-AddressKey-Example: Patient.address[0].extension[0].extension[1]</b></td><td><b>error</b></td><td><b>Profile https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey, Element 'Patient.address[0].extension[0].extension[1].value[x]': max allowed = 0, but found 1</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_Patient-UKCore-Patient-Example"> </a>
+<h2><a href="Patient-UKCore-Patient-Example.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Patient-UKCore-Patient-Example</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Patient/UKCore-Patient-Example: Patient.extension[0].value.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td><b>Code System URI &quot;https://fhir.nhs.uk/R4/UKCore-EthnicCategory-1&quot; is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_Practitioner-UKCore-Practitioner-Example"> </a>
+<h2><a href="Practitioner-UKCore-Practitioner-Example.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Practitioner-UKCore-Practitioner-Example</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_PractitionerRole-UKCore-PractitionerRole-Example"> </a>
+<h2><a href="PractitionerRole-UKCore-PractitionerRole-Example.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/PractitionerRole-UKCore-PractitionerRole-Example</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_Procedure-UKCore-Procedure-Example"> </a>
+<h2><a href="Procedure-UKCore-Procedure-Example.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/Procedure-UKCore-Procedure-Example</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Procedure/UKCore-Procedure-Example: Procedure.code.coding[0]</b></td><td><b>warning</b></td><td><b>The Coding provided is not in the value set https://fhir.nhs.uk/R4/ValueSet/UKCore-ProcedureCode, and a code should come from this value set unless it has no suitable code.  (error message = The filter &quot;constraint = (&lt;&lt;71388002 |Procedure|&lt;&lt;129125009 OR |Procedure with explicit context|)&quot; was not understood in the context of http://snomed.info/sct)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_Examples_RelatedPerson-UKCore-RelatedPerson-Example"> </a>
+<h2><a href="RelatedPerson-UKCore-RelatedPerson-Example.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/Examples/RelatedPerson-UKCore-RelatedPerson-Example</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_ImplementationGuide-UK-Core-R4"> </a>
+<h2><a href="ImplementationGuide-uk-testcore-r4.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ImplementationGuide-UK-Core-R4.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype</b></td><td><b>error</b></td><td><b>Conformance resource /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ImplementationGuide-UK-Core-R4.xml - the canonical URL (https://fhir.nhs.uk/R4/ImplementationGuide/uk-testcore-r4) does not match the URL (https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype)</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.url</b></td><td><b>error</b></td><td><b>Resource id/url mismatch: uk-testcore-r4/https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ImplementationGuide-UK-Core-R4</b></td><td><b>error</b></td><td><b>URL Mismatch https://fhir.nhs.uk/R4/ImplementationGuide/uk-testcore-r4 vs https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-AdditionalRelatedPersonRole"> </a>
+<h2><a href="CodeSystem-UKCore-AdditionalRelatedPersonRole.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-AdditionalRelatedPersonRole.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>https://fhir.nhs.uk/R4/Codesystem/UKCore-AdditionalRelatedPersonRole</b></td><td><b>error</b></td><td><b>Conformance resource /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-AdditionalRelatedPersonRole.xml - the canonical URL (https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdditionalRelatedPersonRole) does not match the URL (https://fhir.nhs.uk/R4/Codesystem/UKCore-AdditionalRelatedPersonRole)</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-AdditionalRelatedPersonRole</b></td><td><b>error</b></td><td><b>URL Mismatch https://fhir.nhs.uk/R4/CodeSystem/UKCore-AdditionalRelatedPersonRole vs https://fhir.nhs.uk/R4/Codesystem/UKCore-AdditionalRelatedPersonRole</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-AddressKeyType"> </a>
+<h2><a href="CodeSystem-UKCore-AddressKeyType.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-AddressKeyType.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-AdmissionMethod"> </a>
+<h2><a href="CodeSystem-UKCore-AdmissionMethod.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-AdmissionMethod.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-ConditionEpisodicity"> </a>
+<h2><a href="CodeSystem-UKCore-ConditionEpisodicity.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-ConditionEpisodicity.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-ConsentUpdateMode"> </a>
+<h2><a href="CodeSystem-UKCore-ConsentUpdateMode.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-ConsentUpdateMode.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>https://fhir.nhs.uk/R4/Codesystem/UKCore-ConsentUpdateMode</b></td><td><b>error</b></td><td><b>Conformance resource /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-ConsentUpdateMode.xml - the canonical URL (https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConsentUpdateMode) does not match the URL (https://fhir.nhs.uk/R4/Codesystem/UKCore-ConsentUpdateMode)</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/codesystem/UKCore-ConsentUpdateMode</b></td><td><b>error</b></td><td><b>URL Mismatch https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConsentUpdateMode vs https://fhir.nhs.uk/R4/Codesystem/UKCore-ConsentUpdateMode</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-DeathNotificationStatus"> </a>
+<h2><a href="CodeSystem-UKCore-DeathNotificationStatus.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-DeathNotificationStatus.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-DischargeDestination"> </a>
+<h2><a href="CodeSystem-UKCore-DischargeDestination.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-DischargeDestination.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-DischargeMethod"> </a>
+<h2><a href="CodeSystem-UKCore-DischargeMethod.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-DischargeMethod.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-EthnicCategory"> </a>
+<h2><a href="CodeSystem-UKCore-EthnicCategory.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-EthnicCategory.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-HumanLanguage"> </a>
+<h2><a href="CodeSystem-UKCore-HumanLanguage.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-HumanLanguage.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-LanguageAbilityMode"> </a>
+<h2><a href="CodeSystem-UKCore-LanguageAbilityMode.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-LanguageAbilityMode.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-LanguageAbilityProficiency"> </a>
+<h2><a href="CodeSystem-UKCore-LanguageAbilityProficiency.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-LanguageAbilityProficiency.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-ListEmptyReasonCode"> </a>
+<h2><a href="CodeSystem-UKCore-ListEmptyReasonCode.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-ListEmptyReasonCode.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-ListWarningCode"> </a>
+<h2><a href="CodeSystem-UKCore-ListWarningCode.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-ListWarningCode.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-MedicationSupplyType"> </a>
+<h2><a href="CodeSystem-UKCore-MedicationSupplyType.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-MedicationSupplyType.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-NHSDataDictionary-PersonMaritalStatus"> </a>
+<h2><a href="CodeSystem-UKCore-NHSDataDictionary-PersonMaritalStatus.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-NHSDataDictionary-PersonStatedGender"> </a>
+<h2><a href="CodeSystem-UKCore-NHSDataDictionary-PersonStatedGender.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-NHSNumberVerificationStatus"> </a>
+<h2><a href="CodeSystem-UKCore-NHSNumberVerificationStatus.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-NHSNumberVerificationStatus.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-OutcomeOfAttendance"> </a>
+<h2><a href="CodeSystem-UKCore-OutcomeOfAttendance.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-OutcomeOfAttendance.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-PreferredContactMethod"> </a>
+<h2><a href="CodeSystem-UKCore-PreferredContactMethod.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-PreferredContactMethod.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-PreferredWrittenCommunicationFormat"> </a>
+<h2><a href="CodeSystem-UKCore-PreferredWrittenCommunicationFormat.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-PreferredWrittenCommunicationFormat.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-PrescriptionType"> </a>
+<h2><a href="CodeSystem-UKCore-PrescriptionType.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-PrescriptionType.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-ResidentialStatus"> </a>
+<h2><a href="CodeSystem-UKCore-ResidentialStatus.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-ResidentialStatus.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-SDSJobRoleName"> </a>
+<h2><a href="CodeSystem-UKCore-SDSJobRoleName.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-SDSJobRoleName.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-SourceOfAdmission"> </a>
+<h2><a href="CodeSystem-UKCore-SourceOfAdmission.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-SourceOfAdmission.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_codesystem_UKCore-TreatmentCategory"> </a>
+<h2><a href="CodeSystem-UKCore-TreatmentCategory.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/CodeSystem/UKCore-TreatmentCategory.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_conceptmap_UKCore-AdministrativeGender"> </a>
+<h2><a href="ConceptMap-UKCore-AdministrativeGender.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ConceptMap/UKCore-AdministrativeGender.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AdministrativeGender</b></td><td><b>error</b></td><td><b>Conformance resource /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ConceptMap/UKCore-AdministrativeGender.xml - the canonical URL (https://fhir.nhs.uk/R4/ConceptMap/UKCore-AdministrativeGender) does not match the URL (https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AdministrativeGender)</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ConceptMap.url</b></td><td><b>error</b></td><td><b>Resource id/url mismatch: UKCore-AdministrativeGender/https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AdministrativeGender</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/conceptmap/UKCore-AdministrativeGender</b></td><td><b>error</b></td><td><b>URL Mismatch https://fhir.nhs.uk/R4/ConceptMap/UKCore-AdministrativeGender vs https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AdministrativeGender</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_conceptmap_UKCore-AllergySeverity"> </a>
+<h2><a href="ConceptMap-UKCore-AllergySeverity.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ConceptMap/UKCore-AllergySeverity.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AllergySeverity</b></td><td><b>error</b></td><td><b>Conformance resource /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ConceptMap/UKCore-AllergySeverity.xml - the canonical URL (https://fhir.nhs.uk/R4/ConceptMap/UKCore-AllergySeverity) does not match the URL (https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AllergySeverity)</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ConceptMap.url</b></td><td><b>error</b></td><td><b>Resource id/url mismatch: UKCore-AllergySeverity/https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AllergySeverity</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/conceptmap/UKCore-AllergySeverity</b></td><td><b>error</b></td><td><b>URL Mismatch https://fhir.nhs.uk/R4/ConceptMap/UKCore-AllergySeverity vs https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AllergySeverity</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_conceptmap_UKCore-AllergyVerificationStatus"> </a>
+<h2><a href="ConceptMap-UKCore-AllergyVerificationStatus.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ConceptMap/UKCore-AllergyVerificationStatus.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AllergyVerificationStatus</b></td><td><b>error</b></td><td><b>Conformance resource /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ConceptMap/UKCore-AllergyVerificationStatus.xml - the canonical URL (https://fhir.nhs.uk/R4/ConceptMap/UKCore-AllergyVerificationStatus) does not match the URL (https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AllergyVerificationStatus)</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ConceptMap.url</b></td><td><b>error</b></td><td><b>Resource id/url mismatch: UKCore-AllergyVerificationStatus/https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AllergyVerificationStatus</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/conceptmap/UKCore-AllergyVerificationStatus</b></td><td><b>error</b></td><td><b>URL Mismatch https://fhir.nhs.uk/R4/ConceptMap/UKCore-AllergyVerificationStatus vs https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AllergyVerificationStatus</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_conceptmap_UKCore-ConditionEpisodicity"> </a>
+<h2><a href="ConceptMap-UKCore-ConditionEpisodicity.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ConceptMap/UKCore-ConditionEpisodicity.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-ConditionEpisodicity</b></td><td><b>error</b></td><td><b>Conformance resource /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ConceptMap/UKCore-ConditionEpisodicity.xml - the canonical URL (https://fhir.nhs.uk/R4/ConceptMap/UKCore-ConditionEpisodicity) does not match the URL (https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-ConditionEpisodicity)</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ConceptMap.url</b></td><td><b>error</b></td><td><b>Resource id/url mismatch: UKCore-ConditionEpisodicity/https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-ConditionEpisodicity</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/conceptmap/UKCore-ConditionEpisodicity</b></td><td><b>error</b></td><td><b>URL Mismatch https://fhir.nhs.uk/R4/ConceptMap/UKCore-ConditionEpisodicity vs https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-ConditionEpisodicity</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_conceptmap_UKCore-MaritalStatus"> </a>
+<h2><a href="ConceptMap-UKCore-MaritalStatus.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ConceptMap/UKCore-MaritalStatus.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-MaritalStatus</b></td><td><b>error</b></td><td><b>Conformance resource /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ConceptMap/UKCore-MaritalStatus.xml - the canonical URL (https://fhir.nhs.uk/R4/ConceptMap/UKCore-MaritalStatus) does not match the URL (https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-MaritalStatus)</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ConceptMap.url</b></td><td><b>error</b></td><td><b>Resource id/url mismatch: UKCore-MaritalStatus/https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-MaritalStatus</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/conceptmap/UKCore-MaritalStatus</b></td><td><b>error</b></td><td><b>URL Mismatch https://fhir.nhs.uk/R4/ConceptMap/UKCore-MaritalStatus vs https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-MaritalStatus</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-AddressKey"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-AddressKey.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-AddressKey.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-AdmissionMethod"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-AdmissionMethod.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-AdmissionMethod.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AdmissionMethod</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-AllergyIntoleranceEnd"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-AllergyIntoleranceEnd.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-AllergyIntoleranceEnd.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AllergyIntoleranceEnd</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-AnaestheticIssues"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-AnaestheticIssues.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-AnaestheticIssues.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AnaestheticIssues</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-ClinicalSetting"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-ClinicalSetting.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-ClinicalSetting.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ClinicalSetting</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-ConditionEpisode"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-ConditionEpisode.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-ConditionEpisode.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ConditionEpisode</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-ContactPreference"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-ContactPreference.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-ContactPreference.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ContactPreference</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-ContactRank"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-ContactRank.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-ContactRank.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ContactRank</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-CopyCorrespondenceIndicator"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-CopyCorrespondenceIndicator.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-CopyCorrespondenceIndicator.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-CopyCorrespondenceIndicator</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-DeathNotificationStatus"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-DeathNotificationStatus.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-DeathNotificationStatus.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-DeathNotificationStatus</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-DischargeMethod"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-DischargeMethod.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-DischargeMethod.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-DischargeMethod</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-EffectivePeriod"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-EffectivePeriod.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-EffectivePeriod.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EffectivePeriod</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-EmergencyCareDischargeStatus"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-EmergencyCareDischargeStatus.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-EmergencyCareDischargeStatus.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EmergencyCareDischargeStatus</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-EncounterTransport"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-EncounterTransport.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-EncounterTransport.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EncounterTransport</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-EthnicCategory"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-EthnicCategory.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-EthnicCategory.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-Evidence"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-Evidence.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-Evidence.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-Evidence</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-ListWarningCode"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-ListWarningCode.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-ListWarningCode.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ListWarningCode</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-MainLocation"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-MainLocation.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-MainLocation.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-MedicationChangeSummary"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-MedicationChangeSummary.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-MedicationChangeSummary.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationChangeSummary</b></td><td><b>error</b></td><td><b>Conformance resource /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-MedicationChangeSummary.xml - the canonical URL (https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MedicationChangeSummary) does not match the URL (http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationChangeSummary)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationChangeSummary</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-MedicationChangeSummary</b></td><td><b>error</b></td><td><b>URL Mismatch https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MedicationChangeSummary vs http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationChangeSummary</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-MedicationDosageLastChanged"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-MedicationDosageLastChanged.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-MedicationDosageLastChanged.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationDosageLastChanged</b></td><td><b>error</b></td><td><b>Conformance resource /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-MedicationDosageLastChanged.xml - the canonical URL (https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MedicationDosageLastChanged) does not match the URL (http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationDosageLastChanged)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationDosageLastChanged</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-MedicationDosageLastChanged</b></td><td><b>error</b></td><td><b>URL Mismatch https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MedicationDosageLastChanged vs http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationDosageLastChanged</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-MedicationPrescribingAgency"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-MedicationPrescribingAgency.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-MedicationPrescribingAgency.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationPrescribingAgency</b></td><td><b>error</b></td><td><b>Conformance resource /Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-MedicationPrescribingAgency.xml - the canonical URL (https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MedicationPrescribingAgency) does not match the URL (http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationPrescribingAgency)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationPrescribingAgency</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/structuredefinition/Extension-UKCore-MedicationPrescribingAgency</b></td><td><b>error</b></td><td><b>URL Mismatch https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MedicationPrescribingAgency vs http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationPrescribingAgency</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-MedicationQuantityText"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-MedicationQuantityText.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-MedicationQuantityText.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MedicationQuantityText</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-MedicationRepeatInformation"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-MedicationRepeatInformation.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-MedicationRepeatInformation.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MedicationRepeatInformation</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-MedicationStatementLastIssueDate"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-MedicationStatementLastIssueDate.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-MedicationStatementLastIssueDate.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MedicationStatementLastIssueDate</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-NHSCommunication"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-NHSCommunication.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-NHSCommunication.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSCommunication</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-NHSNumberVerificationStatus"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-NHSNumberVerificationStatus.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-NominatedPharmacy"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-NominatedPharmacy.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-NominatedPharmacy.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NominatedPharmacy</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-OutcomeOfAttendance"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-OutcomeOfAttendance.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-OutcomeOfAttendance.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-OutcomeOfAttendance</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-ParentPresent"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-ParentPresent.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-ParentPresent.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ParentPresent</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-PrescriptionType"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-PrescriptionType.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-PrescriptionType.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-PrescriptionType</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-ReligiousAffiliation"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-ReligiousAffiliation.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-ReligiousAffiliation.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ReligiousAffiliation</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-ResidentialStatus"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-ResidentialStatus.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-ResidentialStatus.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ResidentialStatus</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-TreatmentCategory"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-TreatmentCategory.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-TreatmentCategory.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-TreatmentCategory</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_Extension-UKCore-VaccinationProcedure"> </a>
+<h2><a href="StructureDefinition-Extension-UKCore-VaccinationProcedure.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/Extension-UKCore-VaccinationProcedure.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-VaccinationProcedure</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-AllergyIntolerance"> </a>
+<h2><a href="StructureDefinition-UKCore-AllergyIntolerance.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-AllergyIntolerance.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-CarePlan"> </a>
+<h2><a href="StructureDefinition-UKCore-CarePlan.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-CarePlan.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/UKCore-CarePlan</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-CareTeam"> </a>
+<h2><a href="StructureDefinition-UKCore-CareTeam.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-CareTeam.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/UKCore-CareTeam</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-Condition"> </a>
+<h2><a href="StructureDefinition-UKCore-Condition.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-Condition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-DiagnosticReport"> </a>
+<h2><a href="StructureDefinition-UKCore-DiagnosticReport.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-DiagnosticReport.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/UKCore-DiagnosticReport</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-DocumentReference"> </a>
+<h2><a href="StructureDefinition-UKCore-DocumentReference.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-DocumentReference.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/UKCore-DocumentReference</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-Encounter"> </a>
+<h2><a href="StructureDefinition-UKCore-Encounter.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-Encounter.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-Immunization"> </a>
+<h2><a href="StructureDefinition-UKCore-Immunization.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-Immunization.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Immunization</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-List"> </a>
+<h2><a href="StructureDefinition-UKCore-List.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-List.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-Location"> </a>
+<h2><a href="StructureDefinition-UKCore-Location.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-Location.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-Medication"> </a>
+<h2><a href="StructureDefinition-UKCore-Medication.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-Medication.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-MedicationDispense"> </a>
+<h2><a href="StructureDefinition-UKCore-MedicationDispense.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-MedicationDispense.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-MedicationRequest"> </a>
+<h2><a href="StructureDefinition-UKCore-MedicationRequest.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-MedicationRequest.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationRequest</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-MedicationStatement"> </a>
+<h2><a href="StructureDefinition-UKCore-MedicationStatement.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-MedicationStatement.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationStatement#MedicationStatement.basedOn</b></td><td><b>warning</b></td><td><b>Connect check whether the target profile https://fhir.nhs.uk/R4/StructureDefinition/UKCore-ProcedureRequest is valid constraint on the base because it is not known</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationStatement</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-Observation"> </a>
+<h2><a href="StructureDefinition-UKCore-Observation.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-Observation.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-Organization"> </a>
+<h2><a href="StructureDefinition-UKCore-Organization.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-Organization.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-Patient"> </a>
+<h2><a href="StructureDefinition-UKCore-Patient.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-Patient.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient</b></td><td><b>information</b></td><td><b>The Implementation Guide contains no explicitly linked examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-Practitioner"> </a>
+<h2><a href="StructureDefinition-UKCore-Practitioner.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-Practitioner.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-PractitionerRole"> </a>
+<h2><a href="StructureDefinition-UKCore-PractitionerRole.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-PractitionerRole.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-Procedure"> </a>
+<h2><a href="StructureDefinition-UKCore-Procedure.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-Procedure.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-RelatedPerson"> </a>
+<h2><a href="StructureDefinition-UKCore-RelatedPerson.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-RelatedPerson.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-ServiceRequest"> </a>
+<h2><a href="StructureDefinition-UKCore-ServiceRequest.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-ServiceRequest.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/UKCore-ServiceRequest</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_structuredefinition_UKCore-Specimen"> </a>
+<h2><a href="StructureDefinition-UKCore-Specimen.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/StructureDefinition/UKCore-Specimen.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Specimen</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-AddressKeyType"> </a>
+<h2><a href="ValueSet-UKCore-AddressKeyType.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-AddressKeyType.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-AdmissionMethod"> </a>
+<h2><a href="ValueSet-UKCore-AdmissionMethod.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-AdmissionMethod.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-AllergyCertainty"> </a>
+<h2><a href="ValueSet-UKCore-AllergyCertainty.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-AllergyCertainty.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-AllergyCertainty</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;constraint = (385434005 |Improbable diagnosis| OR 2931005 |Probable diagnosis| OR 255545003 |Definite| OR 410605003 |Confirmed present|)&quot; was not understood in the context of http://snomed.info/sct</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-AllergyCode"> </a>
+<h2><a href="ValueSet-UKCore-AllergyCode.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-AllergyCode.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-AllergyCode</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;constraint = (&lt;&lt;105590001 |Substance OR &lt;&lt;373873005 |Pharmaceutical / biologic product| OR &lt;&lt;716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy|)&quot; was not understood in the context of http://snomed.info/sct</b> (<a href="qa-tx.html#l11">see Tx log</a>)</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-AllergyExposureRoute"> </a>
+<h2><a href="ValueSet-UKCore-AllergyExposureRoute.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-AllergyExposureRoute.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-AllergyExposureRoute</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;constraint = ^999000051000001100 |ePrescribing route of administration simple reference set|&quot; was not understood in the context of http://snomed.info/sct</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-AllergyManifestation"> </a>
+<h2><a href="ValueSet-UKCore-AllergyManifestation.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-AllergyManifestation.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-AllergyManifestation</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;concept in &lt;&lt;404684003&quot; was not understood in the context of http://snomed.info/sct</b> (<a href="qa-tx.html#l10">see Tx log</a>)</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-AllergySeverity"> </a>
+<h2><a href="ValueSet-UKCore-AllergySeverity.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-AllergySeverity.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-AllergySeverity</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;constraint = (255604002 |Mild| OR 6736007 |Moderate| OR 24484000 |Severe| OR 399166001 |Fatal| OR 442452003 |Life threatening severity|)&quot; was not understood in the context of http://snomed.info/sct</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-BodySite"> </a>
+<h2><a href="ValueSet-UKCore-BodySite.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-BodySite.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-BodySite</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;constraint = (&lt;&lt;442083009 |anatomical or acquired body structure|)&quot; was not understood in the context of http://snomed.info/sct</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-CareSettingType"> </a>
+<h2><a href="ValueSet-UKCore-CareSettingType.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-CareSettingType.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-CareSettingType</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;concept in ^999000381000000107&quot; was not understood in the context of http://snomed.info/sct</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ConditionCategory"> </a>
+<h2><a href="ValueSet-UKCore-ConditionCategory.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ConditionCategory.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-ConditionCategory</b></td><td><b>error</b></td><td><b>Error from server: Unable to provide support for code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-ConditionCategory</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ConditionCode"> </a>
+<h2><a href="ValueSet-UKCore-ConditionCode.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ConditionCode.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-ConditionCode</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;constraint = (&lt; 404684003 |Clinical finding| OR &lt; 413350009 |Finding with explicit context| OR &lt; 272379006 |Event|)&quot; was not understood in the context of http://snomed.info/sct</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ConditionEpisode"> </a>
+<h2><a href="ValueSet-UKCore-ConditionEpisode.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ConditionEpisode.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ConditionEpisodicity"> </a>
+<h2><a href="ValueSet-UKCore-ConditionEpisodicity.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ConditionEpisodicity.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-DeathNotificationStatus"> </a>
+<h2><a href="ValueSet-UKCore-DeathNotificationStatus.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-DeathNotificationStatus.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-DischargeDestination"> </a>
+<h2><a href="ValueSet-UKCore-DischargeDestination.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-DischargeDestination.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-DischargeMethod"> </a>
+<h2><a href="ValueSet-UKCore-DischargeMethod.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-DischargeMethod.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-DocumentType"> </a>
+<h2><a href="ValueSet-UKCore-DocumentType.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-DocumentType.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-DocumentType</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;concept in ^999000391000000109&quot; was not understood in the context of http://snomed.info/sct</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-EmergencyCareDischargeStatus"> </a>
+<h2><a href="ValueSet-UKCore-EmergencyCareDischargeStatus.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-EmergencyCareDischargeStatus.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-EmergencyCareDischargeStatus</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;concept in ^999003021000000104&quot; was not understood in the context of http://snomed.info/sct</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-EncounterType"> </a>
+<h2><a href="ValueSet-UKCore-EncounterType.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-EncounterType.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-EncounterType</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;constraint = &lt;&lt;185316007 OR &lt;&lt;308467007 OR &lt;&lt;185201007&quot; was not understood in the context of http://snomed.info/sct</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-EthnicCategory"> </a>
+<h2><a href="ValueSet-UKCore-EthnicCategory.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-EthnicCategory.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-FindingCode"> </a>
+<h2><a href="ValueSet-UKCore-FindingCode.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-FindingCode.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-FindingCode</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;constraint = (&lt;&lt;404684003 | clinical finding|)&quot; was not understood in the context of http://snomed.info/sct</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-HumanLanguage"> </a>
+<h2><a href="ValueSet-UKCore-HumanLanguage.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-HumanLanguage.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ImmunizationExplanationReason"> </a>
+<h2><a href="ValueSet-UKCore-ImmunizationExplanationReason.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ImmunizationExplanationReason.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-ImmunizationExplanationReason</b></td><td><b>error</b></td><td><b>Error from server: unable to find code 506931000000109 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200309)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-LanguageAbilityMode"> </a>
+<h2><a href="ValueSet-UKCore-LanguageAbilityMode.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-LanguageAbilityMode.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-LanguageAbilityProficiency"> </a>
+<h2><a href="ValueSet-UKCore-LanguageAbilityProficiency.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-LanguageAbilityProficiency.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ListCode"> </a>
+<h2><a href="ValueSet-UKCore-ListCode.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ListCode.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-ListCode</b></td><td><b>error</b></td><td><b>Error from server: unable to find code 887161000000102 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200309)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ListEmptyReasonCode"> </a>
+<h2><a href="ValueSet-UKCore-ListEmptyReasonCode.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ListEmptyReasonCode.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ListWarningCode"> </a>
+<h2><a href="ValueSet-UKCore-ListWarningCode.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ListWarningCode.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-MedicationCode"> </a>
+<h2><a href="ValueSet-UKCore-MedicationCode.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-MedicationCode.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-MedicationCode</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;constraint = (^999000541000001108 |National Health Service dictionary of medicines and devices actual medicinal product simple reference set| OR ^999000551000001106 |National Health Service dictionary of medicines and devices actual medicinal product pack simple reference set| OR ^999000561000001109 |National Health Service dictionary of medicines and devices virtual medicinal product simple reference set| OR ^999000571000001104 |National Health Service dictionary of medicines and devices virtual medicinal product pack simple reference set| OR ^999000581000001102 |National Health Service dictionary of medicines and devices virtual therapeutic moiety simple reference set|)&quot; was not understood in the context of http://snomed.info/sct</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-MedicationDosageRoute"> </a>
+<h2><a href="ValueSet-UKCore-MedicationDosageRoute.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-MedicationDosageRoute.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-MedicationDosageRoute</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;concept in ^999000051000001100&quot; was not understood in the context of http://snomed.info/sct</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-MedicationForm"> </a>
+<h2><a href="ValueSet-UKCore-MedicationForm.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-MedicationForm.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-MedicationForm</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;constraint = ^999000781000001107 |NHS dm+d (dictionary of medicines and devices) dose form simple reference set|&quot; was not understood in the context of http://snomed.info/sct</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-MedicationSupplyType"> </a>
+<h2><a href="ValueSet-UKCore-MedicationSupplyType.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-MedicationSupplyType.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-NHSDataDictionary-PersonMaritalStatus"> </a>
+<h2><a href="ValueSet-UKCore-NHSDataDictionary-PersonMaritalStatus.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-NHSDataDictionary-PersonStatedGender"> </a>
+<h2><a href="ValueSet-UKCore-NHSDataDictionary-PersonStatedGender.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-NHSDataDictionary-PersonStatedGender.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-NHSNumberVerificationStatus"> </a>
+<h2><a href="ValueSet-UKCore-NHSNumberVerificationStatus.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-NHSNumberVerificationStatus.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ObservationType"> </a>
+<h2><a href="ValueSet-UKCore-ObservationType.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ObservationType.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-ObservationType</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;constraint = (&lt;&lt;363787002 | Observable entity|)&quot; was not understood in the context of http://snomed.info/sct</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-OutcomeOfAttendance"> </a>
+<h2><a href="ValueSet-UKCore-OutcomeOfAttendance.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-OutcomeOfAttendance.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-PreferredContactMethod"> </a>
+<h2><a href="ValueSet-UKCore-PreferredContactMethod.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-PreferredContactMethod.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-PreferredWrittenCommunicationFormat"> </a>
+<h2><a href="ValueSet-UKCore-PreferredWrittenCommunicationFormat.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-PreferredWrittenCommunicationFormat.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-PrescriptionType"> </a>
+<h2><a href="ValueSet-UKCore-PrescriptionType.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-PrescriptionType.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ProcedureCode"> </a>
+<h2><a href="ValueSet-UKCore-ProcedureCode.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ProcedureCode.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-ProcedureCode</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;constraint = (&lt;&lt;71388002 |Procedure|&lt;&lt;129125009 OR |Procedure with explicit context|)&quot; was not understood in the context of http://snomed.info/sct</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ReasonImmunizationNotAdministered"> </a>
+<h2><a href="ValueSet-UKCore-ReasonImmunizationNotAdministered.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ReasonImmunizationNotAdministered.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-ReasonImmunizationNotAdministered</b></td><td><b>error</b></td><td><b>Error from server: unable to find code 201741000000102 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200309)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ReligiousAffiliation"> </a>
+<h2><a href="ValueSet-UKCore-ReligiousAffiliation.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ReligiousAffiliation.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-ReligiousAffiliation</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;concept in ^999000531000000100&quot; was not understood in the context of http://snomed.info/sct</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ReportCodeSnCT"> </a>
+<h2><a href="ValueSet-UKCore-ReportCodeSnCT.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ReportCodeSnCT.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-ReportCodeSnCT</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;constraint = (&lt;&lt;371525003 | Clinical procedure report|)&quot; was not understood in the context of http://snomed.info/sct</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-ResidentialStatus"> </a>
+<h2><a href="ValueSet-UKCore-ResidentialStatus.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-ResidentialStatus.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-SDSJobRoleName"> </a>
+<h2><a href="ValueSet-UKCore-SDSJobRoleName.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-SDSJobRoleName.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-SourceOfAdmission"> </a>
+<h2><a href="ValueSet-UKCore-SourceOfAdmission.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-SourceOfAdmission.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-SpecimenBodySite"> </a>
+<h2><a href="ValueSet-UKCore-SpecimenBodySite.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-SpecimenBodySite.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-SpecimenBodySite</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;constraint = (&lt; 442083009 |Anatomical or acquired body structure| OR &lt; 49755003 |Morphologically abnormal structure|)&quot; was not understood in the context of http://snomed.info/sct</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-SpecimenType"> </a>
+<h2><a href="ValueSet-UKCore-SpecimenType.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-SpecimenType.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-SpecimenType</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;constraint = (&lt;105590001 |Substance (in which case method and site should also be populated)|OR &lt;49755003 |Morphologically abnormal structure|OR &lt; 260787004 |Physical object|)&quot; was not understood in the context of http://snomed.info/sct</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-TreatmentCategory"> </a>
+<h2><a href="ValueSet-UKCore-TreatmentCategory.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-TreatmentCategory.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-VaccinationProcedure"> </a>
+<h2><a href="ValueSet-UKCore-VaccinationProcedure.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-VaccinationProcedure.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-VaccinationProcedure</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;constraint = (&lt;&lt;33879002 OR &lt;&lt;713404003 OR &lt;&lt;955641000000103 OR &lt;&lt;955691000000108 OR &lt;&lt;955701000000108 OR &lt;&lt;957581000000102 OR &lt;&lt;957751000000103 OR &lt;&lt;1066171000000108 OR &lt;&lt;140611000119104 OR &lt;&lt;15483003 OR &lt;&lt;39343008 OR &lt;&lt;34631000 OR &lt;&lt;72093006 OR &lt;&lt;425897001 OR &lt;&lt;8605003 OR &lt;&lt;428502009 OR &lt;&lt;283451000000105 OR &lt;&lt;308753004 OR &lt;&lt;572481000119103 OR &lt;&lt;965851000000105 OR &lt;&lt;761841000 OR &lt;&lt;16300531000119107 OR &lt;&lt;14747002 OR &lt;&lt;283431000000103 OR &lt;&lt;427633002) MINUS (&lt;&lt;304250009 OR &lt;&lt;51116004 OR &lt;&lt;296811004 OR &lt;&lt;294631000 OR &lt;&lt;425457005 OR &lt;&lt;291705006 OR &lt;&lt;417451006 OR &lt;&lt;47988006 OR &lt;&lt;293095001 OR &lt;&lt;601000000100 OR &lt;&lt;123471000119103 OR &lt;&lt;266758009 OR &lt;&lt;223464006 OR &lt;&lt;185324002 OR &lt;&lt;416064006 OR &lt;&lt;428119001 OR &lt;&lt;308433002 OR &lt;&lt;183944003 OR &lt;&lt;408864009 OR &lt;&lt;202111000000106 OR &lt;&lt;708538000 OR &lt;&lt;418019003 OR &lt;&lt;416237000 OR &lt;&lt;400999005 OR &lt;&lt;309370004)&quot; was not understood in the context of http://snomed.info/sct</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_uk-testcore-r4_input_resources_valueset_UKCore-VaccineCode"> </a>
+<h2><a href="ValueSet-UKCore-VaccineCode.html">/Users/kevinmayfield/Development/wildfyre/uk-testcore-r4/input/resources/ValueSet/UKCore-VaccineCode.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>UKCore-VaccineCode</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;concept in ^999000811000001105&quot; was not understood in the context of http://snomed.info/sct</b> (<a href="qa-tx.html#l12">see Tx log</a>)</td>
+   </tr>
+</table>
+<a name="suppressed"> </a>
+<p><b>Suppressed Error Messages</b></p><ul>
+ <li>The Coding provided is not in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EncounterType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EncounterType-1, and a code should come from this value set unless it has no suitable code) (error message = The filter &quot;constraint = &lt;&lt;185316007 OR &lt;&lt;308467007 OR &lt;&lt;185201007&quot; was not understood in the context of http://snomed.info/sct)</li>
+ <li>The Coding provided is not in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1, and a code should come from this value set unless it has no suitable code) (error message = The filter &quot;constraint = (&lt;&lt;363787002 | Observable entity|)&quot; was not understood in the context of http://snomed.info/sct)</li>
+ <li>None of the codes provided are in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#708168004)</li>
+ <li>None of the codes provided are in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DocumentType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DocumentType-1, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#734163000)</li>
+ <li>This element does not match any known slice for the profile https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1</li>
+ <li>This element does not match any known slice for the profile https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1</li>
+ <li>This element does not match any known slice for the profile https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1</li>
+ <li>[Unable to resolve system http://snomed.info/sct - system is not complete]</li>
+ <li>The Coding provided is not in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1, and a code should come from this value set unless it has no suitable code) (error message = Unknown Code http://snomed.info/sct#364075005 in http://snomed.info/sct)</li>
+ <li>value should not start or finish with whitespace</li>
+</ul>
+</body>
+</html>

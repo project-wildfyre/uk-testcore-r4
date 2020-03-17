@@ -1,0 +1,51 @@
+{
+  "resourceType": "Practitioner",
+  "id": "UKCore-Practitioner-Example",
+  "meta": {
+    "profile": [
+      "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Practitioner-Example</p><p><b>meta</b>: </p><p><b>identifier</b>: G12345678</p><p><b>name</b>: Paul Rastall </p><p><b>telecom</b>: ph: 0113 6323200(WORK)</p><p><b>address</b>: Chapel Main Practice 22 Brightside Crescent Overtown LS10 4YU (WORK)</p><p><b>gender</b>: male</p></div>"
+  },
+  "identifier": [
+    {
+      "system": "https://fhir.nhs.uk/Id/sds-user-id",
+      "value": "G12345678"
+    }
+  ],
+  "name": [
+    {
+      "family": "Rastall",
+      "given": [
+        "Paul"
+      ],
+      "prefix": [
+        "Dr"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "0113 6323200",
+      "use": "work"
+    }
+  ],
+  "address": [
+    {
+      "use": "work",
+      "type": "both",
+      "line": [
+        "Chapel Main Practice",
+        "22 Brightside Crescent"
+      ],
+      "city": "Overtown",
+      "district": "West Yorkshire",
+      "postalCode": "LS10 4YU"
+    }
+  ],
+  "gender": "male"
+}

@@ -1,0 +1,57 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/Patient/UKCore-Patient-AddressKey-Example> a fhir:Patient;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "UKCore-Patient-AddressKey-Example"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient|1.0.0";
+       fhir:index 0;
+       fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient|1.0.0>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Patient-AddressKey-Example</p><p><b>meta</b>: </p><p><b>address</b>: 4 Sandmoor Drive LEEDS LS17 7DF </p></div>"
+  ];
+  fhir:Patient.address [
+     fhir:index 0;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey" ];
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey" ];
+         fhir:Extension.valueCoding [
+           fhir:Coding.system [ fhir:value "SYSTEM" ];
+           fhir:Coding.code [ fhir:value "CODE" ];
+           fhir:Coding.display [ fhir:value "DISPLAY" ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AddressKey" ];
+         fhir:Extension.valueString [ fhir:value "STRING" ]
+       ]
+     ];
+     fhir:Address.line [
+       fhir:value "4 Sandmoor Drive";
+       fhir:index 0
+     ], [
+       fhir:value "LEEDS";
+       fhir:index 1
+     ];
+     fhir:Address.postalCode [ fhir:value "LS17 7DF" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/Patient/UKCore-Patient-AddressKey-Example.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,47 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "UKCore-ListEmptyReasonCode",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UK Core List Empty Reason Code</h2><div><p>A CodeSystem to identify the reason a list may be empty.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListEmptyReasonCode defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">no-content-recorded<a name=\"UKCore-ListEmptyReasonCode-no-content-recorded\"> </a></td><td>No Content Recorded</td><td/></tr></table></div>"
+  },
+  "url": "https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListEmptyReasonCode",
+  "version": "4.0.0",
+  "name": "UKCoreListEmptyReasonCode",
+  "title": "UK Core List Empty Reason Code",
+  "status": "draft",
+  "date": "2019-11-04T00:00:00+00:00",
+  "publisher": "Project Wildfyre",
+  "contact": [
+    {
+      "name": "Project Wildfyre",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:dunno@dummy.net",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "A CodeSystem to identify the reason a list may be empty.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "GB"
+        }
+      ]
+    }
+  ],
+  "copyright": "Copyright © 2019 NHS Digital",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "no-content-recorded",
+      "display": "No Content Recorded"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="UKCore-Organisation-Example"/>
+  <meta>
+    <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Organisation-Example</p><p><b>meta</b>: </p><p><b>identifier</b>: RR8 (OFFICIAL)</p><p><b>name</b>: LEEDS TEACHING HOSPITALS NHS TRUST</p><p><b>telecom</b>: ph: 0113 243 3144</p><p><b>address</b>: ST. JAMES'S UNIVERSITY HOSPITAL BECKETT STREET LEEDS LS9 7TF ENGLAND </p></div>
+  </text>
+  <extension url="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MainLocation">
+    <valueReference>
+      <reference value="Location/UKCore-Location-Example"/>
+    </valueReference>
+  </extension>
+  <identifier>
+    <use value="official"/>
+    <system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+    <value value="RR8"/>
+  </identifier>
+  <name value="LEEDS TEACHING HOSPITALS NHS TRUST"/>
+  <telecom>
+    <system value="phone"/>
+    <value value="0113 243 3144"/>
+  </telecom>
+  <address>
+    <line value="ST. JAMES&#39;S UNIVERSITY HOSPITAL"/>
+    <line value="BECKETT STREET"/>
+    <city value="LEEDS"/>
+    <postalCode value="LS9 7TF"/>
+    <country value="ENGLAND"/>
+  </address>
+</Organization>

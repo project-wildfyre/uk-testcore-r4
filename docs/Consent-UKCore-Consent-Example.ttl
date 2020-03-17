@@ -1,0 +1,75 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/Consent/UKCore-Consent-Example> a fhir:Consent;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "UKCore-Consent-Example"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Consent";
+       fhir:index 0;
+       fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Consent>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: UKCore-Consent-Example</p><p><b>meta</b>: </p><p><b>status</b>: active</p><p><b>scope</b>: Privacy Consent <span style=\"background: LightGoldenRodYellow\">(Details : {http://terminology.hl7.org/CodeSystem/consentscope code 'patient-privacy' = 'Privacy Consent', given as 'Privacy Consent'})</span></p><p><b>category</b>: information access <span style=\"background: LightGoldenRodYellow\">(Details : {http://terminology.hl7.org/CodeSystem/v3-ActCode code 'INFA' = 'information access', given as 'information access'})</span></p><p><b>patient</b>: <a href=\"{{[type]}}-{{[id]}}.html\">Generated Summary: id: UKCore-Patient-Example; 9912003888; Richard SMITH (OFFICIAL); ph: 01131231234; gender: male; birthDate: 1970-09-11</a></p><p><b>dateTime</b>: 10 Dec 2019, 11:15:00</p><p><b>performer</b>: <a href=\"{{[type]}}-{{[id]}}.html\">Generated Summary: id: UKCore-Practitioner-Example; G12345678; Paul Rastall ; ph: 0113 6323200(WORK); gender: male</a></p><p><b>organization</b>: <a href=\"{{[type]}}-{{[id]}}.html\">Generated Summary: id: UKCore-Organisation-Example; RR8 (OFFICIAL); name: LEEDS TEACHING HOSPITALS NHS TRUST; ph: 0113 243 3144</a></p><h3>Policies</h3><table class=\"grid\"><tr><td>-</td><td><b>Authority</b></td><td><b>Uri</b></td></tr><tr><td>*</td><td><a href=\"https://www.exampleauthority.nhs.uk\">https://www.exampleauthority.nhs.uk</a></td><td><a href=\"https://www.exampleauthority.nhs.uk/policies/ukcore-policy-example-v1.0\">https://www.exampleauthority.nhs.uk/policies/ukcore-policy-example-v1.0</a></td></tr></table><h3>Provisions</h3><table class=\"grid\"><tr><td>-</td><td><b>Purpose</b></td></tr><tr><td>*</td><td>government (Details: http://terminology.hl7.org/CodeSystem/v3-ActReason code GOV = 'government', stated as 'government')</td></tr></table></div>"
+  ];
+  fhir:Consent.status [ fhir:value "active"];
+  fhir:Consent.scope [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/consentscope" ];
+       fhir:Coding.code [ fhir:value "patient-privacy" ];
+       fhir:Coding.display [ fhir:value "Privacy Consent" ]
+     ]
+  ];
+  fhir:Consent.category [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ActCode" ];
+       fhir:Coding.code [ fhir:value "INFA" ];
+       fhir:Coding.display [ fhir:value "information access" ]
+     ]
+  ];
+  fhir:Consent.patient [
+     fhir:link <https://fhir.nhs.uk/R4/Patient/UKCore-Patient-Example>;
+     fhir:Reference.reference [ fhir:value "Patient/UKCore-Patient-Example" ]
+  ];
+  fhir:Consent.dateTime [ fhir:value "2019-12-10T11:15:00+00:00"^^xsd:dateTime];
+  fhir:Consent.performer [
+     fhir:index 0;
+     fhir:link <https://fhir.nhs.uk/R4/Practitioner/UKCore-Practitioner-Example>;
+     fhir:Reference.reference [ fhir:value "Practitioner/UKCore-Practitioner-Example" ]
+  ];
+  fhir:Consent.organization [
+     fhir:index 0;
+     fhir:link <https://fhir.nhs.uk/R4/Organization/UKCore-Organisation-Example>;
+     fhir:Reference.reference [ fhir:value "Organization/UKCore-Organisation-Example" ]
+  ];
+  fhir:Consent.policy [
+     fhir:index 0;
+     fhir:Consent.policy.authority [ fhir:value "https://www.exampleauthority.nhs.uk" ];
+     fhir:Consent.policy.uri [ fhir:value "https://www.exampleauthority.nhs.uk/policies/ukcore-policy-example-v1.0" ]
+  ];
+  fhir:Consent.provision [
+     fhir:Consent.provision.purpose [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ActReason" ];
+       fhir:Coding.code [ fhir:value "GOV" ];
+       fhir:Coding.display [ fhir:value "government" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/Consent/UKCore-Consent-Example.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

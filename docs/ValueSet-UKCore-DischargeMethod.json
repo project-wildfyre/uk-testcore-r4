@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "UKCore-DischargeMethod",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NHS Data Model and Dictionary Discharge Method</h2><div><p>The method of discharge from a Hospital Provider Spell.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-UKCore-DischargeMethod.html\"><code>https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeMethod</code></a></li></ul></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/valueset-sourceReference",
+      "valueUri": "http://www.datadictionary.nhs.uk/data_dictionary/attributes/d/disc/discharge_method_de.asp?shownav=1"
+    }
+  ],
+  "url": "https://fhir.nhs.uk/R4/ValueSet/UKCore-DischargeMethod",
+  "version": "4.0.0",
+  "name": "NHSDataModelandDictionaryDischargeMethod",
+  "title": "NHS Data Model and Dictionary Discharge Method",
+  "status": "draft",
+  "date": "2019-11-05T00:00:00+00:00",
+  "publisher": "Project Wildfyre",
+  "contact": [
+    {
+      "name": "Project Wildfyre",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:dunno@dummy.net",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "The method of discharge from a Hospital Provider Spell.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "GB"
+        }
+      ]
+    }
+  ],
+  "copyright": "Copyright © 2019 NHS Digital",
+  "compose": {
+    "include": [
+      {
+        "system": "https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeMethod"
+      }
+    ]
+  }
+}

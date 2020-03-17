@@ -1,0 +1,81 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "UKCore-NHSDataDictionary-PersonMaritalStatus"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NHS Data Model and Dictionary Person Marital Status Code</h2><div><p>An indicator to identify the legal marital status of a Person.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"UKCore-NHSDataDictionary-PersonMaritalStatus-S\"> </a></td><td>Single</td><td/></tr><tr><td style=\"white-space:nowrap\">M<a name=\"UKCore-NHSDataDictionary-PersonMaritalStatus-M\"> </a></td><td>Married/Civil Partner</td><td/></tr><tr><td style=\"white-space:nowrap\">D<a name=\"UKCore-NHSDataDictionary-PersonMaritalStatus-D\"> </a></td><td>Divorced/Person whose Civil Partnership has been dissolved</td><td/></tr><tr><td style=\"white-space:nowrap\">W<a name=\"UKCore-NHSDataDictionary-PersonMaritalStatus-W\"> </a></td><td>Widowed/Surviving Civil Partner</td><td/></tr><tr><td style=\"white-space:nowrap\">P<a name=\"UKCore-NHSDataDictionary-PersonMaritalStatus-P\"> </a></td><td>Separated</td><td/></tr><tr><td style=\"white-space:nowrap\">N<a name=\"UKCore-NHSDataDictionary-PersonMaritalStatus-N\"> </a></td><td>Not disclosed</td><td/></tr></table></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference" ];
+     fhir:Extension.valueUri [ fhir:value "http://www.datadictionary.nhs.uk/data_dictionary/attributes/p/person/person_marital_status_code_de.asp?shownav=1" ]
+  ];
+  fhir:CodeSystem.url [ fhir:value "https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus"];
+  fhir:CodeSystem.version [ fhir:value "4.0.0"];
+  fhir:CodeSystem.name [ fhir:value "NHSDataModelandDictionaryPersonMaritalStatusCode"];
+  fhir:CodeSystem.title [ fhir:value "NHS Data Model and Dictionary Person Marital Status Code"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2019-10-18T13:00:00+01:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Project Wildfyre"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Project Wildfyre" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "mailto:dunno@dummy.net" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "An indicator to identify the legal marital status of a Person."];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "GB" ]
+     ]
+  ];
+  fhir:CodeSystem.copyright [ fhir:value "Copyright © 2019 NHS Digital"];
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "S" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Single" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "M" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Married/Civil Partner" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "D" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Divorced/Person whose Civil Partnership has been dissolved" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "W" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Widowed/Surviving Civil Partner" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "P" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Separated" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "N" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Not disclosed" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

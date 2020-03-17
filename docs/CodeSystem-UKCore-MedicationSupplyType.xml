@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="UKCore-MedicationSupplyType"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>UK Core Medication Supply Type</h2><div><p>A CodeSystem to identify the type of medication supply.</p>
+</div><p><b>Copyright Statement:</b> Copyright © 2020 NHS Digital</p><p>This code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-MedicationSupplyType defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">over-the-counter<a name="UKCore-MedicationSupplyType-over-the-counter"> </a></td><td>Over the counter</td><td/></tr><tr><td style="white-space:nowrap">emergency-supply<a name="UKCore-MedicationSupplyType-emergency-supply"> </a></td><td>Emergency supply</td><td/></tr><tr><td style="white-space:nowrap">patient-group-direction<a name="UKCore-MedicationSupplyType-patient-group-direction"> </a></td><td>Patient group direction</td><td/></tr><tr><td style="white-space:nowrap">minor-ailments-scheme<a name="UKCore-MedicationSupplyType-minor-ailments-scheme"> </a></td><td>Minor ailments scheme</td><td/></tr><tr><td style="white-space:nowrap">prescription-dispensing<a name="UKCore-MedicationSupplyType-prescription-dispensing"> </a></td><td>Prescription dispensing</td><td/></tr><tr><td style="white-space:nowrap">private-prescription-dispensing<a name="UKCore-MedicationSupplyType-private-prescription-dispensing"> </a></td><td>Private prescription dispensing</td><td/></tr><tr><td style="white-space:nowrap">self-declared<a name="UKCore-MedicationSupplyType-self-declared"> </a></td><td>Self declared</td><td/></tr></table></div>
+  </text>
+  <url value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-MedicationSupplyType"/>
+  <version value="4.0.0"/>
+  <name value="UKCoreMedicationSupplyType"/>
+  <title value="UK Core Medication Supply Type"/>
+  <status value="draft"/>
+  <date value="2020-02-07T00:00:00+00:00"/>
+  <publisher value="Project Wildfyre"/>
+  <contact>
+    <name value="Project Wildfyre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:dunno@dummy.net"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="A CodeSystem to identify the type of medication supply."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="GB"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Copyright &#xA9; 2020 NHS Digital"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="over-the-counter"/>
+    <display value="Over the counter"/>
+  </concept>
+  <concept>
+    <code value="emergency-supply"/>
+    <display value="Emergency supply"/>
+  </concept>
+  <concept>
+    <code value="patient-group-direction"/>
+    <display value="Patient group direction"/>
+  </concept>
+  <concept>
+    <code value="minor-ailments-scheme"/>
+    <display value="Minor ailments scheme"/>
+  </concept>
+  <concept>
+    <code value="prescription-dispensing"/>
+    <display value="Prescription dispensing"/>
+  </concept>
+  <concept>
+    <code value="private-prescription-dispensing"/>
+    <display value="Private prescription dispensing"/>
+  </concept>
+  <concept>
+    <code value="self-declared"/>
+    <display value="Self declared"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,59 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "UKCore-PrescriptionType",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>UK Core Prescription Type</h2><div><p>A CodeSystem to identify the type of prescription.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2020 NHS Digital</p><p>This code system https://fhir.nhs.uk/R4/CodeSystem/UKCore-PrescriptionType defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">acute<a name=\"UKCore-PrescriptionType-acute\"> </a></td><td>Acute</td><td/></tr><tr><td style=\"white-space:nowrap\">repeat<a name=\"UKCore-PrescriptionType-repeat\"> </a></td><td>Repeat</td><td/></tr><tr><td style=\"white-space:nowrap\">repeat-dispensing<a name=\"UKCore-PrescriptionType-repeat-dispensing\"> </a></td><td>Repeat dispensing</td><td/></tr><tr><td style=\"white-space:nowrap\">delayed-prescribing<a name=\"UKCore-PrescriptionType-delayed-prescribing\"> </a></td><td>Delayed prescribing</td><td/></tr></table></div>"
+  },
+  "url": "https://fhir.nhs.uk/R4/CodeSystem/UKCore-PrescriptionType",
+  "version": "4.0.0",
+  "name": "UKCorePrescriptionType",
+  "title": "UK Core Prescription Type",
+  "status": "draft",
+  "date": "2020-01-20T00:00:00+00:00",
+  "publisher": "Project Wildfyre",
+  "contact": [
+    {
+      "name": "Project Wildfyre",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:dunno@dummy.net",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "A CodeSystem to identify the type of prescription.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "GB"
+        }
+      ]
+    }
+  ],
+  "copyright": "Copyright © 2020 NHS Digital",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "acute",
+      "display": "Acute"
+    },
+    {
+      "code": "repeat",
+      "display": "Repeat"
+    },
+    {
+      "code": "repeat-dispensing",
+      "display": "Repeat dispensing"
+    },
+    {
+      "code": "delayed-prescribing",
+      "display": "Delayed prescribing"
+    }
+  ]
+}
