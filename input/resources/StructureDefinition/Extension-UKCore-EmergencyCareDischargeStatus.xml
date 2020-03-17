@@ -1,0 +1,62 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+   <id value="Extension-UKCore-EmergencyCareDischargeStatus"></id>
+   <url value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EmergencyCareDischargeStatus"></url>
+   <version value="1.0.0"></version>
+   <name value="ExtensionUKCoreEmergencyCareDischargeStatus"></name>
+   <title value="Extension UK Core Emergency Care Discharge Status"></title>
+   <status value="draft"></status>
+   <date value="2019-11-27"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="An extension to support the status of an individual on discharge from an Emergency Care Department."></description>
+   <purpose value="This extension has been developed to demonstrate the representation of the status of a patient on discharge from an Emergency Care Department."></purpose>
+   <copyright value="Copyright © 2019 NHS Digital"></copyright>
+   <fhirVersion value="4.0.0"></fhirVersion>
+   <mapping>
+      <identity value="rim"></identity>
+      <uri value="http://hl7.org/v3"></uri>
+      <name value="RIM Mapping"></name>
+   </mapping>
+   <kind value="complex-type"></kind>
+   <abstract value="false"></abstract>
+   <context>
+      <type value="element"></type>
+      <expression value="Encounter"></expression>
+   </context>
+   <type value="Extension"></type>
+   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"></baseDefinition>
+   <derivation value="constraint"></derivation>
+   <differential>
+      <element id="Extension">
+         <path value="Extension"></path>
+         <short value="An extension used indicate the status of a patient on discharge from an Emergency Care Department"></short>
+         <definition value="An extension used indicate the status of a patient on discharge from an Emergency Care Department"></definition>
+         <max value="1"></max>
+      </element>
+      <element id="Extension.url">
+         <path value="Extension.url"></path>
+         <fixedUri value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EmergencyCareDischargeStatus"></fixedUri>
+      </element>
+      <element id="Extension.value[x]">
+         <path value="Extension.value[x]"></path>
+         <short value="The status of a patient on discharge from an Emergency Care Department"></short>
+         <definition value="The status of a patient on discharge from an Emergency Care Department."></definition>
+         <min value="1"></min>
+         <type>
+            <code value="CodeableConcept"></code>
+         </type>
+         <binding>
+            <strength value="extensible"></strength>
+            <description value="The status of a patient on discharge from an Emergency Care Department"></description>
+            <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-EmergencyCareDischargeStatus"></valueSet>
+         </binding>
+      </element>
+   </differential>
+</StructureDefinition>

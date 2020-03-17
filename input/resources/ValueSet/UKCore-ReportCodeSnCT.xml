@@ -1,0 +1,30 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="UKCore-ReportCodeSnCT"></id>
+   <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ReportCodeSnCT"></url>
+   <version value="1.0.0"></version>
+   <name value="UKCoreReportCodeSnCT"></name>
+   <title value="UK Core Report Code SnCT"></title>
+   <status value="draft"></status>
+   <date value="2020-02-05T00:00:00+00:00"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="A code from the SNOMED Clinical Terminology UK coding system that describes a diagnostic report."></description>
+   <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."></copyright>
+   <compose>
+      <include>
+         <system value="http://snomed.info/sct"></system>
+         <filter>
+            <property value="constraint"></property>
+            <op value="="></op>
+            <value value="(&lt;&lt;371525003 | Clinical procedure report|)"></value>
+         </filter>
+      </include>
+   </compose>
+</ValueSet>

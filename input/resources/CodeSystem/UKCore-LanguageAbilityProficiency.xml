@@ -1,0 +1,38 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="UKCore-LanguageAbilityProficiency"></id>
+   <url value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityProficiency"></url>
+   <version value="1.0.0"></version>
+   <name value="UKCoreLanguageAbilityProficiency"></name>
+   <title value="UK Core Language Ability Proficiency"></title>
+   <status value="draft"></status>
+   <date value="2019-10-30T00:00:00+00:00"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="A CodeSystem to identify the level of proficiency in communicating a language."></description>
+   <copyright value="Copyright © 2019 NHS Digital"></copyright>
+   <caseSensitive value="true"></caseSensitive>
+   <content value="complete"></content>
+   <concept>
+      <code value="E"></code>
+      <display value="Excellent"></display>
+   </concept>
+   <concept>
+      <code value="F"></code>
+      <display value="Fair"></display>
+   </concept>
+   <concept>
+      <code value="G"></code>
+      <display value="Good"></display>
+   </concept>
+   <concept>
+      <code value="P"></code>
+      <display value="Poor"></display>
+   </concept>
+</CodeSystem>

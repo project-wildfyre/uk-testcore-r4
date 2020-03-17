@@ -1,0 +1,30 @@
+<Practitioner xmlns="http://hl7.org/fhir">
+   <id value="UKCore-Practitioner-Example"></id>
+   <meta>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"></profile>
+   </meta>
+   <identifier>
+      <system value="https://fhir.nhs.uk/Id/sds-user-id"></system>
+      <value value="G12345678"></value>
+   </identifier>
+   <name>
+      <family value="Rastall"></family>
+      <given value="Paul"></given>
+      <prefix value="Dr"></prefix>
+   </name>
+   <telecom>
+      <system value="phone"></system>
+      <value value="0113 6323200"></value>
+      <use value="work"></use>
+   </telecom>
+   <address>
+      <use value="work"></use>
+      <type value="both"></type>
+      <line value="Chapel Main Practice"></line>
+      <line value="22 Brightside Crescent"></line>
+      <city value="Overtown"></city>
+      <district value="West Yorkshire"></district>
+      <postalCode value="LS10 4YU"></postalCode>
+   </address>
+   <gender value="male"></gender>
+</Practitioner>

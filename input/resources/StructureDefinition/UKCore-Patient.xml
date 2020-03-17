@@ -1,0 +1,173 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+   <id value="UKCore-Patient"></id>
+   <url value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient"></url>
+   <version value="1.0.0"></version>
+   <name value="UKCorePatient"></name>
+   <title value="UK Core Patient"></title>
+   <status value="draft"></status>
+   <date value="2019-10-18"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="Defines the UK Core constraints and extensions on the Patient resource for the minimal set of data to query and retrieve an individual’s demographic information."></description>
+   <purpose value="This profile allows exchange of demographics and other administrative information about an individual receiving care or other health-related services."></purpose>
+   <copyright value="Copyright © 2019 NHS Digital"></copyright>
+   <fhirVersion value="4.0.0"></fhirVersion>
+   <mapping>
+      <identity value="rim"></identity>
+      <uri value="http://hl7.org/v3"></uri>
+      <name value="RIM Mapping"></name>
+   </mapping>
+   <mapping>
+      <identity value="cda"></identity>
+      <uri value="http://hl7.org/v3/cda"></uri>
+      <name value="CDA (R2)"></name>
+   </mapping>
+   <mapping>
+      <identity value="w5"></identity>
+      <uri value="http://hl7.org/fhir/fivews"></uri>
+      <name value="FiveWs Pattern Mapping"></name>
+   </mapping>
+   <mapping>
+      <identity value="v2"></identity>
+      <uri value="http://hl7.org/v2"></uri>
+      <name value="HL7 v2 Mapping"></name>
+   </mapping>
+   <mapping>
+      <identity value="loinc"></identity>
+      <uri value="http://loinc.org"></uri>
+      <name value="LOINC code for the element"></name>
+   </mapping>
+   <kind value="resource"></kind>
+   <abstract value="false"></abstract>
+   <type value="Patient"></type>
+   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Patient"></baseDefinition>
+   <derivation value="constraint"></derivation>
+   <differential>
+      <element id="Patient.identifier">
+         <path value="Patient.identifier"></path>
+         <slicing>
+            <discriminator>
+               <type value="value"></type>
+               <path value="system"></path>
+            </discriminator>
+            <ordered value="false"></ordered>
+            <rules value="open"></rules>
+         </slicing>
+      </element>
+      <element id="Patient.identifier:nhsNumber">
+         <path value="Patient.identifier"></path>
+         <sliceName value="nhsNumber"></sliceName>
+         <short value="The patient's NHS number"></short>
+         <max value="1"></max>
+      </element>
+      <element id="Patient.identifier:nhsNumber.extension">
+         <path value="Patient.identifier.extension"></path>
+         <slicing>
+            <discriminator>
+               <type value="value"></type>
+               <path value="url"></path>
+            </discriminator>
+            <rules value="open"></rules>
+         </slicing>
+      </element>
+      <element id="Patient.identifier:nhsNumber.extension:nhsNumberVerificationStatus">
+         <path value="Patient.identifier.extension"></path>
+         <sliceName value="nhsNumberVerificationStatus"></sliceName>
+         <min value="1"></min>
+         <max value="1"></max>
+         <type>
+            <code value="Extension"></code>
+            <profile value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus"></profile>
+         </type>
+      </element>
+      <element id="Patient.identifier:nhsNumber.system">
+         <path value="Patient.identifier.system"></path>
+         <min value="1"></min>
+         <fixedUri value="https://fhir.nhs.uk/Id/nhs-number"></fixedUri>
+      </element>
+      <element id="Patient.identifier:nhsNumber.value">
+         <path value="Patient.identifier.value"></path>
+         <min value="1"></min>
+      </element>
+      <element id="Patient.identifier:nhsNumber.assigner">
+         <path value="Patient.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Patient.address">
+         <path value="Patient.address"></path>
+         <definition value="An address for the individual"></definition>
+      </element>
+      <element id="Patient.contact.organization">
+         <path value="Patient.contact.organization"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Patient.contact.organization.identifier.assigner">
+         <path value="Patient.contact.organization.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Patient.generalPractitioner">
+         <path value="Patient.generalPractitioner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole"></targetProfile>
+         </type>
+      </element>
+      <element id="Patient.generalPractitioner.identifier.assigner">
+         <path value="Patient.generalPractitioner.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Patient.managingOrganization">
+         <path value="Patient.managingOrganization"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Patient.managingOrganization.identifier.assigner">
+         <path value="Patient.managingOrganization.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Patient.link.other">
+         <path value="Patient.link.other"></path>
+         <type>
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy">
+               <valueBoolean value="false"></valueBoolean>
+            </extension>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson"></targetProfile>
+         </type>
+      </element>
+      <element id="Patient.link.other.identifier.assigner">
+         <path value="Patient.link.other.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+   </differential>
+</StructureDefinition>

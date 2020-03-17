@@ -1,0 +1,18 @@
+<Observation xmlns="http://hl7.org/fhir">
+   <id value="UKCore-Observation-Example"></id>
+   <meta>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"></profile>
+   </meta>
+   <status value="final"></status>
+   <code>
+      <coding>
+         <system value="http://snomed.info/sct"></system>
+         <code value="162564003"></code>
+         <display value="Awareness of diagnosis"></display>
+      </coding>
+   </code>
+   <subject>
+      <reference value="Patient/UKCore-Patient-Example"></reference>
+   </subject>
+   <effectiveInstant value="2019-12-10T13:00:00+00:00"></effectiveInstant>
+</Observation>

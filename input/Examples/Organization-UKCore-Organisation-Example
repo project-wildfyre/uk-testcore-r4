@@ -1,0 +1,28 @@
+<Organization xmlns="http://hl7.org/fhir">
+   <id value="UKCore-Organisation-Example"></id>
+   <meta>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></profile>
+   </meta>
+   <extension url="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MainLocation">
+      <valueReference>
+         <reference value="Location/UKCore-Location-Example"></reference>
+      </valueReference>
+   </extension>
+   <identifier>
+      <use value="official"></use>
+      <system value="https://fhir.nhs.uk/Id/ods-organization-code"></system>
+      <value value="RR8"></value>
+   </identifier>
+   <name value="LEEDS TEACHING HOSPITALS NHS TRUST"></name>
+   <telecom>
+      <system value="phone"></system>
+      <value value="0113 243 3144"></value>
+   </telecom>
+   <address>
+      <line value="ST. JAMES'S UNIVERSITY HOSPITAL"></line>
+      <line value="BECKETT STREET"></line>
+      <city value="LEEDS"></city>
+      <postalCode value="LS9 7TF"></postalCode>
+      <country value="ENGLAND"></country>
+   </address>
+</Organization>

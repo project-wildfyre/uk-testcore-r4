@@ -1,0 +1,45 @@
+<Medication xmlns="http://hl7.org/fhir">
+   <id value="UKCore-Medication-Example"></id>
+   <meta>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Medication"></profile>
+   </meta>
+   <code>
+      <coding>
+         <system value="http://hl7.org/fhir/sid/ndc"></system>
+         <code value="2501-813-16"></code>
+         <display value="Timoptic 5mg/ml solution"></display>
+      </coding>
+   </code>
+   <form>
+      <coding>
+         <system value="http://snomed.info/sct"></system>
+         <code value="75359005"></code>
+         <display value="Opthalmic Solution (qualifier value)"></display>
+      </coding>
+   </form>
+   <ingredient>
+      <itemCodeableConcept>
+         <coding>
+            <system value="http://snomed.info/sct"></system>
+            <code value="75359005"></code>
+            <display value="Timolol Maleate (substance)"></display>
+         </coding>
+      </itemCodeableConcept>
+      <strength>
+         <numerator>
+            <value value="5"></value>
+            <system value="http://unitsofmeasure.org"></system>
+            <code value="mg"></code>
+         </numerator>
+         <denominator>
+            <value value="1"></value>
+            <system value="http://unitsofmeasure.org"></system>
+            <code value="mL"></code>
+         </denominator>
+      </strength>
+   </ingredient>
+   <batch>
+      <lotNumber value="9494788"></lotNumber>
+      <expirationDate value="2020-05-22"></expirationDate>
+   </batch>
+</Medication>

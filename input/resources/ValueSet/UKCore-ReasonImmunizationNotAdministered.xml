@@ -1,0 +1,45 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="UKCore-ReasonImmunizationNotAdministered"></id>
+   <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ReasonImmunizationNotAdministered"></url>
+   <version value="1.0.0"></version>
+   <name value="UKCoreReasonImmunizationNotAdministered"></name>
+   <title value="UK Core Reason Immunization Not Administered"></title>
+   <status value="draft"></status>
+   <date value="2020-01-16T00:00:00+00:00"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="A ValueSet to identify the reason why an immunization was not administered."></description>
+   <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."></copyright>
+   <compose>
+      <include>
+         <system value="http://snomed.info/sct"></system>
+         <concept>
+            <code value="201741000000102"></code>
+            <display value="Did not attend child immunisation (finding)"></display>
+         </concept>
+         <concept>
+            <code value="281399006"></code>
+            <display value="Did not attend (finding)"></display>
+         </concept>
+         <concept>
+            <code value="213257006"></code>
+            <display value="Generally unwell (finding)"></display>
+         </concept>
+         <concept>
+            <code value="266758009"></code>
+            <display value="Immunization contraindicated (situation)"></display>
+         </concept>
+         <concept>
+            <code value="310376006"></code>
+            <display value="Immunization consent not given (finding)"></display>
+         </concept>
+      </include>
+   </compose>
+</ValueSet>

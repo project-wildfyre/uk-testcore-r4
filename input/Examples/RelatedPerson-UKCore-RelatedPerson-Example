@@ -1,0 +1,21 @@
+<RelatedPerson xmlns="http://hl7.org/fhir">
+   <id value="UKCore-RelatedPerson-Example"></id>
+   <meta>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson"></profile>
+   </meta>
+   <patient>
+      <reference value="Patient/UKCore-Patient-Example"></reference>
+   </patient>
+   <relationship>
+      <coding>
+         <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"></system>
+         <code value="WIFE"></code>
+         <display value="wife"></display>
+      </coding>
+   </relationship>
+   <name>
+      <use value="official"></use>
+      <family value="SMITH"></family>
+      <given value="Joy"></given>
+   </name>
+</RelatedPerson>

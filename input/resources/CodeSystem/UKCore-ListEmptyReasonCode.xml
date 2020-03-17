@@ -1,0 +1,26 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="UKCore-ListEmptyReasonCode"></id>
+   <url value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListEmptyReasonCode"></url>
+   <version value="1.0.0"></version>
+   <name value="UKCoreListEmptyReasonCode"></name>
+   <title value="UK Core List Empty Reason Code"></title>
+   <status value="draft"></status>
+   <date value="2019-11-04T00:00:00+00:00"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="A CodeSystem to identify the reason a list may be empty."></description>
+   <copyright value="Copyright © 2019 NHS Digital"></copyright>
+   <caseSensitive value="true"></caseSensitive>
+   <content value="complete"></content>
+   <concept>
+      <code value="no-content-recorded"></code>
+      <display value="No Content Recorded"></display>
+   </concept>
+</CodeSystem>

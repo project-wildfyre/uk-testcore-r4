@@ -1,0 +1,46 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="UKCore-LanguageAbilityMode"></id>
+   <url value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-LanguageAbilityMode"></url>
+   <version value="1.0.0"></version>
+   <name value="UKCoreLanguageAbilityMode"></name>
+   <title value="UK Core Language Ability Mode"></title>
+   <status value="draft"></status>
+   <date value="2019-10-25T00:00:00+00:00"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="A CodeSystem that identifies the mode the patient can communicate in, representing the method of expression of the language."></description>
+   <copyright value="Copyright © 2019 NHS Digital"></copyright>
+   <caseSensitive value="true"></caseSensitive>
+   <content value="complete"></content>
+   <concept>
+      <code value="ESGN"></code>
+      <display value="Expressed signed"></display>
+   </concept>
+   <concept>
+      <code value="ESP"></code>
+      <display value="Expressed spoken"></display>
+   </concept>
+   <concept>
+      <code value="EWR"></code>
+      <display value="Expressed written"></display>
+   </concept>
+   <concept>
+      <code value="RSGN"></code>
+      <display value="Received signed"></display>
+   </concept>
+   <concept>
+      <code value="RSP"></code>
+      <display value="Received spoken"></display>
+   </concept>
+   <concept>
+      <code value="RWR"></code>
+      <display value="Received written"></display>
+   </concept>
+</CodeSystem>

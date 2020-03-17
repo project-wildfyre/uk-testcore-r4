@@ -1,0 +1,66 @@
+<Encounter xmlns="http://hl7.org/fhir">
+   <id value="UKCore-Encounter-Example"></id>
+   <meta>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Encounter"></profile>
+   </meta>
+   <identifier>
+      <system value="https://tools.ietf.org/html/rfc4122"></system>
+      <value value="6f40cebe-7b55-461d-9d7f-eadb4c065762"></value>
+   </identifier>
+   <status value="finished"></status>
+   <class>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"></system>
+      <code value="IMP"></code>
+      <display value="inpatient encounter"></display>
+   </class>
+   <type>
+      <coding>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185212007"></code>
+         <display value="Seen in hospital ward (finding)"></display>
+      </coding>
+   </type>
+   <subject>
+      <reference value="Patient/UKCore-Patient-Example"></reference>
+   </subject>
+   <participant>
+      <type>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"></system>
+            <code value="ATND"></code>
+            <display value="attender"></display>
+         </coding>
+      </type>
+      <individual>
+         <reference value="Practitioner/UKCore-Practitioner-Example"></reference>
+      </individual>
+   </participant>
+   <period>
+      <start value="2019-12-10T13:00:00+00:00"></start>
+      <end value="2019-12-11T13:00:00+00:00"></end>
+   </period>
+   <reasonCode>
+      <coding>
+         <system value="http://snomed.info/sct"></system>
+         <code value="7922000"></code>
+         <display value="General treatment (procedure)"></display>
+      </coding>
+   </reasonCode>
+   <hospitalization>
+      <dischargeDisposition>
+         <coding>
+            <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-DischargeDestination"></system>
+            <code value="19"></code>
+            <display value="Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode."></display>
+         </coding>
+      </dischargeDisposition>
+   </hospitalization>
+   <location>
+      <location>
+         <reference value="Location/UKCore-Location-Example"></reference>
+      </location>
+   </location>
+   <serviceProvider>
+      <reference value="Organization/UKCore-Organisation-Example"></reference>
+   </serviceProvider>
+</Encounter>

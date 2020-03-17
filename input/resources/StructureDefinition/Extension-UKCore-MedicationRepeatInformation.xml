@@ -1,0 +1,118 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+   <id value="Extension-UKCore-MedicationRepeatInformation"></id>
+   <url value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MedicationRepeatInformation"></url>
+   <version value="1.0.0"></version>
+   <name value="ExtensionUKCoreMedicationRepeatInformation"></name>
+   <title value="Extension UK Core Medication Repeat Information"></title>
+   <status value="draft"></status>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="Indicates the specific repeat information of a medication item."></description>
+   <copyright value="Copyright © 2020 NHS Digital"></copyright>
+   <fhirVersion value="4.0.0"></fhirVersion>
+   <mapping>
+      <identity value="rim"></identity>
+      <uri value="http://hl7.org/v3"></uri>
+      <name value="RIM Mapping"></name>
+   </mapping>
+   <kind value="complex-type"></kind>
+   <abstract value="false"></abstract>
+   <context>
+      <type value="element"></type>
+      <expression value="MedicationRequest"></expression>
+   </context>
+   <type value="Extension"></type>
+   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"></baseDefinition>
+   <derivation value="constraint"></derivation>
+   <differential>
+      <element id="Extension">
+         <path value="Extension"></path>
+         <short value="Medication repeat information"></short>
+         <definition value="Medication repeat information."></definition>
+         <max value="1"></max>
+      </element>
+      <element id="Extension.extension">
+         <path value="Extension.extension"></path>
+         <slicing>
+            <discriminator>
+               <type value="value"></type>
+               <path value="url"></path>
+            </discriminator>
+            <rules value="open"></rules>
+         </slicing>
+      </element>
+      <element id="Extension.extension:numberOfRepeatPrescriptionsAllowed">
+         <path value="Extension.extension"></path>
+         <sliceName value="numberOfRepeatPrescriptionsAllowed"></sliceName>
+         <short value="Number of repeat prescriptions authorised"></short>
+         <definition value="Number of repeat prescriptions authorised."></definition>
+         <max value="1"></max>
+      </element>
+      <element id="Extension.extension:numberOfRepeatPrescriptionsAllowed.url">
+         <path value="Extension.extension.url"></path>
+         <fixedUri value="numberOfRepeatPrescriptionsAllowed"></fixedUri>
+      </element>
+      <element id="Extension.extension:numberOfRepeatPrescriptionsAllowed.value[x]">
+         <path value="Extension.extension.value[x]"></path>
+         <short value="Number of repeat prescriptions authorised"></short>
+         <definition value="Number of repeat prescriptions authorised."></definition>
+         <min value="1"></min>
+         <type>
+            <code value="unsignedInt"></code>
+         </type>
+      </element>
+      <element id="Extension.extension:numberOfRepeatPrescriptionsIssued">
+         <path value="Extension.extension"></path>
+         <sliceName value="numberOfRepeatPrescriptionsIssued"></sliceName>
+         <short value="Number of repeat prescriptions issued"></short>
+         <definition value="Number of repeat prescriptions issued."></definition>
+         <max value="1"></max>
+      </element>
+      <element id="Extension.extension:numberOfRepeatPrescriptionsIssued.url">
+         <path value="Extension.extension.url"></path>
+         <fixedUri value="numberOfRepeatPrescriptionsIssued"></fixedUri>
+      </element>
+      <element id="Extension.extension:numberOfRepeatPrescriptionsIssued.value[x]">
+         <path value="Extension.extension.value[x]"></path>
+         <short value="Number of repeat prescriptions issued"></short>
+         <definition value="Number of repeat prescriptions issued."></definition>
+         <type>
+            <code value="unsignedInt"></code>
+         </type>
+      </element>
+      <element id="Extension.extension:authorisationExpiryDate">
+         <path value="Extension.extension"></path>
+         <sliceName value="authorisationExpiryDate"></sliceName>
+         <short value="Repeat prescription review date"></short>
+         <definition value="Repeat prescription review date."></definition>
+         <max value="1"></max>
+      </element>
+      <element id="Extension.extension:authorisationExpiryDate.url">
+         <path value="Extension.extension.url"></path>
+         <fixedUri value="authorisationExpiryDate"></fixedUri>
+      </element>
+      <element id="Extension.extension:authorisationExpiryDate.value[x]">
+         <path value="Extension.extension.value[x]"></path>
+         <short value="Repeat prescription review date"></short>
+         <definition value="Repeat prescription review date."></definition>
+         <type>
+            <code value="dateTime"></code>
+         </type>
+      </element>
+      <element id="Extension.url">
+         <path value="Extension.url"></path>
+         <fixedUri value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MedicationRepeatInformation"></fixedUri>
+      </element>
+      <element id="Extension.value[x]">
+         <path value="Extension.value[x]"></path>
+         <max value="0"></max>
+      </element>
+   </differential>
+</StructureDefinition>

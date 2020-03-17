@@ -1,0 +1,58 @@
+<MedicationDispense xmlns="http://hl7.org/fhir">
+   <id value="UKCore-MedicationDispense-Example"></id>
+   <meta>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationDispense"></profile>
+   </meta>
+   <identifier>
+      <system value="https://tools.ietf.org/html/rfc4122"></system>
+      <value value="5c92c1dc-06a9-4729-b8c9-222cf769f8dc"></value>
+   </identifier>
+   <status value="in-progress"></status>
+   <medicationReference>
+      <reference value="Medication/UKCore-Medication-Example"></reference>
+   </medicationReference>
+   <subject>
+      <reference value="Patient/UKCore-Patient-Example"></reference>
+   </subject>
+   <performer>
+      <actor>
+         <reference value="Practitioner/UKCore-Practitioner-Example"></reference>
+      </actor>
+   </performer>
+   <authorizingPrescription>
+      <reference value="MedicationRequest/UKCore-MedicationRequest-Example"></reference>
+   </authorizingPrescription>
+   <quantity>
+      <value value="30"></value>
+      <unit value="ml"></unit>
+      <system value="http://unitsofmeasure.org"></system>
+      <code value="ml"></code>
+   </quantity>
+   <daysSupply>
+      <value value="30"></value>
+      <unit value="Day"></unit>
+      <system value="http://unitsofmeasure.org"></system>
+      <code value="d"></code>
+   </daysSupply>
+   <whenPrepared value="2020-01-15T15:00:00+00:00"></whenPrepared>
+   <receiver>
+      <reference value="Patient/UKCore-Patient-Example"></reference>
+   </receiver>
+   <dosageInstruction>
+      <text value="1 drop in each affected eye twice daily, approximately 12 hours apart."></text>
+      <timing>
+         <repeat>
+            <frequency value="1"></frequency>
+            <period value="12"></period>
+            <periodUnit value="h"></periodUnit>
+         </repeat>
+      </timing>
+      <route>
+         <coding>
+            <system value="http://snomed.info/sct"></system>
+            <code value="54485002"></code>
+            <display value="Ophthalmic"></display>
+         </coding>
+      </route>
+   </dosageInstruction>
+</MedicationDispense>

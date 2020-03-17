@@ -1,0 +1,30 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="UKCore-EmergencyCareDischargeStatus"></id>
+   <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-EmergencyCareDischargeStatus"></url>
+   <version value="1.0.0"></version>
+   <name value="UKCoreEmergencyCareDischargeStatus"></name>
+   <title value="UK Core Emergency Care Discharge Status"></title>
+   <status value="draft"></status>
+   <date value="2019-11-05T00:00:00+00:00"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the status of the Patient on discharge from an Emergency Care Department. Captures whether treatment took place within the ED, if the patient was streamed to another service or if the patient left before treatment was complete. Any code from the SNOMED CT UK 'Emergency care discharge status' subset with subset original id 75041000000135; the corresponding SNOMED CT UK Refset fully specified name is 'Emergency care discharge status simple reference set (foundation metadata concept)' with Refset Id 999003021000000104."></description>
+   <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."></copyright>
+   <compose>
+      <include>
+         <system value="http://snomed.info/sct"></system>
+         <filter>
+            <property value="concept"></property>
+            <op value="in"></op>
+            <value value="^999003021000000104"></value>
+         </filter>
+      </include>
+   </compose>
+</ValueSet>

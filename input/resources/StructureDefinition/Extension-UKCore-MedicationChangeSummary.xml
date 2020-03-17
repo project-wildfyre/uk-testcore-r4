@@ -1,0 +1,118 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+   <id value="Extension-UKCore-MedicationChangeSummary"></id>
+   <url value="http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationChangeSummary"></url>
+   <version value="1.0.0"></version>
+   <name value="ExtensionUKCoreMedicationChangeSummary"></name>
+   <title value="Extension UKCore MedicationChangeSummary"></title>
+   <status value="draft"></status>
+   <date value="2020-02-11"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <copyright value="Copyright © 2020 NHS Digital"></copyright>
+   <fhirVersion value="4.0.0"></fhirVersion>
+   <mapping>
+      <identity value="rim"></identity>
+      <uri value="http://hl7.org/v3"></uri>
+      <name value="RIM Mapping"></name>
+   </mapping>
+   <kind value="complex-type"></kind>
+   <abstract value="false"></abstract>
+   <context>
+      <type value="element"></type>
+      <expression value="MedicationStatement"></expression>
+   </context>
+   <type value="Extension"></type>
+   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"></baseDefinition>
+   <derivation value="constraint"></derivation>
+   <differential>
+      <element id="Extension">
+         <path value="Extension"></path>
+         <max value="1"></max>
+      </element>
+      <element id="Extension.extension">
+         <path value="Extension.extension"></path>
+         <slicing>
+            <discriminator>
+               <type value="value"></type>
+               <path value="url"></path>
+            </discriminator>
+            <rules value="open"></rules>
+         </slicing>
+      </element>
+      <element id="Extension.extension:status">
+         <path value="Extension.extension"></path>
+         <sliceName value="status"></sliceName>
+         <max value="1"></max>
+      </element>
+      <element id="Extension.extension:status.url">
+         <path value="Extension.extension.url"></path>
+         <fixedUri value="status"></fixedUri>
+      </element>
+      <element id="Extension.extension:status.value[x]">
+         <path value="Extension.extension.value[x]"></path>
+         <type>
+            <code value="code"></code>
+         </type>
+      </element>
+      <element id="Extension.extension:inidicationForChange">
+         <path value="Extension.extension"></path>
+         <sliceName value="inidicationForChange"></sliceName>
+         <max value="1"></max>
+      </element>
+      <element id="Extension.extension:inidicationForChange.url">
+         <path value="Extension.extension.url"></path>
+         <fixedUri value="inidicationForChange"></fixedUri>
+      </element>
+      <element id="Extension.extension:inidicationForChange.value[x]">
+         <path value="Extension.extension.value[x]"></path>
+         <type>
+            <code value="CodeableConcept"></code>
+         </type>
+      </element>
+      <element id="Extension.extension:dateChanged">
+         <path value="Extension.extension"></path>
+         <sliceName value="dateChanged"></sliceName>
+         <max value="1"></max>
+      </element>
+      <element id="Extension.extension:dateChanged.url">
+         <path value="Extension.extension.url"></path>
+         <fixedUri value="dateChanged"></fixedUri>
+      </element>
+      <element id="Extension.extension:dateChanged.value[x]">
+         <path value="Extension.extension.value[x]"></path>
+         <type>
+            <code value="dateTime"></code>
+         </type>
+      </element>
+      <element id="Extension.extension:detailsOfAmendment">
+         <path value="Extension.extension"></path>
+         <sliceName value="detailsOfAmendment"></sliceName>
+         <max value="1"></max>
+      </element>
+      <element id="Extension.extension:detailsOfAmendment.url">
+         <path value="Extension.extension.url"></path>
+         <fixedUri value="detailsOfAmendment"></fixedUri>
+      </element>
+      <element id="Extension.extension:detailsOfAmendment.value[x]">
+         <path value="Extension.extension.value[x]"></path>
+         <type>
+            <code value="string"></code>
+         </type>
+      </element>
+      <element id="Extension.url">
+         <path value="Extension.url"></path>
+         <fixedUri value="http://example.org/fhir/StructureDefinition/Extension-UKCore-MedicationChangeSummary"></fixedUri>
+      </element>
+      <element id="Extension.value[x]">
+         <path value="Extension.value[x]"></path>
+         <max value="0"></max>
+      </element>
+   </differential>
+</StructureDefinition>

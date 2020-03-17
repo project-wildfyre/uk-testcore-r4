@@ -1,0 +1,25 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="UKCore-PreferredContactMethod"></id>
+   <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-PreferredContactMethod"></url>
+   <version value="1.0.0"></version>
+   <name value="UKCorePreferredContactMethod"></name>
+   <title value="UK Core Preferred Contact Method"></title>
+   <status value="draft"></status>
+   <date value="2019-12-06T00:00:00+00:00"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="A ValueSet to identify the preferred Contact Method of a Patient, contact or RelatedPerson."></description>
+   <copyright value="Copyright © 2019 NHS Digital"></copyright>
+   <compose>
+      <include>
+         <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-PreferredContactMethod"></system>
+      </include>
+   </compose>
+</ValueSet>

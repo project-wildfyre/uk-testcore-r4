@@ -1,0 +1,25 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="UKCore-PreferredWrittenCommunicationFormat"></id>
+   <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-PreferredWrittenCommunicationFormat"></url>
+   <version value="1.0.0"></version>
+   <name value="UKCorePreferredWrittenCommunicationFormat"></name>
+   <title value="UK Core Preferred Written Communication Format"></title>
+   <status value="draft"></status>
+   <date value="2019-12-06T00:00:00+00:00"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="A ValueSet to identify the preferred written communication format of a Patient, contact or RelatedPerson."></description>
+   <copyright value="Copyright © 2019 NHS Digital"></copyright>
+   <compose>
+      <include>
+         <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-PreferredWrittenCommunicationFormat"></system>
+      </include>
+   </compose>
+</ValueSet>

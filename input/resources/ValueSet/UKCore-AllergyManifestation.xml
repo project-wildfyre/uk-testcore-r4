@@ -1,0 +1,48 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="UKCore-AllergyManifestation"></id>
+   <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-AllergyManifestation"></url>
+   <version value="1.0.0"></version>
+   <name value="UKCoreAllergyManifestation"></name>
+   <title value="UK Core Allergy Manifestation"></title>
+   <status value="draft"></status>
+   <date value="2019-11-05T00:00:00+00:00"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="A code from the SNOMED Clinical Terminology UK hierarchy with concept id '404684003' to record an allergy manifestation or a value from the HL7 FHIR nullFlavors code system."></description>
+   <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."></copyright>
+   <compose>
+      <include>
+         <system value="http://snomed.info/sct"></system>
+         <filter>
+            <property value="concept"></property>
+            <op value="in"></op>
+            <value value="&lt;&lt;404684003"></value>
+         </filter>
+      </include>
+      <include>
+         <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"></system>
+         <filter>
+            <property value="concept"></property>
+            <op value="="></op>
+            <value value="UNC"></value>
+         </filter>
+         <filter>
+            <property value="concept"></property>
+            <op value="="></op>
+            <value value="ASKU"></value>
+         </filter>
+         <filter>
+            <property value="concept"></property>
+            <op value="="></op>
+            <value value="NI"></value>
+         </filter>
+      </include>
+   </compose>
+</ValueSet>

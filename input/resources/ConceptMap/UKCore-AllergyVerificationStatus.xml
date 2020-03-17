@@ -1,0 +1,62 @@
+<ConceptMap xmlns="http://hl7.org/fhir">
+   <id value="UKCore-AllergyVerificationStatus"></id>
+   <url value="https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AllergyVerificationStatus"></url>
+   <version value="1.0.0"></version>
+   <name value="ConceptMapUKCoreAllergyVerificationStatus"></name>
+   <title value="Concept Map - UK Core Allergy Verification Status"></title>
+   <status value="draft"></status>
+   <date value="2019-11-05T00:00:00+00:00"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="A Concept Map from the HL7 FHIR ValueSet Allergy Verification Status to Allergy Certainity to aid interpretation."></description>
+   <copyright value="Copyright © 2016 HL7 UK"></copyright>
+   <sourceUri value="http://hl7.org/fhir/ValueSet/allergyintolerance-verification"></sourceUri>
+   <targetUri value="https://fhir.nhs.uk/R4/ValueSet/UKCore-AllergyCertainty"></targetUri>
+   <group>
+      <source value="http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"></source>
+      <target value="http://snomed.info/sct"></target>
+      <element>
+         <code value="unconfirmed"></code>
+         <display value="Unconfirmed"></display>
+         <target>
+            <code value="385434005"></code>
+            <display value="Improbable diagnosis"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+      <element>
+         <code value="unconfirmed"></code>
+         <display value="Unconfirmed"></display>
+         <target>
+            <code value="2931005"></code>
+            <display value="Probable diagnosis"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+      <element>
+         <code value="confirmed"></code>
+         <display value="Confirmed"></display>
+         <target>
+            <code value="255545003"></code>
+            <display value="Definite"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+      <element>
+         <code value="confirmed"></code>
+         <display value="Confirmed"></display>
+         <target>
+            <code value="410605003"></code>
+            <display value="Confirmed present"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+   </group>
+</ConceptMap>

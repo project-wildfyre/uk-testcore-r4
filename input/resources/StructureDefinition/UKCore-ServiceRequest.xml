@@ -1,0 +1,238 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+   <id value="UKCore-ServiceRequest"></id>
+   <meta>
+      <lastUpdated value="2020-02-11T11:36:48.088+00:00"></lastUpdated>
+   </meta>
+   <url value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-ServiceRequest"></url>
+   <version value="1.0.0"></version>
+   <name value="UKCoreServiceRequest"></name>
+   <title value="UK Core ServiceRequest"></title>
+   <status value="draft"></status>
+   <date value="2020-02-11T11:36:47.7739936+00:00"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="Defines the UK Core constraints and extensions on the ServiceRequest resource for the minimal set of data to query and retrieve service request information."></description>
+   <purpose value="Defines the UK Core constraints and extensions on the ServiceRequest resource for the minimal set of data to query and retrieve service request information."></purpose>
+   <copyright value="Copyright © 2019 NHS Digital"></copyright>
+   <fhirVersion value="4.0.0"></fhirVersion>
+   <mapping>
+      <identity value="workflow"></identity>
+      <uri value="http://hl7.org/fhir/workflow"></uri>
+      <name value="Workflow Pattern"></name>
+   </mapping>
+   <mapping>
+      <identity value="v2"></identity>
+      <uri value="http://hl7.org/v2"></uri>
+      <name value="HL7 v2 Mapping"></name>
+   </mapping>
+   <mapping>
+      <identity value="rim"></identity>
+      <uri value="http://hl7.org/v3"></uri>
+      <name value="RIM Mapping"></name>
+   </mapping>
+   <mapping>
+      <identity value="w5"></identity>
+      <uri value="http://hl7.org/fhir/fivews"></uri>
+      <name value="FiveWs Pattern Mapping"></name>
+   </mapping>
+   <mapping>
+      <identity value="quick"></identity>
+      <uri value="http://siframework.org/cqf"></uri>
+      <name value="Quality Improvement and Clinical Knowledge (QUICK)"></name>
+   </mapping>
+   <kind value="resource"></kind>
+   <abstract value="false"></abstract>
+   <type value="ServiceRequest"></type>
+   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/ServiceRequest"></baseDefinition>
+   <derivation value="constraint"></derivation>
+   <differential>
+      <element id="ServiceRequest.identifier.assigner">
+         <path value="ServiceRequest.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="ServiceRequest.basedOn">
+         <path value="ServiceRequest.basedOn"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-ServiceRequest"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-CarePlan"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationRequest"></targetProfile>
+         </type>
+      </element>
+      <element id="ServiceRequest.basedOn.identifier.assigner">
+         <path value="ServiceRequest.basedOn.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="ServiceRequest.replaces">
+         <path value="ServiceRequest.replaces"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-ServiceRequest"></targetProfile>
+         </type>
+      </element>
+      <element id="ServiceRequest.replaces.identifier.assigner">
+         <path value="ServiceRequest.replaces.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="ServiceRequest.requisition.assigner">
+         <path value="ServiceRequest.requisition.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="ServiceRequest.subject">
+         <path value="ServiceRequest.subject"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group"></targetProfile>
+            <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient"></targetProfile>
+         </type>
+      </element>
+      <element id="ServiceRequest.subject.identifier.assigner">
+         <path value="ServiceRequest.subject.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="ServiceRequest.encounter">
+         <path value="ServiceRequest.encounter"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Encounter"></targetProfile>
+         </type>
+      </element>
+      <element id="ServiceRequest.encounter.identifier.assigner">
+         <path value="ServiceRequest.encounter.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="ServiceRequest.requester">
+         <path value="ServiceRequest.requester"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson"></targetProfile>
+         </type>
+      </element>
+      <element id="ServiceRequest.requester.identifier.assigner">
+         <path value="ServiceRequest.requester.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="ServiceRequest.performer">
+         <path value="ServiceRequest.performer"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="http://hl7.org/fhir/StructureDefinition/HealthcareService"></targetProfile>
+            <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-CareTeam"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson"></targetProfile>
+         </type>
+      </element>
+      <element id="ServiceRequest.performer.identifier.assigner">
+         <path value="ServiceRequest.performer.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="ServiceRequest.locationReference">
+         <path value="ServiceRequest.locationReference"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location"></targetProfile>
+         </type>
+      </element>
+      <element id="ServiceRequest.locationReference.identifier.assigner">
+         <path value="ServiceRequest.locationReference.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="ServiceRequest.reasonReference">
+         <path value="ServiceRequest.reasonReference"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Condition"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-DiagnosticReport"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-DocumentReference"></targetProfile>
+         </type>
+      </element>
+      <element id="ServiceRequest.reasonReference.identifier.assigner">
+         <path value="ServiceRequest.reasonReference.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="ServiceRequest.insurance.identifier.assigner">
+         <path value="ServiceRequest.insurance.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="ServiceRequest.supportingInfo.identifier.assigner">
+         <path value="ServiceRequest.supportingInfo.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="ServiceRequest.specimen">
+         <path value="ServiceRequest.specimen"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Specimen"></targetProfile>
+         </type>
+      </element>
+      <element id="ServiceRequest.specimen.identifier.assigner">
+         <path value="ServiceRequest.specimen.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="ServiceRequest.relevantHistory.identifier.assigner">
+         <path value="ServiceRequest.relevantHistory.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+   </differential>
+</StructureDefinition>

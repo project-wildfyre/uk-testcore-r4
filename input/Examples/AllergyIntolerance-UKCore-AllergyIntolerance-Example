@@ -1,0 +1,52 @@
+<AllergyIntolerance xmlns="http://hl7.org/fhir">
+   <id value="UKCore-AllergyIntolerance-Example"></id>
+   <meta>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-AllergyIntolerance"></profile>
+   </meta>
+   <clinicalStatus>
+      <coding>
+         <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"></system>
+         <code value="active"></code>
+         <display value="Active"></display>
+      </coding>
+   </clinicalStatus>
+   <verificationStatus>
+      <coding>
+         <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"></system>
+         <code value="confirmed"></code>
+         <display value="Confirmed"></display>
+      </coding>
+   </verificationStatus>
+   <type value="allergy"></type>
+   <category value="medication"></category>
+   <code>
+      <coding>
+         <system value="http://snomed.info/sct"></system>
+         <code value="372687004"></code>
+         <display value="Amoxicillin"></display>
+      </coding>
+   </code>
+   <patient>
+      <reference value="Patient/UKCore-Patient-Example"></reference>
+   </patient>
+   <encounter>
+      <reference value="Encounter/UKCore-Encounter-Example"></reference>
+   </encounter>
+   <recordedDate value="2019-12-10T13:00:00+00:00"></recordedDate>
+   <recorder>
+      <reference value="Practitioner/UKCore-Practitioner-Example"></reference>
+   </recorder>
+   <asserter>
+      <reference value="Practitioner/UKCore-Practitioner-Example"></reference>
+   </asserter>
+   <reaction>
+      <manifestation>
+         <coding>
+            <system value="http://snomed.info/sct"></system>
+            <code value="247472004"></code>
+            <display value="Urticarial rash"></display>
+         </coding>
+      </manifestation>
+      <severity value="mild"></severity>
+   </reaction>
+</AllergyIntolerance>

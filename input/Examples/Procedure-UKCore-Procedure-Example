@@ -1,0 +1,18 @@
+<Procedure xmlns="http://hl7.org/fhir">
+   <id value="UKCore-Procedure-Example"></id>
+   <meta>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Procedure"></profile>
+   </meta>
+   <status value="completed"></status>
+   <code>
+      <coding>
+         <system value="http://snomed.info/sct"></system>
+         <code value="128004"></code>
+         <display value="Hand microscope examination of skin (procedure)"></display>
+      </coding>
+   </code>
+   <subject>
+      <reference value="Patient/UKCore-Patient-Example"></reference>
+   </subject>
+   <performedDateTime value="2019-12-10T13:00:00+00:00"></performedDateTime>
+</Procedure>

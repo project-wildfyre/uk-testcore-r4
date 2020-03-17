@@ -1,0 +1,93 @@
+<ConceptMap xmlns="http://hl7.org/fhir">
+   <id value="UKCore-MaritalStatus"></id>
+   <url value="https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-MaritalStatus"></url>
+   <version value="1.0.0"></version>
+   <name value="ConceptMapUKCoreMaritalStatus"></name>
+   <title value="Concept Map - UK Core Marital Status"></title>
+   <status value="draft"></status>
+   <date value="2019-10-18T12:00:00+00:00"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="A Concept Map from ValueSet Marital Status to NHS Data Dictionary Person Marital Status to aid interpretation."></description>
+   <copyright value="Copyright © 2019 NHS Digital"></copyright>
+   <sourceUri value="http://hl7.org/fhir/ValueSet/marital-status"></sourceUri>
+   <targetUri value="https://fhir.nhs.uk/R4/ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus"></targetUri>
+   <group>
+      <source value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"></source>
+      <target value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus"></target>
+      <element>
+         <code value="U"></code>
+         <display value="unmarried"></display>
+         <target>
+            <code value="S"></code>
+            <display value="Single"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+      <element>
+         <code value="D"></code>
+         <display value="Divorced"></display>
+         <target>
+            <code value="D"></code>
+            <display value="Divorced/Person whose Civil Partnership has been dissolved"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+      <element>
+         <code value="L"></code>
+         <display value="Legally Separated"></display>
+         <target>
+            <code value="P"></code>
+            <display value="Separated"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+      <element>
+         <code value="M"></code>
+         <display value="Married"></display>
+         <target>
+            <code value="M"></code>
+            <display value="Married/Civil Partner"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+      <element>
+         <code value="S"></code>
+         <display value="Never Married"></display>
+         <target>
+            <code value="S"></code>
+            <display value="Single"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+      <element>
+         <code value="W"></code>
+         <display value="Widowed"></display>
+         <target>
+            <code value="W"></code>
+            <display value="Widowed/Surviving Civil Partner"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+   </group>
+   <group>
+      <source value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"></source>
+      <target value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus"></target>
+      <element>
+         <code value="UNK"></code>
+         <display value="unknown"></display>
+         <target>
+            <code value="N"></code>
+            <display value="Not disclosed"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+   </group>
+</ConceptMap>

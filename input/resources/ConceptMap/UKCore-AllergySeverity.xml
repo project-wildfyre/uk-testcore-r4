@@ -1,0 +1,62 @@
+<ConceptMap xmlns="http://hl7.org/fhir">
+   <id value="UKCore-AllergySeverity"></id>
+   <url value="https://fhir.nhs.uk/R4/ConceptMap/ConceptMap-UKCore-AllergySeverity"></url>
+   <version value="1.0.0"></version>
+   <name value="ConceptMapUKCoreAllergySeverity"></name>
+   <title value="Concept Map - UK Core Allergy Severity"></title>
+   <status value="draft"></status>
+   <date value="2019-11-05T00:00:00+00:00"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="A Concept Map from the HL7 FHIR ValueSet Reaction Event Severity to Allergy Severity to aid interpretation."></description>
+   <copyright value="Copyright © 2019 NHS Digital"></copyright>
+   <sourceUri value="http://hl7.org/fhir/ValueSet/reaction-event-severity"></sourceUri>
+   <targetUri value="https://fhir.nhs.uk/R4/ValueSet/UKCore-AllergySeverity"></targetUri>
+   <group>
+      <source value="http://hl7.org/fhir/reaction-event-severity"></source>
+      <target value="http://snomed.info/sct"></target>
+      <element>
+         <code value="mild"></code>
+         <display value="Mild"></display>
+         <target>
+            <code value="255604002"></code>
+            <display value="Mild"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+      <element>
+         <code value="moderate"></code>
+         <display value="Moderate"></display>
+         <target>
+            <code value="6736007"></code>
+            <display value="Moderate"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+      <element>
+         <code value="severe"></code>
+         <display value="Severe"></display>
+         <target>
+            <code value="24484000"></code>
+            <display value="Severe"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+      <element>
+         <code value="severe"></code>
+         <display value="Severe"></display>
+         <target>
+            <code value="442452003"></code>
+            <display value="Life threatening severity"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+   </group>
+</ConceptMap>

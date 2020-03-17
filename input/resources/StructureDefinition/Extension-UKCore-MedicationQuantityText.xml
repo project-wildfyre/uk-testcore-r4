@@ -1,0 +1,58 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+   <id value="Extension-UKCore-MedicationQuantityText"></id>
+   <url value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MedicationQuantityText"></url>
+   <version value="1.0.0"></version>
+   <name value="ExtensionUKCoreMedicationQuantityText"></name>
+   <title value="Extension UK Core Medication Quantity Text"></title>
+   <status value="draft"></status>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="This Extension resource is constrained to support the textual representation of a medication structured quantity."></description>
+   <copyright value="Copyright © 2020 NHS Digital"></copyright>
+   <fhirVersion value="4.0.0"></fhirVersion>
+   <mapping>
+      <identity value="rim"></identity>
+      <uri value="http://hl7.org/v3"></uri>
+      <name value="RIM Mapping"></name>
+   </mapping>
+   <kind value="complex-type"></kind>
+   <abstract value="false"></abstract>
+   <context>
+      <type value="element"></type>
+      <expression value="MedicationRequest.dispenseRequest.quantity"></expression>
+   </context>
+   <context>
+      <type value="element"></type>
+      <expression value="MedicationDispense.quantity"></expression>
+   </context>
+   <type value="Extension"></type>
+   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"></baseDefinition>
+   <derivation value="constraint"></derivation>
+   <differential>
+      <element id="Extension">
+         <path value="Extension"></path>
+         <short value="Quantity representation"></short>
+         <definition value="Quantity representation."></definition>
+         <max value="1"></max>
+      </element>
+      <element id="Extension.url">
+         <path value="Extension.url"></path>
+         <fixedUri value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MedicationQuantityText"></fixedUri>
+      </element>
+      <element id="Extension.value[x]">
+         <path value="Extension.value[x]"></path>
+         <short value="Quantity representation"></short>
+         <definition value="Quantity representation."></definition>
+         <type>
+            <code value="string"></code>
+         </type>
+      </element>
+   </differential>
+</StructureDefinition>

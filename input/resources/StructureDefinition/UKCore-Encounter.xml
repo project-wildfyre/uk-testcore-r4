@@ -1,0 +1,304 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+   <id value="UKCore-Encounter"></id>
+   <url value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Encounter"></url>
+   <version value="1.0.0"></version>
+   <name value="UKCoreEncounter"></name>
+   <title value="UK Core Encounter"></title>
+   <status value="draft"></status>
+   <date value="2019-11-27"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="Defines the UK Core constraints and extensions on the Encounter resource for the minimal set of data to query and retrieve encounter information."></description>
+   <purpose value="This profile allows exchange of information about an interaction between an individual and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of an individual."></purpose>
+   <copyright value="Copyright © 2019 NHS Digital"></copyright>
+   <fhirVersion value="4.0.0"></fhirVersion>
+   <mapping>
+      <identity value="workflow"></identity>
+      <uri value="http://hl7.org/fhir/workflow"></uri>
+      <name value="Workflow Pattern"></name>
+   </mapping>
+   <mapping>
+      <identity value="rim"></identity>
+      <uri value="http://hl7.org/v3"></uri>
+      <name value="RIM Mapping"></name>
+   </mapping>
+   <mapping>
+      <identity value="w5"></identity>
+      <uri value="http://hl7.org/fhir/fivews"></uri>
+      <name value="FiveWs Pattern Mapping"></name>
+   </mapping>
+   <mapping>
+      <identity value="v2"></identity>
+      <uri value="http://hl7.org/v2"></uri>
+      <name value="HL7 v2 Mapping"></name>
+   </mapping>
+   <kind value="resource"></kind>
+   <abstract value="false"></abstract>
+   <type value="Encounter"></type>
+   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Encounter"></baseDefinition>
+   <derivation value="constraint"></derivation>
+   <differential>
+      <element id="Encounter.identifier.assigner">
+         <path value="Encounter.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Encounter.type.coding">
+         <path value="Encounter.type.coding"></path>
+         <slicing>
+            <discriminator>
+               <type value="value"></type>
+               <path value="system"></path>
+            </discriminator>
+            <rules value="open"></rules>
+         </slicing>
+      </element>
+      <element id="Encounter.type.coding:snomedCT">
+         <path value="Encounter.type.coding"></path>
+         <sliceName value="snomedCT"></sliceName>
+         <binding>
+            <strength value="extensible"></strength>
+            <description value="A code from the SNOMED Clinical Terminology UK coding system that describes an encounter between a care professional and the patient (or patient's record)."></description>
+            <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-EncounterType"></valueSet>
+         </binding>
+      </element>
+      <element id="Encounter.type.coding:snomedCT.system">
+         <path value="Encounter.type.coding.system"></path>
+         <min value="1"></min>
+         <fixedUri value="http://snomed.info/sct"></fixedUri>
+      </element>
+      <element id="Encounter.type.coding:snomedCT.code">
+         <path value="Encounter.type.coding.code"></path>
+         <min value="1"></min>
+      </element>
+      <element id="Encounter.type.coding:snomedCT.display">
+         <path value="Encounter.type.coding.display"></path>
+         <min value="1"></min>
+      </element>
+      <element id="Encounter.subject">
+         <path value="Encounter.subject"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient"></targetProfile>
+         </type>
+      </element>
+      <element id="Encounter.subject.identifier.assigner">
+         <path value="Encounter.subject.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Encounter.episodeOfCare.identifier.assigner">
+         <path value="Encounter.episodeOfCare.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Encounter.basedOn.identifier.assigner">
+         <path value="Encounter.basedOn.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Encounter.participant.individual">
+         <path value="Encounter.participant.individual"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson"></targetProfile>
+         </type>
+      </element>
+      <element id="Encounter.participant.individual.identifier.assigner">
+         <path value="Encounter.participant.individual.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Encounter.appointment.identifier.assigner">
+         <path value="Encounter.appointment.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Encounter.reasonReference">
+         <path value="Encounter.reasonReference"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Condition"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Procedure"></targetProfile>
+         </type>
+      </element>
+      <element id="Encounter.reasonReference.identifier.assigner">
+         <path value="Encounter.reasonReference.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Encounter.diagnosis.condition">
+         <path value="Encounter.diagnosis.condition"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Condition"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Procedure"></targetProfile>
+         </type>
+      </element>
+      <element id="Encounter.diagnosis.condition.identifier.assigner">
+         <path value="Encounter.diagnosis.condition.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Encounter.account.identifier.assigner">
+         <path value="Encounter.account.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Encounter.hospitalization.preAdmissionIdentifier.assigner">
+         <path value="Encounter.hospitalization.preAdmissionIdentifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Encounter.hospitalization.origin">
+         <path value="Encounter.hospitalization.origin"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Encounter.hospitalization.origin.identifier.assigner">
+         <path value="Encounter.hospitalization.origin.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Encounter.hospitalization.admitSource">
+         <path value="Encounter.hospitalization.admitSource"></path>
+         <binding>
+            <strength value="extensible"></strength>
+            <description value="The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home."></description>
+            <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-SourceOfAdmission"></valueSet>
+         </binding>
+      </element>
+      <element id="Encounter.hospitalization.reAdmission.coding">
+         <path value="Encounter.hospitalization.reAdmission.coding"></path>
+         <slicing>
+            <discriminator>
+               <type value="value"></type>
+               <path value="system"></path>
+            </discriminator>
+            <rules value="open"></rules>
+         </slicing>
+      </element>
+      <element id="Encounter.hospitalization.reAdmission.coding:snomedCT">
+         <path value="Encounter.hospitalization.reAdmission.coding"></path>
+         <sliceName value="snomedCT"></sliceName>
+      </element>
+      <element id="Encounter.hospitalization.reAdmission.coding:snomedCT.system">
+         <path value="Encounter.hospitalization.reAdmission.coding.system"></path>
+         <min value="1"></min>
+         <fixedUri value="http://snomed.info/sct"></fixedUri>
+      </element>
+      <element id="Encounter.hospitalization.reAdmission.coding:snomedCT.code">
+         <path value="Encounter.hospitalization.reAdmission.coding.code"></path>
+         <min value="1"></min>
+      </element>
+      <element id="Encounter.hospitalization.reAdmission.coding:snomedCT.display">
+         <path value="Encounter.hospitalization.reAdmission.coding.display"></path>
+         <min value="1"></min>
+      </element>
+      <element id="Encounter.hospitalization.destination">
+         <path value="Encounter.hospitalization.destination"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location"></targetProfile>
+         </type>
+      </element>
+      <element id="Encounter.hospitalization.destination.identifier.assigner">
+         <path value="Encounter.hospitalization.destination.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Encounter.hospitalization.dischargeDisposition">
+         <path value="Encounter.hospitalization.dischargeDisposition"></path>
+         <binding>
+            <strength value="extensible"></strength>
+            <description value="The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth."></description>
+            <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-DischargeDestination"></valueSet>
+         </binding>
+      </element>
+      <element id="Encounter.location.location">
+         <path value="Encounter.location.location"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location"></targetProfile>
+         </type>
+      </element>
+      <element id="Encounter.location.location.identifier.assigner">
+         <path value="Encounter.location.location.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Encounter.serviceProvider">
+         <path value="Encounter.serviceProvider"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Encounter.serviceProvider.identifier.assigner">
+         <path value="Encounter.serviceProvider.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Encounter.partOf">
+         <path value="Encounter.partOf"></path>
+         <type>
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy">
+               <valueBoolean value="true"></valueBoolean>
+            </extension>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Encounter"></targetProfile>
+         </type>
+      </element>
+      <element id="Encounter.partOf.identifier.assigner">
+         <path value="Encounter.partOf.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+   </differential>
+</StructureDefinition>

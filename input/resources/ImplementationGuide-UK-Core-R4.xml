@@ -1,821 +1,1075 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="uk-testcore-r4"/>
-  <url value="https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype"/>
-  <version value="4.0.0"/>
-  <name value="HL7FHIRUKCore"/>
-  <title value="HL7 FHIR&#xAE;  UK Core"/>
-  <status value="draft"/>
-  <experimental value="true"/>
-  <date value="2019-10-14T00:00:00+01:00"/>
-  <publisher value="Project Wildfyre"/>
-  <contact>
-    <name value="Project Wildfyre"/>
-    <telecom>
-      <system value="email"/>
-      <value value="mailto:dunno@dummy.net"/>
-      <use value="work"/>
-    </telecom>
-  </contact>
-  <jurisdiction>
-    <coding>
-      <system value="urn:iso:std:iso:3166"/>
-      <code value="GB"/>
-    </coding>
-  </jurisdiction>
-  <packageId value="uk.testcore.r4"/>
-  <license value="CC0-1.0"/>
-  <fhirVersion value="4.0.1"/>
-  <definition>
-    <grouping>
-      <name value="HL7 FHIR&#xAE;  UK Core"/>
-    </grouping>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-ResidentialStatus"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-AllergyManifestation"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-AllergyCertainty"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-AllergySeverity"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-ConditionEpisode"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-ConditionCode"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-ConditionEpisodicity"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-AllergyCode"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-AllergyExposureRoute"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-CareSettingType"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-ProcedureCode"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-ListCode"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-ListEmptyReasonCode"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-ListWarningCode"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-BodySite"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-EncounterType"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-EmergencyCareDischargeStatus"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-ObservationType"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-TreatmentCategory"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-HumanLanguage"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-LanguageAbilityMode"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-LanguageAbilityProficiency"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-SDSJobRoleName"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-DeathNotificationStatus"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-EthnicCategory"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-AdmissionMethod"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-DischargeDestination"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-DischargeMethod"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-OutcomeOfAttendance"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-SourceOfAdmission"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-NHSNumberVerificationStatus"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-ReligiousAffiliation"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/UKCore-AdmissionMethod"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/UKCore-DischargeDestination"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/UKCore-DischargeMethod"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/UKCore-OutcomeOfAttendance"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/UKCore-SourceOfAdmission"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/UKCore-ConditionEpisodicity"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/UKCore-ResidentialStatus"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/UKCore-TreatmentCategory"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/UKCore-HumanLanguage"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/UKCore-LanguageAbilityProficiency"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/UKCore-LanguageAbilityMode"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/UKCore-SDSJobRoleName"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/UKCore-ListWarningCode"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/UKCore-ListEmptyReasonCode"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/UKCore-DeathNotificationStatus"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/UKCore-EthnicCategory"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/UKCore-NHSNumberVerificationStatus"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ConceptMap/UKCore-MaritalStatus"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ConceptMap/UKCore-ConditionEpisodicity"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ConceptMap/UKCore-AdministrativeGender"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ConceptMap/UKCore-AllergySeverity"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ConceptMap/UKCore-AllergyVerificationStatus"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-NHSDataDictionary-PersonStatedGender"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/UKCore-Patient"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/UKCore-Practitioner"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/UKCore-PractitionerRole"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/UKCore-Organization"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/UKCore-RelatedPerson"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/UKCore-Location"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/UKCore-Procedure"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/UKCore-Condition"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/UKCore-AllergyIntolerance"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/UKCore-Observation"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/UKCore-Encounter"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/UKCore-List"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Extension-UKCore-NHSCommunication"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Extension-UKCore-Evidence"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Extension-UKCore-AllergyIntoleranceEnd"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Extension-UKCore-DeathNotificationStatus"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Extension-UKCore-EthnicCategory"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Extension-UKCore-ReligiousAffiliation"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Extension-UKCore-ResidentialStatus"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Extension-UKCore-TreatmentCategory"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Extension-UKCore-NominatedPharmacy"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Extension-UKCore-MainLocation"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Extension-UKCore-ClinicalSetting"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Extension-UKCore-ListWarningCode"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Extension-UKCore-AdmissionMethod"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Extension-UKCore-EncounterTransport"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Extension-UKCore-OutcomeOfAttendance"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Extension-UKCore-AnaestheticIssues"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Extension-UKCore-DischargeMethod"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Extension-UKCore-EmergencyCareDischargeStatus"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Extension-UKCore-ConditionEpisode"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="Patient/UKCore-Patient-Example"/>
-      </reference>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="Condition/UKCore-Condition-Example"/>
-      </reference>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="AllergyIntolerance/UKCore-AllergyIntolerance-Example"/>
-      </reference>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="Organization/UKCore-Organisation-Example"/>
-      </reference>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="Location/UKCore-Location-Example"/>
-      </reference>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="RelatedPerson/UKCore-RelatedPerson-Example"/>
-      </reference>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="PractitionerRole/UKCore-PractitionerRole-Example"/>
-      </reference>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="Procedure/UKCore-Procedure-Example"/>
-      </reference>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="Practitioner/UKCore-Practitioner-Example"/>
-      </reference>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="Observation/UKCore-Observation-Example"/>
-      </reference>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="List/UKCore-List-Example"/>
-      </reference>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="List/UKCore-Allergy-List-Example"/>
-      </reference>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="Encounter/UKCore-Encounter-Example"/>
-      </reference>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/UKCore-PreferredWrittenCommunicationFormat"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/UKCore-PreferredContactMethod"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/UKCore-ConsentUpdateMode"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/UKCore-AddressKeyType"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/UKCore-AdditionalRelatedPersonRole"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-PreferredWrittenCommunicationFormat"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-PreferredContactMethod"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/UKCore-AddressKeyType"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Extension-UKCore-CopyCorrespondenceIndicator"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Extension-UKCore-ContactRank"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Extension-UKCore-ContactPreference"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Extension-UKCore-AddressKey"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Extension-UKCore-EffectivePeriod"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <parameter>
-      <code value="copyrightyear"/>
-      <value value="2020+"/>
-    </parameter>
-    <!-- releaselabel should be the ballot status for HL7-published IGs. -->
-    <parameter>
-      <code value="releaselabel"/>
-      <value value="CI Build"/>
-    </parameter>
-    <parameter>
-      <code value="find-other-resources"/>
-      <value value="true"/>
-    </parameter>
-    <parameter>
-      <code value="html-template"/>
-      <value value="test-template-master/instance-template-format.html"/>
-    </parameter>
-    <parameter>
-      <code value="generate"/>
-      <value value="xml"/>
-    </parameter>
-    <parameter>
-      <code value="generate"/>
-      <value value="JSON"/>
-    </parameter>
-    <!-- THE FOLLOWING RESOURCES ARE AUTOMATICALLY GENERATED -->
-    <page>
-      <!-- The root will always be toc.html - the template will force it if you don't do it -->
-      <nameUrl value="toc.html"></nameUrl>
-      <title value="Table of Contents"></title>
-      <generation value="html"></generation>
+   <id value="uk-testcore-r4"></id>
+   <url value="https://fhir.nhs.uk/R4/ImplementationGuide/nhsdigital-fhir-r4-core-prototype"></url>
+   <version value="4.0.0"></version>
+   <name value="HL7FHIRUKCore"></name>
+   <title value="HL7 FHIR®  UK Core"></title>
+   <status value="draft"></status>
+   <experimental value="true"></experimental>
+   <date value="2019-10-14T00:00:00+01:00"></date>
+   <publisher value="Project Wildfyre"></publisher>
+   <contact>
+      <name value="Project Wildfyre"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="mailto:dunno@dummy.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <jurisdiction>
+      <coding>
+         <system value="urn:iso:std:iso:3166"></system>
+         <code value="GB"></code>
+      </coding>
+   </jurisdiction>
+   <packageId value="uk.testcore.r4"></packageId>
+   <license value="CC0-1.0"></license>
+   <fhirVersion value="4.0.1"></fhirVersion>
+   <definition>
+      <grouping>
+         <name value="HL7 FHIR®  UK Core"></name>
+      </grouping>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-ListWarningCode"></reference>
+         </reference>
+         <name value="UKCoreListWarningCode"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-PreferredWrittenCommunicationFormat"></reference>
+         </reference>
+         <name value="UKCorePreferredWrittenCommunicationFormat"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-NHSDataDictionary-PersonStatedGender"></reference>
+         </reference>
+         <name value="NHSDataModelandDictionaryPersonStatedGenderCode"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-SourceOfAdmission"></reference>
+         </reference>
+         <name value="NHSDataModelandDictionarySourceOfAdmission"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-DischargeDestination"></reference>
+         </reference>
+         <name value="NHSDataModelandDictionaryDischargeDestination"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-MedicationSupplyType"></reference>
+         </reference>
+         <name value="UKCoreMedicationSupplyType"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-LanguageAbilityProficiency"></reference>
+         </reference>
+         <name value="UKCoreLanguageAbilityProficiency"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-AdmissionMethod"></reference>
+         </reference>
+         <name value="NHSDataModelandDictionaryAdmissionMethod"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-DeathNotificationStatus"></reference>
+         </reference>
+         <name value="UKCoreDeathNotificationStatus"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-NHSDataDictionary-PersonMaritalStatus"></reference>
+         </reference>
+         <name value="NHSDataModelandDictionaryPersonMaritalStatusCode"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-DischargeMethod"></reference>
+         </reference>
+         <name value="NHSDataModelandDictionaryDischargeMethod"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-ResidentialStatus"></reference>
+         </reference>
+         <name value="UKCoreResidentialStatus"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-SDSJobRoleName"></reference>
+         </reference>
+         <name value="UKCoreSDSJobRoleName"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-AdditionalRelatedPersonRole"></reference>
+         </reference>
+         <name value="UKCoreAdditionalRelatedPersonRole"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-ConditionEpisodicity"></reference>
+         </reference>
+         <name value="UKCoreConditionEpisodicity"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-ListEmptyReasonCode"></reference>
+         </reference>
+         <name value="UKCoreListEmptyReasonCode"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-NHSNumberVerificationStatus"></reference>
+         </reference>
+         <name value="UKCoreNHSNumberVerificationStatus"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-PreferredContactMethod"></reference>
+         </reference>
+         <name value="UKCorePreferredContactMethod"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-TreatmentCategory"></reference>
+         </reference>
+         <name value="UKCoreTreatmentCategory"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-AddressKeyType"></reference>
+         </reference>
+         <name value="UKCoreAddressKeyType"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-EthnicCategory"></reference>
+         </reference>
+         <name value="UKCoreEthnicCategory"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-LanguageAbilityMode"></reference>
+         </reference>
+         <name value="UKCoreLanguageAbilityMode"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-HumanLanguage"></reference>
+         </reference>
+         <name value="UKCoreHumanLanguage"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-ConsentUpdateMode"></reference>
+         </reference>
+         <name value="UKCoreConsentUpdateMode"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-PrescriptionType"></reference>
+         </reference>
+         <name value="UKCorePrescriptionType"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/UKCore-OutcomeOfAttendance"></reference>
+         </reference>
+         <name value="NHSDataModelandDictionaryOutcomeofAttendance"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-BodySite"></reference>
+         </reference>
+         <name value="UKCoreBodySite"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-ConditionCategory"></reference>
+         </reference>
+         <name value="UKCoreConditionCategory"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-ConditionEpisodicity"></reference>
+         </reference>
+         <name value="UKCoreConditionEpisodicity"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-LanguageAbilityMode"></reference>
+         </reference>
+         <name value="UKCoreLanguageAbilityMode"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-VaccinationProcedure"></reference>
+         </reference>
+         <name value="UKCoreVaccinationProcedure"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-DischargeMethod"></reference>
+         </reference>
+         <name value="NHSDataModelandDictionaryDischargeMethod"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-ProcedureCode"></reference>
+         </reference>
+         <name value="UKCoreProcedureCode"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-NHSDataDictionary-PersonMaritalStatus"></reference>
+         </reference>
+         <name value="NHSDataModelandDictionaryPersonMaritalStatusCode"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-PreferredWrittenCommunicationFormat"></reference>
+         </reference>
+         <name value="UKCorePreferredWrittenCommunicationFormat"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-AllergyManifestation"></reference>
+         </reference>
+         <name value="UKCoreAllergyManifestation"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-ReasonImmunizationNotAdministered"></reference>
+         </reference>
+         <name value="UKCoreReasonImmunizationNotAdministered"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-ListCode"></reference>
+         </reference>
+         <name value="UKCoreListCode"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-NHSNumberVerificationStatus"></reference>
+         </reference>
+         <name value="UKCoreNHSNumberVerificationStatus"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-MedicationDosageRoute"></reference>
+         </reference>
+         <name value="UKCoreMedicationDosageRoute"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-MedicationForm"></reference>
+         </reference>
+         <name value="UKCoreMedicationForm"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-DischargeDestination"></reference>
+         </reference>
+         <name value="NHSDataModelandDictionaryDischargeDestination"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-ListEmptyReasonCode"></reference>
+         </reference>
+         <name value="UKCoreListEmptyReasonCode"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-DocumentType"></reference>
+         </reference>
+         <name value="UKCoreDocumentType"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-ResidentialStatus"></reference>
+         </reference>
+         <name value="UKCoreResidentialStatus"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-HumanLanguage"></reference>
+         </reference>
+         <name value="UKCoreHumanLanguage"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-AllergyCertainty"></reference>
+         </reference>
+         <name value="UKCoreAllergyCertainty"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-AdmissionMethod"></reference>
+         </reference>
+         <name value="NHSDataModelandDictionaryAdmissionMethod"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-SourceOfAdmission"></reference>
+         </reference>
+         <name value="NHSDataModelandDictionarySourceOfAdmission"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-SpecimenType"></reference>
+         </reference>
+         <name value="UKCoreSpecimenType"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-EthnicCategory"></reference>
+         </reference>
+         <name value="UKCoreEthnicCategory"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-MedicationSupplyType"></reference>
+         </reference>
+         <name value="UKCoreMedicationSupplyType"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-TreatmentCategory"></reference>
+         </reference>
+         <name value="UKCoreTreatmentCategory"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-PrescriptionType"></reference>
+         </reference>
+         <name value="UKCorePrescriptionType"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-ListWarningCode"></reference>
+         </reference>
+         <name value="UKCoreListWarningCode"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-ConditionCode"></reference>
+         </reference>
+         <name value="UKCoreConditionCode"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-DeathNotificationStatus"></reference>
+         </reference>
+         <name value="UKCoreDeathNotificationStatus"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-NHSDataDictionary-PersonStatedGender"></reference>
+         </reference>
+         <name value="NHSDataModelandDictionaryPersonStatedGenderCode"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-ConditionEpisode"></reference>
+         </reference>
+         <name value="UKCoreConditionEpisode"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-EncounterType"></reference>
+         </reference>
+         <name value="UKCoreEncounterType"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-FindingCode"></reference>
+         </reference>
+         <name value="UKCoreFindingCode"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-ObservationType"></reference>
+         </reference>
+         <name value="UKCoreObservationType"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-ReportCodeSnCT"></reference>
+         </reference>
+         <name value="UKCoreReportCodeSnCT"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-AllergyExposureRoute"></reference>
+         </reference>
+         <name value="UKCoreAllergyExposureRoute"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-AllergyCode"></reference>
+         </reference>
+         <name value="UKCoreAllergyCode"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-CareSettingType"></reference>
+         </reference>
+         <name value="UKCoreCareSettingType"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-EmergencyCareDischargeStatus"></reference>
+         </reference>
+         <name value="UKCoreEmergencyCareDischargeStatus"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-AllergySeverity"></reference>
+         </reference>
+         <name value="UKCoreAllergySeverity"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-MedicationCode"></reference>
+         </reference>
+         <name value="UKCoreMedicationCode"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-AddressKeyType"></reference>
+         </reference>
+         <name value="UKCoreAddressKeyType"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-LanguageAbilityProficiency"></reference>
+         </reference>
+         <name value="UKCoreLanguageAbilityProficiency"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-SpecimenBodySite"></reference>
+         </reference>
+         <name value="UKCoreSpecimenBodySite"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-SDSJobRoleName"></reference>
+         </reference>
+         <name value="UKCoreSDSJobRoleName"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-ImmunizationExplanationReason"></reference>
+         </reference>
+         <name value="UKCoreImmunizationExplanationReason"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-PreferredContactMethod"></reference>
+         </reference>
+         <name value="UKCorePreferredContactMethod"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-OutcomeOfAttendance"></reference>
+         </reference>
+         <name value="NHSDataModelandDictionaryOutcomeOfAttendance"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-VaccineCode"></reference>
+         </reference>
+         <name value="UKCoreVaccineCode"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/UKCore-ReligiousAffiliation"></reference>
+         </reference>
+         <name value="UKCoreReligiousAffiliation"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-AdmissionMethod"></reference>
+         </reference>
+         <name value="ExtensionUKCoreAdmissionMethod"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-AddressKey"></reference>
+         </reference>
+         <name value="ExtensionUKCoreAddressKey"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/UKCore-DocumentReference"></reference>
+         </reference>
+         <name value="UKCoreDocumentReference"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/UKCore-ServiceRequest"></reference>
+         </reference>
+         <name value="UKCoreServiceRequest"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/UKCore-Procedure"></reference>
+         </reference>
+         <name value="UKCoreProcedure"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-EmergencyCareDischargeStatus"></reference>
+         </reference>
+         <name value="ExtensionUKCoreEmergencyCareDischargeStatus"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-MainLocation"></reference>
+         </reference>
+         <name value="ExtensionUKCoreMainLocation"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/UKCore-Location"></reference>
+         </reference>
+         <name value="UKCoreLocation"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-CopyCorrespondenceIndicator"></reference>
+         </reference>
+         <name value="ExtensionUKCoreCopyCorrespondenceIndicator"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-MedicationStatementLastIssueDate"></reference>
+         </reference>
+         <name value="ExtensionUKCoreMedicationStatementLastIssueDate"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-ParentPresent"></reference>
+         </reference>
+         <name value="ExtensionUKCoreParentPresent"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/UKCore-Practitioner"></reference>
+         </reference>
+         <name value="UKCorePractitioner"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-DischargeMethod"></reference>
+         </reference>
+         <name value="ExtensionUKCoreDischargeMethod"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-ContactRank"></reference>
+         </reference>
+         <name value="ExtensionUKCoreContactRank"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-MedicationDosageLastChanged"></reference>
+         </reference>
+         <name value="ExtensionUKCoreMedicationDosageLastChanged"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-VaccinationProcedure"></reference>
+         </reference>
+         <name value="ExtensionUKCoreVaccinationProcedure"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-ContactPreference"></reference>
+         </reference>
+         <name value="ExtensionUKCoreContactPreference"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/UKCore-Immunization"></reference>
+         </reference>
+         <name value="UKCoreImmunization"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/UKCore-CareTeam"></reference>
+         </reference>
+         <name value="UKCoreCareTeam"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/UKCore-Condition"></reference>
+         </reference>
+         <name value="UKCoreCondition"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-AnaestheticIssues"></reference>
+         </reference>
+         <name value="ExtensionUKCoreAnaestheticIssues"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-EffectivePeriod"></reference>
+         </reference>
+         <name value="ExtensionUKCoreEffectivePeriod"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/UKCore-List"></reference>
+         </reference>
+         <name value="UKCoreList"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-EncounterTransport"></reference>
+         </reference>
+         <name value="ExtensionUKCoreEncounterTransport"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/UKCore-MedicationRequest"></reference>
+         </reference>
+         <name value="UKCoreMedicationRequest"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-MedicationChangeSummary"></reference>
+         </reference>
+         <name value="ExtensionUKCoreMedicationChangeSummary"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-ReligiousAffiliation"></reference>
+         </reference>
+         <name value="ExtensionUKCoreReligiousAffiliation"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-MedicationRepeatInformation"></reference>
+         </reference>
+         <name value="ExtensionUKCoreMedicationRepeatInformation"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-AllergyIntoleranceEnd"></reference>
+         </reference>
+         <name value="ExtensionUKCoreAllergyIntoleranceEnd"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-Evidence"></reference>
+         </reference>
+         <name value="ExtensionUKCoreEvidence"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-ListWarningCode"></reference>
+         </reference>
+         <name value="ExtensionUKCoreListWarningCode"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/UKCore-Encounter"></reference>
+         </reference>
+         <name value="UKCoreEncounter"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-PrescriptionType"></reference>
+         </reference>
+         <name value="ExtensionUKCorePrescriptionType"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-ResidentialStatus"></reference>
+         </reference>
+         <name value="ExtensionUKCoreResidentialStatus"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/UKCore-Observation"></reference>
+         </reference>
+         <name value="UKCoreObservation"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/UKCore-PractitionerRole"></reference>
+         </reference>
+         <name value="UKCorePractitionerRole"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/UKCore-Patient"></reference>
+         </reference>
+         <name value="UKCorePatient"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-MedicationQuantityText"></reference>
+         </reference>
+         <name value="ExtensionUKCoreMedicationQuantityText"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-DeathNotificationStatus"></reference>
+         </reference>
+         <name value="ExtensionUKCoreDeathNotificationStatus"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-OutcomeOfAttendance"></reference>
+         </reference>
+         <name value="ExtensionUKCoreOutcomeOfAttendance"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-TreatmentCategory"></reference>
+         </reference>
+         <name value="ExtensionUKCoreTreatmentCategory"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-NominatedPharmacy"></reference>
+         </reference>
+         <name value="ExtensionUKCoreNominatedPharmacy"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/UKCore-MedicationStatement"></reference>
+         </reference>
+         <name value="UKCoreMedicationStatement"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/UKCore-Medication"></reference>
+         </reference>
+         <name value="UKCoreMedication"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-NHSCommunication"></reference>
+         </reference>
+         <name value="ExtensionUKCoreNHSCommunication"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/UKCore-AllergyIntolerance"></reference>
+         </reference>
+         <name value="UKCoreAllergyIntolerance"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus"></reference>
+         </reference>
+         <name value="ExtensionUKCoreNHSNumberVerificationStatus"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-EthnicCategory"></reference>
+         </reference>
+         <name value="ExtensionUKCoreEthnicCategory"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-ClinicalSetting"></reference>
+         </reference>
+         <name value="ExtensionUKCoreClinicalSetting"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/UKCore-Organization"></reference>
+         </reference>
+         <name value="UKCoreOrganization"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-ConditionEpisode"></reference>
+         </reference>
+         <name value="ExtensionUKCoreConditionEpisode"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/UKCore-RelatedPerson"></reference>
+         </reference>
+         <name value="UKCoreRelatedPerson"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/UKCore-Specimen"></reference>
+         </reference>
+         <name value="UKCoreSpecimen"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/UKCore-CarePlan"></reference>
+         </reference>
+         <name value="UKCoreCarePlan"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-UKCore-MedicationPrescribingAgency"></reference>
+         </reference>
+         <name value="ExtensionUKCoreMedicationPrescribingAgency"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/UKCore-DiagnosticReport"></reference>
+         </reference>
+         <name value="UKCoreDiagnosticReport"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/UKCore-MedicationDispense"></reference>
+         </reference>
+         <name value="UKCoreMedicationDispense"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ConceptMap/UKCore-AllergySeverity"></reference>
+         </reference>
+         <name value="ConceptMapUKCoreAllergySeverity"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ConceptMap/UKCore-AdministrativeGender"></reference>
+         </reference>
+         <name value="ConceptMapUKCoreAdministrativeGender"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ConceptMap/UKCore-ConditionEpisodicity"></reference>
+         </reference>
+         <name value="ConceptMapUKCoreConditionEpisodicity"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ConceptMap/UKCore-MaritalStatus"></reference>
+         </reference>
+         <name value="ConceptMapUKCoreMaritalStatus"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ConceptMap/UKCore-AllergyVerificationStatus"></reference>
+         </reference>
+         <name value="ConceptMapUKCoreAllergyVerificationStatus"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="AllergyIntolerance/UKCore-AllergyIntolerance-Example"></reference>
+         </reference>
+         <name value="AllergyIntolerance-UKCore-AllergyIntolerance-Example"></name>
+         <exampleBoolean value="true"></exampleBoolean>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="PractitionerRole/UKCore-PractitionerRole-Example"></reference>
+         </reference>
+         <name value="PractitionerRole-UKCore-PractitionerRole-Example"></name>
+         <exampleBoolean value="true"></exampleBoolean>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="Encounter/UKCore-Encounter-Example"></reference>
+         </reference>
+         <name value="Encounter-UKCore-Encounter-Example"></name>
+         <exampleBoolean value="true"></exampleBoolean>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="Condition/UKCore-Condition-Example"></reference>
+         </reference>
+         <name value="Condition-UKCore-Condition-Example"></name>
+         <exampleBoolean value="true"></exampleBoolean>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="List/UKCore-List-Example"></reference>
+         </reference>
+         <name value="List-UKCore-List-Example"></name>
+         <exampleBoolean value="true"></exampleBoolean>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="Observation/UKCore-Observation-Example"></reference>
+         </reference>
+         <name value="Observation-UKCore-Observation-Example"></name>
+         <exampleBoolean value="true"></exampleBoolean>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="Patient/UKCore-Patient-AddressKey-Example"></reference>
+         </reference>
+         <name value="Patient-UKCore-Patient-AddressKey-Example"></name>
+         <exampleBoolean value="true"></exampleBoolean>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="Consent/UKCore-Consent-Example"></reference>
+         </reference>
+         <name value="Consent-UKCore-Consent-Example"></name>
+         <exampleBoolean value="true"></exampleBoolean>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="Patient/UKCore-Patient-Example"></reference>
+         </reference>
+         <name value="Patient-UKCore-Patient-Example"></name>
+         <exampleBoolean value="true"></exampleBoolean>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="Location/UKCore-Location-Example"></reference>
+         </reference>
+         <name value="Location-UKCore-Location-Example"></name>
+         <exampleBoolean value="true"></exampleBoolean>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="Procedure/UKCore-Procedure-Example"></reference>
+         </reference>
+         <name value="Procedure-UKCore-Procedure-Example"></name>
+         <exampleBoolean value="true"></exampleBoolean>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="RelatedPerson/UKCore-RelatedPerson-Example"></reference>
+         </reference>
+         <name value="RelatedPerson-UKCore-RelatedPerson-Example"></name>
+         <exampleBoolean value="true"></exampleBoolean>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="Medication/UKCore-Medication-Example"></reference>
+         </reference>
+         <name value="Medication-UKCore-Medication-Example"></name>
+         <exampleBoolean value="true"></exampleBoolean>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="Organization/UKCore-Organisation-Example"></reference>
+         </reference>
+         <name value="Organization-UKCore-Organisation-Example"></name>
+         <exampleBoolean value="true"></exampleBoolean>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="Practitioner/UKCore-Practitioner-Example"></reference>
+         </reference>
+         <name value="Practitioner-UKCore-Practitioner-Example"></name>
+         <exampleBoolean value="true"></exampleBoolean>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="MedicationDispense/UKCore-MedicationDispense-Example"></reference>
+         </reference>
+         <name value="MedicationDispense-UKCore-MedicationDispense-Example"></name>
+         <exampleBoolean value="true"></exampleBoolean>
+      </resource>
+      <!-- THE FOLLOWING RESOURCES ARE AUTOMATICALLY GENERATED -->
       <page>
-      <nameUrl value="index.html"></nameUrl>
-      <title value="UK Core R4 Implementation Guide"></title>
-      <generation value="markdown"></generation>
-    </page>
-      <page>
-        <nameUrl value="validation.html"></nameUrl>
-        <title value="Validation"></title>
-        <generation value="markdown"></generation>
+         <!-- The root will always be toc.html - the template will force it if you don't do it -->
+         <nameUrl value="toc.html"></nameUrl>
+         <title value="Table of Contents"></title>
+         <generation value="html"></generation>
+         <page>
+            <nameUrl value="index.html"></nameUrl>
+            <title value="UK Core R4 Implementation Guide"></title>
+            <generation value="markdown"></generation>
+         </page>
+         <page>
+            <nameUrl value="validation.html"></nameUrl>
+            <title value="Validation"></title>
+            <generation value="markdown"></generation>
+         </page>
+         <page>
+            <nameUrl value="profiles.html"></nameUrl>
+            <title value="Profiles"></title>
+            <generation value="markdown"></generation>
+         </page>
+         <page>
+            <nameUrl value="extension_library.html"></nameUrl>
+            <title value="Extensions"></title>
+            <generation value="markdown"></generation>
+         </page>
+         <page>
+            <nameUrl value="codesystems.html"></nameUrl>
+            <title value="CodeSystems"></title>
+            <generation value="markdown"></generation>
+         </page>
+         <page>
+            <nameUrl value="valuesets.html"></nameUrl>
+            <title value="ValueSets"></title>
+            <generation value="markdown"></generation>
+         </page>
+         <page>
+            <nameUrl value="conceptmaps.html"></nameUrl>
+            <title value="ConceptMaps"></title>
+            <generation value="markdown"></generation>
+         </page>
+         <page>
+            <nameUrl value="examples.html"></nameUrl>
+            <title value="Examples"></title>
+            <generation value="markdown"></generation>
+         </page>
+         <page>
+            <nameUrl value="history.html"></nameUrl>
+            <title value="Change History"></title>
+            <generation value="markdown"></generation>
+         </page>
       </page>
-      <page>
-        <nameUrl value="profiles.html"></nameUrl>
-        <title value="Profiles"></title>
-        <generation value="markdown"></generation>
-      </page>
-      <page>
-        <nameUrl value="extension_library.html"></nameUrl>
-        <title value="Extensions"></title>
-        <generation value="markdown"></generation>
-      </page>
-      <page>
-        <nameUrl value="codesystems.html"></nameUrl>
-        <title value="CodeSystems"></title>
-        <generation value="markdown"></generation>
-      </page>
-      <page>
-        <nameUrl value="valuesets.html"></nameUrl>
-        <title value="ValueSets"></title>
-        <generation value="markdown"></generation>
-      </page>
-      <page>
-        <nameUrl value="conceptmaps.html"></nameUrl>
-        <title value="ConceptMaps"></title>
-        <generation value="markdown"></generation>
-      </page>
-      <page>
-        <nameUrl value="examples.html"></nameUrl>
-        <title value="Examples"></title>
-        <generation value="markdown"></generation>
-      </page>
-      <page>
-        <nameUrl value="history.html"></nameUrl>
-        <title value="Change History"></title>
-        <generation value="markdown"></generation>
-      </page>
-    </page>
-    <parameter>
-      <code value="copyrightyear"/>
-      <value value="2020+"/>
-    </parameter>
-    <!-- releaselabel should be the ballot status for HL7-published IGs. -->
-    <parameter>
-      <code value="releaselabel"/>
-      <value value="CI Build"/>
-    </parameter>
-    <parameter>
-      <code value="find-other-resources"/>
-      <value value="true"/>
-    </parameter>
-  </definition>
+      <parameter>
+         <code value="copyrightyear"></code>
+         <value value="2020+"></value>
+      </parameter>
+      <!-- releaselabel should be the ballot status for HL7-published IGs. -->
+      <parameter>
+         <code value="releaselabel"></code>
+         <value value="CI Build"></value>
+      </parameter>
+      <parameter>
+         <code value="find-other-resources"></code>
+         <value value="true"></value>
+      </parameter>
+      <parameter>
+         <code value="html-template"></code>
+         <value value="test-template-master/instance-template-format.html"></value>
+      </parameter>
+      <parameter>
+         <code value="generate"></code>
+         <value value="xml"></value>
+      </parameter>
+      <parameter>
+         <code value="generate"></code>
+         <value value="JSON"></value>
+      </parameter>
+      <parameter>
+         <code value="copyrightyear"></code>
+         <value value="2020+"></value>
+      </parameter>
+      <!-- releaselabel should be the ballot status for HL7-published IGs. -->
+      <parameter>
+         <code value="releaselabel"></code>
+         <value value="CI Build"></value>
+      </parameter>
+      <parameter>
+         <code value="find-other-resources"></code>
+         <value value="true"></value>
+      </parameter>
+   </definition>
 </ImplementationGuide>

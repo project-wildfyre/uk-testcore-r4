@@ -1,0 +1,26 @@
+<List xmlns="http://hl7.org/fhir">
+   <id value="UKCore-List-Example"></id>
+   <meta>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-List"></profile>
+   </meta>
+   <status value="current"></status>
+   <mode value="working"></mode>
+   <code>
+      <coding>
+         <system value="http://snomed.info/sct"></system>
+         <code value="826501000000100"></code>
+         <display value="Miscellaneous record"></display>
+      </coding>
+   </code>
+   <subject>
+      <reference value="Patient/UKCore-Patient-Example"></reference>
+   </subject>
+   <date value="2019-12-10T13:00:00+00:00"></date>
+   <emptyReason>
+      <coding>
+         <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-ListEmptyReasonCode"></system>
+         <code value="no-content-recorded"></code>
+         <display value="No Content Recorded"></display>
+      </coding>
+   </emptyReason>
+</List>

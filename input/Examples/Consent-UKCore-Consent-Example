@@ -1,0 +1,42 @@
+<Consent xmlns="http://hl7.org/fhir">
+   <id value="UKCore-Consent-Example"></id>
+   <meta>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Consent"></profile>
+   </meta>
+   <status value="active"></status>
+   <scope>
+      <coding>
+         <system value="http://terminology.hl7.org/CodeSystem/consentscope"></system>
+         <code value="patient-privacy"></code>
+         <display value="Privacy Consent"></display>
+      </coding>
+   </scope>
+   <category>
+      <coding>
+         <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"></system>
+         <code value="INFA"></code>
+         <display value="information access"></display>
+      </coding>
+   </category>
+   <patient>
+      <reference value="Patient/UKCore-Patient-Example"></reference>
+   </patient>
+   <dateTime value="2019-12-10T11:15:00+00:00"></dateTime>
+   <performer>
+      <reference value="Practitioner/UKCore-Practitioner-Example"></reference>
+   </performer>
+   <organization>
+      <reference value="Organization/UKCore-Organisation-Example"></reference>
+   </organization>
+   <policy>
+      <authority value="https://www.exampleauthority.nhs.uk"></authority>
+      <uri value="https://www.exampleauthority.nhs.uk/policies/ukcore-policy-example-v1.0"></uri>
+   </policy>
+   <provision>
+      <purpose>
+         <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"></system>
+         <code value="GOV"></code>
+         <display value="government"></display>
+      </purpose>
+   </provision>
+</Consent>

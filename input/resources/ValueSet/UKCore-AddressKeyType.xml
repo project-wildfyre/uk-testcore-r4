@@ -1,0 +1,25 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="UKCore-AddressKeyType"></id>
+   <url value="https://fhir.nhs.uk/R4/ValueSet/UKCore-AddressKeyType"></url>
+   <version value="1.0.0"></version>
+   <name value="UKCoreAddressKeyType"></name>
+   <title value="UK Core Address Key Type"></title>
+   <status value="draft"></status>
+   <date value="2019-12-06T00:00:00+00:00"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="A ValueSet to identify the type of Address Key recorded."></description>
+   <copyright value="Copyright © 2019 NHS Digital"></copyright>
+   <compose>
+      <include>
+         <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-AddressKeyType"></system>
+      </include>
+   </compose>
+</ValueSet>

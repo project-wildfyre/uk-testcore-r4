@@ -1,0 +1,54 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+   <id value="Extension-UKCore-ParentPresent"></id>
+   <url value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ParentPresent"></url>
+   <version value="1.0.0"></version>
+   <name value="ExtensionUKCoreParentPresent"></name>
+   <title value="Extension UK Core Parent Present"></title>
+   <status value="draft"></status>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="This Extension resource is constrained to indicate whether a parent was present at the Immunization."></description>
+   <copyright value="Copyright © 2020 NHS Digital"></copyright>
+   <fhirVersion value="4.0.0"></fhirVersion>
+   <mapping>
+      <identity value="rim"></identity>
+      <uri value="http://hl7.org/v3"></uri>
+      <name value="RIM Mapping"></name>
+   </mapping>
+   <kind value="complex-type"></kind>
+   <abstract value="false"></abstract>
+   <context>
+      <type value="element"></type>
+      <expression value="Immunization"></expression>
+   </context>
+   <type value="Extension"></type>
+   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"></baseDefinition>
+   <derivation value="constraint"></derivation>
+   <differential>
+      <element id="Extension">
+         <path value="Extension"></path>
+         <short value="Was a parent present at an Immunization"></short>
+         <definition value="Was a parent present at an Immunization."></definition>
+         <max value="1"></max>
+      </element>
+      <element id="Extension.url">
+         <path value="Extension.url"></path>
+         <fixedUri value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ParentPresent"></fixedUri>
+      </element>
+      <element id="Extension.value[x]">
+         <path value="Extension.value[x]"></path>
+         <short value="Was a parent present at an Immunization"></short>
+         <definition value="Was a parent present at an Immunization."></definition>
+         <type>
+            <code value="boolean"></code>
+         </type>
+      </element>
+   </differential>
+</StructureDefinition>

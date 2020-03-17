@@ -1,0 +1,63 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+   <id value="Extension-UKCore-AnaestheticIssues"></id>
+   <url value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AnaestheticIssues"></url>
+   <version value="1.0.0"></version>
+   <name value="ExtensionUKCoreAnaestheticIssues"></name>
+   <title value="Extension UK Core Anaesthetic Issues"></title>
+   <status value="draft"></status>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="An extension to support recording of details of any adverse reaction to any anaesthetic agents including local anaesthesia and problematic intubation, transfusion reaction, etc."></description>
+   <copyright value="Copyright © 2019 NHS Digital"></copyright>
+   <fhirVersion value="4.0.0"></fhirVersion>
+   <mapping>
+      <identity value="rim"></identity>
+      <uri value="http://hl7.org/v3"></uri>
+      <name value="RIM Mapping"></name>
+   </mapping>
+   <kind value="complex-type"></kind>
+   <abstract value="false"></abstract>
+   <context>
+      <type value="element"></type>
+      <expression value="Procedure"></expression>
+   </context>
+   <type value="Extension"></type>
+   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"></baseDefinition>
+   <derivation value="constraint"></derivation>
+   <differential>
+      <element id="Extension">
+         <path value="Extension"></path>
+         <short value="Details of any adverse reaction to any anaesthetic agents"></short>
+         <definition value="Details of any adverse reaction to any anaesthetic agents."></definition>
+         <max value="1"></max>
+      </element>
+      <element id="Extension.url">
+         <path value="Extension.url"></path>
+         <fixedUri value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AnaestheticIssues"></fixedUri>
+      </element>
+      <element id="Extension.value[x]">
+         <path value="Extension.value[x]"></path>
+         <short value="Snomed Concept or a link to the Condition resource"></short>
+         <definition value="Snomed Concept or a link to the Condition resource."></definition>
+         <type>
+            <code value="CodeableConcept"></code>
+         </type>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Condition"></targetProfile>
+         </type>
+         <binding>
+            <strength value="extensible"></strength>
+            <description value="A code from the SNOMED Clinical Terminology UK with the expression (&lt;404684003 |Clinical finding| OR &amp;lt; 413350009 |Finding with explicit context| OR &lt;272379006 |Event|)"></description>
+            <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ConditionCode"></valueSet>
+         </binding>
+      </element>
+   </differential>
+</StructureDefinition>

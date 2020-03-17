@@ -1,0 +1,148 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+   <id value="UKCore-PractitionerRole"></id>
+   <url value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole"></url>
+   <version value="1.0.0"></version>
+   <name value="UKCorePractitionerRole"></name>
+   <title value="UK Core PractitionerRole"></title>
+   <status value="draft"></status>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="Defines the UK Core constraints and extensions on the PractitionerRole resource for the minimal set of data to query and retrieve practitioner role information."></description>
+   <purpose value="This profile allows exchange of a specific set of roles, specialties and services that a practitioner may perform at an organisation for a period of time."></purpose>
+   <copyright value="Copyright © 2019 NHS Digital"></copyright>
+   <fhirVersion value="4.0.0"></fhirVersion>
+   <mapping>
+      <identity value="v2"></identity>
+      <uri value="http://hl7.org/v2"></uri>
+      <name value="HL7 v2 Mapping"></name>
+   </mapping>
+   <mapping>
+      <identity value="rim"></identity>
+      <uri value="http://hl7.org/v3"></uri>
+      <name value="RIM Mapping"></name>
+   </mapping>
+   <mapping>
+      <identity value="servd"></identity>
+      <uri value="http://www.omg.org/spec/ServD/1.0/"></uri>
+      <name value="ServD"></name>
+   </mapping>
+   <mapping>
+      <identity value="w5"></identity>
+      <uri value="http://hl7.org/fhir/fivews"></uri>
+      <name value="FiveWs Pattern Mapping"></name>
+   </mapping>
+   <kind value="resource"></kind>
+   <abstract value="false"></abstract>
+   <type value="PractitionerRole"></type>
+   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/PractitionerRole"></baseDefinition>
+   <derivation value="constraint"></derivation>
+   <differential>
+      <element id="PractitionerRole.identifier.assigner">
+         <path value="PractitionerRole.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="PractitionerRole.practitioner">
+         <path value="PractitionerRole.practitioner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"></targetProfile>
+         </type>
+      </element>
+      <element id="PractitionerRole.practitioner.identifier.assigner">
+         <path value="PractitionerRole.practitioner.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="PractitionerRole.organization">
+         <path value="PractitionerRole.organization"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="PractitionerRole.organization.identifier.assigner">
+         <path value="PractitionerRole.organization.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="PractitionerRole.code">
+         <path value="PractitionerRole.code"></path>
+         <slicing>
+            <discriminator>
+               <type value="value"></type>
+               <path value="coding.system"></path>
+            </discriminator>
+            <rules value="open"></rules>
+         </slicing>
+      </element>
+      <element id="PractitionerRole.code:sdsJobRoleName">
+         <path value="PractitionerRole.code"></path>
+         <sliceName value="sdsJobRoleName"></sliceName>
+         <max value="1"></max>
+         <binding>
+            <strength value="required"></strength>
+            <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-SDSJobRoleName"></valueSet>
+         </binding>
+      </element>
+      <element id="PractitionerRole.code:sdsJobRoleName.coding">
+         <path value="PractitionerRole.code.coding"></path>
+         <min value="1"></min>
+         <max value="1"></max>
+      </element>
+      <element id="PractitionerRole.code:sdsJobRoleName.coding.system">
+         <path value="PractitionerRole.code.coding.system"></path>
+         <min value="1"></min>
+         <fixedUri value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-SDSJobRoleName"></fixedUri>
+      </element>
+      <element id="PractitionerRole.code:sdsJobRoleName.coding.code">
+         <path value="PractitionerRole.code.coding.code"></path>
+         <min value="1"></min>
+      </element>
+      <element id="PractitionerRole.code:sdsJobRoleName.coding.display">
+         <path value="PractitionerRole.code.coding.display"></path>
+         <min value="1"></min>
+      </element>
+      <element id="PractitionerRole.location">
+         <path value="PractitionerRole.location"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location"></targetProfile>
+         </type>
+      </element>
+      <element id="PractitionerRole.location.identifier.assigner">
+         <path value="PractitionerRole.location.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="PractitionerRole.healthcareService.identifier.assigner">
+         <path value="PractitionerRole.healthcareService.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="PractitionerRole.endpoint.identifier.assigner">
+         <path value="PractitionerRole.endpoint.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+   </differential>
+</StructureDefinition>

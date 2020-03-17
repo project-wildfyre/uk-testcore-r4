@@ -1,0 +1,248 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+   <id value="UKCore-MedicationDispense"></id>
+   <url value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationDispense"></url>
+   <version value="1.0.0"></version>
+   <name value="UKCoreMedicationDispense"></name>
+   <title value="UK Core MedicationDispense"></title>
+   <status value="draft"></status>
+   <date value="2020-02-06"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="Defines the UK Core constraints and extensions on the MedicationDispense resource for the minimal set of data to query and retrieve dispensed medication information."></description>
+   <purpose value="This profile covers the supply of medications to a patient. Examples include dispensing and pick-up from an outpatient or community pharmacy, dispensing patient-specific medications from inpatient pharmacy to ward, as well as issuing a single dose from ward stock to a patient for consumption. The medication dispense is the result of a pharmacy system responding to a medication order."></purpose>
+   <copyright value="Copyright © 2020 NHS Digital"></copyright>
+   <fhirVersion value="4.0.0"></fhirVersion>
+   <mapping>
+      <identity value="workflow"></identity>
+      <uri value="http://hl7.org/fhir/workflow"></uri>
+      <name value="Workflow Pattern"></name>
+   </mapping>
+   <mapping>
+      <identity value="rim"></identity>
+      <uri value="http://hl7.org/v3"></uri>
+      <name value="RIM Mapping"></name>
+   </mapping>
+   <mapping>
+      <identity value="w5"></identity>
+      <uri value="http://hl7.org/fhir/fivews"></uri>
+      <name value="FiveWs Pattern Mapping"></name>
+   </mapping>
+   <mapping>
+      <identity value="rx-dispense-rmim"></identity>
+      <uri value="http://www.hl7.org/v3/PORX_RM020070UV"></uri>
+      <name value="V3 Pharmacy Dispense RMIM"></name>
+   </mapping>
+   <mapping>
+      <identity value="v2"></identity>
+      <uri value="http://hl7.org/v2"></uri>
+      <name value="HL7 v2 Mapping"></name>
+   </mapping>
+   <kind value="resource"></kind>
+   <abstract value="false"></abstract>
+   <type value="MedicationDispense"></type>
+   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/MedicationDispense"></baseDefinition>
+   <derivation value="constraint"></derivation>
+   <differential>
+      <element id="MedicationDispense.identifier.assigner">
+         <path value="MedicationDispense.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationDispense.partOf">
+         <path value="MedicationDispense.partOf"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Procedure"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationDispense.partOf.identifier.assigner">
+         <path value="MedicationDispense.partOf.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationDispense.medication[x]">
+         <path value="MedicationDispense.medication[x]"></path>
+         <type>
+            <code value="CodeableConcept"></code>
+         </type>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Medication"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationDispense.subject">
+         <path value="MedicationDispense.subject"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationDispense.subject.identifier.assigner">
+         <path value="MedicationDispense.subject.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationDispense.context">
+         <path value="MedicationDispense.context"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="http://hl7.org/fhir/StructureDefinition/EpisodeOfCare"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Encounter"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationDispense.context.identifier.assigner">
+         <path value="MedicationDispense.context.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationDispense.supportingInformation.identifier.assigner">
+         <path value="MedicationDispense.supportingInformation.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationDispense.performer.actor">
+         <path value="MedicationDispense.performer.actor"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationDispense.performer.actor.identifier.assigner">
+         <path value="MedicationDispense.performer.actor.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationDispense.location">
+         <path value="MedicationDispense.location"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationDispense.location.identifier.assigner">
+         <path value="MedicationDispense.location.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationDispense.authorizingPrescription">
+         <path value="MedicationDispense.authorizingPrescription"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationRequest"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationDispense.authorizingPrescription.identifier.assigner">
+         <path value="MedicationDispense.authorizingPrescription.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationDispense.type">
+         <path value="MedicationDispense.type"></path>
+         <binding>
+            <strength value="extensible"></strength>
+            <description value="A ValueSet to identify the type of medication supply."></description>
+            <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-MedicationSupplyType"></valueSet>
+         </binding>
+      </element>
+      <element id="MedicationDispense.destination">
+         <path value="MedicationDispense.destination"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationDispense.destination.identifier.assigner">
+         <path value="MedicationDispense.destination.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationDispense.receiver">
+         <path value="MedicationDispense.receiver"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationDispense.receiver.identifier.assigner">
+         <path value="MedicationDispense.receiver.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationDispense.note.author[x]">
+         <path value="MedicationDispense.note.author[x]"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson"></targetProfile>
+         </type>
+         <type>
+            <code value="string"></code>
+         </type>
+      </element>
+      <element id="MedicationDispense.substitution.responsibleParty">
+         <path value="MedicationDispense.substitution.responsibleParty"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationDispense.substitution.responsibleParty.identifier.assigner">
+         <path value="MedicationDispense.substitution.responsibleParty.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationDispense.detectedIssue.identifier.assigner">
+         <path value="MedicationDispense.detectedIssue.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationDispense.eventHistory.identifier.assigner">
+         <path value="MedicationDispense.eventHistory.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+   </differential>
+</StructureDefinition>

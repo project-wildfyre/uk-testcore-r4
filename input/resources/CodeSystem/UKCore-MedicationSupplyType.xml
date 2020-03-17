@@ -1,0 +1,50 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="UKCore-MedicationSupplyType"></id>
+   <url value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-MedicationSupplyType"></url>
+   <version value="1.0.0"></version>
+   <name value="UKCoreMedicationSupplyType"></name>
+   <title value="UK Core Medication Supply Type"></title>
+   <status value="draft"></status>
+   <date value="2020-02-07T00:00:00+00:00"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="A CodeSystem to identify the type of medication supply."></description>
+   <copyright value="Copyright © 2020 NHS Digital"></copyright>
+   <caseSensitive value="true"></caseSensitive>
+   <content value="complete"></content>
+   <concept>
+      <code value="over-the-counter"></code>
+      <display value="Over the counter"></display>
+   </concept>
+   <concept>
+      <code value="emergency-supply"></code>
+      <display value="Emergency supply"></display>
+   </concept>
+   <concept>
+      <code value="patient-group-direction"></code>
+      <display value="Patient group direction"></display>
+   </concept>
+   <concept>
+      <code value="minor-ailments-scheme"></code>
+      <display value="Minor ailments scheme"></display>
+   </concept>
+   <concept>
+      <code value="prescription-dispensing"></code>
+      <display value="Prescription dispensing"></display>
+   </concept>
+   <concept>
+      <code value="private-prescription-dispensing"></code>
+      <display value="Private prescription dispensing"></display>
+   </concept>
+   <concept>
+      <code value="self-declared"></code>
+      <display value="Self declared"></display>
+   </concept>
+</CodeSystem>

@@ -1,0 +1,53 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="UKCore-PreferredContactMethod"></id>
+   <url value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-PreferredContactMethod"></url>
+   <version value="1.0.0"></version>
+   <name value="UKCorePreferredContactMethod"></name>
+   <title value="UK Core Preferred Contact Method"></title>
+   <status value="draft"></status>
+   <date value="2019-12-06T00:00:00+00:00"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="A CodeSystem to identify the preferred Contact Method of a Patient, contact or RelatedPerson."></description>
+   <copyright value="Copyright © 2019 NHS Digital"></copyright>
+   <content value="complete"></content>
+   <concept>
+      <code value="1"></code>
+      <display value="Letter"></display>
+   </concept>
+   <concept>
+      <code value="2"></code>
+      <display value="Visit"></display>
+   </concept>
+   <concept>
+      <code value="3"></code>
+      <display value="Telephone"></display>
+   </concept>
+   <concept>
+      <code value="4"></code>
+      <display value="E-mail"></display>
+   </concept>
+   <concept>
+      <code value="5"></code>
+      <display value="Minicom (Textphone)"></display>
+   </concept>
+   <concept>
+      <code value="6"></code>
+      <display value="Telephone contact via proxy"></display>
+   </concept>
+   <concept>
+      <code value="7"></code>
+      <display value="Sign language"></display>
+   </concept>
+   <concept>
+      <code value="8"></code>
+      <display value="No Telephone contact"></display>
+   </concept>
+</CodeSystem>

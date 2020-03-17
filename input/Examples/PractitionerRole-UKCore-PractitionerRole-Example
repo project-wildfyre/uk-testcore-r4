@@ -1,0 +1,38 @@
+<PractitionerRole xmlns="http://hl7.org/fhir">
+   <id value="UKCore-PractitionerRole-Example"></id>
+   <meta>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole"></profile>
+   </meta>
+   <identifier>
+      <system value="https://fhir.nhs.uk/Id/sds-role-profile-id"></system>
+      <value value="100334993514"></value>
+   </identifier>
+   <practitioner>
+      <reference value="Practitioner/UKCore-Practitioner-Example"></reference>
+   </practitioner>
+   <organization>
+      <reference value="Organization/UKCore-Organisation-Example"></reference>
+   </organization>
+   <code>
+      <coding>
+         <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-SDSJobRoleName"></system>
+         <code value="R0260"></code>
+         <display value="General Medical Practitioner"></display>
+      </coding>
+   </code>
+   <specialty>
+      <coding>
+         <system value="http://snomed.info/sct"></system>
+         <code value="408443003"></code>
+         <display value="General medical practice"></display>
+      </coding>
+   </specialty>
+   <location>
+      <reference value="Location/UKCore-Location-Example"></reference>
+   </location>
+   <telecom>
+      <system value="phone"></system>
+      <value value="0113 6323200"></value>
+      <use value="work"></use>
+   </telecom>
+</PractitionerRole>

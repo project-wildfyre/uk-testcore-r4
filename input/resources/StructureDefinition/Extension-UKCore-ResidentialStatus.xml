@@ -1,0 +1,62 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+   <id value="Extension-UKCore-ResidentialStatus"></id>
+   <url value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ResidentialStatus"></url>
+   <version value="1.0.0"></version>
+   <name value="ExtensionUKCoreResidentialStatus"></name>
+   <title value="Extension UK Core Residential Status"></title>
+   <status value="draft"></status>
+   <date value="2019-10-21"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="An extension to support the residential status of an individual."></description>
+   <purpose value="This extension has been developed to demonstrate the representation of a patient's residential status."></purpose>
+   <copyright value="Copyright © 2019 NHS Digital"></copyright>
+   <fhirVersion value="4.0.0"></fhirVersion>
+   <mapping>
+      <identity value="rim"></identity>
+      <uri value="http://hl7.org/v3"></uri>
+      <name value="RIM Mapping"></name>
+   </mapping>
+   <kind value="complex-type"></kind>
+   <abstract value="false"></abstract>
+   <context>
+      <type value="element"></type>
+      <expression value="Patient"></expression>
+   </context>
+   <type value="Extension"></type>
+   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"></baseDefinition>
+   <derivation value="constraint"></derivation>
+   <differential>
+      <element id="Extension">
+         <path value="Extension"></path>
+         <short value="The residential status of the patient"></short>
+         <definition value="The residential status of the patient. For example if this patient is a UK resident."></definition>
+         <max value="1"></max>
+      </element>
+      <element id="Extension.url">
+         <path value="Extension.url"></path>
+         <fixedUri value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ResidentialStatus"></fixedUri>
+      </element>
+      <element id="Extension.value[x]">
+         <path value="Extension.value[x]"></path>
+         <short value="The residential status of the patient"></short>
+         <definition value="The residential status of the patient. For example if this patient is a UK resident."></definition>
+         <min value="1"></min>
+         <type>
+            <code value="CodeableConcept"></code>
+         </type>
+         <binding>
+            <strength value="extensible"></strength>
+            <description value="Residential Status"></description>
+            <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ResidentialStatus"></valueSet>
+         </binding>
+      </element>
+   </differential>
+</StructureDefinition>

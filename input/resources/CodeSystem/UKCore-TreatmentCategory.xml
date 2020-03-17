@@ -1,0 +1,47 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="UKCore-TreatmentCategory"></id>
+   <url value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-TreatmentCategory"></url>
+   <version value="1.0.0"></version>
+   <name value="UKCoreTreatmentCategory"></name>
+   <title value="UK Core Treatment Category"></title>
+   <status value="draft"></status>
+   <date value="2019-10-25T00:00:00+00:00"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="A CodeSystem that identifies the treatment category for a patient."></description>
+   <copyright value="Copyright © 2019 NHS Digital"></copyright>
+   <caseSensitive value="true"></caseSensitive>
+   <content value="complete"></content>
+   <concept>
+      <code value="1"></code>
+      <display value="Exempt from payment - subject to reciprocal health agreement"></display>
+   </concept>
+   <concept>
+      <code value="2"></code>
+      <display value="Exempt from payment - other"></display>
+   </concept>
+   <concept>
+      <code value="3"></code>
+      <display value="To pay hotel fees only"></display>
+   </concept>
+   <concept>
+      <code value="4"></code>
+      <display value="To pay all fees"></display>
+   </concept>
+   <concept>
+      <code value="9"></code>
+      <display value="Charging rate not known"></display>
+   </concept>
+   <concept>
+      <code value="8"></code>
+      <display value="Not applicable"></display>
+      <definition value="Not an Overseas Visitor"></definition>
+   </concept>
+</CodeSystem>

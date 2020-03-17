@@ -1,0 +1,309 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+   <id value="UKCore-MedicationRequest"></id>
+   <url value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationRequest"></url>
+   <version value="1.0.0"></version>
+   <name value="UKCoreMedicationRequest"></name>
+   <title value="UK Core MedicationRequest"></title>
+   <status value="draft"></status>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="Defines the UK Core constraints and extensions on the MedicationRequest resource for the minimal set of data to query and retrieve prescription information."></description>
+   <purpose value="An order or request for both supply of the medication and the instructions for administration of the medication to an individual. This profile covers inpatient medication orders as well as community orders (whether filled by the prescriber or by a pharmacy). It also includes orders for over-the-counter medications (e.g. Aspirin), total parenteral nutrition and diet/ vitamin supplements. It may be used to support the order of medication-related devices. It is not intended for use in prescribing particular diets, or for ordering non-medication-related items (eyeglasses, supplies, etc)."></purpose>
+   <copyright value="Copyright © 2020 NHS Digital"></copyright>
+   <fhirVersion value="4.0.0"></fhirVersion>
+   <mapping>
+      <identity value="workflow"></identity>
+      <uri value="http://hl7.org/fhir/workflow"></uri>
+      <name value="Workflow Pattern"></name>
+   </mapping>
+   <mapping>
+      <identity value="script10.6"></identity>
+      <uri value="http://ncpdp.org/SCRIPT10_6"></uri>
+      <name value="Mapping to NCPDP SCRIPT 10.6"></name>
+   </mapping>
+   <mapping>
+      <identity value="rim"></identity>
+      <uri value="http://hl7.org/v3"></uri>
+      <name value="RIM Mapping"></name>
+   </mapping>
+   <mapping>
+      <identity value="w5"></identity>
+      <uri value="http://hl7.org/fhir/fivews"></uri>
+      <name value="FiveWs Pattern Mapping"></name>
+   </mapping>
+   <mapping>
+      <identity value="v2"></identity>
+      <uri value="http://hl7.org/v2"></uri>
+      <name value="HL7 v2 Mapping"></name>
+   </mapping>
+   <kind value="resource"></kind>
+   <abstract value="false"></abstract>
+   <type value="MedicationRequest"></type>
+   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/MedicationRequest"></baseDefinition>
+   <derivation value="constraint"></derivation>
+   <differential>
+      <element id="MedicationRequest.identifier.assigner">
+         <path value="MedicationRequest.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationRequest.reported[x]">
+         <path value="MedicationRequest.reported[x]"></path>
+         <type>
+            <code value="boolean"></code>
+         </type>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationRequest.medication[x]">
+         <path value="MedicationRequest.medication[x]"></path>
+         <type>
+            <code value="CodeableConcept"></code>
+         </type>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Medication"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationRequest.subject">
+         <path value="MedicationRequest.subject"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationRequest.subject.identifier.assigner">
+         <path value="MedicationRequest.subject.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationRequest.encounter">
+         <path value="MedicationRequest.encounter"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Encounter"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationRequest.encounter.identifier.assigner">
+         <path value="MedicationRequest.encounter.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationRequest.supportingInformation.identifier.assigner">
+         <path value="MedicationRequest.supportingInformation.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationRequest.requester">
+         <path value="MedicationRequest.requester"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationRequest.requester.identifier.assigner">
+         <path value="MedicationRequest.requester.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationRequest.performer">
+         <path value="MedicationRequest.performer"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-CareTeam"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationRequest.performer.identifier.assigner">
+         <path value="MedicationRequest.performer.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationRequest.recorder">
+         <path value="MedicationRequest.recorder"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationRequest.recorder.identifier.assigner">
+         <path value="MedicationRequest.recorder.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationRequest.reasonReference">
+         <path value="MedicationRequest.reasonReference"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Condition"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationRequest.reasonReference.identifier.assigner">
+         <path value="MedicationRequest.reasonReference.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationRequest.basedOn">
+         <path value="MedicationRequest.basedOn"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-CarePlan"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationRequest"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-ServiceRequest"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationRequest.basedOn.identifier.assigner">
+         <path value="MedicationRequest.basedOn.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationRequest.groupIdentifier.assigner">
+         <path value="MedicationRequest.groupIdentifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationRequest.insurance.identifier.assigner">
+         <path value="MedicationRequest.insurance.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationRequest.note.author[x]">
+         <path value="MedicationRequest.note.author[x]"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+         <type>
+            <code value="string"></code>
+         </type>
+      </element>
+      <element id="MedicationRequest.dosageInstruction.route.coding">
+         <path value="MedicationRequest.dosageInstruction.route.coding"></path>
+         <slicing>
+            <discriminator>
+               <type value="value"></type>
+               <path value="system"></path>
+            </discriminator>
+            <rules value="open"></rules>
+         </slicing>
+      </element>
+      <element id="MedicationRequest.dosageInstruction.route.coding:snomedCT">
+         <path value="MedicationRequest.dosageInstruction.route.coding"></path>
+         <sliceName value="snomedCT"></sliceName>
+         <max value="1"></max>
+         <binding>
+            <strength value="extensible"></strength>
+            <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK 'NHS e-Prescribing route of administration subset' with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is 'ePrescribing route of administration simple reference set (foundation metadata concept)' with Refset Id 999000051000001100."></description>
+            <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-MedicationDosageRoute"></valueSet>
+         </binding>
+      </element>
+      <element id="MedicationRequest.dosageInstruction.route.coding:snomedCT.system">
+         <path value="MedicationRequest.dosageInstruction.route.coding.system"></path>
+         <min value="1"></min>
+         <fixedUri value="http://snomed.info/sct"></fixedUri>
+      </element>
+      <element id="MedicationRequest.dosageInstruction.route.coding:snomedCT.code">
+         <path value="MedicationRequest.dosageInstruction.route.coding.code"></path>
+         <min value="1"></min>
+      </element>
+      <element id="MedicationRequest.dosageInstruction.route.coding:snomedCT.display">
+         <path value="MedicationRequest.dosageInstruction.route.coding.display"></path>
+         <min value="1"></min>
+      </element>
+      <element id="MedicationRequest.dispenseRequest.performer">
+         <path value="MedicationRequest.dispenseRequest.performer"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationRequest.dispenseRequest.performer.identifier.assigner">
+         <path value="MedicationRequest.dispenseRequest.performer.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationRequest.priorPrescription">
+         <path value="MedicationRequest.priorPrescription"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationRequest"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationRequest.priorPrescription.identifier.assigner">
+         <path value="MedicationRequest.priorPrescription.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationRequest.detectedIssue.identifier.assigner">
+         <path value="MedicationRequest.detectedIssue.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="MedicationRequest.eventHistory.identifier.assigner">
+         <path value="MedicationRequest.eventHistory.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+   </differential>
+</StructureDefinition>

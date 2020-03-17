@@ -1,0 +1,61 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+   <id value="Extension-UKCore-TreatmentCategory"></id>
+   <url value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-TreatmentCategory"></url>
+   <version value="1.0.0"></version>
+   <name value="ExtensionUKCoreTreatmentCategory"></name>
+   <title value="Extension UK Core Treatment Category"></title>
+   <status value="draft"></status>
+   <date value="2019-10-25"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="An extension to support an individual’s treatment category."></description>
+   <purpose value="This extension has been developed to demonstrate the representation of a patient's treatment category."></purpose>
+   <copyright value="Copyright © 2019 NHS Digital"></copyright>
+   <fhirVersion value="4.0.0"></fhirVersion>
+   <mapping>
+      <identity value="rim"></identity>
+      <uri value="http://hl7.org/v3"></uri>
+      <name value="RIM Mapping"></name>
+   </mapping>
+   <kind value="complex-type"></kind>
+   <abstract value="false"></abstract>
+   <context>
+      <type value="element"></type>
+      <expression value="Patient"></expression>
+   </context>
+   <type value="Extension"></type>
+   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"></baseDefinition>
+   <derivation value="constraint"></derivation>
+   <differential>
+      <element id="Extension">
+         <path value="Extension"></path>
+         <short value="The treatment category for a patient"></short>
+         <definition value="The treatment category for a patient. For example if a patient is entitled to free healthcare treatment."></definition>
+         <max value="1"></max>
+      </element>
+      <element id="Extension.url">
+         <path value="Extension.url"></path>
+         <fixedUri value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-TreatmentCategory"></fixedUri>
+      </element>
+      <element id="Extension.value[x]">
+         <path value="Extension.value[x]"></path>
+         <short value="The treatment category under which a patient is treated"></short>
+         <definition value="A vocabulary that identifies the treatment category for a patient."></definition>
+         <type>
+            <code value="CodeableConcept"></code>
+         </type>
+         <binding>
+            <strength value="extensible"></strength>
+            <description value="Treatment Category"></description>
+            <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-TreatmentCategory"></valueSet>
+         </binding>
+      </element>
+   </differential>
+</StructureDefinition>

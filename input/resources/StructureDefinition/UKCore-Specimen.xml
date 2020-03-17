@@ -1,0 +1,211 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+   <id value="UKCore-Specimen"></id>
+   <url value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Specimen"></url>
+   <version value="1.0.0"></version>
+   <name value="UKCoreSpecimen"></name>
+   <title value="UK Core Specimen"></title>
+   <status value="draft"></status>
+   <date value="2020-02-07"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="Defines the UK Core constraints and extensions on the Specimen resource for the minimal set of data to query and retrieve specimen information."></description>
+   <purpose value="This profile allows exchange of information about a sample to be used for analysis."></purpose>
+   <copyright value="Copyright © 2020 NHS Digital"></copyright>
+   <fhirVersion value="4.0.0"></fhirVersion>
+   <mapping>
+      <identity value="rim"></identity>
+      <uri value="http://hl7.org/v3"></uri>
+      <name value="RIM Mapping"></name>
+   </mapping>
+   <mapping>
+      <identity value="w5"></identity>
+      <uri value="http://hl7.org/fhir/fivews"></uri>
+      <name value="FiveWs Pattern Mapping"></name>
+   </mapping>
+   <mapping>
+      <identity value="v2"></identity>
+      <uri value="http://hl7.org/v2"></uri>
+      <name value="HL7 v2 Mapping"></name>
+   </mapping>
+   <kind value="resource"></kind>
+   <abstract value="false"></abstract>
+   <type value="Specimen"></type>
+   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Specimen"></baseDefinition>
+   <derivation value="constraint"></derivation>
+   <differential>
+      <element id="Specimen.identifier.assigner">
+         <path value="Specimen.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Specimen.accessionIdentifier.assigner">
+         <path value="Specimen.accessionIdentifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Specimen.type.coding">
+         <path value="Specimen.type.coding"></path>
+         <slicing>
+            <discriminator>
+               <type value="value"></type>
+               <path value="system"></path>
+            </discriminator>
+            <rules value="open"></rules>
+         </slicing>
+      </element>
+      <element id="Specimen.type.coding:snomedCT">
+         <path value="Specimen.type.coding"></path>
+         <sliceName value="snomedCT"></sliceName>
+         <binding>
+            <strength value="extensible"></strength>
+            <description value="A code from the SNOMED UK Clinical Terminology coding system"></description>
+            <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-SpecimenType"></valueSet>
+         </binding>
+      </element>
+      <element id="Specimen.type.coding:snomedCT.system">
+         <path value="Specimen.type.coding.system"></path>
+         <min value="1"></min>
+         <fixedUri value="http://snomed.info/sct"></fixedUri>
+      </element>
+      <element id="Specimen.type.coding:snomedCT.code">
+         <path value="Specimen.type.coding.code"></path>
+         <min value="1"></min>
+      </element>
+      <element id="Specimen.type.coding:snomedCT.display">
+         <path value="Specimen.type.coding.display"></path>
+         <min value="1"></min>
+      </element>
+      <element id="Specimen.subject">
+         <path value="Specimen.subject"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group"></targetProfile>
+            <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"></targetProfile>
+            <targetProfile value="http://hl7.org/fhir/StructureDefinition/Substance"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location"></targetProfile>
+         </type>
+      </element>
+      <element id="Specimen.subject.identifier.assigner">
+         <path value="Specimen.subject.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Specimen.parent">
+         <path value="Specimen.parent"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Specimen"></targetProfile>
+         </type>
+      </element>
+      <element id="Specimen.parent.identifier.assigner">
+         <path value="Specimen.parent.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Specimen.request">
+         <path value="Specimen.request"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-ServiceRequest"></targetProfile>
+         </type>
+      </element>
+      <element id="Specimen.request.identifier.assigner">
+         <path value="Specimen.request.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Specimen.collection.collector">
+         <path value="Specimen.collection.collector"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole"></targetProfile>
+         </type>
+      </element>
+      <element id="Specimen.collection.collector.identifier.assigner">
+         <path value="Specimen.collection.collector.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Specimen.collection.bodySite.coding">
+         <path value="Specimen.collection.bodySite.coding"></path>
+         <slicing>
+            <discriminator>
+               <type value="value"></type>
+               <path value="system"></path>
+            </discriminator>
+            <rules value="open"></rules>
+         </slicing>
+      </element>
+      <element id="Specimen.collection.bodySite.coding:snomedCT">
+         <path value="Specimen.collection.bodySite.coding"></path>
+         <sliceName value="snomedCT"></sliceName>
+         <max value="1"></max>
+         <binding>
+            <strength value="extensible"></strength>
+            <description value="A code from the SNOMED UK Clinical Terminology coding system"></description>
+            <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-SpecimenBodySite"></valueSet>
+         </binding>
+      </element>
+      <element id="Specimen.collection.bodySite.coding:snomedCT.system">
+         <path value="Specimen.collection.bodySite.coding.system"></path>
+         <min value="1"></min>
+         <fixedUri value="http://snomed.info/sct"></fixedUri>
+      </element>
+      <element id="Specimen.collection.bodySite.coding:snomedCT.code">
+         <path value="Specimen.collection.bodySite.coding.code"></path>
+         <min value="1"></min>
+      </element>
+      <element id="Specimen.collection.bodySite.coding:snomedCT.display">
+         <path value="Specimen.collection.bodySite.coding.display"></path>
+         <min value="1"></min>
+      </element>
+      <element id="Specimen.processing.additive.identifier.assigner">
+         <path value="Specimen.processing.additive.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Specimen.container.identifier.assigner">
+         <path value="Specimen.container.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="Specimen.note.author[x]">
+         <path value="Specimen.note.author[x]"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+         <type>
+            <code value="string"></code>
+         </type>
+      </element>
+   </differential>
+</StructureDefinition>

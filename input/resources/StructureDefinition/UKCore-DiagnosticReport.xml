@@ -1,0 +1,265 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+   <id value="UKCore-DiagnosticReport"></id>
+   <url value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-DiagnosticReport"></url>
+   <version value="1.0.0"></version>
+   <name value="UKCoreDiagnosticReport"></name>
+   <title value="UKCore DiagnosticReport"></title>
+   <status value="draft"></status>
+   <date value="2020-02-03"></date>
+   <publisher value="NHS Digital"></publisher>
+   <contact>
+      <name value="Interoperability Team"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="interoperabilityteam@nhs.net"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="Defines the UK Core constraints and extensions on the DiagnosticReport resource for the minimal set of data to query and retrieve diagnostic report information."></description>
+   <purpose value="This profile allows exchange of the findings and interpretation of diagnostic tests performed on individuals, groups of individuals, devices and locations and/or specimens derived from these. The report includes clinical context such as requesting and provider information and some mix of atomic results, images, textual and coded interpretations and formatted representation of diagnostic reports."></purpose>
+   <copyright value="Copyright © 2020 NHS Digital"></copyright>
+   <fhirVersion value="4.0.0"></fhirVersion>
+   <mapping>
+      <identity value="workflow"></identity>
+      <uri value="http://hl7.org/fhir/workflow"></uri>
+      <name value="Workflow Pattern"></name>
+   </mapping>
+   <mapping>
+      <identity value="v2"></identity>
+      <uri value="http://hl7.org/v2"></uri>
+      <name value="HL7 v2 Mapping"></name>
+   </mapping>
+   <mapping>
+      <identity value="rim"></identity>
+      <uri value="http://hl7.org/v3"></uri>
+      <name value="RIM Mapping"></name>
+   </mapping>
+   <mapping>
+      <identity value="w5"></identity>
+      <uri value="http://hl7.org/fhir/fivews"></uri>
+      <name value="FiveWs Pattern Mapping"></name>
+   </mapping>
+   <kind value="resource"></kind>
+   <abstract value="false"></abstract>
+   <type value="DiagnosticReport"></type>
+   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/DiagnosticReport"></baseDefinition>
+   <derivation value="constraint"></derivation>
+   <differential>
+      <element id="DiagnosticReport.identifier.assigner">
+         <path value="DiagnosticReport.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="DiagnosticReport.basedOn">
+         <path value="DiagnosticReport.basedOn"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation"></targetProfile>
+            <targetProfile value="http://hl7.org/fhir/StructureDefinition/NutritionOrder"></targetProfile>
+            <targetProfile value="http://hl7.org/fhir/StructureDefinition/ServiceRequest"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-CarePlan"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationRequest"></targetProfile>
+         </type>
+      </element>
+      <element id="DiagnosticReport.basedOn.identifier.assigner">
+         <path value="DiagnosticReport.basedOn.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="DiagnosticReport.category.coding">
+         <path value="DiagnosticReport.category.coding"></path>
+         <slicing>
+            <discriminator>
+               <type value="value"></type>
+               <path value="system"></path>
+            </discriminator>
+            <rules value="open"></rules>
+         </slicing>
+      </element>
+      <element id="DiagnosticReport.category.coding:snomedCT">
+         <path value="DiagnosticReport.category.coding"></path>
+         <sliceName value="snomedCT"></sliceName>
+      </element>
+      <element id="DiagnosticReport.category.coding:snomedCT.system">
+         <path value="DiagnosticReport.category.coding.system"></path>
+         <min value="1"></min>
+         <fixedUri value="http://snomed.info/sct"></fixedUri>
+      </element>
+      <element id="DiagnosticReport.category.coding:snomedCT.code">
+         <path value="DiagnosticReport.category.coding.code"></path>
+         <min value="1"></min>
+      </element>
+      <element id="DiagnosticReport.category.coding:snomedCT.display">
+         <path value="DiagnosticReport.category.coding.display"></path>
+         <min value="1"></min>
+      </element>
+      <element id="DiagnosticReport.code.coding">
+         <path value="DiagnosticReport.code.coding"></path>
+         <slicing>
+            <discriminator>
+               <type value="value"></type>
+               <path value="system"></path>
+            </discriminator>
+            <rules value="open"></rules>
+         </slicing>
+      </element>
+      <element id="DiagnosticReport.code.coding:snomedCT">
+         <path value="DiagnosticReport.code.coding"></path>
+         <sliceName value="snomedCT"></sliceName>
+         <binding>
+            <strength value="extensible"></strength>
+            <description value="A code from the SNOMED UK Clinical Terminology coding system"></description>
+            <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-ReportCodeSnCT"></valueSet>
+         </binding>
+      </element>
+      <element id="DiagnosticReport.code.coding:snomedCT.system">
+         <path value="DiagnosticReport.code.coding.system"></path>
+         <min value="1"></min>
+         <fixedUri value="http://snomed.info/sct"></fixedUri>
+      </element>
+      <element id="DiagnosticReport.code.coding:snomedCT.code">
+         <path value="DiagnosticReport.code.coding.code"></path>
+         <min value="1"></min>
+      </element>
+      <element id="DiagnosticReport.code.coding:snomedCT.display">
+         <path value="DiagnosticReport.code.coding.display"></path>
+         <min value="1"></min>
+      </element>
+      <element id="DiagnosticReport.subject">
+         <path value="DiagnosticReport.subject"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group"></targetProfile>
+            <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location"></targetProfile>
+         </type>
+      </element>
+      <element id="DiagnosticReport.subject.identifier.assigner">
+         <path value="DiagnosticReport.subject.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="DiagnosticReport.encounter">
+         <path value="DiagnosticReport.encounter"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Encounter"></targetProfile>
+         </type>
+      </element>
+      <element id="DiagnosticReport.encounter.identifier.assigner">
+         <path value="DiagnosticReport.encounter.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="DiagnosticReport.performer">
+         <path value="DiagnosticReport.performer"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-CareTeam"></targetProfile>
+         </type>
+      </element>
+      <element id="DiagnosticReport.performer.identifier.assigner">
+         <path value="DiagnosticReport.performer.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="DiagnosticReport.resultsInterpreter">
+         <path value="DiagnosticReport.resultsInterpreter"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-CareTeam"></targetProfile>
+         </type>
+      </element>
+      <element id="DiagnosticReport.resultsInterpreter.identifier.assigner">
+         <path value="DiagnosticReport.resultsInterpreter.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="DiagnosticReport.specimen.identifier.assigner">
+         <path value="DiagnosticReport.specimen.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="DiagnosticReport.result">
+         <path value="DiagnosticReport.result"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"></targetProfile>
+         </type>
+      </element>
+      <element id="DiagnosticReport.result.identifier.assigner">
+         <path value="DiagnosticReport.result.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="DiagnosticReport.imagingStudy.identifier.assigner">
+         <path value="DiagnosticReport.imagingStudy.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="DiagnosticReport.media.link.identifier.assigner">
+         <path value="DiagnosticReport.media.link.identifier.assigner"></path>
+         <type>
+            <code value="Reference"></code>
+            <targetProfile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"></targetProfile>
+         </type>
+      </element>
+      <element id="DiagnosticReport.conclusionCode.coding">
+         <path value="DiagnosticReport.conclusionCode.coding"></path>
+         <slicing>
+            <discriminator>
+               <type value="value"></type>
+               <path value="system"></path>
+            </discriminator>
+            <rules value="open"></rules>
+         </slicing>
+      </element>
+      <element id="DiagnosticReport.conclusionCode.coding:snomedCT">
+         <path value="DiagnosticReport.conclusionCode.coding"></path>
+         <sliceName value="snomedCT"></sliceName>
+         <binding>
+            <strength value="extensible"></strength>
+            <description value="A code from the SNOMED UK Clinical Terminology coding system"></description>
+            <valueSet value="https://fhir.nhs.uk/R4/ValueSet/UKCore-FindingCode"></valueSet>
+         </binding>
+      </element>
+      <element id="DiagnosticReport.conclusionCode.coding:snomedCT.system">
+         <path value="DiagnosticReport.conclusionCode.coding.system"></path>
+         <min value="1"></min>
+         <fixedUri value="http://snomed.info/sct"></fixedUri>
+      </element>
+      <element id="DiagnosticReport.conclusionCode.coding:snomedCT.code">
+         <path value="DiagnosticReport.conclusionCode.coding.code"></path>
+         <min value="1"></min>
+      </element>
+      <element id="DiagnosticReport.conclusionCode.coding:snomedCT.display">
+         <path value="DiagnosticReport.conclusionCode.coding.display"></path>
+         <min value="1"></min>
+      </element>
+   </differential>
+</StructureDefinition>
